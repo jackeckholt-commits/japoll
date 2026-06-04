@@ -865,3 +865,24 @@ GitHub Actions fix:
 - This fixes the GitHub Actions failure when the repository does not have `package-lock.json`.
 - Added `cache-dependency-path: package.json` for npm cache setup.
 - The Node.js 20 actions warning is not the cause of the failure; the missing lock file was.
+
+
+## Version 0.6.3
+
+GitHub Actions dependency-cache fix:
+- Removed npm caching from `actions/setup-node`.
+- This avoids GitHub Actions looking for `package-lock.json`, `npm-shrinkwrap.json`, or `yarn.lock`.
+- The workflow still installs dependencies using `npm install --no-package-lock`.
+- After uploading this version, start a new workflow run from the latest `main` branch instead of rerunning the failed old job.
+
+
+## Version 0.6.4
+
+DDHQ scrape fix:
+- DDHQ now tries public static `polls.decisiondeskhq.com/averages/...` pages first.
+- If those fail, DDHQ falls back to the rendered `votes.decisiondeskhq.com/polls/...` pages.
+- This is meant to fix GitHub Actions runs where the DDHQ Votes page does not expose table/network values to the scraper.
+- The source link shown in the site remains the normal DDHQ Votes page.
+- Debug files still go to:
+  - `data/scrape-debug/ddhq-generic.txt`
+  - `data/scrape-debug/ddhq-approval.txt`
