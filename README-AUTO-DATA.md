@@ -898,3 +898,16 @@ DDHQ static page parser fix:
   - Generic: `Democrat` then `44.70%`; `Republican` then `41.20%`
   - Approval: `Disapprove` then `54.90%`; `Approve` then `41.80%`
 - It still keeps the broader text/JSON parser as a backup.
+
+
+## Version 0.6.6
+
+DDHQ table-row parser:
+- Added parsing for DDHQ's rendered table rows/cells.
+- This targets the DOM layout visible in DevTools where values are inside table cells such as:
+  - `Democratic 45.30%`
+  - `Republican 37.80%`
+  - `Approve 38.90%`
+  - `Disapprove 56.80%`
+- DDHQ still tries static and rendered pages, but now the parser can read included table elements with numbers.
+- Failure notes now include extracted partial values to make future debugging easier.

@@ -172,6 +172,162 @@ function extractApprovalFromStaticTopBlock(text) {
   };
 }
 
+
+function stripTags(value) {
+  return String(value || "")
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/\\"/g, '"')
+    .replace(/\\u0022/g, '"')
+    .replace(/\\u0025/g, "%")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function parsePercentValue(value) {
+  const match = String(value || "").match(/(-?\d{1,2}(?:\.\d+)?)\s*%?/);
+  if (!match) return null;
+
+  const number = Number(match[1]);
+  return Number.isFinite(number) && number >= 20 && number <= 80 ? number : null;
+}
+
+function extractRowsFromHtml(text) {
+  const raw = String(text || "");
+  const rows = [];
+
+  const trPattern = /<tr\b[^>]*>([\s\S]*?)<\/tr>/gi;
+  let rowMatch;
+
+  while ((rowMatch = trPattern.exec(raw)) !== null) {
+    const rowHtml = rowMatch[1];
+    const cells = [];
+    const cellPattern = /<t[dh]\b[^>]*>([\s\S]*?)<\/t[dh]>/gi;
+    let cellMatch;
+
+    while ((cellMatch = cellPattern.exec(rowHtml)) !== null) {
+      const html = cellMatch[1];
+      cells.push({
+        html,
+        text: stripTags(html)
+      });
+    }
+
+    if (cells.length) {
+      rows.push({
+        html: rowHtml,
+        text: cells.map(cell => cell.text).join(" | "),
+        cells
+      });
+    }
+  }
+
+  return rows;
+}
+
+function getValueFromRow(row, labels) {
+  const normalizedLabels = labels.map(label => String(label).toLowerCase());
+  const rowText = String(row.text || "").toLowerCase();
+
+  if (!normalizedLabels.some(label => rowText.includes(label))) {
+    return null;
+  }
+
+  // Prefer explicit percentage text in the row.
+  for (const cell of row.cells) {
+    const value = parsePercentValue(cell.text);
+    if (value !== null && !normalizedLabels.includes(cell.text.toLowerCase().replace(/:$/, ""))) {
+      return value;
+    }
+  }
+
+  // Some DDHQ cells have the number in a div/span without a percent sign.
+  for (let i = 0; i < row.cells.length; i += 1) {
+    const cell = row.cells[i];
+    const cellText = cell.text.toLowerCase().replace(/:$/, "");
+
+    if (normalizedLabels.includes(cellText)) {
+      for (let j = i + 1; j < Math.min(row.cells.length, i + 6); j += 1) {
+        const value = parsePercentValue(row.cells[j].text);
+        if (value !== null) {
+          return value;
+        }
+      }
+    }
+  }
+
+  return null;
+}
+
+function extractGenericFromHtmlRows(text) {
+  const rows = extractRowsFromHtml(text);
+
+  return {
+    democrats: rows.reduce((value, row) => value ?? getValueFromRow(row, ["Democrat", "Democratic", "Democrats"]), null),
+    republicans: rows.reduce((value, row) => value ?? getValueFromRow(row, ["Republican", "Republicans"]), null)
+  };
+}
+
+function extractApprovalFromHtmlRows(text) {
+  const rows = extractRowsFromHtml(text);
+
+  return {
+    approve: rows.reduce((value, row) => value ?? getValueFromRow(row, ["Approve"]), null),
+    disapprove: rows.reduce((value, row) => value ?? getValueFromRow(row, ["Disapprove"]), null)
+  };
+}
+
+function extractGenericFromEmbeddedTextRows(text) {
+  const clean = normalizeText(text);
+
+  // Handles strings like: Democratic 45.30% Republican 37.80%
+  const direct = clean.match(
+    /\bDemocratic?s?\b\s+(\d{1,2}(?:\.\d+)?)\s*%?[\s\S]{0,250}?\bRepublicans?\b\s+(\d{1,2}(?:\.\d+)?)\s*%?/i
+  );
+
+  if (direct) {
+    return {
+      democrats: Number(direct[1]),
+      republicans: Number(direct[2])
+    };
+  }
+
+  const genericD = clean.match(/\bDemocratic?s?\b[\s\S]{0,120}?(\d{1,2}(?:\.\d+)?)\s*%/i);
+  const genericR = clean.match(/\bRepublicans?\b[\s\S]{0,120}?(\d{1,2}(?:\.\d+)?)\s*%/i);
+
+  return {
+    democrats: genericD ? Number(genericD[1]) : null,
+    republicans: genericR ? Number(genericR[1]) : null
+  };
+}
+
+function extractApprovalFromEmbeddedTextRows(text) {
+  const clean = normalizeText(text);
+
+  // Handles strings like: Disapprove 56.80% Approve 38.90%
+  const disFirst = clean.match(
+    /\bDisapprove\b\s+(\d{1,2}(?:\.\d+)?)\s*%?[\s\S]{0,250}?\bApprove\b\s+(\d{1,2}(?:\.\d+)?)\s*%?/i
+  );
+
+  if (disFirst) {
+    return {
+      disapprove: Number(disFirst[1]),
+      approve: Number(disFirst[2])
+    };
+  }
+
+  const approve = clean.match(/\bApprove\b[\s\S]{0,120}?(\d{1,2}(?:\.\d+)?)\s*%/i);
+  const disapprove = clean.match(/\bDisapprove\b[\s\S]{0,120}?(\d{1,2}(?:\.\d+)?)\s*%/i);
+
+  return {
+    approve: approve ? Number(approve[1]) : null,
+    disapprove: disapprove ? Number(disapprove[1]) : null
+  };
+}
+
 async function writeDebugFile(name, text) {
   try {
     await fs.mkdir("data/scrape-debug", { recursive: true });
@@ -233,6 +389,18 @@ function findCandidateValue(blob, candidateLabels) {
 }
 
 function extractGenericFromText(text) {
+  const htmlRows = extractGenericFromHtmlRows(text);
+
+  if (htmlRows.democrats !== null && htmlRows.republicans !== null) {
+    return htmlRows;
+  }
+
+  const embeddedRows = extractGenericFromEmbeddedTextRows(text);
+
+  if (embeddedRows.democrats !== null && embeddedRows.republicans !== null) {
+    return embeddedRows;
+  }
+
   const topBlock = extractGenericFromStaticTopBlock(text);
 
   if (topBlock.democrats !== null && topBlock.republicans !== null) {
@@ -251,6 +419,18 @@ function extractGenericFromText(text) {
 }
 
 function extractApprovalFromText(text) {
+  const htmlRows = extractApprovalFromHtmlRows(text);
+
+  if (htmlRows.approve !== null && htmlRows.disapprove !== null) {
+    return htmlRows;
+  }
+
+  const embeddedRows = extractApprovalFromEmbeddedTextRows(text);
+
+  if (embeddedRows.approve !== null && embeddedRows.disapprove !== null) {
+    return embeddedRows;
+  }
+
   const topBlock = extractApprovalFromStaticTopBlock(text);
 
   if (topBlock.approve !== null && topBlock.disapprove !== null) {
@@ -338,7 +518,7 @@ async function scrapeWithCandidates({
         };
       }
 
-      failures.push(`${candidate.label}: ${validation.reason}`);
+      failures.push(`${candidate.label}: ${validation.reason}; extracted ${JSON.stringify(values)}`);
     } catch (error) {
       failures.push(`${candidate.label}: ${error.message}`);
       debugParts.push([
