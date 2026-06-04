@@ -182,6 +182,31 @@ function applyWeeklyChangeText(changes, setText) {
   setText("[data-weekly-caption='approval-net']", "Change since last week");
 }
 
+
+function formatSourceStatus(source) {
+  if (!source) {
+    return "Reference only";
+  }
+
+  if (source.scrapeStatus === "live" && source.included === true) {
+    return "Live source";
+  }
+
+  if (source.scrapeStatus === "not_applicable" || source.included === false) {
+    return "Reference only";
+  }
+
+  if (source.scrapeStatus === "fallback") {
+    return "Fallback shown";
+  }
+
+  if (source.included === true) {
+    return "Included";
+  }
+
+  return "Reference only";
+}
+
 async function loadJson(path, fallback) {
   try {
     const response = await fetch(path, { cache: "no-store" });
@@ -225,6 +250,7 @@ async function loadPollingData() {
   setText("[data-generic-adjustment]", adjustmentText);
 
   data.genericBallot.sources.forEach(source => {
+    setText(`[data-generic-source-status="${source.key}"]`, formatSourceStatus(source));
     setText(`[data-generic-source="${source.key}"][data-field="democrats"]`, formatPercent(source.democrats));
     setText(`[data-generic-source="${source.key}"][data-field="republicans"]`, formatPercent(source.republicans));
 
@@ -237,6 +263,7 @@ async function loadPollingData() {
   });
 
   data.trumpApproval.sources.forEach(source => {
+    setText(`[data-approval-source-status="${source.key}"]`, formatSourceStatus(source));
     setText(`[data-approval-source="${source.key}"][data-field="approve"]`, formatPercent(source.approve));
     setText(`[data-approval-source="${source.key}"][data-field="disapprove"]`, formatPercent(source.disapprove));
 

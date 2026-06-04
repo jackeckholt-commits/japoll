@@ -120,10 +120,10 @@ function printGenericSourceSummary(sources) {
         ? `D ${formatValue(source.democrats)} / R ${formatValue(source.republicans)}`
         : source.note || "No usable values";
 
-    const note = source.scrapeNote ? ` | note: ${source.scrapeNote}` : "";
+    const counted = sourceCanCountInAverage(source) ? "counted" : "not counted";
 
     console.log(
-      `- ${source.name}: ${values} | included: ${source.included === true ? "yes" : "no"} | status: ${sourceStatus(source)}${note}`
+      `- ${source.name}: ${values} | ${sourceStatus(source)} | ${counted}`
     );
   }
 }
@@ -138,10 +138,10 @@ function printApprovalSourceSummary(sources) {
         ? `Approve ${formatValue(source.approve)} / Disapprove ${formatValue(source.disapprove)}`
         : source.note || "No usable values";
 
-    const note = source.scrapeNote ? ` | note: ${source.scrapeNote}` : "";
+    const counted = sourceCanCountInAverage(source) ? "counted" : "not counted";
 
     console.log(
-      `- ${source.name}: ${values} | included: ${source.included === true ? "yes" : "no"} | status: ${sourceStatus(source)}${note}`
+      `- ${source.name}: ${values} | ${sourceStatus(source)} | ${counted}`
     );
   }
 }
@@ -304,14 +304,8 @@ async function updatePollingHistory(data) {
 }
 
 async function main() {
-  console.log("Poll tracker updater version 0.6.10");
-  console.log("FiftyPlusOne source replaces FiftyPlusOne.");
-  console.log("Only live source values count in the combined average.");
-  console.log("History storage enabled for growing trend graphs.");
-  console.log("Fallback is only used when live data is unavailable.");
-  console.log("VoteHub SVG-summary extraction enabled.");
-  console.log("VoteHub source enabled.");
-  console.log("Silver rendered Datawrapper iframe scraping enabled.");
+  console.log("Poll tracker updater version 0.7.0");
+  console.log("Automatic polling update started.");
   const manual = await readJson("data/manual-overrides.json");
 
   const fallback = {
@@ -360,6 +354,7 @@ async function main() {
   printApprovalSourceSummary(data.trumpApproval.sources);
   console.log("Generic ballot average:", data.genericBallot.average);
   console.log("Trump approval average:", data.trumpApproval.average);
+  console.log("Polling update complete.");
 }
 
 main().catch(error => {
