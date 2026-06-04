@@ -911,3 +911,17 @@ DDHQ table-row parser:
   - `Disapprove 56.80%`
 - DDHQ still tries static and rendered pages, but now the parser can read included table elements with numbers.
 - Failure notes now include extracted partial values to make future debugging easier.
+
+
+## Version 0.6.7
+
+DDHQ table-order parser:
+- Added a fallback parser that reads the first average percentage in each DDHQ table row.
+- Generic table order is treated as:
+  - Democratic
+  - Republican
+- Approval table order is treated as:
+  - Disapprove
+  - Approve
+- This handles DDHQ tables where the value cells are present but the candidate labels are not easy to associate in the rendered HTML.
+- The GitHub Actions workflow now uploads `data/scrape-debug/` as an artifact named `scrape-debug`, so if DDHQ fails again we can inspect the exact HTML/text GitHub saw.

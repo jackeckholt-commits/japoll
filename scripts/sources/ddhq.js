@@ -328,6 +328,114 @@ function extractApprovalFromEmbeddedTextRows(text) {
   };
 }
 
+
+function firstPercentInCellText(value) {
+  const match = String(value || "").match(/([+-]?\d{1,2}(?:\.\d+)?)\s*%/);
+  if (!match) return null;
+
+  const number = Number(match[1]);
+  return Number.isFinite(number) && number >= 20 && number <= 80 ? number : null;
+}
+
+function getFirstAveragePercentFromRow(row) {
+  for (const cell of row.cells || []) {
+    const value = firstPercentInCellText(cell.text);
+
+    if (value !== null) {
+      return value;
+    }
+  }
+
+  const rowValue = firstPercentInCellText(row.text);
+  return rowValue;
+}
+
+function extractFirstTwoTableAverages(text) {
+  const rows = extractRowsFromHtml(text);
+  const values = [];
+
+  for (const row of rows) {
+    const value = getFirstAveragePercentFromRow(row);
+
+    if (value !== null) {
+      values.push(value);
+    }
+
+    if (values.length >= 2) {
+      break;
+    }
+  }
+
+  return values;
+}
+
+function extractFirstTwoRenderedTableAverages(text) {
+  const raw = String(text || "");
+
+  // Extra fallback for rendered DDHQ cells like:
+  // <div class="text-right">38.90%</div>
+  const values = [];
+  const pattern = /<div[^>]*class=["'][^"']*text-right[^"']*["'][^>]*>\s*([+-]?\d{1,2}(?:\.\d+)?)\s*%?\s*<\/div>/gi;
+  let match;
+
+  while ((match = pattern.exec(raw)) !== null) {
+    const value = Number(match[1]);
+
+    // The average column is in the 20-80 range. This filters out 1W/1M changes like -1.6%.
+    if (Number.isFinite(value) && value >= 20 && value <= 80) {
+      values.push(value);
+    }
+
+    if (values.length >= 2) {
+      break;
+    }
+  }
+
+  return values;
+}
+
+function extractGenericFromTableOrder(text) {
+  let values = extractFirstTwoTableAverages(text);
+
+  if (values.length < 2) {
+    values = extractFirstTwoRenderedTableAverages(text);
+  }
+
+  if (values.length >= 2) {
+    return {
+      // DDHQ generic table order: Democratic, Republican.
+      democrats: values[0],
+      republicans: values[1]
+    };
+  }
+
+  return {
+    democrats: null,
+    republicans: null
+  };
+}
+
+function extractApprovalFromTableOrder(text) {
+  let values = extractFirstTwoTableAverages(text);
+
+  if (values.length < 2) {
+    values = extractFirstTwoRenderedTableAverages(text);
+  }
+
+  if (values.length >= 2) {
+    return {
+      // DDHQ approval table order: Disapprove, Approve.
+      disapprove: values[0],
+      approve: values[1]
+    };
+  }
+
+  return {
+    approve: null,
+    disapprove: null
+  };
+}
+
 async function writeDebugFile(name, text) {
   try {
     await fs.mkdir("data/scrape-debug", { recursive: true });
@@ -401,6 +509,12 @@ function extractGenericFromText(text) {
     return embeddedRows;
   }
 
+  const tableOrder = extractGenericFromTableOrder(text);
+
+  if (tableOrder.democrats !== null && tableOrder.republicans !== null) {
+    return tableOrder;
+  }
+
   const topBlock = extractGenericFromStaticTopBlock(text);
 
   if (topBlock.democrats !== null && topBlock.republicans !== null) {
@@ -429,6 +543,12 @@ function extractApprovalFromText(text) {
 
   if (embeddedRows.approve !== null && embeddedRows.disapprove !== null) {
     return embeddedRows;
+  }
+
+  const tableOrder = extractApprovalFromTableOrder(text);
+
+  if (tableOrder.approve !== null && tableOrder.disapprove !== null) {
+    return tableOrder;
   }
 
   const topBlock = extractApprovalFromStaticTopBlock(text);
