@@ -3256,3 +3256,95 @@ body:has(.about-layout) .contact-strip.container {
     text-align: center;
   }
 }
+
+
+/* 0.7.1: prevent homepage major-card number overlap at medium widths */
+.major-card .number-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(18px, 2vw, 42px);
+}
+
+.major-card .number-item {
+  min-width: 0;
+}
+
+.major-card .number-item strong {
+  font-size: clamp(3.2rem, 4.8vw, 6.2rem);
+  line-height: 0.9;
+  white-space: nowrap;
+}
+
+.major-card .trend-chip {
+  width: min(220px, 100%);
+  justify-self: center;
+  padding: clamp(18px, 1.6vw, 30px);
+}
+
+.major-card .trend-chip .trend-change {
+  font-size: clamp(2rem, 2.8vw, 3.3rem);
+  white-space: nowrap;
+}
+
+@media (max-width: 1380px) and (min-width: 761px) {
+  .major-card {
+    min-height: auto;
+  }
+
+  .major-card .number-row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .major-card .number-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: baseline;
+    width: 100%;
+  }
+
+  .major-card .trend-chip {
+    order: 2;
+    width: min(100%, 260px);
+    margin: 2px auto;
+  }
+
+  .major-card .number-item:first-child {
+    order: 1;
+  }
+
+  .major-card .number-item:last-child {
+    order: 3;
+  }
+
+  .major-card .number-item strong {
+    font-size: clamp(3.4rem, 5.8vw, 5.4rem);
+  }
+}
+
+@media (max-width: 760px) {
+  .major-card .number-row {
+    grid-template-columns: 1fr;
+  }
+
+  .major-card .number-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: baseline;
+  }
+
+  .major-card .trend-chip {
+    order: 2;
+    width: min(100%, 260px);
+    margin: 0 auto;
+  }
+
+  .major-card .number-item:first-child {
+    order: 1;
+  }
+
+  .major-card .number-item:last-child {
+    order: 3;
+  }
+}

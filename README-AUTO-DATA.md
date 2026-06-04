@@ -115,7 +115,20 @@ The 7-day change cards compare the latest stored point to the oldest usable poin
 This version:
 - cleaned old updater startup logs
 - replaced long release notes with current setup docs
-- removed old blocked-source cleanup/debug references
+- removed old DDHQ cleanup/debug references
 - cleaned source labels on the public pages
 - fixed the FiftyPlusOne approval source link
 - added final responsive layout overrides for desktop/tablet/mobile
+
+
+## Version 0.7.1
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Prevented homepage Generic Ballot and Trump Approval numbers from overlapping the center trend chip at medium screen widths.
+- The major-card number row now stacks inside each card before the text gets cramped.
+- Large screens still keep the side-by-side card design.
