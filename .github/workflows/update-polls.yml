@@ -35,7 +35,15 @@ jobs:
 
       - name: Run poll scraper
         run: npm run update-polls
-
+        
+      - name: Upload scrape debug files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-debug
+          path: data/scrape-debug/
+          if-no-files-found: ignore
+          
       - name: Commit updated data files
         run: |
           if [ -n "$(git status --porcelain data)" ]; then
