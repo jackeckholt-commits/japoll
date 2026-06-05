@@ -685,3 +685,17 @@ Fix:
 - Centered the lower homepage cards.
 - Removed the slash/divider between the Dem and GOP values on the Senate/Governor cards.
 - Replaced `Open Senate map` and `Open Governor map` with `Based on current average`.
+
+
+## Version 0.8.17
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Removed the repeated `Senate/Governor Races Map` heading block inside the race map card.
+- Softened the Senate/Governor control bars so the colors are less bright.
+- Kept the main page title and current-control title.

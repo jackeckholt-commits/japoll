@@ -6061,3 +6061,53 @@ body:has(.about-layout) .page-content {
     text-align: center !important;
   }
 }
+
+
+/* 0.8.17: simplify race pages and soften control bars */
+.race-page .race-section-heading {
+  display: none !important;
+}
+
+.race-map-card {
+  padding-top: clamp(26px, 3vw, 40px) !important;
+}
+
+.current-control-bar {
+  background:
+    linear-gradient(135deg, rgba(77, 163, 255, 0.06), rgba(255, 91, 91, 0.06)),
+    rgba(255, 255, 255, 0.025) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 18px 42px rgba(0, 0, 0, 0.18) !important;
+}
+
+.current-control-bar::before {
+  background:
+    linear-gradient(90deg, rgba(255,255,255,0.055), transparent 20%, transparent 80%, rgba(255,255,255,0.045)),
+    linear-gradient(180deg, rgba(255,255,255,0.045), transparent 45%) !important;
+}
+
+.current-control-bar .bar-dem-solid {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(95, 183, 255, 0.18), transparent 48%),
+    linear-gradient(135deg, #1458a6, #0e4384) !important;
+}
+
+.current-control-bar .bar-rep-solid {
+  background:
+    radial-gradient(circle at 90% 10%, rgba(255, 126, 126, 0.16), transparent 48%),
+    linear-gradient(135deg, #9d1b23, #761018) !important;
+}
+
+.current-control-bar .bar-dem-solid::after,
+.current-control-bar .bar-rep-solid::after {
+  opacity: 0.12 !important;
+}
+
+.current-control-bar .bar-count {
+  text-shadow: 0 7px 18px rgba(0, 0, 0, 0.18) !important;
+}
+
+.race-control-heading {
+  margin-top: 2px !important;
+}
