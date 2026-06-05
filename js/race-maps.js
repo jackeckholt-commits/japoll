@@ -46,10 +46,10 @@ function renderProjectionBar(container, mapData) {
       </div>
       <div class="race-control-bar current-control-bar" aria-label="${control.title || "Current control"}">
         <div class="race-bar-segment bar-dem-solid" style="width:${demWidth}%">
-          <span>${formatValue(demValue)} ${control.leftLabel || "D"}</span>
+          <span><strong class="bar-count">${formatValue(demValue)}</strong><strong class="bar-label">${control.leftLabel || "D"}</strong></span>
         </div>
         <div class="race-bar-segment bar-rep-solid" style="width:${repWidth}%">
-          <span>${formatValue(repValue)} ${control.rightLabel || "R"}</span>
+          <span><strong class="bar-count">${formatValue(repValue)}</strong><strong class="bar-label">${control.rightLabel || "R"}</strong></span>
         </div>
       </div>
       <div class="race-bar-subnote">${control.subtitle || ""}</div>

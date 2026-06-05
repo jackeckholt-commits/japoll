@@ -582,3 +582,20 @@ Fix:
 - Removed the contact strip from the bottom of the Senate and Governor pages.
 - Made the site footer look more finished with a glass/gradient pill style.
 - Race-page footer now says the race maps are early placeholders instead of showing the contact block.
+
+
+## Version 0.8.10
+
+Changed files:
+- `senate.html`
+- `governor.html`
+- `styles.css`
+- `js/race-maps.js`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fixes:
+- Reverted the race-page footer back to the normal site footer style.
+- Improved the current-control bar labels so the numbers and party text read more clearly.
+- Redesigned the Senate/Governor preview numbers on the homepage so the split counts look cleaner.

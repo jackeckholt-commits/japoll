@@ -5197,83 +5197,164 @@ table {
 }
 
 
-/* 0.8.9: cleaner race-page footer and remove contact-strip clutter */
-.site-footer {
-  margin-top: clamp(42px, 5vw, 84px);
-  padding: 0 0 clamp(28px, 4vw, 54px);
-  background: transparent !important;
+
+
+/* 0.8.10: revert footer and improve senate/governor control numbers */
+.current-control-bar {
+  height: clamp(62px, 6vw, 74px);
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.02);
 }
 
-.footer-inner {
-  position: relative;
+.current-control-bar .race-bar-segment {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 18px;
-  padding: 18px 22px;
-  border: 1px solid rgba(159, 211, 255, 0.16);
-  border-radius: 999px;
-  background:
-    linear-gradient(135deg, rgba(48, 59, 70, 0.62), rgba(14, 20, 25, 0.58));
-  box-shadow:
-    0 18px 46px rgba(0, 0, 0, 0.22),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05);
-  overflow: hidden;
+  gap: 10px;
+  padding: 0 clamp(16px, 2.2vw, 26px);
+  font-size: clamp(0.95rem, 1.2vw, 1.15rem);
 }
 
-.footer-inner::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 38%;
-  background: linear-gradient(90deg, rgba(77, 163, 255, 0.22), transparent);
-  opacity: 0.8;
-  pointer-events: none;
+.current-control-bar .bar-rep-solid {
+  justify-content: flex-end;
 }
 
-.footer-inner::after {
-  content: "";
-  position: absolute;
-  inset: 0 0 0 auto;
-  width: 32%;
-  background: linear-gradient(270deg, rgba(255, 91, 91, 0.16), transparent);
-  opacity: 0.75;
-  pointer-events: none;
+.current-control-bar .race-bar-segment span {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  white-space: nowrap;
 }
 
-.footer-inner p {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  color: var(--light-gray);
+.current-control-bar .bar-count {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 1000;
+  font-variant-numeric: tabular-nums;
+}
+
+.current-control-bar .bar-label {
+  font-size: clamp(0.95rem, 1.15vw, 1.2rem);
+  line-height: 1.1;
   font-weight: 900;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.01em;
 }
 
-.footer-inner p:first-child {
-  color: var(--white);
+.race-bar-subnote {
+  font-size: 1rem;
+  font-weight: 850;
+  color: var(--light-gray);
 }
 
-.footer-inner p:last-child {
-  color: var(--baby-blue);
-  font-size: 0.95rem;
-  text-align: right;
+.race-mini-score-polished {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: end;
+  gap: 14px;
+  margin: 18px 0 12px;
 }
 
-.race-page + .site-footer,
-.race-page ~ .site-footer {
-  margin-top: 18px;
+.race-mini-stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 6px;
+  padding: 10px 0 2px;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
 }
 
-@media (max-width: 760px) {
-  .footer-inner {
-    border-radius: 22px;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 18px;
+.race-mini-side.dem-side .race-mini-value { color: var(--dem-blue); }
+.race-mini-side.rep-side .race-mini-value { color: #ff6767; }
+
+.race-mini-kicker {
+  color: rgba(255,255,255,0.8) !important;
+  font-size: 0.92rem !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.12em !important;
+  line-height: 1;
+}
+
+.race-mini-value {
+  font-size: clamp(3.1rem, 4.4vw, 4.5rem) !important;
+  line-height: 0.88 !important;
+  letter-spacing: -0.06em !important;
+  font-weight: 1000;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.18);
+}
+
+.race-mini-divider-polished {
+  width: auto;
+  height: auto;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: rgba(255,255,255,0.8);
+  font-size: clamp(2.1rem, 3vw, 3rem);
+  font-weight: 900;
+  line-height: 1;
+  padding: 0 2px 4px;
+}
+
+.senate-summary-card .placeholder-note,
+.governor-summary-card .placeholder-note {
+  color: var(--light-gray) !important;
+  font-size: 1rem !important;
+  font-weight: 850;
+  margin-top: 2px !important;
+}
+
+@media (max-width: 900px) {
+  .current-control-bar .race-bar-segment {
+    gap: 8px;
+    padding: 0 12px;
   }
 
-  .footer-inner p:last-child {
-    text-align: left;
+  .current-control-bar .bar-count {
+    font-size: clamp(1.45rem, 5.8vw, 2rem);
+  }
+
+  .current-control-bar .bar-label {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .current-control-bar {
+    height: 58px;
+  }
+
+  .current-control-bar .race-bar-segment span {
+    gap: 6px;
+  }
+
+  .current-control-bar .bar-count {
+    font-size: 1.35rem;
+  }
+
+  .current-control-bar .bar-label {
+    font-size: 0.82rem;
+  }
+
+  .race-mini-score-polished {
+    gap: 10px;
+  }
+
+  .race-mini-kicker {
+    font-size: 0.8rem !important;
+    letter-spacing: 0.1em !important;
+  }
+
+  .race-mini-value {
+    font-size: clamp(2.4rem, 12vw, 3.4rem) !important;
+  }
+
+  .race-mini-divider-polished {
+    font-size: 2rem;
+    padding-bottom: 2px;
   }
 }
