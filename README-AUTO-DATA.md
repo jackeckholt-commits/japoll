@@ -670,3 +670,18 @@ Fix:
 - Made the bars rounded and more polished.
 - Removed the white bars on the left and right ends.
 - Improved the seat-count label styling inside the bars.
+
+
+## Version 0.8.16
+
+Changed files:
+- `index.html`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Centered the lower homepage cards.
+- Removed the slash/divider between the Dem and GOP values on the Senate/Governor cards.
+- Replaced `Open Senate map` and `Open Governor map` with `Based on current average`.

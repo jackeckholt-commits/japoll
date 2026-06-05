@@ -5981,3 +5981,83 @@ body:has(.about-layout) .page-content {
     font-size: clamp(1.8rem, 8vw, 2.5rem) !important;
   }
 }
+
+
+/* 0.8.16: center lower cards and remove homepage split slash */
+.homepage-link-card,
+.nonclickable-card {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.homepage-link-card h3,
+.nonclickable-card h3 {
+  text-align: center !important;
+  width: 100%;
+}
+
+.homepage-link-card p,
+.nonclickable-card p {
+  text-align: center !important;
+}
+
+.homepage-link-card .card-action,
+.nonclickable-card .card-action,
+.house-wip-status {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.senate-summary-card .race-mini-score-polished,
+.governor-summary-card .race-mini-score-polished {
+  width: 100%;
+}
+
+.senate-summary-card .race-mini-stat,
+.governor-summary-card .race-mini-stat {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.senate-summary-card .race-mini-stat.dem-side,
+.senate-summary-card .race-mini-stat.rep-side,
+.governor-summary-card .race-mini-stat.dem-side,
+.governor-summary-card .race-mini-stat.rep-side {
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.senate-summary-card .race-mini-kicker,
+.governor-summary-card .race-mini-kicker {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.senate-summary-card .race-mini-divider-polished,
+.governor-summary-card .race-mini-divider-polished,
+.senate-summary-card .race-mini-divider,
+.governor-summary-card .race-mini-divider {
+  display: none !important;
+}
+
+.senate-summary-card .card-action,
+.governor-summary-card .card-action {
+  pointer-events: none;
+  cursor: default;
+  color: var(--light-gray) !important;
+  border-color: rgba(255, 255, 255, 0.13) !important;
+  background: rgba(255, 255, 255, 0.055) !important;
+}
+
+.senate-summary-card:hover .card-action,
+.governor-summary-card:hover .card-action {
+  color: var(--light-gray) !important;
+  background: rgba(255, 255, 255, 0.055) !important;
+}
+
+@media (max-width: 760px) {
+  .homepage-link-card,
+  .nonclickable-card {
+    text-align: center !important;
+  }
+}
