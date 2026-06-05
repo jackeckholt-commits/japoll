@@ -599,3 +599,17 @@ Fixes:
 - Reverted the race-page footer back to the normal site footer style.
 - Improved the current-control bar labels so the numbers and party text read more clearly.
 - Redesigned the Senate/Governor preview numbers on the homepage so the split counts look cleaner.
+
+
+## Version 0.8.11
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Removed the U.S. outline/background from non-index page headers.
+- Shrunk non-index page headers so they are just a title and subtitle area.
+- Kept the homepage hero separate so the index page can keep its larger design.

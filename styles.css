@@ -5358,3 +5358,65 @@ table {
     padding-bottom: 2px;
   }
 }
+
+
+/* 0.8.11: compact non-index page headers */
+.page-header {
+  min-height: auto !important;
+  padding: 0 0 clamp(26px, 4vw, 52px) !important;
+  background-image: none !important;
+}
+
+.page-header::before,
+.page-header::after,
+.page-header .hero::before,
+.page-header .hero::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+}
+
+.page-header .hero {
+  min-height: auto !important;
+  padding: clamp(38px, 6vw, 82px) 0 clamp(16px, 2.5vw, 28px) !important;
+  display: grid !important;
+  place-items: center !important;
+  text-align: center !important;
+  background: none !important;
+}
+
+.page-header .hero h1 {
+  font-size: clamp(3.4rem, 7vw, 7.2rem) !important;
+  line-height: 0.92 !important;
+  margin: 0 !important;
+}
+
+.page-header .hero .intro {
+  max-width: 920px !important;
+  margin: clamp(14px, 2vw, 22px) auto 0 !important;
+  font-size: clamp(1rem, 1.45vw, 1.34rem) !important;
+}
+
+/* Keep the homepage hero separate from compact page headers. */
+.site-header .hero {
+  min-height: initial;
+}
+
+@media (max-width: 760px) {
+  .page-header {
+    padding-bottom: 24px !important;
+  }
+
+  .page-header .hero {
+    padding: 34px 0 14px !important;
+  }
+
+  .page-header .hero h1 {
+    font-size: clamp(2.65rem, 13vw, 4.4rem) !important;
+  }
+
+  .page-header .hero .intro {
+    font-size: 0.98rem !important;
+    line-height: 1.45 !important;
+  }
+}
