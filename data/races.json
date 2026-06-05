@@ -1,19 +1,19 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.1",
-  "note": "Placeholder race map data. Active race states are clickable. Leading-party and seat data can be added later without changing the map code.",
+  "version": "0.8.6",
+  "note": "Senate and Governor maps are active. House is included as a work-in-progress section for later district-level expansion.",
   "maps": {
     "senate": {
       "title": "Senate Races",
       "subtitle": "States with 2026 Senate elections are clickable. States are gray until race data is added.",
       "totalLabel": "35 Senate races",
       "projection": {
-        "demSolid": 0,
+        "demSolid": 47,
         "demLead": 0,
-        "noData": 35,
+        "noData": 0,
         "repLead": 0,
-        "repSolid": 0,
-        "total": 35
+        "repSolid": 53,
+        "total": 100
       },
       "races": [
         {
@@ -566,19 +566,30 @@
           "label": "Wyoming Senate",
           "note": "Race active; no rating data loaded yet."
         }
-      ]
+      ],
+      "control": {
+        "title": "Current Senate Control",
+        "subtitle": "Current partisan control; independents who caucus with Democrats are counted with Democrats.",
+        "majorityText": "Majority: 51 seats, or 50 with the vice president as tiebreaker",
+        "dem": 47,
+        "rep": 53,
+        "total": 100,
+        "leftLabel": "Dem caucus",
+        "rightLabel": "GOP",
+        "showDecimals": false
+      }
     },
     "governor": {
       "title": "Governor Races",
       "subtitle": "States with 2026 gubernatorial elections are clickable. States are gray until race data is added.",
       "totalLabel": "36 governor races",
       "projection": {
-        "demSolid": 0,
+        "demSolid": 24,
         "demLead": 0,
-        "noData": 36,
+        "noData": 0,
         "repLead": 0,
-        "repSolid": 0,
-        "total": 36
+        "repSolid": 26,
+        "total": 50
       },
       "races": [
         {
@@ -1131,7 +1142,33 @@
           "label": "Wyoming Governor",
           "note": "Race active; no rating data loaded yet."
         }
-      ]
+      ],
+      "control": {
+        "title": "Current Governorships",
+        "subtitle": "Current state governor party control.",
+        "majorityText": "50 state governorships total",
+        "dem": 24,
+        "rep": 26,
+        "total": 50,
+        "leftLabel": "Dem governors",
+        "rightLabel": "GOP governors",
+        "showDecimals": false
+      }
+    },
+    "house": {
+      "title": "House Races",
+      "subtitle": "House race coverage is a work in progress. District-level data and maps will be added later.",
+      "totalLabel": "House section in progress",
+      "workInProgress": true,
+      "projection": {
+        "demSolid": 0,
+        "demLead": 0,
+        "noData": 0,
+        "repLead": 0,
+        "repSolid": 0,
+        "total": 0
+      },
+      "races": []
     }
   }
 }

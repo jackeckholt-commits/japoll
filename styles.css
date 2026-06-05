@@ -4959,3 +4959,72 @@ table {
     font-size: clamp(2.7rem, 13vw, 4.2rem);
   }
 }
+
+
+/* 0.8.6: current-control bars on race pages */
+.race-control-heading {
+  text-align: center;
+  margin: 8px 0 14px;
+}
+
+.race-control-heading h3 {
+  font-size: clamp(1.9rem, 2.6vw, 3.1rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.race-control-heading p {
+  color: var(--white);
+  font-weight: 900;
+  margin-top: 8px;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+}
+
+.current-control-bar {
+  height: 66px;
+  border-radius: 0;
+  border-left: 3px solid var(--line-strong);
+  border-right: 3px solid var(--line-strong);
+  border-top: 0;
+  border-bottom: 0;
+  background: transparent;
+}
+
+.current-control-bar .race-bar-segment {
+  justify-content: flex-start;
+  place-items: center start;
+  padding: 0 clamp(12px, 2vw, 22px);
+  font-size: clamp(1rem, 1.3vw, 1.35rem);
+}
+
+.current-control-bar .bar-rep-solid {
+  justify-content: flex-end;
+  place-items: center end;
+}
+
+.current-control-bar .race-bar-segment span {
+  white-space: nowrap;
+}
+
+.race-bar-subnote {
+  color: var(--muted);
+  font-weight: 800;
+  font-size: 0.94rem;
+  text-align: center;
+  margin: 10px 0 24px;
+}
+
+@media (max-width: 560px) {
+  .current-control-bar {
+    height: 54px;
+  }
+
+  .current-control-bar .race-bar-segment {
+    padding: 0 10px;
+    font-size: 0.82rem;
+  }
+
+  .race-control-heading p {
+    font-size: 0.92rem;
+  }
+}

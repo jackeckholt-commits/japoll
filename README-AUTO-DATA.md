@@ -517,3 +517,21 @@ Fix:
 - Replaced paragraph-heavy lower cards with compact overview values.
 - Senate and Governor now show placeholder D/GOP overview numbers directly on the homepage.
 - House remains a work-in-progress card.
+
+
+## Version 0.8.6
+
+Changed files:
+- `data/races.json`
+- `js/race-maps.js`
+- `index.html`
+- `styles.css`
+- `scripts/update-polls.js`
+- `package.json`
+- `README-AUTO-DATA.md`
+
+Update:
+- Added current-control bars to the top of Senate and Governor map pages.
+- Senate now uses current control: 47 Democratic caucus / 53 GOP.
+- Governor now uses current control: 24 Democratic governors / 26 GOP governors.
+- Homepage Senate/Governor overview cards now use those same current values.
