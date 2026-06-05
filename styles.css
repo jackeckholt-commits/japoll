@@ -4281,3 +4281,69 @@ body {
   color: #79d38f;
   font-weight: 900;
 }
+
+
+/* 0.7.15: cleaner mobile weekly-change badges */
+.homepage-trend-explainer {
+  margin: 8px auto 0 !important;
+  max-width: 680px !important;
+}
+
+.homepage-trend-explainer::before {
+  content: "+/− ";
+  color: #79d38f;
+  font-weight: 900;
+}
+
+.mini-weekly-change {
+  min-width: auto !important;
+  font-size: clamp(0.88rem, 1vw, 1.05rem) !important;
+  line-height: 1 !important;
+  padding: 6px 10px !important;
+  border-radius: 999px !important;
+}
+
+.homepage-metric-value {
+  gap: 10px !important;
+}
+
+@media (max-width: 760px) {
+  .homepage-trend-explainer {
+    padding: 0 18px;
+    font-size: 0.95rem !important;
+    line-height: 1.35;
+  }
+
+  .major-card {
+    overflow: hidden;
+  }
+
+  .homepage-values-only-row .number-item strong {
+    font-size: clamp(3.6rem, 17vw, 5.7rem) !important;
+  }
+
+  .homepage-values-only-row .homepage-metric-value {
+    justify-content: flex-start !important;
+    gap: 10px !important;
+  }
+
+  .mini-weekly-change {
+    font-size: 0.95rem !important;
+    padding: 7px 10px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .homepage-values-only-row .number-item strong {
+    font-size: clamp(3.15rem, 16vw, 4.8rem) !important;
+  }
+
+  .homepage-metric-value {
+    align-items: center !important;
+  }
+
+  .mini-weekly-change {
+    font-size: 0.86rem !important;
+    padding: 6px 9px !important;
+  }
+}

@@ -147,14 +147,18 @@ function formatSignedPoints(value) {
 
 function formatMiniChange(value) {
   if (typeof value !== "number" || !Number.isFinite(value)) {
-    return "1W —";
+    return "—";
   }
 
-  const arrow = value > 0 ? "↗" : value < 0 ? "↘" : "→";
-  const sign = value > 0 ? "+" : value < 0 ? "−" : "";
-  const amount = Math.abs(value).toFixed(1);
+  if (value > 0) {
+    return `+${value.toFixed(1)}`;
+  }
 
-  return `1W ${arrow} ${sign}${amount}`;
+  if (value < 0) {
+    return `−${Math.abs(value).toFixed(1)}`;
+  }
+
+  return "0.0";
 }
 
 function applyMiniChange(selector, value) {

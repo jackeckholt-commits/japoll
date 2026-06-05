@@ -326,3 +326,40 @@ Fix:
 - The small homepage change badges now include `1W`, so it is clear they are weekly changes.
 - Increases are green and decreases are red.
 - Removed hover/title dependence; the weekly-change meaning is visible directly on the page.
+
+
+## Version 0.7.14
+
+Changed files:
+- `scripts/update-polls.js`
+- `.github/workflows/protect-polling-data.yml`
+- `package.json`
+- `README-AUTO-DATA.md`
+
+Final 0.7 cleanup:
+- Updated the scraper console version from the old 0.7.0 label to 0.7.14.
+- Restored/added the polling-data protection workflow so manual uploads do not overwrite `data/polling.json` or `data/polling-history.json`.
+- Confirmed the scraper source list is expansion-friendly: new sources can be added by creating a new file in `scripts/sources/`, importing it in `scripts/update-polls.js`, and adding its key to `sourceOrder`.
+
+Expansion notes for 1.0:
+- Keep scraper data in `data/polling.json`.
+- Keep graph/history data in `data/polling-history.json`.
+- Add future race pages as separate HTML pages first, then add new source modules only when the data format is stable.
+- Use `[allow-data]` in a commit message only when intentionally changing the protected data files.
+
+
+## Version 0.7.15
+
+Changed files:
+- `index.html`
+- `styles.css`
+- `js/load-polling-data.js`
+- `scripts/update-polls.js`
+- `package.json`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Removed arrow icons from the homepage weekly-change badges because they rendered poorly on mobile.
+- Removed `1W` from each badge.
+- Added one clear homepage note explaining that plus/minus badges show weekly change.
+- Tightened mobile badge sizing so the cards look cleaner before moving into version 0.8.
