@@ -4451,3 +4451,44 @@ table {
     font-family: Arial, Helvetica, sans-serif !important;
   }
 }
+
+
+/* 0.7.18: keep mobile plus/minus badges inside card */
+@media (max-width: 760px) {
+  .homepage-values-only-row .number-item {
+    max-width: 100% !important;
+    overflow: visible !important;
+  }
+
+  .homepage-values-only-row .homepage-metric-value {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 10px !important;
+    max-width: 100% !important;
+  }
+
+  .homepage-values-only-row .number-item strong {
+    max-width: 100% !important;
+    line-height: 0.9 !important;
+  }
+
+  .homepage-values-only-row .mini-weekly-change {
+    align-self: flex-start !important;
+    margin-left: 4px !important;
+    transform: none !important;
+    max-width: calc(100vw - 96px) !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .homepage-values-only-row .homepage-metric-value {
+    gap: 8px !important;
+  }
+
+  .homepage-values-only-row .mini-weekly-change {
+    margin-left: 2px !important;
+    font-size: 0.84rem !important;
+  }
+}

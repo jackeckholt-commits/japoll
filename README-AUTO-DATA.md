@@ -393,3 +393,16 @@ Fix:
 - Desktop arrows are now CSS-only.
 - Mobile hides those CSS arrows, so the phone should no longer render them as emoji.
 - The badges still show plus/minus values such as `+0.8` and `−0.4`.
+
+
+## Version 0.7.18
+
+Changed files:
+- `styles.css`
+- `scripts/update-polls.js`
+- `package.json`
+- `README-AUTO-DATA.md`
+
+Fix:
+- On mobile, the plus/minus weekly-change badge now stacks under the percentage instead of sitting to the side.
+- This keeps the badge inside the card and prevents it from getting pushed off-screen.
