@@ -727,3 +727,16 @@ Changed files:
 Fix:
 - Moved the `Click the boxes below to see more` guide above the entire homepage card grid.
 - It now appears above the generic ballot and Trump approval boxes too.
+
+
+## Version 0.8.20
+
+Changed files:
+- `js/trend-charts.js`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Changed the homepage trend chart visible window to start in March instead of February.
+- This should spread the visible points out more and make the latest dots look less compressed.
