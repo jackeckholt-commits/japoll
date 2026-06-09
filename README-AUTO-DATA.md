@@ -801,3 +801,18 @@ Major update:
 - Added seven Senate margin categories: strong D, likely D, lean D, toss-up, lean R, likely R, strong R.
 - Senate state click panels now use the prediction/candidate placeholder flow already used on the Governor page.
 - Senate page now explains that margins are predictions based on current available data.
+
+
+## Version 0.8.25
+
+Changed files:
+- `data/races.json`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Corrected the Senate and Governor margin categories to better match the reference maps.
+- Senate changes include moving Maine to toss-up, Georgia to likely Democratic, and Louisiana/Nebraska/South Dakota to likely Republican.
+- Governor changes include moving Nevada to toss-up, Wisconsin to lean Democratic, Minnesota to solid Democratic, and Alaska to lean Republican.
+- These are still prediction placeholders based on the current map design and can be tuned as more real race data is added.

@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.24",
-  "note": "Senate and Governor maps are active. Senate and Governor pages now use early prediction margin categories; candidate details remain placeholders until nominees are selected.",
+  "version": "0.8.25",
+  "note": "Senate and Governor maps are active with early prediction margin categories. Margins are placeholders based on the reference maps and can be tuned as new data is added.",
   "maps": {
     "senate": {
       "title": "Senate Races",
@@ -30,7 +30,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 20,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -75,7 +75,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 19,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -105,7 +105,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 16,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -150,7 +150,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
-          "predictedMargin": 4,
+          "predictedMargin": 3,
           "candidates": []
         },
         {
@@ -158,14 +158,14 @@
           "fips": "13",
           "name": "Georgia",
           "active": true,
-          "party": "tossup",
+          "party": "dem",
           "status": "prediction",
           "strength": "no-data",
           "label": "Georgia Senate",
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
-          "marginCategory": "tossup",
-          "marginLabel": "within 1 point",
-          "predictedMargin": 0,
+          "marginCategory": "demLikely",
+          "marginLabel": "D+5 to D+15",
+          "predictedMargin": 8,
           "candidates": []
         },
         {
@@ -195,7 +195,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 24,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -270,7 +270,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 20,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -285,7 +285,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
-          "predictedMargin": 10,
+          "predictedMargin": 9,
           "candidates": []
         },
         {
@@ -293,14 +293,14 @@
           "fips": "23",
           "name": "Maine",
           "active": true,
-          "party": "dem",
+          "party": "tossup",
           "status": "prediction",
           "strength": "no-data",
           "label": "Maine Senate",
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
-          "marginCategory": "demLikely",
-          "marginLabel": "D+5 to D+15",
-          "predictedMargin": 7,
+          "marginCategory": "tossup",
+          "marginLabel": "within 1 point",
+          "predictedMargin": 0,
           "candidates": []
         },
         {
@@ -330,7 +330,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 22,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -450,7 +450,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 15,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -465,7 +465,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 16,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -480,7 +480,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
-          "predictedMargin": 6,
+          "predictedMargin": 8,
           "candidates": []
         },
         {
@@ -510,7 +510,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demLean",
           "marginLabel": "D+1 to D+5",
-          "predictedMargin": 2,
+          "predictedMargin": 3,
           "candidates": []
         },
         {
@@ -555,7 +555,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 25,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -570,7 +570,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 17,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -600,7 +600,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 20,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -615,7 +615,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 16,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -630,7 +630,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
-          "predictedMargin": 11,
+          "predictedMargin": 9,
           "candidates": []
         },
         {
@@ -645,7 +645,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 19,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -705,7 +705,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 15,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -735,7 +735,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 30,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -765,7 +765,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 35,
+          "predictedMargin": 18,
           "candidates": []
         }
       ],
@@ -773,7 +773,7 @@
       "predictionMode": true,
       "marginSummary": {
         "title": "Senate Race Prediction",
-        "subtitle": "Prediction based on available data inputs. Darker colors show larger estimated margins; gray states have no active Senate race on this map.",
+        "subtitle": "Prediction based on available data inputs. Darker colors show larger estimated margins; gray states have no active race on this map.",
         "total": 35,
         "segments": [
           {
@@ -893,7 +893,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 17,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -923,7 +923,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 15,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -953,7 +953,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "FL",
@@ -967,7 +968,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
-          "predictedMargin": 7,
+          "predictedMargin": 9,
           "candidates": []
         },
         {
@@ -997,7 +998,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 22,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1012,7 +1013,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 20,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1027,7 +1028,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 16,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1042,7 +1043,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "IA",
@@ -1071,7 +1073,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
-          "predictedMargin": 4,
+          "predictedMargin": 3,
           "candidates": []
         },
         {
@@ -1086,7 +1088,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "LA",
@@ -1100,7 +1103,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "ME",
@@ -1129,7 +1133,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 17,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1144,7 +1148,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 20,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1159,7 +1163,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
-          "predictedMargin": 6,
+          "predictedMargin": 8,
           "candidates": []
         },
         {
@@ -1174,7 +1178,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 15,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1189,7 +1193,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "MO",
@@ -1203,7 +1208,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "MT",
@@ -1217,7 +1223,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "NE",
@@ -1261,7 +1268,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
-          "predictedMargin": 6,
+          "predictedMargin": 9,
           "candidates": []
         },
         {
@@ -1276,7 +1283,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "NM",
@@ -1290,7 +1298,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
-          "predictedMargin": 7,
+          "predictedMargin": 8,
           "candidates": []
         },
         {
@@ -1305,7 +1313,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 16,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1320,7 +1328,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "ND",
@@ -1334,7 +1343,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "OH",
@@ -1348,7 +1358,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demLean",
           "marginLabel": "D+1 to D+5",
-          "predictedMargin": 2,
+          "predictedMargin": 3,
           "candidates": []
         },
         {
@@ -1363,7 +1373,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 19,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1378,7 +1388,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 15,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1393,7 +1403,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 15,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1408,7 +1418,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
-          "predictedMargin": 19,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1423,7 +1433,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 15,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1453,7 +1463,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 20,
+          "predictedMargin": 18,
           "candidates": []
         },
         {
@@ -1468,7 +1478,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
-          "predictedMargin": 5,
+          "predictedMargin": 3,
           "candidates": []
         },
         {
@@ -1483,7 +1493,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "VT",
@@ -1497,7 +1508,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
-          "predictedMargin": 8,
+          "predictedMargin": 9,
           "candidates": []
         },
         {
@@ -1512,7 +1523,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "WA",
@@ -1526,7 +1538,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "WV",
@@ -1540,7 +1553,8 @@
           "note": "No active governor race for this map.",
           "marginCategory": "no-race",
           "predictedMargin": null,
-          "candidates": []
+          "candidates": [],
+          "marginLabel": null
         },
         {
           "state": "WI",
@@ -1569,7 +1583,7 @@
           "note": "Prediction based on available data. Candidate names and Wikipedia links will be added after primary results are clear.",
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
-          "predictedMargin": 25,
+          "predictedMargin": 18,
           "candidates": []
         }
       ],
@@ -1577,7 +1591,7 @@
       "predictionMode": true,
       "marginSummary": {
         "title": "Governor Race Prediction",
-        "subtitle": "Prediction based on available data inputs. Darker colors show larger estimated margins; gray states have no active governor race on this map.",
+        "subtitle": "Prediction based on available data inputs. Darker colors show larger estimated margins; gray states have no active race on this map.",
         "total": 36,
         "segments": [
           {
