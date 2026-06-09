@@ -952,3 +952,30 @@ UI/data update:
 - Added projected final control if the prediction is correct.
 - Senate projection: 49 Dem/Ind caucus, 51 GOP.
 - Governor projection: 24 Democratic governors, 26 Republican governors.
+
+
+## Version 0.8.34
+
+Changed files:
+- `data/races.json`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Removed the Democratic candidate from the Nebraska Senate race.
+- Nebraska Senate now keeps Pete Ricketts and Dan Osborn only.
+
+
+## Version 0.8.35
+
+Changed files:
+- `data/races.json`
+- `js/race-maps.js`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Removed the `If this prediction is correct` projection box from the Senate/Governor race pages.
+- Kept the not-up-for-election context.

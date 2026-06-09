@@ -140,7 +140,7 @@ function renderCandidateList(race) {
 
 function renderProjectedControl(summary) {
   const notUp = summary.notUpSeats || null;
-  const projected = summary.projectedControl || null;
+  const projected = null;
 
   if (!notUp && !projected && !summary.contextNote) {
     return "";
@@ -156,16 +156,7 @@ function renderProjectedControl(summary) {
           <strong class="context-rep">${notUp.rightCount} ${notUp.rightLabel}</strong>
         </div>
       ` : ""}
-      ${projected ? `
-        <div class="race-projected-control">
-          <span>${projected.title || "If prediction is correct"}</span>
-          <div class="projected-control-split">
-            <strong class="context-dem">${projected.leftCount} ${projected.leftLabel}</strong>
-            <strong class="context-rep">${projected.rightCount} ${projected.rightLabel}</strong>
-          </div>
-          ${projected.note ? `<p>${projected.note}</p>` : ""}
-        </div>
-      ` : ""}
+
     </div>
   `;
 }

@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.33",
+  "version": "0.8.35",
   "note": "Senate and Governor maps include early prediction margins. Candidate arrays are populated for races with verified nominees or presumptive nominees where available; additional states can be updated later.",
   "maps": {
     "senate": {
@@ -567,17 +567,12 @@
               "wikipedia": "https://en.wikipedia.org/wiki/Pete_Ricketts"
             },
             {
-              "name": "Cindy Burbank",
-              "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska"
-            },
-            {
               "name": "Dan Osborn",
               "party": "Independent",
               "wikipedia": "https://en.wikipedia.org/wiki/Dan_Osborn"
             }
           ],
-          "candidateStatus": "Nominees/candidates added"
+          "candidateStatus": "Candidates added; no Democratic nominee shown"
         },
         {
           "state": "NV",
@@ -1095,14 +1090,6 @@
           "leftCount": 32,
           "rightLabel": "GOP not up",
           "rightCount": 33
-        },
-        "projectedControl": {
-          "title": "If this prediction is correct",
-          "leftLabel": "Dem/Ind caucus",
-          "leftCount": 49,
-          "rightLabel": "GOP",
-          "rightCount": 51,
-          "note": "Projection combines current seats not up for election with the predicted winners of the active Senate races."
         }
       }
     },
@@ -2123,14 +2110,6 @@
           "leftCount": 5,
           "rightLabel": "GOP governors not up",
           "rightCount": 9
-        },
-        "projectedControl": {
-          "title": "If this prediction is correct",
-          "leftLabel": "Dem governors",
-          "leftCount": 24,
-          "rightLabel": "GOP governors",
-          "rightCount": 26,
-          "note": "Projection combines current governorships not up for election with the predicted winners of the active governor races."
         }
       }
     },
