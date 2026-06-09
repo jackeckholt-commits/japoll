@@ -137,6 +137,39 @@ function renderCandidateList(race) {
   `;
 }
 
+
+function renderProjectedControl(summary) {
+  const notUp = summary.notUpSeats || null;
+  const projected = summary.projectedControl || null;
+
+  if (!notUp && !projected && !summary.contextNote) {
+    return "";
+  }
+
+  return `
+    <div class="race-projection-context">
+      ${summary.contextNote ? `<p class="race-context-note">${summary.contextNote}</p>` : ""}
+      ${notUp ? `
+        <div class="race-context-row">
+          <span>Currently not up</span>
+          <strong class="context-dem">${notUp.leftCount} ${notUp.leftLabel}</strong>
+          <strong class="context-rep">${notUp.rightCount} ${notUp.rightLabel}</strong>
+        </div>
+      ` : ""}
+      ${projected ? `
+        <div class="race-projected-control">
+          <span>${projected.title || "If prediction is correct"}</span>
+          <div class="projected-control-split">
+            <strong class="context-dem">${projected.leftCount} ${projected.leftLabel}</strong>
+            <strong class="context-rep">${projected.rightCount} ${projected.rightLabel}</strong>
+          </div>
+          ${projected.note ? `<p>${projected.note}</p>` : ""}
+        </div>
+      ` : ""}
+    </div>
+  `;
+}
+
 function renderMarginSummary(container, mapData) {
   const summary = mapData.marginSummary;
   if (!summary || !Array.isArray(summary.segments)) return false;
@@ -154,6 +187,7 @@ function renderMarginSummary(container, mapData) {
     </div>
     <div class="margin-control-bar" aria-label="${summary.title || "Race prediction margin bar"}">${segments}</div>
     <div class="margin-legend-note">Margins are estimates and should update as polling, ratings, and primary results become available.</div>
+    ${renderProjectedControl(summary)}
   `;
   return true;
 }

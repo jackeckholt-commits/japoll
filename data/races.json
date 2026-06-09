@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.31",
+  "version": "0.8.33",
   "note": "Senate and Governor maps include early prediction margins. Candidate arrays are populated for races with verified nominees or presumptive nominees where available; additional states can be updated later.",
   "maps": {
     "senate": {
@@ -1088,7 +1088,22 @@
             "count": 10,
             "className": "margin-rep-solid"
           }
-        ]
+        ],
+        "contextNote": "Not every Senate seat is up in 2026. Seats not on this map are treated as staying with their current party caucus.",
+        "notUpSeats": {
+          "leftLabel": "Dem/Ind caucus not up",
+          "leftCount": 32,
+          "rightLabel": "GOP not up",
+          "rightCount": 33
+        },
+        "projectedControl": {
+          "title": "If this prediction is correct",
+          "leftLabel": "Dem/Ind caucus",
+          "leftCount": 49,
+          "rightLabel": "GOP",
+          "rightCount": 51,
+          "note": "Projection combines current seats not up for election with the predicted winners of the active Senate races."
+        }
       }
     },
     "governor": {
@@ -2101,7 +2116,22 @@
             "count": 9,
             "className": "margin-rep-solid"
           }
-        ]
+        ],
+        "contextNote": "Not every governorship is up in 2026. States not on this map are treated as staying with their current party control.",
+        "notUpSeats": {
+          "leftLabel": "Dem governors not up",
+          "leftCount": 5,
+          "rightLabel": "GOP governors not up",
+          "rightCount": 9
+        },
+        "projectedControl": {
+          "title": "If this prediction is correct",
+          "leftLabel": "Dem governors",
+          "leftCount": 24,
+          "rightLabel": "GOP governors",
+          "rightCount": 26,
+          "note": "Projection combines current governorships not up for election with the predicted winners of the active governor races."
+        }
       }
     },
     "house": {

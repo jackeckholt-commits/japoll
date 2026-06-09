@@ -934,3 +934,21 @@ UI update:
 - Candidate rows now show `Click to see more`.
 - Candidate boxes are colored by party: Democratic blue, Republican red, Independent/Libertarian neutral.
 - Dem-aligned independents get Democratic-aligned styling.
+
+
+## Version 0.8.33
+
+Changed files:
+- `data/races.json`
+- `js/race-maps.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI/data update:
+- Added context explaining that not every Senate seat or governorship is up for election.
+- Added current not-up seat counts to the Senate and Governor prediction sections.
+- Added projected final control if the prediction is correct.
+- Senate projection: 49 Dem/Ind caucus, 51 GOP.
+- Governor projection: 24 Democratic governors, 26 Republican governors.
