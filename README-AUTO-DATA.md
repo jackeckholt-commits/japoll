@@ -886,3 +886,21 @@ Fix:
 - Removed the repeated `very light blue/red means tilt, not toss-up` sentence.
 - Removed the extra prediction/candidate note from state click panels.
 - State click panels still show the margin and the candidate waiting message.
+
+
+## Version 0.8.30
+
+Changed files:
+- `data/races.json`
+- `js/race-maps.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Candidate update:
+- Added post-primary candidate names and Wikipedia links for verified races currently available.
+- Senate updates: Arkansas, Iowa, North Carolina, and South Dakota.
+- Governor updates: Arkansas, Iowa, New Mexico, Ohio, and Texas.
+- Added support for candidates marked as `Independent (Dem-aligned)` when needed in later updates.
+- States without verified nominees still show `Waiting on primary for full results.`

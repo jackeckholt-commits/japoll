@@ -6481,3 +6481,15 @@ body {
 .margin-legend-note::after {
   content: none !important;
 }
+
+
+/* 0.8.30: candidate links and Dem-aligned independent support */
+.candidate-link.is-dem-aligned {
+  border-color: rgba(77, 163, 255, 0.34);
+  background:
+    linear-gradient(135deg, rgba(77, 163, 255, 0.13), rgba(255, 255, 255, 0.045));
+}
+
+.candidate-link.is-dem-aligned small {
+  color: var(--baby-blue);
+}

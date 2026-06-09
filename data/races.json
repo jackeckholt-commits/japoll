@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.29",
-  "note": "Senate and Governor maps use early prediction margin categories. Close races are tilt D or tilt R; there is no toss-up category in the displayed margin scale.",
+  "version": "0.8.30",
+  "note": "Senate and Governor maps include early prediction margins. Candidate arrays are populated for races with verified post-primary nominees where available; additional states can be updated later.",
   "maps": {
     "senate": {
       "title": "Senate Races",
@@ -32,7 +32,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "AK",
@@ -47,7 +48,8 @@
           "marginCategory": "demLean",
           "marginLabel": "D+1 to D+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "AZ",
@@ -77,7 +79,19 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Tom Cotton",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tom_Cotton"
+            },
+            {
+              "name": "Hallie Shoffner",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "CA",
@@ -107,7 +121,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "CT",
@@ -137,7 +152,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "FL",
@@ -152,7 +168,8 @@
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "GA",
@@ -167,7 +184,8 @@
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
           "predictedMargin": 8,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "HI",
@@ -197,7 +215,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "IL",
@@ -212,7 +231,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "IN",
@@ -242,7 +262,19 @@
           "marginCategory": "repTilt",
           "marginLabel": "Tilt Republican",
           "predictedMargin": 0.5,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Josh Turek",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Josh_Turek"
+            },
+            {
+              "name": "Ashley Hinson",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ashley_Hinson"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "KS",
@@ -257,7 +289,8 @@
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "KY",
@@ -272,7 +305,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "LA",
@@ -287,7 +321,8 @@
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
           "predictedMargin": 9,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "ME",
@@ -302,7 +337,8 @@
           "marginCategory": "demTilt",
           "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MD",
@@ -332,7 +368,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MI",
@@ -347,7 +384,8 @@
           "marginCategory": "demTilt",
           "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MN",
@@ -362,7 +400,8 @@
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
           "predictedMargin": 8,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MS",
@@ -377,7 +416,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MO",
@@ -407,7 +447,8 @@
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NE",
@@ -422,7 +463,8 @@
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
           "predictedMargin": 9,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NV",
@@ -452,7 +494,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NJ",
@@ -467,7 +510,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NM",
@@ -482,7 +526,8 @@
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
           "predictedMargin": 8,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NY",
@@ -512,7 +557,24 @@
           "marginCategory": "demLean",
           "marginLabel": "D+1 to D+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Roy Cooper",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Roy_Cooper"
+            },
+            {
+              "name": "Michael Whatley",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Michael_Whatley"
+            },
+            {
+              "name": "Shannon Bray",
+              "party": "Libertarian",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "ND",
@@ -542,7 +604,8 @@
           "marginCategory": "demTilt",
           "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "OK",
@@ -557,7 +620,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "OR",
@@ -572,7 +636,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "PA",
@@ -602,7 +667,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "SC",
@@ -617,7 +683,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "SD",
@@ -632,7 +699,24 @@
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
           "predictedMargin": 9,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Mike Rounds",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Mike_Rounds"
+            },
+            {
+              "name": "Julian Beaudion",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Dakota"
+            },
+            {
+              "name": "Brian Bengs",
+              "party": "Independent",
+              "wikipedia": "https://en.wikipedia.org/wiki/Brian_Bengs"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "TN",
@@ -647,7 +731,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "TX",
@@ -662,7 +747,8 @@
           "marginCategory": "repTilt",
           "marginLabel": "Tilt Republican",
           "predictedMargin": 0.5,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "UT",
@@ -707,7 +793,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "WA",
@@ -737,7 +824,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "WI",
@@ -767,7 +855,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         }
       ],
       "control": null,
@@ -857,7 +946,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "AK",
@@ -872,7 +962,8 @@
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "AZ",
@@ -887,7 +978,8 @@
           "marginCategory": "demLean",
           "marginLabel": "D+1 to D+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "AR",
@@ -902,7 +994,24 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Sarah Huckabee Sanders",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders"
+            },
+            {
+              "name": "Fredrick Love",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Fredrick_Love"
+            },
+            {
+              "name": "Colt Shelby",
+              "party": "Libertarian",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_Arkansas_gubernatorial_election"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "CA",
@@ -917,7 +1026,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "CO",
@@ -932,7 +1042,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "CT",
@@ -947,7 +1058,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "DE",
@@ -977,7 +1089,8 @@
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
           "predictedMargin": 9,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "GA",
@@ -992,7 +1105,8 @@
           "marginCategory": "repTilt",
           "marginLabel": "Tilt Republican",
           "predictedMargin": 0.5,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "HI",
@@ -1007,7 +1121,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "ID",
@@ -1022,7 +1137,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "IL",
@@ -1037,7 +1153,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "IN",
@@ -1067,7 +1184,19 @@
           "marginCategory": "repTilt",
           "marginLabel": "Tilt Republican",
           "predictedMargin": 0.5,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Rob Sand",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Rob_Sand"
+            },
+            {
+              "name": "Zach Lahn",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_Iowa_gubernatorial_election"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "KS",
@@ -1082,7 +1211,8 @@
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "KY",
@@ -1127,7 +1257,8 @@
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
           "predictedMargin": 8,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MD",
@@ -1142,7 +1273,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MA",
@@ -1157,7 +1289,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MI",
@@ -1172,7 +1305,8 @@
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
           "predictedMargin": 8,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MN",
@@ -1187,7 +1321,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MS",
@@ -1247,7 +1382,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NV",
@@ -1262,7 +1398,8 @@
           "marginCategory": "demTilt",
           "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NH",
@@ -1277,7 +1414,8 @@
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
           "predictedMargin": 9,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NJ",
@@ -1307,7 +1445,19 @@
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
           "predictedMargin": 8,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Deb Haaland",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Deb_Haaland"
+            },
+            {
+              "name": "Greg Hull",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "NY",
@@ -1322,7 +1472,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "NC",
@@ -1367,7 +1518,24 @@
           "marginCategory": "demLean",
           "marginLabel": "D+1 to D+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Vivek Ramaswamy",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+            },
+            {
+              "name": "Amy Acton",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Amy_Acton"
+            },
+            {
+              "name": "Don Kissick",
+              "party": "Libertarian",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "OK",
@@ -1382,7 +1550,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "OR",
@@ -1397,7 +1566,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "PA",
@@ -1412,7 +1582,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "RI",
@@ -1427,7 +1598,8 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "SC",
@@ -1442,7 +1614,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "SD",
@@ -1457,7 +1630,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "TN",
@@ -1472,7 +1646,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "TX",
@@ -1487,7 +1662,29 @@
           "marginCategory": "repLean",
           "marginLabel": "R+1 to R+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Greg Abbott",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Greg_Abbott"
+            },
+            {
+              "name": "Gina Hinojosa",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Gina_Hinojosa"
+            },
+            {
+              "name": "Pat Dixon",
+              "party": "Libertarian",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            },
+            {
+              "name": "Jenn Mack Raphoon",
+              "party": "Independent",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "UT",
@@ -1517,7 +1714,8 @@
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
           "predictedMargin": 9,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "VA",
@@ -1577,7 +1775,8 @@
           "marginCategory": "demLean",
           "marginLabel": "D+1 to D+5",
           "predictedMargin": 3,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "WY",
@@ -1592,7 +1791,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": []
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         }
       ],
       "control": null,

@@ -114,7 +114,7 @@ function renderCandidateList(race) {
   return `
     <div class="candidate-list">
       ${candidates.map(candidate => `
-        <a class="candidate-link" href="${candidate.wikipedia || "#"}" target="_blank" rel="noopener noreferrer">
+        <a class="candidate-link${candidate.demAligned ? " is-dem-aligned" : ""}" href="${candidate.wikipedia || "#"}" target="_blank" rel="noopener noreferrer">
           <span>${candidate.name}</span>
           <small>${candidate.party || ""}</small>
         </a>
