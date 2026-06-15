@@ -1,4 +1,23 @@
 
+function getCompactDateTicks(startDate, endDate) {
+  const start = new Date(startDate);
+  const end = new Date(endDate);
+  if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) return [];
+  return [
+    start,
+    new Date(start.getTime() + ((end.getTime() - start.getTime()) / 2)),
+    end
+  ];
+}
+
+function formatCompactAxisDate(date) {
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    year: "2-digit"
+  });
+}
+
+
 function parseDate(value) {
   const date = new Date(`${value}T00:00:00`);
   return Number.isNaN(date.getTime()) ? new Date(value) : date;

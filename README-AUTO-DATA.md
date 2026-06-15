@@ -1023,3 +1023,17 @@ Changed files:
 UI update:
 - Moved the `If prediction holds` totals into the same bar as `Currently not up`.
 - The current not-up totals and final projected totals now display as two sections inside one combined card.
+
+
+## Version 0.8.39
+
+Changed files:
+- `js/trend-charts.js`
+- `js/load-polling-data.js`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Cleaned up chart x-axis labels by forcing compact start/middle/end date ticks.
+- Added safer historical weekly-change logic so Republican generic ballot change should not incorrectly show `0.0` when the value changed.
