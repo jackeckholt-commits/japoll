@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.36",
+  "version": "0.8.38",
   "note": "Senate and Governor maps include early prediction margins. Candidate arrays are populated for races with verified nominees or presumptive nominees where available; additional states can be updated later.",
   "maps": {
     "senate": {
@@ -11,8 +11,8 @@
         "demSolid": 9,
         "demLikely": 3,
         "demLean": 2,
-        "demTilt": 3,
-        "repTilt": 2,
+        "demTilt": 4,
+        "repTilt": 1,
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 10,
@@ -885,13 +885,13 @@
           "fips": "48",
           "name": "Texas",
           "active": true,
-          "party": "rep",
+          "party": "dem",
           "status": "prediction",
           "strength": "no-data",
           "label": "Texas Senate",
           "note": "",
-          "marginCategory": "repTilt",
-          "marginLabel": "Tilt Republican",
+          "marginCategory": "demTilt",
+          "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
           "candidates": [
             {
@@ -1061,13 +1061,13 @@
           {
             "key": "demTilt",
             "label": "Tilt D",
-            "count": 3,
+            "count": 4,
             "className": "margin-dem-tilt"
           },
           {
             "key": "repTilt",
             "label": "Tilt R",
-            "count": 2,
+            "count": 1,
             "className": "margin-rep-tilt"
           },
           {
@@ -1089,6 +1089,17 @@
             "className": "margin-rep-solid"
           }
         ]
+      },
+      "projectedControl": {
+        "title": "Projected Senate Control",
+        "democrats": 51,
+        "republicans": 49,
+        "note": "Projected full Senate after combining predicted active races with seats not up this cycle.",
+        "activeRaceWins": {
+          "democrats": 18,
+          "republicans": 17,
+          "label": "Predicted wins in active races"
+        }
       }
     },
     "governor": {
@@ -1099,8 +1110,8 @@
         "demSolid": 12,
         "demLikely": 3,
         "demLean": 3,
-        "demTilt": 1,
-        "repTilt": 2,
+        "demTilt": 2,
+        "repTilt": 1,
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 9,
@@ -1282,13 +1293,13 @@
           "fips": "13",
           "name": "Georgia",
           "active": true,
-          "party": "rep",
+          "party": "dem",
           "status": "prediction",
           "strength": "no-data",
           "label": "Georgia Governor",
           "note": "",
-          "marginCategory": "repTilt",
-          "marginLabel": "Tilt Republican",
+          "marginCategory": "demTilt",
+          "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
           "candidates": [
             {
@@ -2074,13 +2085,13 @@
           {
             "key": "demTilt",
             "label": "Tilt D",
-            "count": 1,
+            "count": 2,
             "className": "margin-dem-tilt"
           },
           {
             "key": "repTilt",
             "label": "Tilt R",
-            "count": 2,
+            "count": 1,
             "className": "margin-rep-tilt"
           },
           {
@@ -2102,6 +2113,17 @@
             "className": "margin-rep-solid"
           }
         ]
+      },
+      "projectedControl": {
+        "title": "Projected Governorships",
+        "democrats": 25,
+        "republicans": 25,
+        "note": "Projected total governorships after combining predicted active races with states not up this cycle.",
+        "activeRaceWins": {
+          "democrats": 20,
+          "republicans": 16,
+          "label": "Predicted wins in active races"
+        }
       }
     },
     "house": {

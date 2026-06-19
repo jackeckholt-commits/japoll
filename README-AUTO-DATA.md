@@ -994,3 +994,41 @@ Changed files:
 Fix:
 - Removed the `About gray states` note from the Senate/Governor map pages.
 - Removed the cycle-note data fields from `data/races.json`.
+
+
+## Version 0.8.37
+
+Changed files:
+- `data/races.json`
+- `js/race-maps.js`
+- `styles.css`
+- `index.html`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI update:
+- Added projected total cards to Senate/Governor prediction pages.
+- Senate now shows projected full Senate control: D 50 / R 50.
+- Governor now shows projected governorships: D 24 / R 26.
+- Also shows predicted wins in active races below the total.
+- Updated homepage cover cards to show projected totals instead of only current control labels.
+
+
+## Version 0.8.38
+
+Changed files:
+- `data/races.json`
+- `index.html`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Prediction update:
+- Changed Texas Senate from Tilt R to Tilt D.
+- Changed Georgia Governor from Tilt R to Tilt D.
+- Recomputed margin-bar category totals and active-race win totals.
+- Updated projected full totals:
+  - Senate: D 51 / R 49
+  - Governor: D 25 / R 25
+- Updated homepage cover cards to match the new projected totals.
