@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.40",
-  "note": "Candidate arrays updated through 2026-06-19 for additional post-primary/post-runoff nominee data where available.",
+  "version": "0.8.43",
+  "note": "Senate and Governor maps use early prediction margin categories. Candidate arrays are updated as primaries and runoffs produce nominees; unresolved states remain marked as waiting.",
   "maps": {
     "senate": {
       "title": "Senate Races",

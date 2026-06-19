@@ -1,8 +1,8 @@
-# State of the Race — Poll Tracker
+# National Poll Tracker data and release guide
 
-Version 0.7.0
+Version 0.8.43
 
-A static polling tracker with automated data updates, stored history, trend charts, and GitHub Pages deployment.
+This project is a static GitHub Pages polling tracker. It combines public polling averages, stores history, and displays national polling, approval, Senate prediction, Governor prediction, and House work-in-progress pages.
 
 ## Current data flow
 
@@ -14,1083 +14,158 @@ GitHub Actions
 → GitHub Pages redeploy
 ```
 
-## Active sources
-
-Generic ballot:
-- VoteHub
-- FiftyPlusOne
-- Silver Bulletin
-- CNN
-- Race to WH
-
-Trump approval:
-- VoteHub
-- FiftyPlusOne
-- Silver Bulletin
-- CNN
-- Race to WH
-- The New York Times
-
-Only live scraped values count in the combined averages. Fallback/reference values can be shown, but they are not counted.
-
-## Run locally
-
-Install dependencies:
+## Main commands
 
 ```bash
 npm install
-```
-
-Install the browser used by Playwright:
-
-```bash
 npm run install-browsers
-```
-
-Update polling data:
-
-```bash
 npm run update-polls
-```
-
-Run the site locally:
-
-```bash
+npm run validate-data
 npm start
 ```
 
-Then open:
+`npm run validate-data` checks the JSON files, race-map totals, projected totals, candidate links, and stale cleanup fields before release.
 
-```text
-http://127.0.0.1:5500
-```
+## Files that should not be manually overwritten
 
-## Automated updates
-
-The updater workflow is:
-
-```text
-.github/workflows/update-polls.yml
-```
-
-It:
-- runs manually from the GitHub Actions tab
-- runs automatically every two days
-- installs dependencies
-- installs Chromium for Playwright
-- runs `npm run update-polls`
-- commits updated data files back to the repo
-
-The protected data files are:
+These files are updated by the scraper/history workflow and should normally be protected:
 
 ```text
 data/polling.json
 data/polling-history.json
 ```
 
-## Data protection
+To intentionally overwrite protected polling data, use the existing `[allow-data]` commit-message override.
 
-The protection workflow is:
-
-```text
-.github/workflows/protect-polling-data.yml
-```
-
-It prevents normal/manual commits from accidentally overwriting the growing data files. The scraper bot is still allowed to update them.
-
-To intentionally allow a data-file change, include this in the commit message:
+## Data files
 
 ```text
-[allow-data]
+data/polling.json          latest national polling/approval data
+data/polling-history.json  stored trend history
+data/history.json          prototype estimated history points
+data/adjustments.json      generic-ballot display adjustment
+data/manual-overrides.json scraper fallback/manual values
+data/races.json            Senate/Governor/House map, ratings, candidates
 ```
 
-## History and 7-day changes
+## National averages
+
+Generic ballot currently uses:
 
-`data/polling-history.json` stores one dated point per scraper run. If the scraper runs more than once on the same day, that day's point is replaced instead of duplicated.
+```text
+VoteHub
+FiftyPlusOne
+Silver Bulletin
+CNN
+Race to WH
+```
 
-The 7-day change cards compare the latest stored point to the oldest usable point inside the previous seven days.
+Trump approval currently uses:
 
-## 0.7 cleanup
+```text
+VoteHub
+FiftyPlusOne
+Silver Bulletin
+CNN
+Race to WH
+The New York Times
+```
+
+Only included source values are used in averages. Sources without usable values should remain visible but excluded.
+
+## Race maps
+
+`data/races.json` is the main file for Senate and Governor map data.
+
+Active race categories:
+
+```text
+demSolid
+demLikely
+demLean
+demTilt
+repTilt
+repLean
+repLikely
+repSolid
+```
+
+When editing a race, keep these fields aligned:
+
+```text
+party
+status
+marginCategory
+marginLabel
+predictedMargin
+```
+
+Then update:
+
+```text
+projection
+marginSummary.segments
+projectedControl.activeRaceWins
+projectedControl.democrats
+projectedControl.republicans
+```
+
+Run:
+
+```bash
+npm run validate-data
+```
+
+before uploading a release patch.
+
+## Candidate data
+
+Candidates live inside each race object in `data/races.json`:
+
+```json
+{
+  "name": "Candidate Name",
+  "party": "Democratic",
+  "wikipedia": "https://en.wikipedia.org/wiki/Candidate_Name"
+}
+```
+
+For independents aligned with Democrats, use:
+
+```json
+{
+  "name": "Candidate Name",
+  "party": "Independent (Dem-aligned)",
+  "wikipedia": "https://en.wikipedia.org/wiki/Candidate_Name",
+  "demAligned": true
+}
+```
+
+States without final nominees should keep:
+
+```text
+Waiting on primary for full results.
+```
+
+## Current projected totals
+
+As of this cleanup pass:
 
-This version:
-- cleaned old updater startup logs
-- replaced long release notes with current setup docs
-- removed old DDHQ cleanup/debug references
-- cleaned source labels on the public pages
-- fixed the FiftyPlusOne approval source link
-- added final responsive layout overrides for desktop/tablet/mobile
+```text
+Senate projection: D 52 / R 48
+Governor projection: D 25 / R 25
+```
 
+House remains work in progress.
 
-## Version 0.7.1
+## Pre-0.9 cleanup completed
 
-Changed files:
-- `styles.css`
-- `package.json`
-- `README-AUTO-DATA.md`
+This cleanup pass:
 
-Fix:
-- Prevented homepage Generic Ballot and Trump Approval numbers from overlapping the center trend chip at medium screen widths.
-- The major-card number row now stacks inside each card before the text gets cramped.
-- Large screens still keep the side-by-side card design.
-
-
-## Version 0.7.2
-
-Changed files:
-- `styles.css`
-- `js/load-polling-data.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fixes:
-- Added a stronger responsive layout fix for the homepage Generic Ballot and Trump Approval cards.
-- The major-card number row now stacks based on card width, not just screen width.
-- Added a fallback media query for browsers without container-query support.
-- Negative weekly-change values now use a real minus sign with a thin space, so it reads like `− 0.4` instead of a cramped hyphen.
-
-
-## Version 0.7.3
-
-Changed files:
-- `index.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `methodology.html`
-- `styles.css`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fixes:
-- Removed the small blue hero eyebrow heading from every page.
-- Moved the homepage trend chips outside the number rows, so the percent numbers cannot overlap them at any screen width.
-- Kept the two large percent numbers side-by-side when there is enough room and stacked them when the card gets narrow.
-
-
-## Version 0.7.4
-
-Changed files:
-- `index.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `methodology.html`
-- `styles.css`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the small blue label headings everywhere.
-- This includes both `.eyebrow` and `.section-label` labels.
-- Added a global CSS fallback so those labels stay hidden even if one remains in future markup.
-
-
-## Version 0.7.5
-
-Changed files:
-- `js/trend-charts.js`
-- `styles.css`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Added a dotted vertical marker to trend charts at the first live collected data point.
-- The marker is labeled `Live data begins` and shows the date.
-- The default hover panel text now explains that the dotted line marks when live data collection began.
-- This makes the jump from estimated starter history to live scraper data understandable.
-
-
-## Version 0.7.6
-
-Changed files:
-- `index.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `methodology.html`
-- `styles.css`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fixes:
-- Restored the homepage major-card large-screen layout so the trend chip sits between the two large numbers again.
-- The cards only stack internally when the card itself gets too narrow.
-- Removed the small blue headings/badges from all HTML pages again and kept a CSS fallback hiding `.eyebrow` and `.section-label`.
-
-
-## Version 0.7.7
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Remade the homepage major cards at medium screen widths.
-- At that size, the two percent values now sit cleanly side-by-side at the top of each card, with the trend chip centered below them.
-- Very large screens keep the original three-column layout.
-- Narrow/mobile screens still stack vertically.
-
-
-## Version 0.7.8
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `js/load-polling-data.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Redesigned the homepage metric cards closer to the mockup.
-- Added a small arrow/change badge next to each main percent:
-  - Democrats
-  - Republicans
-  - Approve
-  - Disapprove
-- The center trend chip remains for margin/net approval change.
-- Medium widths use two percent values above and the trend chip centered below.
-
-
-## Version 0.7.9
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `js/load-polling-data.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the center trend chip from the homepage Generic Ballot and Trump Approval cards.
-- Each main percent now carries its own arrow/change badge:
-  - Democrats
-  - Republicans
-  - Approve
-  - Disapprove
-- This makes the cards simpler and avoids duplicated trend information.
-
-
-## Version 0.7.10
-
-Changed files:
-- `styles.css`
-- `index.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `methodology.html`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Added a mobile overscroll background fix so pulling past the top or bottom should stay dark instead of showing white bars.
-- Set the root `html` and `body` backgrounds to the site dark color.
-- Added `overscroll-behavior-y: none` where supported.
-- Added mobile `theme-color` meta tags.
-
-
-## Version 0.7.11
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `js/load-polling-data.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Added homepage text explaining that the small plus/minus arrow badges show change since last week.
-- Added hover/title text to the mini-change badges, such as “Up 0.4 points since last week.”
-
-
-## Version 0.7.12
-
-Changed files:
-- `methodology.html`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Replaced the About/Methodology page text using the new reference copy.
-- Cleaned spelling and grammar while keeping the same meaning.
-- Added clearer sections for purpose, sources, average-of-averages, current calculations, and algorithm adjustment.
-
-
-## Version 0.7.13
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `js/load-polling-data.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- The small homepage change badges now include `1W`, so it is clear they are weekly changes.
-- Increases are green and decreases are red.
-- Removed hover/title dependence; the weekly-change meaning is visible directly on the page.
-
-
-## Version 0.7.14
-
-Changed files:
-- `scripts/update-polls.js`
-- `.github/workflows/protect-polling-data.yml`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Final 0.7 cleanup:
-- Updated the scraper console version from the old 0.7.0 label to 0.7.14.
-- Restored/added the polling-data protection workflow so manual uploads do not overwrite `data/polling.json` or `data/polling-history.json`.
-- Confirmed the scraper source list is expansion-friendly: new sources can be added by creating a new file in `scripts/sources/`, importing it in `scripts/update-polls.js`, and adding its key to `sourceOrder`.
-
-Expansion notes for 1.0:
-- Keep scraper data in `data/polling.json`.
-- Keep graph/history data in `data/polling-history.json`.
-- Add future race pages as separate HTML pages first, then add new source modules only when the data format is stable.
-- Use `[allow-data]` in a commit message only when intentionally changing the protected data files.
-
-
-## Version 0.7.15
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `js/load-polling-data.js`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed arrow icons from the homepage weekly-change badges because they rendered poorly on mobile.
-- Removed `1W` from each badge.
-- Added one clear homepage note explaining that plus/minus badges show weekly change.
-- Tightened mobile badge sizing so the cards look cleaner before moving into version 0.8.
-
-
-## Version 0.7.16
-
-Changed files:
-- `styles.css`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Blocked horizontal mobile overscroll/page sliding.
-- Locked horizontal overflow on `html`, `body`, and `.page-shell`.
-- Added mobile-safe max-width rules so wide elements cannot push the page sideways.
-
-
-## Version 0.7.17
-
-Changed files:
-- `styles.css`
-- `js/load-polling-data.js`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed arrow characters from the mini weekly-change badge text completely.
-- Desktop arrows are now CSS-only.
-- Mobile hides those CSS arrows, so the phone should no longer render them as emoji.
-- The badges still show plus/minus values such as `+0.8` and `−0.4`.
-
-
-## Version 0.7.18
-
-Changed files:
-- `styles.css`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- On mobile, the plus/minus weekly-change badge now stacks under the percentage instead of sitting to the side.
-- This keeps the badge inside the card and prevents it from getting pushed off-screen.
-
-
-## Version 0.8.0
-
-Changed files:
-- `senate.html`
-- `house.html`
-- `data/races.json`
-- `js/race-maps.js`
-- `styles.css`
-- `index.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `methodology.html`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Major update:
-- Added Senate and House race-map pages.
-- Added clickable U.S. state maps using active-race placeholders.
-- Senate active states are based on 2026 Senate seats up for election, including the two Class 3 special elections.
-- House map treats all states as active because all U.S. House seats are up.
-- Active states are gray until race data is added; non-active states are lighter.
-- Added expandable `data/races.json` structure for future ratings, leaders, called races, and state pages.
-
-
-## Version 0.8.1
-
-Changed files:
-- `governor.html`
-- `senate.html`
-- `house.html`
-- `data/races.json`
-- `styles.css`
-- `index.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `methodology.html`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Correction:
-- Replaced the House race map plan with Governor races.
-- Navigation now links to Senate and Governor.
-- Senate map has 35 active races.
-- Governor map has 36 active state races.
-- The old `house.html` now redirects to `governor.html` so a stale House page does not remain linked or confusing.
-
-
-## Version 0.8.2
-
-Changed files:
-- `house.html`
-- `data/races.json`
-- `styles.css`
-- `index.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `methodology.html`
-- `senate.html`
-- `governor.html`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Correction:
-- Kept Senate and Governor as the active race-map sections.
-- Added House back as a work-in-progress page instead of redirecting it.
-- Navigation now includes `House WIP`.
-- `data/races.json` marks House as work in progress for later district-level expansion.
-
-
-## Version 0.8.3
-
-Changed files:
-- `index.html`
-- `house.html`
-- `senate.html`
-- `governor.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `methodology.html`
-- `styles.css`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed House WIP from the top navigation.
-- Kept Senate and Governor in the top navigation because those are the active map sections.
-- Updated the homepage lower cards into real clickable buttons/links.
-- Senate and Governor are no longer shown as work in progress on the homepage.
-- House remains a lower-page work-in-progress item only.
-
-
-## Version 0.8.5
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Added colored top borders to the lower homepage cards.
-- Replaced paragraph-heavy lower cards with compact overview values.
-- Senate and Governor now show placeholder D/GOP overview numbers directly on the homepage.
-- House remains a work-in-progress card.
-
-
-## Version 0.8.6
-
-Changed files:
-- `data/races.json`
-- `js/race-maps.js`
-- `index.html`
-- `styles.css`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Update:
-- Added current-control bars to the top of Senate and Governor map pages.
-- Senate now uses current control: 47 Democratic caucus / 53 GOP.
-- Governor now uses current control: 24 Democratic governors / 26 GOP governors.
-- Homepage Senate/Governor overview cards now use those same current values.
-
-
-## Version 0.8.7
-
-Changed files:
-- `index.html`
-- `house.html`
-- `styles.css`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Restored the About the Project paragraph on the homepage lower card.
-- Made the House homepage box non-clickable.
-- House now only shows a red `Work in progress` status.
-- The House page itself is a simple work-in-progress page with no map or action buttons.
-
-
-## Version 0.8.8
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Update:
-- Redesigned the Senate and Governor homepage summary numbers so they look cleaner and more intentional.
-- Added party-tinted mini stat panels and a centered divider for a better visual balance.
-
-
-## Version 0.8.9
-
-Changed files:
-- `senate.html`
-- `governor.html`
-- `styles.css`
-- `scripts/update-polls.js`
-- `package.json`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the contact strip from the bottom of the Senate and Governor pages.
-- Made the site footer look more finished with a glass/gradient pill style.
-- Race-page footer now says the race maps are early placeholders instead of showing the contact block.
-
-
-## Version 0.8.10
-
-Changed files:
-- `senate.html`
-- `governor.html`
-- `styles.css`
-- `js/race-maps.js`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fixes:
-- Reverted the race-page footer back to the normal site footer style.
-- Improved the current-control bar labels so the numbers and party text read more clearly.
-- Redesigned the Senate/Governor preview numbers on the homepage so the split counts look cleaner.
-
-
-## Version 0.8.11
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the U.S. outline/background from non-index page headers.
-- Shrunk non-index page headers so they are just a title and subtitle area.
-- Kept the homepage hero separate so the index page can keep its larger design.
-
-
-## Version 0.8.12
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Redesigned the Senate and Governor count blocks on the homepage into cleaner mini scoreboards.
-- Added party-tinted panels, a centered divider, and cleaner label/value spacing.
-- Kept the same values: Senate 47/53 and Governor 24/26.
-
-
-## Version 0.8.13
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the extra top gap on the About/Methodology page.
-- Added a targeted override for pages using `.about-layout` so the About page header matches the tighter style of the other non-index pages.
-
-
-## Version 0.8.14
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the `Current Senate control` and `Current governorships` pills from the homepage cards.
-- Swapped homepage card top colors: Senate is red, Governor is blue.
-- Redesigned the Dem/GOP count area into cleaner stat blocks.
-
-
-## Version 0.8.15
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Redesigned the Senate/Governor page control bars.
-- Made the bars rounded and more polished.
-- Removed the white bars on the left and right ends.
-- Improved the seat-count label styling inside the bars.
-
-
-## Version 0.8.16
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Centered the lower homepage cards.
-- Removed the slash/divider between the Dem and GOP values on the Senate/Governor cards.
-- Replaced `Open Senate map` and `Open Governor map` with `Based on current average`.
-
-
-## Version 0.8.17
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the repeated `Senate/Governor Races Map` heading block inside the race map card.
-- Softened the Senate/Governor control bars so the colors are less bright.
-- Kept the main page title and current-control title.
-
-
-## Version 0.8.18
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Added a subtle homepage guide line above the lower cards: `Click the boxes below to see more`.
-- Styled it as a small centered pill so users know the boxes are interactive.
-
-
-## Version 0.8.19
-
-Changed files:
-- `index.html`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Moved the `Click the boxes below to see more` guide above the entire homepage card grid.
-- It now appears above the generic ballot and Trump approval boxes too.
-
-
-## Version 0.8.20
-
-Changed files:
-- `js/trend-charts.js`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Changed the homepage trend chart visible window to start in March instead of February.
-- This should spread the visible points out more and make the latest dots look less compressed.
-
-
-## Version 0.8.21
-
-Changed files:
-- `js/trend-charts.js`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Made the March start date apply only to the generic ballot trend chart.
-- Trump approval keeps its normal full date range.
-- The chart start month is now controlled per chart config instead of globally.
-
-
-## Version 0.8.22
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the subtitle line under the hero title on Senate, Governor, and About pages.
-- This removes repeated wording like the sentence under `Senate Races`.
-
-
-## Version 0.8.23
-
-Changed files:
-- `data/races.json`
-- `js/race-maps.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Major update:
-- Added a margin-colored Governor prediction map.
-- Added a seven-category margin bar/legend: strong D, likely D, lean D, toss-up, lean R, likely R, strong R.
-- Governor map colors now use prediction margins.
-- State click panel now explains the predicted margin and candidate status.
-- Candidate section says `Waiting on primary for full results` when nominee data is not available.
-- Added state labels to the map.
-
-
-## Version 0.8.24
-
-Changed files:
-- `data/races.json`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Major update:
-- Converted the Senate map to the same margin-based prediction style as the Governor map.
-- Added seven Senate margin categories: strong D, likely D, lean D, toss-up, lean R, likely R, strong R.
-- Senate state click panels now use the prediction/candidate placeholder flow already used on the Governor page.
-- Senate page now explains that margins are predictions based on current available data.
-
-
-## Version 0.8.25
-
-Changed files:
-- `data/races.json`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Corrected the Senate and Governor margin categories to better match the reference maps.
-- Senate changes include moving Maine to toss-up, Georgia to likely Democratic, and Louisiana/Nebraska/South Dakota to likely Republican.
-- Governor changes include moving Nevada to toss-up, Wisconsin to lean Democratic, Minnesota to solid Democratic, and Alaska to lean Republican.
-- These are still prediction placeholders based on the current map design and can be tuned as more real race data is added.
-
-
-## Version 0.8.26
-
-Changed files:
-- `data/races.json`
-- `js/race-maps.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the toss-up category from the Senate and Governor margin maps.
-- Added `Tilt D` and `Tilt R` as very light blue/red categories.
-- Updated the bottom margin bars to use eight categories instead of a gray toss-up middle.
-- Close states now show as tilt Democratic or tilt Republican, not toss-up.
-
-
-## Version 0.8.27
-
-Changed files:
-- `index.html`
-- `methodology.html`
-- `national-averages.html`
-- `trump-approval.html`
-- `senate.html`
-- `governor.html`
-- `house.html`
-- `js/race-maps.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Added Inter Tight across the website.
-- Updated map state-label lettering to be smaller, tighter, and cleaner.
-- Added compact label classes for smaller states.
-- Updated margin-bar numbers and labels to use the same font and fit better inside each color segment.
-
-
-## Version 0.8.28
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Made the state abbreviation labels on the Senate/Governor maps slightly larger.
-- Made the margin-bar numbers and category labels larger.
-- Kept smaller responsive label sizes for compact states and mobile screens so text still fits.
-
-
-## Version 0.8.29
-
-Changed files:
-- `data/races.json`
-- `js/race-maps.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the repeated `very light blue/red means tilt, not toss-up` sentence.
-- Removed the extra prediction/candidate note from state click panels.
-- State click panels still show the margin and the candidate waiting message.
-
-
-## Version 0.8.30
-
-Changed files:
-- `data/races.json`
-- `js/race-maps.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Candidate update:
-- Added post-primary candidate names and Wikipedia links for verified races currently available.
-- Senate updates: Arkansas, Iowa, North Carolina, and South Dakota.
-- Governor updates: Arkansas, Iowa, New Mexico, Ohio, and Texas.
-- Added support for candidates marked as `Independent (Dem-aligned)` when needed in later updates.
-- States without verified nominees still show `Waiting on primary for full results.`
-
-
-## Version 0.8.31
-
-Changed files:
-- `data/races.json`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Candidate update:
-- Added more Senate candidate names and Wikipedia links where nominees or presumptive nominees are available.
-- Added more Governor candidate names and Wikipedia links where nominees are available.
-- Added an Independent (Dem-aligned) label for Seth Bodnar in Montana Senate, while keeping other independents as regular independent unless clearly aligned.
-- States with unresolved primaries or runoffs remain marked as waiting for final results.
-
-
-## Version 0.8.32
-
-Changed files:
-- `js/race-maps.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-UI update:
-- Candidate rows now show `Click to see more`.
-- Candidate boxes are colored by party: Democratic blue, Republican red, Independent/Libertarian neutral.
-- Dem-aligned independents get Democratic-aligned styling.
-
-
-## Version 0.8.33
-
-Changed files:
-- `data/races.json`
-- `js/race-maps.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-UI update:
-- Added a note on Senate and Governor pages explaining that not all seats/states are up this cycle.
-- Senate note explains only one-third of Senate seats are up each cycle.
-- Governor note explains not every governorship is up this cycle.
-- Gray/non-active states are explained as not active this cycle or lacking current prediction data.
-
-
-## Version 0.8.34
-
-Changed files:
-- `js/trend-charts.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Fixed the trend-chart x-axis so the same month/year label should not repeat multiple times at the end.
-- Uses unique month ticks with minimum pixel spacing.
-- Did not change the homepage weekly-change arrows or numbers.
-
-
-## Version 0.8.35
-
-Changed files:
-- `js/load-polling-data.js` if needed
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the neutral/right arrow from weekly-change badges when the value is exactly `0.0`.
-- Positive values still show up arrows and negative values still show down arrows.
-
-
-## Version 0.8.36
-
-Changed files:
-- `data/races.json`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the `About gray states` note from the Senate/Governor map pages.
-- Removed the cycle-note data fields from `data/races.json`.
-
-
-## Version 0.8.37
-
-Changed files:
-- `data/races.json`
-- `js/race-maps.js`
-- `styles.css`
-- `index.html`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-UI update:
-- Added projected total cards to Senate/Governor prediction pages.
-- Senate now shows projected full Senate control: D 50 / R 50.
-- Governor now shows projected governorships: D 24 / R 26.
-- Also shows predicted wins in active races below the total.
-- Updated homepage cover cards to show projected totals instead of only current control labels.
-
-
-## Version 0.8.38
-
-Changed files:
-- `data/races.json`
-- `index.html`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Prediction update:
-- Changed Texas Senate from Tilt R to Tilt D.
-- Changed Georgia Governor from Tilt R to Tilt D.
-- Recomputed margin-bar category totals and active-race win totals.
-- Updated projected full totals:
-  - Senate: D 51 / R 49
-  - Governor: D 25 / R 25
-- Updated homepage cover cards to match the new projected totals.
-
-
-## Version 0.8.39
-
-Changed files:
-- `data/races.json`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Candidate update:
-- Added newly available Senate nominee/candidate data for Alabama, Georgia, Maine, and South Carolina.
-- Georgia Senate now lists Mike Collins as the Republican nominee and removes Derek Dooley from the candidate list.
-- Added newly available Governor data for Georgia, New Mexico, and South Dakota.
-- Georgia Governor now lists Rick Jackson and Keisha Lance Bottoms.
-- New Mexico Governor spelling corrected to Gregg Hull and adds Ken Miyagishima as an independent.
-- South Dakota Governor lists Daniel Ahlers and notes the Republican runoff candidates Larry Rhoden and Toby Doeden.
-
-
-## Version 0.8.40
-
-Changed files:
-- `data/races.json`
-- `index.html`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Corrected the Senate projected full total to D 52 / R 48.
-- The Senate map already showed active race predictions of D 18 / R 17.
-- Factoring in seats not up this cycle makes the full Senate projection D 52 / R 48.
-- Updated the homepage Senate card to show D 52 / R 48.
-
-
-## Version 0.8.41
-
-Changed files:
-- `js/trend-charts.js`
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-Fix:
-- Removed the forced final-date x-axis tick from trend charts.
-- This prevents the repeated-looking `Jun 26` labels at the right side of the chart.
-- Added a CSS fallback that hides any extra last tick label if older cached chart markup appears.
-
-
-## Version 0.8.42
-
-Changed files:
-- `styles.css`
-- `package.json`
-- `scripts/update-polls.js`
-- `README-AUTO-DATA.md`
-
-UI fix:
-- Fixed candidate row overlap when long party labels appear, such as `Independent (Dem-aligned)`.
-- Candidate rows now use a responsive grid layout.
-- Long party labels wrap or move below the candidate name on narrow cards.
+- replaced the long version-by-version README with current setup documentation
+- added `scripts/validate-data.js`
+- added `npm run validate-data` and `npm run check`
+- removed stale race-cycle note data/rendering
+- removed stale CSS blocks for the deleted gray-state note
+- removed duplicate candidate styling overrides
+- kept the public design unchanged

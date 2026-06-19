@@ -1,12 +1,14 @@
 {
   "name": "state-of-the-race",
-  "version": "0.8.42",
+  "version": "0.8.43",
   "type": "module",
   "private": true,
   "scripts": {
     "update-polls": "node scripts/update-polls.js",
     "start": "npx live-server . --port=5500",
-    "install-browsers": "npx playwright install chromium"
+    "install-browsers": "npx playwright install chromium",
+    "validate-data": "node scripts/validate-data.js",
+    "check": "npm run validate-data"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

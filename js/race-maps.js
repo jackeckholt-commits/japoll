@@ -113,15 +113,6 @@ function getCandidatePartyClass(candidate) {
 }
 
 
-function renderCycleNote(mapData) {
-  if (!mapData || !mapData.cycleNote) return "";
-  return `
-    <div class="race-cycle-note">
-      <strong>${mapData.cycleNote.title || "About this map"}</strong>
-      <span>${mapData.cycleNote.body || ""}</span>
-    </div>
-  `;
-}
 
 function renderCandidateList(race) {
   const candidates = Array.isArray(race.candidates) ? race.candidates : [];
@@ -148,6 +139,36 @@ function renderCandidateList(race) {
   `;
 }
 
+
+function renderProjectedControlSummary(mapData) {
+  const projected = mapData.projectedControl;
+  if (!projected) return "";
+
+  const active = projected.activeRaceWins || null;
+  const activeLine = active
+    ? `<div class="projected-active-line">${active.label || "Predicted wins in active races"}: <strong>D ${active.democrats}</strong> / <strong>R ${active.republicans}</strong></div>`
+    : "";
+
+  return `
+    <div class="projected-control-card">
+      <div class="projected-control-title">${projected.title || "Projected Total"}</div>
+      <div class="projected-control-score">
+        <span class="projected-party projected-dem">
+          <small>Dems</small>
+          <strong>${projected.democrats}</strong>
+        </span>
+        <span class="projected-divider">/</span>
+        <span class="projected-party projected-rep">
+          <small>GOP</small>
+          <strong>${projected.republicans}</strong>
+        </span>
+      </div>
+      ${activeLine}
+      <p>${projected.note || ""}</p>
+    </div>
+  `;
+}
+
 function renderMarginSummary(container, mapData) {
   const summary = mapData.marginSummary;
   if (!summary || !Array.isArray(summary.segments)) return false;
@@ -164,8 +185,8 @@ function renderMarginSummary(container, mapData) {
       <p>${summary.subtitle || ""}</p>
     </div>
     <div class="margin-control-bar" aria-label="${summary.title || "Race prediction margin bar"}">${segments}</div>
+    ${renderProjectedControlSummary(mapData)}
     <div class="margin-legend-note">Margins are estimates and should update as polling, ratings, and primary results become available.</div>
-    ${renderCycleNote(mapData)}
   `;
   return true;
 }
