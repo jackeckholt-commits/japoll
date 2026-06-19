@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.36",
+  "version": "0.8.33",
   "note": "Senate and Governor maps include early prediction margins. Candidate arrays are populated for races with verified nominees or presumptive nominees where available; additional states can be updated later.",
   "maps": {
     "senate": {
@@ -9,9 +9,9 @@
       "totalLabel": "35 Senate races",
       "projection": {
         "demSolid": 9,
-        "demLikely": 2,
+        "demLikely": 3,
         "demLean": 2,
-        "demTilt": 4,
+        "demTilt": 3,
         "repTilt": 2,
         "repLean": 3,
         "repLikely": 3,
@@ -181,9 +181,9 @@
           "strength": "no-data",
           "label": "Georgia Senate",
           "note": "",
-          "marginCategory": "demTilt",
-          "marginLabel": "Tilt Democratic",
-          "predictedMargin": 0.5,
+          "marginCategory": "demLikely",
+          "marginLabel": "D+5 to D+15",
+          "predictedMargin": 8,
           "candidates": [
             {
               "name": "Jon Ossoff",
@@ -567,12 +567,17 @@
               "wikipedia": "https://en.wikipedia.org/wiki/Pete_Ricketts"
             },
             {
+              "name": "Cindy Burbank",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska"
+            },
+            {
               "name": "Dan Osborn",
               "party": "Independent",
               "wikipedia": "https://en.wikipedia.org/wiki/Dan_Osborn"
             }
           ],
-          "candidateStatus": "Candidates added; no Democratic nominee shown"
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "NV",
@@ -1044,7 +1049,7 @@
           {
             "key": "demLikely",
             "label": "D+5",
-            "count": 2,
+            "count": 3,
             "className": "margin-dem-likely"
           },
           {
@@ -1056,7 +1061,7 @@
           {
             "key": "demTilt",
             "label": "Tilt D",
-            "count": 4,
+            "count": 3,
             "className": "margin-dem-tilt"
           },
           {
@@ -1083,14 +1088,11 @@
             "count": 10,
             "className": "margin-rep-solid"
           }
-        ],
-        "contextNote": "Not every Senate seat is up in 2026. Seats not on this map are treated as staying with their current party caucus.",
-        "notUpSeats": {
-          "leftLabel": "Dem/Ind caucus not up",
-          "leftCount": 32,
-          "rightLabel": "GOP not up",
-          "rightCount": 33
-        }
+        ]
+      },
+      "cycleNote": {
+        "title": "About gray states",
+        "body": "Only one-third of U.S. Senate seats are up each cycle. Gray states are not active Senate races on this map; they show seats not up this cycle or states without current prediction data."
       }
     },
     "governor": {
@@ -2103,14 +2105,11 @@
             "count": 9,
             "className": "margin-rep-solid"
           }
-        ],
-        "contextNote": "Not every governorship is up in 2026. States not on this map are treated as staying with their current party control.",
-        "notUpSeats": {
-          "leftLabel": "Dem governors not up",
-          "leftCount": 5,
-          "rightLabel": "GOP governors not up",
-          "rightCount": 9
-        }
+        ]
+      },
+      "cycleNote": {
+        "title": "About gray states",
+        "body": "Not every governorship is up for election this cycle. Gray states are not active governor races on this map; they show states without a governor race this cycle or without current prediction data."
       }
     },
     "house": {
