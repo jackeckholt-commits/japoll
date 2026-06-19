@@ -164,26 +164,18 @@ function getUniqueMonthTicks(rows, xScale, width) {
     cursor.setMonth(cursor.getMonth() + 1);
   }
 
-  addTick(maxDate);
-
   const minPixelSpacing = width < 640 ? 120 : 155;
   const filtered = [];
 
   for (const tick of ticks) {
     const last = filtered[filtered.length - 1];
-    if (!last || Math.abs(xScale(tick) - xScale(last)) >= minPixelSpacing || tick.getTime() === maxDate.getTime()) {
-      if (
-        filtered.length &&
-        tick.getTime() === maxDate.getTime() &&
-        Math.abs(xScale(tick) - xScale(filtered[filtered.length - 1])) < minPixelSpacing
-      ) {
-        filtered[filtered.length - 1] = tick;
-      } else {
-        filtered.push(tick);
-      }
+    if (!last || Math.abs(xScale(tick) - xScale(last)) >= minPixelSpacing) {
+      filtered.push(tick);
     }
   }
 
+  // Do not force the final data date as an axis label. It caused crowded duplicate-looking
+  // labels like "Jun 26" at the far right when many recent points were close together.
   return filtered;
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "state-of-the-race",
-  "version": "0.8.40",
+  "version": "0.8.41",
   "type": "module",
   "private": true,
   "scripts": {

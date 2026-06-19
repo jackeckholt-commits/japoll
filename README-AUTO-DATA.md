@@ -1065,3 +1065,18 @@ Fix:
 - The Senate map already showed active race predictions of D 18 / R 17.
 - Factoring in seats not up this cycle makes the full Senate projection D 52 / R 48.
 - Updated the homepage Senate card to show D 52 / R 48.
+
+
+## Version 0.8.41
+
+Changed files:
+- `js/trend-charts.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Removed the forced final-date x-axis tick from trend charts.
+- This prevents the repeated-looking `Jun 26` labels at the right side of the chart.
+- Added a CSS fallback that hides any extra last tick label if older cached chart markup appears.

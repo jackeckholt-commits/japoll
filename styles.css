@@ -6686,3 +6686,109 @@ body {
 .race-cycle-note {
   display: none !important;
 }
+
+
+/* 0.8.37: projected total cards for race maps */
+.projected-control-card {
+  width: min(680px, 100%);
+  margin: 16px auto 14px;
+  padding: 16px 18px;
+  border: 1px solid rgba(159, 211, 255, 0.16);
+  border-radius: 20px;
+  background:
+    linear-gradient(135deg, rgba(77, 163, 255, 0.075), rgba(255, 91, 91, 0.065)),
+    rgba(255, 255, 255, 0.035);
+  text-align: center;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.045),
+    0 16px 40px rgba(0, 0, 0, 0.16);
+}
+
+.projected-control-title {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 950;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.projected-control-score {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 2vw, 22px);
+  margin-top: 8px;
+}
+
+.projected-party {
+  display: grid;
+  gap: 2px;
+  min-width: 96px;
+}
+
+.projected-party small {
+  font-size: 0.8rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--light-gray);
+}
+
+.projected-party strong {
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 0.9;
+  font-weight: 1000;
+  letter-spacing: -0.07em;
+}
+
+.projected-dem strong {
+  color: var(--baby-blue);
+}
+
+.projected-rep strong {
+  color: var(--soft-red);
+}
+
+.projected-divider {
+  color: var(--light-gray);
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  font-weight: 900;
+  opacity: 0.82;
+}
+
+.projected-active-line {
+  margin-top: 10px;
+  color: var(--light-gray);
+  font-size: 0.92rem;
+  font-weight: 850;
+}
+
+.projected-active-line strong {
+  color: var(--white);
+}
+
+.projected-control-card p {
+  margin: 8px auto 0;
+  max-width: 560px;
+  color: var(--light-gray);
+  font-size: 0.88rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+@media (max-width: 760px) {
+  .projected-control-card {
+    padding: 14px;
+  }
+
+  .projected-party {
+    min-width: 78px;
+  }
+}
+
+
+/* 0.8.41: hide extra right-edge chart date label */
+.trend-chart-card .x-axis .tick:last-of-type text,
+.trend-chart svg .x-axis .tick:last-of-type text {
+  display: none !important;
+}
