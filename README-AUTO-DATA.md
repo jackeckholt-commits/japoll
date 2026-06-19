@@ -1032,3 +1032,20 @@ Prediction update:
   - Senate: D 51 / R 49
   - Governor: D 25 / R 25
 - Updated homepage cover cards to match the new projected totals.
+
+
+## Version 0.8.39
+
+Changed files:
+- `data/races.json`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Candidate update:
+- Added newly available Senate nominee/candidate data for Alabama, Georgia, Maine, and South Carolina.
+- Georgia Senate now lists Mike Collins as the Republican nominee and removes Derek Dooley from the candidate list.
+- Added newly available Governor data for Georgia, New Mexico, and South Dakota.
+- Georgia Governor now lists Rick Jackson and Keisha Lance Bottoms.
+- New Mexico Governor spelling corrected to Gregg Hull and adds Ken Miyagishima as an independent.
+- South Dakota Governor lists Daniel Ahlers and notes the Republican runoff candidates Larry Rhoden and Toby Doeden.

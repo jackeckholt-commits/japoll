@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.38",
-  "note": "Senate and Governor maps include early prediction margins. Candidate arrays are populated for races with verified nominees or presumptive nominees where available; additional states can be updated later.",
+  "version": "0.8.39",
+  "note": "Candidate arrays updated through 2026-06-19 for additional post-primary/post-runoff nominee data where available.",
   "maps": {
     "senate": {
       "title": "Senate Races",
@@ -32,8 +32,19 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Barry Moore",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
+            },
+            {
+              "name": "Everett Wess",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "AK",
@@ -192,16 +203,11 @@
             },
             {
               "name": "Mike Collins",
-              "party": "Republican runoff",
+              "party": "Republican",
               "wikipedia": "https://en.wikipedia.org/wiki/Mike_Collins_(Georgia_politician)"
-            },
-            {
-              "name": "Derek Dooley",
-              "party": "Republican runoff",
-              "wikipedia": "https://en.wikipedia.org/wiki/Derek_Dooley_(American_football)"
             }
           ],
-          "candidateStatus": "Nominees/candidates added"
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "HI",
@@ -401,8 +407,19 @@
           "marginCategory": "demTilt",
           "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Susan Collins",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Susan_Collins"
+            },
+            {
+              "name": "Graham Platner",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Graham_Platner"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "MD",
@@ -829,8 +846,29 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Lindsey Graham",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Lindsey_Graham"
+            },
+            {
+              "name": "Annie Andrews",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Annie_Andrews"
+            },
+            {
+              "name": "Kasie Whitener",
+              "party": "Libertarian",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina"
+            },
+            {
+              "name": "Mark Hackett",
+              "party": "Constitution",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina"
+            }
+          ],
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "SD",
@@ -1303,12 +1341,17 @@
           "predictedMargin": 0.5,
           "candidates": [
             {
+              "name": "Rick Jackson",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election"
+            },
+            {
               "name": "Keisha Lance Bottoms",
               "party": "Democratic",
               "wikipedia": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms"
             }
           ],
-          "candidateStatus": "Nominees/candidates added"
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "HI",
@@ -1692,12 +1735,17 @@
               "wikipedia": "https://en.wikipedia.org/wiki/Deb_Haaland"
             },
             {
-              "name": "Greg Hull",
+              "name": "Gregg Hull",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election"
+              "wikipedia": "https://en.wikipedia.org/wiki/Gregg_Hull"
+            },
+            {
+              "name": "Ken Miyagishima",
+              "party": "Independent",
+              "wikipedia": "https://en.wikipedia.org/wiki/Ken_Miyagishima"
             }
           ],
-          "candidateStatus": "Nominees/candidates added"
+          "candidateStatus": "Post-primary nominees added"
         },
         {
           "state": "NY",
@@ -1892,8 +1940,24 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Larry Rhoden",
+              "party": "Republican runoff",
+              "wikipedia": "https://en.wikipedia.org/wiki/Larry_Rhoden"
+            },
+            {
+              "name": "Toby Doeden",
+              "party": "Republican runoff",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_South_Dakota_gubernatorial_election"
+            },
+            {
+              "name": "Daniel Ahlers",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Ahlers"
+            }
+          ],
+          "candidateStatus": "Democratic nominee added; Republican runoff pending"
         },
         {
           "state": "TN",
