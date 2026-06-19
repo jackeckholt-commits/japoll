@@ -1080,3 +1080,17 @@ Fix:
 - Removed the forced final-date x-axis tick from trend charts.
 - This prevents the repeated-looking `Jun 26` labels at the right side of the chart.
 - Added a CSS fallback that hides any extra last tick label if older cached chart markup appears.
+
+
+## Version 0.8.42
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Fixed candidate row overlap when long party labels appear, such as `Independent (Dem-aligned)`.
+- Candidate rows now use a responsive grid layout.
+- Long party labels wrap or move below the candidate name on narrow cards.

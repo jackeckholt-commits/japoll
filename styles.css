@@ -6792,3 +6792,57 @@ body {
 .trend-chart svg .x-axis .tick:last-of-type text {
   display: none !important;
 }
+
+
+/* 0.8.42: prevent long candidate party tags from overlapping names */
+.candidate-list {
+  container-type: inline-size;
+}
+
+.candidate-link {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  align-items: center !important;
+  gap: 10px 12px !important;
+}
+
+.candidate-main {
+  min-width: 0 !important;
+}
+
+.candidate-main strong,
+.candidate-main em {
+  overflow-wrap: anywhere;
+}
+
+.candidate-link small {
+  position: static !important;
+  max-width: 100%;
+  white-space: normal !important;
+  text-align: center;
+  justify-self: end;
+}
+
+@container (max-width: 340px) {
+  .candidate-link {
+    grid-template-columns: 1fr;
+    align-items: start !important;
+  }
+
+  .candidate-link small {
+    justify-self: start;
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .candidate-link {
+    grid-template-columns: 1fr;
+  }
+
+  .candidate-link small {
+    justify-self: start;
+    text-align: left;
+  }
+}
