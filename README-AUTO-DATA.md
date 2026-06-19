@@ -1049,3 +1049,19 @@ Candidate update:
 - Georgia Governor now lists Rick Jackson and Keisha Lance Bottoms.
 - New Mexico Governor spelling corrected to Gregg Hull and adds Ken Miyagishima as an independent.
 - South Dakota Governor lists Daniel Ahlers and notes the Republican runoff candidates Larry Rhoden and Toby Doeden.
+
+
+## Version 0.8.40
+
+Changed files:
+- `data/races.json`
+- `index.html`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Corrected the Senate projected full total to D 52 / R 48.
+- The Senate map already showed active race predictions of D 18 / R 17.
+- Factoring in seats not up this cycle makes the full Senate projection D 52 / R 48.
+- Updated the homepage Senate card to show D 52 / R 48.

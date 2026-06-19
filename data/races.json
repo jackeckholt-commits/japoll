@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.39",
+  "version": "0.8.40",
   "note": "Candidate arrays updated through 2026-06-19 for additional post-primary/post-runoff nominee data where available.",
   "maps": {
     "senate": {
@@ -1130,8 +1130,8 @@
       },
       "projectedControl": {
         "title": "Projected Senate Control",
-        "democrats": 51,
-        "republicans": 49,
+        "democrats": 52,
+        "republicans": 48,
         "note": "Projected full Senate after combining predicted active races with seats not up this cycle.",
         "activeRaceWins": {
           "democrats": 18,
