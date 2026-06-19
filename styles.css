@@ -6680,3 +6680,9 @@ body {
 .weekly-change-badge.is-neutral .change-arrow {
   display: none !important;
 }
+
+
+/* 0.8.36: remove gray-states explanatory note */
+.race-cycle-note {
+  display: none !important;
+}

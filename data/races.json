@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.33",
+  "version": "0.8.36",
   "note": "Senate and Governor maps include early prediction margins. Candidate arrays are populated for races with verified nominees or presumptive nominees where available; additional states can be updated later.",
   "maps": {
     "senate": {
@@ -1089,10 +1089,6 @@
             "className": "margin-rep-solid"
           }
         ]
-      },
-      "cycleNote": {
-        "title": "About gray states",
-        "body": "Only one-third of U.S. Senate seats are up each cycle. Gray states are not active Senate races on this map; they show seats not up this cycle or states without current prediction data."
       }
     },
     "governor": {
@@ -2106,10 +2102,6 @@
             "className": "margin-rep-solid"
           }
         ]
-      },
-      "cycleNote": {
-        "title": "About gray states",
-        "body": "Not every governorship is up for election this cycle. Gray states are not active governor races on this map; they show states without a governor race this cycle or without current prediction data."
       }
     },
     "house": {

@@ -980,3 +980,17 @@ Changed files:
 Fix:
 - Removed the neutral/right arrow from weekly-change badges when the value is exactly `0.0`.
 - Positive values still show up arrows and negative values still show down arrows.
+
+
+## Version 0.8.36
+
+Changed files:
+- `data/races.json`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Removed the `About gray states` note from the Senate/Governor map pages.
+- Removed the cycle-note data fields from `data/races.json`.
