@@ -1,23 +1,4 @@
 
-function getCompactDateTicks(startDate, endDate) {
-  const start = new Date(startDate);
-  const end = new Date(endDate);
-  if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) return [];
-  return [
-    start,
-    new Date(start.getTime() + ((end.getTime() - start.getTime()) / 2)),
-    end
-  ];
-}
-
-function formatCompactAxisDate(date) {
-  return date.toLocaleDateString("en-US", {
-    month: "short",
-    year: "2-digit"
-  });
-}
-
-
 function parseDate(value) {
   const date = new Date(`${value}T00:00:00`);
   return Number.isNaN(date.getTime()) ? new Date(value) : date;
@@ -151,6 +132,59 @@ function filterRowsByConfiguredStartMonth(rows, config) {
   const filteredRows = rows.filter(row => parseDate(row.date) >= startDate);
 
   return filteredRows.length >= 2 ? filteredRows : rows;
+}
+
+
+function getUniqueMonthTicks(rows, xScale, width) {
+  const dates = rows
+    .map(row => parseDate(row.date))
+    .filter(date => !Number.isNaN(date.getTime()))
+    .sort((a, b) => a - b);
+
+  if (!dates.length) return [];
+
+  const minDate = dates[0];
+  const maxDate = dates[dates.length - 1];
+  const ticks = [];
+  const seen = new Set();
+
+  const addTick = date => {
+    const key = `${date.getFullYear()}-${date.getMonth()}`;
+    if (!seen.has(key)) {
+      seen.add(key);
+      ticks.push(date);
+    }
+  };
+
+  addTick(minDate);
+
+  const cursor = new Date(minDate.getFullYear(), minDate.getMonth() + 1, 1);
+  while (cursor < maxDate) {
+    addTick(new Date(cursor));
+    cursor.setMonth(cursor.getMonth() + 1);
+  }
+
+  addTick(maxDate);
+
+  const minPixelSpacing = width < 640 ? 120 : 155;
+  const filtered = [];
+
+  for (const tick of ticks) {
+    const last = filtered[filtered.length - 1];
+    if (!last || Math.abs(xScale(tick) - xScale(last)) >= minPixelSpacing || tick.getTime() === maxDate.getTime()) {
+      if (
+        filtered.length &&
+        tick.getTime() === maxDate.getTime() &&
+        Math.abs(xScale(tick) - xScale(filtered[filtered.length - 1])) < minPixelSpacing
+      ) {
+        filtered[filtered.length - 1] = tick;
+      } else {
+        filtered.push(tick);
+      }
+    }
+  }
+
+  return filtered;
 }
 
 function renderTrendChart(container, config, rows) {

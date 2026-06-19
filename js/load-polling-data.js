@@ -1,38 +1,3 @@
-
-function getLatestHistoricalChange(historyRows, groupKey, valueKey, currentValue) {
-  if (!Array.isArray(historyRows) || typeof currentValue !== "number") return 0;
-
-  const rows = historyRows
-    .filter(row => row && row[groupKey] && typeof row[groupKey][valueKey] === "number")
-    .sort((a, b) => new Date(b.updatedAt || b.date) - new Date(a.updatedAt || a.date));
-
-  const latestUsable = rows.find(row => {
-    const value = row[groupKey][valueKey];
-    return typeof value === "number" && Math.abs(value - currentValue) > 0.04;
-  });
-
-  if (!latestUsable) return 0;
-  return Number((currentValue - latestUsable[groupKey][valueKey]).toFixed(1));
-}
-
-function normalizeHomepageWeeklyChanges(data, history) {
-  if (!data || !Array.isArray(history)) return data;
-
-  if (data.genericBallot && data.genericBallot.average) {
-    data.genericBallot.weeklyChange = data.genericBallot.weeklyChange || {};
-    data.genericBallot.weeklyChange.democrats = getLatestHistoricalChange(history, "genericBallot", "democrats", data.genericBallot.average.democrats);
-    data.genericBallot.weeklyChange.republicans = getLatestHistoricalChange(history, "genericBallot", "republicans", data.genericBallot.average.republicans);
-  }
-
-  if (data.trumpApproval && data.trumpApproval.average) {
-    data.trumpApproval.weeklyChange = data.trumpApproval.weeklyChange || {};
-    data.trumpApproval.weeklyChange.approve = getLatestHistoricalChange(history, "trumpApproval", "approve", data.trumpApproval.average.approve);
-    data.trumpApproval.weeklyChange.disapprove = getLatestHistoricalChange(history, "trumpApproval", "disapprove", data.trumpApproval.average.disapprove);
-  }
-
-  return data;
-}
-
 const DEFAULT_GENERIC_ADJUSTMENT = {
   enabled: true,
   party: "D",
@@ -386,4 +351,19 @@ async function loadPollingData() {
 
 loadPollingData().catch(error => {
   console.error("Could not load polling data:", error);
+});
+
+
+function cleanNeutralWeeklyBadges() {
+  document.querySelectorAll(".trend-badge, .change-badge, .weekly-change-badge").forEach(badge => {
+    const text = badge.textContent.trim();
+    if (/^[→↔-]?\s*0\.0$/.test(text) || text === "0" || text === "0.0") {
+      badge.textContent = "0.0";
+      badge.classList.add("is-neutral");
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(cleanNeutralWeeklyBadges, 0);
 });

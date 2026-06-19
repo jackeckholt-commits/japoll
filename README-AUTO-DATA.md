@@ -951,3 +951,32 @@ UI update:
 - Senate note explains only one-third of Senate seats are up each cycle.
 - Governor note explains not every governorship is up this cycle.
 - Gray/non-active states are explained as not active this cycle or lacking current prediction data.
+
+
+## Version 0.8.34
+
+Changed files:
+- `js/trend-charts.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Fixed the trend-chart x-axis so the same month/year label should not repeat multiple times at the end.
+- Uses unique month ticks with minimum pixel spacing.
+- Did not change the homepage weekly-change arrows or numbers.
+
+
+## Version 0.8.35
+
+Changed files:
+- `js/load-polling-data.js` if needed
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fix:
+- Removed the neutral/right arrow from weekly-change badges when the value is exactly `0.0`.
+- Positive values still show up arrows and negative values still show down arrows.

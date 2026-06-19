@@ -6651,3 +6651,32 @@ body {
 @media (max-width: 760px) {
   .race-cycle-note { margin: 12px 0 24px; padding: 13px 14px; text-align: left; }
 }
+
+
+/* 0.8.34: prevent crowded repeated-looking chart date labels */
+.trend-chart-card .x-axis text,
+.trend-chart svg .x-axis text {
+  font-size: 0.72rem !important;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 760px) {
+  .trend-chart-card .x-axis text,
+  .trend-chart svg .x-axis text {
+    font-size: 0.64rem !important;
+  }
+}
+
+
+/* 0.8.35: no arrow for exactly zero weekly change */
+.trend-badge.is-neutral,
+.change-badge.is-neutral,
+.weekly-change-badge.is-neutral {
+  color: var(--light-gray) !important;
+}
+
+.trend-badge.is-neutral .change-arrow,
+.change-badge.is-neutral .change-arrow,
+.weekly-change-badge.is-neutral .change-arrow {
+  display: none !important;
+}
