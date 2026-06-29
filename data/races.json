@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.34",
+  "version": "0.8.35",
   "note": "Candidate lists are intentionally conservative: only verified/current general-election matchups or clearly documented post-primary candidates are shown. Other active races wait for primary or runoff confirmation.",
   "maps": {
     "senate": {
@@ -1630,8 +1630,19 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Alan Wilson",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Alan_Wilson_(politician)"
+            },
+            {
+              "name": "Jermaine Johnson",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Jermaine_Johnson_(politician)"
+            }
+          ],
+          "candidateStatus": "Confirmed/current matchup added"
         },
         {
           "state": "SD",

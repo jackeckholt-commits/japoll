@@ -972,3 +972,20 @@ Candidate correction:
   - Governor: CA, OR
 - Nebraska marks Dan Osborn as `Independent (Dem-aligned)` and notes Cindy Burbank as a Democratic placeholder planning to step aside.
 - All other active states show `Waiting on primary for full results.`
+
+
+## Version 0.8.35
+
+Changed files:
+- `data/races.json`
+- `js/race-maps.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fixes:
+- Removed the bottom date labels from trend charts while keeping hover/click date details.
+- Candidate rows now say `Click to see Wikipedia`.
+- Added current-composition notes explaining that not every Senate seat/governorship is up this year.
+- Added South Carolina Governor candidate matchup after the runoff: Alan Wilson vs. Jermaine Johnson.

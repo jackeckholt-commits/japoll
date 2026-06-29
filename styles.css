@@ -6712,3 +6712,89 @@ body {
 .candidate-main em {
   max-width: 240px;
 }
+
+
+/* 0.8.35: remove bottom chart dates, keep hover dates */
+.trend-axis-label {
+  display: none !important;
+}
+
+/* 0.8.35: current composition notes under race prediction bars */
+.current-composition-note {
+  margin: 18px auto 28px;
+  max-width: 980px;
+  padding: 16px;
+  border: 1px solid rgba(159, 211, 255, 0.16);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.045);
+  text-align: center;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+.current-composition-note h4 {
+  margin: 0 0 7px;
+  color: var(--white);
+  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  font-weight: 950;
+}
+
+.current-composition-note p {
+  margin: 0 auto 12px;
+  max-width: 760px;
+  color: var(--light-gray);
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.composition-pill-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.composition-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+}
+
+.composition-pill strong {
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 1000;
+}
+
+.composition-pill small {
+  color: var(--light-gray);
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.composition-pill.dem {
+  border-color: rgba(77,163,255,0.26);
+  background: rgba(77,163,255,0.10);
+}
+
+.composition-pill.dem strong,
+.composition-pill.ind-dem strong {
+  color: var(--dem-blue);
+}
+
+.composition-pill.rep {
+  border-color: rgba(255,91,91,0.26);
+  background: rgba(255,91,91,0.10);
+}
+
+.composition-pill.rep strong {
+  color: var(--rep-red);
+}
+
+.composition-pill.ind-dem {
+  border-color: rgba(159,211,255,0.24);
+  background: rgba(159,211,255,0.08);
+}

@@ -203,6 +203,7 @@ function renderRaceMap(section, mapData, atlas) {
   if (!mapSlot || !detailPanel || !barSlot) return;
 
   renderProjectionBar(barSlot, mapData);
+  renderCurrentCompositionNote(barSlot, mapData);
   renderRaceDetail(detailPanel, null, mapData);
 
   const raceByFips = new Map((mapData.races || []).map(race => [String(race.fips).padStart(2, "0"), race]));
