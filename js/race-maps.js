@@ -128,7 +128,7 @@ function renderCandidateList(race) {
         <a class="candidate-link ${getCandidatePartyClass(candidate)}" href="${candidate.wikipedia || "#"}" target="_blank" rel="noopener noreferrer">
           <span class="candidate-main">
             <strong>${candidate.name}</strong>
-            <em>Click to see Wikipedia</em>
+            <em>${candidate.note || "Click to see Wikipedia"}</em>
           </span>
           <small>${candidate.party || ""}</small>
         </a>

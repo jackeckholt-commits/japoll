@@ -6702,3 +6702,13 @@ body {
   border-color: rgba(159,211,255,0.24);
   background: rgba(159,211,255,0.08);
 }
+
+
+/* 0.8.34: candidate data cleanup note styling */
+.candidate-link small {
+  text-align: center;
+}
+
+.candidate-main em {
+  max-width: 240px;
+}
