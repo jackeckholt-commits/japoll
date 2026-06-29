@@ -112,8 +112,6 @@ function getCandidatePartyClass(candidate) {
   return "";
 }
 
-
-
 function renderCandidateList(race) {
   const candidates = Array.isArray(race.candidates) ? race.candidates : [];
   if (!candidates.length) {
@@ -130,41 +128,11 @@ function renderCandidateList(race) {
         <a class="candidate-link ${getCandidatePartyClass(candidate)}" href="${candidate.wikipedia || "#"}" target="_blank" rel="noopener noreferrer">
           <span class="candidate-main">
             <strong>${candidate.name}</strong>
-            <em>Click to see more</em>
+            <em>Click to see Wikipedia</em>
           </span>
           <small>${candidate.party || ""}</small>
         </a>
       `).join("")}
-    </div>
-  `;
-}
-
-
-function renderProjectedControlSummary(mapData) {
-  const projected = mapData.projectedControl;
-  if (!projected) return "";
-
-  const active = projected.activeRaceWins || null;
-  const activeLine = active
-    ? `<div class="projected-active-line">${active.label || "Predicted wins in active races"}: <strong>D ${active.democrats}</strong> / <strong>R ${active.republicans}</strong></div>`
-    : "";
-
-  return `
-    <div class="projected-control-card">
-      <div class="projected-control-title">${projected.title || "Projected Total"}</div>
-      <div class="projected-control-score">
-        <span class="projected-party projected-dem">
-          <small>Dems</small>
-          <strong>${projected.democrats}</strong>
-        </span>
-        <span class="projected-divider">/</span>
-        <span class="projected-party projected-rep">
-          <small>GOP</small>
-          <strong>${projected.republicans}</strong>
-        </span>
-      </div>
-      ${activeLine}
-      <p>${projected.note || ""}</p>
     </div>
   `;
 }
@@ -185,7 +153,6 @@ function renderMarginSummary(container, mapData) {
       <p>${summary.subtitle || ""}</p>
     </div>
     <div class="margin-control-bar" aria-label="${summary.title || "Race prediction margin bar"}">${segments}</div>
-    ${renderProjectedControlSummary(mapData)}
     <div class="margin-legend-note">Margins are estimates and should update as polling, ratings, and primary results become available.</div>
   `;
   return true;
@@ -332,6 +299,27 @@ function renderRaceMap(section, mapData, atlas) {
     .attr("text-anchor", "middle")
     .attr("dominant-baseline", "middle")
     .text(feature => FIPS_TO_POSTAL[String(feature.id).padStart(2, "0")] || "");
+}
+
+function renderCurrentCompositionNote(container, mapData) {
+  const note = mapData.currentCompositionNote;
+  if (!note || !container) return;
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "current-composition-note";
+  wrapper.innerHTML = `
+    <h4>${note.title || "Current seats not up this cycle"}</h4>
+    <p>${note.text || ""}</p>
+    <div class="composition-pill-row">
+      ${(note.items || []).map(item => `
+        <span class="composition-pill ${item.className || ""}">
+          <strong>${item.value}</strong>
+          <small>${item.label}</small>
+        </span>
+      `).join("")}
+    </div>
+  `;
+  container.appendChild(wrapper);
 }
 
 async function initializeRaceMaps() {

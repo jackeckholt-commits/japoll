@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.43",
-  "note": "Senate and Governor maps use early prediction margin categories. Candidate arrays are updated as primaries and runoffs produce nominees; unresolved states remain marked as waiting.",
+  "version": "0.8.33",
+  "note": "Senate and Governor maps include early prediction margins. Candidate arrays are populated for races with verified nominees or presumptive nominees where available; additional states can be updated later.",
   "maps": {
     "senate": {
       "title": "Senate Races",
@@ -11,8 +11,8 @@
         "demSolid": 9,
         "demLikely": 3,
         "demLean": 2,
-        "demTilt": 4,
-        "repTilt": 1,
+        "demTilt": 3,
+        "repTilt": 2,
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 10,
@@ -39,12 +39,12 @@
               "wikipedia": "https://en.wikipedia.org/wiki/Barry_Moore_(Alabama_politician)"
             },
             {
-              "name": "Everett Wess",
+              "name": "Tamara Harris Johnson",
               "party": "Democratic",
               "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alabama"
             }
           ],
-          "candidateStatus": "Post-primary nominees added"
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "AK",
@@ -132,8 +132,19 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "John Hickenlooper",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/John_Hickenlooper"
+            },
+            {
+              "name": "Hope Scheppelman",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Colorado"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "CT",
@@ -163,8 +174,19 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Chris Coons",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Chris_Coons"
+            },
+            {
+              "name": "Alexander Homich",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Delaware"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "FL",
@@ -203,11 +225,16 @@
             },
             {
               "name": "Mike Collins",
-              "party": "Republican",
+              "party": "Republican runoff",
               "wikipedia": "https://en.wikipedia.org/wiki/Mike_Collins_(Georgia_politician)"
+            },
+            {
+              "name": "Derek Dooley",
+              "party": "Republican runoff",
+              "wikipedia": "https://en.wikipedia.org/wiki/Derek_Dooley_(American_football)"
             }
           ],
-          "candidateStatus": "Post-primary nominees added"
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "HI",
@@ -391,8 +418,19 @@
           "marginCategory": "repLikely",
           "marginLabel": "R+5 to R+15",
           "predictedMargin": 9,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Julia Letlow",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Julia_Letlow"
+            },
+            {
+              "name": "Jamie Davis",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Louisiana"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "ME",
@@ -407,19 +445,8 @@
           "marginCategory": "demTilt",
           "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
-          "candidates": [
-            {
-              "name": "Susan Collins",
-              "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Susan_Collins"
-            },
-            {
-              "name": "Graham Platner",
-              "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Graham_Platner"
-            }
-          ],
-          "candidateStatus": "Post-primary nominees added"
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "MD",
@@ -830,8 +857,19 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Jack Reed",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Jack_Reed_(politician)"
+            },
+            {
+              "name": "Raymond McKay",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Rhode_Island"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "SC",
@@ -846,29 +884,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [
-            {
-              "name": "Lindsey Graham",
-              "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Lindsey_Graham"
-            },
-            {
-              "name": "Annie Andrews",
-              "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Annie_Andrews"
-            },
-            {
-              "name": "Kasie Whitener",
-              "party": "Libertarian",
-              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina"
-            },
-            {
-              "name": "Mark Hackett",
-              "party": "Constitution",
-              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina"
-            }
-          ],
-          "candidateStatus": "Post-primary nominees added"
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "SD",
@@ -923,13 +940,13 @@
           "fips": "48",
           "name": "Texas",
           "active": true,
-          "party": "dem",
+          "party": "rep",
           "status": "prediction",
           "strength": "no-data",
           "label": "Texas Senate",
           "note": "",
-          "marginCategory": "demTilt",
-          "marginLabel": "Tilt Democratic",
+          "marginCategory": "repTilt",
+          "marginLabel": "Tilt Republican",
           "predictedMargin": 0.5,
           "candidates": [
             {
@@ -1067,8 +1084,19 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Bryan Miller",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Wyoming"
+            },
+            {
+              "name": "Rodger McDaniel",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Rodger_McDaniel"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         }
       ],
       "control": null,
@@ -1099,13 +1127,13 @@
           {
             "key": "demTilt",
             "label": "Tilt D",
-            "count": 4,
+            "count": 3,
             "className": "margin-dem-tilt"
           },
           {
             "key": "repTilt",
             "label": "Tilt R",
-            "count": 1,
+            "count": 2,
             "className": "margin-rep-tilt"
           },
           {
@@ -1128,16 +1156,26 @@
           }
         ]
       },
-      "projectedControl": {
-        "title": "Projected Senate Control",
-        "democrats": 52,
-        "republicans": 48,
-        "note": "Projected full Senate after combining predicted active races with seats not up this cycle.",
-        "activeRaceWins": {
-          "democrats": 18,
-          "republicans": 17,
-          "label": "Predicted wins in active races"
-        }
+      "currentCompositionNote": {
+        "title": "Not every Senate seat is up this year",
+        "text": "Only the Senate seats on this map are up in 2026. The other seats stay with their current party unless a future vacancy or special election changes them.",
+        "items": [
+          {
+            "value": "31",
+            "label": "Republican seats not up",
+            "className": "rep"
+          },
+          {
+            "value": "32",
+            "label": "Democratic seats not up",
+            "className": "dem"
+          },
+          {
+            "value": "2",
+            "label": "Independent seats not up, caucus with Democrats",
+            "className": "ind-dem"
+          }
+        ]
       }
     },
     "governor": {
@@ -1148,8 +1186,8 @@
         "demSolid": 12,
         "demLikely": 3,
         "demLean": 3,
-        "demTilt": 2,
-        "repTilt": 1,
+        "demTilt": 1,
+        "repTilt": 2,
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 9,
@@ -1260,8 +1298,19 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Katie Porter",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Katie_Porter"
+            },
+            {
+              "name": "Chad Bianco",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Chad_Bianco"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "CO",
@@ -1276,8 +1325,19 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Phil Weiser",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Phil_Weiser"
+            },
+            {
+              "name": "Greg Lopez",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Greg_Lopez_(Colorado_politician)"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "CT",
@@ -1331,27 +1391,22 @@
           "fips": "13",
           "name": "Georgia",
           "active": true,
-          "party": "dem",
+          "party": "rep",
           "status": "prediction",
           "strength": "no-data",
           "label": "Georgia Governor",
           "note": "",
-          "marginCategory": "demTilt",
-          "marginLabel": "Tilt Democratic",
+          "marginCategory": "repTilt",
+          "marginLabel": "Tilt Republican",
           "predictedMargin": 0.5,
           "candidates": [
-            {
-              "name": "Rick Jackson",
-              "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election"
-            },
             {
               "name": "Keisha Lance Bottoms",
               "party": "Democratic",
               "wikipedia": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms"
             }
           ],
-          "candidateStatus": "Post-primary nominees added"
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "HI",
@@ -1545,8 +1600,14 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Wes Moore",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Wes_Moore"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "MA",
@@ -1593,8 +1654,19 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Tim Walz",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Tim_Walz"
+            },
+            {
+              "name": "Kendall Qualls",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Kendall_Qualls"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "MS",
@@ -1735,17 +1807,12 @@
               "wikipedia": "https://en.wikipedia.org/wiki/Deb_Haaland"
             },
             {
-              "name": "Gregg Hull",
+              "name": "Greg Hull",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Gregg_Hull"
-            },
-            {
-              "name": "Ken Miyagishima",
-              "party": "Independent",
-              "wikipedia": "https://en.wikipedia.org/wiki/Ken_Miyagishima"
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election"
             }
           ],
-          "candidateStatus": "Post-primary nominees added"
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "NY",
@@ -1760,8 +1827,19 @@
           "marginCategory": "demSolid",
           "marginLabel": "D+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Kathy Hochul",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Kathy_Hochul"
+            },
+            {
+              "name": "Bruce Blakeman",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Bruce_Blakeman"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "NC",
@@ -1924,8 +2002,19 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "Alan Wilson",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Alan_Wilson_(South_Carolina_politician)"
+            },
+            {
+              "name": "Jermaine Johnson",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Jermaine_Johnson_(politician)"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "SD",
@@ -1940,24 +2029,8 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [
-            {
-              "name": "Larry Rhoden",
-              "party": "Republican runoff",
-              "wikipedia": "https://en.wikipedia.org/wiki/Larry_Rhoden"
-            },
-            {
-              "name": "Toby Doeden",
-              "party": "Republican runoff",
-              "wikipedia": "https://en.wikipedia.org/wiki/2026_South_Dakota_gubernatorial_election"
-            },
-            {
-              "name": "Daniel Ahlers",
-              "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Ahlers"
-            }
-          ],
-          "candidateStatus": "Democratic nominee added; Republican runoff pending"
+          "candidates": [],
+          "candidateStatus": "Waiting on primary for full results"
         },
         {
           "state": "TN",
@@ -1972,8 +2045,14 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results"
+          "candidates": [
+            {
+              "name": "John Rose",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/John_Rose_(Tennessee_politician)"
+            }
+          ],
+          "candidateStatus": "Nominees/candidates added"
         },
         {
           "state": "TX",
@@ -2149,13 +2228,13 @@
           {
             "key": "demTilt",
             "label": "Tilt D",
-            "count": 2,
+            "count": 1,
             "className": "margin-dem-tilt"
           },
           {
             "key": "repTilt",
             "label": "Tilt R",
-            "count": 1,
+            "count": 2,
             "className": "margin-rep-tilt"
           },
           {
@@ -2178,16 +2257,21 @@
           }
         ]
       },
-      "projectedControl": {
-        "title": "Projected Governorships",
-        "democrats": 25,
-        "republicans": 25,
-        "note": "Projected total governorships after combining predicted active races with states not up this cycle.",
-        "activeRaceWins": {
-          "democrats": 20,
-          "republicans": 16,
-          "label": "Predicted wins in active races"
-        }
+      "currentCompositionNote": {
+        "title": "Not every governorship is up this year",
+        "text": "Only the governor races on this map are up in 2026. Other states keep their current governor until their next election.",
+        "items": [
+          {
+            "value": "24",
+            "label": "Current Democratic governorships",
+            "className": "dem"
+          },
+          {
+            "value": "26",
+            "label": "Current Republican governorships",
+            "className": "rep"
+          }
+        ]
       }
     },
     "house": {

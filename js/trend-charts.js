@@ -135,48 +135,17 @@ function filterRowsByConfiguredStartMonth(rows, config) {
 }
 
 
-function getUniqueMonthTicks(rows, xScale, width) {
-  const dates = rows
-    .map(row => parseDate(row.date))
-    .filter(date => !Number.isNaN(date.getTime()))
-    .sort((a, b) => a - b);
-
-  if (!dates.length) return [];
-
-  const minDate = dates[0];
-  const maxDate = dates[dates.length - 1];
-  const ticks = [];
+function removeDuplicateTickLabels(axisGroup) {
   const seen = new Set();
-
-  const addTick = date => {
-    const key = `${date.getFullYear()}-${date.getMonth()}`;
-    if (!seen.has(key)) {
-      seen.add(key);
-      ticks.push(date);
+  axisGroup.selectAll(".tick text").each(function () {
+    const text = d3.select(this);
+    const label = text.text();
+    if (seen.has(label)) {
+      text.text("");
+    } else {
+      seen.add(label);
     }
-  };
-
-  addTick(minDate);
-
-  const cursor = new Date(minDate.getFullYear(), minDate.getMonth() + 1, 1);
-  while (cursor < maxDate) {
-    addTick(new Date(cursor));
-    cursor.setMonth(cursor.getMonth() + 1);
-  }
-
-  const minPixelSpacing = width < 640 ? 120 : 155;
-  const filtered = [];
-
-  for (const tick of ticks) {
-    const last = filtered[filtered.length - 1];
-    if (!last || Math.abs(xScale(tick) - xScale(last)) >= minPixelSpacing) {
-      filtered.push(tick);
-    }
-  }
-
-  // Do not force the final data date as an axis label. It caused crowded duplicate-looking
-  // labels like "Jun 26" at the far right when many recent points were close together.
-  return filtered;
+  });
 }
 
 function renderTrendChart(container, config, rows) {
