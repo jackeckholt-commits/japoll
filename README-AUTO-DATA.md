@@ -989,3 +989,17 @@ Fixes:
 - Candidate rows now say `Click to see Wikipedia`.
 - Added current-composition notes explaining that not every Senate seat/governorship is up this year.
 - Added South Carolina Governor candidate matchup after the runoff: Alan Wilson vs. Jermaine Johnson.
+
+
+## Version 0.8.36
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI update:
+- Changed card accents from top-only colored strips to full-card accent rings.
+- Blue/red/silver accents now wrap around the entire box and fade outward with a softer glow.
+- Applies across homepage cards, race boxes, chart boxes, methodology/content cards, and detail panels.

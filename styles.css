@@ -6798,3 +6798,147 @@ body {
   border-color: rgba(159,211,255,0.24);
   background: rgba(159,211,255,0.08);
 }
+
+
+/* 0.8.36: full-card accent rings instead of top-only color strips */
+.card,
+.content-card,
+.trend-chart-shell,
+.race-map-card,
+.race-detail-card,
+.contact-strip-card,
+.methodology-card,
+.source-card,
+.average-card {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.card::before,
+.content-card::before,
+.trend-chart-shell::before,
+.race-map-card::before,
+.race-detail-card::before,
+.contact-strip-card::before,
+.methodology-card::before,
+.source-card::before,
+.average-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: -1;
+  background: linear-gradient(135deg, rgba(255,255,255,0.18), rgba(255,255,255,0.045) 28%, rgba(255,255,255,0.02) 58%, rgba(255,255,255,0.13));
+  padding: 1px;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.card::after,
+.content-card::after,
+.trend-chart-shell::after,
+.race-map-card::after,
+.race-detail-card::after,
+.contact-strip-card::after,
+.methodology-card::after,
+.source-card::after,
+.average-card::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: -2;
+  opacity: 0.55;
+  filter: blur(16px);
+  background: radial-gradient(circle at 0% 0%, rgba(255,255,255,0.12), transparent 36%), radial-gradient(circle at 100% 100%, rgba(255,255,255,0.08), transparent 40%);
+}
+
+/* Blue boxes: color wraps the whole card and fades outward */
+.approval-card::before,
+.governor-card::before,
+.card.governor-card::before,
+.card:has([href*="governor"])::before {
+  background: linear-gradient(135deg, rgba(77,163,255,0.95), rgba(77,163,255,0.18) 24%, rgba(255,255,255,0.035) 55%, rgba(77,163,255,0.52));
+  padding: 2px;
+}
+
+.approval-card::after,
+.governor-card::after,
+.card.governor-card::after,
+.card:has([href*="governor"])::after {
+  background: radial-gradient(circle at 0% 0%, rgba(77,163,255,0.30), transparent 38%), radial-gradient(circle at 100% 100%, rgba(77,163,255,0.20), transparent 42%);
+}
+
+/* Red boxes: color wraps the whole card and fades outward */
+.generic-ballot::before,
+.senate-card::before,
+.house-card::before,
+.card.senate-card::before,
+.card.house-card::before,
+.card:has([href*="senate"])::before,
+.card:has([href*="house"])::before {
+  background: linear-gradient(135deg, rgba(255,91,91,0.95), rgba(255,91,91,0.18) 24%, rgba(255,255,255,0.035) 55%, rgba(255,91,91,0.52));
+  padding: 2px;
+}
+
+.generic-ballot::after,
+.senate-card::after,
+.house-card::after,
+.card.senate-card::after,
+.card.house-card::after,
+.card:has([href*="senate"])::after,
+.card:has([href*="house"])::after {
+  background: radial-gradient(circle at 0% 0%, rgba(255,91,91,0.30), transparent 38%), radial-gradient(circle at 100% 100%, rgba(255,91,91,0.20), transparent 42%);
+}
+
+/* Neutral/about boxes: full silver ring */
+.methodology::before,
+.about-card::before,
+.card.methodology::before,
+.card:has([href*="methodology"])::before {
+  background: linear-gradient(135deg, rgba(230,238,246,0.82), rgba(230,238,246,0.16) 24%, rgba(255,255,255,0.035) 58%, rgba(230,238,246,0.44));
+  padding: 2px;
+}
+
+.methodology::after,
+.about-card::after,
+.card.methodology::after,
+.card:has([href*="methodology"])::after {
+  background: radial-gradient(circle at 0% 0%, rgba(230,238,246,0.22), transparent 38%), radial-gradient(circle at 100% 100%, rgba(230,238,246,0.14), transparent 42%);
+}
+
+/* Tone down older top-only accents so the full-card ring is the main accent */
+.card,
+.metric-card,
+.progress-card,
+.major-card {
+  border-top-color: rgba(255,255,255,0.18) !important;
+}
+
+.generic-ballot,
+.senate-card,
+.house-card,
+.approval-card,
+.governor-card,
+.methodology {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 18px 48px rgba(0,0,0,0.24) !important;
+}
+
+@media (max-width: 760px) {
+  .card::after,
+  .content-card::after,
+  .trend-chart-shell::after,
+  .race-map-card::after,
+  .race-detail-card::after,
+  .contact-strip-card::after,
+  .methodology-card::after,
+  .source-card::after,
+  .average-card::after {
+    filter: blur(10px);
+    opacity: 0.42;
+  }
+}
