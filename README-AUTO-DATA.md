@@ -1260,3 +1260,18 @@ UI fixes:
 - Centered the House Races homepage card content.
 - Added House to the top navigation/header across the site.
 - House page nav link now marks House as the current page.
+
+
+## Version 0.9.7
+
+Changed files:
+- `house.html`
+- `js/house-forecast.js`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI cleanup:
+- Removed the blue `Sources` eyebrow between House sections.
+- Removed the small `Based on current averages` text under `218 to Win`.
+- Removed the bottom `Updated ...` line from each House source card.

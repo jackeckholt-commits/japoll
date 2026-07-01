@@ -70,7 +70,7 @@ function renderHouseOverview(data) {
   if (averageSlot) averageSlot.innerHTML = renderHouseSeatBar(predictionCategories, { prediction: true });
   if (demSlot) demSlot.textContent = formatSeatValue(predictionCategories.demProjected);
   if (repSlot) repSlot.textContent = formatSeatValue(predictionCategories.repProjected);
-  if (leadSlot) leadSlot.textContent = prediction.label || "Based on current averages";
+  if (leadSlot) leadSlot.textContent = "";
 
   if (predictionNoteSlot) {
     predictionNoteSlot.innerHTML = `
@@ -104,7 +104,6 @@ function renderSourceCards(data) {
         <span class="rep"><strong>${formatSeatValue(source.totals.republicans)}</strong><small>Republicans</small></span>
       </div>
       ${renderHouseSeatBar(source.categories, { compact: true })}
-      <p class="house-source-note">Updated ${formatUpdatedDate(source.updated)}. ${source.note || ""}</p>
     </article>
   `).join("");
 }
