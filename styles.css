@@ -8756,3 +8756,67 @@ h3,
     0 0 12px rgba(77, 163, 255, 0.10),
     inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
 }
+
+
+/* 0.9.6: center House homepage card and add House to the top nav */
+.homepage-link-card.house-summary-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  gap: 0 !important;
+  min-width: 0 !important;
+}
+
+.homepage-link-card.house-summary-card h3 {
+  width: 100%;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-score,
+.homepage-link-card.house-summary-card .race-mini-score-polished {
+  width: min(100%, 330px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-self: center !important;
+  align-self: center !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-stat {
+  justify-items: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-kicker,
+.homepage-link-card.house-summary-card .race-mini-value {
+  text-align: center !important;
+}
+
+.homepage-link-card.house-summary-card .card-action {
+  align-self: center !important;
+  justify-self: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+/* Make the added House top-nav link fit cleanly with the rest of the nav. */
+.nav-links {
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+.nav-links a {
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished {
+    width: min(100%, 300px) !important;
+  }
+}

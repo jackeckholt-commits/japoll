@@ -1239,3 +1239,24 @@ Updates:
 - Added heading/title typography cleanup so letters have more room to breathe.
 - Kept the About the Project homepage card blue on the outside.
 - Added another graph/card outline cleanup so old top-only bars do not come back.
+
+
+## Version 0.9.6
+
+Changed files:
+- `index.html`
+- `methodology.html`
+- `national-averages.html`
+- `trump-approval.html`
+- `senate.html`
+- `governor.html`
+- `house.html`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fixes:
+- Centered the House Races homepage card content.
+- Added House to the top navigation/header across the site.
+- House page nav link now marks House as the current page.
