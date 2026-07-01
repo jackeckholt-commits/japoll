@@ -1120,3 +1120,17 @@ UI fix:
 - Forced homepage and site cards to use equal-width wraparound borders.
 - Removed leftover pseudo-element top strips and fake top shadows from earlier versions.
 - Cleaned small stat/value boxes so they are rounded without top-only bars.
+
+
+## Version 0.8.44
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Made the homepage House summary card use the same two-tile mini-score layout as Senate and Governor.
+- Kept the wraparound card outline style and fixed the House inner stat styling so it matches the others.
+- Reduced the House score font size slightly so 3-digit seat counts fit cleanly.
