@@ -1017,3 +1017,20 @@ UI fix:
 - Replaced the overdone 0.8.36 glow/ring effect with a cleaner full-box outline.
 - The color now wraps evenly around the whole card like a simple rounded border.
 - Removed top-heavy pseudo-element glow effects.
+
+
+## Version 0.8.38
+
+Changed files:
+- `data/races.json`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Candidate update:
+- Checked completed primaries/runoffs and added candidates where the matchup is now clear.
+- Added Texas Senate: Ken Paxton, James Talarico, Ted Brown.
+- Added Texas Governor: Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon.
+- Added/confirmed Senate candidates for AL, AR, IA, IL, LA, NC, NE, and TX.
+- Added/confirmed Governor candidates for AL, AR, CA, IA, IL, NM, OH, OR, PA, SC, and TX.
+- Left states with unclear/incomplete primaries as `Waiting on primary for full results.`
