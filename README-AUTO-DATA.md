@@ -1304,3 +1304,20 @@ House UI update:
 - Redesigned the main House seat prediction bar.
 - Added a cleaner blue/red split, larger seat numbers, softer gloss/shadow, and a subtle 218 majority marker.
 - Compact source bars stay compact and readable.
+
+
+## Version 0.9.10
+
+Changed files:
+- `data/races.json`
+- `index.html`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fixes:
+- Georgia Governor tilt-blue change now affects the governor margin summary and homepage cover total.
+- Homepage Governor card is now 25 Dem / 25 GOP and labeled `Projected governorships`.
+- Recalculated governor margin bucket totals so GA appears in Tilt D.
+- Fixed the House prediction bar so blue and red fill the full bar with no gray dead space.

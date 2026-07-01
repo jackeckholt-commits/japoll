@@ -9016,3 +9016,50 @@ h3,
     padding: 4px 6px;
   }
 }
+
+
+/* 0.9.10: fix House prediction bar fill and update Governor cover totals */
+.house-seat-bar.is-prediction {
+  display: flex !important;
+  grid-template-columns: none !important;
+  justify-content: stretch !important;
+  align-items: stretch !important;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.025)),
+    rgba(255,255,255,0.035) !important;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment {
+  width: var(--segment-width, auto);
+  flex: 0 0 auto !important;
+  height: auto !important;
+  align-self: stretch !important;
+}
+
+/* The inline width from JS now correctly fills the whole bar; no gray dead space. */
+.house-seat-bar.is-prediction .house-seat-segment[style] {
+  width: auto !important;
+}
+
+.house-seat-bar.is-prediction .house-bar-proj-dem {
+  flex-basis: 52.8735632184% !important;
+}
+
+.house-seat-bar.is-prediction .house-bar-proj-rep {
+  flex-basis: 47.1264367816% !important;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment::after {
+  inset: 10px;
+  border-radius: clamp(14px, 1.3vw, 20px);
+  opacity: 0.72;
+}
+
+.house-seat-bar.is-prediction .house-majority-marker {
+  left: 50.1149425287% !important;
+}
+
+/* Make projected Governor card label consistent after GA shifts blue. */
+.governor-summary-card .card-action {
+  color: var(--baby-blue) !important;
+}

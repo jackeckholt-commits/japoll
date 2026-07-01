@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.9.5",
+  "version": "0.9.10",
   "note": "Candidate lists are updated conservatively from completed primaries/runoffs and current nominee reporting. States without a clear nominee stay marked as waiting on primary/runoff results.",
   "maps": {
     "senate": {
@@ -1012,8 +1012,8 @@
         "demSolid": 12,
         "demLikely": 3,
         "demLean": 3,
-        "demTilt": 1,
-        "repTilt": 2,
+        "demTilt": 2,
+        "repTilt": 1,
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 9,
@@ -1211,7 +1211,7 @@
           "status": "prediction",
           "strength": "no-data",
           "label": "Georgia Governor",
-          "note": "Changed to tilt Democratic in the current site prediction.",
+          "note": "Tilt Democratic in the current site prediction.",
           "marginCategory": "demTilt",
           "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
@@ -1985,13 +1985,13 @@
           {
             "key": "demTilt",
             "label": "Tilt D",
-            "count": 1,
+            "count": 2,
             "className": "margin-dem-tilt"
           },
           {
             "key": "repTilt",
             "label": "Tilt R",
-            "count": 2,
+            "count": 1,
             "className": "margin-rep-tilt"
           },
           {
@@ -2029,6 +2029,11 @@
             "className": "rep"
           }
         ]
+      },
+      "projectedTotals": {
+        "dem": 25,
+        "rep": 25,
+        "label": "Projected governorships"
       }
     },
     "house": {
