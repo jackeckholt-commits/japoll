@@ -8426,3 +8426,30 @@ body {
     font-size: clamp(2rem, 10vw, 3rem) !important;
   }
 }
+
+
+/* 0.9.3: no slash/dash divider on the House homepage card */
+.homepage-link-card.house-summary-card .race-mini-divider-polished,
+.homepage-link-card.house-summary-card .race-mini-divider,
+.house-summary-card .race-mini-divider-polished,
+.house-summary-card .race-mini-divider {
+  display: none !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-score,
+.homepage-link-card.house-summary-card .race-mini-score-polished,
+.house-summary-card .house-mini-score,
+.house-summary-card .race-mini-score-polished {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+  gap: 12px !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-stat,
+.house-summary-card .race-mini-stat {
+  border-radius: 22px !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.11) !important;
+}

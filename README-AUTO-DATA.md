@@ -1194,3 +1194,17 @@ UI fix:
 - Reworked the homepage House card so the 3-digit seat counts fit cleanly.
 - House now uses a compact two-segment mini prediction bar instead of oversized square tiles.
 - Kept blue/red sides, centered divider, rounded corners, and the same card action style.
+
+
+## Version 0.9.3
+
+Changed files:
+- `index.html`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Removed the slash/divider from the homepage House Races card.
+- House now shows the two values as separate Dem/GOP tiles with no dash/slash between them.
