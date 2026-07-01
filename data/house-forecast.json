@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-26T00:00:00.000Z",
-  "version": "0.8.40",
+  "version": "0.8.42",
   "title": "House Seat Forecast Average",
   "totalSeats": 435,
   "majority": 218,
@@ -8,11 +8,18 @@
     "democrats": 207.0,
     "tossup": 19.3,
     "republicans": 208.7,
-    "democratsRounded": 207,
+    "democratsRounded": 224,
     "tossupRounded": 19,
-    "republicansRounded": 209,
-    "democratsToMajority": 11,
-    "republicansToMajority": 10
+    "republicansRounded": 211,
+    "democratsToMajority": -6,
+    "republicansToMajority": 7,
+    "nonTossupDemocrats": 207.0,
+    "nonTossupRepublicans": 208.7,
+    "averageTossup": 19.3,
+    "assignedTossupsDemocrats": 17,
+    "assignedTossupsRepublicans": 2,
+    "projectedDemocrats": 224,
+    "projectedRepublicans": 211
   },
   "average": {
     "categories": {
@@ -27,7 +34,9 @@
     "totals": {
       "democrats": 207.0,
       "tossup": 19.3,
-      "republicans": 208.7
+      "republicans": 208.7,
+      "projectedDemocrats": 224,
+      "projectedRepublicans": 211
     }
   },
   "sources": [
@@ -98,5 +107,21 @@
       "note": "Cook House race ratings summarized into seat buckets."
     }
   ],
-  "methodology": "Simple equal-weight average of published House rating/forecast seat buckets. Toss-ups are not assigned to either party."
+  "methodology": "Simple equal-weight average of published House rating/forecast seat buckets. The top prediction assigns average toss-up seats based on current averages: 17 to Democrats and 2 to Republicans.",
+  "prediction": {
+    "label": "Based on current averages",
+    "method": "The top prediction assigns average toss-up seats based on current averages: 17 to Democrats and 2 to Republicans.",
+    "categories": {
+      "demProjected": 224,
+      "repProjected": 211
+    },
+    "totals": {
+      "democrats": 224,
+      "republicans": 211
+    },
+    "assignedTossups": {
+      "democrats": 17,
+      "republicans": 2
+    }
+  }
 }

@@ -1069,3 +1069,39 @@ House update:
 - Added an average House seat bar with Safe/Likely/Lean/Toss-up buckets.
 - Added source cards showing the seat totals from each forecaster.
 - Updated the homepage House card to link to the active House page.
+
+
+## Version 0.8.41
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Fixed averages pages specifically.
+- Removed leftover top-only accent bars from the combined average/chart/source sections.
+- Forced source cards to use rounded full-outline boxes.
+- Cleaned chart/source borders so they match the rest of the website card system.
+
+
+## Version 0.8.42
+
+Changed files:
+- `house.html`
+- `index.html`
+- `data/house-forecast.json`
+- `js/house-forecast.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+House forecast update:
+- Removed toss-ups from the top House prediction bar.
+- Assigned the averaged toss-up seats as 17D and 2R based on current averages.
+- Top House prediction now shows Democrats 224 and Republicans 211.
+- Homepage House card now shows 224 / 211 and says `Based on current averages`.
+- Source cards still show each source’s original toss-up bucket.
+- Improved House bar/card sizing and rounded corners so the section fits better.

@@ -7537,3 +7537,237 @@ body {
     min-height: 64px;
   }
 }
+
+
+/* 0.8.41: fix averages pages card outlines and rounded source cards */
+.average-summary,
+.source-card,
+.source-link-card,
+.trend-chart-shell,
+.trend-chart-wrap,
+.trend-svg-box,
+.trend-legend,
+.trend-legend-item,
+.source-grid > article,
+.source-grid > div,
+.average-grid > article,
+.average-grid > div {
+  border-radius: clamp(18px, 1.7vw, 26px) !important;
+  border-width: 1.5px !important;
+  border-style: solid !important;
+  border-color: rgba(220, 231, 241, 0.34) !important;
+  border-top-width: 1.5px !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+  overflow: hidden !important;
+}
+
+/* Remove leftover top-only stripes/glows from averages/source/chart pages */
+.average-summary::before,
+.average-summary::after,
+.source-card::before,
+.source-card::after,
+.source-link-card::before,
+.source-link-card::after,
+.trend-chart-shell::before,
+.trend-chart-shell::after,
+.trend-chart-wrap::before,
+.trend-chart-wrap::after,
+.trend-svg-box::before,
+.trend-svg-box::after,
+.trend-legend-item::before,
+.trend-legend-item::after,
+.source-grid > article::before,
+.source-grid > article::after,
+.source-grid > div::before,
+.source-grid > div::after,
+.average-grid > article::before,
+.average-grid > article::after,
+.average-grid > div::before,
+.average-grid > div::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Averages summary should be neutral full-outline, not a white top bar */
+.average-summary {
+  border-color: rgba(220, 231, 241, 0.38) !important;
+  border-top-color: rgba(220, 231, 241, 0.38) !important;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.045), rgba(255,255,255,0.018)),
+    rgba(255,255,255,0.035) !important;
+}
+
+/* Chart container should not show nested square borders */
+.trend-chart-shell {
+  border-color: rgba(77, 163, 255, 0.52) !important;
+  border-top-color: rgba(77, 163, 255, 0.52) !important;
+}
+
+.trend-svg-box,
+.trend-legend {
+  border-color: rgba(220, 231, 241, 0.22) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.035) !important;
+}
+
+.trend-legend-item {
+  border-color: rgba(220, 231, 241, 0.24) !important;
+  box-shadow: none !important;
+}
+
+/* Source cards: rounded full outline, no colored top strip */
+.source-card,
+.source-link-card,
+.source-grid > article,
+.source-grid > div {
+  border-color: rgba(220, 231, 241, 0.34) !important;
+  border-top-color: rgba(220, 231, 241, 0.34) !important;
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.035), rgba(255,255,255,0.015)),
+    rgba(255,255,255,0.028) !important;
+}
+
+.source-card:hover,
+.source-link-card:hover {
+  border-color: rgba(159, 211, 255, 0.48) !important;
+  transform: translateY(-2px);
+  filter: brightness(1.03);
+}
+
+/* Keep mini value rows rounded inside the source cards */
+.source-numbers span,
+.source-numbers .result-row,
+.source-numbers .dem-row,
+.source-numbers .rep-row,
+.source-numbers .approve-row,
+.source-numbers .disapprove-row,
+.source-numbers .margin-row,
+.source-numbers .gap-row,
+.source-numbers .unavailable-row,
+.source-numbers .muted-row {
+  border-radius: 13px !important;
+}
+
+
+/* 0.8.42: House prediction has no toss-up segment and fits cleanly */
+.house-seat-bar {
+  border-radius: clamp(16px, 1.6vw, 24px) !important;
+  overflow: hidden !important;
+}
+
+.house-seat-bar.is-prediction {
+  min-height: clamp(78px, 7vw, 104px);
+  border-radius: clamp(18px, 1.8vw, 28px) !important;
+  border: 1.5px solid rgba(220, 231, 241, 0.28) !important;
+  background: rgba(255,255,255,0.04);
+}
+
+.house-seat-bar.is-prediction .house-seat-segment {
+  min-width: 120px;
+  gap: 4px;
+  padding: 10px 12px;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment strong {
+  font-size: clamp(2rem, 4.2vw, 4.9rem);
+  letter-spacing: -0.065em;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment span {
+  font-size: clamp(0.78rem, 1.05vw, 1rem);
+  letter-spacing: 0.045em;
+}
+
+.house-bar-proj-dem {
+  background:
+    linear-gradient(90deg, #1769bd, #2d8fff);
+}
+
+.house-bar-proj-rep {
+  background:
+    linear-gradient(90deg, #ff5f6d, #b90814);
+}
+
+.house-allocation-note {
+  justify-self: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  max-width: 100%;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(159, 211, 255, 0.22);
+  background: rgba(159, 211, 255, 0.08);
+  color: var(--light-gray);
+  font-weight: 900;
+  text-align: center;
+}
+
+.house-allocation-note strong {
+  color: var(--baby-blue);
+}
+
+.house-allocation-note span {
+  color: var(--light-gray);
+}
+
+.house-forecast-card,
+.house-source-card {
+  border-radius: clamp(20px, 2vw, 30px) !important;
+}
+
+.house-source-totals span,
+.house-seat-bar.is-compact {
+  border-radius: 14px !important;
+}
+
+.house-source-card {
+  min-width: 0;
+}
+
+.house-source-header {
+  align-items: center;
+}
+
+.house-source-header h3 {
+  line-height: 1.04;
+}
+
+.house-source-totals {
+  min-width: 0;
+}
+
+.house-source-totals span {
+  min-width: 0;
+  text-align: center;
+}
+
+.house-source-totals strong {
+  font-size: clamp(1.15rem, 2.3vw, 1.7rem);
+}
+
+.house-source-totals small {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 760px) {
+  .house-seat-bar.is-prediction .house-seat-segment {
+    min-width: 84px;
+    padding: 8px;
+  }
+
+  .house-seat-bar.is-prediction .house-seat-segment strong {
+    font-size: clamp(1.7rem, 11vw, 3.1rem);
+  }
+
+  .house-seat-bar.is-prediction .house-seat-segment span {
+    font-size: 0.72rem;
+  }
+
+  .house-allocation-note {
+    border-radius: 18px;
+  }
+}

@@ -8,6 +8,11 @@ const HOUSE_BUCKETS = [
   { key: "repSafe", label: "Safe R", className: "house-bar-rep-safe" }
 ];
 
+const HOUSE_PREDICTION_BUCKETS = [
+  { key: "demProjected", label: "Democrats", className: "house-bar-proj-dem" },
+  { key: "repProjected", label: "Republicans", className: "house-bar-proj-rep" }
+];
+
 function formatSeatValue(value) {
   const number = Number(value);
   if (!Number.isFinite(number)) return "0";
@@ -21,18 +26,20 @@ function formatUpdatedDate(value) {
   return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
 }
 
-function getCategoryTotal(categories) {
-  return HOUSE_BUCKETS.reduce((sum, bucket) => sum + Number(categories[bucket.key] || 0), 0) || 435;
+function getCategoryTotal(categories, buckets = HOUSE_BUCKETS) {
+  return buckets.reduce((sum, bucket) => sum + Number(categories[bucket.key] || 0), 0) || 435;
 }
 
 function renderHouseSeatBar(categories, options = {}) {
-  const total = getCategoryTotal(categories);
+  const buckets = options.prediction ? HOUSE_PREDICTION_BUCKETS : HOUSE_BUCKETS;
+  const total = getCategoryTotal(categories, buckets);
+
   return `
-    <div class="house-seat-bar ${options.compact ? "is-compact" : ""}" role="img" aria-label="House seat rating bar">
-      ${HOUSE_BUCKETS.map(bucket => {
+    <div class="house-seat-bar ${options.compact ? "is-compact" : ""} ${options.prediction ? "is-prediction" : ""}" role="img" aria-label="${options.prediction ? "House seat prediction bar" : "House seat rating bar"}">
+      ${buckets.map(bucket => {
         const value = Number(categories[bucket.key] || 0);
         if (value <= 0) return "";
-        const width = Math.max((value / total) * 100, options.compact ? 3 : 4);
+        const width = Math.max((value / total) * 100, options.compact ? 4 : 6);
         return `
           <div class="house-seat-segment ${bucket.className}" style="width:${width}%" title="${bucket.label}: ${formatSeatValue(value)} seats">
             <strong>${formatSeatValue(value)}</strong>
@@ -44,9 +51,10 @@ function renderHouseSeatBar(categories, options = {}) {
   `;
 }
 
-function renderHouseLegend(target) {
+function renderHouseLegend(target, options = {}) {
   if (!target) return;
-  target.innerHTML = HOUSE_BUCKETS.map(bucket => `
+  const buckets = options.prediction ? HOUSE_PREDICTION_BUCKETS : HOUSE_BUCKETS;
+  target.innerHTML = buckets.map(bucket => `
     <span class="house-legend-item"><i class="${bucket.className}"></i>${bucket.label}</span>
   `).join("");
 }
@@ -56,23 +64,34 @@ function renderHouseOverview(data) {
   const updatedSlot = document.querySelector("[data-house-updated]");
   const demSlot = document.querySelector("[data-house-dem-total]");
   const repSlot = document.querySelector("[data-house-rep-total]");
-  const tossupSlot = document.querySelector("[data-house-tossup-total]");
+  const allocationSlot = document.querySelector("[data-house-allocation-note]");
   const leadSlot = document.querySelector("[data-house-lead-note]");
   const legendSlot = document.querySelector("[data-house-legend]");
 
+  const prediction = data.prediction || {};
+  const predictionCategories = prediction.categories || {
+    demProjected: data.summary.projectedDemocrats || data.summary.democratsRounded || 0,
+    repProjected: data.summary.projectedRepublicans || data.summary.republicansRounded || 0
+  };
+
   if (updatedSlot) updatedSlot.textContent = `Latest source update: ${formatUpdatedDate(data.updatedAt.slice(0, 10))}`;
-  if (averageSlot) averageSlot.innerHTML = renderHouseSeatBar(data.average.categories);
-  if (demSlot) demSlot.textContent = formatSeatValue(data.summary.democrats);
-  if (repSlot) repSlot.textContent = formatSeatValue(data.summary.republicans);
-  if (tossupSlot) tossupSlot.textContent = formatSeatValue(data.summary.tossup);
+  if (averageSlot) averageSlot.innerHTML = renderHouseSeatBar(predictionCategories, { prediction: true });
+  if (demSlot) demSlot.textContent = formatSeatValue(predictionCategories.demProjected);
+  if (repSlot) repSlot.textContent = formatSeatValue(predictionCategories.repProjected);
+
   if (leadSlot) {
-    const dem = Number(data.summary.democrats || 0);
-    const rep = Number(data.summary.republicans || 0);
-    const leader = dem > rep ? "Democrats" : rep > dem ? "Republicans" : "Neither party";
-    const margin = Math.abs(dem - rep).toFixed(1);
-    leadSlot.textContent = `${leader} lead the non-toss-up average by ${margin} seats. Toss-ups are not assigned.`;
+    leadSlot.textContent = prediction.label || "Based on current averages";
   }
-  renderHouseLegend(legendSlot);
+
+  if (allocationSlot) {
+    const assigned = prediction.assignedTossups || {};
+    allocationSlot.innerHTML = `
+      <strong>Based on current averages</strong>
+      <span>Average toss-up seats are assigned ${formatSeatValue(assigned.democrats || 0)}D and ${formatSeatValue(assigned.republicans || 0)}R for the prediction above.</span>
+    `;
+  }
+
+  renderHouseLegend(legendSlot, { prediction: true });
 }
 
 function renderSourceCards(data) {
