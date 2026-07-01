@@ -7771,3 +7771,155 @@ body {
     border-radius: 18px;
   }
 }
+
+
+/* 0.8.43: final cleanup for true wraparound card borders */
+/* This overrides old top-border accent rules from earlier versions. */
+.generic-ballot,
+.approval-card,
+.senate-card,
+.governor-card,
+.house-card,
+.methodology,
+.card,
+.metric-card,
+.major-card,
+.progress-card,
+.homepage-link-card,
+.homepage-summary-card,
+.summary-card,
+.page-card,
+.info-card,
+.content-card,
+.source-card,
+.average-card,
+.national-card,
+.trend-chart-shell,
+.trend-svg-box,
+.trend-legend-item,
+.race-map-card,
+.race-detail-card,
+.race-control-card,
+.contact-strip-card,
+.current-composition-note {
+  border-width: 1.5px !important;
+  border-style: solid !important;
+  border-top-width: 1.5px !important;
+}
+
+/* Remove the old thick top strip by resetting the actual top border on affected card types. */
+.generic-ballot {
+  border-color: rgba(255, 91, 91, 0.88) !important;
+  border-top-color: rgba(255, 91, 91, 0.88) !important;
+}
+
+.approval-card,
+.governor-card {
+  border-color: rgba(77, 163, 255, 0.88) !important;
+  border-top-color: rgba(77, 163, 255, 0.88) !important;
+}
+
+.senate-card,
+.house-card,
+.card:has([href*="senate"]),
+.card:has([href*="house"]) {
+  border-color: rgba(255, 91, 91, 0.88) !important;
+  border-top-color: rgba(255, 91, 91, 0.88) !important;
+}
+
+.card:has([href*="governor"]) {
+  border-color: rgba(77, 163, 255, 0.88) !important;
+  border-top-color: rgba(77, 163, 255, 0.88) !important;
+}
+
+.methodology,
+.card:has([href*="methodology"]) {
+  border-color: rgba(230, 238, 246, 0.78) !important;
+  border-top-color: rgba(230, 238, 246, 0.78) !important;
+}
+
+/* If earlier CSS used inset shadows to fake a top bar, flatten those too. */
+.generic-ballot,
+.approval-card,
+.senate-card,
+.governor-card,
+.house-card,
+.methodology,
+.card:has([href*="senate"]),
+.card:has([href*="governor"]),
+.card:has([href*="house"]),
+.card:has([href*="methodology"]) {
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 0 1px rgba(255, 255, 255, 0.035),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Make the outline look even on all sides instead of heavier at the top. */
+.generic-ballot,
+.senate-card,
+.house-card,
+.card:has([href*="senate"]),
+.card:has([href*="house"]) {
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(255, 91, 91, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+.approval-card,
+.governor-card,
+.card:has([href*="governor"]) {
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(77, 163, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+.methodology,
+.card:has([href*="methodology"]) {
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(230, 238, 246, 0.07),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Nuke any card pseudo element top strips that survived due to specificity. */
+.generic-ballot::before,
+.generic-ballot::after,
+.approval-card::before,
+.approval-card::after,
+.senate-card::before,
+.senate-card::after,
+.governor-card::before,
+.governor-card::after,
+.house-card::before,
+.house-card::after,
+.methodology::before,
+.methodology::after,
+.homepage-link-card::before,
+.homepage-link-card::after,
+.major-card::before,
+.major-card::after,
+.progress-card::before,
+.progress-card::after,
+.metric-card::before,
+.metric-card::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* Ensure small stat boxes are rounded but not falsely top-accented. */
+.race-mini-stat,
+.metric-value-card,
+.value-card,
+.metric-pill,
+.source-value,
+.house-source-totals span {
+  border-width: 1.5px !important;
+  border-style: solid !important;
+  border-top-width: 1.5px !important;
+  border-radius: 16px !important;
+}

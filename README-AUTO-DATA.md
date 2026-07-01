@@ -1105,3 +1105,18 @@ House forecast update:
 - Homepage House card now shows 224 / 211 and says `Based on current averages`.
 - Source cards still show each source’s original toss-up bucket.
 - Improved House bar/card sizing and rounded corners so the section fits better.
+
+
+## Version 0.8.43
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Removed remaining top-only card accent bars.
+- Forced homepage and site cards to use equal-width wraparound borders.
+- Removed leftover pseudo-element top strips and fake top shadows from earlier versions.
+- Cleaned small stat/value boxes so they are rounded without top-only bars.
