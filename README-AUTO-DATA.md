@@ -1134,3 +1134,23 @@ UI fix:
 - Made the homepage House summary card use the same two-tile mini-score layout as Senate and Governor.
 - Kept the wraparound card outline style and fixed the House inner stat styling so it matches the others.
 - Reduced the House score font size slightly so 3-digit seat counts fit cleanly.
+
+
+## Version 0.8.45
+
+Changed files:
+- `house.html`
+- `index.html`
+- `data/house-forecast.json`
+- `js/house-forecast.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+House update:
+- Changed the top House prediction to Democrats 230 and Republicans 205.
+- Removed redundant toss-up assignment text.
+- The top House bar is now the site's prediction based on current averages/data, similar to Senate and Governor.
+- Source cards still show each source's published buckets, including toss-ups.
+- Cleaned the House page layout and reduced repeated explanatory text.

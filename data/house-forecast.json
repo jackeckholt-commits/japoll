@@ -1,25 +1,23 @@
 {
   "updatedAt": "2026-06-26T00:00:00.000Z",
-  "version": "0.8.42",
-  "title": "House Seat Forecast Average",
+  "version": "0.8.45",
+  "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
     "democrats": 207.0,
     "tossup": 19.3,
     "republicans": 208.7,
-    "democratsRounded": 224,
+    "democratsRounded": 230,
     "tossupRounded": 19,
-    "republicansRounded": 211,
-    "democratsToMajority": -6,
-    "republicansToMajority": 7,
+    "republicansRounded": 205,
+    "democratsToMajority": -12,
+    "republicansToMajority": 13,
     "nonTossupDemocrats": 207.0,
     "nonTossupRepublicans": 208.7,
     "averageTossup": 19.3,
-    "assignedTossupsDemocrats": 17,
-    "assignedTossupsRepublicans": 2,
-    "projectedDemocrats": 224,
-    "projectedRepublicans": 211
+    "projectedDemocrats": 230,
+    "projectedRepublicans": 205
   },
   "average": {
     "categories": {
@@ -35,8 +33,8 @@
       "democrats": 207.0,
       "tossup": 19.3,
       "republicans": 208.7,
-      "projectedDemocrats": 224,
-      "projectedRepublicans": 211
+      "projectedDemocrats": 230,
+      "projectedRepublicans": 205
     }
   },
   "sources": [
@@ -107,21 +105,17 @@
       "note": "Cook House race ratings summarized into seat buckets."
     }
   ],
-  "methodology": "Simple equal-weight average of published House rating/forecast seat buckets. The top prediction assigns average toss-up seats based on current averages: 17 to Democrats and 2 to Republicans.",
+  "methodology": "Source cards show each source's published race-rating buckets. The top bar is this site's House prediction based on current averages and available seat projection data.",
   "prediction": {
     "label": "Based on current averages",
-    "method": "The top prediction assigns average toss-up seats based on current averages: 17 to Democrats and 2 to Republicans.",
+    "method": "House prediction based on current averages and available seat projection data.",
     "categories": {
-      "demProjected": 224,
-      "repProjected": 211
+      "demProjected": 230,
+      "repProjected": 205
     },
     "totals": {
-      "democrats": 224,
-      "republicans": 211
-    },
-    "assignedTossups": {
-      "democrats": 17,
-      "republicans": 2
+      "democrats": 230,
+      "republicans": 205
     }
   }
 }

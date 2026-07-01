@@ -8117,3 +8117,84 @@ body {
     font-size: 0.95rem !important;
   }
 }
+
+
+/* 0.8.45: simplify House prediction page and make 230/205 the site prediction */
+.house-forecast-card {
+  padding-bottom: clamp(26px, 3.2vw, 44px) !important;
+}
+
+.house-forecast-heading {
+  margin-bottom: clamp(18px, 2vw, 28px) !important;
+}
+
+.house-forecast-heading h2 {
+  line-height: 0.98 !important;
+}
+
+.house-majority-row {
+  margin-bottom: clamp(10px, 1.4vw, 18px) !important;
+}
+
+.house-seat-bar.is-prediction {
+  margin-top: clamp(12px, 1.4vw, 18px) !important;
+  min-height: clamp(72px, 6vw, 92px) !important;
+  border-radius: 22px !important;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment strong {
+  font-size: clamp(2rem, 3.6vw, 4.2rem) !important;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment span {
+  font-size: clamp(0.72rem, 0.9vw, 0.92rem) !important;
+}
+
+.house-allocation-note {
+  margin-top: 18px !important;
+}
+
+.house-method-note {
+  display: none !important;
+}
+
+.house-bar-legend[hidden],
+.house-bar-legend:empty {
+  display: none !important;
+}
+
+.house-source-section {
+  margin-top: clamp(34px, 5vw, 64px) !important;
+}
+
+.house-source-section .section-heading {
+  margin-bottom: 18px !important;
+}
+
+.house-source-section .section-heading h2 {
+  margin-bottom: 8px !important;
+}
+
+.house-source-section .section-heading p {
+  max-width: 520px;
+  margin-inline: auto;
+  color: var(--light-gray);
+}
+
+.house-source-card {
+  border-radius: 24px !important;
+}
+
+@media (max-width: 760px) {
+  .house-majority-row {
+    gap: 12px !important;
+  }
+
+  .house-party-total strong {
+    font-size: clamp(3rem, 15vw, 4.6rem) !important;
+  }
+
+  .house-seat-bar.is-prediction {
+    min-height: 70px !important;
+  }
+}

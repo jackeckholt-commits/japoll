@@ -51,20 +51,12 @@ function renderHouseSeatBar(categories, options = {}) {
   `;
 }
 
-function renderHouseLegend(target, options = {}) {
-  if (!target) return;
-  const buckets = options.prediction ? HOUSE_PREDICTION_BUCKETS : HOUSE_BUCKETS;
-  target.innerHTML = buckets.map(bucket => `
-    <span class="house-legend-item"><i class="${bucket.className}"></i>${bucket.label}</span>
-  `).join("");
-}
-
 function renderHouseOverview(data) {
   const averageSlot = document.querySelector("[data-house-average-bar]");
   const updatedSlot = document.querySelector("[data-house-updated]");
   const demSlot = document.querySelector("[data-house-dem-total]");
   const repSlot = document.querySelector("[data-house-rep-total]");
-  const allocationSlot = document.querySelector("[data-house-allocation-note]");
+  const predictionNoteSlot = document.querySelector("[data-house-allocation-note]");
   const leadSlot = document.querySelector("[data-house-lead-note]");
   const legendSlot = document.querySelector("[data-house-legend]");
 
@@ -78,20 +70,19 @@ function renderHouseOverview(data) {
   if (averageSlot) averageSlot.innerHTML = renderHouseSeatBar(predictionCategories, { prediction: true });
   if (demSlot) demSlot.textContent = formatSeatValue(predictionCategories.demProjected);
   if (repSlot) repSlot.textContent = formatSeatValue(predictionCategories.repProjected);
+  if (leadSlot) leadSlot.textContent = prediction.label || "Based on current averages";
 
-  if (leadSlot) {
-    leadSlot.textContent = prediction.label || "Based on current averages";
-  }
-
-  if (allocationSlot) {
-    const assigned = prediction.assignedTossups || {};
-    allocationSlot.innerHTML = `
+  if (predictionNoteSlot) {
+    predictionNoteSlot.innerHTML = `
       <strong>Based on current averages</strong>
-      <span>Average toss-up seats are assigned ${formatSeatValue(assigned.democrats || 0)}D and ${formatSeatValue(assigned.republicans || 0)}R for the prediction above.</span>
+      <span>Site prediction using available House projection data.</span>
     `;
   }
 
-  renderHouseLegend(legendSlot, { prediction: true });
+  if (legendSlot) {
+    legendSlot.innerHTML = "";
+    legendSlot.hidden = true;
+  }
 }
 
 function renderSourceCards(data) {
