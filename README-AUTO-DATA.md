@@ -1289,3 +1289,18 @@ Changed files:
 Fixes:
 - Removed the weird card/bar outline from the footer.
 - Corrected the Race to WH House source link to `https://www.racetothewh.com/house`.
+
+
+## Version 0.9.9
+
+Changed files:
+- `js/house-forecast.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+House UI update:
+- Redesigned the main House seat prediction bar.
+- Added a cleaner blue/red split, larger seat numbers, softer gloss/shadow, and a subtle 218 majority marker.
+- Compact source bars stay compact and readable.

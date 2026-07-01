@@ -33,6 +33,9 @@ function getCategoryTotal(categories, buckets = HOUSE_BUCKETS) {
 function renderHouseSeatBar(categories, options = {}) {
   const buckets = options.prediction ? HOUSE_PREDICTION_BUCKETS : HOUSE_BUCKETS;
   const total = getCategoryTotal(categories, buckets);
+  const majority = Number(options.majority || 218);
+  const totalSeats = Number(options.totalSeats || total || 435);
+  const majorityLeft = Math.max(0, Math.min(100, (majority / totalSeats) * 100));
 
   return `
     <div class="house-seat-bar ${options.compact ? "is-compact" : ""} ${options.prediction ? "is-prediction" : ""}" role="img" aria-label="${options.prediction ? "House seat prediction bar" : "House seat rating bar"}">
@@ -42,11 +45,17 @@ function renderHouseSeatBar(categories, options = {}) {
         const width = Math.max((value / total) * 100, options.compact ? 4 : 6);
         return `
           <div class="house-seat-segment ${bucket.className}" style="width:${width}%" title="${bucket.label}: ${formatSeatValue(value)} seats">
-            <strong>${formatSeatValue(value)}</strong>
             <span>${bucket.label}</span>
+            <strong>${formatSeatValue(value)}</strong>
           </div>
         `;
       }).join("")}
+      ${options.prediction ? `
+        <div class="house-majority-marker" style="left:${majorityLeft}%">
+          <i></i>
+          <b>${formatSeatValue(majority)}</b>
+        </div>
+      ` : ""}
     </div>
   `;
 }
@@ -67,7 +76,7 @@ function renderHouseOverview(data) {
   };
 
   if (updatedSlot) updatedSlot.textContent = `Latest source update: ${formatUpdatedDate(data.updatedAt.slice(0, 10))}`;
-  if (averageSlot) averageSlot.innerHTML = renderHouseSeatBar(predictionCategories, { prediction: true });
+  if (averageSlot) averageSlot.innerHTML = renderHouseSeatBar(predictionCategories, { prediction: true, majority: data.majority, totalSeats: data.totalSeats });
   if (demSlot) demSlot.textContent = formatSeatValue(predictionCategories.demProjected);
   if (repSlot) repSlot.textContent = formatSeatValue(predictionCategories.repProjected);
   if (leadSlot) leadSlot.textContent = "";

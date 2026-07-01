@@ -8846,3 +8846,173 @@ h3,
   box-shadow: none !important;
   border: 0 !important;
 }
+
+
+/* 0.9.9: redesigned House prediction seat bar */
+.house-seat-bar.is-prediction {
+  position: relative;
+  display: grid !important;
+  grid-template-columns: 230fr 205fr;
+  min-height: clamp(92px, 8vw, 128px) !important;
+  border-radius: clamp(22px, 2vw, 32px) !important;
+  border: 1.5px solid rgba(220, 231, 241, 0.32) !important;
+  overflow: hidden !important;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.09), rgba(255,255,255,0.02)),
+    rgba(255,255,255,0.035) !important;
+  box-shadow:
+    0 22px 46px rgba(0, 0, 0, 0.26),
+    inset 0 1px 0 rgba(255,255,255,0.08) !important;
+}
+
+.house-seat-bar.is-prediction::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg,
+      rgba(255,255,255,0.18),
+      transparent 12%,
+      transparent 88%,
+      rgba(255,255,255,0.10)
+    ),
+    linear-gradient(180deg, rgba(255,255,255,0.12), transparent 46%, rgba(0,0,0,0.12));
+  mix-blend-mode: screen;
+  opacity: 0.45;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment {
+  position: relative;
+  z-index: 1;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 0;
+  padding: clamp(14px, 1.7vw, 24px) clamp(10px, 1.8vw, 28px) !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment::after {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border-radius: clamp(16px, 1.4vw, 22px);
+  border: 1px solid rgba(255,255,255,0.10);
+  pointer-events: none;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment span {
+  order: 1;
+  display: block !important;
+  color: rgba(255,255,255,0.86);
+  font-size: clamp(0.72rem, 0.92vw, 0.95rem) !important;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 1;
+  text-shadow: 0 3px 12px rgba(0,0,0,0.26);
+}
+
+.house-seat-bar.is-prediction .house-seat-segment strong {
+  order: 2;
+  color: #fff;
+  font-size: clamp(3rem, 6.4vw, 7rem) !important;
+  font-weight: 1000;
+  letter-spacing: -0.075em;
+  line-height: 0.82;
+  text-shadow:
+    0 16px 32px rgba(0,0,0,0.28),
+    0 0 24px rgba(255,255,255,0.10);
+}
+
+.house-seat-bar.is-prediction .house-bar-proj-dem {
+  background:
+    radial-gradient(circle at 22% 8%, rgba(159,211,255,0.35), transparent 34%),
+    linear-gradient(135deg, #155fae 0%, #2b91ff 72%, #4da3ff 100%) !important;
+}
+
+.house-seat-bar.is-prediction .house-bar-proj-rep {
+  background:
+    radial-gradient(circle at 80% 8%, rgba(255,185,192,0.30), transparent 34%),
+    linear-gradient(135deg, #ff6670 0%, #ef1b2d 48%, #ab0712 100%) !important;
+}
+
+.house-seat-bar.is-prediction .house-majority-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.house-seat-bar.is-prediction .house-majority-marker i {
+  display: block;
+  width: 2px;
+  height: 100%;
+  background:
+    linear-gradient(180deg,
+      transparent,
+      rgba(255,255,255,0.78) 18%,
+      rgba(255,255,255,0.78) 82%,
+      transparent
+    );
+  box-shadow: 0 0 18px rgba(255,255,255,0.28);
+}
+
+.house-seat-bar.is-prediction .house-majority-marker b {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(7, 13, 20, 0.72);
+  color: rgba(255,255,255,0.86);
+  font-size: 0.76rem;
+  font-weight: 950;
+  line-height: 1;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.24);
+}
+
+/* Keep compact source bars unchanged except for smoother rounding. */
+.house-seat-bar.is-compact {
+  border-radius: 14px !important;
+  min-height: 48px !important;
+}
+
+@media (max-width: 760px) {
+  .house-seat-bar.is-prediction {
+    min-height: 90px !important;
+    border-radius: 20px !important;
+  }
+
+  .house-seat-bar.is-prediction .house-seat-segment {
+    padding: 14px 8px !important;
+    gap: 6px;
+  }
+
+  .house-seat-bar.is-prediction .house-seat-segment strong {
+    font-size: clamp(2.35rem, 14vw, 4.2rem) !important;
+  }
+
+  .house-seat-bar.is-prediction .house-seat-segment span {
+    font-size: 0.66rem !important;
+    letter-spacing: 0.08em;
+  }
+
+  .house-seat-bar.is-prediction .house-majority-marker b {
+    top: 6px;
+    font-size: 0.66rem;
+    padding: 4px 6px;
+  }
+}
