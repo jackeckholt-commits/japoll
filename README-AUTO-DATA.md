@@ -1180,3 +1180,17 @@ Fixes:
 - Homepage summary cards for Senate, Governor, House, and About now use full-wrap outline colors instead of leaving a tiny top-only accent sliver.
 - Senate and House summary cards now match the red full-border treatment used by the big Generic Congressional Ballot card.
 - Governor summary card now matches the blue full-border treatment used by the big Trump Approval card.
+
+
+## Version 0.9.2
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Reworked the homepage House card so the 3-digit seat counts fit cleanly.
+- House now uses a compact two-segment mini prediction bar instead of oversized square tiles.
+- Kept blue/red sides, centered divider, rounded corners, and the same card action style.
