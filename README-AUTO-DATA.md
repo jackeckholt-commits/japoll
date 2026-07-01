@@ -1034,3 +1034,18 @@ Candidate update:
 - Added/confirmed Senate candidates for AL, AR, IA, IL, LA, NC, NE, and TX.
 - Added/confirmed Governor candidates for AL, AR, CA, IA, IL, NM, OH, OR, PA, SC, and TX.
 - Left states with unclear/incomplete primaries as `Waiting on primary for full results.`
+
+
+## Version 0.8.39
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Normalized card/box styling across the full website.
+- All cards now use the same clean full-outline system.
+- Removed old top-only accent effects and older pseudo-element glow experiments.
+- Homepage cards, chart boxes, race-map boxes, race-detail boxes, content cards, source cards, and candidate cards now all use full rounded outlines.

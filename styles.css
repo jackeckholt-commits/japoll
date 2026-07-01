@@ -7042,3 +7042,182 @@ body {
   transform: translateY(-2px);
   filter: brightness(1.03);
 }
+
+
+/* 0.8.39: normalize every website box to the same full-outline card system */
+.card,
+.metric-card,
+.major-card,
+.progress-card,
+.methodology,
+.content-card,
+.text-page .content-card,
+.source-card,
+.average-card,
+.national-card,
+.trend-chart-shell,
+.trend-svg-box,
+.trend-legend-item,
+.race-map-card,
+.race-detail-card,
+.race-control-card,
+.contact-strip-card,
+.footer-inner,
+.current-composition-note,
+.candidate-link,
+.candidate-waiting,
+.stat-tile,
+.homepage-summary-card,
+.summary-card,
+.page-card,
+.info-card {
+  position: relative;
+  overflow: hidden;
+  border-width: 1.5px !important;
+  border-style: solid !important;
+  border-color: rgba(220, 231, 241, 0.34) !important;
+  border-radius: inherit;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Kill older pseudo-element glow/ring experiments everywhere */
+.card::before,
+.card::after,
+.metric-card::before,
+.metric-card::after,
+.major-card::before,
+.major-card::after,
+.progress-card::before,
+.progress-card::after,
+.methodology::before,
+.methodology::after,
+.content-card::before,
+.content-card::after,
+.source-card::before,
+.source-card::after,
+.average-card::before,
+.average-card::after,
+.national-card::before,
+.national-card::after,
+.trend-chart-shell::before,
+.trend-chart-shell::after,
+.trend-svg-box::before,
+.trend-svg-box::after,
+.race-map-card::before,
+.race-map-card::after,
+.race-detail-card::before,
+.race-detail-card::after,
+.contact-strip-card::before,
+.contact-strip-card::after,
+.current-composition-note::before,
+.current-composition-note::after,
+.homepage-summary-card::before,
+.homepage-summary-card::after,
+.summary-card::before,
+.summary-card::after,
+.page-card::before,
+.page-card::after,
+.info-card::before,
+.info-card::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Homepage major cards */
+.generic-ballot {
+  border-color: rgba(255, 91, 91, 0.90) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 0 1px rgba(255, 91, 91, 0.14),
+    0 0 14px rgba(255, 91, 91, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+.approval-card {
+  border-color: rgba(77, 163, 255, 0.90) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 0 1px rgba(77, 163, 255, 0.14),
+    0 0 14px rgba(77, 163, 255, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Homepage navigation cards */
+.methodology,
+.card.methodology,
+.card:has([href*="methodology"]) {
+  border-color: rgba(230, 238, 246, 0.78) !important;
+}
+
+.card:has([href*="senate"]),
+.senate-card {
+  border-color: rgba(255, 91, 91, 0.90) !important;
+}
+
+.card:has([href*="governor"]),
+.governor-card {
+  border-color: rgba(77, 163, 255, 0.90) !important;
+}
+
+.card:has([href*="house"]),
+.house-card {
+  border-color: rgba(255, 91, 91, 0.90) !important;
+}
+
+/* Race pages and chart pages should have full neutral outlines unless specifically party-colored */
+.trend-chart-shell,
+.race-map-card,
+.race-detail-card,
+.content-card,
+.source-card,
+.average-card,
+.current-composition-note {
+  border-color: rgba(220, 231, 241, 0.34) !important;
+}
+
+/* Candidate cards keep party colors around the whole box */
+.candidate-link.is-democrat,
+.candidate-link.is-dem-aligned {
+  border-color: rgba(77, 163, 255, 0.45) !important;
+}
+
+.candidate-link.is-republican {
+  border-color: rgba(255, 91, 91, 0.45) !important;
+}
+
+.candidate-link.is-independent,
+.candidate-link.is-libertarian,
+.candidate-waiting {
+  border-color: rgba(220, 231, 241, 0.28) !important;
+}
+
+/* Remove older top-only accent emphasis */
+.card,
+.metric-card,
+.major-card,
+.progress-card {
+  border-top-width: 1.5px !important;
+}
+
+/* Consistent rounded corners */
+.card,
+.metric-card,
+.major-card,
+.progress-card,
+.content-card,
+.trend-chart-shell,
+.race-map-card,
+.race-detail-card,
+.contact-strip-card,
+.current-composition-note {
+  border-radius: clamp(18px, 1.9vw, 28px) !important;
+}
+
+/* Hover stays simple */
+.clickable-card:hover,
+.candidate-link:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.035);
+}
