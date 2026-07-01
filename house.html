@@ -20,34 +20,48 @@
 <a href="trump-approval.html">Trump Approval</a>
 <a href="senate.html">Senate</a>
 <a href="governor.html">Governor</a>
+<a href="house.html">House</a>
 <a href="methodology.html#contact">Contact</a>
 </div>
 </nav>
-<section class="hero">
+<section class="hero compact-page-hero">
 <h1>House Races</h1>
-<p class="intro">House coverage is not active yet.</p>
 </section>
 </div>
 </header>
 
-<main class="container page-content text-page about-layout">
-<section class="content-card wip-card house-page-wip">
-<p class="status house-wip-status">Work in progress</p>
-<p>District-level House maps, ratings, and projections will be added later.</p>
+<main class="container page-content house-page" data-house-forecast-page>
+<section class="content-card house-forecast-card">
+<div class="house-forecast-heading">
+<div>
+<span class="detail-kicker">Average of published projections</span>
+<h2>Projected House Seats</h2>
+</div>
+<span class="house-updated-pill" data-house-updated>Loading latest source update...</span>
+</div>
+
+<div class="house-majority-row">
+<div class="house-party-total dem"><span>Democrats</span><strong data-house-dem-total>—</strong></div>
+<div class="house-majority-center"><strong>218 to Win</strong><span data-house-lead-note>Loading average...</span></div>
+<div class="house-party-total rep"><span>Republicans</span><strong data-house-rep-total>—</strong></div>
+</div>
+
+<div data-house-average-bar></div>
+
+<div class="house-tossup-summary"><strong data-house-tossup-total>—</strong><span>average toss-up seats</span></div>
+<div class="house-bar-legend" data-house-legend></div>
+<p class="house-method-note">This is a simple equal-weight average of published House race-rating projections. Toss-ups stay separate and are not assigned to either party.</p>
+</section>
+
+<section class="house-sources-section">
+<div class="house-section-heading">
+<span class="detail-kicker">Sources</span>
+<h2>Seat projection by source</h2>
+<p>Each source keeps its own race-rating buckets; the top bar averages those buckets together.</p>
+</div>
+<div class="house-source-grid" data-house-source-cards></div>
 </section>
 </main>
-
-<section class="contact-strip container" id="contact">
-<div class="contact-strip-card">
-<div class="contact-strip-title">
-<strong>Questions, corrections, or suggestions?</strong>
-</div>
-<div class="contact-strip-links">
-<a href="mailto:jackeckholt@gmail.com">jackeckholt@gmail.com</a>
-<a href="https://www.instagram.com/jackeckholt" rel="noopener noreferrer" target="_blank">@jackeckholt</a>
-</div>
-</div>
-</section>
 
 <footer class="site-footer">
 <div class="container footer-inner">
@@ -56,5 +70,6 @@
 </div>
 </footer>
 </div>
+<script src="js/house-forecast.js"></script>
 </body>
 </html>

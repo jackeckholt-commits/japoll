@@ -1049,3 +1049,23 @@ UI fix:
 - All cards now use the same clean full-outline system.
 - Removed old top-only accent effects and older pseudo-element glow experiments.
 - Homepage cards, chart boxes, race-map boxes, race-detail boxes, content cards, source cards, and candidate cards now all use full rounded outlines.
+
+
+## Version 0.8.40
+
+Changed files:
+- `house.html`
+- `index.html`
+- `data/house-forecast.json`
+- `js/house-forecast.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+House update:
+- Replaced House work-in-progress page with an active House forecast average.
+- Added source projections for Race to the WH, 270toWin, and Cook Political Report.
+- Added an average House seat bar with Safe/Likely/Lean/Toss-up buckets.
+- Added source cards showing the seat totals from each forecaster.
+- Updated the homepage House card to link to the active House page.

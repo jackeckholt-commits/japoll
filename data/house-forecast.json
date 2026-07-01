@@ -1,0 +1,102 @@
+{
+  "updatedAt": "2026-06-26T00:00:00.000Z",
+  "version": "0.8.40",
+  "title": "House Seat Forecast Average",
+  "totalSeats": 435,
+  "majority": 218,
+  "summary": {
+    "democrats": 207.0,
+    "tossup": 19.3,
+    "republicans": 208.7,
+    "democratsRounded": 207,
+    "tossupRounded": 19,
+    "republicansRounded": 209,
+    "democratsToMajority": 11,
+    "republicansToMajority": 10
+  },
+  "average": {
+    "categories": {
+      "demSafe": 179.3,
+      "demLikely": 15.0,
+      "demLean": 12.7,
+      "tossup": 19.3,
+      "repLean": 11.7,
+      "repLikely": 28.7,
+      "repSafe": 168.3
+    },
+    "totals": {
+      "democrats": 207.0,
+      "tossup": 19.3,
+      "republicans": 208.7
+    }
+  },
+  "sources": [
+    {
+      "key": "racetowh",
+      "name": "Race to the WH",
+      "shortName": "Race to WH",
+      "updated": "2026-06-26",
+      "url": "https://www.racetothewh.com/house/2026",
+      "categories": {
+        "demSafe": 178,
+        "demLikely": 20,
+        "demLean": 13,
+        "tossup": 21,
+        "repLean": 19,
+        "repLikely": 45,
+        "repSafe": 139
+      },
+      "totals": {
+        "democrats": 211,
+        "tossup": 21,
+        "republicans": 203
+      },
+      "note": "Published House forecast / rating summary."
+    },
+    {
+      "key": "270towin",
+      "name": "270toWin",
+      "shortName": "270toWin",
+      "updated": "2026-06-18",
+      "url": "https://www.270towin.com/2026-house-election/",
+      "categories": {
+        "demSafe": 178,
+        "demLikely": 14,
+        "demLean": 13,
+        "tossup": 19,
+        "repLean": 8,
+        "repLikely": 23,
+        "repSafe": 180
+      },
+      "totals": {
+        "democrats": 205,
+        "tossup": 19,
+        "republicans": 211
+      },
+      "note": "Consensus House forecast / race rating summary."
+    },
+    {
+      "key": "cook",
+      "name": "Cook Political Report",
+      "shortName": "Cook",
+      "updated": "2026-06-18",
+      "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
+      "categories": {
+        "demSafe": 182,
+        "demLikely": 11,
+        "demLean": 12,
+        "tossup": 18,
+        "repLean": 8,
+        "repLikely": 18,
+        "repSafe": 186
+      },
+      "totals": {
+        "democrats": 205,
+        "tossup": 18,
+        "republicans": 212
+      },
+      "note": "Cook House race ratings summarized into seat buckets."
+    }
+  ],
+  "methodology": "Simple equal-weight average of published House rating/forecast seat buckets. Toss-ups are not assigned to either party."
+}
