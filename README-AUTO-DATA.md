@@ -1003,3 +1003,17 @@ UI update:
 - Changed card accents from top-only colored strips to full-card accent rings.
 - Blue/red/silver accents now wrap around the entire box and fade outward with a softer glow.
 - Applies across homepage cards, race boxes, chart boxes, methodology/content cards, and detail panels.
+
+
+## Version 0.8.37
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Replaced the overdone 0.8.36 glow/ring effect with a cleaner full-box outline.
+- The color now wraps evenly around the whole card like a simple rounded border.
+- Removed top-heavy pseudo-element glow effects.

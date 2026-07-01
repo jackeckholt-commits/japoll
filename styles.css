@@ -6942,3 +6942,103 @@ body {
     opacity: 0.42;
   }
 }
+
+
+/* 0.8.37: clean full-card outlines, no top-heavy glow */
+.card::before,
+.card::after,
+.content-card::before,
+.content-card::after,
+.trend-chart-shell::before,
+.trend-chart-shell::after,
+.race-map-card::before,
+.race-map-card::after,
+.race-detail-card::before,
+.race-detail-card::after,
+.contact-strip-card::before,
+.contact-strip-card::after,
+.methodology-card::before,
+.methodology-card::after,
+.source-card::before,
+.source-card::after,
+.average-card::before,
+.average-card::after {
+  display: none !important;
+  content: none !important;
+}
+
+.card,
+.content-card,
+.trend-chart-shell,
+.race-map-card,
+.race-detail-card,
+.contact-strip-card,
+.methodology-card,
+.source-card,
+.average-card {
+  overflow: hidden;
+  border: 1.5px solid rgba(220, 231, 241, 0.36) !important;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Blue full outline */
+.approval-card,
+.governor-card,
+.card.governor-card,
+.card:has([href*="governor"]) {
+  border-color: rgba(77, 163, 255, 0.88) !important;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(77, 163, 255, 0.20),
+    0 0 18px rgba(77, 163, 255, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Red full outline */
+.generic-ballot,
+.senate-card,
+.house-card,
+.card.senate-card,
+.card.house-card,
+.card:has([href*="senate"]),
+.card:has([href*="house"]) {
+  border-color: rgba(255, 91, 91, 0.88) !important;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(255, 91, 91, 0.20),
+    0 0 18px rgba(255, 91, 91, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Silver full outline */
+.methodology,
+.about-card,
+.card.methodology,
+.card:has([href*="methodology"]) {
+  border-color: rgba(230, 238, 246, 0.78) !important;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(230, 238, 246, 0.16),
+    0 0 16px rgba(230, 238, 246, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Keep map/chart/detail pages clean and not over-colored */
+.trend-chart-shell,
+.race-map-card,
+.race-detail-card,
+.content-card,
+.source-card,
+.average-card {
+  border-color: rgba(220, 231, 241, 0.30) !important;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+.clickable-card:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.03);
+}
