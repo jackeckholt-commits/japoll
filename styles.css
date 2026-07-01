@@ -9063,3 +9063,32 @@ h3,
 .governor-summary-card .card-action {
   color: var(--baby-blue) !important;
 }
+
+
+/* 0.9.11: remove faint internal lines from the House prediction bar */
+.house-seat-bar.is-prediction::before {
+  display: none !important;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment::after {
+  display: none !important;
+  content: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.house-seat-bar.is-prediction .house-majority-marker {
+  top: 10px;
+  bottom: auto;
+  height: auto;
+}
+
+.house-seat-bar.is-prediction .house-majority-marker i {
+  display: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.house-seat-bar.is-prediction .house-majority-marker b {
+  top: 0 !important;
+}

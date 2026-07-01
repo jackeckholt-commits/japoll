@@ -1321,3 +1321,17 @@ Fixes:
 - Homepage Governor card is now 25 Dem / 25 GOP and labeled `Projected governorships`.
 - Recalculated governor margin bucket totals so GA appears in Tilt D.
 - Fixed the House prediction bar so blue and red fill the full bar with no gray dead space.
+
+
+## Version 0.9.11
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fixes:
+- Removed the faint internal lines inside the House prediction bar.
+- Kept the 218 majority badge, but removed the vertical marker line through the bar.
+- Simplified the House prediction bar overlay so the fill looks cleaner.
