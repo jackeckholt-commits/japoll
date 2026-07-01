@@ -1223,3 +1223,19 @@ UI fix:
 - Removed old top-only bars from graph sections, chart sections, source cards, and homepage cards.
 - Graph sections now use a neutral full wraparound outline instead of a blue top bar.
 - The homepage About the Project card now has a blue full wraparound outline.
+
+
+## Version 0.9.5
+
+Changed files:
+- `data/races.json`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Updates:
+- Changed Georgia Governor to Tilt Democratic / tilt blue in the current site prediction.
+- Added heading/title typography cleanup so letters have more room to breathe.
+- Kept the About the Project homepage card blue on the outside.
+- Added another graph/card outline cleanup so old top-only bars do not come back.

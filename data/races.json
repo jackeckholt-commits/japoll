@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.8.38",
+  "version": "0.9.5",
   "note": "Candidate lists are updated conservatively from completed primaries/runoffs and current nominee reporting. States without a clear nominee stay marked as waiting on primary/runoff results.",
   "maps": {
     "senate": {
@@ -1207,13 +1207,13 @@
           "fips": "13",
           "name": "Georgia",
           "active": true,
-          "party": "rep",
+          "party": "dem",
           "status": "prediction",
           "strength": "no-data",
           "label": "Georgia Governor",
-          "note": "",
-          "marginCategory": "repTilt",
-          "marginLabel": "Tilt Republican",
+          "note": "Changed to tilt Democratic in the current site prediction.",
+          "marginCategory": "demTilt",
+          "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results"

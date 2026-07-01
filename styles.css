@@ -8667,3 +8667,92 @@ body {
 .homepage-link-card.house-summary-card .race-mini-score-polished {
   overflow: visible !important;
 }
+
+
+/* 0.9.5: Georgia governor tilt blue + more readable heading/title spacing */
+/* Make titles and headings breathe; Inter Tight was getting too compressed. */
+h1,
+h2,
+h3,
+.hero h1,
+.page-header h1,
+.section-heading h2,
+.average-summary h2,
+.graph-copy h2,
+.source-card h2,
+.house-source-card h3,
+.house-forecast-heading h2,
+.race-detail-card h2,
+.race-map-title,
+.homepage-link-card h3,
+.metric-card h3,
+.card h3,
+.logo,
+.nav-links a {
+  letter-spacing: 0 !important;
+  word-spacing: 0.025em;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.hero h1,
+.page-header h1,
+.house-forecast-heading h2 {
+  line-height: 1.02 !important;
+}
+
+.homepage-link-card h3,
+.metric-card h3,
+.source-card h2,
+.house-source-card h3,
+.race-detail-card h2 {
+  line-height: 1.08 !important;
+}
+
+/* Keep big numbers tight, but stop headings from inheriting the number-style compression. */
+.race-mini-kicker,
+.detail-kicker,
+.section-kicker,
+.margin-bar-segment span {
+  letter-spacing: 0.10em !important;
+}
+
+/* Final graph/card bar cleanup: no colored top-only bars anywhere. */
+.graph-card,
+.page-graph,
+.trend-chart-shell,
+.trend-chart-wrap,
+.average-summary,
+.source-card,
+.source-link-card,
+.content-card,
+.house-forecast-card,
+.house-source-card,
+.race-map-card,
+.race-detail-card,
+.homepage-link-card,
+.metric-card,
+.major-card,
+.card {
+  border-top-width: 1.5px !important;
+  border-top-style: solid !important;
+}
+
+.graph-card,
+.page-graph,
+.trend-chart-shell,
+.trend-chart-wrap {
+  border-color: rgba(220, 231, 241, 0.34) !important;
+  border-top-color: rgba(220, 231, 241, 0.34) !important;
+}
+
+/* About card is blue outside, matching the blue outline style. */
+.homepage-link-card.about-summary-card,
+.about-summary-card {
+  border-color: rgba(77, 163, 255, 0.88) !important;
+  border-top-color: rgba(77, 163, 255, 0.88) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(77, 163, 255, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
