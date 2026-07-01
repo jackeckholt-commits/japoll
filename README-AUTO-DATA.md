@@ -1154,3 +1154,29 @@ House update:
 - The top House bar is now the site's prediction based on current averages/data, similar to Senate and Governor.
 - Source cards still show each source's published buckets, including toss-ups.
 - Cleaned the House page layout and reduced repeated explanatory text.
+
+
+## Version 0.9.0
+
+Changed files:
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Release marker:
+- Started the 0.9 release line from the current 0.8.45 site state.
+- Current working sections: national averages, Trump approval, Senate races, Governor races, and House prediction.
+- House prediction currently uses this site's prediction bar plus source cards for published seat buckets.
+- Keep data protection rules in place: do not overwrite `data/polling-history.json`, `data/manual-overrides.json`, or live polling data unless intentionally updating those files.
+
+
+## Version 0.9.1
+
+Changed files:
+- `styles.css`
+- `package.json`
+
+Fixes:
+- Homepage summary cards for Senate, Governor, House, and About now use full-wrap outline colors instead of leaving a tiny top-only accent sliver.
+- Senate and House summary cards now match the red full-border treatment used by the big Generic Congressional Ballot card.
+- Governor summary card now matches the blue full-border treatment used by the big Trump Approval card.

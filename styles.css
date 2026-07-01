@@ -8198,3 +8198,36 @@ body {
     min-height: 70px !important;
   }
 }
+
+
+/* 0.9.1: homepage summary cards should use the same full-wrap outline style as the big cards */
+.homepage-link-card.about-summary-card {
+  border-color: rgba(230, 238, 246, 0.78) !important;
+  border-top-color: rgba(230, 238, 246, 0.78) !important;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(230, 238, 246, 0.16),
+    0 0 16px rgba(230, 238, 246, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+.homepage-link-card.senate-summary-card,
+.homepage-link-card.house-summary-card {
+  border-color: rgba(255, 91, 91, 0.88) !important;
+  border-top-color: rgba(255, 91, 91, 0.88) !important;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(255, 91, 91, 0.20),
+    0 0 18px rgba(255, 91, 91, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+
+.homepage-link-card.governor-summary-card {
+  border-color: rgba(77, 163, 255, 0.88) !important;
+  border-top-color: rgba(77, 163, 255, 0.88) !important;
+  box-shadow:
+    0 16px 30px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(77, 163, 255, 0.20),
+    0 0 18px rgba(77, 163, 255, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
