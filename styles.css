@@ -8820,3 +8820,29 @@ h3,
     width: min(100%, 300px) !important;
   }
 }
+
+
+/* 0.9.8: footer should not look like a card/bar */
+.site-footer,
+.site-footer .footer-inner,
+.footer-inner {
+  border: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  overflow: visible !important;
+}
+
+.site-footer .footer-inner::before,
+.site-footer .footer-inner::after,
+.footer-inner::before,
+.footer-inner::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}

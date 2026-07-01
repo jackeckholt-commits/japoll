@@ -1275,3 +1275,17 @@ UI cleanup:
 - Removed the blue `Sources` eyebrow between House sections.
 - Removed the small `Based on current averages` text under `218 to Win`.
 - Removed the bottom `Updated ...` line from each House source card.
+
+
+## Version 0.9.8
+
+Changed files:
+- `data/house-forecast.json`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fixes:
+- Removed the weird card/bar outline from the footer.
+- Corrected the Race to WH House source link to `https://www.racetothewh.com/house`.
