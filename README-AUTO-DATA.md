@@ -1208,3 +1208,18 @@ Changed files:
 UI fix:
 - Removed the slash/divider from the homepage House Races card.
 - House now shows the two values as separate Dem/GOP tiles with no dash/slash between them.
+
+
+## Version 0.9.4
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fix:
+- Added a final sitewide card outline reset.
+- Removed old top-only bars from graph sections, chart sections, source cards, and homepage cards.
+- Graph sections now use a neutral full wraparound outline instead of a blue top bar.
+- The homepage About the Project card now has a blue full wraparound outline.

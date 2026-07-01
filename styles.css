@@ -8453,3 +8453,217 @@ body {
   border-radius: 22px !important;
   border: 1.5px solid rgba(255, 255, 255, 0.11) !important;
 }
+
+
+/* 0.9.4: final sitewide card outline reset */
+/* One clean system: no top-only strips, no pseudo glow bars, full rounded outlines. */
+.card,
+.metric-card,
+.major-card,
+.progress-card,
+.homepage-link-card,
+.about-summary-card,
+.senate-summary-card,
+.governor-summary-card,
+.house-summary-card,
+.average-summary,
+.graph-card,
+.page-graph,
+.trend-chart-shell,
+.trend-chart-wrap,
+.trend-svg-box,
+.trend-legend,
+.trend-legend-item,
+.source-card,
+.source-link-card,
+.content-card,
+.methodology,
+.methodology-card,
+.race-map-card,
+.race-detail-card,
+.race-control-card,
+.house-forecast-card,
+.house-source-card,
+.contact-strip-card,
+.current-composition-note,
+.footer-inner {
+  position: relative;
+  overflow: hidden;
+  border-width: 1.5px !important;
+  border-style: solid !important;
+  border-color: rgba(220, 231, 241, 0.34) !important;
+  border-top-width: 1.5px !important;
+  border-top-color: rgba(220, 231, 241, 0.34) !important;
+  border-radius: clamp(18px, 1.7vw, 28px) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Kill every old fake top strip / glow layer from previous versions. */
+.card::before,
+.card::after,
+.metric-card::before,
+.metric-card::after,
+.major-card::before,
+.major-card::after,
+.progress-card::before,
+.progress-card::after,
+.homepage-link-card::before,
+.homepage-link-card::after,
+.about-summary-card::before,
+.about-summary-card::after,
+.senate-summary-card::before,
+.senate-summary-card::after,
+.governor-summary-card::before,
+.governor-summary-card::after,
+.house-summary-card::before,
+.house-summary-card::after,
+.average-summary::before,
+.average-summary::after,
+.graph-card::before,
+.graph-card::after,
+.page-graph::before,
+.page-graph::after,
+.trend-chart-shell::before,
+.trend-chart-shell::after,
+.trend-chart-wrap::before,
+.trend-chart-wrap::after,
+.trend-svg-box::before,
+.trend-svg-box::after,
+.trend-legend::before,
+.trend-legend::after,
+.trend-legend-item::before,
+.trend-legend-item::after,
+.source-card::before,
+.source-card::after,
+.source-link-card::before,
+.source-link-card::after,
+.content-card::before,
+.content-card::after,
+.methodology::before,
+.methodology::after,
+.methodology-card::before,
+.methodology-card::after,
+.race-map-card::before,
+.race-map-card::after,
+.race-detail-card::before,
+.race-detail-card::after,
+.house-forecast-card::before,
+.house-forecast-card::after,
+.house-source-card::before,
+.house-source-card::after,
+.contact-strip-card::before,
+.contact-strip-card::after,
+.current-composition-note::before,
+.current-composition-note::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Big homepage cards: full wraparound party outline, no top bar. */
+.generic-ballot {
+  border-color: rgba(255, 91, 91, 0.88) !important;
+  border-top-color: rgba(255, 91, 91, 0.88) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(255, 91, 91, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+.approval-card {
+  border-color: rgba(77, 163, 255, 0.88) !important;
+  border-top-color: rgba(77, 163, 255, 0.88) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(77, 163, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Homepage lower cards. About is blue now. */
+.about-summary-card,
+.homepage-link-card.about-summary-card {
+  border-color: rgba(77, 163, 255, 0.88) !important;
+  border-top-color: rgba(77, 163, 255, 0.88) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(77, 163, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+.senate-summary-card,
+.house-summary-card,
+.homepage-link-card.senate-summary-card,
+.homepage-link-card.house-summary-card {
+  border-color: rgba(255, 91, 91, 0.88) !important;
+  border-top-color: rgba(255, 91, 91, 0.88) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(255, 91, 91, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+.governor-summary-card,
+.homepage-link-card.governor-summary-card {
+  border-color: rgba(77, 163, 255, 0.88) !important;
+  border-top-color: rgba(77, 163, 255, 0.88) !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.26),
+    0 0 12px rgba(77, 163, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Graph sections: neutral full outline, specifically remove the blue top bar. */
+.graph-card,
+.page-graph,
+.trend-chart-shell,
+.trend-chart-wrap {
+  border-color: rgba(220, 231, 241, 0.34) !important;
+  border-top-color: rgba(220, 231, 241, 0.34) !important;
+  border-top-width: 1.5px !important;
+  border-top-style: solid !important;
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045) !important;
+}
+
+/* Inner chart SVG box stays subtle and should not get its own colored top bar. */
+.trend-svg-box,
+.trend-legend,
+.trend-legend-item {
+  border-color: rgba(220, 231, 241, 0.22) !important;
+  border-top-color: rgba(220, 231, 241, 0.22) !important;
+}
+
+/* Source/content cards stay rounded and neutral. */
+.source-card,
+.source-link-card,
+.content-card,
+.average-summary,
+.house-source-card {
+  border-color: rgba(220, 231, 241, 0.34) !important;
+  border-top-color: rgba(220, 231, 241, 0.34) !important;
+}
+
+/* Keep small score/value boxes rounded, not top-accented. */
+.race-mini-stat,
+.metric-value-card,
+.value-card,
+.metric-pill,
+.source-value,
+.source-numbers .result-row,
+.house-source-totals span,
+.number-item.boxed {
+  border-width: 1.5px !important;
+  border-style: solid !important;
+  border-top-width: 1.5px !important;
+  border-radius: 16px !important;
+}
+
+/* One place where the House mini card should stay tidy after the global reset. */
+.homepage-link-card.house-summary-card .race-mini-score-polished {
+  overflow: visible !important;
+}

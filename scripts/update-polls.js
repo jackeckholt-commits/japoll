@@ -304,7 +304,7 @@ async function updatePollingHistory(data) {
 }
 
 async function main() {
-  console.log("Poll tracker updater version 0.9.3");
+  console.log("Poll tracker updater version 0.9.4");
   console.log("Automatic polling update started.");
   const manual = await readJson("data/manual-overrides.json");
 
