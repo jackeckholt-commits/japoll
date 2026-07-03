@@ -33,12 +33,12 @@ function getCategoryTotal(categories, buckets = HOUSE_BUCKETS) {
 function renderHouseSeatBar(categories, options = {}) {
   const buckets = options.prediction ? HOUSE_PREDICTION_BUCKETS : HOUSE_BUCKETS;
   const total = getCategoryTotal(categories, buckets);
-  const majority = Number(options.majority || 218);
   const totalSeats = Number(options.totalSeats || total || 435);
+  const majority = Number(options.majority || 218);
   const majorityLeft = Math.max(0, Math.min(100, (majority / totalSeats) * 100));
 
   return `
-    <div class="house-seat-bar ${options.compact ? "is-compact" : ""} ${options.prediction ? "is-prediction" : ""}" role="img" aria-label="${options.prediction ? "House seat prediction bar" : "House seat rating bar"}">
+    <div class="house-seat-bar ${options.compact ? "is-compact" : ""} ${options.prediction ? "is-prediction" : ""}" style="${options.prediction ? `--house-majority-left:${majorityLeft}%;` : ""}" role="img" aria-label="${options.prediction ? "House seat prediction bar" : "House seat rating bar"}">
       ${buckets.map(bucket => {
         const value = Number(categories[bucket.key] || 0);
         if (value <= 0) return "";
@@ -50,12 +50,7 @@ function renderHouseSeatBar(categories, options = {}) {
           </div>
         `;
       }).join("")}
-      ${options.prediction ? `
-        <div class="house-majority-marker" style="left:${majorityLeft}%">
-          <i></i>
-          <b>${formatSeatValue(majority)}</b>
-        </div>
-      ` : ""}
+      ${options.prediction ? '<div class="house-majority-divider" aria-hidden="true"></div>' : ''}
     </div>
   `;
 }

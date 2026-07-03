@@ -1335,3 +1335,33 @@ Fixes:
 - Removed the faint internal lines inside the House prediction bar.
 - Kept the 218 majority badge, but removed the vertical marker line through the bar.
 - Simplified the House prediction bar overlay so the fill looks cleaner.
+
+
+## Version 0.9.12
+
+Changed files:
+- `js/house-forecast.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fixes:
+- Removed the small `218` badge from the House prediction bar.
+- The page still keeps the normal `218 to Win` text above the bar.
+- Re-centered the House Races homepage card content on small screens.
+
+
+## Version 0.9.13
+
+Changed files:
+- `js/house-forecast.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fixes:
+- Redesigned the House prediction bar center so it uses a cleaner divider line instead of the awkward badge.
+- Added a subtle vertical marker with top/bottom dots at the 218-seat majority threshold.
+- Kept the bar responsive on smaller screens.

@@ -9092,3 +9092,180 @@ h3,
 .house-seat-bar.is-prediction .house-majority-marker b {
   top: 0 !important;
 }
+
+
+/* 0.9.12: remove House 218 bar badge and force small-screen House card centering */
+.house-seat-bar.is-prediction .house-majority-marker,
+.house-seat-bar.is-prediction .house-majority-marker *,
+.house-seat-bar.is-prediction .house-majority-marker i,
+.house-seat-bar.is-prediction .house-majority-marker b {
+  display: none !important;
+  content: none !important;
+}
+
+/* Keep only the main 218 to Win text above the bar, not a second badge on the bar. */
+.house-majority-center strong {
+  text-align: center !important;
+}
+
+/* Make House homepage card centered like the other cards at every width. */
+.homepage-link-card.house-summary-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.homepage-link-card.house-summary-card h3,
+.house-summary-card h3 {
+  width: 100% !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-score,
+.homepage-link-card.house-summary-card .race-mini-score-polished,
+.house-summary-card .house-mini-score,
+.house-summary-card .race-mini-score-polished {
+  width: min(100%, 310px) !important;
+  max-width: 310px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-self: center !important;
+  align-self: center !important;
+  transform: none !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-side,
+.homepage-link-card.house-summary-card .race-mini-stat,
+.house-summary-card .race-mini-side,
+.house-summary-card .race-mini-stat {
+  justify-items: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.homepage-link-card.house-summary-card .card-action,
+.house-summary-card .card-action {
+  align-self: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+@media (max-width: 760px) {
+  .homepage-link-card.house-summary-card {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished,
+  .house-summary-card .house-mini-score,
+  .house-summary-card .race-mini-score-polished {
+    width: min(100%, 285px) !important;
+    max-width: 285px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-value,
+  .house-summary-card .race-mini-value {
+    font-size: clamp(2.15rem, 10vw, 3.15rem) !important;
+    letter-spacing: -0.075em !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished,
+  .house-summary-card .house-mini-score,
+  .house-summary-card .race-mini-score-polished {
+    width: min(100%, 260px) !important;
+    max-width: 260px !important;
+    gap: 10px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-stat,
+  .house-summary-card .race-mini-stat {
+    min-height: 86px !important;
+    padding: 12px 8px !important;
+  }
+}
+
+
+/* 0.9.13: improve House prediction bar with a cleaner center divider */
+.house-seat-bar.is-prediction {
+  position: relative;
+  min-height: 128px;
+  border-radius: 20px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment {
+  position: relative;
+  z-index: 1;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.house-seat-bar.is-prediction .house-seat-segment strong {
+  font-size: clamp(2.3rem, 5vw, 5.4rem);
+}
+
+.house-seat-bar.is-prediction .house-seat-segment span {
+  font-size: clamp(0.78rem, 1vw, 1rem);
+  letter-spacing: 0.08em;
+}
+
+.house-seat-bar.is-prediction .house-majority-divider {
+  position: absolute;
+  z-index: 2;
+  left: var(--house-majority-left, 50%);
+  top: 14px;
+  bottom: 14px;
+  width: 0;
+  transform: translateX(-50%);
+  pointer-events: none;
+  border-left: 2px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 0 0 1px rgba(7, 22, 33, 0.14), 0 0 12px rgba(255, 255, 255, 0.12);
+}
+
+.house-seat-bar.is-prediction .house-majority-divider::before,
+.house-seat-bar.is-prediction .house-majority-divider::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0 0 2px rgba(7, 22, 33, 0.28), 0 0 14px rgba(255, 255, 255, 0.18);
+}
+
+.house-seat-bar.is-prediction .house-majority-divider::before {
+  top: -4px;
+}
+
+.house-seat-bar.is-prediction .house-majority-divider::after {
+  bottom: -4px;
+}
+
+@media (max-width: 760px) {
+  .house-seat-bar.is-prediction {
+    min-height: 110px;
+  }
+
+  .house-seat-bar.is-prediction .house-majority-divider {
+    top: 10px;
+    bottom: 10px;
+  }
+
+  .house-seat-bar.is-prediction .house-majority-divider::before,
+  .house-seat-bar.is-prediction .house-majority-divider::after {
+    width: 8px;
+    height: 8px;
+  }
+}
