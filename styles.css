@@ -9269,3 +9269,219 @@ h3,
     height: 8px;
   }
 }
+
+
+/* 0.9.14: expanded Senate/Governor candidate panels */
+.candidate-list-expanded {
+  display: grid;
+  gap: 12px;
+}
+
+.candidate-card {
+  position: relative;
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1.5px solid rgba(220, 231, 241, 0.16);
+  background:
+    linear-gradient(135deg, rgba(255,255,255,0.075), rgba(255,255,255,0.035));
+  box-shadow:
+    0 12px 26px rgba(0,0,0,0.16),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+  overflow: hidden;
+}
+
+.candidate-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.64;
+  pointer-events: none;
+}
+
+.candidate-card.is-democrat::before,
+.candidate-card.is-dem-aligned::before {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(77,163,255,0.26), transparent 46%),
+    linear-gradient(90deg, rgba(77,163,255,0.12), transparent);
+}
+
+.candidate-card.is-republican::before {
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255,91,91,0.25), transparent 46%),
+    linear-gradient(90deg, rgba(255,91,91,0.10), transparent);
+}
+
+.candidate-card.is-independent::before,
+.candidate-card.is-libertarian::before {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(220,231,241,0.16), transparent 46%),
+    linear-gradient(90deg, rgba(220,231,241,0.06), transparent);
+}
+
+.candidate-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.candidate-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.candidate-card-top > div {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+
+.candidate-card-top strong {
+  color: var(--white);
+  font-size: clamp(1.02rem, 1.15vw, 1.25rem);
+  font-weight: 1000;
+  line-height: 1;
+  overflow-wrap: anywhere;
+}
+
+.candidate-status {
+  color: var(--light-gray);
+  font-size: 0.82rem;
+  font-weight: 850;
+}
+
+.candidate-party-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  max-width: 46%;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(220,231,241,0.18);
+  background: rgba(255,255,255,0.06);
+  color: var(--white);
+  font-size: 0.78rem;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.candidate-card.is-democrat .candidate-party-pill,
+.candidate-card.is-dem-aligned .candidate-party-pill {
+  border-color: rgba(77,163,255,0.42);
+  background: rgba(77,163,255,0.14);
+  color: var(--baby-blue);
+}
+
+.candidate-card.is-republican .candidate-party-pill {
+  border-color: rgba(255,91,91,0.42);
+  background: rgba(255,91,91,0.14);
+  color: #ffb5bd;
+}
+
+.candidate-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.candidate-meta-grid span {
+  display: grid;
+  gap: 3px;
+  padding: 9px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(220,231,241,0.10);
+  background: rgba(7,14,20,0.22);
+}
+
+.candidate-meta-grid b {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.candidate-meta-grid em {
+  color: var(--white);
+  font-style: normal;
+  font-size: 0.82rem;
+  font-weight: 850;
+  line-height: 1.18;
+}
+
+.candidate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.candidate-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 11px;
+  border-radius: 999px;
+  border: 1px solid rgba(159,211,255,0.28);
+  background: rgba(159,211,255,0.10);
+  color: var(--baby-blue);
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 950;
+}
+
+.candidate-action.is-campaign {
+  border-color: rgba(220,231,241,0.20);
+  color: var(--light-gray);
+  background: rgba(255,255,255,0.055);
+}
+
+.candidate-action.is-disabled {
+  opacity: 0.62;
+  cursor: default;
+}
+
+.candidate-waiting {
+  gap: 8px !important;
+}
+
+.candidate-waiting-status {
+  color: var(--baby-blue);
+  font-weight: 950;
+}
+
+.candidate-waiting small {
+  color: var(--muted);
+  font-weight: 850;
+}
+
+/* Keep old candidate-link styles from earlier versions from leaking into the new cards. */
+.candidate-list-expanded .candidate-link {
+  display: none !important;
+}
+
+/* 0.9.14: if 0.9.13 House divider was applied, keep the House prediction bar clean */
+.house-seat-bar.is-prediction .house-majority-divider,
+.house-seat-bar.is-prediction .house-majority-divider::before,
+.house-seat-bar.is-prediction .house-majority-divider::after {
+  display: none !important;
+  content: none !important;
+}
+
+@media (max-width: 720px) {
+  .candidate-card-top,
+  .candidate-actions {
+    display: grid;
+  }
+
+  .candidate-party-pill {
+    max-width: 100%;
+    justify-self: start;
+  }
+
+  .candidate-meta-grid {
+    grid-template-columns: 1fr;
+  }
+}

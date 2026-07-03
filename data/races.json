@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.9.10",
+  "version": "0.9.14",
   "note": "Candidate lists are updated conservatively from completed primaries/runoffs and current nominee reporting. States without a clear nominee stay marked as waiting on primary/runoff results.",
   "maps": {
     "senate": {
@@ -1002,7 +1002,9 @@
             "className": "ind-dem"
           }
         ]
-      }
+      },
+      "candidateLastUpdated": "Jul 3, 2026",
+      "candidatePanelNote": "Candidate panels show available candidate information and will be expanded as primaries finish."
     },
     "governor": {
       "title": "Governor Races",
@@ -2034,7 +2036,9 @@
         "dem": 25,
         "rep": 25,
         "label": "Projected governorships"
-      }
+      },
+      "candidateLastUpdated": "Jul 3, 2026",
+      "candidatePanelNote": "Candidate panels show available candidate information and will be expanded as primaries finish."
     },
     "house": {
       "title": "House Races",

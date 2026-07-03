@@ -1365,3 +1365,21 @@ Fixes:
 - Redesigned the House prediction bar center so it uses a cleaner divider line instead of the awkward badge.
 - Added a subtle vertical marker with top/bottom dots at the 218-seat majority threshold.
 - Kept the bar responsive on smaller screens.
+
+
+## Version 0.9.14
+
+Changed files:
+- `data/races.json`
+- `js/race-maps.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Candidate panel upgrade:
+- Rebuilt Senate/Governor candidate panels into richer candidate cards.
+- Candidate cards now show name, party, status, Wikipedia link, campaign site placeholder/link, and last updated.
+- Empty candidate panels now clearly show `Primary pending`.
+- Added shared `candidateLastUpdated` metadata for Senate and Governor maps.
+- Kept the House prediction bar clean by hiding the 0.9.13 middle divider.
