@@ -34,11 +34,28 @@
 </section>
 </div>
 </header>
-<main class="container page-content standard-page text-page about-layout"><section class="content-card"><h2>Purpose</h2><p>This site acts as an aggregator of aggregators. The idea is that an average of averages can be more useful than relying on one polling average alone.</p><p>Instead of using only one source, the tracker compares several polling averages to get a broader view of the national political environment while also showing my personal algorithm adjustment where it applies.</p></section>
-<section class="content-card"><h2>Sources</h2><p>The tracker compares national averages from sources such as VoteHub, Silver Bulletin, The New York Times, CNN, Race to WH, and FiftyPlusOne.</p></section>
-<section class="content-card"><h2>Average of averages</h2><p>The current average gives each usable source equal weight. Sources without an available average are listed for reference, but they are not included in the calculation until a usable value is available.</p></section>
-<section class="content-card"><h2>Current calculations</h2><p>The generic ballot average currently uses VoteHub, Silver Bulletin, CNN, Race to WH, and FiftyPlusOne. The New York Times is unavailable for the generic ballot because there is no usable national generic ballot average available from that source.</p><p>The generic ballot is also modified by my algorithm in an attempt to better account for polling errors.</p><p>The Trump approval average currently uses The New York Times, Silver Bulletin, CNN, VoteHub, Race to WH, and FiftyPlusOne.</p></section>
-<section class="content-card"><h2>Algorithm adjustment</h2><p>The generic ballot page includes an optional adjustment based on my algorithm. The main reason for this is that in past elections, polling averages have sometimes missed the final result.</p><p>I added an adjustment from my own math to try to make the final estimate more accurate. In my back-testing, this adjustment helped match the results of the 2022 and 2024 elections more closely than some unadjusted averages.</p></section>
+<main class="container page-content standard-page text-page about-layout">
+<section class="content-card">
+<h2>Purpose</h2>
+<p>The main idea behind this site was to make my prediction aggregation and model more accessible. For previous elections, I have been able to accurately predict results by averaging averages and accounting for state and nationwide polling errors.</p>
+<p>Looking at multiple sources helps eliminate the bias and mistakes that one aggregator or model might have.</p>
+</section>
+<section class="content-card">
+<h2>Averages of Averages</h2>
+<p>Each source is given equal weight when making the predictions. After an average is calculated, an adjustment will be applied where applicable.</p>
+<p>Not all sources can be used at all times. Sources are listed as unavailable when there is no usable data.</p>
+</section>
+<section class="content-card">
+<h2>Current Calculations</h2>
+<p>The averages currently use VoteHub, Silver Bulletin, CNN, Race to WH, and FiftyPlusOne. The New York Times is unavailable for the generic ballot because there is no usable national generic ballot average available from that source.</p>
+<p>The generic ballot is also modified by my algorithm in an attempt to better account for polling errors. I will update the main page to show what amount the adjustment is.</p>
+<p>For the House, Senate, and Governor predictions, I take the modified generic ballot and apply it to the current polling numbers from each state while accounting for past performances of the various pollsters that made polls for each state.</p>
+<p>As much as I would like to put the math for each congressional and gubernatorial race on the site, it would be difficult to do. If you have any questions about any calculations, I would be happy to answer them.</p>
+</section>
+<section class="content-card">
+<h2>Algorithm Adjustment</h2>
+<p>The algorithm adjustment comes from looking at polling errors from previous elections and accounting for that, as well as accounting for voting propensity of various groups in midterm elections.</p>
+</section>
 </main>
 <section class="contact-strip container" id="contact">
 <div class="contact-strip-card">

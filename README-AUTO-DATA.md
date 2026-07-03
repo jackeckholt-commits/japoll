@@ -1516,3 +1516,18 @@ Mobile menu UI:
 - Made the mobile menu panel solid so page text no longer bleeds/fades through on the right.
 - Removed leftover pseudo-overlay behavior from the menu panel.
 - Centered the Contact button across the two-column mobile menu.
+
+
+## Version 0.9.24
+
+Changed files:
+- `methodology.html`
+- `index.html`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+About page update:
+- Replaced the About/Methodology page copy with the new text from the uploaded document.
+- Updated the homepage About card summary to better match the new wording.
+- Lightly cleaned wording for public display while keeping the same meaning.
