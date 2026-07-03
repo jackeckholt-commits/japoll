@@ -31,6 +31,13 @@ Trump approval:
 - Race to WH
 - The New York Times
 
+House ratings:
+- Race to the WH
+- 270toWin
+- Cook Political Report
+
+The House source cards and their average are automated. The site's top House seat prediction remains manually controlled in `data/house-forecast.json`.
+
 Only live scraped values count in the combined averages. Fallback/reference values can be shown, but they are not counted.
 
 ## Run locally
@@ -51,6 +58,12 @@ Update polling data:
 
 ```bash
 npm run update-polls
+```
+
+Update House source ratings while preserving the manual prediction:
+
+```bash
+npm run update-house
 ```
 
 Run the site locally:
@@ -78,6 +91,8 @@ It:
 - runs automatically every two days
 - installs dependencies
 - installs Chromium for Playwright
+- updates national polling, approval, and House source ratings
+- preserves the manual House prediction
 - runs `npm run update-polls`
 - commits updated data files back to the repo
 

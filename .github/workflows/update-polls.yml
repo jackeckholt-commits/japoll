@@ -35,6 +35,9 @@ jobs:
 
       - name: Run poll scraper
         run: npm run update-polls
+
+      - name: Update House ratings sources
+        run: npm run update-house
         
       - name: Upload scrape debug files
         if: always()
@@ -49,8 +52,8 @@ jobs:
           if [ -n "$(git status --porcelain data)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/polling.json data/polling-history.json
-            git commit -m "Update polling data"
+            git add data/polling.json data/polling-history.json data/house-forecast.json
+            git commit -m "Update polling and House ratings data"
             git push
           else
             echo "No polling data changes to commit."
