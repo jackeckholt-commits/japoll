@@ -7736,6 +7736,18 @@ body {
   line-height: 1.04;
 }
 
+.house-source-status {
+  display: block;
+  margin-top: 7px;
+  color: var(--light-gray);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.house-source-status.is-live {
+  color: #8fe2ad;
+}
+
 .house-source-totals {
   min-width: 0;
 }
