@@ -352,18 +352,3 @@ async function loadPollingData() {
 loadPollingData().catch(error => {
   console.error("Could not load polling data:", error);
 });
-
-
-function cleanNeutralWeeklyBadges() {
-  document.querySelectorAll(".trend-badge, .change-badge, .weekly-change-badge").forEach(badge => {
-    const text = badge.textContent.trim();
-    if (/^[→↔-]?\s*0\.0$/.test(text) || text === "0" || text === "0.0") {
-      badge.textContent = "0.0";
-      badge.classList.add("is-neutral");
-    }
-  });
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(cleanNeutralWeeklyBadges, 0);
-});

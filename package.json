@@ -1,12 +1,13 @@
 {
   "name": "state-of-the-race",
-  "version": "0.9.31",
+  "version": "1.0.0",
   "type": "module",
   "private": true,
   "scripts": {
     "update-polls": "node scripts/update-polls.js",
     "start": "npx live-server . --port=5500",
-    "install-browsers": "npx playwright install chromium"
+    "install-browsers": "npx playwright install chromium",
+    "check": "node --check scripts/update-polls.js && node --check js/load-polling-data.js && node --check js/trend-charts.js && node --check js/race-maps.js && node --check js/house-forecast.js && node --check js/site-nav.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

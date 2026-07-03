@@ -1,3 +1,4 @@
+/* Mobile navigation controller for the compact menu. */
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.querySelector(".top-nav");
   const toggle = document.querySelector(".mobile-nav-toggle");

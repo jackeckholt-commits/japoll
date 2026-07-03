@@ -1641,3 +1641,22 @@ Mobile menu rebuild:
 - Removed the side fade by forcing the menu panel and buttons to use opaque backgrounds.
 - Added a fast, seamless fade/slide animation when the menu opens.
 - Kept the menu centered and kept Contact centered across the bottom row.
+
+
+## Version 1.0.0
+
+Changed files:
+- `styles.css`
+- `js/site-nav.js`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+- `RELEASE-1.0.md`
+
+1.0 cleanup:
+- Consolidated the final mobile menu and House homepage card CSS into a release-ready block.
+- Removed duplicate late-stage override blocks from `styles.css`.
+- Kept the solid mobile menu, fast fade/slide open behavior, centered menu, and centered Contact row.
+- Kept the final House card anti-squish rules.
+- Added `npm run check` for quick JavaScript syntax checks.
+- Updated the project to version `1.0.0`.
