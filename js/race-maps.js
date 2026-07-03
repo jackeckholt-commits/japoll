@@ -126,24 +126,25 @@ function getCandidateLastUpdated(candidate, race, mapData) {
 }
 
 function renderCandidateLinks(candidate) {
-  const wikipedia = candidate.wikipedia
-    ? `<a href="${candidate.wikipedia}" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a>`
-    : `<span class="is-disabled">Wikipedia pending</span>`;
-  const campaign = candidate.campaign || candidate.campaignWebsite || candidate.website
-    ? `<a href="${candidate.campaign || candidate.campaignWebsite || candidate.website}" target="_blank" rel="noopener noreferrer">Campaign ↗</a>`
-    : `<span class="is-disabled">Campaign site pending</span>`;
-  return `<div class="candidate-actions">${wikipedia}${campaign}</div>`;
+  const links = [];
+  if (candidate.wikipedia) {
+    links.push(`<a href="${candidate.wikipedia}" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a>`);
+  }
+  const campaignUrl = candidate.campaign || candidate.campaignWebsite || candidate.website;
+  if (campaignUrl) {
+    links.push(`<a href="${campaignUrl}" target="_blank" rel="noopener noreferrer">Campaign ↗</a>`);
+  }
+  if (!links.length) return "";
+  return `<div class="candidate-actions">${links.join("")}</div>`;
 }
 
 function renderCandidateList(race, mapData) {
   const candidates = Array.isArray(race.candidates) ? race.candidates : [];
-  const updated = race.lastUpdated || (mapData && mapData.lastUpdated) || "Not yet listed";
   if (!candidates.length) {
     return `
       <div class="candidate-waiting">
-        <strong>Waiting on primary for full results.</strong>
-        <span>Wikipedia and campaign links will be added once nominees are clear.</span>
-        <small>Last updated: ${updated}</small>
+        <strong>Primary pending</strong>
+        <span>Candidate links will appear once the matchup is clear.</span>
       </div>
     `;
   }
@@ -151,16 +152,10 @@ function renderCandidateList(race, mapData) {
     <div class="candidate-list candidate-list-v2">
       ${candidates.map(candidate => `
         <article class="candidate-card ${getCandidatePartyClass(candidate)}">
-          <div class="candidate-card-top">
-            <div>
-              <strong>${candidate.name}</strong>
-              <em>${candidate.note || "Candidate links and details"}</em>
-            </div>
-            <small>${candidate.party || "Party pending"}</small>
+          <div class="candidate-card-top candidate-card-top-simple">
+            <strong>${candidate.name}</strong>
+            ${candidate.party ? `<small>${candidate.party}</small>` : ""}
           </div>
-          <dl class="candidate-meta candidate-meta-clean">
-            <div><dt>Last updated</dt><dd>${getCandidateLastUpdated(candidate, race, mapData)}</dd></div>
-          </dl>
           ${renderCandidateLinks(candidate)}
         </article>
       `).join("")}
@@ -206,7 +201,7 @@ function renderRaceDetail(panel, race, mapData) {
   if (!race) {
     panel.innerHTML = `
       <h3>Select a state</h3>
-      <p>Pick a state on the map to see the prediction, candidate status, Wikipedia links, campaign links when available, and last updated notes.</p>
+      <p>Pick a state on the map to see the prediction and current candidate matchup.</p>
       <div class="detail-helper-grid">
         <span>Margin</span>
         <span>Candidates</span>
@@ -224,7 +219,6 @@ function renderRaceDetail(panel, race, mapData) {
     <p><strong>Status:</strong> ${formatRaceStatus(race)}</p>
     ${marginLine}
     ${noteLine}
-    <p class="race-last-updated"><strong>Last updated:</strong> ${race.lastUpdated || mapData.lastUpdated || "Not yet listed"}</p>
     <h4 class="candidate-heading">Candidates</h4>
     ${renderCandidateList(race, mapData)}
   `;

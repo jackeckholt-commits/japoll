@@ -9873,3 +9873,60 @@ h3,
     max-width: 100%;
   }
 }
+
+
+/* 0.9.17: simplify state candidate cards */
+.candidate-card {
+  gap: 10px;
+}
+
+.candidate-card-top-simple {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.candidate-card-top-simple strong {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.candidate-card-top-simple small {
+  flex: 0 0 auto;
+  max-width: 58%;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.candidate-actions {
+  margin-top: 2px;
+}
+
+.candidate-actions:empty {
+  display: none;
+}
+
+.candidate-waiting {
+  gap: 8px;
+}
+
+.candidate-waiting small {
+  display: none;
+}
+
+.race-detail-panel .candidate-card {
+  gap: 10px;
+}
+
+@media (max-width: 560px) {
+  .candidate-card-top-simple {
+    display: grid;
+  }
+
+  .candidate-card-top-simple small {
+    max-width: 100%;
+    justify-self: start;
+  }
+}
