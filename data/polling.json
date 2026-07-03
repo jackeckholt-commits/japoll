@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-01T17:34:41.349Z",
+  "updatedAt": "2026-07-03T16:11:23.753Z",
   "genericBallot": {
     "average": {
       "democrats": 47.8,
-      "republicans": 43.6
+      "republicans": 43.4
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 47.5,
-        "republicans": 41.9,
+        "democrats": 47.1,
+        "republicans": 41.1,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
         "scrapeStatus": "live",
@@ -22,7 +22,7 @@
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
         "democrats": 49.1,
-        "republicans": 43.6,
+        "republicans": 43.5,
         "included": true,
         "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
         "scrapeStatus": "live",
@@ -32,8 +32,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "democrats": 48.1,
-        "republicans": 41.9,
+        "democrats": 47.9,
+        "republicans": 41.7,
         "included": true,
         "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
         "scrapeStatus": "live",
@@ -54,8 +54,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "democrats": 47.5,
-        "republicans": 41.4,
+        "democrats": 47.7,
+        "republicans": 41.6,
         "included": true,
         "url": "https://www.racetothewh.com/polls/genericballot",
         "scrapeStatus": "live",
@@ -76,16 +76,16 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 38.6,
-      "disapprove": 58.7
+      "approve": 38.9,
+      "disapprove": 58
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "approve": 40.2,
-        "disapprove": 57.5,
+        "approve": 40.6,
+        "disapprove": 56.4,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
         "scrapeStatus": "live",
@@ -95,8 +95,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 37.1,
-        "disapprove": 59.6,
+        "approve": 37.5,
+        "disapprove": 59.1,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
@@ -106,8 +106,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "approve": 39.4,
-        "disapprove": 57.5,
+        "approve": 39.7,
+        "disapprove": 56.5,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
         "scrapeStatus": "live",
@@ -128,8 +128,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "approve": 38.9,
-        "disapprove": 57.7,
+        "approve": 39.5,
+        "disapprove": 56.1,
         "included": true,
         "url": "https://www.racetothewh.com/trump",
         "scrapeStatus": "live",
