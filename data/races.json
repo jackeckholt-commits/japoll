@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.9.16",
+  "version": "0.9.20",
   "note": "Candidate lists are updated conservatively from completed primaries/runoffs and current nominee reporting. States without a clear nominee stay marked as waiting on primary/runoff results.",
   "maps": {
     "senate": {
@@ -406,8 +406,20 @@
           "marginCategory": "demTilt",
           "marginLabel": "Tilt Democratic",
           "predictedMargin": 0.5,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results",
+          "candidates": [
+            {
+              "name": "Graham Platner",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Graham_Platner",
+              "campaign": "https://www.grahamforsenate.com/"
+            },
+            {
+              "name": "Susan Collins",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Susan_Collins"
+            }
+          ],
+          "candidateStatus": "General election candidates added from completed primary/current reporting",
           "lastUpdated": "Jul 3, 2026"
         },
         {
@@ -1447,8 +1459,20 @@
           "marginCategory": "demLikely",
           "marginLabel": "D+5 to D+15",
           "predictedMargin": 8,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results",
+          "candidates": [
+            {
+              "name": "Hannah Pingree",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Hannah_Pingree",
+              "campaign": "https://hannahforgovernor.com/"
+            },
+            {
+              "name": "Bobby Charles",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Robert_B._Charles"
+            }
+          ],
+          "candidateStatus": "General election candidates added from completed primary/current reporting",
           "lastUpdated": "Jul 3, 2026"
         },
         {
@@ -1583,8 +1607,21 @@
           "marginCategory": "repSolid",
           "marginLabel": "R+15 or more",
           "predictedMargin": 18,
-          "candidates": [],
-          "candidateStatus": "Waiting on primary for full results",
+          "candidates": [
+            {
+              "name": "Jim Pillen",
+              "party": "Republican",
+              "wikipedia": "https://en.wikipedia.org/wiki/Jim_Pillen",
+              "campaign": "https://www.jimpillen.com/"
+            },
+            {
+              "name": "Lynne Walz",
+              "party": "Democratic",
+              "wikipedia": "https://en.wikipedia.org/wiki/Lynne_Walz",
+              "campaign": "https://lynnewalz.com/"
+            }
+          ],
+          "candidateStatus": "General election candidates added from completed primary/current reporting",
           "lastUpdated": "Jul 3, 2026"
         },
         {

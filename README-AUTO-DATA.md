@@ -1459,3 +1459,18 @@ UI update:
 - Expanded the homepage House Races card so it fills the panel better.
 - Added a slim seat bar with a centered `218 to win` marker under the House score boxes.
 - Kept the main party score boxes centered and balanced on the homepage card.
+
+
+## Version 0.9.20
+
+Changed files:
+- `data/races.json`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Candidate data update:
+- Filled in Maine Senate candidates: Graham Platner vs. Susan Collins.
+- Filled in Maine Governor candidates: Hannah Pingree vs. Bobby Charles.
+- Filled in Nebraska Governor candidates: Jim Pillen vs. Lynne Walz.
+- Kept minor-party/independent candidates out of Nebraska Governor to match the current candidate-card rule.
