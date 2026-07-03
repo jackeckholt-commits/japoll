@@ -10116,3 +10116,109 @@ h3,
     width: min(100%, 300px);
   }
 }
+
+
+/* 0.9.22: make the homepage House card fill the panel like the other race cards */
+.homepage-link-card.house-summary-card {
+  justify-content: center !important;
+  align-items: center !important;
+  gap: clamp(18px, 2vw, 24px) !important;
+  padding-block: clamp(28px, 4vw, 44px) !important;
+}
+
+.homepage-link-card.house-summary-card h3 {
+  font-size: clamp(2rem, 2.55vw, 3.15rem) !important;
+  margin: 0 !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-score,
+.homepage-link-card.house-summary-card .race-mini-score-polished {
+  width: min(100%, 450px) !important;
+  max-width: 450px !important;
+  gap: clamp(14px, 1.5vw, 22px) !important;
+  margin: 0 auto !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-stat,
+.house-summary-card .race-mini-stat {
+  min-height: clamp(118px, 10vw, 142px) !important;
+  padding: clamp(15px, 1.8vw, 22px) clamp(12px, 1.7vw, 20px) !important;
+  border-radius: 24px !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-kicker,
+.house-summary-card .race-mini-kicker {
+  font-size: clamp(0.7rem, 0.8vw, 0.9rem) !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-value,
+.house-summary-card .race-mini-value {
+  font-size: clamp(3.6rem, 6.2vw, 6.05rem) !important;
+  letter-spacing: -0.095em !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar {
+  width: min(100%, 500px) !important;
+  max-width: 500px !important;
+  margin: 0 auto !important;
+  padding-top: 22px !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-track {
+  height: 24px !important;
+  border-radius: 999px !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-marker {
+  top: 22px !important;
+  height: 24px !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-label {
+  top: 0 !important;
+  font-size: 0.72rem !important;
+  padding: 4px 9px !important;
+}
+
+.homepage-link-card.house-summary-card .card-action {
+  margin-top: 0 !important;
+  align-self: center !important;
+}
+
+@media (max-width: 780px) {
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished {
+    width: min(100%, 390px) !important;
+  }
+
+  .homepage-link-card.house-summary-card .house-mini-bar {
+    width: min(100%, 420px) !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .homepage-link-card.house-summary-card {
+    padding-inline: 20px !important;
+  }
+
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished {
+    width: min(100%, 320px) !important;
+    gap: 12px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-stat,
+  .house-summary-card .race-mini-stat {
+    min-height: 104px !important;
+    border-radius: 20px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-value,
+  .house-summary-card .race-mini-value {
+    font-size: clamp(2.85rem, 15vw, 4.2rem) !important;
+  }
+
+  .homepage-link-card.house-summary-card .house-mini-bar {
+    width: min(100%, 340px) !important;
+  }
+}

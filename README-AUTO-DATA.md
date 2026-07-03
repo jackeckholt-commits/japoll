@@ -1488,3 +1488,17 @@ UI update:
 - Simplified the Senate/Governor margin summary bar so the bar only shows seat counts.
 - Removed the in-bar margin text like `D+15`, `D+5`, `Tilt D`, etc., because the legend below already explains the color scale.
 - Kept accessibility labels/tooltips on each segment.
+
+
+## Version 0.9.22
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Homepage House card UI:
+- Made the House Races card fill the panel better.
+- Enlarged the House score tiles, numbers, and mini seat bar.
+- Centered the card rhythm so it visually matches the Governor and Senate cards better.
