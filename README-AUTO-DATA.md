@@ -1445,3 +1445,17 @@ UI fixes:
 - Centered the mobile menu dropdown and menu button.
 - Removed the extra arrow characters from the mobile menu links.
 - Kept the mobile menu in a centered two-column layout, switching to one column on narrow phones.
+
+
+## Version 0.9.19
+
+Changed files:
+- `index.html`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+
+UI update:
+- Expanded the homepage House Races card so it fills the panel better.
+- Added a slim seat bar with a centered `218 to win` marker under the House score boxes.
+- Kept the main party score boxes centered and balanced on the homepage card.

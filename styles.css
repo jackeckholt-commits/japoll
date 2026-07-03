@@ -10009,3 +10009,110 @@ h3,
 .standard-section-heading.source-section-heading:empty {
   display: none !important;
 }
+
+
+/* 0.9.19: make the homepage House card feel fuller and more intentional */
+.homepage-link-card.house-summary-card {
+  justify-content: flex-start !important;
+  align-items: center !important;
+  text-align: center !important;
+  gap: 16px !important;
+}
+
+.homepage-link-card.house-summary-card h3 {
+  margin-bottom: 2px;
+  text-align: center !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-score,
+.homepage-link-card.house-summary-card .race-mini-score-polished {
+  width: min(100%, 282px) !important;
+  margin: 0 auto !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-stat,
+.house-summary-card .race-mini-stat {
+  min-height: 104px !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar {
+  position: relative;
+  width: min(100%, 360px);
+  margin: 2px auto 0;
+  padding-top: 18px;
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-track {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 16px;
+  overflow: hidden;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 10px 22px rgba(0, 0, 0, 0.18);
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-fill {
+  height: 100%;
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-fill-dem {
+  background: linear-gradient(90deg, rgba(77, 163, 255, 0.68), rgba(77, 163, 255, 0.96));
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-fill-rep {
+  background: linear-gradient(90deg, rgba(255, 91, 91, 0.92), rgba(255, 91, 91, 0.72));
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-marker {
+  position: absolute;
+  left: 50.12%;
+  top: 18px;
+  bottom: 0;
+  width: 2px;
+  height: 16px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 0 0 1px rgba(8, 14, 22, 0.3);
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar-label {
+  position: absolute;
+  left: 50.12%;
+  top: 0;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(20, 28, 38, 0.92);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.homepage-link-card.house-summary-card .card-action {
+  margin-top: 4px !important;
+  align-self: center !important;
+}
+
+@media (max-width: 640px) {
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished {
+    width: min(100%, 252px) !important;
+  }
+
+  .homepage-link-card.house-summary-card .house-mini-bar {
+    width: min(100%, 300px);
+  }
+}
