@@ -1609,3 +1609,19 @@ Fixes:
 - Forced the mobile dropdown panel and buttons to render fully opaque.
 - Fixed the House homepage card by forcing the House score area into a true two-column grid.
 - Added tighter responsive sizing so `230` and `205` do not clip on narrow screens.
+
+
+## Version 0.9.30
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+About page layout:
+- Removed the old tall/uneven About card layout.
+- Made Purpose and Averages of Averages sit as balanced top cards.
+- Made Current Calculations a wider readable section instead of a narrow tall card.
+- Made Algorithm Adjustment full-width and tighter.
+- Reduced the About page hero spacing so the page starts cleaner.
