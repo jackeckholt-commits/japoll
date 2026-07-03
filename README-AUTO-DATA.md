@@ -1502,3 +1502,17 @@ Homepage House card UI:
 - Made the House Races card fill the panel better.
 - Enlarged the House score tiles, numbers, and mini seat bar.
 - Centered the card rhythm so it visually matches the Governor and Senate cards better.
+
+
+## Version 0.9.23
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Mobile menu UI:
+- Made the mobile menu panel solid so page text no longer bleeds/fades through on the right.
+- Removed leftover pseudo-overlay behavior from the menu panel.
+- Centered the Contact button across the two-column mobile menu.
