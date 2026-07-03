@@ -171,7 +171,8 @@ function renderMarginSummary(container, mapData) {
     const count = Number(segment.count || 0);
     if (count <= 0) return "";
     const width = Math.max((count / total) * 100, 3);
-    return `<div class="margin-bar-segment ${segment.className || ""}" style="width:${width}%"><strong>${count}</strong><span>${segment.label || ""}</span></div>`;
+    const accessibleLabel = segment.label ? `${count} ${segment.label}` : `${count}`;
+    return `<div class="margin-bar-segment ${segment.className || ""}" style="width:${width}%" aria-label="${accessibleLabel}" title="${accessibleLabel}"><strong>${count}</strong></div>`;
   }).join("");
   const legend = `
     <div class="margin-scale-legend" aria-label="Margin color legend">

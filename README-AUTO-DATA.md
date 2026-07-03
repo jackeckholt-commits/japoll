@@ -1474,3 +1474,17 @@ Candidate data update:
 - Filled in Maine Governor candidates: Hannah Pingree vs. Bobby Charles.
 - Filled in Nebraska Governor candidates: Jim Pillen vs. Lynne Walz.
 - Kept minor-party/independent candidates out of Nebraska Governor to match the current candidate-card rule.
+
+
+## Version 0.9.21
+
+Changed files:
+- `js/race-maps.js`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI update:
+- Simplified the Senate/Governor margin summary bar so the bar only shows seat counts.
+- Removed the in-bar margin text like `D+15`, `D+5`, `Tilt D`, etc., because the legend below already explains the color scale.
+- Kept accessibility labels/tooltips on each segment.
