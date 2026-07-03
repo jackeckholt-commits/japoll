@@ -1625,3 +1625,19 @@ About page layout:
 - Made Current Calculations a wider readable section instead of a narrow tall card.
 - Made Algorithm Adjustment full-width and tighter.
 - Reduced the About page hero spacing so the page starts cleaner.
+
+
+## Version 0.9.31
+
+Changed files:
+- `js/site-nav.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Mobile menu rebuild:
+- Rebuilt the mobile menu styling from the ground up with solid colors instead of gradients.
+- Removed the side fade by forcing the menu panel and buttons to use opaque backgrounds.
+- Added a fast, seamless fade/slide animation when the menu opens.
+- Kept the menu centered and kept Contact centered across the bottom row.
