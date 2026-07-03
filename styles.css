@@ -10433,3 +10433,100 @@ h3,
     justify-self: center !important;
   }
 }
+
+
+/* 0.9.28: make national/trump graph panels use the available width */
+.page-graph {
+  padding: clamp(18px, 2.2vw, 34px) !important;
+  min-height: auto !important;
+}
+
+.page-graph .trend-chart-wrap,
+.graph-card.page-graph .trend-chart-wrap {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  border-radius: clamp(20px, 1.6vw, 30px) !important;
+}
+
+.page-graph .trend-chart-shell,
+.graph-card.page-graph .trend-chart-shell {
+  width: 100% !important;
+  max-width: none !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) clamp(190px, 14vw, 285px) !important;
+  gap: clamp(18px, 2vw, 34px) !important;
+  align-items: stretch !important;
+  padding: clamp(18px, 2.2vw, 34px) !important;
+}
+
+.page-graph .trend-svg-box,
+.graph-card.page-graph .trend-svg-box {
+  display: flex !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.page-graph .trend-svg-box svg,
+.graph-card.page-graph .trend-svg-box svg {
+  width: 100% !important;
+  height: auto !important;
+  min-height: clamp(360px, 28vw, 560px) !important;
+}
+
+.page-graph .trend-legend,
+.graph-card.page-graph .trend-legend {
+  align-content: center !important;
+  gap: clamp(14px, 1.4vw, 22px) !important;
+}
+
+.page-graph .trend-legend-item,
+.graph-card.page-graph .trend-legend-item {
+  padding: clamp(14px, 1.25vw, 20px) clamp(14px, 1.35vw, 22px) !important;
+  border-radius: 18px !important;
+}
+
+.page-graph .trend-hover-panel,
+.graph-card.page-graph .trend-hover-panel {
+  width: 100% !important;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 920px) {
+  .page-graph .trend-chart-shell,
+  .graph-card.page-graph .trend-chart-shell {
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "chart"
+      "legend"
+      "panel" !important;
+  }
+
+  .page-graph .trend-svg-box svg,
+  .graph-card.page-graph .trend-svg-box svg {
+    min-height: clamp(300px, 56vw, 470px) !important;
+  }
+
+  .page-graph .trend-legend,
+  .graph-card.page-graph .trend-legend {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .page-graph {
+    padding: 14px !important;
+  }
+
+  .page-graph .trend-chart-shell,
+  .graph-card.page-graph .trend-chart-shell {
+    padding: 14px !important;
+    gap: 14px !important;
+  }
+
+  .page-graph .trend-legend,
+  .graph-card.page-graph .trend-legend {
+    grid-template-columns: 1fr !important;
+  }
+}
