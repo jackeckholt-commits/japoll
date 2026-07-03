@@ -1594,3 +1594,18 @@ Graph UI update:
 - Made the national averages and Trump approval graph sections use the full card width.
 - Expanded the chart shell and SVG area instead of leaving the graph small and centered inside a huge panel.
 - Kept the legend on the right for desktop, then stacks it cleanly on smaller screens.
+
+
+## Version 0.9.29
+
+Changed files:
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Fixes:
+- Added a solid mobile-menu backdrop so page text cannot bleed through the menu.
+- Forced the mobile dropdown panel and buttons to render fully opaque.
+- Fixed the House homepage card by forcing the House score area into a true two-column grid.
+- Added tighter responsive sizing so `230` and `205` do not clip on narrow screens.
