@@ -1,64 +1,65 @@
 {
-  "updatedAt": "2026-06-03T00:00:00.000Z",
+  "updatedAt": "2026-07-03T21:11:59.781Z",
   "genericBallot": {
     "average": {
-      "democrats": 48.4,
-      "republicans": 43.6
+      "democrats": 47.8,
+      "republicans": 43.4
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 49.0,
-        "republicans": 42.3,
+        "democrats": 47.1,
+        "republicans": 41.1,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
-        "scrapeStatus": "fallback",
-        "scrapeNote": "Fallback value used only if the live scraper cannot find usable data."
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated VoteHub SVG summary scrape"
       },
       {
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "democrats": 49.4,
+        "democrats": 49.1,
         "republicans": 43.5,
         "included": true,
         "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
-        "scrapeStatus": "fallback",
-        "scrapeNote": "Fallback value used only if the live scraper cannot find usable data."
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated FiftyPlusOne public page scrape"
       },
       {
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "democrats": 48.6,
-        "republicans": 41.8,
+        "democrats": 47.9,
+        "republicans": 41.7,
         "included": true,
         "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
-        "scrapeStatus": "fallback",
-        "scrapeNote": "Fallback aligned with visible Silver chart labels and Datawrapper candidates"
+        "scrapeStatus": "live",
+        "scrapeNote": "Read from rendered Silver Bulletin Datawrapper iframe labels"
       },
       {
         "key": "cnn",
         "name": "CNN",
         "shortName": "CNN",
-        "democrats": 47.0,
-        "republicans": 49.0,
+        "democrats": 47,
+        "republicans": 49,
         "included": true,
         "url": "https://www.cnn.com/polling/generic-ballot-poll-of-polls",
-        "scrapeStatus": "fallback"
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated live scrape"
       },
       {
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "democrats": 48.1,
-        "republicans": 41.2,
+        "democrats": 47.7,
+        "republicans": 41.6,
         "included": true,
         "url": "https://www.racetothewh.com/polls/genericballot",
-        "scrapeStatus": "fallback",
-        "scrapeNote": "Fallback value used only if the live scraper cannot find usable data."
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated live scrape"
       },
       {
         "key": "nyt",
@@ -68,77 +69,82 @@
         "republicans": null,
         "included": false,
         "note": "No national generic ballot average available",
-        "url": "https://www.nytimes.com/interactive/2026/us/elections/polls.html"
+        "url": "https://www.nytimes.com/interactive/2026/us/elections/polls.html",
+        "scrapeStatus": "not_applicable"
       }
     ]
   },
   "trumpApproval": {
     "average": {
-      "approve": 37.7,
-      "disapprove": 59.0
+      "approve": 38.9,
+      "disapprove": 58
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "approve": 39.5,
-        "disapprove": 57.3,
+        "approve": 40.6,
+        "disapprove": 56.4,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
-        "scrapeStatus": "fallback",
-        "scrapeNote": "Fallback value used only if the live scraper cannot find usable data."
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated VoteHub SVG summary scrape"
       },
       {
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 36.5,
-        "disapprove": 59.9,
+        "approve": 37.5,
+        "disapprove": 59.1,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
-        "scrapeStatus": "fallback",
-        "scrapeNote": "Fallback value used only if the live scraper cannot find usable data."
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated FiftyPlusOne public page scrape"
       },
       {
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "approve": 38.6,
-        "disapprove": 57.7,
+        "approve": 39.7,
+        "disapprove": 56.5,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
-        "scrapeStatus": "fallback"
+        "scrapeStatus": "live",
+        "scrapeNote": "Read from rendered Silver Bulletin Datawrapper iframe labels"
       },
       {
         "key": "cnn",
         "name": "CNN",
         "shortName": "CNN",
-        "approve": 36.0,
-        "disapprove": 63.0,
+        "approve": 37,
+        "disapprove": 62,
         "included": true,
         "url": "https://www.cnn.com/polling/approval/trump-cnn-poll-of-polls",
-        "scrapeStatus": "fallback"
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated live scrape"
       },
       {
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "approve": 37.7,
-        "disapprove": 58.2,
+        "approve": 39.5,
+        "disapprove": 56.1,
         "included": true,
         "url": "https://www.racetothewh.com/trump",
-        "scrapeStatus": "fallback"
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated live scrape"
       },
       {
         "key": "nyt",
         "name": "The New York Times",
         "shortName": "NYT",
-        "approve": 38.0,
-        "disapprove": 58.0,
+        "approve": 39,
+        "disapprove": 58,
         "included": true,
         "url": "https://www.nytimes.com/interactive/polls/donald-trump-approval-rating-polls.html",
-        "scrapeStatus": "fallback"
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated NYT chart/network scrape"
       }
     ]
   }
