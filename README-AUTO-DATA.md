@@ -1426,3 +1426,22 @@ Candidate cleanup:
 - Removed the Nebraska Senate Cindy Burbank placeholder candidate card.
 - Updated Georgia Senate candidates to Jon Ossoff vs Mike Collins.
 - Kept Georgia Governor and Nebraska Governor as primary-pending candidate panels until nominees are verified.
+
+
+## Version 0.9.18
+
+Changed files:
+- `national-averages.html`
+- `trump-approval.html`
+- `house.html`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+UI fixes:
+- Removed the redundant `Source cards` heading from the national averages and Trump approval source sections.
+- Removed the blue `Sources/methodology section` kicker from the House source section.
+- Centered the mobile menu dropdown and menu button.
+- Removed the extra arrow characters from the mobile menu links.
+- Kept the mobile menu in a centered two-column layout, switching to one column on narrow phones.
