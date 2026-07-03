@@ -9824,3 +9824,52 @@ h3,
     gap: 28px;
   }
 }
+
+
+/* 0.9.16: remove candidate status boxes and clean candidate cards */
+.candidate-meta-clean,
+.candidate-card .candidate-meta-clean {
+  grid-template-columns: 1fr !important;
+}
+
+.candidate-meta-clean div,
+.candidate-card .candidate-meta-clean div {
+  grid-template-columns: 1fr !important;
+}
+
+.candidate-meta dt,
+.candidate-meta dd {
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+/* No status row/card in candidate panels. */
+.candidate-meta dt:where(:not(:first-child)),
+.candidate-meta dd:where(:not(:first-child)) {
+  min-width: 0;
+}
+
+.candidate-card-top em {
+  color: var(--muted) !important;
+}
+
+/* Keep candidate cards readable in narrow side panels. */
+.race-detail-panel .candidate-card {
+  min-width: 0;
+}
+
+.race-detail-panel .candidate-card-top {
+  align-items: start;
+}
+
+.race-detail-panel .candidate-card-top small {
+  max-width: 44%;
+  white-space: normal;
+  text-align: center;
+}
+
+@media (max-width: 1100px) {
+  .race-detail-panel .candidate-card-top small {
+    max-width: 100%;
+  }
+}

@@ -1408,3 +1408,21 @@ Mobile nav + page layout:
 - Standardized subpage hero subtitles.
 - Added consistent section heading hooks for main prediction, interactive/details, and sources/methodology sections.
 - Simplified Senate/Governor map headings so they fit the same layout rhythm.
+
+
+## Version 0.9.16
+
+Changed files:
+- `data/races.json`
+- `js/race-maps.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Candidate cleanup:
+- Removed the candidate `Status` box from Senate/Governor candidate panels.
+- Removed minor-party and independent candidates from Senate/Governor candidate cards except Nebraska Senate's Dan Osborn.
+- Removed the Nebraska Senate Cindy Burbank placeholder candidate card.
+- Updated Georgia Senate candidates to Jon Ossoff vs Mike Collins.
+- Kept Georgia Governor and Nebraska Governor as primary-pending candidate panels until nominees are verified.

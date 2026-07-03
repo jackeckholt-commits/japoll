@@ -113,58 +113,55 @@ function getCandidatePartyClass(candidate) {
 }
 
 function getCandidateStatus(candidate, race) {
-  if (candidate.incumbent === true) return "Incumbent";
+  if (candidate.statusLabel) return candidate.statusLabel;
   if (candidate.status) return candidate.status;
-  const status = String(race.candidateStatus || "").toLowerCase();
-  if (status.includes("waiting") || status.includes("primary")) return "Primary pending";
-  if (status.includes("nominee") || status.includes("completed")) return "Nominee / candidate listed";
+  if (candidate.incumbent) return "Incumbent";
+  if (candidate.nominee) return "Nominee";
+  if (race && race.candidateStatus) return race.candidateStatus;
   return "Candidate listed";
 }
 
-function getCandidateUpdatedText(candidate, race, mapData) {
-  return candidate.lastUpdated || race.candidateLastUpdated || mapData.candidateLastUpdated || "Update pending";
+function getCandidateLastUpdated(candidate, race, mapData) {
+  return candidate.lastUpdated || (race && race.lastUpdated) || (mapData && mapData.lastUpdated) || "Not yet listed";
 }
 
-function renderCandidateAction(label, url, className = "") {
-  if (!url) {
-    return `<span class="candidate-action is-disabled ${className}">${label} pending</span>`;
-  }
-  return `<a class="candidate-action ${className}" href="${url}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`;
+function renderCandidateLinks(candidate) {
+  const wikipedia = candidate.wikipedia
+    ? `<a href="${candidate.wikipedia}" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a>`
+    : `<span class="is-disabled">Wikipedia pending</span>`;
+  const campaign = candidate.campaign || candidate.campaignWebsite || candidate.website
+    ? `<a href="${candidate.campaign || candidate.campaignWebsite || candidate.website}" target="_blank" rel="noopener noreferrer">Campaign ↗</a>`
+    : `<span class="is-disabled">Campaign site pending</span>`;
+  return `<div class="candidate-actions">${wikipedia}${campaign}</div>`;
 }
 
-function renderCandidateList(race, mapData = {}) {
+function renderCandidateList(race, mapData) {
   const candidates = Array.isArray(race.candidates) ? race.candidates : [];
-  const updatedText = race.candidateLastUpdated || mapData.candidateLastUpdated || "Update pending";
+  const updated = race.lastUpdated || (mapData && mapData.lastUpdated) || "Not yet listed";
   if (!candidates.length) {
     return `
       <div class="candidate-waiting">
         <strong>Waiting on primary for full results.</strong>
-        <span class="candidate-waiting-status">Status: Primary pending</span>
-        <span>Candidate names, party labels, Wikipedia links, and campaign links will be added as nominee fields become clear.</span>
-        <small>Last updated: ${updatedText}</small>
+        <span>Wikipedia and campaign links will be added once nominees are clear.</span>
+        <small>Last updated: ${updated}</small>
       </div>
     `;
   }
   return `
-    <div class="candidate-list candidate-list-expanded">
+    <div class="candidate-list candidate-list-v2">
       ${candidates.map(candidate => `
         <article class="candidate-card ${getCandidatePartyClass(candidate)}">
           <div class="candidate-card-top">
             <div>
               <strong>${candidate.name}</strong>
-              <span class="candidate-status">${getCandidateStatus(candidate, race)}</span>
+              <em>${candidate.note || "Candidate links and details"}</em>
             </div>
-            <small class="candidate-party-pill">${candidate.party || "Party pending"}</small>
+            <small>${candidate.party || "Party pending"}</small>
           </div>
-          <div class="candidate-meta-grid">
-            <span><b>Party</b><em>${candidate.party || "Pending"}</em></span>
-            <span><b>Status</b><em>${getCandidateStatus(candidate, race)}</em></span>
-            <span><b>Last updated</b><em>${getCandidateUpdatedText(candidate, race, mapData)}</em></span>
-          </div>
-          <div class="candidate-actions">
-            ${renderCandidateAction("Wikipedia", candidate.wikipedia, "is-wikipedia")}
-            ${renderCandidateAction("Campaign site", candidate.campaign || candidate.campaignUrl, "is-campaign")}
-          </div>
+          <dl class="candidate-meta candidate-meta-clean">
+            <div><dt>Last updated</dt><dd>${getCandidateLastUpdated(candidate, race, mapData)}</dd></div>
+          </dl>
+          ${renderCandidateLinks(candidate)}
         </article>
       `).join("")}
     </div>
@@ -181,13 +178,26 @@ function renderMarginSummary(container, mapData) {
     const width = Math.max((count / total) * 100, 3);
     return `<div class="margin-bar-segment ${segment.className || ""}" style="width:${width}%"><strong>${count}</strong><span>${segment.label || ""}</span></div>`;
   }).join("");
+  const legend = `
+    <div class="margin-scale-legend" aria-label="Margin color legend">
+      <span><i class="margin-dem-solid"></i>Safe D</span>
+      <span><i class="margin-dem-likely"></i>Likely D</span>
+      <span><i class="margin-dem-lean"></i>Lean D</span>
+      <span><i class="margin-dem-tilt"></i>Tilt D</span>
+      <span><i class="margin-rep-tilt"></i>Tilt R</span>
+      <span><i class="margin-rep-lean"></i>Lean R</span>
+      <span><i class="margin-rep-likely"></i>Likely R</span>
+      <span><i class="margin-rep-solid"></i>Safe R</span>
+    </div>
+  `;
   container.innerHTML = `
     <div class="race-control-heading prediction-heading">
       <h3>${summary.title || "Race Prediction"}</h3>
       <p>${summary.subtitle || ""}</p>
     </div>
     <div class="margin-control-bar" aria-label="${summary.title || "Race prediction margin bar"}">${segments}</div>
-    <div class="margin-legend-note">Margins are estimates and should update as polling, ratings, and primary results become available.</div>
+    ${legend}
+    <div class="margin-legend-note">Margins are estimates. Tilt is the lightest color, then lean, likely, and safe as the margin gets larger.</div>
   `;
   return true;
 }
@@ -196,7 +206,12 @@ function renderRaceDetail(panel, race, mapData) {
   if (!race) {
     panel.innerHTML = `
       <h3>Select a state</h3>
-      <p>Clickable states show prediction margins and candidate status. Candidate names will be added after primaries.</p>
+      <p>Pick a state on the map to see the prediction, candidate status, Wikipedia links, campaign links when available, and last updated notes.</p>
+      <div class="detail-helper-grid">
+        <span>Margin</span>
+        <span>Candidates</span>
+        <span>Links</span>
+      </div>
     `;
     return;
   }
@@ -209,6 +224,7 @@ function renderRaceDetail(panel, race, mapData) {
     <p><strong>Status:</strong> ${formatRaceStatus(race)}</p>
     ${marginLine}
     ${noteLine}
+    <p class="race-last-updated"><strong>Last updated:</strong> ${race.lastUpdated || mapData.lastUpdated || "Not yet listed"}</p>
     <h4 class="candidate-heading">Candidates</h4>
     ${renderCandidateList(race, mapData)}
   `;
