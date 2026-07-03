@@ -15,7 +15,11 @@
 <div class="container">
 <nav class="top-nav">
 <a class="logo" href="index.html">National Poll Tracker</a>
-<div class="nav-links"><a href="methodology.html">About the Project</a>
+<button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+<span>Menu</span>
+<i aria-hidden="true"></i>
+</button>
+<div class="nav-links" id="primary-navigation"><a href="methodology.html">About the Project</a>
 <a href="national-averages.html">National Averages</a>
 <a href="trump-approval.html">Trump Approval</a>
 <a href="senate.html">Senate</a>
@@ -93,5 +97,6 @@
 </footer>
 </div>
 <script src="js/load-polling-data.js"></script>
+<script src="js/site-nav.js"></script>
 </body>
 </html>

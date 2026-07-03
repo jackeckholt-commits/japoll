@@ -14,7 +14,11 @@
 <div class="container">
 <nav class="top-nav">
 <a class="logo" href="index.html">National Poll Tracker</a>
-<div class="nav-links">
+<button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+<span>Menu</span>
+<i aria-hidden="true"></i>
+</button>
+<div class="nav-links" id="primary-navigation">
 <a href="methodology.html">About the Project</a>
 <a href="national-averages.html">National Averages</a>
 <a href="trump-approval.html">Trump Approval</a>
@@ -26,11 +30,12 @@
 </nav>
 <section class="hero compact-page-hero">
 <h1>House Races</h1>
+<p class="intro">A House seat prediction built from published projection sources, with source cards below showing the inputs.</p>
 </section>
 </div>
 </header>
 
-<main class="container page-content house-page" data-house-forecast-page>
+<main class="container page-content standard-page house-page" data-house-forecast-page>
 <section class="content-card house-forecast-card">
 <div class="house-forecast-heading">
 <div>
@@ -53,7 +58,8 @@
 </section>
 
 <section class="house-sources-section">
-<div class="house-section-heading">
+<div class="house-section-heading standard-section-heading">
+<span class="section-kicker">Sources/methodology section</span>
 <h2>Seat projection by source</h2>
 <p>Each source keeps its own published seat buckets.</p>
 </div>
@@ -69,5 +75,6 @@
 </footer>
 </div>
 <script src="js/house-forecast.js"></script>
+<script src="js/site-nav.js"></script>
 </body>
 </html>

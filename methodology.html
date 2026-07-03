@@ -15,7 +15,11 @@
 <div class="container">
 <nav class="top-nav">
 <a class="logo" href="index.html">National Poll Tracker</a>
-<div class="nav-links"><a aria-current="page" href="methodology.html">About the Project</a>
+<button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+<span>Menu</span>
+<i aria-hidden="true"></i>
+</button>
+<div class="nav-links" id="primary-navigation"><a aria-current="page" href="methodology.html">About the Project</a>
 <a href="national-averages.html">National Averages</a>
 <a href="trump-approval.html">Trump Approval</a>
 <a href="senate.html">Senate</a>
@@ -26,11 +30,11 @@
 </nav>
 <section class="hero">
 <h1>About the Project</h1>
-<p class="intro">A simple approach to comparing and analyzing polling averages.</p>
+<p class="intro">How the averages, sources, adjustments, and race predictions are organized.</p>
 </section>
 </div>
 </header>
-<main class="container page-content text-page about-layout"><section class="content-card"><h2>Purpose</h2><p>This site acts as an aggregator of aggregators. The idea is that an average of averages can be more useful than relying on one polling average alone.</p><p>Instead of using only one source, the tracker compares several polling averages to get a broader view of the national political environment while also showing my personal algorithm adjustment where it applies.</p></section>
+<main class="container page-content standard-page text-page about-layout"><section class="content-card"><h2>Purpose</h2><p>This site acts as an aggregator of aggregators. The idea is that an average of averages can be more useful than relying on one polling average alone.</p><p>Instead of using only one source, the tracker compares several polling averages to get a broader view of the national political environment while also showing my personal algorithm adjustment where it applies.</p></section>
 <section class="content-card"><h2>Sources</h2><p>The tracker compares national averages from sources such as VoteHub, Silver Bulletin, The New York Times, CNN, Race to WH, and FiftyPlusOne.</p></section>
 <section class="content-card"><h2>Average of averages</h2><p>The current average gives each usable source equal weight. Sources without an available average are listed for reference, but they are not included in the calculation until a usable value is available.</p></section>
 <section class="content-card"><h2>Current calculations</h2><p>The generic ballot average currently uses VoteHub, Silver Bulletin, CNN, Race to WH, and FiftyPlusOne. The New York Times is unavailable for the generic ballot because there is no usable national generic ballot average available from that source.</p><p>The generic ballot is also modified by my algorithm in an attempt to better account for polling errors.</p><p>The Trump approval average currently uses The New York Times, Silver Bulletin, CNN, VoteHub, Race to WH, and FiftyPlusOne.</p></section>
@@ -54,5 +58,6 @@
 </div>
 </footer>
 </div>
+<script src="js/site-nav.js"></script>
 </body>
 </html>

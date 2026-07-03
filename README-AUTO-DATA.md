@@ -1383,3 +1383,28 @@ Candidate panel upgrade:
 - Empty candidate panels now clearly show `Primary pending`.
 - Added shared `candidateLastUpdated` metadata for Senate and Governor maps.
 - Kept the House prediction bar clean by hiding the 0.9.13 middle divider.
+
+
+## Version 0.9.15
+
+Changed files:
+- `index.html`
+- `methodology.html`
+- `national-averages.html`
+- `trump-approval.html`
+- `senate.html`
+- `governor.html`
+- `house.html`
+- `js/site-nav.js`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Mobile nav + page layout:
+- Added a compact hamburger-style mobile menu.
+- Stopped the top nav links from wrapping awkwardly on phones.
+- Added a shared `site-nav.js` controller for opening, closing, Escape, outside-click, and link-click behavior.
+- Standardized subpage hero subtitles.
+- Added consistent section heading hooks for main prediction, interactive/details, and sources/methodology sections.
+- Simplified Senate/Governor map headings so they fit the same layout rhythm.

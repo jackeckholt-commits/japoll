@@ -15,7 +15,11 @@
 <div class="container">
 <nav class="top-nav">
 <a class="logo" href="index.html">National Poll Tracker</a>
-<div class="nav-links"><a href="methodology.html">About the Project</a>
+<button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+<span>Menu</span>
+<i aria-hidden="true"></i>
+</button>
+<div class="nav-links" id="primary-navigation"><a href="methodology.html">About the Project</a>
 <a href="national-averages.html">National Averages</a>
 <a href="trump-approval.html">Trump Approval</a>
 <a aria-current="page" href="senate.html">Senate</a>
@@ -26,16 +30,13 @@
 </nav>
 <section class="hero">
 <h1>Senate Races</h1>
-<p class="intro">A map-first view of the states with active Senate races. Race ratings will be added later.</p>
+<p class="intro">Current Senate race predictions, margin categories, and candidate details in one map-first view.</p>
 </section>
 </div>
 </header>
-<main class="container page-content race-page" data-race-map="senate">
+<main class="container page-content standard-page race-page" data-race-map="senate">
 <section class="content-card race-map-card">
-<div class="race-section-heading">
-<h2>Senate Races Map</h2>
-<p>Clickable states are active races. Gray means the state is active but no rating data has been added yet. Lighter states are not active for this map.</p>
-</div>
+<div class="race-section-heading standard-section-heading"><span class="section-kicker">Interactive/details section</span><h2>Senate prediction map</h2></div>
 <div data-race-bar=""></div>
 <div class="race-map-layout">
 <div class="race-map-panel" data-race-map-svg="">
@@ -55,5 +56,6 @@
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
 <script src="js/race-maps.js"></script>
+<script src="js/site-nav.js"></script>
 </body>
 </html>

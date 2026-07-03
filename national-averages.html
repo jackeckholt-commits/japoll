@@ -15,7 +15,11 @@
 <div class="container">
 <nav class="top-nav">
 <a class="logo" href="index.html">National Poll Tracker</a>
-<div class="nav-links"><a href="methodology.html">About the Project</a>
+<button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+<span>Menu</span>
+<i aria-hidden="true"></i>
+</button>
+<div class="nav-links" id="primary-navigation"><a href="methodology.html">About the Project</a>
 <a aria-current="page" href="national-averages.html">National Averages</a>
 <a href="trump-approval.html">Trump Approval</a>
 <a href="senate.html">Senate</a>
@@ -26,13 +30,11 @@
 </nav>
 <section class="hero">
 <h1>Average of Averages</h1>
-<p class="intro">
-            A comparison page for national generic ballot averages from major polling aggregators.
-          </p>
+<p class="intro">Generic ballot averages, trend chart, source cards, and methodology in one page.</p>
 </section>
 </div>
 </header>
-<main class="container page-content">
+<main class="container page-content standard-page">
 <section class="average-summary generic-summary-card">
 <div class="summary-copy">
 <h2>Generic Congressional Ballot</h2>
@@ -55,6 +57,7 @@
 </div>
 <div class="trend-chart-wrap" data-trend-chart="generic"></div>
 </section>
+<section class="standard-section-heading source-section-heading"><span class="section-kicker">Sources/methodology section</span><h2>Source cards</h2></section>
 <section class="source-grid">
 <a class="source-card source-link-card" href="https://votehub.com/polls/?poll=generic_ballot_2026" rel="noopener noreferrer" target="_blank">
 <h2>VoteHub</h2>
@@ -121,5 +124,6 @@
 </div>
 <script src="js/load-polling-data.js"></script>
 <script src="js/trend-charts.js"></script>
+<script src="js/site-nav.js"></script>
 </body>
 </html>
