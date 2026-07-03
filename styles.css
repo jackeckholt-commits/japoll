@@ -10275,3 +10275,78 @@ h3,
     width: 100%;
   }
 }
+
+
+/* 0.9.25: keep House homepage numbers fitting on narrow cards */
+.homepage-link-card.house-summary-card .house-mini-score,
+.homepage-link-card.house-summary-card .race-mini-score-polished {
+  box-sizing: border-box !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-stat,
+.house-summary-card .race-mini-stat {
+  overflow: hidden !important;
+}
+
+@media (max-width: 560px) {
+  .homepage-link-card.house-summary-card {
+    padding-inline: clamp(16px, 5vw, 22px) !important;
+    gap: 16px !important;
+  }
+
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished {
+    width: min(100%, 254px) !important;
+    max-width: 254px !important;
+    gap: 10px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-stat,
+  .house-summary-card .race-mini-stat {
+    min-height: 94px !important;
+    padding: 12px 8px 13px !important;
+    border-radius: 18px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-kicker,
+  .house-summary-card .race-mini-kicker {
+    font-size: 0.58rem !important;
+    letter-spacing: 0.10em !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-value,
+  .house-summary-card .race-mini-value {
+    font-size: clamp(2.45rem, 18vw, 3.15rem) !important;
+    letter-spacing: -0.085em !important;
+    transform: none !important;
+  }
+
+  .homepage-link-card.house-summary-card .house-mini-bar {
+    width: min(100%, 270px) !important;
+  }
+
+  .homepage-link-card.house-summary-card .card-action {
+    max-width: min(100%, 220px) !important;
+    white-space: normal !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished {
+    width: min(100%, 224px) !important;
+    max-width: 224px !important;
+    gap: 8px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-stat,
+  .house-summary-card .race-mini-stat {
+    min-height: 86px !important;
+    padding-inline: 6px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-value,
+  .house-summary-card .race-mini-value {
+    font-size: clamp(2.15rem, 18vw, 2.75rem) !important;
+  }
+}

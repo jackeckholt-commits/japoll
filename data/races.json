@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-06-05T00:00:00.000Z",
-  "version": "0.9.20",
+  "version": "0.9.25",
   "note": "Candidate lists are updated conservatively from completed primaries/runoffs and current nominee reporting. States without a clear nominee stay marked as waiting on primary/runoff results.",
   "maps": {
     "senate": {
@@ -98,12 +98,14 @@
             {
               "name": "Tom Cotton",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Tom_Cotton"
+              "wikipedia": "https://en.wikipedia.org/wiki/Tom_Cotton",
+              "campaign": "https://www.tomcotton.com/"
             },
             {
               "name": "Hallie Shoffner",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas"
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Arkansas",
+              "campaign": "https://www.hallieshoffner.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -212,13 +214,15 @@
               "name": "Jon Ossoff",
               "party": "Democratic",
               "wikipedia": "https://en.wikipedia.org/wiki/Jon_Ossoff",
-              "lastUpdated": "Jul 3, 2026"
+              "lastUpdated": "Jul 3, 2026",
+              "campaign": "https://electjon.com/"
             },
             {
               "name": "Mike Collins",
               "party": "Republican",
               "wikipedia": "https://en.wikipedia.org/wiki/Mike_Collins_(Georgia_politician)",
-              "lastUpdated": "Jul 3, 2026"
+              "lastUpdated": "Jul 3, 2026",
+              "campaign": "https://mikecollinsga.com/"
             }
           ],
           "candidateStatus": "General election candidates verified from current reporting",
@@ -275,12 +279,14 @@
             {
               "name": "Juliana Stratton",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Juliana_Stratton"
+              "wikipedia": "https://en.wikipedia.org/wiki/Juliana_Stratton",
+              "campaign": "https://www.julianastratton.com/"
             },
             {
               "name": "Don Tracy",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Don_Tracy"
+              "wikipedia": "https://en.wikipedia.org/wiki/Don_Tracy",
+              "campaign": "https://dontracyforil.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -320,12 +326,14 @@
             {
               "name": "Josh Turek",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Josh_Turek"
+              "wikipedia": "https://en.wikipedia.org/wiki/Josh_Turek",
+              "campaign": "https://turek4iowa.com/"
             },
             {
               "name": "Ashley Hinson",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Ashley_Hinson"
+              "wikipedia": "https://en.wikipedia.org/wiki/Ashley_Hinson",
+              "campaign": "https://ashleyhinson.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -382,7 +390,8 @@
             {
               "name": "Julia Letlow",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Julia_Letlow"
+              "wikipedia": "https://en.wikipedia.org/wiki/Julia_Letlow",
+              "campaign": "https://www.julialetlow.com/"
             },
             {
               "name": "Jamie Davis",
@@ -559,7 +568,8 @@
               "name": "Pete Ricketts",
               "party": "Republican",
               "wikipedia": "https://en.wikipedia.org/wiki/Pete_Ricketts",
-              "lastUpdated": "Jul 3, 2026"
+              "lastUpdated": "Jul 3, 2026",
+              "campaign": "https://petericketts.com/"
             },
             {
               "name": "Dan Osborn",
@@ -567,7 +577,8 @@
               "wikipedia": "https://en.wikipedia.org/wiki/Dan_Osborn",
               "demAligned": true,
               "note": "Independent candidate backed by Nebraska Democrats",
-              "lastUpdated": "Jul 3, 2026"
+              "lastUpdated": "Jul 3, 2026",
+              "campaign": "https://osbornforsenate.com/"
             }
           ],
           "candidateStatus": "General election candidates verified from current reporting",
@@ -856,12 +867,14 @@
             {
               "name": "Ken Paxton",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Ken_Paxton"
+              "wikipedia": "https://en.wikipedia.org/wiki/Ken_Paxton",
+              "campaign": "https://www.kenpaxton.com/"
             },
             {
               "name": "James Talarico",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/James_Talarico"
+              "wikipedia": "https://en.wikipedia.org/wiki/James_Talarico",
+              "campaign": "https://jamestalarico.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -1067,7 +1080,8 @@
       },
       "lastUpdated": "Jul 3, 2026",
       "candidateLastUpdated": "Jul 3, 2026",
-      "candidatePanelNote": "Candidate panels show major-party candidates where verified; states without clear nominees stay marked as primary pending."
+      "candidatePanelNote": "Candidate panels show major-party candidates where verified; states without clear nominees stay marked as primary pending.",
+      "candidateLinksLastUpdated": "Jul 3, 2026"
     },
     "governor": {
       "title": "Governor Races",
@@ -1102,12 +1116,14 @@
             {
               "name": "Tommy Tuberville",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Tommy_Tuberville"
+              "wikipedia": "https://en.wikipedia.org/wiki/Tommy_Tuberville",
+              "campaign": "https://www.coachforgovernor.com/"
             },
             {
               "name": "Doug Jones",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Doug_Jones_(politician)"
+              "wikipedia": "https://en.wikipedia.org/wiki/Doug_Jones_(politician)",
+              "campaign": "https://www.dougjones.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -1164,12 +1180,14 @@
             {
               "name": "Sarah Huckabee Sanders",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders"
+              "wikipedia": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders",
+              "campaign": "https://www.sarahforgovernor.com/"
             },
             {
               "name": "Fredrick Love",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Fredrick_Love"
+              "wikipedia": "https://en.wikipedia.org/wiki/Fredrick_Love",
+              "campaign": "https://www.fredloveforarkansas.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -1192,7 +1210,8 @@
             {
               "name": "Xavier Becerra",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Xavier_Becerra"
+              "wikipedia": "https://en.wikipedia.org/wiki/Xavier_Becerra",
+              "campaign": "https://xavierbecerra.com/"
             },
             {
               "name": "Steve Hilton",
@@ -1339,12 +1358,14 @@
             {
               "name": "JB Pritzker",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/JB_Pritzker"
+              "wikipedia": "https://en.wikipedia.org/wiki/JB_Pritzker",
+              "campaign": "https://jbpritzker.com/"
             },
             {
               "name": "Darren Bailey",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Darren_Bailey"
+              "wikipedia": "https://en.wikipedia.org/wiki/Darren_Bailey",
+              "campaign": "https://baileyforillinois.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -1384,7 +1405,8 @@
             {
               "name": "Rob Sand",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Rob_Sand"
+              "wikipedia": "https://en.wikipedia.org/wiki/Rob_Sand",
+              "campaign": "https://robsand.com/"
             },
             {
               "name": "Zach Lahn",
@@ -1469,7 +1491,8 @@
             {
               "name": "Bobby Charles",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Robert_B._Charles"
+              "wikipedia": "https://en.wikipedia.org/wiki/Robert_B._Charles",
+              "campaign": "http://www.bobbyformaine.com/"
             }
           ],
           "candidateStatus": "General election candidates added from completed primary/current reporting",
@@ -1692,12 +1715,14 @@
             {
               "name": "Deb Haaland",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Deb_Haaland"
+              "wikipedia": "https://en.wikipedia.org/wiki/Deb_Haaland",
+              "campaign": "https://debhaaland.com/"
             },
             {
               "name": "Gregg Hull",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election"
+              "wikipedia": "https://en.wikipedia.org/wiki/2026_New_Mexico_gubernatorial_election",
+              "campaign": "https://gregghull.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -1771,12 +1796,14 @@
             {
               "name": "Vivek Ramaswamy",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy"
+              "wikipedia": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy",
+              "campaign": "https://www.vivekforohio.com/"
             },
             {
               "name": "Amy Acton",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Amy_Acton"
+              "wikipedia": "https://en.wikipedia.org/wiki/Amy_Acton",
+              "campaign": "https://www.actonforgovernor.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -1816,12 +1843,14 @@
             {
               "name": "Tina Kotek",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Tina_Kotek"
+              "wikipedia": "https://en.wikipedia.org/wiki/Tina_Kotek",
+              "campaign": "https://www.tinafororegon.com/"
             },
             {
               "name": "Christine Drazan",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Christine_Drazan"
+              "wikipedia": "https://en.wikipedia.org/wiki/Christine_Drazan",
+              "campaign": "https://www.christinefororegon.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -1889,12 +1918,14 @@
             {
               "name": "Alan Wilson",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Alan_Wilson_(South_Carolina_politician)"
+              "wikipedia": "https://en.wikipedia.org/wiki/Alan_Wilson_(South_Carolina_politician)",
+              "campaign": "https://wilsonforsc.com/"
             },
             {
               "name": "Jermaine Johnson",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Jermaine_Johnson_(politician)"
+              "wikipedia": "https://en.wikipedia.org/wiki/Jermaine_Johnson_(politician)",
+              "campaign": "https://johnsonforsc.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -1951,12 +1982,14 @@
             {
               "name": "Greg Abbott",
               "party": "Republican",
-              "wikipedia": "https://en.wikipedia.org/wiki/Greg_Abbott"
+              "wikipedia": "https://en.wikipedia.org/wiki/Greg_Abbott",
+              "campaign": "https://www.gregabbott.com/"
             },
             {
               "name": "Gina Hinojosa",
               "party": "Democratic",
-              "wikipedia": "https://en.wikipedia.org/wiki/Gina_Hinojosa"
+              "wikipedia": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+              "campaign": "https://ginafortexas.com/"
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
@@ -2162,7 +2195,8 @@
       },
       "lastUpdated": "Jul 3, 2026",
       "candidateLastUpdated": "Jul 3, 2026",
-      "candidatePanelNote": "Candidate panels show major-party candidates where verified; states without clear nominees stay marked as primary pending."
+      "candidatePanelNote": "Candidate panels show major-party candidates where verified; states without clear nominees stay marked as primary pending.",
+      "candidateLinksLastUpdated": "Jul 3, 2026"
     },
     "house": {
       "title": "House Races",

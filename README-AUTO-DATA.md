@@ -1531,3 +1531,52 @@ About page update:
 - Replaced the About/Methodology page copy with the new text from the uploaded document.
 - Updated the homepage About card summary to better match the new wording.
 - Lightly cleaned wording for public display while keeping the same meaning.
+
+
+## Version 0.9.25
+
+Changed files:
+- `data/races.json`
+- `styles.css`
+- `package.json`
+- `scripts/update-polls.js`
+- `README-AUTO-DATA.md`
+
+Updates:
+- Added verified campaign-site links for 32 Senate/Governor candidate cards where reliable URLs were available.
+- Left campaign-site links blank where I could not verify the exact active site instead of guessing.
+- Fixed the homepage House Races card on narrow screens so the 230/205 numbers fit inside their tiles.
+
+Campaign links added/updated:
+- AR senate: Tom Cotton
+- AR senate: Hallie Shoffner
+- GA senate: Jon Ossoff
+- GA senate: Mike Collins
+- IL senate: Juliana Stratton
+- IL senate: Don Tracy
+- IA senate: Josh Turek
+- IA senate: Ashley Hinson
+- LA senate: Julia Letlow
+- NE senate: Pete Ricketts
+- NE senate: Dan Osborn
+- TX senate: Ken Paxton
+- TX senate: James Talarico
+- AL governor: Tommy Tuberville
+- AL governor: Doug Jones
+- AR governor: Sarah Huckabee Sanders
+- AR governor: Fredrick Love
+- CA governor: Xavier Becerra
+- IL governor: JB Pritzker
+- IL governor: Darren Bailey
+- IA governor: Rob Sand
+- ME governor: Bobby Charles
+- NM governor: Deb Haaland
+- NM governor: Gregg Hull
+- OH governor: Vivek Ramaswamy
+- OH governor: Amy Acton
+- OR governor: Tina Kotek
+- OR governor: Christine Drazan
+- SC governor: Alan Wilson
+- SC governor: Jermaine Johnson
+- TX governor: Greg Abbott
+- TX governor: Gina Hinojosa
