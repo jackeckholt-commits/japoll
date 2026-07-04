@@ -992,67 +992,37 @@ body {
   }
 }
 
-/* 1.1.2: invite readers to build their own 2026 prediction maps. */
-.prediction-builder-callout {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: clamp(18px, 3vw, 32px);
-  margin: 0 0 clamp(22px, 3vw, 32px);
-  padding: clamp(18px, 2.4vw, 26px);
-  border: 1px solid rgba(103, 177, 230, 0.42);
-  border-radius: 20px;
-  background: #122737;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.045);
-}
-
-.prediction-builder-callout > div {
-  min-width: 0;
-}
-
-.prediction-builder-callout strong {
-  display: block;
-  margin: 4px 0 5px;
-  color: #fff;
-  font-size: clamp(1.2rem, 2vw, 1.55rem);
-  line-height: 1.05;
-}
-
-.prediction-builder-callout p {
-  margin: 0;
-  color: #b7cad7;
-  line-height: 1.45;
-}
-
-.prediction-builder-callout > a {
+/* 1.1.3: compact link for readers who want to build their own map. */
+.prediction-builder-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex: 0 0 auto;
   gap: 0.5rem;
-  min-height: 48px;
-  padding: 0.78rem 1.05rem;
-  border: 1px solid #66b7ef;
-  border-radius: 12px;
+  width: fit-content;
+  min-height: 42px;
+  margin: 0 0 clamp(18px, 2.5vw, 26px);
+  padding: 0.62rem 0.9rem;
+  border: 1px solid rgba(102, 183, 239, 0.72);
+  border-radius: 999px;
   color: #fff;
-  background: #245d84;
+  background: #1c4b6b;
   text-decoration: none;
   font-weight: 900;
+  line-height: 1.2;
 }
 
-.prediction-builder-callout > a:hover {
+.prediction-builder-button:hover {
   border-color: #a8d9ff;
-  background: #2d709e;
+  background: #28688f;
 }
 
 @media (max-width: 680px) {
-  .prediction-builder-callout {
-    align-items: stretch;
-    flex-direction: column;
-  }
-
-  .prediction-builder-callout > a {
-    width: 100%;
+  .prediction-builder-button {
+    width: fit-content;
+    max-width: 100%;
+    justify-content: flex-start;
+    border-radius: 14px;
+    font-size: 0.9rem;
   }
 }
 
