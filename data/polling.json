@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-04T00:20:21.846Z",
+  "updatedAt": "2026-07-04T00:25:50.159Z",
   "genericBallot": {
     "average": {
       "democrats": 47.8,
-      "republicans": 43.8
+      "republicans": 43.4
     },
     "sources": [
       {
@@ -54,12 +54,12 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "democrats": 48.1,
-        "republicans": 41.2,
+        "democrats": 47.7,
+        "republicans": 41.6,
         "included": true,
         "url": "https://www.racetothewh.com/polls/genericballot",
-        "scrapeStatus": "fallback",
-        "scrapeNote": "Live scrape unavailable; using fallback values from manual-overrides.json"
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated live scrape"
       },
       {
         "key": "nyt",
