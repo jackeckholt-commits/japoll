@@ -1520,18 +1520,14 @@ body {
 
 /* 1.1.4: Dog, Japoll's pixel election-fact mascot. */
 .dog-widget {
-  position: fixed;
-  z-index: 70;
-  right: clamp(12px, 2vw, 24px);
-  bottom: clamp(12px, 2vw, 24px);
+  position: relative;
+  z-index: 2;
   display: flex;
   align-items: flex-end;
+  justify-content: flex-end;
   gap: 10px;
-  pointer-events: none;
-}
-
-.dog-widget > * {
-  pointer-events: auto;
+  width: 100%;
+  margin: 0 0 clamp(20px, 3vw, 32px);
 }
 
 .dog-mascot-button {
@@ -1581,7 +1577,7 @@ body {
 
 .dog-speech {
   position: relative;
-  width: min(330px, calc(100vw - 128px));
+  width: min(520px, calc(100% - 98px));
   padding: 14px;
   border: 1px solid rgba(114, 190, 244, 0.56);
   border-radius: 18px 18px 5px 18px;
@@ -1687,9 +1683,8 @@ body.dog-is-here .hero h1::after {
 
 @media (max-width: 620px) {
   .dog-widget {
-    right: 10px;
-    bottom: 10px;
     gap: 7px;
+    margin-bottom: 22px;
   }
 
   .dog-mascot-button {
@@ -1700,7 +1695,7 @@ body.dog-is-here .hero h1::after {
   }
 
   .dog-speech {
-    width: min(270px, calc(100vw - 97px));
+    width: min(100%, calc(100% - 77px));
     padding: 12px;
   }
 

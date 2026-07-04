@@ -128,7 +128,12 @@ function createDogMascot() {
   badge.textContent = "DOG";
   mascot.append(image, badge);
   widget.append(speech, mascot);
-  document.body.appendChild(widget);
+  const content = document.querySelector("#main-content") || document.querySelector("main");
+  if (content) {
+    content.prepend(widget);
+  } else {
+    document.body.appendChild(widget);
+  }
 
   function showLine() {
     const line = pickDogLine();
