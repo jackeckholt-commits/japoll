@@ -40,9 +40,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  window.addEventListener("resize", () => {
-    if (window.matchMedia("(min-width: 1051px)").matches) setOpen(false);
-  });
-
   setOpen(false);
 });
