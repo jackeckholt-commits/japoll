@@ -4,6 +4,7 @@ const API_ROOT = `https://api.github.com/repos/${REPOSITORY}`;
 
 const RATING_OPTIONS = {
   "no-data": { label: "No rating yet", party: "none" },
+  tossup: { label: "Toss-up", party: "none" },
   demSolid: { label: "Safe Democrat", party: "dem" },
   demLikely: { label: "Likely Democrat", party: "dem" },
   demLean: { label: "Lean Democrat", party: "dem" },
@@ -236,21 +237,21 @@ function createRaceRow(type, race) {
   const row = document.createElement("article");
   row.className = "race-row";
   row.dataset.raceType = type;
-  row.dataset.state = `${race.state} ${race.name}`.toLowerCase();
+  row.dataset.state = `${race.id || ""} ${race.state} ${race.stateName || ""} ${race.name}`.toLowerCase();
 
   const name = document.createElement("div");
   name.className = "race-name";
   const code = document.createElement("span");
   code.className = "state-code";
-  code.textContent = race.state;
+  code.textContent = type === "house" ? race.id : race.state;
   const title = document.createElement("strong");
-  title.textContent = race.name;
+  title.textContent = type === "house" ? race.stateName : race.name;
   name.append(code, title);
 
   const rating = document.createElement("select");
   rating.dataset.raceRating = "";
   rating.dataset.map = type;
-  rating.dataset.fips = String(race.fips).padStart(2, "0");
+  rating.dataset.raceKey = type === "house" ? race.id : String(race.fips).padStart(2, "0");
   Object.entries(RATING_OPTIONS).forEach(([key, option]) => {
     const element = document.createElement("option");
     element.value = key;
@@ -265,7 +266,7 @@ function createRaceRow(type, race) {
 
 function renderRaceEditors() {
   raceEditors.replaceChildren();
-  ["senate", "governor"].forEach(type => {
+  ["senate", "governor", "house"].forEach(type => {
     const list = document.createElement("div");
     list.className = "race-list";
     list.dataset.raceList = type;
@@ -351,17 +352,20 @@ function updateRaceDataFromEditor() {
   const now = new Date();
   const displayDate = now.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 
-  ["senate", "governor"].forEach(type => {
+  ["senate", "governor", "house"].forEach(type => {
     const map = next.maps[type];
-    const raceByFips = new Map(map.races.map(race => [String(race.fips).padStart(2, "0"), race]));
+    const raceByKey = new Map(map.races.map(race => [
+      type === "house" ? race.id : String(race.fips).padStart(2, "0"),
+      race
+    ]));
 
     document.querySelectorAll(`[data-race-rating][data-map="${type}"]`).forEach(select => {
-      const race = raceByFips.get(select.dataset.fips);
+      const race = raceByKey.get(select.dataset.raceKey);
       const option = RATING_OPTIONS[select.value];
       if (!race || !option) return;
 
       race.party = option.party;
-      race.status = select.value === "no-data" ? "no-data" : "prediction";
+      race.status = select.value === "no-data" ? "no-data" : select.value === "tossup" ? "tossup" : "prediction";
       race.marginCategory = select.value;
       race.marginLabel = null;
       race.predictedMargin = null;
@@ -369,11 +373,11 @@ function updateRaceDataFromEditor() {
     });
 
     const activeRaces = map.races.filter(race => race.active === true);
-    const counts = Object.fromEntries(Object.keys(RATING_OPTIONS).filter(key => key !== "no-data").map(key => [key, 0]));
+    const counts = Object.fromEntries(Object.keys(RATING_OPTIONS).map(key => [key, 0]));
     activeRaces.forEach(race => {
       if (counts[race.marginCategory] !== undefined) counts[race.marginCategory] += 1;
     });
-    map.projection = { ...counts, total: activeRaces.length };
+    map.projection = { ...counts, noData: counts["no-data"], total: activeRaces.length };
     if (map.marginSummary?.segments) {
       map.marginSummary.total = activeRaces.length;
       map.marginSummary.segments.forEach(segment => { segment.count = counts[segment.key] || 0; });

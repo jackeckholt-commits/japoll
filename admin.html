@@ -98,14 +98,15 @@
     <section class="editor-section" id="state-ratings">
       <div class="section-heading">
         <span class="step-number">4</span>
-        <div><span class="eyebrow">Interactive maps</span><h2>State-by-state ratings</h2><p>Choose a Safe, Likely, Lean, or Tilt rating for each active race.</p></div>
+        <div><span class="eyebrow">Interactive maps</span><h2>Race ratings</h2><p>Choose a Toss-up, Tilt, Lean, Likely, or Safe rating for Senate, governor, and all 435 House districts.</p></div>
       </div>
       <div class="race-toolbar">
         <div class="race-tabs" role="tablist">
           <button class="race-tab is-active" data-race-tab="senate" type="button" role="tab" aria-selected="true">Senate <span data-race-count="senate"></span></button>
           <button class="race-tab" data-race-tab="governor" type="button" role="tab" aria-selected="false">Governor <span data-race-count="governor"></span></button>
+          <button class="race-tab" data-race-tab="house" type="button" role="tab" aria-selected="false">House <span data-race-count="house"></span></button>
         </div>
-        <label class="race-search"><span>Find a state</span><input id="race-search" type="search" placeholder="Search…"/></label>
+        <label class="race-search"><span>Find a race</span><input id="race-search" type="search" placeholder="State or district…"/></label>
       </div>
       <div id="race-editors" class="race-editors" aria-live="polite"><p class="loading-message">Loading race data…</p></div>
     </section>

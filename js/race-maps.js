@@ -14,6 +14,8 @@ const COMPACT_LABEL_STATES = new Set(["CT", "DE", "MD", "MA", "NH", "NJ", "RI", 
 const TINY_LABEL_STATES = new Set(["HI"]);
 
 const RATING_LABELS = {
+  "no-data": "Unrated",
+  tossup: "Toss-up",
   demSolid: "Safe Democrat",
   demLikely: "Likely Democrat",
   demLean: "Lean Democrat",
@@ -173,6 +175,24 @@ function renderCandidateList(race, mapData) {
   `;
 }
 
+function renderRaceLinks(race) {
+  const sourceLinks = [
+    [race.links?.primaryResults, race.links?.primaryResultsLabel || "Primary & results"],
+    [race.links?.candidateData, race.links?.candidateDataLabel || "Candidate data"],
+    [race.links?.wikipedia, "Wikipedia"]
+  ].filter(([url]) => Boolean(url));
+
+  if (!sourceLinks.length) return "";
+  return `
+    <div class="race-resource-links">
+      <h4>Race links</h4>
+      <div class="candidate-actions">
+        ${sourceLinks.map(([url, label]) => `<a href="${url}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`).join("")}
+      </div>
+    </div>
+  `;
+}
+
 function renderMarginSummary(container, mapData) {
   const summary = mapData.marginSummary;
   if (!summary || !Array.isArray(summary.segments)) return false;
@@ -190,6 +210,7 @@ function renderMarginSummary(container, mapData) {
       <span><i class="margin-dem-likely"></i>Likely D</span>
       <span><i class="margin-dem-lean"></i>Lean D</span>
       <span><i class="margin-dem-tilt"></i>Tilt D</span>
+      <span><i class="margin-unrated"></i>Unrated</span>
       <span><i class="margin-rep-tilt"></i>Tilt R</span>
       <span><i class="margin-rep-lean"></i>Lean R</span>
       <span><i class="margin-rep-likely"></i>Likely R</span>
@@ -210,14 +231,16 @@ function renderMarginSummary(container, mapData) {
 
 function renderRaceDetail(panel, race, mapData) {
   if (!race) {
+    const unit = mapData.unitLabel === "district" ? "district" : "state";
+    const activeLabel = unit === "district" ? "Every district is selectable" : "Colored states have active races";
     panel.innerHTML = `
       <div class="race-detail-empty">
         <span class="detail-kicker">Interactive map</span>
-        <h3>Select a state</h3>
-        <p>Choose a colored state to view its current rating and candidate matchup.</p>
+        <h3>Select a ${unit}</h3>
+        <p>Choose a ${unit} to view its current rating, candidate matchup, and race links.</p>
         <div class="race-detail-hint">
           <i aria-hidden="true"></i>
-          <span>Colored states have active races</span>
+          <span>${activeLabel}</span>
         </div>
       </div>
     `;
@@ -232,22 +255,26 @@ function renderRaceDetail(panel, race, mapData) {
     ${noteLine}
     <h4 class="candidate-heading">Candidates</h4>
     ${renderCandidateList(race, mapData)}
+    ${renderRaceLinks(race)}
   `;
 }
 
-async function loadRaceResources() {
-  const [raceResponse, atlasResponse] = await Promise.all([
-    fetch("data/races.json", { cache: "no-store" }),
-    fetch(US_ATLAS_URL)
-  ]);
-
+async function loadRaceData() {
+  const raceResponse = await fetch("data/races.json", { cache: "no-store" });
   if (!raceResponse.ok) throw new Error("Could not load data/races.json");
-  if (!atlasResponse.ok) throw new Error("Could not load US map geometry");
+  return raceResponse.json();
+}
 
-  return {
-    raceData: await raceResponse.json(),
-    atlas: await atlasResponse.json()
-  };
+async function loadStateAtlas() {
+  const atlasResponse = await fetch(US_ATLAS_URL);
+  if (!atlasResponse.ok) throw new Error("Could not load US map geometry");
+  return atlasResponse.json();
+}
+
+async function loadHouseGeometry(mapData) {
+  const geometryResponse = await fetch(mapData.geometryUrl || "assets/house-districts-2026.geojson");
+  if (!geometryResponse.ok) throw new Error("Could not load 2026 House district geometry");
+  return geometryResponse.json();
 }
 
 function renderRaceMap(section, mapData, atlas) {
@@ -357,6 +384,151 @@ function renderRaceMap(section, mapData, atlas) {
     .text(feature => FIPS_TO_POSTAL[String(feature.id).padStart(2, "0")] || "");
 }
 
+function renderHouseDistrictMap(section, mapData, geoJson) {
+  const mapSlot = section.querySelector("[data-race-map-svg]");
+  const detailPanel = section.querySelector("[data-race-detail]");
+  const barSlot = section.querySelector("[data-race-bar]");
+  if (!mapSlot || !detailPanel || !barSlot) return;
+
+  renderProjectionBar(barSlot, mapData);
+  renderRaceDetail(detailPanel, null, mapData);
+
+  const races = Array.isArray(mapData.races) ? mapData.races : [];
+  const raceById = new Map(races.map(race => [race.id, race]));
+  const features = Array.isArray(geoJson.features) ? geoJson.features : [];
+  const width = 1100;
+  const height = 680;
+  const featureCollection = { type: "FeatureCollection", features };
+  const projection = d3.geoAlbersUsa().fitExtent([[18, 18], [width - 18, height - 18]], featureCollection);
+  const path = d3.geoPath(projection);
+  const states = [...new Set(features.map(feature => feature.properties.state))].sort();
+
+  mapSlot.innerHTML = `
+    <div class="house-map-toolbar">
+      <label>
+        <span>Jump to a state</span>
+        <select data-house-map-state>
+          <option value="">National view</option>
+          ${states.map(state => `<option value="${state}">${state}</option>`).join("")}
+        </select>
+      </label>
+      <div class="house-map-zoom" aria-label="Map zoom controls">
+        <button type="button" data-map-zoom-in aria-label="Zoom in">+</button>
+        <button type="button" data-map-zoom-out aria-label="Zoom out">−</button>
+        <button type="button" data-map-reset>Reset</button>
+      </div>
+    </div>
+  `;
+
+  const svg = d3.select(mapSlot)
+    .append("svg")
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("role", "img")
+    .attr("aria-label", "2026 United States House district rating map")
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .classed("race-map-svg house-district-map-svg", true);
+  const viewport = svg.append("g").attr("class", "house-map-viewport");
+
+  const districts = viewport.append("g")
+    .attr("class", "house-map-districts")
+    .selectAll("path")
+    .data(features)
+    .join("path")
+    .attr("d", path)
+    .attr("class", feature => {
+      const race = raceById.get(feature.properties.id);
+      return `house-district ${getRaceClass(race)} is-clickable`;
+    })
+    .attr("tabindex", "0")
+    .attr("role", "button")
+    .attr("aria-label", feature => {
+      const race = raceById.get(feature.properties.id);
+      return `${feature.properties.label}: ${formatRaceStatus(race)}`;
+    })
+    .on("click", function(event, feature) {
+      const race = raceById.get(feature.properties.id);
+      if (!race) return;
+      districts.classed("is-selected", false);
+      d3.select(this).classed("is-selected", true);
+      renderRaceDetail(detailPanel, race, mapData);
+    })
+    .on("keydown", function(event) {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      event.preventDefault();
+      this.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+    });
+
+  districts.append("title").text(feature => {
+    const race = raceById.get(feature.properties.id);
+    return `${feature.properties.label}: ${formatRaceStatus(race)}`;
+  });
+
+  const labels = viewport.append("g")
+    .attr("class", "house-district-labels")
+    .selectAll("text")
+    .data(features.filter(feature => feature.properties.district !== "00"))
+    .join("text")
+    .attr("x", feature => path.centroid(feature)[0])
+    .attr("y", feature => path.centroid(feature)[1])
+    .attr("text-anchor", "middle")
+    .attr("dominant-baseline", "middle")
+    .text(feature => Number(feature.properties.district));
+
+  let focusedState = "";
+  const updateFocusedState = (state, scale = 1) => {
+    focusedState = state;
+    districts
+      .classed("is-outside-focus", feature => Boolean(state) && feature.properties.state !== state)
+      .attr("tabindex", feature => !state || feature.properties.state === state ? "0" : "-1");
+    labels.classed(
+      "is-visible",
+      feature => scale >= 2.35 && (!state || feature.properties.state === state)
+    );
+  };
+
+  const zoom = d3.zoom()
+    .scaleExtent([1, 10])
+    .translateExtent([[-80, -80], [width + 80, height + 80]])
+    .on("zoom", event => {
+      viewport.attr("transform", event.transform);
+      updateFocusedState(focusedState, event.transform.k);
+    });
+  svg.call(zoom);
+
+  const zoomBy = factor => svg.transition().duration(180).call(zoom.scaleBy, factor);
+  mapSlot.querySelector("[data-map-zoom-in]").addEventListener("click", () => zoomBy(1.55));
+  mapSlot.querySelector("[data-map-zoom-out]").addEventListener("click", () => zoomBy(1 / 1.55));
+
+  const resetMap = () => {
+    mapSlot.querySelector("[data-house-map-state]").value = "";
+    updateFocusedState("", 1);
+    svg.transition().duration(220).call(zoom.transform, d3.zoomIdentity);
+  };
+  mapSlot.querySelector("[data-map-reset]").addEventListener("click", resetMap);
+
+  mapSlot.querySelector("[data-house-map-state]").addEventListener("change", event => {
+    const state = event.target.value;
+    if (!state) {
+      updateFocusedState("", 1);
+      svg.transition().duration(220).call(zoom.transform, d3.zoomIdentity);
+      return;
+    }
+    updateFocusedState(state, 1);
+    const stateFeatures = features.filter(feature => feature.properties.state === state);
+    const bounds = path.bounds({ type: "FeatureCollection", features: stateFeatures });
+    const dx = Math.max(bounds[1][0] - bounds[0][0], 1);
+    const dy = Math.max(bounds[1][1] - bounds[0][1], 1);
+    const centerX = (bounds[0][0] + bounds[1][0]) / 2;
+    const centerY = (bounds[0][1] + bounds[1][1]) / 2;
+    const scale = Math.min(9, 0.82 / Math.max(dx / width, dy / height));
+    const transform = d3.zoomIdentity
+      .translate(width / 2, height / 2)
+      .scale(scale)
+      .translate(-centerX, -centerY);
+    svg.transition().duration(260).call(zoom.transform, transform);
+  });
+}
+
 function renderCurrentCompositionNote(container, mapData) {
   const note = mapData.currentCompositionNote;
   if (!note || !container) return;
@@ -383,14 +555,20 @@ async function initializeRaceMaps() {
   if (!sections.length) return;
 
   try {
-    const { raceData, atlas } = await loadRaceResources();
+    const raceData = await loadRaceData();
+    const keys = new Set([...sections].map(section => section.getAttribute("data-race-map")));
+    const [atlas, houseGeometry] = await Promise.all([
+      keys.has("senate") || keys.has("governor") ? loadStateAtlas() : Promise.resolve(null),
+      keys.has("house") ? loadHouseGeometry(raceData.maps?.house || {}) : Promise.resolve(null)
+    ]);
 
     sections.forEach(section => {
       const key = section.getAttribute("data-race-map");
       const mapData = raceData.maps && raceData.maps[key];
 
       if (!mapData) return;
-      renderRaceMap(section, mapData, atlas);
+      if (key === "house") renderHouseDistrictMap(section, mapData, houseGeometry);
+      else renderRaceMap(section, mapData, atlas);
     });
   } catch (error) {
     console.error("Could not load race map:", error);
@@ -400,7 +578,7 @@ async function initializeRaceMaps() {
         mapSlot.innerHTML = `
           <div class="map-error">
             <strong>Map could not load.</strong>
-            <p>Try refreshing the page. The map uses a public U.S. state geometry file.</p>
+            <p>Try refreshing the page. The map uses public U.S. election geometry.</p>
           </div>
         `;
       }

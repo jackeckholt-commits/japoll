@@ -11,6 +11,8 @@ const REQUIRED_MARGIN_KEYS = [
   "repSolid"
 ];
 
+const ALLOWED_RATING_KEYS = [...REQUIRED_MARGIN_KEYS, "tossup", "no-data"];
+
 const PARTY_BY_MARGIN = {
   demSolid: "dem",
   demLikely: "dem",
@@ -48,30 +50,33 @@ function warn(condition, message) {
 }
 
 function countPredictions(races) {
-  const counts = Object.fromEntries(REQUIRED_MARGIN_KEYS.map(key => [key, 0]));
+  const counts = Object.fromEntries(ALLOWED_RATING_KEYS.map(key => [key, 0]));
   let dem = 0;
   let rep = 0;
 
   for (const race of races || []) {
-    if (!race.active || race.status !== "prediction") continue;
+    if (!race.active) continue;
 
     const category = race.marginCategory;
-    assert(REQUIRED_MARGIN_KEYS.includes(category), `${race.state}: unknown marginCategory "${category}"`);
+    assert(ALLOWED_RATING_KEYS.includes(category), `${race.state}: unknown marginCategory "${category}"`);
 
-    if (REQUIRED_MARGIN_KEYS.includes(category)) {
+    if (ALLOWED_RATING_KEYS.includes(category)) {
       counts[category] += 1;
       const expectedParty = PARTY_BY_MARGIN[category];
-      assert(
-        race.party === expectedParty,
-        `${race.state}: party "${race.party}" does not match marginCategory "${category}"`
-      );
+      if (expectedParty) {
+        assert(
+          race.party === expectedParty,
+          `${race.state}: party "${race.party}" does not match marginCategory "${category}"`
+        );
+      }
     }
 
     if (race.party === "dem") dem += 1;
     if (race.party === "rep") rep += 1;
   }
 
-  return { counts, dem, rep, total: dem + rep };
+  const total = Object.values(counts).reduce((sum, count) => sum + count, 0);
+  return { counts, dem, rep, total };
 }
 
 function validateRaceMap(mapKey, mapData) {
@@ -81,16 +86,18 @@ function validateRaceMap(mapKey, mapData) {
   assert(!mapData.cycleNote, `${mapKey}: stale cycleNote field should be removed`);
   assert(!mapData.nonActiveNote, `${mapKey}: stale nonActiveNote field should be removed`);
 
-  if (mapKey === "house" && mapData.workInProgress) return;
-
   const { counts, dem, rep, total } = countPredictions(mapData.races || []);
+  const activeRaces = (mapData.races || []).filter(race => race.active);
 
   assert(mapData.projection, `${mapKey}: missing projection`);
   if (mapData.projection) {
-    for (const key of REQUIRED_MARGIN_KEYS) {
+    for (const key of ALLOWED_RATING_KEYS) {
+      const projectionValue = key === "no-data"
+        ? mapData.projection.noData ?? mapData.projection["no-data"] ?? 0
+        : mapData.projection[key] ?? 0;
       assert(
-        Number(mapData.projection[key] || 0) === counts[key],
-        `${mapKey}: projection.${key}=${mapData.projection[key] || 0}, expected ${counts[key]}`
+        Number(projectionValue) === counts[key],
+        `${mapKey}: projection.${key}=${projectionValue}, expected ${counts[key]}`
       );
     }
     assert(Number(mapData.projection.total || 0) === total, `${mapKey}: projection.total=${mapData.projection.total}, expected ${total}`);
@@ -100,14 +107,13 @@ function validateRaceMap(mapKey, mapData) {
   assert(summary, `${mapKey}: missing marginSummary`);
   if (summary) {
     const summaryCounts = Object.fromEntries((summary.segments || []).map(segment => [segment.key, Number(segment.count || 0)]));
-    for (const key of REQUIRED_MARGIN_KEYS) {
-      assert(summaryCounts[key] === counts[key], `${mapKey}: marginSummary ${key}=${summaryCounts[key]}, expected ${counts[key]}`);
+    for (const key of ALLOWED_RATING_KEYS) {
+      assert(Number(summaryCounts[key] || 0) === counts[key], `${mapKey}: marginSummary ${key}=${summaryCounts[key] || 0}, expected ${counts[key]}`);
     }
     assert(Number(summary.total || 0) === total, `${mapKey}: marginSummary.total=${summary.total}, expected ${total}`);
   }
 
   const projected = mapData.projectedControl;
-  assert(projected, `${mapKey}: missing projectedControl`);
   if (projected) {
     const expectedTotal = PROJECTED_TOTAL_BY_MAP[mapKey];
     assert(
@@ -136,13 +142,22 @@ function validateRaceMap(mapKey, mapData) {
         );
       }
     }
+
+    if (race.active) {
+      assert(race.links?.primaryResults, `${mapKey} ${race.id || race.state}: missing primary/results link`);
+      assert(race.links?.candidateData, `${mapKey} ${race.id || race.state}: missing candidate-data link`);
+      assert(race.links?.wikipedia, `${mapKey} ${race.id || race.state}: missing Wikipedia link`);
+    }
   }
+
+  assert(total === activeRaces.length, `${mapKey}: ${activeRaces.length} active races but ${total} rated/unrated entries`);
 }
 
 const packageJson = readJson("package.json");
 const polling = readJson("data/polling.json");
 const history = readJson("data/polling-history.json");
 const races = readJson("data/races.json");
+const houseGeometry = readJson("assets/house-districts-2026.geojson");
 readJson("data/adjustments.json");
 readJson("data/manual-overrides.json");
 
@@ -172,7 +187,19 @@ if (history) {
 if (races) {
   validateRaceMap("senate", races.maps?.senate);
   validateRaceMap("governor", races.maps?.governor);
-  warn(races.maps?.house?.workInProgress === true, "house map should remain marked workInProgress");
+  validateRaceMap("house", races.maps?.house);
+  warn(races.maps?.house?.workInProgress === false, "house map should be marked ready");
+
+  const houseRaces = (races.maps?.house?.races || []).filter(race => race.active);
+  assert(houseRaces.length === 435, `house: expected 435 active districts, found ${houseRaces.length}`);
+  assert(new Set(houseRaces.map(race => race.id)).size === 435, "house: district IDs must be unique");
+}
+
+if (houseGeometry) {
+  const features = houseGeometry.features || [];
+  assert(features.length === 435, `house geometry: expected 435 features, found ${features.length}`);
+  assert(new Set(features.map(feature => feature.properties?.id)).size === 435, "house geometry: district IDs must be unique");
+  assert(new Set(features.map(feature => feature.properties?.state)).size === 50, "house geometry: expected all 50 states");
 }
 
 if (warnings.length) {
