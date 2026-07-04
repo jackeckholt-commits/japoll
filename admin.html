@@ -42,7 +42,8 @@
   <nav class="editor-nav" aria-label="Editor sections">
     <a href="#headline-predictions">Headline totals</a>
     <a href="#analysis-posts">Analysis posts</a>
-    <a href="#state-ratings">State ratings</a>
+    <a href="#state-ratings">Senate &amp; governor</a>
+    <a class="house-editor-shortcut" href="#state-ratings" data-open-race-tab="house">House districts</a>
   </nav>
 
   <form id="editor-form">
@@ -104,10 +105,14 @@
         <div class="race-tabs" role="tablist">
           <button class="race-tab is-active" data-race-tab="senate" type="button" role="tab" aria-selected="true">Senate <span data-race-count="senate"></span></button>
           <button class="race-tab" data-race-tab="governor" type="button" role="tab" aria-selected="false">Governor <span data-race-count="governor"></span></button>
-          <button class="race-tab" data-race-tab="house" type="button" role="tab" aria-selected="false">House <span data-race-count="house"></span></button>
+          <button class="race-tab" data-race-tab="house" type="button" role="tab" aria-selected="false">House districts <span data-race-count="house"></span></button>
         </div>
-        <label class="race-search"><span>Find a race</span><input id="race-search" type="search" placeholder="State or district…"/></label>
+        <div class="race-filters">
+          <label class="house-state-filter" data-house-state-filter hidden><span>Choose a state</span><select id="house-state-filter" aria-label="Choose a state for House districts"><option value="">All states</option></select></label>
+          <label class="race-search"><span>Find a race</span><input id="race-search" type="search" placeholder="State or race…"/></label>
+        </div>
       </div>
+      <p class="race-filter-status" id="race-filter-status" aria-live="polite"></p>
       <div id="race-editors" class="race-editors" aria-live="polite"><p class="loading-message">Loading race data…</p></div>
     </section>
   </form>
