@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T00:25:50.159Z",
+  "updatedAt": "2026-07-04T00:33:56.191Z",
   "note": "Estimated points before automated collection are carried over from data/history.json. New scraper runs append or replace dated points here.",
   "runs": [
     {
@@ -2040,7 +2040,7 @@
     },
     {
       "date": "2026-07-04",
-      "timestamp": "2026-07-04T00:25:50.159Z",
+      "timestamp": "2026-07-04T00:33:56.191Z",
       "estimated": false,
       "genericBallot": {
         "average": {
