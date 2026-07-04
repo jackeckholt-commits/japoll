@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T07:05:52.412Z",
+  "updatedAt": "2026-07-04T20:23:33.432Z",
   "predictions": {
     "senate": {
       "democrats": 51,
@@ -20,12 +20,28 @@
   },
   "posts": [
     {
+      "id": "release-and-happy-4th",
+      "category": "Update",
+      "title": "Release and happy 4th",
+      "excerpt": "The Official Release",
+      "body": "Happy Fourth of July and happy 250th!\n\nThis is the official release of my site. It has been a summer project for me, and I hope it can help provide candidate and polling information for the next election in an easy-to-understand way. The ability to change is one of the most important parts of our country, and in my opinion, it is what has allowed this country to thrive. Elections have always been important to me because they are a way for people to create change. That interest and passion for elections and change is what pushed me to create this site, so hopefully it can help others get interested and participate in that change too.\nOnce again, happy Fourth, and be safe today.",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "id": "explaining-data",
+      "category": "Analysis",
+      "title": "Explaining data",
+      "excerpt": "Explaining my predictions",
+      "body": "Some of my predictions might seem to favor Democrats more than others out there. This is primarily because I account for voting propensity, or the likelihood that individual groups will actually vote in the election and which party they are favoring. Looking at that can give a better picture of the results, especially because national and statewide polls can be inaccurate since it is hard to predict who will actually vote. This same model was used to predict the results in 2024 and was accurate, so hopefully it holds again.",
+      "publishedAt": "2026-07-01"
+    },
+    {
       "id": "welcome-to-japoll-analysis",
       "category": "Analysis",
       "title": "Welcome to Japoll",
       "excerpt": "New things",
       "body": "This is going to be where I will post updates in election data, and other news related to elections.  Idk if I will actually add stuff this but its here for future use.",
-      "publishedAt": "2026-07-04"
+      "publishedAt": "2026-06-30"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T20:01:02.770Z",
+  "updatedAt": "2026-07-04T20:23:33.433Z",
   "version": "1.0.0",
   "note": "Senate, governor, and all 435 House districts are editable. House geometry uses 2026 election boundaries, including enacted mid-decade changes in ten states.",
   "maps": {
@@ -8,6 +8,8 @@
       "subtitle": "Early Senate race rating map. Click a state to see the current rating. Candidate details will update after primaries.",
       "totalLabel": "35 Senate races",
       "projection": {
+        "no-data": 0,
+        "tossup": 0,
         "demSolid": 9,
         "demLikely": 3,
         "demLean": 2,
@@ -16,6 +18,7 @@
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 10,
+        "noData": 0,
         "total": 35
       },
       "races": [
@@ -1349,6 +1352,8 @@
       "subtitle": "Early governor race rating map. Candidate details will update after primaries.",
       "totalLabel": "36 governor races",
       "projection": {
+        "no-data": 0,
+        "tossup": 0,
         "demSolid": 12,
         "demLikely": 3,
         "demLean": 3,
@@ -1357,6 +1362,7 @@
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 9,
+        "noData": 0,
         "total": 36
       },
       "races": [
@@ -2731,12 +2737,12 @@
       "boundarySource": "https://www.ncsl.org/redistricting-and-census/changing-the-maps-tracking-mid-decade-redistricting",
       "workInProgress": false,
       "projection": {
+        "no-data": 0,
+        "tossup": 0,
         "demSolid": 178,
         "demLikely": 19,
         "demLean": 15,
         "demTilt": 18,
-        "tossup": 0,
-        "no-data": 0,
         "repTilt": 7,
         "repLean": 10,
         "repLikely": 7,
