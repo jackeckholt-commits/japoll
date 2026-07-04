@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-26T00:00:00.000Z",
+  "updatedAt": "2026-07-04T00:34:03.059Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
-    "democrats": 207.0,
+    "democrats": 207,
     "tossup": 19.3,
     "republicans": 208.7,
     "democratsRounded": 230,
@@ -13,7 +13,7 @@
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
-    "nonTossupDemocrats": 207.0,
+    "nonTossupDemocrats": 207,
     "nonTossupRepublicans": 208.7,
     "averageTossup": 19.3,
     "projectedDemocrats": 230,
@@ -21,8 +21,8 @@
   },
   "average": {
     "categories": {
-      "demSafe": 179.3,
-      "demLikely": 15.0,
+      "demSafe": 179,
+      "demLikely": 15.3,
       "demLean": 12.7,
       "tossup": 19.3,
       "repLean": 11.7,
@@ -30,7 +30,7 @@
       "repSafe": 168.3
     },
     "totals": {
-      "democrats": 207.0,
+      "democrats": 207,
       "tossup": 19.3,
       "republicans": 208.7,
       "projectedDemocrats": 230,
@@ -42,11 +42,11 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-06-26",
+      "updated": "2026-07-02",
       "url": "https://www.racetothewh.com/house",
       "categories": {
-        "demSafe": 178,
-        "demLikely": 20,
+        "demSafe": 177,
+        "demLikely": 21,
         "demLean": 13,
         "tossup": 21,
         "repLean": 19,
@@ -58,13 +58,15 @@
         "tossup": 21,
         "republicans": 203
       },
-      "note": "Published House forecast / rating summary."
+      "included": true,
+      "scrapeStatus": "live",
+      "note": "Validated automated House ratings scrape."
     },
     {
       "key": "270towin",
       "name": "270toWin",
       "shortName": "270toWin",
-      "updated": "2026-06-18",
+      "updated": "2026-06-29",
       "url": "https://www.270towin.com/2026-house-election/",
       "categories": {
         "demSafe": 178,
@@ -80,7 +82,9 @@
         "tossup": 19,
         "republicans": 211
       },
-      "note": "Consensus House forecast / race rating summary."
+      "included": true,
+      "scrapeStatus": "live",
+      "note": "Validated automated House ratings scrape."
     },
     {
       "key": "cook",
@@ -102,7 +106,9 @@
         "tossup": 18,
         "republicans": 212
       },
-      "note": "Cook House race ratings summarized into seat buckets."
+      "included": true,
+      "scrapeStatus": "live",
+      "note": "Validated automated House ratings scrape."
     }
   ],
   "methodology": "Source cards show each source's published race-rating buckets. The top bar is this site's House prediction based on current averages and available seat projection data.",

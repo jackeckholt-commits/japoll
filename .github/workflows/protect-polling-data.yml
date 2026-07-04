@@ -1,0 +1,70 @@
+name: Protect polling data files
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: protect-polling-data
+  cancel-in-progress: false
+
+jobs:
+  protect-data:
+    # The scraper bot is allowed to update these files. Normal/manual commits
+    # must use [allow-data] when intentionally replacing collected history.
+    if: github.actor != 'github-actions[bot]' && !contains(github.event.head_commit.message, '[allow-data]')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check whether protected data files changed
+        id: protected_changes
+        shell: bash
+        run: |
+          set -e
+
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          CHANGED="$(git diff --name-only "$BEFORE" "$AFTER" -- data/polling.json data/polling-history.json || true)"
+
+          if [ -n "$CHANGED" ]; then
+            echo "Protected data files changed:"
+            echo "$CHANGED"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No protected data files changed."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Restore protected data files from previous commit
+        if: steps.protected_changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -e
+
+          BEFORE="${{ github.event.before }}"
+          git checkout "$BEFORE" -- data/polling.json data/polling-history.json
+
+          if [ -n "$(git status --porcelain data/polling.json data/polling-history.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/polling.json data/polling-history.json
+            git commit -m "Restore protected polling data files"
+            git push
+          else
+            echo "Protected files already match previous commit."
+          fi

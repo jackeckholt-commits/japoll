@@ -1,5 +1,7 @@
 import { chromium } from "playwright";
 
+import { saveScrapeDebug } from "../lib/debug.js";
+
 const TOTAL_HOUSE_SEATS = 435;
 const CATEGORY_KEYS = [
   "demSafe",
@@ -31,7 +33,8 @@ const sources = {
     key: "cook",
     name: "Cook Political Report",
     shortName: "Cook",
-    url: "https://www.cookpolitical.com/ratings/house-race-ratings"
+    url: "https://www.cookpolitical.com/ratings/house-race-ratings",
+    textProxyUrl: "https://r.jina.ai/https://www.cookpolitical.com/ratings/house-race-ratings"
   }
 };
 
@@ -167,6 +170,32 @@ function isoDateFromText(text, pattern) {
   return Number.isNaN(date.getTime()) ? new Date().toISOString().slice(0, 10) : date.toISOString().slice(0, 10);
 }
 
+function browserUserAgent(browser) {
+  const majorVersion = browser.version().split(".")[0] || "149";
+  const platform = process.platform === "win32" ? "Windows NT 10.0; Win64; x64" : "X11; Linux x86_64";
+  return `Mozilla/5.0 (${platform}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${majorVersion}.0.0.0 Safari/537.36`;
+}
+
+async function newPublisherPage(browser) {
+  const context = await browser.newContext({
+    viewport: { width: 1440, height: 1200 },
+    userAgent: browserUserAgent(browser),
+    locale: "en-US",
+    timezoneId: "America/New_York",
+    extraHTTPHeaders: {
+      "Accept-Language": "en-US,en;q=0.9"
+    }
+  });
+
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, "webdriver", { get: () => undefined });
+    Object.defineProperty(navigator, "languages", { get: () => ["en-US", "en"] });
+    window.chrome = window.chrome || { runtime: {} };
+  });
+
+  return { context, page: await context.newPage() };
+}
+
 async function scrapeRaceToWH() {
   const source = sources.racetowh;
   const browser = await chromium.launch({ headless: true });
@@ -231,22 +260,79 @@ async function scrape270ToWin() {
 
 async function scrapeCook() {
   const source = sources.cook;
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: [
+      "--disable-blink-features=AutomationControlled",
+      "--disable-dev-shm-usage"
+    ]
+  });
 
   try {
-    const page = await browser.newPage({
-      viewport: { width: 1440, height: 1200 },
-      userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/149 Safari/537.36"
-    });
-    await page.goto(source.url, { waitUntil: "domcontentloaded", timeout: 60000 });
-    await page.getByText("Ratings Summary", { exact: true }).waitFor({ timeout: 30000 });
-    const text = await page.locator("body").innerText();
+    const { context, page } = await newPublisherPage(browser);
+    let text = "";
+    let html = "";
+    let title = "";
+    let status = null;
 
-    return {
-      ...source,
-      updated: isoDateFromText(text, /House Race Ratings\s+([A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4})/i),
-      categories: parseCookRatings(text)
-    };
+    const response = await page.goto(source.url, { waitUntil: "domcontentloaded", timeout: 60000 });
+    status = response?.status() ?? status;
+
+    if (status !== 403) {
+      for (let wait = 0; wait < 12; wait += 1) {
+        await page.waitForTimeout(2500);
+        text = await page.locator("body").innerText().catch(() => "");
+
+        try {
+          const categories = parseCookRatings(text);
+          await context.close();
+          return {
+            ...source,
+            updated: isoDateFromText(text, /House Race Ratings\s+([A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4})/i),
+            categories
+          };
+        } catch {
+          // Keep waiting while Cook's browser challenge resolves.
+        }
+      }
+    }
+
+    const proxyResponse = await fetch(source.textProxyUrl, {
+      headers: {
+        "Accept": "text/plain",
+        "User-Agent": "National Poll Tracker/1.0 (+https://japoll.com)"
+      },
+      signal: AbortSignal.timeout(45000)
+    });
+
+    if (proxyResponse.ok) {
+      const proxyText = await proxyResponse.text();
+      try {
+        const categories = parseCookRatings(proxyText);
+        await context.close();
+        return {
+          ...source,
+          updated: isoDateFromText(proxyText, /House Race Ratings\s+([A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4})/i),
+          categories
+        };
+      } catch {
+        text = `${text}\n\n=== TEXT FALLBACK ===\n${proxyText}`;
+      }
+    }
+
+    title = await page.title().catch(() => "");
+    html = await page.content().catch(() => "");
+    await saveScrapeDebug("cook-house", [
+      `HTTP status: ${status}`,
+      `Title: ${title}`,
+      `Final URL: ${page.url()}`,
+      "=== VISIBLE TEXT ===",
+      text,
+      "=== HTML ===",
+      html
+    ].join("\n"));
+    await context.close();
+    throw new Error(`Cook ratings did not load from the browser or text fallback (status ${status}, title ${title || "unknown"})`);
   } finally {
     await browser.close();
   }
