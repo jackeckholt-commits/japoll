@@ -26,6 +26,28 @@ function houseWikipediaUrl(stateName, district) {
   return `https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_${electionWord}_in_${state}`;
 }
 
+function ordinalDistrict(district) {
+  const value = Number(district);
+  const lastTwo = value % 100;
+  const suffix = lastTwo >= 11 && lastTwo <= 13
+    ? "th"
+    : value % 10 === 1
+      ? "st"
+      : value % 10 === 2
+        ? "nd"
+        : value % 10 === 3
+          ? "rd"
+          : "th";
+  return `${value}${suffix}`;
+}
+
+function ballotpediaHouseDistrictUrl(stateName, district) {
+  const state = String(stateName || "").trim().replaceAll(" ", "_");
+  const possessive = state.endsWith("s") ? `${state}%27` : `${state}%27s`;
+  const districtName = district === "00" ? "At-Large" : ordinalDistrict(district);
+  return `https://ballotpedia.org/${possessive}_${districtName}_Congressional_District`;
+}
+
 const data = JSON.parse(fs.readFileSync(RACES_PATH, "utf8"));
 let updated = 0;
 
@@ -39,7 +61,7 @@ for (const [mapKey, map] of Object.entries(data.maps || {})) {
     race.links.primaryResultsLabel = "Primary & results";
     if (mapKey === "house") {
       race.links.wikipedia = houseWikipediaUrl(race.stateName || race.name, race.district);
-      race.links.candidatePage = primaryResults;
+      race.links.candidatePage = ballotpediaHouseDistrictUrl(race.stateName || race.name, race.district);
       delete race.links.primaryResults;
       delete race.links.primaryResultsLabel;
       delete race.links.candidateData;
@@ -51,4 +73,4 @@ for (const [mapKey, map] of Object.entries(data.maps || {})) {
 
 data.updatedAt = new Date().toISOString();
 fs.writeFileSync(RACES_PATH, `${JSON.stringify(data, null, 2)}\n`);
-console.log(`Updated primary and results links for ${updated} active races.`);
+console.log(`Updated race resource links for ${updated} active races.`);
