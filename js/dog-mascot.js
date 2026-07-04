@@ -89,7 +89,7 @@ function createDogMascot() {
   const speechTop = document.createElement("div");
   speechTop.className = "dog-speech-top";
   const name = document.createElement("strong");
-  name.textContent = "Dog says";
+  name.textContent = "Dog's desk";
   const close = document.createElement("button");
   close.className = "dog-close";
   close.type = "button";
@@ -109,7 +109,7 @@ function createDogMascot() {
   const another = document.createElement("button");
   another.className = "dog-another";
   another.type = "button";
-  another.textContent = "Another fact";
+  another.textContent = "New fact";
   speechActions.append(source, another);
   speech.append(speechTop, message, speechActions);
 
@@ -125,11 +125,14 @@ function createDogMascot() {
   image.width = 96;
   image.height = 96;
   const badge = document.createElement("span");
-  badge.textContent = "DOG";
+  badge.textContent = "ASK DOG";
   mascot.append(image, badge);
-  widget.append(speech, mascot);
+  widget.append(mascot, speech);
+  const hero = document.querySelector(".hero");
   const content = document.querySelector("#main-content") || document.querySelector("main");
-  if (content) {
+  if (hero) {
+    hero.appendChild(widget);
+  } else if (content) {
     content.prepend(widget);
   } else {
     document.body.appendChild(widget);
@@ -144,12 +147,14 @@ function createDogMascot() {
       source.textContent = `Source: ${line.sourceLabel}`;
     }
     speech.hidden = false;
+    widget.classList.remove("is-collapsed");
     mascot.setAttribute("aria-expanded", "true");
     sessionStorage.removeItem("japollDogHidden");
   }
 
   function hideSpeech() {
     speech.hidden = true;
+    widget.classList.add("is-collapsed");
     mascot.setAttribute("aria-expanded", "false");
     sessionStorage.setItem("japollDogHidden", "true");
   }
