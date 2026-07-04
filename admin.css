@@ -102,6 +102,8 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 .total-check { color: var(--muted); font-size: 0.8rem; font-weight: 800; }
 .total-check.is-valid { color: var(--green); }
 .total-check.is-invalid { color: #ff8e94; }
+.auto-total-note { margin: -0.2rem 0 0; color: #9fc7e1; font-size: 0.78rem; line-height: 1.4; }
+.prediction-card input[readonly] { cursor: default; border-color: #3d6680; background: #132b3a; }
 
 .post-editor-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
 .post-editor-toolbar p { color: var(--muted); }

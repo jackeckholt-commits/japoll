@@ -2,9 +2,9 @@
   "updatedAt": "2026-07-04T07:05:52.412Z",
   "predictions": {
     "senate": {
-      "democrats": 47,
-      "republicans": 53,
-      "label": "Based on current average"
+      "democrats": 51,
+      "republicans": 49,
+      "label": "Projected Senate seats"
     },
     "governor": {
       "democrats": 25,

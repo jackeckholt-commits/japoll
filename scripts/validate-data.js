@@ -126,6 +126,20 @@ function validateRaceMap(mapKey, mapData) {
     assert(Number(active.republicans || 0) === rep, `${mapKey}: activeRaceWins.republicans=${active.republicans}, expected ${rep}`);
   }
 
+  if (PROJECTED_TOTAL_BY_MAP[mapKey]) {
+    const carryover = mapData.carryover;
+    const projectedTotals = mapData.projectedTotals;
+    assert(carryover, `${mapKey}: missing carryover totals`);
+    assert(projectedTotals, `${mapKey}: missing projectedTotals`);
+    if (carryover && projectedTotals) {
+      const expectedDem = Number(carryover.dem || 0) + dem;
+      const expectedRep = Number(carryover.rep || 0) + rep;
+      assert(Number(projectedTotals.dem) === expectedDem, `${mapKey}: projectedTotals.dem=${projectedTotals.dem}, expected ${expectedDem}`);
+      assert(Number(projectedTotals.rep) === expectedRep, `${mapKey}: projectedTotals.rep=${projectedTotals.rep}, expected ${expectedRep}`);
+      assert(expectedDem + expectedRep === PROJECTED_TOTAL_BY_MAP[mapKey], `${mapKey}: projected totals should add to ${PROJECTED_TOTAL_BY_MAP[mapKey]}`);
+    }
+  }
+
   for (const race of mapData.races || []) {
     warn(race.state && race.name, `${mapKey}: race missing state/name`);
     for (const candidate of race.candidates || []) {

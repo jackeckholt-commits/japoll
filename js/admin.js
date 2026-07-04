@@ -123,6 +123,7 @@ async function loadCurrentData() {
     populateForm();
     renderPostEditors();
     renderRaceEditors();
+    syncAutoPredictionFields(true);
     validatePredictionTotals();
     setSaveState("Current data loaded", connectedToken ? "Connected and ready to publish." : "Connect GitHub when you are ready to publish.");
   } catch (error) {
@@ -134,6 +135,40 @@ function populateForm() {
   document.querySelectorAll("[data-field]").forEach(input => {
     const value = valueAtPath(editorialData, input.dataset.field);
     input.value = value ?? "";
+  });
+}
+
+function calculateProjectedTotals(type, useEditorValues = false) {
+  const map = raceData?.maps?.[type];
+  if (!map?.carryover) return null;
+
+  const totals = {
+    dem: Number(map.carryover.dem || 0),
+    rep: Number(map.carryover.rep || 0)
+  };
+
+  if (useEditorValues) {
+    document.querySelectorAll(`[data-race-rating][data-map="${type}"]`).forEach(select => {
+      const party = RATING_OPTIONS[select.value]?.party;
+      if (party === "dem" || party === "rep") totals[party] += 1;
+    });
+  } else {
+    map.races.filter(race => race.active === true).forEach(race => {
+      if (race.party === "dem" || race.party === "rep") totals[race.party] += 1;
+    });
+  }
+
+  return totals;
+}
+
+function syncAutoPredictionFields(useEditorValues = false) {
+  ["senate", "governor"].forEach(type => {
+    const totals = calculateProjectedTotals(type, useEditorValues);
+    if (!totals) return;
+    const demInput = document.querySelector(`[data-field="predictions.${type}.democrats"]`);
+    const repInput = document.querySelector(`[data-field="predictions.${type}.republicans"]`);
+    if (demInput) demInput.value = String(totals.dem);
+    if (repInput) repInput.value = String(totals.rep);
   });
 }
 
@@ -426,6 +461,15 @@ function updateRaceDataFromEditor() {
       map.marginSummary.total = activeRaces.length;
       map.marginSummary.segments.forEach(segment => { segment.count = counts[segment.key] || 0; });
     }
+    if (map.carryover) {
+      const demRated = activeRaces.filter(race => race.party === "dem").length;
+      const repRated = activeRaces.filter(race => race.party === "rep").length;
+      map.projectedTotals = {
+        dem: Number(map.carryover.dem || 0) + demRated,
+        rep: Number(map.carryover.rep || 0) + repRated,
+        label: map.projectedTotals?.label || `Projected ${type} total`
+      };
+    }
     map.lastUpdated = displayDate;
   });
 
@@ -524,6 +568,9 @@ tokenInput.addEventListener("keydown", event => {
 form.addEventListener("submit", publishChanges);
 form.addEventListener("input", event => {
   if (event.target.matches("[data-field], [data-post-field], [data-race-rating]")) {
+    if (event.target.matches('[data-race-rating][data-map="senate"], [data-race-rating][data-map="governor"]')) {
+      syncAutoPredictionFields(true);
+    }
     markDirty();
     validatePredictionTotals();
   }

@@ -99,9 +99,24 @@ function renderHomepagePrediction(key, prediction) {
 
 async function loadEditorialContent() {
   try {
-    const response = await fetch("data/editorial.json", { cache: "no-store" });
-    if (!response.ok) throw new Error("Could not load editorial data");
-    const editorial = await response.json();
+    const [editorialResponse, racesResponse] = await Promise.all([
+      fetch("data/editorial.json", { cache: "no-store" }),
+      fetch("data/races.json", { cache: "no-store" })
+    ]);
+    if (!editorialResponse.ok) throw new Error("Could not load editorial data");
+    const editorial = await editorialResponse.json();
+    const raceData = racesResponse.ok ? await racesResponse.json() : null;
+
+    ["senate", "governor"].forEach(key => {
+      const totals = raceData?.maps?.[key]?.projectedTotals;
+      if (!totals || !editorial.predictions?.[key]) return;
+      editorial.predictions[key] = {
+        ...editorial.predictions[key],
+        democrats: Number(totals.dem),
+        republicans: Number(totals.rep),
+        label: totals.label || editorial.predictions[key].label
+      };
+    });
 
     renderAnalysisPosts(editorial.posts);
 
