@@ -1,17 +1,5 @@
 const DOG_LINES = [
   {
-    text: "Hi, I’m Dog, Japoll’s election-fact mascot.",
-    intro: true
-  },
-  {
-    text: "My name is Dog. Tap me whenever you want another sourced election fact.",
-    intro: true
-  },
-  {
-    text: "Dog here. I brought you another election fact.",
-    intro: true
-  },
-  {
     text: "The Electoral College is a process, not a place. It has 538 electors, and 270 votes elect a president.",
     sourceLabel: "National Archives",
     sourceUrl: "https://www.archives.gov/electoral-college/about"
