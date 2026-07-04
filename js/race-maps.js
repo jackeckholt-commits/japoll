@@ -211,12 +211,14 @@ function renderMarginSummary(container, mapData) {
 function renderRaceDetail(panel, race, mapData) {
   if (!race) {
     panel.innerHTML = `
-      <h3>Select a state</h3>
-      <p>Pick a state on the map to see the prediction and current candidate matchup.</p>
-      <div class="detail-helper-grid">
-        <span>Rating</span>
-        <span>Candidates</span>
-        <span>Links</span>
+      <div class="race-detail-empty">
+        <span class="detail-kicker">Interactive map</span>
+        <h3>Select a state</h3>
+        <p>Choose a colored state to view its current rating and candidate matchup.</p>
+        <div class="race-detail-hint">
+          <i aria-hidden="true"></i>
+          <span>Colored states have active races</span>
+        </div>
       </div>
     `;
     return;
