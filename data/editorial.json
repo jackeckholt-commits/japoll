@@ -18,27 +18,14 @@
       "note": "Site prediction using available House projection data."
     }
   },
-  "analysis": {
-    "senate": {
-      "eyebrow": "Japoll analysis",
-      "title": "The current Senate outlook",
-      "summary": "Our latest read of the fight for Senate control.",
-      "body": "This section is reserved for Japoll's analysis of the most important Senate races, changes in the map, and the path to a majority.",
-      "updatedAt": "Jul 4, 2026"
-    },
-    "governor": {
-      "eyebrow": "Japoll analysis",
-      "title": "The current governor outlook",
-      "summary": "Our latest read of the 2026 governor races.",
-      "body": "This section is reserved for Japoll's analysis of the most competitive governor races and the changes that matter most.",
-      "updatedAt": "Jul 4, 2026"
-    },
-    "house": {
-      "eyebrow": "Japoll analysis",
-      "title": "The current House outlook",
-      "summary": "Our latest read of the race for 218 seats.",
-      "body": "This section is reserved for Japoll's analysis of the House battlefield, the seats driving the projection, and the path to a majority.",
-      "updatedAt": "Jul 4, 2026"
+  "posts": [
+    {
+      "id": "welcome-to-japoll-analysis",
+      "category": "Site update",
+      "title": "Welcome to Japoll Analysis",
+      "excerpt": "A new home for original posts, race updates, and deeper looks at the numbers.",
+      "body": "This is the new home for Japoll's written analysis. Future posts can cover individual races, changes in the forecast, polling trends, and anything else that deserves a closer look.\n\nPosts are written and published from the Japoll Editor, so new analysis can be added without changing the site's code.",
+      "publishedAt": "2026-07-04"
     }
-  }
+  ]
 }

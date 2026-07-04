@@ -41,7 +41,7 @@
 
   <nav class="editor-nav" aria-label="Editor sections">
     <a href="#headline-predictions">Headline totals</a>
-    <a href="#analysis">Analysis</a>
+    <a href="#analysis-posts">Analysis posts</a>
     <a href="#state-ratings">State ratings</a>
   </nav>
 
@@ -83,37 +83,22 @@
       </div>
     </section>
 
-    <section class="editor-section" id="analysis">
+    <section class="editor-section" id="analysis-posts">
       <div class="section-heading">
         <span class="step-number">3</span>
-        <div><span class="eyebrow">Your voice on Japoll</span><h2>Analysis sections</h2><p>Each page has its own headline, summary, and article text. Leave a blank line to start a new paragraph.</p></div>
+        <div><span class="eyebrow">Your voice on Japoll</span><h2>Analysis posts</h2><p>Write full posts for the standalone Analysis page. Leave a blank line to start a new paragraph.</p></div>
       </div>
-      <div class="analysis-grid">
-        <fieldset class="analysis-editor">
-          <legend>House analysis</legend>
-          <label>Headline<input data-field="analysis.house.title" type="text" maxlength="120" required/></label>
-          <label>One-sentence summary<input data-field="analysis.house.summary" type="text" maxlength="220"/></label>
-          <label>Analysis<textarea data-field="analysis.house.body" rows="8" required></textarea></label>
-        </fieldset>
-        <fieldset class="analysis-editor">
-          <legend>Senate analysis</legend>
-          <label>Headline<input data-field="analysis.senate.title" type="text" maxlength="120" required/></label>
-          <label>One-sentence summary<input data-field="analysis.senate.summary" type="text" maxlength="220"/></label>
-          <label>Analysis<textarea data-field="analysis.senate.body" rows="8" required></textarea></label>
-        </fieldset>
-        <fieldset class="analysis-editor">
-          <legend>Governor analysis</legend>
-          <label>Headline<input data-field="analysis.governor.title" type="text" maxlength="120" required/></label>
-          <label>One-sentence summary<input data-field="analysis.governor.summary" type="text" maxlength="220"/></label>
-          <label>Analysis<textarea data-field="analysis.governor.body" rows="8" required></textarea></label>
-        </fieldset>
+      <div class="post-editor-toolbar">
+        <p>Newest posts appear first based on their publication date.</p>
+        <button class="secondary-button" id="add-post-button" type="button">+ Add new post</button>
       </div>
+      <div class="post-editor-list" id="post-editors" aria-live="polite"></div>
     </section>
 
     <section class="editor-section" id="state-ratings">
       <div class="section-heading">
         <span class="step-number">4</span>
-        <div><span class="eyebrow">Interactive maps</span><h2>State-by-state ratings</h2><p>Choose a rating for each active race. The map colors and category totals are recalculated automatically.</p></div>
+        <div><span class="eyebrow">Interactive maps</span><h2>State-by-state ratings</h2><p>Choose a Safe, Likely, Lean, or Tilt rating for each active race.</p></div>
       </div>
       <div class="race-toolbar">
         <div class="race-tabs" role="tablist">
