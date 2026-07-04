@@ -33,7 +33,8 @@ const sources = {
     key: "cook",
     name: "Cook Political Report",
     shortName: "Cook",
-    url: "https://www.cookpolitical.com/ratings/house-race-ratings"
+    url: "https://www.cookpolitical.com/ratings/house-race-ratings",
+    textProxyUrl: "https://r.jina.ai/https://www.cookpolitical.com/ratings/house-race-ratings"
   }
 };
 
@@ -274,12 +275,10 @@ async function scrapeCook() {
     let title = "";
     let status = null;
 
-    for (let attempt = 1; attempt <= 3; attempt += 1) {
-      const response = attempt === 1
-        ? await page.goto(source.url, { waitUntil: "domcontentloaded", timeout: 60000 })
-        : await page.reload({ waitUntil: "domcontentloaded", timeout: 60000 });
-      status = response?.status() ?? status;
+    const response = await page.goto(source.url, { waitUntil: "domcontentloaded", timeout: 60000 });
+    status = response?.status() ?? status;
 
+    if (status !== 403) {
       for (let wait = 0; wait < 12; wait += 1) {
         await page.waitForTimeout(2500);
         text = await page.locator("body").innerText().catch(() => "");
@@ -298,6 +297,29 @@ async function scrapeCook() {
       }
     }
 
+    const proxyResponse = await fetch(source.textProxyUrl, {
+      headers: {
+        "Accept": "text/plain",
+        "User-Agent": "National Poll Tracker/1.0 (+https://japoll.com)"
+      },
+      signal: AbortSignal.timeout(45000)
+    });
+
+    if (proxyResponse.ok) {
+      const proxyText = await proxyResponse.text();
+      try {
+        const categories = parseCookRatings(proxyText);
+        await context.close();
+        return {
+          ...source,
+          updated: isoDateFromText(proxyText, /House Race Ratings\s+([A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4})/i),
+          categories
+        };
+      } catch {
+        text = `${text}\n\n=== TEXT FALLBACK ===\n${proxyText}`;
+      }
+    }
+
     title = await page.title().catch(() => "");
     html = await page.content().catch(() => "");
     await saveScrapeDebug("cook-house", [
@@ -310,7 +332,7 @@ async function scrapeCook() {
       html
     ].join("\n"));
     await context.close();
-    throw new Error(`Cook ratings did not load after three browser attempts (status ${status}, title ${title || "unknown"})`);
+    throw new Error(`Cook ratings did not load from the browser or text fallback (status ${status}, title ${title || "unknown"})`);
   } finally {
     await browser.close();
   }
