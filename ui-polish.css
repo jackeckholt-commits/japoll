@@ -1517,3 +1517,211 @@ body {
     padding-inline: 11px !important;
   }
 }
+
+/* 1.1.4: Dog, Japoll's pixel election-fact mascot. */
+.dog-widget {
+  position: fixed;
+  z-index: 70;
+  right: clamp(12px, 2vw, 24px);
+  bottom: clamp(12px, 2vw, 24px);
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.dog-widget > * {
+  pointer-events: auto;
+}
+
+.dog-mascot-button {
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 86px;
+  height: 86px;
+  padding: 7px;
+  border: 1px solid rgba(114, 190, 244, 0.66);
+  border-radius: 20px 20px 7px 20px;
+  cursor: pointer;
+  color: #fff;
+  background: #102a3c;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.dog-mascot-button:hover,
+.dog-mascot-button:focus-visible {
+  border-color: #a7dcff;
+  background: #18394f;
+  transform: translateY(-2px);
+}
+
+.dog-mascot-button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.dog-mascot-button span {
+  position: absolute;
+  right: 6px;
+  bottom: -7px;
+  padding: 3px 6px;
+  border: 1px solid #66b8ef;
+  border-radius: 5px;
+  color: #07141d;
+  background: #91d2ff;
+  font-size: 0.61rem;
+  font-weight: 1000;
+  letter-spacing: 0.08em;
+}
+
+.dog-speech {
+  position: relative;
+  width: min(330px, calc(100vw - 128px));
+  padding: 14px;
+  border: 1px solid rgba(114, 190, 244, 0.56);
+  border-radius: 18px 18px 5px 18px;
+  color: #f7fbff;
+  background: rgba(13, 35, 49, 0.97);
+  box-shadow: 0 20px 54px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+}
+
+.dog-speech[hidden] {
+  display: none;
+}
+
+.dog-speech::after {
+  position: absolute;
+  right: -5px;
+  bottom: 24px;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid rgba(114, 190, 244, 0.56);
+  border-right: 1px solid rgba(114, 190, 244, 0.56);
+  background: #0d2331;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.dog-speech-top,
+.dog-speech-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.dog-speech-top strong {
+  color: #92d2ff;
+  font-size: 0.72rem;
+  font-weight: 1000;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.dog-close {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #bed0dc;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.dog-message {
+  margin: 10px 0 13px;
+  color: #f7fbff;
+  font-size: 0.94rem;
+  font-weight: 720;
+  line-height: 1.42;
+}
+
+.dog-source {
+  overflow: hidden;
+  color: #89cfff;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dog-another {
+  flex: 0 0 auto;
+  min-height: 32px;
+  padding: 0.42rem 0.62rem;
+  border: 1px solid rgba(123, 193, 242, 0.48);
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background: #245d84;
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.dog-another:hover,
+.dog-close:hover {
+  background: #2d709e;
+}
+
+body.dog-is-here .hero h1::after {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-left: 13px;
+  background: #75c7ff;
+  box-shadow: 11px -7px #ff6b74, 22px 1px rgba(255, 255, 255, 0.82);
+  content: "";
+  vertical-align: middle;
+}
+
+@media (max-width: 620px) {
+  .dog-widget {
+    right: 10px;
+    bottom: 10px;
+    gap: 7px;
+  }
+
+  .dog-mascot-button {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 16px 16px 6px 16px;
+  }
+
+  .dog-speech {
+    width: min(270px, calc(100vw - 97px));
+    padding: 12px;
+  }
+
+  .dog-message {
+    font-size: 0.86rem;
+  }
+
+  .dog-source {
+    max-width: 150px;
+  }
+
+  body.dog-is-here .hero h1::after {
+    width: 5px;
+    height: 5px;
+    margin-left: 9px;
+    box-shadow: 8px -5px #ff6b74, 16px 1px rgba(255, 255, 255, 0.82);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .dog-mascot-button {
+    transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+  }
+}
