@@ -32,6 +32,10 @@ const saveTitle = document.querySelector("#save-title");
 const saveStatus = document.querySelector("#save-status");
 const raceEditors = document.querySelector("#race-editors");
 const raceSearch = document.querySelector("#race-search");
+const houseStateFilter = document.querySelector("#house-state-filter");
+const houseStateFilterLabel = document.querySelector("[data-house-state-filter]");
+const raceFilterStatus = document.querySelector("#race-filter-status");
+const houseEditorShortcut = document.querySelector("[data-open-race-tab=\"house\"]");
 const postEditors = document.querySelector("#post-editors");
 const addPostButton = document.querySelector("#add-post-button");
 
@@ -238,6 +242,7 @@ function createRaceRow(type, race) {
   row.className = "race-row";
   row.dataset.raceType = type;
   row.dataset.state = `${race.id || ""} ${race.state} ${race.stateName || ""} ${race.name}`.toLowerCase();
+  row.dataset.stateCode = race.state || "";
 
   const name = document.createElement("div");
   name.className = "race-name";
@@ -266,6 +271,23 @@ function createRaceRow(type, race) {
 
 function renderRaceEditors() {
   raceEditors.replaceChildren();
+  const houseRaces = (raceData.maps?.house?.races || []).filter(race => race.active === true);
+  const houseStates = Array.from(
+    new Map(houseRaces.map(race => [race.state, race.stateName || race.state])).entries()
+  ).sort((a, b) => a[1].localeCompare(b[1]));
+
+  houseStateFilter.replaceChildren();
+  const allStatesOption = document.createElement("option");
+  allStatesOption.value = "";
+  allStatesOption.textContent = `All states (${houseRaces.length})`;
+  houseStateFilter.appendChild(allStatesOption);
+  houseStates.forEach(([code, name]) => {
+    const option = document.createElement("option");
+    option.value = code;
+    option.textContent = name;
+    houseStateFilter.appendChild(option);
+  });
+
   ["senate", "governor", "house"].forEach(type => {
     const list = document.createElement("div");
     list.className = "race-list";
@@ -278,9 +300,11 @@ function renderRaceEditors() {
     const count = document.querySelector(`[data-race-count="${type}"]`);
     if (count) count.textContent = `(${races.length})`;
   });
+  selectRaceTab(currentRaceTab);
 }
 
 function selectRaceTab(type) {
+  if (currentRaceTab !== type) raceSearch.value = "";
   currentRaceTab = type;
   document.querySelectorAll("[data-race-tab]").forEach(button => {
     const active = button.dataset.raceTab === type;
@@ -290,14 +314,34 @@ function selectRaceTab(type) {
   document.querySelectorAll("[data-race-list]").forEach(list => {
     list.hidden = list.dataset.raceList !== type;
   });
+  houseStateFilterLabel.hidden = type !== "house";
+  raceSearch.placeholder = type === "house" ? "District, e.g. TX-18…" : "State or race…";
   filterRaces();
 }
 
 function filterRaces() {
   const query = raceSearch.value.trim().toLowerCase();
+  const selectedState = currentRaceTab === "house" ? houseStateFilter.value : "";
+  let visibleCount = 0;
+  let totalCount = 0;
   document.querySelectorAll(`.race-row[data-race-type="${currentRaceTab}"]`).forEach(row => {
-    row.hidden = Boolean(query) && !row.dataset.state.includes(query);
+    totalCount += 1;
+    const matchesSearch = !query || row.dataset.state.includes(query);
+    const matchesState = !selectedState || row.dataset.stateCode === selectedState;
+    row.hidden = !(matchesSearch && matchesState);
+    if (!row.hidden) visibleCount += 1;
   });
+
+  const stateName = houseStateFilter.selectedOptions[0]?.textContent.replace(/\s*\(\d+\)$/, "") || "All states";
+  if (currentRaceTab === "house" && selectedState) {
+    raceFilterStatus.textContent = `Showing ${visibleCount} House district${visibleCount === 1 ? "" : "s"} in ${stateName}.`;
+  } else if (query) {
+    raceFilterStatus.textContent = `Showing ${visibleCount} of ${totalCount} races.`;
+  } else {
+    raceFilterStatus.textContent = currentRaceTab === "house"
+      ? `Showing all ${totalCount} House districts. Choose a state to narrow the list.`
+      : `Showing all ${totalCount} ${currentRaceTab === "senate" ? "Senate" : "governor"} races.`;
+  }
 }
 
 function validatePredictionTotals() {
@@ -489,6 +533,8 @@ document.querySelectorAll("[data-race-tab]").forEach(button => {
   button.addEventListener("click", () => selectRaceTab(button.dataset.raceTab));
 });
 raceSearch.addEventListener("input", filterRaces);
+houseStateFilter.addEventListener("change", filterRaces);
+houseEditorShortcut.addEventListener("click", () => selectRaceTab("house"));
 window.addEventListener("beforeunload", event => {
   if (!hasUnsavedChanges) return;
   event.preventDefault();

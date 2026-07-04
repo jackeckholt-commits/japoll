@@ -81,6 +81,8 @@ input:focus, textarea:focus, select:focus { border-color: #72baff; box-shadow: 0
 .editor-nav::-webkit-scrollbar { display: none; }
 .editor-nav a { flex: 0 0 auto; padding: 0.65rem 0.85rem; border-radius: 9px; color: #bcd0dc; text-decoration: none; font-weight: 800; }
 .editor-nav a:hover { background: #1b3141; color: white; }
+.editor-nav .house-editor-shortcut { border: 1px solid rgba(170, 138, 255, 0.48); color: #ddcfff; background: rgba(110, 76, 174, 0.18); }
+.editor-nav .house-editor-shortcut:hover { background: rgba(110, 76, 174, 0.4); }
 
 .editor-section { margin: 0 0 1.5rem; padding: clamp(1.25rem, 3vw, 2rem); }
 .section-heading { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem; }
@@ -115,11 +117,16 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 .post-editor-heading strong { font-size: 1.05rem; }
 .remove-post-button { min-height: 38px; padding: 0.55rem 0.75rem; border: 1px solid rgba(255, 89, 98, 0.45); border-radius: 9px; cursor: pointer; color: #ff9ca1; background: rgba(255, 89, 98, 0.08); font-weight: 900; }
 
-.race-toolbar { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
-.race-tabs { display: flex; gap: 0.45rem; }
+.race-toolbar { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 1rem; margin-bottom: 0.55rem; }
+.race-tabs { display: flex; flex-wrap: wrap; gap: 0.45rem; }
 .race-tab { min-height: 44px; padding: 0.7rem 1rem; border: 1px solid var(--line); border-radius: 10px; cursor: pointer; color: #bed1dd; background: #122532; font-weight: 900; }
 .race-tab.is-active { border-color: #65aff0; color: white; background: #24587d; }
+.race-tab[data-race-tab="house"].is-active { border-color: #b49bff; background: #604a91; }
+.race-filters { display: flex; align-items: end; justify-content: flex-end; gap: 0.65rem; }
+.house-state-filter { width: min(220px, 100%); }
+.house-state-filter[hidden] { display: none; }
 .race-search { width: min(290px, 100%); }
+.race-filter-status { min-height: 1.25rem; margin: 0 0 0.9rem; color: var(--muted); font-size: 0.84rem; font-weight: 700; }
 .race-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
 .race-list[hidden] { display: none; }
 .race-row { display: grid; grid-template-columns: minmax(150px, 1fr) minmax(180px, 1fr); gap: 0.75rem; align-items: center; padding: 0.9rem; border: 1px solid #30495b; border-radius: 13px; background: rgba(14, 31, 42, 0.82); }
@@ -144,6 +151,9 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
   .connection-card, .prediction-grid { grid-template-columns: 1fr; }
   .post-editor { grid-template-columns: 1fr; }
   .post-editor > * { grid-column: 1 !important; }
+  .race-toolbar { grid-template-columns: 1fr; align-items: stretch; }
+  .race-filters { justify-content: stretch; }
+  .house-state-filter, .race-search { flex: 1 1 0; width: auto; }
   .race-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 620px) {
@@ -152,8 +162,10 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
   .connection-card, .editor-section { border-radius: 15px; }
   .token-row { grid-template-columns: 1fr; }
   .post-editor-toolbar { align-items: stretch; flex-direction: column; }
-  .race-toolbar { align-items: stretch; flex-direction: column; }
-  .race-search { width: 100%; }
+  .race-tabs { display: grid; grid-template-columns: 1fr 1fr; }
+  .race-tab[data-race-tab="house"] { grid-column: 1 / -1; }
+  .race-filters { align-items: stretch; flex-direction: column; }
+  .house-state-filter, .race-search { width: 100%; }
   .race-row { grid-template-columns: 1fr; }
   .save-dock { min-height: 96px; }
   .save-dock div { max-width: 55%; }
