@@ -7,7 +7,7 @@
 <meta name="robots" content="noindex,nofollow"/>
 <title>Japoll Editor</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-<link href="admin.css?v=20260704-1" rel="stylesheet"/>
+<link href="admin.css?v=20260704-2" rel="stylesheet"/>
 </head>
 <body>
 <header class="admin-header">
@@ -66,18 +66,20 @@
         <fieldset class="prediction-card senate-accent">
           <legend>Senate</legend>
           <div class="party-fields">
-            <label>Democrats<input data-field="predictions.senate.democrats" type="number" min="0" max="100" required/></label>
-            <label>Republicans<input data-field="predictions.senate.republicans" type="number" min="0" max="100" required/></label>
+            <label>Democrats<input data-field="predictions.senate.democrats" type="number" min="0" max="100" readonly required aria-describedby="senate-auto-total"/></label>
+            <label>Republicans<input data-field="predictions.senate.republicans" type="number" min="0" max="100" readonly required aria-describedby="senate-auto-total"/></label>
           </div>
+          <p class="auto-total-note" id="senate-auto-total">Calculated automatically from your Senate map ratings plus seats not up in 2026.</p>
           <label>Short label<input data-field="predictions.senate.label" type="text" maxlength="80"/></label>
           <span class="total-check" data-total-check="senate">Must total 100 seats</span>
         </fieldset>
         <fieldset class="prediction-card governor-accent">
           <legend>Governor</legend>
           <div class="party-fields">
-            <label>Democrats<input data-field="predictions.governor.democrats" type="number" min="0" max="50" required/></label>
-            <label>Republicans<input data-field="predictions.governor.republicans" type="number" min="0" max="50" required/></label>
+            <label>Democrats<input data-field="predictions.governor.democrats" type="number" min="0" max="50" readonly required aria-describedby="governor-auto-total"/></label>
+            <label>Republicans<input data-field="predictions.governor.republicans" type="number" min="0" max="50" readonly required aria-describedby="governor-auto-total"/></label>
           </div>
+          <p class="auto-total-note" id="governor-auto-total">Calculated automatically from your governor map ratings plus states not voting in 2026.</p>
           <label>Short label<input data-field="predictions.governor.label" type="text" maxlength="80"/></label>
           <span class="total-check" data-total-check="governor">Must total 50 governorships</span>
         </fieldset>
@@ -123,6 +125,6 @@
   <button id="save-button" type="submit" form="editor-form" disabled>Publish changes</button>
 </div>
 
-<script src="js/admin.js?v=20260704-1"></script>
+<script src="js/admin.js?v=20260704-2"></script>
 </body>
 </html>

@@ -1329,6 +1329,16 @@
           }
         ]
       },
+      "carryover": {
+        "dem": 34,
+        "rep": 31,
+        "note": "Includes two independent senators who caucus with Democrats."
+      },
+      "projectedTotals": {
+        "dem": 51,
+        "rep": 49,
+        "label": "Projected Senate seats"
+      },
       "lastUpdated": "Jul 4, 2026",
       "candidateLastUpdated": "Jul 3, 2026",
       "candidatePanelNote": "Candidate panels show major-party candidates where verified; states without clear nominees stay marked as primary pending.",
@@ -2694,6 +2704,11 @@
             "className": "rep"
           }
         ]
+      },
+      "carryover": {
+        "dem": 5,
+        "rep": 9,
+        "note": "Governorships not up for election in 2026."
       },
       "projectedTotals": {
         "dem": 25,
