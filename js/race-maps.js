@@ -175,10 +175,10 @@ function renderCandidateList(race, mapData) {
   `;
 }
 
-function renderRaceLinks(race) {
+function renderRaceLinks(race, mapData) {
+  if (mapData.unitLabel !== "district") return "";
   const sourceLinks = [
     [race.links?.primaryResults, race.links?.primaryResultsLabel || "Primary & results"],
-    [race.links?.candidateData, race.links?.candidateDataLabel || "Candidate data"],
     [race.links?.wikipedia, "Wikipedia"]
   ].filter(([url]) => Boolean(url));
 
@@ -255,7 +255,7 @@ function renderRaceDetail(panel, race, mapData) {
     ${noteLine}
     <h4 class="candidate-heading">Candidates</h4>
     ${renderCandidateList(race, mapData)}
-    ${renderRaceLinks(race)}
+    ${renderRaceLinks(race, mapData)}
   `;
 }
 
@@ -463,27 +463,10 @@ function renderHouseDistrictMap(section, mapData, geoJson) {
     return `${feature.properties.label}: ${formatRaceStatus(race)}`;
   });
 
-  const labels = viewport.append("g")
-    .attr("class", "house-district-labels")
-    .selectAll("text")
-    .data(features.filter(feature => feature.properties.district !== "00"))
-    .join("text")
-    .attr("x", feature => path.centroid(feature)[0])
-    .attr("y", feature => path.centroid(feature)[1])
-    .attr("text-anchor", "middle")
-    .attr("dominant-baseline", "middle")
-    .text(feature => Number(feature.properties.district));
-
-  let focusedState = "";
-  const updateFocusedState = (state, scale = 1) => {
-    focusedState = state;
+  const updateFocusedState = state => {
     districts
       .classed("is-outside-focus", feature => Boolean(state) && feature.properties.state !== state)
       .attr("tabindex", feature => !state || feature.properties.state === state ? "0" : "-1");
-    labels.classed(
-      "is-visible",
-      feature => scale >= 2.35 && (!state || feature.properties.state === state)
-    );
   };
 
   const zoom = d3.zoom()
@@ -491,7 +474,6 @@ function renderHouseDistrictMap(section, mapData, geoJson) {
     .translateExtent([[-80, -80], [width + 80, height + 80]])
     .on("zoom", event => {
       viewport.attr("transform", event.transform);
-      updateFocusedState(focusedState, event.transform.k);
     });
   svg.call(zoom);
 
@@ -501,7 +483,7 @@ function renderHouseDistrictMap(section, mapData, geoJson) {
 
   const resetMap = () => {
     mapSlot.querySelector("[data-house-map-state]").value = "";
-    updateFocusedState("", 1);
+    updateFocusedState("");
     svg.transition().duration(220).call(zoom.transform, d3.zoomIdentity);
   };
   mapSlot.querySelector("[data-map-reset]").addEventListener("click", resetMap);
@@ -509,11 +491,11 @@ function renderHouseDistrictMap(section, mapData, geoJson) {
   mapSlot.querySelector("[data-house-map-state]").addEventListener("change", event => {
     const state = event.target.value;
     if (!state) {
-      updateFocusedState("", 1);
+      updateFocusedState("");
       svg.transition().duration(220).call(zoom.transform, d3.zoomIdentity);
       return;
     }
-    updateFocusedState(state, 1);
+    updateFocusedState(state);
     const stateFeatures = features.filter(feature => feature.properties.state === state);
     const bounds = path.bounds({ type: "FeatureCollection", features: stateFeatures });
     const dx = Math.max(bounds[1][0] - bounds[0][0], 1);
