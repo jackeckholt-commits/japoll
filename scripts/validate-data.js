@@ -145,7 +145,9 @@ function validateRaceMap(mapKey, mapData) {
 
     if (race.active) {
       assert(race.links?.primaryResults, `${mapKey} ${race.id || race.state}: missing primary/results link`);
-      assert(race.links?.candidateData, `${mapKey} ${race.id || race.state}: missing candidate-data link`);
+      if (mapKey !== "house") {
+        assert(race.links?.candidateData, `${mapKey} ${race.id || race.state}: missing candidate-data link`);
+      }
       assert(race.links?.wikipedia, `${mapKey} ${race.id || race.state}: missing Wikipedia link`);
     }
   }

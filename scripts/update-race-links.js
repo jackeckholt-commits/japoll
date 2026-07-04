@@ -39,6 +39,8 @@ for (const [mapKey, map] of Object.entries(data.maps || {})) {
     race.links.primaryResultsLabel = "Primary & results";
     if (mapKey === "house") {
       race.links.wikipedia = houseWikipediaUrl(race.stateName || race.name, race.district);
+      delete race.links.candidateData;
+      delete race.links.candidateDataLabel;
     }
     updated += 1;
   }

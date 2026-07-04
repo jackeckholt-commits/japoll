@@ -720,31 +720,6 @@ body {
   margin-top: clamp(26px, 4vw, 52px);
 }
 
-.house-boundary-note {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 7px 14px;
-  margin: 0 0 22px;
-  padding: 13px 16px;
-  border: 1px solid rgba(159, 211, 255, 0.18);
-  border-radius: 16px;
-  background: rgba(159, 211, 255, 0.06);
-  color: #b9cbd8;
-  line-height: 1.35;
-}
-
-.house-boundary-note strong {
-  color: #ffffff;
-}
-
-.house-boundary-note a {
-  margin-left: auto;
-  color: #9fd3ff;
-  font-weight: 900;
-  text-decoration: none;
-}
-
 .house-map-panel {
   position: relative;
   min-width: 0;
@@ -858,25 +833,6 @@ body {
   stroke-width: 2.4;
 }
 
-.house-district-labels {
-  pointer-events: none;
-}
-
-.house-district-labels text {
-  fill: #ffffff;
-  font-size: 5px;
-  font-weight: 950;
-  paint-order: stroke;
-  stroke: rgba(8, 18, 26, 0.94);
-  stroke-width: 1.5px;
-  opacity: 0;
-  transition: opacity 120ms ease;
-}
-
-.house-district-labels text.is-visible {
-  opacity: 0.9;
-}
-
 .margin-unrated {
   background: rgba(183, 193, 202, 0.62);
 }
@@ -900,15 +856,6 @@ body {
 }
 
 @media (max-width: 760px) {
-  .house-boundary-note {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .house-boundary-note a {
-    margin-left: 0;
-  }
-
   .house-map-toolbar {
     align-items: stretch;
     flex-direction: column;
@@ -1444,5 +1391,95 @@ body {
     min-width: 84px !important;
     min-height: 44px !important;
     padding-inline: 12px !important;
+  }
+}
+
+/* 1.1.1: balanced House summary and simpler race details. */
+.homepage-link-card.house-summary-card {
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 15px !important;
+  padding: clamp(24px, 3vw, 34px) clamp(18px, 3vw, 28px) !important;
+}
+
+.homepage-link-card.house-summary-card h3 {
+  margin: 0 !important;
+  text-align: center !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-score,
+.homepage-link-card.house-summary-card .race-mini-score-polished.house-mini-score {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 0 !important;
+  width: min(100%, 260px) !important;
+  max-width: 260px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-stat,
+.homepage-link-card.house-summary-card .race-mini-side {
+  display: grid !important;
+  grid-template-rows: auto auto !important;
+  justify-items: center !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding: 6px 14px 8px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-stat.dem-side,
+.homepage-link-card.house-summary-card .race-mini-side.dem-side {
+  border-right: 1px solid rgba(220, 231, 241, 0.22) !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-kicker {
+  font-size: 0.68rem !important;
+  letter-spacing: 0.08em !important;
+  text-align: center !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-value {
+  width: 100% !important;
+  overflow: visible !important;
+  font-size: clamp(2.45rem, 12cqw, 3rem) !important;
+  line-height: 0.95 !important;
+  letter-spacing: -0.055em !important;
+  text-align: center !important;
+}
+
+.homepage-link-card.house-summary-card .house-mini-bar {
+  width: min(100%, 260px) !important;
+  max-width: 260px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+.homepage-link-card.house-summary-card .card-action {
+  margin: 2px auto 0 !important;
+  text-align: center !important;
+}
+
+@media (max-width: 380px) {
+  .homepage-link-card.house-summary-card {
+    gap: 13px !important;
+    padding-inline: 16px !important;
+  }
+
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished.house-mini-score,
+  .homepage-link-card.house-summary-card .house-mini-bar {
+    width: min(100%, 236px) !important;
+    max-width: 236px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-stat,
+  .homepage-link-card.house-summary-card .race-mini-side {
+    padding-inline: 11px !important;
   }
 }
