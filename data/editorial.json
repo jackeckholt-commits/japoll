@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T00:00:00.000Z",
+  "updatedAt": "2026-07-04T07:05:52.412Z",
   "predictions": {
     "senate": {
       "democrats": 47,
@@ -21,10 +21,10 @@
   "posts": [
     {
       "id": "welcome-to-japoll-analysis",
-      "category": "Site update",
-      "title": "Welcome to Japoll Analysis",
-      "excerpt": "A new home for original posts, race updates, and deeper looks at the numbers.",
-      "body": "This is the new home for Japoll's written analysis. Future posts can cover individual races, changes in the forecast, polling trends, and anything else that deserves a closer look.\n\nPosts are written and published from the Japoll Editor, so new analysis can be added without changing the site's code.",
+      "category": "Analysis",
+      "title": "Welcome to Japoll",
+      "excerpt": "New things",
+      "body": "This is going to be where I will post updates in election data, and other news related to elections.  Idk if I will actually add stuff this but its here for future use.",
       "publishedAt": "2026-07-04"
     }
   ]

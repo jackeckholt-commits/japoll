@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T00:00:00.000Z",
+  "updatedAt": "2026-07-04T07:05:52.412Z",
   "version": "0.9.25",
   "note": "Candidate lists are updated conservatively from completed primaries/runoffs and current nominee reporting. States without a clear nominee stay marked as waiting on primary/runoff results.",
   "maps": {
@@ -30,8 +30,8 @@
           "label": "Alabama Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Barry Moore",
@@ -45,7 +45,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "AK",
@@ -58,11 +58,11 @@
           "label": "Alaska Senate",
           "note": "",
           "marginCategory": "demLean",
-          "marginLabel": "D+1 to D+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "AZ",
@@ -92,8 +92,8 @@
           "label": "Arkansas Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Tom Cotton",
@@ -109,7 +109,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "CA",
@@ -139,11 +139,11 @@
           "label": "Colorado Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "CT",
@@ -173,11 +173,11 @@
           "label": "Delaware Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "FL",
@@ -190,11 +190,11 @@
           "label": "Florida Senate",
           "note": "",
           "marginCategory": "repLean",
-          "marginLabel": "R+1 to R+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "GA",
@@ -207,8 +207,8 @@
           "label": "Georgia Senate",
           "note": "",
           "marginCategory": "demLikely",
-          "marginLabel": "D+5 to D+15",
-          "predictedMargin": 8,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Jon Ossoff",
@@ -226,7 +226,7 @@
             }
           ],
           "candidateStatus": "General election candidates verified from current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "HI",
@@ -256,11 +256,11 @@
           "label": "Idaho Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "IL",
@@ -273,8 +273,8 @@
           "label": "Illinois Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Juliana Stratton",
@@ -290,7 +290,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "IN",
@@ -320,8 +320,8 @@
           "label": "Iowa Senate",
           "note": "",
           "marginCategory": "repTilt",
-          "marginLabel": "Tilt Republican",
-          "predictedMargin": 0.5,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Josh Turek",
@@ -337,7 +337,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "KS",
@@ -350,11 +350,11 @@
           "label": "Kansas Senate",
           "note": "",
           "marginCategory": "repLean",
-          "marginLabel": "R+1 to R+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "KY",
@@ -367,11 +367,11 @@
           "label": "Kentucky Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "LA",
@@ -384,8 +384,8 @@
           "label": "Louisiana Senate",
           "note": "",
           "marginCategory": "repLikely",
-          "marginLabel": "R+5 to R+15",
-          "predictedMargin": 9,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Julia Letlow",
@@ -400,7 +400,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "ME",
@@ -413,8 +413,8 @@
           "label": "Maine Senate",
           "note": "",
           "marginCategory": "demTilt",
-          "marginLabel": "Tilt Democratic",
-          "predictedMargin": 0.5,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Graham Platner",
@@ -429,7 +429,7 @@
             }
           ],
           "candidateStatus": "General election candidates added from completed primary/current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MD",
@@ -459,11 +459,11 @@
           "label": "Massachusetts Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MI",
@@ -476,11 +476,11 @@
           "label": "Michigan Senate",
           "note": "",
           "marginCategory": "demTilt",
-          "marginLabel": "Tilt Democratic",
-          "predictedMargin": 0.5,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MN",
@@ -493,11 +493,11 @@
           "label": "Minnesota Senate",
           "note": "",
           "marginCategory": "demLikely",
-          "marginLabel": "D+5 to D+15",
-          "predictedMargin": 8,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MS",
@@ -510,11 +510,11 @@
           "label": "Mississippi Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MO",
@@ -544,11 +544,11 @@
           "label": "Montana Senate",
           "note": "",
           "marginCategory": "repLean",
-          "marginLabel": "R+1 to R+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NE",
@@ -561,8 +561,8 @@
           "label": "Nebraska Senate",
           "note": "",
           "marginCategory": "repLikely",
-          "marginLabel": "R+5 to R+15",
-          "predictedMargin": 9,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Pete Ricketts",
@@ -582,7 +582,7 @@
             }
           ],
           "candidateStatus": "General election candidates verified from current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NV",
@@ -612,11 +612,11 @@
           "label": "New Hampshire Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NJ",
@@ -629,11 +629,11 @@
           "label": "New Jersey Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NM",
@@ -646,11 +646,11 @@
           "label": "New Mexico Senate",
           "note": "",
           "marginCategory": "demLikely",
-          "marginLabel": "D+5 to D+15",
-          "predictedMargin": 8,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NY",
@@ -680,8 +680,8 @@
           "label": "North Carolina Senate",
           "note": "",
           "marginCategory": "demLean",
-          "marginLabel": "D+1 to D+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Roy Cooper",
@@ -695,7 +695,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "ND",
@@ -725,11 +725,11 @@
           "label": "Ohio Senate",
           "note": "",
           "marginCategory": "demTilt",
-          "marginLabel": "Tilt Democratic",
-          "predictedMargin": 0.5,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "OK",
@@ -742,11 +742,11 @@
           "label": "Oklahoma Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "OR",
@@ -759,11 +759,11 @@
           "label": "Oregon Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "PA",
@@ -793,11 +793,11 @@
           "label": "Rhode Island Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "SC",
@@ -810,11 +810,11 @@
           "label": "South Carolina Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "SD",
@@ -827,11 +827,11 @@
           "label": "South Dakota Senate",
           "note": "",
           "marginCategory": "repLikely",
-          "marginLabel": "R+5 to R+15",
-          "predictedMargin": 9,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "TN",
@@ -844,11 +844,11 @@
           "label": "Tennessee Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "TX",
@@ -861,8 +861,8 @@
           "label": "Texas Senate",
           "note": "",
           "marginCategory": "repTilt",
-          "marginLabel": "Tilt Republican",
-          "predictedMargin": 0.5,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Ken Paxton",
@@ -878,7 +878,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "UT",
@@ -925,11 +925,11 @@
           "label": "Virginia Senate",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "WA",
@@ -959,11 +959,11 @@
           "label": "West Virginia Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "WI",
@@ -993,11 +993,11 @@
           "label": "Wyoming Senate",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         }
       ],
       "control": null,
@@ -1078,7 +1078,7 @@
           }
         ]
       },
-      "lastUpdated": "Jul 3, 2026",
+      "lastUpdated": "Jul 4, 2026",
       "candidateLastUpdated": "Jul 3, 2026",
       "candidatePanelNote": "Candidate panels show major-party candidates where verified; states without clear nominees stay marked as primary pending.",
       "candidateLinksLastUpdated": "Jul 3, 2026"
@@ -1110,8 +1110,8 @@
           "label": "Alabama Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Tommy Tuberville",
@@ -1127,7 +1127,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "AK",
@@ -1140,11 +1140,11 @@
           "label": "Alaska Governor",
           "note": "",
           "marginCategory": "repLean",
-          "marginLabel": "R+1 to R+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "AZ",
@@ -1157,11 +1157,11 @@
           "label": "Arizona Governor",
           "note": "",
           "marginCategory": "demLean",
-          "marginLabel": "D+1 to D+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "AR",
@@ -1174,8 +1174,8 @@
           "label": "Arkansas Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Sarah Huckabee Sanders",
@@ -1191,7 +1191,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "CA",
@@ -1204,8 +1204,8 @@
           "label": "California Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Xavier Becerra",
@@ -1220,7 +1220,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "CO",
@@ -1233,11 +1233,11 @@
           "label": "Colorado Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "CT",
@@ -1250,11 +1250,11 @@
           "label": "Connecticut Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "DE",
@@ -1284,11 +1284,11 @@
           "label": "Florida Governor",
           "note": "",
           "marginCategory": "repLikely",
-          "marginLabel": "R+5 to R+15",
-          "predictedMargin": 9,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "GA",
@@ -1301,11 +1301,11 @@
           "label": "Georgia Governor",
           "note": "Tilt Democratic in the current site prediction. Candidate panel stays primary pending until nominees are verified.",
           "marginCategory": "demTilt",
-          "marginLabel": "Tilt Democratic",
-          "predictedMargin": 0.5,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "HI",
@@ -1318,11 +1318,11 @@
           "label": "Hawaii Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "ID",
@@ -1335,11 +1335,11 @@
           "label": "Idaho Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "IL",
@@ -1352,8 +1352,8 @@
           "label": "Illinois Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "JB Pritzker",
@@ -1369,7 +1369,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "IN",
@@ -1399,8 +1399,8 @@
           "label": "Iowa Governor",
           "note": "",
           "marginCategory": "repTilt",
-          "marginLabel": "Tilt Republican",
-          "predictedMargin": 0.5,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Rob Sand",
@@ -1415,7 +1415,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "KS",
@@ -1428,11 +1428,11 @@
           "label": "Kansas Governor",
           "note": "",
           "marginCategory": "repLean",
-          "marginLabel": "R+1 to R+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "KY",
@@ -1479,8 +1479,8 @@
           "label": "Maine Governor",
           "note": "",
           "marginCategory": "demLikely",
-          "marginLabel": "D+5 to D+15",
-          "predictedMargin": 8,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Hannah Pingree",
@@ -1496,7 +1496,7 @@
             }
           ],
           "candidateStatus": "General election candidates added from completed primary/current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MD",
@@ -1509,11 +1509,11 @@
           "label": "Maryland Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MA",
@@ -1526,11 +1526,11 @@
           "label": "Massachusetts Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MI",
@@ -1543,11 +1543,11 @@
           "label": "Michigan Governor",
           "note": "",
           "marginCategory": "demLikely",
-          "marginLabel": "D+5 to D+15",
-          "predictedMargin": 8,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MN",
@@ -1560,11 +1560,11 @@
           "label": "Minnesota Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "MS",
@@ -1628,8 +1628,8 @@
           "label": "Nebraska Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Jim Pillen",
@@ -1645,7 +1645,7 @@
             }
           ],
           "candidateStatus": "General election candidates added from completed primary/current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NV",
@@ -1658,11 +1658,11 @@
           "label": "Nevada Governor",
           "note": "",
           "marginCategory": "demTilt",
-          "marginLabel": "Tilt Democratic",
-          "predictedMargin": 0.5,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NH",
@@ -1675,11 +1675,11 @@
           "label": "New Hampshire Governor",
           "note": "",
           "marginCategory": "repLikely",
-          "marginLabel": "R+5 to R+15",
-          "predictedMargin": 9,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NJ",
@@ -1709,8 +1709,8 @@
           "label": "New Mexico Governor",
           "note": "",
           "marginCategory": "demLikely",
-          "marginLabel": "D+5 to D+15",
-          "predictedMargin": 8,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Deb Haaland",
@@ -1726,7 +1726,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NY",
@@ -1739,11 +1739,11 @@
           "label": "New York Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "NC",
@@ -1790,8 +1790,8 @@
           "label": "Ohio Governor",
           "note": "",
           "marginCategory": "demLean",
-          "marginLabel": "D+1 to D+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Vivek Ramaswamy",
@@ -1807,7 +1807,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "OK",
@@ -1820,11 +1820,11 @@
           "label": "Oklahoma Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "OR",
@@ -1837,8 +1837,8 @@
           "label": "Oregon Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Tina Kotek",
@@ -1854,7 +1854,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "PA",
@@ -1867,8 +1867,8 @@
           "label": "Pennsylvania Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Josh Shapiro",
@@ -1882,7 +1882,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "RI",
@@ -1895,11 +1895,11 @@
           "label": "Rhode Island Governor",
           "note": "",
           "marginCategory": "demSolid",
-          "marginLabel": "D+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "SC",
@@ -1912,8 +1912,8 @@
           "label": "South Carolina Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Alan Wilson",
@@ -1929,7 +1929,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "SD",
@@ -1942,11 +1942,11 @@
           "label": "South Dakota Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "TN",
@@ -1959,11 +1959,11 @@
           "label": "Tennessee Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "TX",
@@ -1976,8 +1976,8 @@
           "label": "Texas Governor",
           "note": "",
           "marginCategory": "repLean",
-          "marginLabel": "R+1 to R+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [
             {
               "name": "Greg Abbott",
@@ -1993,7 +1993,7 @@
             }
           ],
           "candidateStatus": "Nominees/candidates added from completed primary or current reporting",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "UT",
@@ -2023,11 +2023,11 @@
           "label": "Vermont Governor",
           "note": "",
           "marginCategory": "repLikely",
-          "marginLabel": "R+5 to R+15",
-          "predictedMargin": 9,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "VA",
@@ -2091,11 +2091,11 @@
           "label": "Wisconsin Governor",
           "note": "",
           "marginCategory": "demLean",
-          "marginLabel": "D+1 to D+5",
-          "predictedMargin": 3,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         },
         {
           "state": "WY",
@@ -2108,11 +2108,11 @@
           "label": "Wyoming Governor",
           "note": "",
           "marginCategory": "repSolid",
-          "marginLabel": "R+15 or more",
-          "predictedMargin": 18,
+          "marginLabel": null,
+          "predictedMargin": null,
           "candidates": [],
           "candidateStatus": "Waiting on primary for full results",
-          "lastUpdated": "Jul 3, 2026"
+          "lastUpdated": "Jul 4, 2026"
         }
       ],
       "control": null,
@@ -2193,7 +2193,7 @@
         "rep": 25,
         "label": "Projected governorships"
       },
-      "lastUpdated": "Jul 3, 2026",
+      "lastUpdated": "Jul 4, 2026",
       "candidateLastUpdated": "Jul 3, 2026",
       "candidatePanelNote": "Candidate panels show major-party candidates where verified; states without clear nominees stay marked as primary pending.",
       "candidateLinksLastUpdated": "Jul 3, 2026"
