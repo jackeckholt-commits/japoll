@@ -4,6 +4,12 @@ Version 0.7.0
 
 A static polling tracker with automated data updates, stored history, trend charts, and GitHub Pages deployment.
 
+## Japoll editor
+
+Open `admin.html` on the published site to update the manual House, Senate, and Governor headline predictions, the analysis shown on each race page, and every active Senate or Governor state rating.
+
+The editor publishes only `data/editorial.json` and `data/races.json`. It does not change the protected polling history or the automatically scraped House source cards. A fine-grained GitHub token with **Contents: Read and write** access to this repository is required when publishing. The token is kept in the browser tab and is never written to the site.
+
 ## Current data flow
 
 ```text

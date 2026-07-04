@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#09131b" name="theme-color"/>
+<meta name="robots" content="noindex,nofollow"/>
+<title>Japoll Editor</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link href="admin.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="admin-header">
+  <a class="admin-brand" href="index.html"><span>JA</span><strong>Japoll Editor</strong></a>
+  <a class="view-site" href="index.html" target="_blank" rel="noopener">View live site ↗</a>
+</header>
+
+<main class="admin-shell">
+  <section class="admin-hero">
+    <span class="eyebrow">Private publishing workspace</span>
+    <h1>Update the forecast without touching code.</h1>
+    <p>Change the headline totals, write your analysis, or adjust an individual state rating. One save updates the public site.</p>
+  </section>
+
+  <section class="connection-card" aria-labelledby="connection-title">
+    <div>
+      <span class="step-number">1</span>
+      <h2 id="connection-title">Connect your GitHub account</h2>
+      <p>Use a fine-grained token with <strong>Contents: Read and write</strong> access to the Japoll repository. It stays in this browser tab and is never added to the website.</p>
+      <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Create a GitHub token ↗</a>
+    </div>
+    <div class="connection-controls">
+      <label for="github-token">GitHub token</label>
+      <div class="token-row">
+        <input id="github-token" type="password" autocomplete="off" placeholder="github_pat_…"/>
+        <button id="connect-button" class="secondary-button" type="button">Connect</button>
+      </div>
+      <span id="connection-status" class="connection-status">You can preview current data before connecting.</span>
+    </div>
+  </section>
+
+  <nav class="editor-nav" aria-label="Editor sections">
+    <a href="#headline-predictions">Headline totals</a>
+    <a href="#analysis">Analysis</a>
+    <a href="#state-ratings">State ratings</a>
+  </nav>
+
+  <form id="editor-form">
+    <section class="editor-section" id="headline-predictions">
+      <div class="section-heading">
+        <span class="step-number">2</span>
+        <div><span class="eyebrow">Homepage and forecast pages</span><h2>Headline predictions</h2><p>These are the big Democratic and Republican totals visitors see first.</p></div>
+      </div>
+      <div class="prediction-grid">
+        <fieldset class="prediction-card house-accent">
+          <legend>House</legend>
+          <div class="party-fields">
+            <label>Democrats<input data-field="predictions.house.democrats" type="number" min="0" max="435" required/></label>
+            <label>Republicans<input data-field="predictions.house.republicans" type="number" min="0" max="435" required/></label>
+          </div>
+          <label>Short label<input data-field="predictions.house.label" type="text" maxlength="80"/></label>
+          <label>Explanation<input data-field="predictions.house.note" type="text" maxlength="180"/></label>
+          <span class="total-check" data-total-check="house">Must total 435 seats</span>
+        </fieldset>
+        <fieldset class="prediction-card senate-accent">
+          <legend>Senate</legend>
+          <div class="party-fields">
+            <label>Democrats<input data-field="predictions.senate.democrats" type="number" min="0" max="100" required/></label>
+            <label>Republicans<input data-field="predictions.senate.republicans" type="number" min="0" max="100" required/></label>
+          </div>
+          <label>Short label<input data-field="predictions.senate.label" type="text" maxlength="80"/></label>
+          <span class="total-check" data-total-check="senate">Must total 100 seats</span>
+        </fieldset>
+        <fieldset class="prediction-card governor-accent">
+          <legend>Governor</legend>
+          <div class="party-fields">
+            <label>Democrats<input data-field="predictions.governor.democrats" type="number" min="0" max="50" required/></label>
+            <label>Republicans<input data-field="predictions.governor.republicans" type="number" min="0" max="50" required/></label>
+          </div>
+          <label>Short label<input data-field="predictions.governor.label" type="text" maxlength="80"/></label>
+          <span class="total-check" data-total-check="governor">Must total 50 governorships</span>
+        </fieldset>
+      </div>
+    </section>
+
+    <section class="editor-section" id="analysis">
+      <div class="section-heading">
+        <span class="step-number">3</span>
+        <div><span class="eyebrow">Your voice on Japoll</span><h2>Analysis sections</h2><p>Each page has its own headline, summary, and article text. Leave a blank line to start a new paragraph.</p></div>
+      </div>
+      <div class="analysis-grid">
+        <fieldset class="analysis-editor">
+          <legend>House analysis</legend>
+          <label>Headline<input data-field="analysis.house.title" type="text" maxlength="120" required/></label>
+          <label>One-sentence summary<input data-field="analysis.house.summary" type="text" maxlength="220"/></label>
+          <label>Analysis<textarea data-field="analysis.house.body" rows="8" required></textarea></label>
+        </fieldset>
+        <fieldset class="analysis-editor">
+          <legend>Senate analysis</legend>
+          <label>Headline<input data-field="analysis.senate.title" type="text" maxlength="120" required/></label>
+          <label>One-sentence summary<input data-field="analysis.senate.summary" type="text" maxlength="220"/></label>
+          <label>Analysis<textarea data-field="analysis.senate.body" rows="8" required></textarea></label>
+        </fieldset>
+        <fieldset class="analysis-editor">
+          <legend>Governor analysis</legend>
+          <label>Headline<input data-field="analysis.governor.title" type="text" maxlength="120" required/></label>
+          <label>One-sentence summary<input data-field="analysis.governor.summary" type="text" maxlength="220"/></label>
+          <label>Analysis<textarea data-field="analysis.governor.body" rows="8" required></textarea></label>
+        </fieldset>
+      </div>
+    </section>
+
+    <section class="editor-section" id="state-ratings">
+      <div class="section-heading">
+        <span class="step-number">4</span>
+        <div><span class="eyebrow">Interactive maps</span><h2>State-by-state ratings</h2><p>Choose a rating for each active race. The map colors and category totals are recalculated automatically.</p></div>
+      </div>
+      <div class="race-toolbar">
+        <div class="race-tabs" role="tablist">
+          <button class="race-tab is-active" data-race-tab="senate" type="button" role="tab" aria-selected="true">Senate <span data-race-count="senate"></span></button>
+          <button class="race-tab" data-race-tab="governor" type="button" role="tab" aria-selected="false">Governor <span data-race-count="governor"></span></button>
+        </div>
+        <label class="race-search"><span>Find a state</span><input id="race-search" type="search" placeholder="Search…"/></label>
+      </div>
+      <div id="race-editors" class="race-editors" aria-live="polite"><p class="loading-message">Loading race data…</p></div>
+    </section>
+  </form>
+</main>
+
+<div class="save-dock">
+  <div><strong id="save-title">Ready to edit</strong><span id="save-status">Connect GitHub when you are ready to publish.</span></div>
+  <button id="save-button" type="submit" form="editor-form" disabled>Publish changes</button>
+</div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

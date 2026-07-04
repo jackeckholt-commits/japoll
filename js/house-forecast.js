@@ -13,6 +13,9 @@ const HOUSE_PREDICTION_BUCKETS = [
   { key: "repProjected", label: "Republicans", className: "house-bar-proj-rep" }
 ];
 
+let editorialHousePrediction = null;
+let latestHouseForecast = null;
+
 function formatSeatValue(value) {
   const number = Number(value);
   if (!Number.isFinite(number)) return "0";
@@ -71,10 +74,10 @@ function renderHouseOverview(data) {
   const leadSlot = document.querySelector("[data-house-lead-note]");
   const legendSlot = document.querySelector("[data-house-legend]");
 
-  const prediction = data.prediction || {};
+  const prediction = editorialHousePrediction || data.prediction || {};
   const predictionCategories = prediction.categories || {
-    demProjected: data.summary.projectedDemocrats || data.summary.democratsRounded || 0,
-    repProjected: data.summary.projectedRepublicans || data.summary.republicansRounded || 0
+    demProjected: prediction.democrats ?? data.summary.projectedDemocrats ?? data.summary.democratsRounded ?? 0,
+    repProjected: prediction.republicans ?? data.summary.projectedRepublicans ?? data.summary.republicansRounded ?? 0
   };
 
   if (updatedSlot) updatedSlot.textContent = `Latest source update: ${formatUpdatedDate(data.updatedAt.slice(0, 10))}`;
@@ -85,8 +88,8 @@ function renderHouseOverview(data) {
 
   if (predictionNoteSlot) {
     predictionNoteSlot.innerHTML = `
-      <strong>Based on current averages</strong>
-      <span>Site prediction using available House projection data.</span>
+      <strong>${prediction.label || "Based on current averages"}</strong>
+      <span>${prediction.note || prediction.method || "Site prediction using available House projection data."}</span>
     `;
   }
 
@@ -128,6 +131,7 @@ async function initializeHouseForecast() {
     const response = await fetch("data/house-forecast.json", { cache: "no-store" });
     if (!response.ok) throw new Error("Could not load data/house-forecast.json");
     const data = await response.json();
+    latestHouseForecast = data;
     renderHouseOverview(data);
     renderSourceCards(data);
   } catch (error) {
@@ -140,5 +144,10 @@ async function initializeHouseForecast() {
     console.error(error);
   }
 }
+
+document.addEventListener("japoll:editorial-loaded", event => {
+  editorialHousePrediction = event.detail?.predictions?.house || null;
+  if (latestHouseForecast) renderHouseOverview(latestHouseForecast);
+});
 
 document.addEventListener("DOMContentLoaded", initializeHouseForecast);
