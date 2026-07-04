@@ -69,24 +69,24 @@
 </a>
 <a class="card homepage-link-card clickable-card about-summary-card" href="methodology.html"><h3>About the Project</h3>
 <p>A prediction aggregation model built to make polling averages, adjustments, and race forecasts easier to follow.</p><span class="card-action">Read methodology</span></a>
-<a class="card homepage-link-card clickable-card senate-summary-card" href="senate.html"><h3>Senate Races</h3>
+<a class="card homepage-link-card clickable-card senate-summary-card" data-editorial-prediction="senate" href="senate.html"><h3>Senate Races</h3>
 <div class="race-mini-score race-mini-score-polished">
-<div class="race-mini-side dem-side race-mini-stat"><span class="race-mini-kicker">Dems</span><strong class="race-mini-value">47</strong></div>
+<div class="race-mini-side dem-side race-mini-stat"><span class="race-mini-kicker">Dems</span><strong class="race-mini-value" data-editorial-dem>47</strong></div>
 <div class="race-mini-divider race-mini-divider-polished">/</div>
-<div class="race-mini-side rep-side race-mini-stat"><span class="race-mini-kicker">GOP</span><strong class="race-mini-value">53</strong></div>
+<div class="race-mini-side rep-side race-mini-stat"><span class="race-mini-kicker">GOP</span><strong class="race-mini-value" data-editorial-rep>53</strong></div>
 </div>
-<span class="card-action">Based on current average</span></a>
-<a class="card homepage-link-card clickable-card governor-summary-card" href="governor.html"><h3>Governor Races</h3>
+<span class="card-action" data-editorial-label>Based on current average</span></a>
+<a class="card homepage-link-card clickable-card governor-summary-card" data-editorial-prediction="governor" href="governor.html"><h3>Governor Races</h3>
 <div class="race-mini-score race-mini-score-polished">
-<div class="race-mini-side dem-side race-mini-stat"><span class="race-mini-kicker">Dems</span><strong class="race-mini-value">25</strong></div>
+<div class="race-mini-side dem-side race-mini-stat"><span class="race-mini-kicker">Dems</span><strong class="race-mini-value" data-editorial-dem>25</strong></div>
 <div class="race-mini-divider race-mini-divider-polished">/</div>
-<div class="race-mini-side rep-side race-mini-stat"><span class="race-mini-kicker">GOP</span><strong class="race-mini-value">25</strong></div>
+<div class="race-mini-side rep-side race-mini-stat"><span class="race-mini-kicker">GOP</span><strong class="race-mini-value" data-editorial-rep>25</strong></div>
 </div>
-<span class="card-action">Projected governorships</span></a>
-<a class="card homepage-link-card clickable-card house-summary-card" href="house.html"><h3>House Races</h3>
+<span class="card-action" data-editorial-label>Projected governorships</span></a>
+<a class="card homepage-link-card clickable-card house-summary-card" data-editorial-prediction="house" href="house.html"><h3>House Races</h3>
 <div class="race-mini-score race-mini-score-polished house-mini-score">
-<div class="race-mini-side dem-side race-mini-stat"><span class="race-mini-kicker">Dems</span><strong class="race-mini-value">230</strong></div>
-<div class="race-mini-side rep-side race-mini-stat"><span class="race-mini-kicker">GOP</span><strong class="race-mini-value">205</strong></div>
+<div class="race-mini-side dem-side race-mini-stat"><span class="race-mini-kicker">Dems</span><strong class="race-mini-value" data-editorial-dem>230</strong></div>
+<div class="race-mini-side rep-side race-mini-stat"><span class="race-mini-kicker">GOP</span><strong class="race-mini-value" data-editorial-rep>205</strong></div>
 </div>
 <div class="house-mini-bar" aria-hidden="true">
 <div class="house-mini-bar-track">
@@ -96,7 +96,7 @@
 <div class="house-mini-bar-marker"></div>
 <div class="house-mini-bar-label">218 to win</div>
 </div>
-<span class="card-action">Based on current averages</span></a>
+<span class="card-action" data-editorial-label>Based on current averages</span></a>
 </section>
 </main>
 <footer class="site-footer">
@@ -107,6 +107,7 @@
 </footer>
 </div>
 <script src="js/load-polling-data.js"></script>
+<script src="js/editorial-content.js"></script>
 <script src="js/site-nav.js"></script>
 </body>
 </html>

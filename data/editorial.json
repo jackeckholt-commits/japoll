@@ -1,0 +1,44 @@
+{
+  "updatedAt": "2026-07-04T00:00:00.000Z",
+  "predictions": {
+    "senate": {
+      "democrats": 47,
+      "republicans": 53,
+      "label": "Based on current average"
+    },
+    "governor": {
+      "democrats": 25,
+      "republicans": 25,
+      "label": "Projected governorships"
+    },
+    "house": {
+      "democrats": 230,
+      "republicans": 205,
+      "label": "Based on current averages",
+      "note": "Site prediction using available House projection data."
+    }
+  },
+  "analysis": {
+    "senate": {
+      "eyebrow": "Japoll analysis",
+      "title": "The current Senate outlook",
+      "summary": "Our latest read of the fight for Senate control.",
+      "body": "This section is reserved for Japoll's analysis of the most important Senate races, changes in the map, and the path to a majority.",
+      "updatedAt": "Jul 4, 2026"
+    },
+    "governor": {
+      "eyebrow": "Japoll analysis",
+      "title": "The current governor outlook",
+      "summary": "Our latest read of the 2026 governor races.",
+      "body": "This section is reserved for Japoll's analysis of the most competitive governor races and the changes that matter most.",
+      "updatedAt": "Jul 4, 2026"
+    },
+    "house": {
+      "eyebrow": "Japoll analysis",
+      "title": "The current House outlook",
+      "summary": "Our latest read of the race for 218 seats.",
+      "body": "This section is reserved for Japoll's analysis of the House battlefield, the seats driving the projection, and the path to a majority.",
+      "updatedAt": "Jul 4, 2026"
+    }
+  }
+}
