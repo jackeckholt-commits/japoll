@@ -101,9 +101,19 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 .total-check.is-valid { color: var(--green); }
 .total-check.is-invalid { color: #ff8e94; }
 
-.analysis-grid { display: grid; gap: 1rem; }
-.analysis-editor { display: grid; grid-template-columns: minmax(190px, 0.7fr) minmax(220px, 1fr) minmax(300px, 1.6fr); gap: 1rem; padding: 1.25rem; }
-.analysis-editor legend { color: #9ed2ff; }
+.post-editor-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+.post-editor-toolbar p { color: var(--muted); }
+.post-editor-toolbar .secondary-button { min-height: 44px; }
+.post-editor-list { display: grid; gap: 1rem; }
+.post-editor { display: grid; grid-template-columns: minmax(150px, 0.55fr) minmax(220px, 1.45fr); gap: 1rem; padding: 1.25rem; border-top: 3px solid #aa8aff; }
+.post-editor legend { color: #cbb9ff; }
+.post-editor .post-title-field,
+.post-editor .post-excerpt-field,
+.post-editor .post-body-field { grid-column: 1 / -1; }
+.post-editor textarea { min-height: 190px; }
+.post-editor-heading { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.post-editor-heading strong { font-size: 1.05rem; }
+.remove-post-button { min-height: 38px; padding: 0.55rem 0.75rem; border: 1px solid rgba(255, 89, 98, 0.45); border-radius: 9px; cursor: pointer; color: #ff9ca1; background: rgba(255, 89, 98, 0.08); font-weight: 900; }
 
 .race-toolbar { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
 .race-tabs { display: flex; gap: 0.45rem; }
@@ -112,7 +122,7 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 .race-search { width: min(290px, 100%); }
 .race-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
 .race-list[hidden] { display: none; }
-.race-row { display: grid; grid-template-columns: minmax(135px, 0.85fr) minmax(145px, 1fr) minmax(120px, 0.8fr); gap: 0.75rem; align-items: center; padding: 0.9rem; border: 1px solid #30495b; border-radius: 13px; background: rgba(14, 31, 42, 0.82); }
+.race-row { display: grid; grid-template-columns: minmax(150px, 1fr) minmax(180px, 1fr); gap: 0.75rem; align-items: center; padding: 0.9rem; border: 1px solid #30495b; border-radius: 13px; background: rgba(14, 31, 42, 0.82); }
 .race-name { display: flex; align-items: center; gap: 0.7rem; min-width: 0; }
 .state-code { display: grid; place-items: center; flex: 0 0 auto; width: 38px; height: 38px; border-radius: 9px; background: #213c4f; color: #9ed2ff; font-weight: 900; }
 .race-name strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -131,7 +141,8 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 
 @media (max-width: 900px) {
   .connection-card, .prediction-grid { grid-template-columns: 1fr; }
-  .analysis-editor { grid-template-columns: 1fr; }
+  .post-editor { grid-template-columns: 1fr; }
+  .post-editor > * { grid-column: 1 !important; }
   .race-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 620px) {
@@ -139,6 +150,7 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
   .admin-shell { width: min(100% - 1rem, 1180px); }
   .connection-card, .editor-section { border-radius: 15px; }
   .token-row { grid-template-columns: 1fr; }
+  .post-editor-toolbar { align-items: stretch; flex-direction: column; }
   .race-toolbar { align-items: stretch; flex-direction: column; }
   .race-search { width: 100%; }
   .race-row { grid-template-columns: 1fr; }

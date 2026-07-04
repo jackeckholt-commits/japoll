@@ -3,15 +3,15 @@ const BRANCH = "main";
 const API_ROOT = `https://api.github.com/repos/${REPOSITORY}`;
 
 const RATING_OPTIONS = {
-  "no-data": { label: "No rating yet", party: "none", marginLabel: null, margin: null },
-  demSolid: { label: "Safe Democrat", party: "dem", marginLabel: "D+15 or more", margin: 18 },
-  demLikely: { label: "Likely Democrat", party: "dem", marginLabel: "D+5 to D+15", margin: 9 },
-  demLean: { label: "Lean Democrat", party: "dem", marginLabel: "D+1 to D+5", margin: 3 },
-  demTilt: { label: "Tilt Democrat", party: "dem", marginLabel: "Tilt Democratic", margin: 0.5 },
-  repTilt: { label: "Tilt Republican", party: "rep", marginLabel: "Tilt Republican", margin: 0.5 },
-  repLean: { label: "Lean Republican", party: "rep", marginLabel: "R+1 to R+5", margin: 3 },
-  repLikely: { label: "Likely Republican", party: "rep", marginLabel: "R+5 to R+15", margin: 9 },
-  repSolid: { label: "Safe Republican", party: "rep", marginLabel: "R+15 or more", margin: 18 }
+  "no-data": { label: "No rating yet", party: "none" },
+  demSolid: { label: "Safe Democrat", party: "dem" },
+  demLikely: { label: "Likely Democrat", party: "dem" },
+  demLean: { label: "Lean Democrat", party: "dem" },
+  demTilt: { label: "Tilt Democrat", party: "dem" },
+  repTilt: { label: "Tilt Republican", party: "rep" },
+  repLean: { label: "Lean Republican", party: "rep" },
+  repLikely: { label: "Likely Republican", party: "rep" },
+  repSolid: { label: "Safe Republican", party: "rep" }
 };
 
 const EXPECTED_TOTALS = { house: 435, senate: 100, governor: 50 };
@@ -31,6 +31,8 @@ const saveTitle = document.querySelector("#save-title");
 const saveStatus = document.querySelector("#save-status");
 const raceEditors = document.querySelector("#race-editors");
 const raceSearch = document.querySelector("#race-search");
+const postEditors = document.querySelector("#post-editors");
+const addPostButton = document.querySelector("#add-post-button");
 
 function valueAtPath(object, path) {
   return path.split(".").reduce((value, key) => value?.[key], object);
@@ -114,6 +116,7 @@ async function loadCurrentData() {
     editorialData = await editorialResponse.json();
     raceData = await racesResponse.json();
     populateForm();
+    renderPostEditors();
     renderRaceEditors();
     validatePredictionTotals();
     setSaveState("Current data loaded", connectedToken ? "Connected and ready to publish." : "Connect GitHub when you are ready to publish.");
@@ -135,6 +138,98 @@ function makeLabel(text, control) {
   caption.textContent = text;
   label.append(caption, control);
   return label;
+}
+
+function todayValue() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function slugify(value) {
+  return String(value || "")
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function createPostInput(field, value = "", options = {}) {
+  const input = options.multiline ? document.createElement("textarea") : document.createElement("input");
+  input.dataset.postField = field;
+  input.value = value || "";
+  if (options.type) input.type = options.type;
+  if (options.required) input.required = true;
+  if (options.maxLength) input.maxLength = options.maxLength;
+  if (options.rows) input.rows = options.rows;
+  return input;
+}
+
+function createPostEditor(post = {}, index = 0) {
+  const fieldset = document.createElement("fieldset");
+  fieldset.className = "post-editor";
+  fieldset.dataset.postId = post.id || "";
+
+  const legend = document.createElement("legend");
+  legend.textContent = post.title || `New post ${index + 1}`;
+
+  const heading = document.createElement("div");
+  heading.className = "post-editor-heading";
+  const helper = document.createElement("strong");
+  helper.textContent = "Post details";
+  const remove = document.createElement("button");
+  remove.className = "remove-post-button";
+  remove.type = "button";
+  remove.textContent = "Remove post";
+  remove.addEventListener("click", () => {
+    fieldset.remove();
+    markDirty();
+  });
+  heading.append(helper, remove);
+
+  const category = createPostInput("category", post.category || "Analysis", { maxLength: 50 });
+  const date = createPostInput("publishedAt", post.publishedAt || todayValue(), { type: "date", required: true });
+  const title = createPostInput("title", post.title, { required: true, maxLength: 140 });
+  const excerpt = createPostInput("excerpt", post.excerpt, { maxLength: 280 });
+  const body = createPostInput("body", post.body, { multiline: true, required: true, rows: 10 });
+
+  const titleLabel = makeLabel("Headline", title);
+  titleLabel.className = "post-title-field";
+  const excerptLabel = makeLabel("Short summary", excerpt);
+  excerptLabel.className = "post-excerpt-field";
+  const bodyLabel = makeLabel("Post", body);
+  bodyLabel.className = "post-body-field";
+
+  title.addEventListener("input", () => {
+    legend.textContent = title.value.trim() || "New post";
+  });
+
+  fieldset.append(
+    legend,
+    heading,
+    makeLabel("Category", category),
+    makeLabel("Publication date", date),
+    titleLabel,
+    excerptLabel,
+    bodyLabel
+  );
+  return fieldset;
+}
+
+function renderPostEditors() {
+  if (!postEditors) return;
+  postEditors.replaceChildren();
+  const posts = Array.isArray(editorialData.posts) ? editorialData.posts : [];
+  posts
+    .slice()
+    .sort((a, b) => String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")))
+    .forEach((post, index) => postEditors.appendChild(createPostEditor(post, index)));
+}
+
+function addNewPost() {
+  if (!postEditors) return;
+  const editor = createPostEditor({ category: "Analysis", publishedAt: todayValue() }, postEditors.children.length);
+  postEditors.prepend(editor);
+  markDirty();
+  editor.querySelector('[data-post-field="title"]')?.focus();
 }
 
 function createRaceRow(type, race) {
@@ -164,23 +259,7 @@ function createRaceRow(type, race) {
   });
   rating.value = RATING_OPTIONS[race.marginCategory] ? race.marginCategory : "no-data";
 
-  const margin = document.createElement("input");
-  margin.type = "number";
-  margin.min = "0";
-  margin.max = "100";
-  margin.step = "0.1";
-  margin.dataset.raceMargin = "";
-  margin.dataset.map = type;
-  margin.dataset.fips = String(race.fips).padStart(2, "0");
-  margin.value = Number.isFinite(Number(race.predictedMargin)) ? race.predictedMargin : "";
-  margin.placeholder = "Optional";
-
-  rating.addEventListener("change", () => {
-    const defaultMargin = RATING_OPTIONS[rating.value].margin;
-    margin.value = defaultMargin ?? "";
-  });
-
-  row.append(name, makeLabel("Rating", rating), makeLabel("Estimated margin", margin));
+  row.append(name, makeLabel("Rating", rating));
   return row;
 }
 
@@ -245,13 +324,25 @@ function collectEditorialData() {
     setValueAtPath(next, input.dataset.field, value);
   });
 
-  const now = new Date();
-  const displayDate = now.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-  next.updatedAt = now.toISOString();
-  ["house", "senate", "governor"].forEach(key => {
-    next.analysis[key].eyebrow ||= "Japoll analysis";
-    next.analysis[key].updatedAt = displayDate;
+  const usedIds = new Set();
+  next.posts = Array.from(document.querySelectorAll(".post-editor")).map((editor, index) => {
+    const read = field => editor.querySelector(`[data-post-field="${field}"]`)?.value.trim() || "";
+    const baseId = editor.dataset.postId || slugify(read("title")) || `post-${index + 1}`;
+    let id = baseId;
+    let suffix = 2;
+    while (usedIds.has(id)) id = `${baseId}-${suffix++}`;
+    usedIds.add(id);
+    return {
+      id,
+      category: read("category") || "Analysis",
+      title: read("title"),
+      excerpt: read("excerpt"),
+      body: read("body"),
+      publishedAt: read("publishedAt") || todayValue()
+    };
   });
+  delete next.analysis;
+  next.updatedAt = new Date().toISOString();
   return next;
 }
 
@@ -267,15 +358,13 @@ function updateRaceDataFromEditor() {
     document.querySelectorAll(`[data-race-rating][data-map="${type}"]`).forEach(select => {
       const race = raceByFips.get(select.dataset.fips);
       const option = RATING_OPTIONS[select.value];
-      const marginInput = document.querySelector(`[data-race-margin][data-map="${type}"][data-fips="${select.dataset.fips}"]`);
-      const margin = marginInput?.value === "" ? option.margin : Number(marginInput.value);
       if (!race || !option) return;
 
       race.party = option.party;
       race.status = select.value === "no-data" ? "no-data" : "prediction";
       race.marginCategory = select.value;
-      race.marginLabel = option.marginLabel;
-      race.predictedMargin = margin ?? null;
+      race.marginLabel = null;
+      race.predictedMargin = null;
       race.lastUpdated = displayDate;
     });
 
@@ -386,11 +475,12 @@ tokenInput.addEventListener("keydown", event => {
 });
 form.addEventListener("submit", publishChanges);
 form.addEventListener("input", event => {
-  if (event.target.matches("[data-field], [data-race-rating], [data-race-margin]")) {
+  if (event.target.matches("[data-field], [data-post-field], [data-race-rating]")) {
     markDirty();
     validatePredictionTotals();
   }
 });
+addPostButton?.addEventListener("click", addNewPost);
 document.querySelectorAll("[data-race-tab]").forEach(button => {
   button.addEventListener("click", () => selectRaceTab(button.dataset.raceTab));
 });

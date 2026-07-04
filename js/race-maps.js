@@ -13,6 +13,17 @@ const FIPS_TO_POSTAL = {
 const COMPACT_LABEL_STATES = new Set(["CT", "DE", "MD", "MA", "NH", "NJ", "RI", "VT", "DC"]);
 const TINY_LABEL_STATES = new Set(["HI"]);
 
+const RATING_LABELS = {
+  demSolid: "Safe Democrat",
+  demLikely: "Likely Democrat",
+  demLean: "Lean Democrat",
+  demTilt: "Tilt Democrat",
+  repTilt: "Tilt Republican",
+  repLean: "Lean Republican",
+  repLikely: "Likely Republican",
+  repSolid: "Safe Republican"
+};
+
 
 function getRaceClass(race) {
   if (!race || race.active !== true) return "state-no-race";
@@ -28,8 +39,7 @@ function getRaceClass(race) {
 function formatRaceStatus(race) {
   if (!race || race.active !== true) return "No active race on this map";
   if (race.status === "prediction") {
-    const partyName = race.party === "dem" ? "Democratic" : "Republican";
-    return `${partyName} advantage (${race.marginLabel || "margin pending"})`;
+    return RATING_LABELS[race.marginCategory] || (race.party === "dem" ? "Democratic advantage" : "Republican advantage");
   }
   if (race.status === "called") return `${race.party === "dem" ? "Democratic" : "Republican"} hold/pickup`;
   if (race.status === "leading") return `${race.party === "dem" ? "Democrats" : "Republicans"} currently leading`;
@@ -171,11 +181,11 @@ function renderMarginSummary(container, mapData) {
     const count = Number(segment.count || 0);
     if (count <= 0) return "";
     const width = Math.max((count / total) * 100, 3);
-    const accessibleLabel = segment.label ? `${count} ${segment.label}` : `${count}`;
+    const accessibleLabel = `${count} ${RATING_LABELS[segment.key] || "unrated"}`;
     return `<div class="margin-bar-segment ${segment.className || ""}" style="width:${width}%" aria-label="${accessibleLabel}" title="${accessibleLabel}"><strong>${count}</strong></div>`;
   }).join("");
   const legend = `
-    <div class="margin-scale-legend" aria-label="Margin color legend">
+    <div class="margin-scale-legend" aria-label="Race rating color legend">
       <span><i class="margin-dem-solid"></i>Safe D</span>
       <span><i class="margin-dem-likely"></i>Likely D</span>
       <span><i class="margin-dem-lean"></i>Lean D</span>
@@ -191,9 +201,9 @@ function renderMarginSummary(container, mapData) {
       <h3>${summary.title || "Race Prediction"}</h3>
       <p>${summary.subtitle || ""}</p>
     </div>
-    <div class="margin-control-bar" aria-label="${summary.title || "Race prediction margin bar"}">${segments}</div>
+    <div class="margin-control-bar" aria-label="${summary.title || "Race rating summary"}">${segments}</div>
     ${legend}
-    <div class="margin-legend-note">Margins are estimates. Tilt is the lightest color, then lean, likely, and safe as the margin gets larger.</div>
+    <div class="margin-legend-note">Ratings move from Tilt to Lean, Likely, and Safe.</div>
   `;
   return true;
 }
@@ -204,21 +214,19 @@ function renderRaceDetail(panel, race, mapData) {
       <h3>Select a state</h3>
       <p>Pick a state on the map to see the prediction and current candidate matchup.</p>
       <div class="detail-helper-grid">
-        <span>Margin</span>
+        <span>Rating</span>
         <span>Candidates</span>
         <span>Links</span>
       </div>
     `;
     return;
   }
-  const marginLine = race.status === "prediction" ? `<p><strong>Prediction margin:</strong> ${race.marginLabel || "Pending"}</p>` : "";
   const noteLine = race.note ? `<p>${race.note}</p>` : "";
 
   panel.innerHTML = `
     <span class="detail-kicker">${race.state}</span>
     <h3>${race.label || race.name}</h3>
     <p><strong>Status:</strong> ${formatRaceStatus(race)}</p>
-    ${marginLine}
     ${noteLine}
     <h4 class="candidate-heading">Candidates</h4>
     ${renderCandidateList(race, mapData)}

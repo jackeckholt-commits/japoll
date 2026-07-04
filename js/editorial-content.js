@@ -1,20 +1,62 @@
-function setEditorialText(selector, value) {
-  const element = document.querySelector(selector);
-  if (element && value !== undefined && value !== null) element.textContent = value;
+function formatPostDate(value) {
+  if (!value) return "";
+  const date = new Date(`${value}T12:00:00`);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
 }
 
-function renderAnalysis(section, analysis) {
-  if (!section || !analysis) return;
+function safePostId(value, index) {
+  const slug = String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  return `post-${slug || index + 1}`;
+}
 
-  const body = section.querySelector("[data-analysis-body]");
-  setEditorialText(`[data-analysis-page="${section.dataset.analysisPage}"] [data-analysis-eyebrow]`, analysis.eyebrow || "Japoll analysis");
-  setEditorialText(`[data-analysis-page="${section.dataset.analysisPage}"] [data-analysis-title]`, analysis.title || "Race analysis");
-  setEditorialText(`[data-analysis-page="${section.dataset.analysisPage}"] [data-analysis-summary]`, analysis.summary || "");
-  setEditorialText(`[data-analysis-page="${section.dataset.analysisPage}"] [data-analysis-updated]`, analysis.updatedAt ? `Updated ${analysis.updatedAt}` : "");
+function renderAnalysisPosts(posts) {
+  const feed = document.querySelector("[data-analysis-posts]");
+  if (!feed) return;
 
-  if (body) {
-    body.replaceChildren();
-    String(analysis.body || "")
+  const publishedPosts = (Array.isArray(posts) ? posts : [])
+    .filter(post => post && post.title && post.body)
+    .sort((a, b) => String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")));
+
+  feed.replaceChildren();
+  if (!publishedPosts.length) {
+    const empty = document.createElement("article");
+    empty.className = "analysis-empty-state";
+    const title = document.createElement("h2");
+    title.textContent = "New analysis is coming soon.";
+    const text = document.createElement("p");
+    text.textContent = "Check back for new posts from Japoll.";
+    empty.append(title, text);
+    feed.appendChild(empty);
+    return;
+  }
+
+  publishedPosts.forEach((post, index) => {
+    const article = document.createElement("article");
+    article.className = `analysis-post${index === 0 ? " is-featured" : ""}`;
+    article.id = safePostId(post.id || post.title, index);
+
+    const meta = document.createElement("div");
+    meta.className = "analysis-post-meta";
+    const category = document.createElement("span");
+    category.textContent = post.category || "Analysis";
+    const date = document.createElement("time");
+    date.dateTime = post.publishedAt || "";
+    date.textContent = formatPostDate(post.publishedAt);
+    meta.append(category, date);
+
+    const title = document.createElement("h2");
+    title.textContent = post.title;
+    const excerpt = document.createElement("p");
+    excerpt.className = "analysis-post-excerpt";
+    excerpt.textContent = post.excerpt || "";
+
+    const body = document.createElement("div");
+    body.className = "analysis-post-body";
+    String(post.body)
       .split(/\n\s*\n/)
       .map(paragraph => paragraph.trim())
       .filter(Boolean)
@@ -23,7 +65,12 @@ function renderAnalysis(section, analysis) {
         element.textContent = paragraph;
         body.appendChild(element);
       });
-  }
+
+    article.append(meta, title);
+    if (post.excerpt) article.appendChild(excerpt);
+    article.appendChild(body);
+    feed.appendChild(article);
+  });
 }
 
 function renderHomepagePrediction(key, prediction) {
@@ -56,9 +103,7 @@ async function loadEditorialContent() {
     if (!response.ok) throw new Error("Could not load editorial data");
     const editorial = await response.json();
 
-    document.querySelectorAll("[data-analysis-page]").forEach(section => {
-      renderAnalysis(section, editorial.analysis?.[section.dataset.analysisPage]);
-    });
+    renderAnalysisPosts(editorial.posts);
 
     Object.entries(editorial.predictions || {}).forEach(([key, prediction]) => {
       renderHomepagePrediction(key, prediction);

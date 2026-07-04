@@ -5,7 +5,7 @@
   "maps": {
     "senate": {
       "title": "Senate Races",
-      "subtitle": "Early Senate race prediction map using margin categories. Click a state to see the current prediction. Candidate details will update after primaries.",
+      "subtitle": "Early Senate race rating map. Click a state to see the current rating. Candidate details will update after primaries.",
       "totalLabel": "35 Senate races",
       "projection": {
         "demSolid": 9,
@@ -1004,7 +1004,7 @@
       "predictionMode": true,
       "marginSummary": {
         "title": "Senate Race Prediction",
-        "subtitle": "Prediction based on available data inputs. Darker colors show larger estimated margins.",
+        "subtitle": "Current Japoll ratings from Tilt through Safe.",
         "total": 35,
         "segments": [
           {
@@ -1085,7 +1085,7 @@
     },
     "governor": {
       "title": "Governor Races",
-      "subtitle": "Early governor race prediction map using margin categories. Candidate details will update after primaries.",
+      "subtitle": "Early governor race rating map. Candidate details will update after primaries.",
       "totalLabel": "36 governor races",
       "projection": {
         "demSolid": 12,
@@ -2119,7 +2119,7 @@
       "predictionMode": true,
       "marginSummary": {
         "title": "Governor Race Prediction",
-        "subtitle": "Prediction based on available data inputs. Darker colors show larger estimated margins.",
+        "subtitle": "Current Japoll ratings from Tilt through Safe.",
         "total": 36,
         "segments": [
           {
