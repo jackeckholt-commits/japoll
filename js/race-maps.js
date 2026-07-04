@@ -178,8 +178,8 @@ function renderCandidateList(race, mapData) {
 function renderRaceLinks(race, mapData) {
   if (mapData.unitLabel !== "district") return "";
   const sourceLinks = [
-    [race.links?.primaryResults, race.links?.primaryResultsLabel || "Primary & results"],
-    [race.links?.wikipedia, "Wikipedia"]
+    [race.links?.wikipedia, "Wikipedia"],
+    [race.links?.candidatePage, "Candidates"]
   ].filter(([url]) => Boolean(url));
 
   if (!sourceLinks.length) return "";
@@ -247,14 +247,17 @@ function renderRaceDetail(panel, race, mapData) {
     return;
   }
   const noteLine = race.note ? `<p>${race.note}</p>` : "";
+  const candidateSection = mapData.unitLabel === "district" ? "" : `
+    <h4 class="candidate-heading">Candidates</h4>
+    ${renderCandidateList(race, mapData)}
+  `;
 
   panel.innerHTML = `
     <span class="detail-kicker">${race.state}</span>
     <h3>${race.label || race.name}</h3>
     <p><strong>Status:</strong> ${formatRaceStatus(race)}</p>
     ${noteLine}
-    <h4 class="candidate-heading">Candidates</h4>
-    ${renderCandidateList(race, mapData)}
+    ${candidateSection}
     ${renderRaceLinks(race, mapData)}
   `;
 }
@@ -388,9 +391,9 @@ function renderHouseDistrictMap(section, mapData, geoJson) {
   const mapSlot = section.querySelector("[data-race-map-svg]");
   const detailPanel = section.querySelector("[data-race-detail]");
   const barSlot = section.querySelector("[data-race-bar]");
-  if (!mapSlot || !detailPanel || !barSlot) return;
+  if (!mapSlot || !detailPanel) return;
 
-  renderProjectionBar(barSlot, mapData);
+  if (barSlot) renderProjectionBar(barSlot, mapData);
   renderRaceDetail(detailPanel, null, mapData);
 
   const races = Array.isArray(mapData.races) ? mapData.races : [];
