@@ -77,7 +77,7 @@ function createDogMascot() {
   const speechTop = document.createElement("div");
   speechTop.className = "dog-speech-top";
   const name = document.createElement("strong");
-  name.textContent = "Dog's desk";
+  name.textContent = "Dog says";
   const close = document.createElement("button");
   close.className = "dog-close";
   close.type = "button";
@@ -115,7 +115,7 @@ function createDogMascot() {
   const badge = document.createElement("span");
   badge.textContent = "ASK DOG";
   mascot.append(image, badge);
-  widget.append(mascot, speech);
+  widget.append(speech, mascot);
   const hero = document.querySelector(".hero");
   const content = document.querySelector("#main-content") || document.querySelector("main");
   if (hero) {
@@ -151,9 +151,8 @@ function createDogMascot() {
   another.addEventListener("click", showLine);
   mascot.addEventListener("click", showLine);
 
-  const startHidden = sessionStorage.getItem("japollDogHidden") === "true";
   showLine();
-  if (startHidden) hideSpeech();
+  hideSpeech();
 }
 
 if (document.readyState === "loading") {
