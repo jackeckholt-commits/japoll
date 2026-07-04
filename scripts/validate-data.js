@@ -146,6 +146,10 @@ function validateRaceMap(mapKey, mapData) {
     if (race.active) {
       if (mapKey === "house") {
         assert(race.links?.candidatePage, `${mapKey} ${race.id || race.state}: missing candidates page`);
+        assert(
+          /^https:\/\/ballotpedia\.org\/[A-Za-z_]+%27s?_(?:At-Large|\d+(?:st|nd|rd|th))_Congressional_District$/.test(race.links?.candidatePage || ""),
+          `${mapKey} ${race.id || race.state}: invalid district-specific Ballotpedia link`
+        );
       } else {
         assert(race.links?.primaryResults, `${mapKey} ${race.id || race.state}: missing primary/results link`);
         assert(race.links?.candidateData, `${mapKey} ${race.id || race.state}: missing candidate-data link`);
@@ -197,6 +201,7 @@ if (races) {
   const houseRaces = (races.maps?.house?.races || []).filter(race => race.active);
   assert(houseRaces.length === 435, `house: expected 435 active districts, found ${houseRaces.length}`);
   assert(new Set(houseRaces.map(race => race.id)).size === 435, "house: district IDs must be unique");
+  assert(new Set(houseRaces.map(race => race.links?.candidatePage)).size === 435, "house: Ballotpedia district links must be unique");
 }
 
 if (houseGeometry) {
