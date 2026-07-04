@@ -26,6 +26,13 @@ function formatUpdatedDate(value) {
   return date.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
 }
 
+function formatSourceStatus(source) {
+  const date = formatUpdatedDate(source.updated);
+  if (source.scrapeStatus === "live") return `Live source${date ? ` · Updated ${date}` : ""}`;
+  if (source.scrapeStatus === "fallback") return `Previous values${date ? ` · From ${date}` : ""}`;
+  return date ? `Updated ${date}` : "Source update unavailable";
+}
+
 function getCategoryTotal(categories, buckets = HOUSE_BUCKETS) {
   return buckets.reduce((sum, bucket) => sum + Number(categories[bucket.key] || 0), 0) || 435;
 }
@@ -99,6 +106,7 @@ function renderSourceCards(data) {
         <div>
           <span class="detail-kicker">${source.shortName}</span>
           <h3>${source.name}</h3>
+          <span class="house-source-status ${source.scrapeStatus === "live" ? "is-live" : ""}">${formatSourceStatus(source)}</span>
         </div>
         <a href="${source.url}" target="_blank" rel="noopener noreferrer">Source ↗</a>
       </div>
