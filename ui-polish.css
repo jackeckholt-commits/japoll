@@ -751,17 +751,40 @@ body {
 }
 
 .homepage-link-card.house-summary-card .race-mini-stat.dem-side,
+.homepage-link-card.house-summary-card .race-mini-side.dem-side,
+.homepage-link-card.house-summary-card .race-mini-stat.rep-side,
+.homepage-link-card.house-summary-card .race-mini-side.rep-side {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.homepage-link-card.house-summary-card .race-mini-stat.dem-side,
 .homepage-link-card.house-summary-card .race-mini-side.dem-side {
   border-right: 1px solid rgba(220, 231, 241, 0.18) !important;
 }
 
+.homepage-link-card.house-summary-card .race-mini-stat::before,
+.homepage-link-card.house-summary-card .race-mini-stat::after,
+.homepage-link-card.house-summary-card .race-mini-side::before,
+.homepage-link-card.house-summary-card .race-mini-side::after {
+  display: none !important;
+  content: none !important;
+}
+
 .homepage-link-card.house-summary-card .race-mini-value {
-  width: auto !important;
-  max-width: none !important;
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
   overflow: visible !important;
-  font-size: clamp(2.75rem, 4.2vw, 4rem) !important;
+  font-size: clamp(2.5rem, 3.4vw, 3.25rem) !important;
   line-height: 0.95 !important;
   letter-spacing: -0.045em !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  transform: none !important;
 }
 
 @media (max-width: 620px) {
@@ -777,7 +800,24 @@ body {
   }
 
   .homepage-link-card.house-summary-card .race-mini-value {
-    font-size: clamp(2.3rem, 11vw, 3rem) !important;
+    font-size: clamp(2.15rem, 10vw, 2.65rem) !important;
+  }
+}
+
+@container (max-width: 380px) {
+  .homepage-link-card.house-summary-card .house-mini-score,
+  .homepage-link-card.house-summary-card .race-mini-score-polished.house-mini-score {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-stat,
+  .homepage-link-card.house-summary-card .race-mini-side {
+    padding-inline: 8px !important;
+  }
+
+  .homepage-link-card.house-summary-card .race-mini-value {
+    font-size: clamp(2rem, 14cqw, 2.55rem) !important;
   }
 }
 
