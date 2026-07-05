@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-04T00:39:21.697Z",
+  "updatedAt": "2026-07-05T11:50:08.423Z",
   "genericBallot": {
     "average": {
-      "democrats": 47.8,
+      "democrats": 47.7,
       "republicans": 43.4
     },
     "sources": [
@@ -10,7 +10,7 @@
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 47.1,
+        "democrats": 47,
         "republicans": 41.1,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
@@ -85,7 +85,7 @@
         "name": "VoteHub",
         "shortName": "VoteHub",
         "approve": 40.6,
-        "disapprove": 56.4,
+        "disapprove": 56.3,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
         "scrapeStatus": "live",
