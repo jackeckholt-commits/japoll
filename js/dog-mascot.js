@@ -153,18 +153,15 @@ function createDogMascot() {
   const message = document.createElement("p");
   message.className = "dog-message";
 
-  const speechActions = document.createElement("div");
-  speechActions.className = "dog-speech-actions";
-  const source = document.createElement("a");
-  source.className = "dog-source";
-  source.target = "_blank";
-  source.rel = "noopener noreferrer";
   const another = document.createElement("button");
   another.className = "dog-another";
   another.type = "button";
   another.textContent = "New fact";
-  speechActions.append(source, another);
-  speech.append(speechTop, message, speechActions);
+  const speechTools = document.createElement("div");
+  speechTools.className = "dog-speech-tools";
+  speechTools.append(another, close);
+  speechTop.replaceChildren(name, speechTools);
+  speech.append(speechTop, message);
 
   const mascot = document.createElement("button");
   mascot.className = "dog-mascot-button";
@@ -194,11 +191,6 @@ function createDogMascot() {
   function showLine() {
     const line = pickDogLine();
     message.textContent = line.text;
-    source.hidden = !line.sourceUrl;
-    if (line.sourceUrl) {
-      source.href = line.sourceUrl;
-      source.textContent = `Source: ${line.sourceLabel}`;
-    }
     speech.hidden = false;
     widget.classList.remove("is-collapsed");
     mascot.setAttribute("aria-expanded", "true");
