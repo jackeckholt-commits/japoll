@@ -803,6 +803,13 @@ body {
   cursor: grabbing;
 }
 
+/* Let phone users scroll the page when a swipe begins over the large map. */
+@media (max-width: 820px), (hover: none), (pointer: coarse) {
+  .house-district-map-svg {
+    touch-action: pan-y pinch-zoom;
+  }
+}
+
 .house-district {
   stroke: rgba(255, 255, 255, 0.58);
   stroke-width: 0.48;
