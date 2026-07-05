@@ -1731,7 +1731,9 @@ body.dog-is-here .hero h1::after {
 /* 1.1.5: Dog's Desk uses the hero gap like an election-night lower third. */
 .hero:has(.dog-widget) {
   position: relative;
+  z-index: 20;
   overflow: visible;
+  isolation: auto;
 }
 
 .dog-widget {
