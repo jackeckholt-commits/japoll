@@ -48,6 +48,71 @@ const DOG_LINES = [
     text: "Jeannette Rankin was the only member of Congress to vote against U.S. entry into both world wars.",
     sourceLabel: "U.S. House Historian",
     sourceUrl: "https://history.house.gov/Historical-Highlights/1901-1950/The-swearing-in-of-the-first-woman-elected-to-Congress%2C-Representative-Jeannette-Rankin-of-Montana/"
+  },
+  {
+    text: "The Senate has a real candy desk. Its senator is responsible for keeping the drawer stocked with sweets.",
+    sourceLabel: "U.S. Senate Historian",
+    sourceUrl: "https://www.senate.gov/art-artifacts/decorative-art/furniture/senate-chamber-desks/candy-desk.htm"
+  },
+  {
+    text: "Bean soup has been served in Senate restaurants every day for more than a century.",
+    sourceLabel: "U.S. Senate Historian",
+    sourceUrl: "https://www.senate.gov/about/traditions-symbols/senate-bean-soup.htm"
+  },
+  {
+    text: "Senator Wayne Morse once put his chair in the middle of the aisle to show he was independent.",
+    sourceLabel: "U.S. Senate Historian",
+    sourceUrl: "https://www.senate.gov/art-artifacts/decorative-art/furniture/senate-chamber-desks/traditions.htm"
+  },
+  {
+    text: "'Tippecanoe and Tyler Too' was both an 1840 campaign song and its catchy slogan.",
+    sourceLabel: "Library of Congress",
+    sourceUrl: "https://www.loc.gov/exhibits/presidential-songs/issues-and-slogans.html"
+  },
+  {
+    text: "An 1884 chant rhymed 'James G. Blaine' with 'continental liar from the state of Maine.'",
+    sourceLabel: "Library of Congress",
+    sourceUrl: "https://blogs.loc.gov/folklife/2016/11/election-week-special-the-dodger-and-the-election-of-1884/"
+  },
+  {
+    text: "An 1884 anti-Cleveland chant asked, 'Ma, ma, where's my pa?' Subtle it was not.",
+    sourceLabel: "Library of Congress",
+    sourceUrl: "https://blogs.loc.gov/folklife/2016/11/election-week-special-the-dodger-and-the-election-of-1884/"
+  },
+  {
+    text: "The House mace has 13 ebony rods for the original states, plus a silver globe topped by a bald eagle.",
+    sourceLabel: "U.S. House Historian",
+    sourceUrl: "https://history.house.gov/Blog/Detail/15032450168"
+  },
+  {
+    text: "House members once chose their individual Chamber desks by lottery at the start of each Congress.",
+    sourceLabel: "U.S. House Historian",
+    sourceUrl: "https://history.house.gov/Exhibitions-and-Publications/Page-History/Historical-Essays/Traditions/"
+  },
+  {
+    text: "Thirty of the first 44 presidents had a dog in office. Dog approves this message.",
+    sourceLabel: "White House Historical Association",
+    sourceUrl: "https://www.whitehousehistory.org/presidential-pooches"
+  },
+  {
+    text: "Franklin Roosevelt joked that attacks did not bother his family, but his dog Fala 'does resent them.'",
+    sourceLabel: "White House Historical Association",
+    sourceUrl: "https://www.whitehousehistory.org/presidential-pooches"
+  },
+  {
+    text: "A guest bet she could make Calvin Coolidge say more than two words. His reply: 'You lose.'",
+    sourceLabel: "Archived White House",
+    sourceUrl: "https://clintonwhitehouse3.archives.gov/WH/glimpse/presidents/html/cc30.html"
+  },
+  {
+    text: "The phrase 'Electoral College' is not in the Constitution. It refers only to 'electors.'",
+    sourceLabel: "National Archives",
+    sourceUrl: "https://www.archives.gov/electoral-college/history"
+  },
+  {
+    text: "In 1836, the Senate had to decide the vice-presidential election.",
+    sourceLabel: "National Archives",
+    sourceUrl: "https://www.archives.gov/electoral-college/history"
   }
 ];
 
