@@ -2126,3 +2126,161 @@ body.dog-is-here .hero h1::after {
     font-size: 0.56rem;
   }
 }
+
+/* 1.1.6: Dog speaks on arrival; the mascot itself advances the conversation. */
+.dog-mascot-button,
+.dog-widget.is-collapsed .dog-mascot-button {
+  width: 66px;
+  height: 72px;
+  margin-left: -5px;
+  padding: 5px;
+  border: 1px solid rgba(138, 209, 255, 0.72);
+  border-radius: 19px 19px 19px 7px;
+  background: #0b2232;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.dog-mascot-button:hover,
+.dog-mascot-button:focus-visible {
+  border-color: #fff2b7;
+  background: #14364b;
+  box-shadow: 0 0 0 4px rgba(90, 188, 247, 0.08);
+  transform: translateY(-3px) rotate(-2deg);
+}
+
+.dog-mascot-button img {
+  filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.38));
+}
+
+.dog-mascot-button span,
+.dog-another,
+.dog-speech-tools {
+  display: none !important;
+}
+
+.dog-speech {
+  margin-right: -1px;
+  padding-right: 34px;
+  border-radius: 17px 9px 9px 17px;
+}
+
+.dog-speech::after {
+  right: -8px;
+  bottom: 19px;
+  width: 15px;
+  height: 15px;
+  border-color: rgba(255, 224, 138, 0.9);
+}
+
+.dog-close {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+}
+
+.dog-message {
+  margin-top: 7px;
+}
+
+@media (max-width: 700px) {
+  .dog-mascot-button,
+  .dog-widget.is-collapsed .dog-mascot-button {
+    width: 56px;
+    height: 62px;
+    margin-left: -5px;
+    padding: 4px;
+  }
+
+  .dog-speech {
+    padding-right: 30px;
+  }
+}
+
+/* 1.1.7: compact speech bubble above-left of Dog. */
+.dog-widget,
+.dog-widget.is-collapsed {
+  width: 340px;
+  height: 112px;
+  min-height: 112px;
+  display: block;
+}
+
+.dog-mascot-button,
+.dog-widget.is-collapsed .dog-mascot-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 56px;
+  height: 61px;
+  margin: 0;
+  padding: 4px;
+}
+
+.dog-speech {
+  position: absolute;
+  right: 42px;
+  bottom: 42px;
+  width: 280px;
+  min-height: 0;
+  margin: 0;
+  padding: 8px 28px 8px 11px;
+  border-radius: 15px 15px 5px 15px;
+}
+
+.dog-speech::after {
+  right: 13px;
+  bottom: -7px;
+  width: 13px;
+  height: 13px;
+  border: 0;
+  border-right: 1px solid rgba(255, 224, 138, 0.9);
+  border-bottom: 1px solid rgba(255, 224, 138, 0.9);
+  transform: rotate(45deg);
+}
+
+.dog-speech-top strong {
+  font-size: 0.56rem;
+}
+
+.dog-message {
+  margin-top: 4px;
+  font-size: 0.72rem;
+  line-height: 1.24;
+}
+
+@media (max-width: 700px) {
+  body.dog-is-here .site-header .hero {
+    padding-bottom: 8px !important;
+  }
+
+  body.dog-is-here .dashboard-grid {
+    padding-top: 14px !important;
+  }
+
+  .dog-widget,
+  .dog-widget.is-collapsed {
+    width: 260px;
+    height: 94px;
+    min-height: 94px;
+    margin: 6px 0 0 auto;
+  }
+
+  .dog-mascot-button,
+  .dog-widget.is-collapsed .dog-mascot-button {
+    width: 50px;
+    height: 54px;
+    margin: 0;
+  }
+
+  .dog-speech {
+    right: 34px;
+    bottom: 4px;
+    width: 220px;
+    padding: 7px 26px 7px 10px;
+  }
+
+  .dog-message {
+    font-size: 0.68rem;
+    line-height: 1.2;
+  }
+}

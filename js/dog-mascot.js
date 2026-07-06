@@ -90,7 +90,7 @@ const DOG_LINES = [
     sourceUrl: "https://history.house.gov/Exhibitions-and-Publications/Page-History/Historical-Essays/Traditions/"
   },
   {
-    text: "Thirty of the first 44 presidents had a dog in office. Dog approves this message.",
+    text: "Thirty of the first 44 presidents had a dog in office. Dog the cat remains unconvinced.",
     sourceLabel: "White House Historical Association",
     sourceUrl: "https://www.whitehousehistory.org/presidential-pooches"
   },
@@ -113,6 +113,46 @@ const DOG_LINES = [
     text: "In 1836, the Senate had to decide the vice-presidential election.",
     sourceLabel: "National Archives",
     sourceUrl: "https://www.archives.gov/electoral-college/history"
+  },
+  {
+    text: "A rooster crashed a 1973 inaugural ball. It was not on the guest list.",
+    sourceLabel: "Smithsonian",
+    sourceUrl: "https://www.smithsonianmag.com/smithsonian-institution/that-time-a-chicken-crashed-nixons-inaugural-ball-and-other-crazy-inaugural-tales-2481504/"
+  },
+  {
+    text: "July 4 is presidentially crowded: three presidents died on it, and one was born.",
+    sourceLabel: "White House Historical Association",
+    sourceUrl: "https://www.whitehousehistory.org/questions/what-are-some-interesting-facts-about-presidents-first-ladies"
+  },
+  {
+    text: "Campaign merchandise has included macaroni and cheese. Democracy can be shelf-stable.",
+    sourceLabel: "Smithsonian",
+    sourceUrl: "https://www.smithsonianmag.com/smithsonian-institution/ten-artifacts-smithsonian-tell-us-crazy-history-american-politics-180958176/"
+  },
+  {
+    text: "Irving Berlin wrote Eisenhower a campaign song. Politics once came with show tunes.",
+    sourceLabel: "Smithsonian",
+    sourceUrl: "https://www.smithsonianmag.com/smithsonian-institution/ten-artifacts-smithsonian-tell-us-crazy-history-american-politics-180958176/"
+  },
+  {
+    text: "William Henry Harrison's inaugural address ran 8,445 words. Dog prefers bullet points.",
+    sourceLabel: "History",
+    sourceUrl: "https://www.history.com/articles/10-unexpected-moments-presidential-inauguration-history"
+  },
+  {
+    text: "George Washington won the first presidential election with 69 electoral votes. Tiny map.",
+    sourceLabel: "Smithsonian",
+    sourceUrl: "https://www.smithsonianmag.com/smithsonian-institution/ten-artifacts-smithsonian-tell-us-crazy-history-american-politics-180958176/"
+  },
+  {
+    text: "Nearly every president from Lincoln through Taft had facial hair. Peak whisker politics.",
+    sourceLabel: "White House Historical Association",
+    sourceUrl: "https://www.whitehousehistory.org/questions/what-are-some-interesting-facts-about-presidents-first-ladies"
+  },
+  {
+    text: "The Senate has a candy desk. Some legislation is sweeter than others.",
+    sourceLabel: "U.S. Senate Historian",
+    sourceUrl: "https://www.senate.gov/art-artifacts/decorative-art/furniture/senate-chamber-desks/candy-desk.htm"
   }
 ];
 
@@ -152,15 +192,6 @@ function createDogMascot() {
 
   const message = document.createElement("p");
   message.className = "dog-message";
-
-  const another = document.createElement("button");
-  another.className = "dog-another";
-  another.type = "button";
-  another.textContent = "New fact";
-  const speechTools = document.createElement("div");
-  speechTools.className = "dog-speech-tools";
-  speechTools.append(another, close);
-  speechTop.replaceChildren(name, speechTools);
   speech.append(speechTop, message);
 
   const mascot = document.createElement("button");
@@ -168,15 +199,13 @@ function createDogMascot() {
   mascot.type = "button";
   mascot.setAttribute("aria-controls", speech.id);
   mascot.setAttribute("aria-expanded", "true");
-  mascot.setAttribute("aria-label", "Ask Dog for another election fact");
+  mascot.setAttribute("aria-label", "Hear another election fact from Dog");
   const image = document.createElement("img");
   image.src = "assets/dog-mascot.png";
   image.alt = "";
   image.width = 96;
   image.height = 96;
-  const badge = document.createElement("span");
-  badge.textContent = "ASK DOG";
-  mascot.append(image, badge);
+  mascot.append(image);
   widget.append(speech, mascot);
   const hero = document.querySelector(".hero");
   const content = document.querySelector("#main-content") || document.querySelector("main");
@@ -205,11 +234,9 @@ function createDogMascot() {
   }
 
   close.addEventListener("click", hideSpeech);
-  another.addEventListener("click", showLine);
   mascot.addEventListener("click", showLine);
 
   showLine();
-  hideSpeech();
 }
 
 if (document.readyState === "loading") {
