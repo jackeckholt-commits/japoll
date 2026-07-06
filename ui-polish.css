@@ -1157,8 +1157,46 @@ body {
   line-height: 1.35;
 }
 
-.generic-ballot .averaging-disclaimer {
-  align-self: flex-start;
+.homepage-metric-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+.homepage-metric-footer .algorithm-note {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.homepage-metric-footer .averaging-disclaimer {
+  margin: 0;
+  text-align: right;
+}
+
+.homepage-metric-footer-end {
+  justify-content: flex-end;
+}
+
+@media (max-width: 620px) {
+  .homepage-metric-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .homepage-metric-footer .averaging-disclaimer {
+    text-align: left;
+  }
+
+  .homepage-metric-footer-end {
+    align-items: flex-end;
+  }
+
+  .homepage-metric-footer-end .averaging-disclaimer {
+    text-align: right;
+  }
 }
 
 /* 1.1.4: a live homepage doorway into the latest Analysis post. */
