@@ -1147,6 +1147,20 @@ body {
   }
 }
 
+.averaging-disclaimer {
+  display: block;
+  max-width: 46ch;
+  margin-top: 9px;
+  color: rgba(220, 234, 244, 0.66);
+  font-size: clamp(0.66rem, 0.9vw, 0.74rem);
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.generic-ballot .averaging-disclaimer {
+  align-self: flex-start;
+}
+
 /* 1.1.4: a live homepage doorway into the latest Analysis post. */
 .homepage-analysis-preview {
   display: grid;
