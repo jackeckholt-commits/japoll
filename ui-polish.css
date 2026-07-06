@@ -1146,6 +1146,108 @@ body {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* 1.1.4: a live homepage doorway into the latest Analysis post. */
+.homepage-analysis-preview {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.55fr) minmax(0, 1.7fr) auto;
+  align-items: center;
+  gap: clamp(22px, 4vw, 54px);
+  margin: clamp(24px, 4vw, 48px) 0 clamp(44px, 7vw, 82px);
+  padding: clamp(24px, 3.5vw, 42px);
+  border: 1px solid rgba(159, 211, 255, 0.28);
+  border-left: 5px solid #62b8f5;
+  border-radius: clamp(18px, 2vw, 26px);
+  background: #102534;
+  box-shadow: 0 22px 62px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-analysis-label {
+  display: grid;
+  gap: 4px;
+}
+
+.homepage-analysis-meta {
+  color: #91b7d2;
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.homepage-analysis-label strong {
+  color: #fff;
+  font-size: clamp(1.8rem, 3.5vw, 3.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+}
+
+.homepage-analysis-copy {
+  min-width: 0;
+}
+
+.homepage-analysis-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-bottom: 8px;
+}
+
+.homepage-analysis-meta span {
+  color: var(--baby-blue);
+}
+
+.homepage-analysis-copy h2 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(1.55rem, 3vw, 2.7rem);
+  line-height: 1;
+  letter-spacing: -0.035em;
+}
+
+.homepage-analysis-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 46px;
+  padding: 0 18px;
+  border: 1px solid rgba(159, 211, 255, 0.42);
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(77, 163, 255, 0.12);
+  text-decoration: none;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.homepage-analysis-link:hover,
+.homepage-analysis-link:focus-visible {
+  border-color: #a8d9ff;
+  background: rgba(77, 163, 255, 0.24);
+}
+
+@media (max-width: 760px) {
+  .homepage-analysis-preview {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 24px 22px;
+  }
+
+  .homepage-analysis-label {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  .homepage-analysis-label strong {
+    font-size: 1.9rem;
+  }
+
+  .homepage-analysis-link {
+    width: fit-content;
+  }
+}
 /* 1.0.3: consistent header spacing and a standalone Analysis section. */
 .site-header,
 .page-header {

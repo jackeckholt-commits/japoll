@@ -73,6 +73,29 @@ function renderAnalysisPosts(posts) {
   });
 }
 
+function renderHomepageAnalysis(posts) {
+  const preview = document.querySelector("[data-homepage-analysis]");
+  if (!preview) return;
+
+  const latestPost = (Array.isArray(posts) ? posts : [])
+    .filter(post => post && post.title && post.body)
+    .sort((a, b) => String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")))[0];
+  if (!latestPost) return;
+
+  const category = preview.querySelector("[data-homepage-analysis-category]");
+  const date = preview.querySelector("[data-homepage-analysis-date]");
+  const title = preview.querySelector("[data-homepage-analysis-title]");
+  const link = preview.querySelector("[data-homepage-analysis-link]");
+
+  if (category) category.textContent = latestPost.category || "Analysis";
+  if (date) {
+    date.dateTime = latestPost.publishedAt || "";
+    date.textContent = formatPostDate(latestPost.publishedAt);
+  }
+  if (title) title.textContent = latestPost.title;
+  if (link) link.href = `analysis.html#${safePostId(latestPost.id || latestPost.title, 0)}`;
+}
+
 function renderHomepagePrediction(key, prediction) {
   if (!prediction) return;
   const card = document.querySelector(`[data-editorial-prediction="${key}"]`);
@@ -119,6 +142,7 @@ async function loadEditorialContent() {
     });
 
     renderAnalysisPosts(editorial.posts);
+    renderHomepageAnalysis(editorial.posts);
 
     Object.entries(editorial.predictions || {}).forEach(([key, prediction]) => {
       renderHomepagePrediction(key, prediction);
