@@ -2284,3 +2284,38 @@ body.dog-is-here .hero h1::after {
     line-height: 1.2;
   }
 }
+
+/* 1.1.8: give Dog more presence on wider screens without changing mobile. */
+@media (min-width: 701px) {
+  .dog-widget,
+  .dog-widget.is-collapsed {
+    width: 420px;
+    height: 112px;
+    min-height: 112px;
+  }
+
+  .dog-mascot-button,
+  .dog-widget.is-collapsed .dog-mascot-button {
+    bottom: 16px;
+    width: 64px;
+    height: 68px;
+    padding: 5px;
+  }
+
+  .dog-speech {
+    right: 50px;
+    bottom: 32px;
+    width: 340px;
+    padding: 9px 34px 9px 13px;
+    border-radius: 18px 18px 6px 18px;
+  }
+
+  .dog-speech-top strong {
+    font-size: 0.64rem;
+  }
+
+  .dog-message {
+    font-size: 0.82rem;
+    line-height: 1.3;
+  }
+}
