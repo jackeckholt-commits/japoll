@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-07-05T11:50:18.782Z",
+  "updatedAt": "2026-07-07T12:40:52.424Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
-    "democrats": 207.1,
-    "tossup": 19.3,
-    "republicans": 208.6,
+    "democrats": 207.4,
+    "tossup": 19,
+    "republicans": 208.7,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
-    "nonTossupDemocrats": 207.1,
-    "nonTossupRepublicans": 208.6,
-    "averageTossup": 19.3,
+    "nonTossupDemocrats": 207.4,
+    "nonTossupRepublicans": 208.7,
+    "averageTossup": 19,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
@@ -23,16 +23,16 @@
     "categories": {
       "demSafe": 178.7,
       "demLikely": 15.7,
-      "demLean": 12.7,
-      "tossup": 19.3,
+      "demLean": 13,
+      "tossup": 19,
       "repLean": 12,
-      "repLikely": 28.3,
-      "repSafe": 168.3
+      "repLikely": 28.7,
+      "repSafe": 168
     },
     "totals": {
-      "democrats": 207.1,
-      "tossup": 19.3,
-      "republicans": 208.6,
+      "democrats": 207.4,
+      "tossup": 19,
+      "republicans": 208.7,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -42,20 +42,20 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-07-05",
+      "updated": "2026-07-07",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 176,
         "demLikely": 22,
-        "demLean": 13,
-        "tossup": 21,
+        "demLean": 14,
+        "tossup": 20,
         "repLean": 20,
-        "repLikely": 44,
-        "repSafe": 139
+        "repLikely": 45,
+        "repSafe": 138
       },
       "totals": {
-        "democrats": 211,
-        "tossup": 21,
+        "democrats": 212,
+        "tossup": 20,
         "republicans": 203
       },
       "included": true,
