@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T20:23:33.432Z",
+  "updatedAt": "2026-07-12T04:11:20.654Z",
   "predictions": {
     "senate": {
       "democrats": 51,
@@ -19,6 +19,14 @@
     }
   },
   "posts": [
+    {
+      "id": "maine-senate-changes-and-gallup-poll",
+      "category": "Update",
+      "title": "Maine senate changes and Gallup Poll",
+      "excerpt": "Graham Platner leaves Maine senate race And Gallup releases party Id poll",
+      "body": "First , Graham Platner has dropped out of the Maine Senate race after allegations of rape came out. This kinda just adds to all the controversies this guy already had, and there was too much pressure for him not to drop out. Platner has been plagued by controversy, and this one was really just the nail in the coffin. The Maine Senate race is going to stay where it was because, without a candidate, it basically just goes back to the baseline. There is also no polling data for whoever the new candidate will be.\n\nIn other news, Gallup released its party ID poll, which looks to give Democrats their biggest advantage since 2009. The party ID poll is one of the most accurate things, at least historically, when predicting the makeup of the electorate and the national popular vote. There is a lot of discrepancy between national and state polls right now, and the party ID poll does not really help clear the waters there.",
+      "publishedAt": "2026-07-12"
+    },
     {
       "id": "release-and-happy-4th",
       "category": "Update",
