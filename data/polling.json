@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-11T11:20:36.782Z",
+  "updatedAt": "2026-07-13T12:43:54.386Z",
   "genericBallot": {
     "average": {
-      "democrats": 48,
-      "republicans": 43.6
+      "democrats": 47.9,
+      "republicans": 43.5
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 47.6,
-        "republicans": 41.7,
+        "democrats": 47.5,
+        "republicans": 41.6,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
         "scrapeStatus": "live",
@@ -21,8 +21,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "democrats": 49.4,
-        "republicans": 43.8,
+        "democrats": 49.1,
+        "republicans": 43.5,
         "included": true,
         "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
         "scrapeStatus": "live",
@@ -32,8 +32,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "democrats": 48.1,
-        "republicans": 41.8,
+        "democrats": 47.9,
+        "republicans": 41.6,
         "included": true,
         "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
         "scrapeStatus": "live",
@@ -76,7 +76,7 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 38.7,
+      "approve": 38.8,
       "disapprove": 58
     },
     "sources": [
@@ -85,7 +85,7 @@
         "name": "VoteHub",
         "shortName": "VoteHub",
         "approve": 40.8,
-        "disapprove": 55.5,
+        "disapprove": 55.4,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
         "scrapeStatus": "live",
@@ -106,7 +106,7 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "approve": 39.7,
+        "approve": 40.1,
         "disapprove": 56.5,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
