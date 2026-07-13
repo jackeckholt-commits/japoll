@@ -7,7 +7,7 @@
 <meta name="robots" content="noindex,nofollow"/>
 <title>Japoll Editor</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-<link href="admin.css?v=20260704-2" rel="stylesheet"/>
+<link href="admin.css?v=20260712-4" rel="stylesheet"/>
 </head>
 <body>
 <header class="admin-header">
@@ -91,6 +91,11 @@
         <span class="step-number">3</span>
         <div><span class="eyebrow">Your voice on Japoll</span><h2>Analysis posts</h2><p>Write full posts for the standalone Analysis page. Leave a blank line to start a new paragraph.</p></div>
       </div>
+      <div class="news-editor-heading">
+        <div><span class="eyebrow">Analysis sidebar</span><h3>Political news links</h3><p>News updates automatically each day. Add a link here whenever you want to include something yourself.</p></div>
+        <button class="secondary-button" id="add-news-button" type="button">+ Add news link</button>
+      </div>
+      <div class="news-editor-list" id="news-editors" aria-live="polite"></div>
       <div class="post-editor-toolbar">
         <p>Newest posts appear first based on their publication date.</p>
         <button class="secondary-button" id="add-post-button" type="button">+ Add new post</button>
@@ -125,6 +130,6 @@
   <button id="save-button" type="submit" form="editor-form" disabled>Publish changes</button>
 </div>
 
-<script src="js/admin.js?v=20260704-2"></script>
+<script src="js/admin.js?v=20260712-4"></script>
 </body>
 </html>

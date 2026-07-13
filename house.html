@@ -7,7 +7,7 @@
 <title>House Races | National Poll Tracker</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet"/>
 <link href="styles.css" rel="stylesheet"/>
-<link href="ui-polish.css?v=20260706-16" rel="stylesheet"/>
+<link href="ui-polish.css?v=20260713-20" rel="stylesheet"/>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -60,7 +60,7 @@
 <div class="house-bar-legend" data-house-legend hidden></div>
 </section>
 
-<section class="content-card race-map-card house-district-map-card" data-race-map="house">
+<section class="content-card race-map-card house-district-map-card" data-race-map="house" id="prediction-map">
 <div class="race-section-heading standard-section-heading">
 <span class="section-kicker">2026 district map</span>
 <h2>House prediction map</h2>
@@ -68,7 +68,7 @@
 </div>
 <a class="prediction-builder-button" href="https://yapms.com/app/usa/house/2026/blank" target="_blank" rel="noopener noreferrer">Make your own map — I’d love to see what you think <span aria-hidden="true">↗</span></a>
 <div class="race-map-layout house-map-layout">
-<div class="race-map-panel house-map-panel" data-race-map-svg>
+<div class="race-map-panel house-map-panel" data-race-map-svg id="interactive-map">
 <div class="map-loading">Loading 435 districts…</div>
 </div>
 <aside class="race-detail-panel" data-race-detail>
@@ -96,8 +96,8 @@
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 <script src="js/house-forecast.js"></script>
 <script src="js/race-maps.js"></script>
-<script src="js/editorial-content.js"></script>
+<script src="js/editorial-content.js?v=20260713-3"></script>
 <script src="js/site-nav.js"></script>
-<script src="js/dog-mascot.js?v=20260706-10"></script>
+<script src="js/dog-mascot.js?v=20260712-11"></script>
 </body>
 </html>

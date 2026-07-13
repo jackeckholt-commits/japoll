@@ -18,6 +18,26 @@
       "note": "Site prediction using available House projection data."
     }
   },
+  "newsArticles": [
+    {
+      "source": "Associated Press",
+      "title": "Maine Democrats plan convention to replace Platner: What to know about Senate race",
+      "url": "https://apnews.com/article/48d472ac4a043792032f3e3f5a33ef1b",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "source": "Associated Press",
+      "title": "Trump and Republicans return to communist attacks against Democrats ahead of the midterm elections",
+      "url": "https://apnews.com/article/5381c24e8eb4235ae993e812ad45ffbd",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "source": "Associated Press",
+      "title": "Mamdani successfully backs three primary candidates as he reshapes New York politics",
+      "url": "https://apnews.com/article/778697bd567bcf600b19ec64e2b4ee79",
+      "publishedAt": "2026-06-23"
+    }
+  ],
   "posts": [
     {
       "id": "maine-senate-changes-and-gallup-poll",

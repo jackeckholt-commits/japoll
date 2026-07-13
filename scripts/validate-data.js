@@ -180,6 +180,7 @@ const polling = readJson("data/polling.json");
 const history = readJson("data/polling-history.json");
 const races = readJson("data/races.json");
 const houseGeometry = readJson("assets/house-districts-2026.geojson");
+const news = readJson("data/news.json");
 readJson("data/adjustments.json");
 readJson("data/manual-overrides.json");
 
@@ -223,6 +224,17 @@ if (houseGeometry) {
   assert(features.length === 435, `house geometry: expected 435 features, found ${features.length}`);
   assert(new Set(features.map(feature => feature.properties?.id)).size === 435, "house geometry: district IDs must be unique");
   assert(new Set(features.map(feature => feature.properties?.state)).size === 50, "house geometry: expected all 50 states");
+}
+
+if (news) {
+  assert(Array.isArray(news.articles), "news.json: articles must be an array");
+  assert((news.articles || []).length >= 3, "news.json: expected at least 3 articles");
+  for (const article of news.articles || []) {
+    assert(article.source, "news.json: article source is missing");
+    assert(article.title, "news.json: article title is missing");
+    assert(/^https?:\/\//.test(article.url || ""), `news.json: invalid URL for ${article.title || "article"}`);
+    assert(!Number.isNaN(new Date(article.publishedAt).getTime()), `news.json: invalid date for ${article.title || "article"}`);
+  }
 }
 
 if (warnings.length) {

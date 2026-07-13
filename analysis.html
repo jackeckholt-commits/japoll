@@ -7,7 +7,7 @@
 <title>Analysis | National Poll Tracker</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet"/>
 <link href="styles.css" rel="stylesheet"/>
-<link href="ui-polish.css?v=20260706-16" rel="stylesheet"/>
+<link href="ui-polish.css?v=20260713-20" rel="stylesheet"/>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -28,8 +28,9 @@
 <a href="methodology.html#contact">Contact</a>
 </div>
 </nav>
-<section class="hero compact-page-hero">
-<span class="eyebrow">From Japoll</span>
+<section class="hero compact-page-hero analysis-cover-hero">
+<div class="analysis-cover-rule"><span>Japoll Editorial</span><span>Independent election coverage</span></div>
+<span class="eyebrow">Original writing and live political news</span>
 <h1>Analysis</h1>
 <p class="intro">Original posts, race updates, and a closer look at the political landscape.</p>
 </section>
@@ -41,15 +42,25 @@
 <span class="section-kicker">Latest writing</span>
 <h2>Posts and analysis</h2>
 </div>
+<div class="analysis-layout">
 <section class="analysis-post-feed" data-analysis-posts aria-live="polite">
 <article class="analysis-empty-state"><h2>Loading analysis…</h2></article>
 </section>
+<aside class="analysis-sidebar" aria-labelledby="recent-articles-title">
+<div class="analysis-sidebar-sticky">
+<span class="section-kicker">Keep reading</span>
+<h2 id="recent-articles-title">Recent political articles</h2>
+<p class="analysis-news-status" data-news-updated>Updated daily</p>
+<nav class="analysis-recent-list" data-analysis-recent aria-label="Recent political articles"></nav>
+</div>
+</aside>
+</div>
 </main>
 
 <footer class="site-footer"><div class="container footer-inner"><p>National Poll Tracker</p><p>State of the Race</p></div></footer>
 </div>
-<script src="js/editorial-content.js"></script>
+<script src="js/editorial-content.js?v=20260713-3"></script>
 <script src="js/site-nav.js"></script>
-<script src="js/dog-mascot.js?v=20260706-10"></script>
+<script src="js/dog-mascot.js?v=20260712-11"></script>
 </body>
 </html>

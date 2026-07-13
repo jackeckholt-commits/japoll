@@ -207,12 +207,12 @@ function createDogMascot() {
   image.height = 96;
   mascot.append(image);
   widget.append(speech, mascot);
-  const hero = document.querySelector(".hero");
   const content = document.querySelector("#main-content") || document.querySelector("main");
-  if (hero) {
-    hero.appendChild(widget);
-  } else if (content) {
-    content.prepend(widget);
+  if (content) {
+    const stage = document.createElement("div");
+    stage.className = "dog-stage container";
+    stage.appendChild(widget);
+    content.before(stage);
   } else {
     document.body.appendChild(widget);
   }

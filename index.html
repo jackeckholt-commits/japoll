@@ -8,7 +8,7 @@
 <title>National Poll Tracker</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet"/>
 <link href="styles.css" rel="stylesheet"/>
-<link href="ui-polish.css?v=20260706-16" rel="stylesheet"/>
+<link href="ui-polish.css?v=20260713-20" rel="stylesheet"/>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -40,7 +40,28 @@
 </div>
 </header>
 <main class="container" id="main-content">
-<section class="dashboard-grid">
+<section class="homepage-analysis-feature" data-homepage-analysis aria-labelledby="homepage-analysis-title" id="analysis-feature">
+<div class="homepage-analysis-masthead"><span>Japoll Editorial</span><span>Politics, polls, and predictions</span></div>
+<div class="homepage-analysis-feature-main">
+<span class="homepage-analysis-index" aria-hidden="true">01</span>
+<div class="homepage-analysis-label"><span>Original writing</span><strong>Analysis</strong></div>
+<div class="homepage-analysis-copy">
+<div class="homepage-analysis-meta"><span data-homepage-analysis-category>Analysis</span><time data-homepage-analysis-date></time></div>
+<h2 id="homepage-analysis-title" data-homepage-analysis-title>Latest analysis</h2>
+<p data-homepage-analysis-excerpt>Original posts, race updates, and a closer look at the political landscape.</p>
+<a class="homepage-analysis-link" data-homepage-analysis-link href="analysis.html">Read the analysis <span aria-hidden="true">→</span></a>
+</div>
+</div>
+<aside class="homepage-news-rail" aria-labelledby="homepage-news-title">
+<div class="homepage-news-heading">
+<span data-news-updated>Updated daily</span>
+<h3 id="homepage-news-title">Latest political news</h3>
+</div>
+<div class="homepage-news-list" data-homepage-news aria-live="polite"></div>
+<a class="homepage-news-footer" href="analysis.html">More analysis and news <span aria-hidden="true">→</span></a>
+</aside>
+</section>
+<section class="dashboard-grid" id="dashboard">
 <div class="homepage-card-guide homepage-card-guide-top"><span>Click the boxes below to see more</span></div><a class="card metric-card major-card generic-ballot clickable-card" href="national-averages.html">
 <h3>Generic Congressional Ballot</h3>
 <div class="metric-number-row generic-number-row homepage-values-only-row">
@@ -82,6 +103,7 @@
 <div class="race-mini-divider race-mini-divider-polished">/</div>
 <div class="race-mini-side rep-side race-mini-stat"><span class="race-mini-kicker">GOP</span><strong class="race-mini-value" data-editorial-rep>49</strong></div>
 </div>
+<div class="race-balance-bar" aria-hidden="true"><i class="dem" data-balance-dem></i><i class="rep" data-balance-rep></i><b></b></div>
 <span class="card-action" data-editorial-label>Projected Senate seats</span></a>
 <a class="card homepage-link-card clickable-card governor-summary-card" data-editorial-prediction="governor" href="governor.html"><h3>Governor Races</h3>
 <div class="race-mini-score race-mini-score-polished">
@@ -89,6 +111,7 @@
 <div class="race-mini-divider race-mini-divider-polished">/</div>
 <div class="race-mini-side rep-side race-mini-stat"><span class="race-mini-kicker">GOP</span><strong class="race-mini-value" data-editorial-rep>25</strong></div>
 </div>
+<div class="race-balance-bar" aria-hidden="true"><i class="dem" data-balance-dem></i><i class="rep" data-balance-rep></i><b></b></div>
 <span class="card-action" data-editorial-label>Projected governorships</span></a>
 <a class="card homepage-link-card clickable-card house-summary-card" data-editorial-prediction="house" href="house.html"><h3>House Races</h3>
 <div class="race-mini-score race-mini-score-polished house-mini-score">
@@ -105,16 +128,6 @@
 </div>
 <span class="card-action" data-editorial-label>Based on current averages</span></a>
 </section>
-<section class="homepage-analysis-preview" data-homepage-analysis aria-labelledby="homepage-analysis-title">
-<div class="homepage-analysis-label">
-<strong>Analysis</strong>
-</div>
-<div class="homepage-analysis-copy">
-<div class="homepage-analysis-meta"><span data-homepage-analysis-category>Analysis</span><time data-homepage-analysis-date></time></div>
-<h2 id="homepage-analysis-title" data-homepage-analysis-title>Latest analysis</h2>
-</div>
-<a class="homepage-analysis-link" data-homepage-analysis-link href="analysis.html">Read more <span aria-hidden="true">→</span></a>
-</section>
 </main>
 <footer class="site-footer">
 <div class="container footer-inner">
@@ -124,8 +137,8 @@
 </footer>
 </div>
 <script src="js/load-polling-data.js"></script>
-<script src="js/editorial-content.js?v=20260705-3"></script>
+<script src="js/editorial-content.js?v=20260713-3"></script>
 <script src="js/site-nav.js"></script>
-<script src="js/dog-mascot.js?v=20260706-10"></script>
+<script src="js/dog-mascot.js?v=20260712-11"></script>
 </body>
 </html>

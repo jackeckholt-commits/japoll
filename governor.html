@@ -8,7 +8,7 @@
 <title>Governor Races | National Poll Tracker</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet"/>
 <link href="styles.css" rel="stylesheet"/>
-<link href="ui-polish.css?v=20260706-16" rel="stylesheet"/>
+<link href="ui-polish.css?v=20260713-20" rel="stylesheet"/>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -38,12 +38,12 @@
 </div>
 </header>
 <main class="container page-content standard-page race-page" data-race-map="governor" id="main-content">
-<section class="content-card race-map-card">
+<section class="content-card race-map-card" id="prediction-map">
 <div class="race-section-heading standard-section-heading"><span class="section-kicker">Interactive/details section</span><h2>Governor prediction map</h2></div>
 <a class="prediction-builder-button" href="https://yapms.com/app/usa/governors/2026/blank" target="_blank" rel="noopener noreferrer">Make your own map — I’d love to see what you think <span aria-hidden="true">↗</span></a>
 <div data-race-bar=""></div>
 <div class="race-map-layout">
-<div class="race-map-panel" data-race-map-svg="">
+<div class="race-map-panel" data-race-map-svg="" id="interactive-map">
 <div class="map-loading">Loading map…</div>
 </div>
 <aside class="race-detail-panel" data-race-detail="">
@@ -61,6 +61,6 @@
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
 <script src="js/race-maps.js"></script>
 <script src="js/site-nav.js"></script>
-<script src="js/dog-mascot.js?v=20260706-10"></script>
+<script src="js/dog-mascot.js?v=20260712-11"></script>
 </body>
 </html>

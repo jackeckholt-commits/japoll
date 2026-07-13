@@ -38,6 +38,8 @@ const raceFilterStatus = document.querySelector("#race-filter-status");
 const houseEditorShortcut = document.querySelector("[data-open-race-tab=\"house\"]");
 const postEditors = document.querySelector("#post-editors");
 const addPostButton = document.querySelector("#add-post-button");
+const newsEditors = document.querySelector("#news-editors");
+const addNewsButton = document.querySelector("#add-news-button");
 
 function valueAtPath(object, path) {
   return path.split(".").reduce((value, key) => value?.[key], object);
@@ -122,6 +124,7 @@ async function loadCurrentData() {
     raceData = await racesResponse.json();
     populateForm();
     renderPostEditors();
+    renderNewsEditors();
     renderRaceEditors();
     syncAutoPredictionFields(true);
     validatePredictionTotals();
@@ -192,7 +195,7 @@ function slugify(value) {
     .replace(/^-+|-+$/g, "");
 }
 
-function createPostInput(field, value = "", options = {}) {
+function createContentInput(field, value = "", options = {}) {
   const input = options.multiline ? document.createElement("textarea") : document.createElement("input");
   input.dataset.postField = field;
   input.value = value || "";
@@ -200,6 +203,7 @@ function createPostInput(field, value = "", options = {}) {
   if (options.required) input.required = true;
   if (options.maxLength) input.maxLength = options.maxLength;
   if (options.rows) input.rows = options.rows;
+  if (options.placeholder) input.placeholder = options.placeholder;
   return input;
 }
 
@@ -225,11 +229,16 @@ function createPostEditor(post = {}, index = 0) {
   });
   heading.append(helper, remove);
 
-  const category = createPostInput("category", post.category || "Analysis", { maxLength: 50 });
-  const date = createPostInput("publishedAt", post.publishedAt || todayValue(), { type: "date", required: true });
-  const title = createPostInput("title", post.title, { required: true, maxLength: 140 });
-  const excerpt = createPostInput("excerpt", post.excerpt, { maxLength: 280 });
-  const body = createPostInput("body", post.body, { multiline: true, required: true, rows: 10 });
+  const category = createContentInput("category", post.category || "Analysis", { maxLength: 50 });
+  const date = createContentInput("publishedAt", post.publishedAt || todayValue(), { type: "date", required: true });
+  const title = createContentInput("title", post.title, { required: true, maxLength: 140 });
+  const excerpt = createContentInput("excerpt", post.excerpt, { maxLength: 280 });
+  const body = createContentInput("body", post.body, { multiline: true, required: true, rows: 10 });
+  const imageUrl = createContentInput("imageUrl", post.imageUrl, { maxLength: 500, placeholder: "assets/photo.jpg or https://..." });
+  const imageAlt = createContentInput("imageAlt", post.imageAlt, { maxLength: 180, placeholder: "Describe the image" });
+  const imageCaption = createContentInput("imageCaption", post.imageCaption, { maxLength: 240, placeholder: "Optional caption" });
+  const articleUrl = createContentInput("articleUrl", post.articleUrl, { maxLength: 500, placeholder: "https://..." });
+  const articleTitle = createContentInput("articleTitle", post.articleTitle, { maxLength: 180, placeholder: "Text visitors will see" });
 
   const titleLabel = makeLabel("Headline", title);
   titleLabel.className = "post-title-field";
@@ -237,6 +246,16 @@ function createPostEditor(post = {}, index = 0) {
   excerptLabel.className = "post-excerpt-field";
   const bodyLabel = makeLabel("Post", body);
   bodyLabel.className = "post-body-field";
+  const imageUrlLabel = makeLabel("Image URL or site file", imageUrl);
+  imageUrlLabel.className = "post-media-field";
+  const imageAltLabel = makeLabel("Image description", imageAlt);
+  imageAltLabel.className = "post-media-field";
+  const imageCaptionLabel = makeLabel("Image caption", imageCaption);
+  imageCaptionLabel.className = "post-media-field post-wide-field";
+  const articleUrlLabel = makeLabel("Related article URL", articleUrl);
+  articleUrlLabel.className = "post-article-field";
+  const articleTitleLabel = makeLabel("Related article title", articleTitle);
+  articleTitleLabel.className = "post-article-field";
 
   title.addEventListener("input", () => {
     legend.textContent = title.value.trim() || "New post";
@@ -249,7 +268,12 @@ function createPostEditor(post = {}, index = 0) {
     makeLabel("Publication date", date),
     titleLabel,
     excerptLabel,
-    bodyLabel
+    bodyLabel,
+    imageUrlLabel,
+    imageAltLabel,
+    imageCaptionLabel,
+    articleUrlLabel,
+    articleTitleLabel
   );
   return fieldset;
 }
@@ -270,6 +294,61 @@ function addNewPost() {
   postEditors.prepend(editor);
   markDirty();
   editor.querySelector('[data-post-field="title"]')?.focus();
+}
+
+function createNewsEditor(article = {}, index = 0) {
+  const fieldset = document.createElement("fieldset");
+  fieldset.className = "news-editor";
+  const legend = document.createElement("legend");
+  legend.textContent = article.source || `News link ${index + 1}`;
+  const remove = document.createElement("button");
+  remove.className = "remove-post-button";
+  remove.type = "button";
+  remove.textContent = "Remove link";
+  remove.addEventListener("click", () => {
+    fieldset.remove();
+    markDirty();
+  });
+
+  const source = createContentInput("source", article.source, { maxLength: 80, placeholder: "AP, Reuters, local newspaper..." });
+  const date = createContentInput("publishedAt", article.publishedAt || todayValue(), { type: "date", required: true });
+  const title = createContentInput("title", article.title, { maxLength: 180, required: true });
+  const url = createContentInput("url", article.url, { maxLength: 500, required: true, placeholder: "https://..." });
+  [source, date, title, url].forEach(input => {
+    input.dataset.newsField = input.dataset.postField;
+    delete input.dataset.postField;
+  });
+  source.addEventListener("input", () => {
+    legend.textContent = source.value.trim() || "News link";
+  });
+
+  fieldset.append(
+    legend,
+    remove,
+    makeLabel("News source", source),
+    makeLabel("Publication date", date),
+    makeLabel("Headline", title),
+    makeLabel("Article URL", url)
+  );
+  return fieldset;
+}
+
+function renderNewsEditors() {
+  if (!newsEditors) return;
+  newsEditors.replaceChildren();
+  const articles = Array.isArray(editorialData.newsArticles) ? editorialData.newsArticles : [];
+  articles
+    .slice()
+    .sort((a, b) => String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")))
+    .forEach((article, index) => newsEditors.appendChild(createNewsEditor(article, index)));
+}
+
+function addNewsArticle() {
+  if (!newsEditors) return;
+  const editor = createNewsEditor({ publishedAt: todayValue() }, newsEditors.children.length);
+  newsEditors.prepend(editor);
+  markDirty();
+  editor.querySelector('[data-news-field="source"]')?.focus();
 }
 
 function createRaceRow(type, race) {
@@ -418,6 +497,20 @@ function collectEditorialData() {
       title: read("title"),
       excerpt: read("excerpt"),
       body: read("body"),
+      imageUrl: read("imageUrl"),
+      imageAlt: read("imageAlt"),
+      imageCaption: read("imageCaption"),
+      articleUrl: read("articleUrl"),
+      articleTitle: read("articleTitle"),
+      publishedAt: read("publishedAt") || todayValue()
+    };
+  });
+  next.newsArticles = Array.from(document.querySelectorAll(".news-editor")).map(editor => {
+    const read = field => editor.querySelector(`[data-news-field="${field}"]`)?.value.trim() || "";
+    return {
+      source: read("source"),
+      title: read("title"),
+      url: read("url"),
       publishedAt: read("publishedAt") || todayValue()
     };
   });
@@ -567,7 +660,7 @@ tokenInput.addEventListener("keydown", event => {
 });
 form.addEventListener("submit", publishChanges);
 form.addEventListener("input", event => {
-  if (event.target.matches("[data-field], [data-post-field], [data-race-rating]")) {
+  if (event.target.matches("[data-field], [data-post-field], [data-news-field], [data-race-rating]")) {
     if (event.target.matches('[data-race-rating][data-map="senate"], [data-race-rating][data-map="governor"]')) {
       syncAutoPredictionFields(true);
     }
@@ -576,6 +669,7 @@ form.addEventListener("input", event => {
   }
 });
 addPostButton?.addEventListener("click", addNewPost);
+addNewsButton?.addEventListener("click", addNewsArticle);
 document.querySelectorAll("[data-race-tab]").forEach(button => {
   button.addEventListener("click", () => selectRaceTab(button.dataset.raceTab));
 });
