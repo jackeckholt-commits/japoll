@@ -7,7 +7,9 @@ const source = {
   name: "CNN",
   shortName: "CNN",
   urls: {
-    generic: "https://www.cnn.com/polling/generic-ballot-poll-of-polls",
+    // CNN's old Poll of Polls page is still pinned to the 2022 midterms.
+    // This is CNN/SSRS's most recent 2026 generic-ballot release instead.
+    generic: "https://www.cnn.com/2026/05/12/politics/cnn-poll-midterms-affordability-politics-impact",
     approval: "https://www.cnn.com/polling/approval/trump-cnn-poll-of-polls"
   }
 };
@@ -72,6 +74,20 @@ function firstMatchingPair(text, patterns, reverseIndexes = new Set()) {
 
 function extractGeneric(text) {
   const cleanText = normalizeText(text);
+
+  // Current-cycle CNN/SSRS release wording:
+  // "45% saying they'd support a Democratic candidate for Congress,
+  //  42% a Republican candidate"
+  const currentCycle = cleanText.match(
+    /(\d{1,2}(?:\.\d+)?)\s*%\s+saying\s+they(?:'|’)?d\s+support\s+(?:a\s+)?Democratic\s+candidate(?:\s+for\s+Congress)?[\s,;–-]+(\d{1,2}(?:\.\d+)?)\s*%\s+(?:a\s+)?Republican\s+candidate/i
+  );
+
+  if (currentCycle) {
+    return {
+      democrats: Number(currentCycle[1]),
+      republicans: Number(currentCycle[2])
+    };
+  }
 
   // CNN card currently exposes:
   // Democrats 47% ... Republicans 49%
@@ -144,7 +160,7 @@ async function scrapeGeneric(fallback) {
       republicans: validation.ok ? values.republicans : null,
       included: validation.ok,
       scrapeStatus: validation.ok ? "live" : "fallback",
-      scrapeNote: validation.ok ? "Validated live scrape" : `Rejected live scrape: ${validation.reason}`
+      scrapeNote: validation.ok ? "Validated 2026 CNN/SSRS generic-ballot release" : `Rejected live scrape: ${validation.reason}`
     }, fallback);
   } catch (error) {
     console.warn(`[${source.shortName}] Generic ballot scrape failed. Using fallback: ${error.message}`);

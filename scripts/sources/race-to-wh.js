@@ -1,4 +1,4 @@
-import { browserSnapshot, getTextFromUrl } from "../lib/fetch-page.js";
+import { browserSnapshot, fetchPage, getTextFromUrl } from "../lib/fetch-page.js";
 import { mergeWithFallback, valuesLookUsable } from "../lib/extract.js";
 import { saveScrapeDebug } from "../lib/debug.js";
 
@@ -22,7 +22,16 @@ function normalizeText(text) {
 
 async function getSnapshotText(url, debugName) {
   try {
-    const snapshot = await browserSnapshot(url, {
+    // Race to WH keeps the live values in a lazy-loaded Infogram iframe.
+    // Scraping the page shell alone misses that iframe's data and falsely
+    // reports a fallback, so load the chart itself when it is available.
+    const pageHtml = await fetchPage(url);
+    const embedMatch = pageHtml.match(/<iframe[^>]+src="([^"]*e\.infogram\.com[^"]*)"/i);
+    const chartUrl = embedMatch
+      ? embedMatch[1].replaceAll("&amp;", "&")
+      : url;
+
+    const snapshot = await browserSnapshot(chartUrl, {
       waitAfterLoad: 8000,
       waitForTextTimeout: 12000,
       timeout: 32000
@@ -31,6 +40,8 @@ async function getSnapshotText(url, debugName) {
     const combined = [
       "=== VISIBLE TEXT ===",
       snapshot.text,
+      "=== CHART URL ===",
+      chartUrl,
       "=== HTML ===",
       snapshot.html,
       "=== SCRIPTS ===",
@@ -73,8 +84,20 @@ function firstMatchingPair(text, patterns, reverseIndexes = new Set()) {
 function extractGeneric(text) {
   const cleanText = normalizeText(text);
 
-  // Race to WH card currently exposes:
-  // Generic D: 48.1% ... Generic R: 41.2%
+  // Race to WH's trend-line accessibility text exposes:
+  // 45.7 Generic D ... 42.3 Generic R
+  const chartLabels = cleanText.match(
+    /Trend\s+Line\s+Generic\s+D\s+Generic\s+R[\s\S]{0,700}?(\d{1,2}(?:\.\d+)?)\s*%\s+Generic\s+D[\s\S]{0,120}?(\d{1,2}(?:\.\d+)?)\s*%\s+Generic\s+R/i
+  );
+
+  if (chartLabels) {
+    return {
+      democrats: Number(chartLabels[1]),
+      republicans: Number(chartLabels[2])
+    };
+  }
+
+  // Older chart layout: Generic D: 48.1% ... Generic R: 41.2%
   const genericLabels = cleanText.match(
     /Generic\s+D\s*:?\s*(\d{1,2}(?:\.\d+)?)\s*%[\s\S]{0,500}?Generic\s+R\s*:?\s*(\d{1,2}(?:\.\d+)?)\s*%/i
   );
