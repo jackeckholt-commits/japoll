@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-07-16T21:46:38.682Z",
+  "generatedAt": "2026-07-17T03:52:02.021Z",
   "articles": [
     {
-      "source": "NPR",
-      "title": "White House says ICE traffic stops will continue after deadly shootings",
-      "url": "https://www.npr.org/2026/07/16/nx-s1-5896396/ice-traffic-stops-shootings",
-      "publishedAt": "2026-07-16T21:31:23.000Z"
+      "source": "The New York Times",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-07-17T02:50:18.000Z"
     },
     {
       "source": "NPR",
-      "title": "After years of false claims on voting, Trump to give an address on election integrity",
-      "url": "https://www.npr.org/2026/07/16/nx-s1-5896448/trump-election-address",
-      "publishedAt": "2026-07-16T20:50:26.000Z"
+      "title": "An analysis of President Trump's address",
+      "url": "https://www.npr.org/2026/07/16/nx-s1-5896487/an-analysis-of-president-trumps-address",
+      "publishedAt": "2026-07-17T01:38:04.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "2026 Midterm Primary Election Calendar",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGNpVG94WTFTeEtVaGJwSEZEMEQ2UEpSS1pJd2p4R3FkRVBwVU9vOUFnSmxRMkNQRHd6eUxJeXFPZjZYdVlCc2tjS1ZsWTNRN2thOEZQWmxYN2VtUDFHZTNQaXlRTzFOZC1VV0JIVThnbk5PQlhZN0RNZG9URVpwY2E5cUJsQzRF?oc=5",
+      "publishedAt": "2026-07-17T00:52:38.000Z"
+    },
+    {
+      "source": "Spectrum Bay News 9",
+      "title": "Deep dive into the Senate race; USDA takes on hospital food",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcFRKeUk4YlFFakZ0bDhHOTdrczBIeWNQWVVTYnBHbndhYVd2UGhrNUdPSENKNy1sd2RlcEw2Sm5VdXhhYkp5ZGxwSHlXUjNsaVh6TGd2bC1hZkZlLUtCcDh1SGVzcTh1OWFtck5RUWVkaUFyQXUzbVlwSnhwODlmYlkwVFNKNExfdU5HS2ZiRzZIaGtwOU9yYXROOG1NY2VsOE1RcTY3WDMxOGFENXQ5d1U4YXZEd09hSGpDemVVaw?oc=5",
+      "publishedAt": "2026-07-17T00:26:10.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Trump's teleprompter operator on unpaid leave over alleged Kalshi bets on Trump speeches",
-      "url": "https://www.pbs.org/newshour/politics/trumps-teleprompter-operator-on-unpaid-leave-over-alleged-kalshi-bets-on-trump-speeches",
-      "publishedAt": "2026-07-16T20:21:52.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "PolitiFact: Live fact-checking Trump's address from the White House",
-      "url": "https://www.pbs.org/newshour/politics/politifact-live-fact-checking-trumps-address-from-the-white-house",
-      "publishedAt": "2026-07-16T20:15:17.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "President Trump to deliver prime time address on elections, though details are slim",
-      "url": "https://www.npr.org/2026/07/16/nx-s1-5896195/president-trump-to-deliver-prime-time-address-on-elections-though-details-are-slim",
-      "publishedAt": "2026-07-16T20:12:37.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "America already tried permanent daylight saving time. Could it work now?",
-      "url": "https://www.pbs.org/newshour/nation/america-already-tried-permanent-daylight-saving-time-could-it-work-now",
-      "publishedAt": "2026-07-16T20:09:29.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Trump to address nation from White House",
-      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-to-address-nation-from-white-house",
-      "publishedAt": "2026-07-16T20:07:22.000Z"
-    },
-    {
-      "source": "Time Magazine",
-      "title": "New Polling After McMorrow’s Exit Shakes Up Michigan Senate Race",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS2x4YXAtbkVZUFFWT3RXUUNveXU3WUI1Z2RuaFM1TjZTNTgtazd0MWdIOU84MUFLbHlWNEJVXzVIX2d1ZHdTcG5xcmJSRVVwdGp3YjhjbGF1eUY2VnRJY3BSTzNMblJJRW4yejF0dGpwQUszMFFQM2F6b0luZ25wQWhpQ2phamN1MDZNVWltbjc1dVFWSkVxdDliWk9aQ0Zzc3c?oc=5",
-      "publishedAt": "2026-07-16T19:57:21.000Z"
-    },
-    {
-      "source": "OpenSecrets",
-      "title": "Entering the home stretch, which House and Senate candidates lead the money race?",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbGJGcENGa3Z1NlZpWksxd3R4QUUyWTFtRDExbEg5ODEzdXFXZE5mdkZDa2FfZzJDYjduSzVacDlldE5BZWt0TC1ialhrWjlhNVhUc0VhQlpnNGpONHhRSWRCMWh6aEVOeWRQa2dkNEl3ZFdtT2xMZWJzUXJtM09xUGJzdndOWXJkWGNodkpIVFRUVW10ODdmOU1R?oc=5",
-      "publishedAt": "2026-07-16T19:50:58.000Z"
+      "title": "Ava DuVernay announces '14th,' new documentary on birthright amendment contested by Trump",
+      "url": "https://www.pbs.org/newshour/arts/ava-duvernay-announces-14th-new-documentary-on-birthright-amendment-contested-by-trump",
+      "publishedAt": "2026-07-17T00:13:22.000Z"
     },
     {
       "source": "Tampa Bay Times",
       "title": "Florida governor and Senate races: primary election guide 2026",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeUVKUkJnZFhiMzhOR2tjblBKTUNvYUZYZHhtWUEzT1AxcUs1MDJrV1ZRSDd1Tzg4aG00VmZEWGNGakVCXzRVVkxwYTF5OUhaZjM0amhYeFJ6Wkk2M3VkcDRVbXJqRzdnMjB5QXRjYlBRaGdoZTAtTkp0ZVVIanpNVG45ZWR4dUswUVlHTm1FeWt0RXZUQmJtczRsQTF4aHpNOVdVLTNKeS1PM1ZsaFM0LXBTaVR6R3c?oc=5",
-      "publishedAt": "2026-07-16T17:59:50.000Z"
+      "publishedAt": "2026-07-16T23:17:27.000Z"
+    },
+    {
+      "source": "capradio.org",
+      "title": "Where does the party go next? Matsui, Vang race for Congress reflects broader Democratic Party debate",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQ3B5WGhwV29MRnVmLXhNWVAtQWtyUDBjOVQ3Z1o4ZnM2NXMzaURndlVzRVdvcEdCY0tieDJ5QlZKQjNIVzY5U3NLcVZPMmlJNE9YSDdZaGt3RGVMYzVOaE5nNTQzbW02eUFVc1RDa0VUdVBJUE5naU1EaVhKelRsT1d0OGZtRVR4R2xmYjZ6NXdHOHhnbENQbEx3WS1xRDFwRXgxRDNSb0h3dzFvTW5yN29SOHdWYy1vUld1ak05T1FmWTl0SkNZQkR6QnJDU0tXMlJ0WlVpbkZjWE8zLWc?oc=5",
+      "publishedAt": "2026-07-16T22:55:59.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "What to expect from Trump's address as he revisits 2020 election loss",
+      "url": "https://www.pbs.org/newshour/show/what-to-expect-from-trumps-address-as-he-revisits-2020-election-loss",
+      "publishedAt": "2026-07-16T22:55:22.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Election officials in Arizona's largest county agree on how to oversee vote, ending legal battle",
+      "url": "https://www.pbs.org/newshour/politics/election-officials-in-arizonas-largest-county-agree-on-how-to-oversee-vote-ending-legal-battle",
+      "publishedAt": "2026-07-16T22:54:48.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump setting stage to declare emergency around midterms, former White House attorney says",
+      "url": "https://www.pbs.org/newshour/show/trump-setting-stage-to-declare-emergency-around-midterms-former-white-house-attorney-says",
+      "publishedAt": "2026-07-16T22:52:35.000Z"
     }
   ]
 }
