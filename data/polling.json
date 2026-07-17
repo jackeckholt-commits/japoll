@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-16T15:39:04.943Z",
+  "updatedAt": "2026-07-17T11:41:34.628Z",
   "genericBallot": {
     "average": {
-      "democrats": 47.5,
+      "democrats": 47.3,
       "republicans": 42.3
     },
     "sources": [
@@ -10,8 +10,8 @@
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 47.6,
-        "republicans": 42.2,
+        "democrats": 47.3,
+        "republicans": 42.1,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
         "scrapeStatus": "live",
@@ -54,8 +54,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "democrats": 47.6,
-        "republicans": 41.8,
+        "democrats": 47.3,
+        "republicans": 41.6,
         "included": true,
         "url": "https://www.racetothewh.com/polls/genericballot",
         "scrapeStatus": "live",
@@ -76,7 +76,7 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 38.8,
+      "approve": 38.5,
       "disapprove": 58.2
     },
     "sources": [
@@ -84,8 +84,8 @@
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "approve": 40.9,
-        "disapprove": 55.7,
+        "approve": 40.5,
+        "disapprove": 56.1,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
         "scrapeStatus": "live",
@@ -117,8 +117,8 @@
         "key": "cnn",
         "name": "CNN",
         "shortName": "CNN",
-        "approve": 37,
-        "disapprove": 62,
+        "approve": 36,
+        "disapprove": 61,
         "included": true,
         "url": "https://www.cnn.com/polling/approval/trump-cnn-poll-of-polls",
         "scrapeStatus": "live",
@@ -128,8 +128,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "approve": 38.9,
-        "disapprove": 57.7,
+        "approve": 38.6,
+        "disapprove": 58.3,
         "included": true,
         "url": "https://www.racetothewh.com/trump",
         "scrapeStatus": "live",
