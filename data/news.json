@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-07-17T03:52:02.021Z",
+  "generatedAt": "2026-07-17T07:04:04.686Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Rubio convenes countries on left-wing political violence",
+      "url": "https://www.npr.org/2026/07/17/g-s1-134148/rubio-convene-countries-on-left-wing-political-violence",
+      "publishedAt": "2026-07-17T06:15:11.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "Tracking Competitive Races in the House and Senate",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-07-17T02:50:18.000Z"
+      "publishedAt": "2026-07-17T04:20:18.000Z"
+    },
+    {
+      "source": "Maine Morning Star",
+      "title": "Immigration dominates first Maine U.S. Senate debate days after fatal shooting",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdkRUMEpjQ0J1cUNfYXB4UWE2Zi1OZWFTelAzUjhHUXR0OEo4UE9PNVR6dF9TcnZrSWxmYzEzMU4teGNBWFNrU1UtbnU5TEFoUnRJOWV3aUEtU2wyMEJDdWM4MVJHSC1zSjk1NWNLTVo2YXkzdGl6SExtUThsc2pnekhueUhEQjlRNXlEaVVrVVlSNW9fMkFCUzJfODRPZm5pajd1TXJNQ0ZvQzRfeHN0dTM3OFphbFNYTWc?oc=5",
+      "publishedAt": "2026-07-17T02:13:45.000Z"
     },
     {
       "source": "NPR",
@@ -23,19 +35,13 @@
       "source": "Spectrum Bay News 9",
       "title": "Deep dive into the Senate race; USDA takes on hospital food",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcFRKeUk4YlFFakZ0bDhHOTdrczBIeWNQWVVTYnBHbndhYVd2UGhrNUdPSENKNy1sd2RlcEw2Sm5VdXhhYkp5ZGxwSHlXUjNsaVh6TGd2bC1hZkZlLUtCcDh1SGVzcTh1OWFtck5RUWVkaUFyQXUzbVlwSnhwODlmYlkwVFNKNExfdU5HS2ZiRzZIaGtwOU9yYXROOG1NY2VsOE1RcTY3WDMxOGFENXQ5d1U4YXZEd09hSGpDemVVaw?oc=5",
-      "publishedAt": "2026-07-17T00:26:10.000Z"
+      "publishedAt": "2026-07-17T00:30:00.000Z"
     },
     {
       "source": "PBS NewsHour",
       "title": "Ava DuVernay announces '14th,' new documentary on birthright amendment contested by Trump",
       "url": "https://www.pbs.org/newshour/arts/ava-duvernay-announces-14th-new-documentary-on-birthright-amendment-contested-by-trump",
       "publishedAt": "2026-07-17T00:13:22.000Z"
-    },
-    {
-      "source": "Tampa Bay Times",
-      "title": "Florida governor and Senate races: primary election guide 2026",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeUVKUkJnZFhiMzhOR2tjblBKTUNvYUZYZHhtWUEzT1AxcUs1MDJrV1ZRSDd1Tzg4aG00VmZEWGNGakVCXzRVVkxwYTF5OUhaZjM0amhYeFJ6Wkk2M3VkcDRVbXJqRzdnMjB5QXRjYlBRaGdoZTAtTkp0ZVVIanpNVG45ZWR4dUswUVlHTm1FeWt0RXZUQmJtczRsQTF4aHpNOVdVLTNKeS1PM1ZsaFM0LXBTaVR6R3c?oc=5",
-      "publishedAt": "2026-07-16T23:17:27.000Z"
     },
     {
       "source": "capradio.org",
@@ -54,12 +60,6 @@
       "title": "Election officials in Arizona's largest county agree on how to oversee vote, ending legal battle",
       "url": "https://www.pbs.org/newshour/politics/election-officials-in-arizonas-largest-county-agree-on-how-to-oversee-vote-ending-legal-battle",
       "publishedAt": "2026-07-16T22:54:48.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump setting stage to declare emergency around midterms, former White House attorney says",
-      "url": "https://www.pbs.org/newshour/show/trump-setting-stage-to-declare-emergency-around-midterms-former-white-house-attorney-says",
-      "publishedAt": "2026-07-16T22:52:35.000Z"
     }
   ]
 }
