@@ -1,53 +1,65 @@
 {
-  "generatedAt": "2026-07-17T21:35:09.767Z",
+  "generatedAt": "2026-07-18T03:45:43.743Z",
   "articles": [
     {
+      "source": "The New York Times",
+      "title": "Sara Rodriguez, Lieutenant Governor, Quits Wisconsin Governor’s Race",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOWZ1NjJjRFoxN21iUWMyWTdhTW1acVdYTXFYMldxdnNxN3RXQ2d4UWtGZHNmY3gyWGNmU2p2ZjNBMWM1YjIybVFmNDhYSTN6MmgtbkV1dGJPU3I2bG52QmI2bnEyNjNxa25VZzJvR2ZxRTFBZTJiVFZ3dE5QeWgyckFJNXhlV1dSOHZwZ1dn?oc=5",
+      "publishedAt": "2026-07-18T01:17:10.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "2026 Midterm Primary Election Calendar",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGNpVG94WTFTeEtVaGJwSEZEMEQ2UEpSS1pJd2p4R3FkRVBwVU9vOUFnSmxRMkNQRHd6eUxJeXFPZjZYdVlCc2tjS1ZsWTNRN2thOEZQWmxYN2VtUDFHZTNQaXlRTzFOZC1VV0JIVThnbk5PQlhZN0RNZG9URVpwY2E5cUJsQzRF?oc=5",
+      "publishedAt": "2026-07-18T00:49:03.000Z"
+    },
+    {
+      "source": "Alaska's News Source",
+      "title": "Election 2026: Democratic challenger backs out of House race ahead of primary",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObHpCMzBULV9obV9vUE9waElWQnFwN1ZzMVMwUVBNR2Z1bm9vWHpiUFh3RjVfMVFFaFQ0Sm1ya2UtOUlRc1YySzctTUR6MGZPdmh1TDVrRHhJZHZXeV9PU0g0cU55SEJhVFREWEdKZU80eEp1cVRZSE5PNmM3bk95Z25wWGM4OGMwbnlsamwzQ3hPU2FqUU00Y3pwZ2d5bGM1X3dBNmtEVVhycmR2bTB6N29qa2tGX0XSAcsBQVVfeXFMUHdSVktQdzhGRW40NUkzLTY5R3Q1Vm5BbkZkeDJ3WVppWWt3M3VSM2w3UmpTM3luRVZKWDZ1eW5uVnhzVU5pZllRM1k1bTBROEdIc2JaUEJHUi1pTWpmSHNJd281ckdsWFlibnBSTnJ4N2pqV0J0VWpFbUNRRUIySDY4V0czc25DSlNjcFhOa2F6clI4QXAteXAtMy1Eai0tVm1hVE5BSi1PcXpocWJzSy10b1hqa2NxT3N4ZUFwYVNGTWxkLVBsNmZvVWs?oc=5",
+      "publishedAt": "2026-07-18T00:46:00.000Z"
+    },
+    {
+      "source": "Milwaukee Journal Sentinel",
+      "title": "Who's running for governor in Wisconsin now after major shakeups?",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQU5Xazh5TVh1RDFfZUpaXzVhejJXRXd0SlljRUxWeHZud1BxUzNIMF9zamZydWRia2dHbFNGQnBSdFZxeFJfemlUbm1ETDE3RkNJQTJyampETGVNQ3FmVWFFZ1YxdkdobDVpazlKamJDMlpHSzFBNkJ3RC15YnJvV3N6SXpFSnVRc3FIcElnYWdzeTd5UWZjYW9GaWg5WnZ1OTk4QU85SWtsY216eFBtQWNDR0g1emY0ZWdKVVYxVS1WYUtw?oc=5",
+      "publishedAt": "2026-07-18T00:18:00.000Z"
+    },
+    {
+      "source": "Washington State Standard",
+      "title": "Voter Guide: 2026 Washington state primary election • Washington",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY1ZqT01SeXdtRDZESm5ZNDJ2SXVncERoekRWY2d6a3hpQVEtdDU3NEo4NG16Q2JOOUNiUF91M1NKMHE5UE4wNTNaUmlNS2hhWFNmUWM1XzJKUXpmSDBGZTFBSFlIek1BOWZOMGlXMHpmSVE4cDQtYmNpOEhvTTNvb2VSRFlEZGhNYlVkellqVVlYUQ?oc=5",
+      "publishedAt": "2026-07-18T00:16:48.000Z"
+    },
+    {
       "source": "PBS NewsHour",
-      "title": "Trump administration races to rebuild tariff wall knocked down by Supreme Court",
-      "url": "https://www.pbs.org/newshour/politics/trump-administration-races-to-rebuild-tariff-wall-knocked-down-by-supreme-court",
-      "publishedAt": "2026-07-17T21:23:20.000Z"
+      "title": "Trump says these documents prove his false claims of election fraud. Here's what they really say",
+      "url": "https://www.pbs.org/newshour/politics/trump-says-these-documents-prove-his-false-claims-of-election-fraud-heres-what-they-really-say",
+      "publishedAt": "2026-07-17T23:08:36.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump tries to undermine trust in elections, but documents don't support his claims",
+      "url": "https://www.pbs.org/newshour/show/trump-tries-to-undermine-trust-in-elections-but-documents-dont-support-his-claims",
+      "publishedAt": "2026-07-17T22:55:22.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Former intelligence official weighs Trump's election security allegations",
+      "url": "https://www.pbs.org/newshour/show/former-intelligence-official-weighs-trumps-election-security-allegations",
+      "publishedAt": "2026-07-17T22:52:53.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Battleground state election officials respond to Trump's efforts to reshape voting process",
+      "url": "https://www.pbs.org/newshour/show/battleground-state-election-officials-respond-to-trumps-efforts-to-reshape-voting-process",
+      "publishedAt": "2026-07-17T22:50:20.000Z"
     },
     {
       "source": "NPR",
       "title": "As competitive Senate map emerges, both Democrats and Republicans see a path to win",
       "url": "https://www.npr.org/2026/07/17/nx-s1-5875199/as-competitive-senate-map-emerges-both-democrats-and-republicans-see-a-path-to-win",
       "publishedAt": "2026-07-17T20:43:38.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump urges Darline Graham to run for full Senate term as funeral planned for her brother",
-      "url": "https://www.pbs.org/newshour/politics/trump-urges-darline-graham-to-run-for-full-senate-term-as-funeral-planned-for-her-brother",
-      "publishedAt": "2026-07-17T20:30:54.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Fact-checking Trump's address on China, the 2020 election and what documents show",
-      "url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-address-on-china-the-2020-election-and-what-documents-show",
-      "publishedAt": "2026-07-17T20:20:23.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump promised evidence of election fraud. Experts say there was none",
-      "url": "https://www.npr.org/2026/07/17/nx-s1-5897446/trump-promised-evidence-of-election-fraud-experts-say-there-was-none",
-      "publishedAt": "2026-07-17T20:19:25.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "The new $1 Trump coin doesn't just buck norms. Experts say it also breaks laws",
-      "url": "https://www.npr.org/2026/07/17/nx-s1-5897380/trump-coin-face-laws-treasury-250",
-      "publishedAt": "2026-07-17T18:59:36.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump cites national security to stop offshore wind development. Here's what to know",
-      "url": "https://www.pbs.org/newshour/politics/trump-cites-national-security-to-stop-offshore-wind-development-heres-what-to-know",
-      "publishedAt": "2026-07-17T17:49:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Takeaways from Trump's primetime speech. And, at least 2 dead in major Texas flooding",
-      "url": "https://www.npr.org/2026/07/17/g-s1-134162/up-first-newsletter-trump-speech-illegal-voting-texas-flooding-wildfires-air-quality",
-      "publishedAt": "2026-07-17T11:27:01.000Z"
     }
   ]
 }
