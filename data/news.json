@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-07-19T10:15:54.473Z",
+  "generatedAt": "2026-07-19T14:12:36.569Z",
   "articles": [
     {
       "source": "NPR",
-      "title": "Cuban artist and dissident exiled from country after 5 years in prison arrives in US",
-      "url": "https://www.npr.org/2026/07/19/nx-s1-5899494/cuban-artist-exile-us",
-      "publishedAt": "2026-07-19T07:27:59.000Z"
+      "title": "Georgia official discusses Trump's claims about election security",
+      "url": "https://www.npr.org/2026/07/19/nx-s1-5896326/georgia-official-discusses-trumps-claims-about-election-security",
+      "publishedAt": "2026-07-19T13:06:58.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump said the election system is broken. What do swing voters make of the claim?",
+      "url": "https://www.npr.org/2026/07/19/nx-s1-5898445/trump-said-the-election-system-is-broken-what-do-swing-voters-make-of-the-claim",
+      "publishedAt": "2026-07-19T12:13:24.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "$600,000 for a presidential pardon? Inside the growing industry of clemency lobbying",
+      "url": "https://www.npr.org/2026/07/19/nx-s1-5896394/600-000-for-a-presidential-pardon-inside-the-growing-industry-of-clemency-lobbying",
+      "publishedAt": "2026-07-19T12:13:23.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Politics chat: How much faith can you have in the country's election systems?",
+      "url": "https://www.npr.org/2026/07/19/nx-s1-5890938/politics-chat-how-much-faith-can-you-have-in-the-countrys-election-systems",
+      "publishedAt": "2026-07-19T12:04:18.000Z"
     },
     {
       "source": "Politico",
@@ -29,7 +47,7 @@
       "source": "The New York Times",
       "title": "Cindy Burbank, Nebraska’s Democratic Senate Nominee, Files to Withdraw From Race",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPXzVIdFdMT3hmWnlaYmYzdVhaY0NROHZCSHJfcU5uYmhFcm9fdzVJSUxMMXpjeXFhVjM5Qk0wWVRaaXR3YjlhaUd3REktRmRGdW5XQlBwc3pPa0Zrdm01RTBKX3BmcklPeHBSNVFlVXpiVWpBQk1vWEp4YlpYNzFWa2hqSnVHbWwyT201VlJHUGNNaDlL?oc=5",
-      "publishedAt": "2026-07-18T19:25:16.000Z"
+      "publishedAt": "2026-07-18T20:57:47.000Z"
     },
     {
       "source": "NBC News",
@@ -38,28 +56,10 @@
       "publishedAt": "2026-07-18T19:20:39.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "U.S. cancels automatic protections for imperiled animals as critics warn of extinctions",
-      "url": "https://www.pbs.org/newshour/nation/u-s-cancels-automatic-protections-for-imperiled-animals-as-critics-warn-of-extinctions",
-      "publishedAt": "2026-07-18T18:43:58.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "David Crowley reenters battleground Wisconsin's Democratic governor primary with Gov. Evers' backing",
-      "url": "https://www.pbs.org/newshour/politics/david-crowley-reenters-battleground-wisconsins-democratic-governor-primary-with-gov-evers-backing",
-      "publishedAt": "2026-07-18T18:17:43.000Z"
-    },
-    {
-      "source": "The Washington Post",
-      "title": "Energized voters could be key to Democratic victories in midterms, poll finds",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS0tzbEZoWTllNXk5bmptNlNkY2d2bUo3OGpaWG5oUzYzbnR0ajVRX2IydU9BRUdkWGZhUzcweERnVWF1VnRwRTlxc3pIS1JWSzNkMk9rcUtiRUpmMmtyczFhQW1VZ3M5T2N1bm1RMURJcXcwY0NsMkdKYUd4dzVjN01aaGFIS2FWMWFBbUt1dGJzek5OaDJDajcxUDJNWUhKLUhYYS1IQ1U4dnZVbFRGanpXcjRkUnVGRnAxLQ?oc=5",
-      "publishedAt": "2026-07-18T16:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Week in Politics: Trump's speech; midterm elections; Todd Blanche and Jay Clayton",
-      "url": "https://www.npr.org/2026/07/18/nx-s1-5894907/week-in-politics-trumps-speech-midterm-elections-todd-blanche-and-jay-clayton",
-      "publishedAt": "2026-07-18T11:42:09.000Z"
+      "source": "The Guardian",
+      "title": "Republican lawmaker Ralph Norman to join race to succeed Lindsey Graham in South Carolina",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNek83aXJTUERzb1JXaXk3ZEpNcFJ1YTFJcjc5NVBoSjZaakcxeV9wVUp3Nkd5MDZtX08tYUt1cEdlWHFaME5sa2ZXVzMtSndyNC1Jd2M0S0tyNG9KVFUwMDBRREV3eUtrTnlhQjZnNExWcnp0NWdoWWF3V20yTmlCTVFNazJsWlM5TnhnXzJ3TW9wY1JXaVVvUDh5SFZKNl81?oc=5",
+      "publishedAt": "2026-07-18T19:14:00.000Z"
     }
   ]
 }
