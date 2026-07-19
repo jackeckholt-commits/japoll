@@ -1,11 +1,17 @@
 {
-  "generatedAt": "2026-07-19T07:16:10.633Z",
+  "generatedAt": "2026-07-19T10:15:54.473Z",
   "articles": [
     {
-      "source": "Wisconsin Examiner",
-      "title": "Milwaukee County Exec. David Crowley reenters Wisconsin governor’s race with Gov. Evers' endorsement",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVEdkOUJNQVE4MVo4Znlmb05jcHloSGF3ZjBFZGxsbF9NVVNJY2xOeXQ1enVQaEYxdk1FNXZUWGhJaEZZOERPRHNFTm1nN09VdDVMcDh2YjNVb1BqZDVkbERqcnprYk1KUmpTOEJhQ1pFcnNqdG9CZ191YU5HeHRObnVKWHZKb29aNUJUV1g4MjJnUjh1emF2SWgtNHBtZw?oc=5",
-      "publishedAt": "2026-07-19T00:33:32.000Z"
+      "source": "NPR",
+      "title": "Cuban artist and dissident exiled from country after 5 years in prison arrives in US",
+      "url": "https://www.npr.org/2026/07/19/nx-s1-5899494/cuban-artist-exile-us",
+      "publishedAt": "2026-07-19T07:27:59.000Z"
+    },
+    {
+      "source": "Politico",
+      "title": "Troy Jackson jumps out to big lead in race to replace Graham Platner in Maine",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSThIdW5lelhDZDBKUGdmMm5vNndQVTVrZFAyZWF5eVc5VFN3aDVwelBLS1BZVkpjVXJ0eTdndVJJSVJoVmp1eFBXb05IbkpjaDRFZ3RkbG9UWEt2a0luS2JYdTNxZmtHY1lQaU4xQ1lvbDFxMC1tU1FaVXVLZ2NzTkJocjZBcmtlM0hF?oc=5",
+      "publishedAt": "2026-07-19T01:05:00.000Z"
     },
     {
       "source": "Maine Morning Star",
@@ -54,12 +60,6 @@
       "title": "Week in Politics: Trump's speech; midterm elections; Todd Blanche and Jay Clayton",
       "url": "https://www.npr.org/2026/07/18/nx-s1-5894907/week-in-politics-trumps-speech-midterm-elections-todd-blanche-and-jay-clayton",
       "publishedAt": "2026-07-18T11:42:09.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump says these documents prove his false claims of election fraud. Here's what they really say",
-      "url": "https://www.pbs.org/newshour/politics/trump-says-these-documents-prove-his-false-claims-of-election-fraud-heres-what-they-really-say",
-      "publishedAt": "2026-07-17T23:08:36.000Z"
     }
   ]
 }
