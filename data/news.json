@@ -1,41 +1,47 @@
 {
-  "generatedAt": "2026-07-20T18:33:08.051Z",
+  "generatedAt": "2026-07-20T21:49:09.284Z",
   "articles": [
+    {
+      "source": "Politico",
+      "title": "Nancy Mace won’t run for Lindsey Graham’s Senate seat",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOclNtLTlVU1VmVXg1OVYzc0RFOERYNnZhUUpaVXF3dEJsaHRsRWwwWkFEOVh3UmRZMHVVNFhmRUc3VGVwcXl2T1JwSzB4X1FfWWZPczdQMWFhVW44Vy1ncjNqRF9LX0lrd3VUR3ZrbF9NcWJOTGFjRXNCeHBPNjMtSjNIT0hrZw?oc=5",
+      "publishedAt": "2026-07-20T20:32:00.000Z"
+    },
+    {
+      "source": "The Texas Tribune",
+      "title": "Tracking the money raised and spent in the U.S. Senate race between James Talarico and Ken Paxton",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMG5MRF9UdVBtaWxpbUpQcTR3OU5sMFdfeXhLM2tVZk9uUGJKQW9PazBvNEZvemZJSjZQRk0wdGkxZEJzOFkzVFJVRGhmbUg3LVFCbTRnMG0zUVNvNHRjSVg1d09xZjhaMUJkTTBxOGVPU1FTOHBUZGV0czNVUHdVVWdhVU4yVUZ1VnoyVHhLSFJyQlhhY2hGYnY4eTQtX1BBeVptODBn?oc=5",
+      "publishedAt": "2026-07-20T20:00:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "'I'm in.' Darline Graham says she will run for a full term in Lindsey Graham's Senate seat",
+      "url": "https://www.pbs.org/newshour/politics/im-in-darline-graham-says-she-will-run-for-a-full-term-in-lindsey-grahams-senate-seat",
+      "publishedAt": "2026-07-20T19:40:39.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "In Arizona’s Primaries, Democrats Fight Over a House Seat They Need Badly",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEpDZC1jOURhS2pmLUl6WkQ5dTFaTF9iN1JzOVJXNEk4UkM4RkVRMTEzd3ROMXZZaTFBT0NqRjFzZ0dPcUxoT3JudkhFam9sSlNYamFic1hvbnpfb1h3TnUtc1ZvRnNtUWs1SF9aOEtCVkZWZC1rdWJDV3BEQjlOWjVyZlRJdkVTOEhpUWhkdXlBUk1Ta1N1RmpCMlQ?oc=5",
+      "publishedAt": "2026-07-20T19:28:00.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Michigan U.S. Senate Election 2026: Latest Polls",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5",
+      "publishedAt": "2026-07-20T19:26:03.000Z"
+    },
+    {
+      "source": "Iowa Capital Dispatch",
+      "title": "‘Iowa is acting different’: Political expert discusses Democrats’ chances in Iowa",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ3NhWFctVnZtS2xFOTZtWjMzeTVwY3pkVnhxNFdLRmREVi1OeXBQOVN3ZmRLbEgxemVWRUIxcVZ3S1NoNGZjQ29KMGxlQ21Uek52Y240NlhrSzd5WnZISFdETkYzODFpMXFxdXBaSGNYX1IwX3E3cm5QR00yWjNYcU44QldScDk5N3VQU3ZsVGo1bU42eVlfcXVmXzJXRVNwYXFjNVZ1SGtabXc2SUZablppT241SjQ5Q05RU1F3?oc=5",
+      "publishedAt": "2026-07-20T19:25:22.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Troy Jackson emerges as likely Senate pick for Maine Democrats",
       "url": "https://www.pbs.org/newshour/politics/troy-jackson-emerges-as-likely-senate-pick-for-maine-democrats",
       "publishedAt": "2026-07-20T18:00:07.000Z"
-    },
-    {
-      "source": "Blue Ridge Public Radio",
-      "title": "Whatley addresses dozens of WNC supporters as money flows into pivotal Senate race",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQzY4WnBQSU9TRmdmWnlYbVkxUFp4bVl3dHgyYzBNTmYzSE01X1dOTUFGRWl4R21nVEhRdndkc2JhYnJWS21zSDgzd0NQZ2tUYlRnNnBUUUtNTmlPQnE0eFJEdXJjNWdGeTExWXUwOUVuYWJEWGZEYzJkQWpyTjVwVHVTMHhLMTZnMGxUQmluM05nX202bGhkTjBzVkFXYU9kQWQwWW50b1VZaDZEYkRoOEhrUW02aTVHVnhxQUFJTmE0T1E0QVYtZ0ZwWm52Zw?oc=5",
-      "publishedAt": "2026-07-20T17:39:00.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "Troy Jackson poised to replace Graham Platner as Democratic nominee in Maine Senate race",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYnNpN0lfRFUwSDdWblNDV3lpcW1pblR1aUZuQWJxb25xS0c1NlktRUJINE55SmkyS2t1VDZha0FCLWZhM3JPSXhwVklQZFFGS0VvdDJtOUx3ODJSc2NtTkF1WmFvcXJheFl5WUQ3Z3FoNjNzaE0za0p0eFNLZUU2WEdaLUtodEhGSVJWeXM3c1pJbVk5YzhFSA?oc=5",
-      "publishedAt": "2026-07-20T17:15:00.000Z"
-    },
-    {
-      "source": "Decision Desk HQ | Substack",
-      "title": "🏛📊 Decision Desk HQ's 2026 Forecast: The Senate Seats That Will Matter Most",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQkJkZDRCVUpSRXNOYWVMVWtWLVVTSjFkV0ZzT05iRVRhMGd5X05GaThydzNhZEl6Y055NjdYOWhQZUp1QTFrWEl3QkRwWG9Jb3I1cHJqTTYzY0prSHVnN18tRmdoSi1KT2t5WHNEeXhnRlEtNW13UngwMVZWUEMzWi1fbFJJNGpheHMyTTNoWVlKS0pmNWFWQ2ZvOTZxVV9SUkpYbmZqdmdJc25yd2ZuUlYxb0RCS0NIUmZuNVk1SVlwY0NrZ2RhR3FvRk9CSWYxMEk0TGR5eDFOMlVCdER3ZTJIT0E0VGl1VGVWelpkelZZMnRIejlDNFNIOGhkZw?oc=5",
-      "publishedAt": "2026-07-20T17:10:14.000Z"
-    },
-    {
-      "source": "Source New Mexico",
-      "title": "Independent New Mexico governor candidate drops out, endorses Republican nominee Gregg Hull",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbEQ4bGkxMjVGdkVZekxBYm1BVkUybUZYbUUtcDN6T0pPMVNFUXhyLWdOSGpaem1FZ21aVlVKekpGYU9LQU5zdzZneWt2TFc4R2Fib2U3M194QUg0S1BWbVVldkRkTVpNaHc5SnBRZlV5S1dvanQ5cHZMbmdqTERTU09HcFBrNlotZTJySUlRRHowcXdQWGpnTkc5YkhWNmc5U1AwSWI4a2VvdkcybHZjV1JmT0xpQkNUa1BzMUZEbjQ?oc=5",
-      "publishedAt": "2026-07-20T16:56:50.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Cindy Burbank, Nebraska’s Democratic Senate Nominee, Files to Withdraw From Race",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPXzVIdFdMT3hmWnlaYmYzdVhaY0NROHZCSHJfcU5uYmhFcm9fdzVJSUxMMXpjeXFhVjM5Qk0wWVRaaXR3YjlhaUd3REktRmRGdW5XQlBwc3pPa0Zrdm01RTBKX3BmcklPeHBSNVFlVXpiVWpBQk1vWEp4YlpYNzFWa2hqSnVHbWwyT201VlJHUGNNaDlL?oc=5",
-      "publishedAt": "2026-07-20T16:52:30.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -48,12 +54,6 @@
       "title": "U.S. military identifies 2 soldiers killed in Iranian attack on Jordan",
       "url": "https://www.pbs.org/newshour/politics/u-s-military-identifies-2-soldiers-killed-in-iranian-attack-on-jordan",
       "publishedAt": "2026-07-20T12:55:06.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Why Britain is getting a new prime minister without a general election",
-      "url": "https://www.pbs.org/newshour/world/why-britain-is-getting-a-new-prime-minister-without-a-general-election",
-      "publishedAt": "2026-07-20T12:32:43.000Z"
     },
     {
       "source": "NPR",
