@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-07-19T21:35:35.336Z",
+  "generatedAt": "2026-07-20T04:26:43.004Z",
   "articles": [
+    {
+      "source": "The New York Times",
+      "title": "In Maine Senate Race, Jackson Sprints Ahead of Pack, as Bellows Drops Out",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYUlPUEhYaEtEMW5oZ1RQU296WTUtdlJBb0R5a3BaV09GYlIxeW5XRGJHNU03eEpBaUJhRXM3S0tudlJBckdWRnpqWXdWUS0xR2l0QzhuTFlEekc3NFlmZ1V1dDE1Zmx3OXdOTGtheWlib0xQcjJJYjdJd3lNZlZQX1N5ZU1EVmdjMEMtbWpXVENvYzlBN2M3VlpGSWhsR1U?oc=5",
+      "publishedAt": "2026-07-20T01:36:22.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "JD and Usha Vance welcome a baby boy, the first child born to a sitting VP in more than 150 years",
+      "url": "https://www.pbs.org/newshour/politics/jd-and-usha-vance-welcome-a-baby-boy-the-first-child-born-to-a-sitting-vp-in-more-than-150-years",
+      "publishedAt": "2026-07-20T00:06:26.000Z"
+    },
+    {
+      "source": "Maine Morning Star",
+      "title": "Shah drops out, clearing Jackson’s path to winning U.S. Senate nomination",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOa3NodUJMSFRPOEN4Y3pMcWpWUjBBUkg1NmV4allFV2pmY2pyQ0xvYTdiSlA3dW5ETl9pdF9JaVdPZmlNR1ZZUHFlNXN1LTZvWnpqZTFzSUt0N21JQnotX0pKWVN1SURpWVNGTW1jWUhaUEZCMHcyTWlEWnk3RXN2ZFhxWDVBVC1ESUlaMUNILTFLOHExUzcyZmFSd0NURWlSc2hvNmJMaS1PQzVodkI5bQ?oc=5",
+      "publishedAt": "2026-07-19T22:28:50.000Z"
+    },
+    {
+      "source": "Politico",
+      "title": "Troy Jackson has effectively secured the Maine Senate Democratic nomination",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd1lpNklmcFBpN2RwLXRPZnFrUTZod1hmSG1ub1NJU3JJNFRySXBqYTZIcjRxVVJYYkZzSUl2anZreTlFa1FvY0xKRDdsdDJLSHV1SmZFR184M0ZBU1BSQkVFbUJRYmo4QUtNODIxbXphUUlRQlBrTThLZDc4U1ZjWVlVZlV3bkZJT0MzYm42UUs2TVhzVGZiUnF4SEFBa0E?oc=5",
+      "publishedAt": "2026-07-19T22:12:00.000Z"
+    },
+    {
+      "source": "Maine Morning Star",
+      "title": "Bellows drops out as Jackson takes commanding delegate lead in race to replace Platner",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRHVtQlFnYkFjWkpVTkFJOGQzaDVFS0ZWM3dJRUx4VjJhendwcFZvZGsyLWg0by1Ga2ItUTYwYXJoOUtKZURzTlpSY0NZaXI1b19abHR2X2RVQzNUcURmblEtOHZZdjFENlVZNkhyWUhjNnRWSmQ5bTdOcVktMFRXbTNPb2tVMy1TNEhHMzlRUXR0S21Ya3VMbDFXWVRQQUtscDh3Y29yWnNJX3dINGo1UXU4XzhXN2w3N0F4YjRiNE1XUTluVlE?oc=5",
+      "publishedAt": "2026-07-19T21:23:01.000Z"
+    },
+    {
+      "source": "Maine Public",
+      "title": "Troy Jackson leading pack in race for Democratic Senate nomination",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcEs4Z0hEQmpoeXNqcHhWUjB2Q1VScUJ6ZWpFNmdYQTJxOTI4SHVmbjA1dG1Wd19yS19Cekt4MS01Y0pjWU5KdF8tNlZoOWdZako5WE1Ga0N0Z2lQUUNOZVZvRUpQQ3RMbkR2bDR0bFVBVmpGLW5wT2FKbjZDUFp4bWpnSUFsdG9MY1hkdDhaMmFTR0p3cW9qWjZtSXIzV2QwNnJkZDNOTFFnMV9ZZXVoMjlnVGk?oc=5",
+      "publishedAt": "2026-07-19T19:15:00.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Andy Biggs and David Schweikert offer competing visions for Republican Party in Arizona governor primary",
@@ -8,40 +44,10 @@
       "publishedAt": "2026-07-19T18:39:48.000Z"
     },
     {
-      "source": "Politico",
-      "title": "Troy Jackson has effectively secured the Maine Senate Democratic nomination",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd1lpNklmcFBpN2RwLXRPZnFrUTZod1hmSG1ub1NJU3JJNFRySXBqYTZIcjRxVVJYYkZzSUl2anZreTlFa1FvY0xKRDdsdDJLSHV1SmZFR184M0ZBU1BSQkVFbUJRYmo4QUtNODIxbXphUUlRQlBrTThLZDc4U1ZjWVlVZlV3bkZJT0MzYm42UUs2TVhzVGZiUnF4SEFBa0E?oc=5",
-      "publishedAt": "2026-07-19T18:31:00.000Z"
-    },
-    {
-      "source": "News of the United States - NOTUS",
-      "title": "Shenna Bellows Exits Senate Race in Maine",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85TkY1eHd2ZE5OdWxwMG95dkFrQmN1UzZ4eGNXNUdSbmNoTWtXUUJyR3ZHeVRqUnJLbnVvQjVzOTFMaEhHQkRlNnZaVnB6ZUt5Y1ZJRWkzZnpvbUgtVmdENm1IQXYyZV9pRHZfbWRWSWRlWXQyR0JB?oc=5",
-      "publishedAt": "2026-07-19T17:49:13.000Z"
-    },
-    {
-      "source": "Maine Morning Star",
-      "title": "Bellows drops out as Jackson takes commanding delegate lead in race to replace Platner",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRHVtQlFnYkFjWkpVTkFJOGQzaDVFS0ZWM3dJRUx4VjJhendwcFZvZGsyLWg0by1Ga2ItUTYwYXJoOUtKZURzTlpSY0NZaXI1b19abHR2X2RVQzNUcURmblEtOHZZdjFENlVZNkhyWUhjNnRWSmQ5bTdOcVktMFRXbTNPb2tVMy1TNEhHMzlRUXR0S21Ya3VMbDFXWVRQQUtscDh3Y29yWnNJX3dINGo1UXU4XzhXN2w3N0F4YjRiNE1XUTluVlE?oc=5",
-      "publishedAt": "2026-07-19T17:33:49.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Shenna Bellows drops out of Maine’s Senate race as Troy Jackson builds Democratic support",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWTZrejg3bURfRldhNWRGaER3TzBGNHVTMGRjc2k4WmNtN2xLMTBFY0w5d3dEODJQblEtbUxXaHlidjlQX0lFR1hFeUNRdHhLN2xXVElrMmJ3b1lHNjVvVG5KS054QXJhSUN4ZGdYeFpRcGlaZ2dwLUxYOFhEU3I1ZDVXZ2tMeGdMYmR4NEthSkZhR0E0cm9RR3hBYXJrbExpOVFabVA0Y2J1cXhZV3VRMjVsUWdxM3RVa1V3LTcwUXNiTjJRbmNv?oc=5",
-      "publishedAt": "2026-07-19T16:38:51.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "Justice Department activates untested court for 'alien terrorist' deportations",
       "url": "https://www.pbs.org/newshour/politics/justice-department-activates-untested-court-for-alien-terrorist-deportations",
       "publishedAt": "2026-07-19T16:24:35.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "In Maine Senate Race, Jackson Sprints Ahead of Pack, as Bellows Drops Out",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYUlPUEhYaEtEMW5oZ1RQU296WTUtdlJBb0R5a3BaV09GYlIxeW5XRGJHNU03eEpBaUJhRXM3S0tudlJBckdWRnpqWXdWUS0xR2l0QzhuTFlEekc3NFlmZ1V1dDE1Zmx3OXdOTGtheWlib0xQcjJJYjdJd3lNZlZQX1N5ZU1EVmdjMEMtbWpXVENvYzlBN2M3VlpGSWhsR1U?oc=5",
-      "publishedAt": "2026-07-19T15:36:27.000Z"
     },
     {
       "source": "NPR",
@@ -54,12 +60,6 @@
       "title": "Trump said the election system is broken. What do swing voters make of the claim?",
       "url": "https://www.npr.org/2026/07/19/nx-s1-5898445/trump-said-the-election-system-is-broken-what-do-swing-voters-make-of-the-claim",
       "publishedAt": "2026-07-19T12:13:24.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "$600,000 for a presidential pardon? Inside the growing industry of clemency lobbying",
-      "url": "https://www.npr.org/2026/07/19/nx-s1-5896394/600-000-for-a-presidential-pardon-inside-the-growing-industry-of-clemency-lobbying",
-      "publishedAt": "2026-07-19T12:13:23.000Z"
     }
   ]
 }
