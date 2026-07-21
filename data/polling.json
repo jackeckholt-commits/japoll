@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-19T11:24:16.228Z",
+  "updatedAt": "2026-07-21T12:01:05.513Z",
   "genericBallot": {
     "average": {
       "democrats": 47.4,
-      "republicans": 42.4
+      "republicans": 42.5
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 47.4,
-        "republicans": 42.4,
+        "democrats": 47.5,
+        "republicans": 42.6,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
         "scrapeStatus": "live",
@@ -22,7 +22,7 @@
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
         "democrats": 49.2,
-        "republicans": 43.9,
+        "republicans": 44.1,
         "included": true,
         "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
         "scrapeStatus": "live",
@@ -32,8 +32,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "democrats": 47.9,
-        "republicans": 41.9,
+        "democrats": 48,
+        "republicans": 42.1,
         "included": true,
         "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
         "scrapeStatus": "live",
@@ -54,8 +54,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "democrats": 47.3,
-        "republicans": 41.6,
+        "democrats": 47.4,
+        "republicans": 41.9,
         "included": true,
         "url": "https://www.racetothewh.com/polls/genericballot",
         "scrapeStatus": "live",
@@ -95,8 +95,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 37.1,
-        "disapprove": 58.8,
+        "approve": 37,
+        "disapprove": 58.7,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
