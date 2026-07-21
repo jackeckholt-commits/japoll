@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-07-21T07:21:04.995Z",
+  "generatedAt": "2026-07-21T10:50:24.876Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Defense Secretary Pete Hegseth goes to the Hill with $350B funding request",
+      "url": "https://www.npr.org/2026/07/21/nx-s1-5900838/defense-secretary-pete-hegseth-goes-to-the-hill-with-350b-funding-request",
+      "publishedAt": "2026-07-21T10:41:41.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Sen. Chris Murphy on the Iran war and Pete Hegseth's upcoming Senate testimony",
+      "url": "https://www.npr.org/2026/07/21/nx-s1-5900980/sen-chris-murphy-on-the-iran-war-and-pete-hegseths-upcoming-senate-testimony",
+      "publishedAt": "2026-07-21T10:41:37.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump imposes 50% tariffs on Canadian goods",
+      "url": "https://www.npr.org/2026/07/21/nx-s1-5901905/trump-imposes-tariffs-canadian-goods",
+      "publishedAt": "2026-07-21T10:31:34.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Arizona primaries set the stage for contested fall races in a swing state",
+      "url": "https://www.npr.org/2026/07/21/nx-s1-5901065/midterms-primaries-arizona-elections",
+      "publishedAt": "2026-07-21T09:00:00.000Z"
+    },
+    {
+      "source": "Minnesota Reformer",
+      "title": "Bernie Sanders headlines First Avenue rally for Peggy Flanagan in contentious Senate race",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcFVrTWdKU3JKNXJFVWZnYWxIMkVJNHR5VDVwaEU0dlNEZktXRk1LZmVZd0RyMHViV3NQZlM5dkVRYkpPZURsVFNHMWR0ck1vVWlQOVdvdWlvbElZd0dQbkhMY25JM0x0NnlwTnZRVVlleWxHdXpXLVNQRGdneDN4TFA3R0NYRXdJNjRTcV9LSjV4MTJYU01zUS1taXlxbEJ6YWtSdExfaWhMZEN5c25LeWVuSi11em5qRzMtb3UwR0lrZGY4ZGdkb09ud01NSG8?oc=5",
+      "publishedAt": "2026-07-21T02:40:06.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "2026 Midterm Primary Election Calendar",
@@ -30,36 +60,6 @@
       "title": "Netanyahu government defies court, raising constitutional crisis fears as election nears",
       "url": "https://www.pbs.org/newshour/show/netanyahu-government-defies-court-raising-constitutional-crisis-fears-as-election-nears",
       "publishedAt": "2026-07-20T22:40:06.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Sen. Darline Graham says she’s running for a full 6-year term after Trump urged her to jump into the race",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0FTOUtqRno4cFR2U3FwUnJtVzNsazBKODJlbnA1T3A3bDJZZGw3ekJSY0VzZmVHSEw0dmVHZmtKam41SEtsUWFKU3Y1Mkk4ZmRQMUtTcHUwOHItYUhHYkJpdDBOOVJuN3BXQkdiZlIyRUJVeWhlOGVHdnJ4ZnQyb3F2Ri15YlU4RVcxLWlrcHpuS2tsQjFNSkpZamZHWmxzbVM2dFM3enV6dmFOd2xlX2pHTEE4MjlYTHV4cEc4Qk1sT2lDODFN?oc=5",
-      "publishedAt": "2026-07-20T21:10:15.000Z"
-    },
-    {
-      "source": "Politico",
-      "title": "Nancy Mace won’t run for Lindsey Graham’s Senate seat",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOclNtLTlVU1VmVXg1OVYzc0RFOERYNnZhUUpaVXF3dEJsaHRsRWwwWkFEOVh3UmRZMHVVNFhmRUc3VGVwcXl2T1JwSzB4X1FfWWZPczdQMWFhVW44Vy1ncjNqRF9LX0lrd3VUR3ZrbF9NcWJOTGFjRXNCeHBPNjMtSjNIT0hrZw?oc=5",
-      "publishedAt": "2026-07-20T20:51:00.000Z"
-    },
-    {
-      "source": "Houston Public Media",
-      "title": "James Talarico pledges $25 million to win over Black voters in U.S. Senate campaign",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaThRVzVUOEs3MWJoQjBUTDJOVlVxbzZzUGtSUmszY0lEb3hSRU53enk4dWpzNnlYT1JtQnZoejRNY05EaHN1b2dwTHh6N1RQMVBicTdOUklQb2RzY2VXaC1qWTRlRkdDRWlxYk9BdE1OQWFuTHNEVi1pR0thNjFkLXp1dVBPQ0ZZUWgtZEJQdVhrcjliT2JKSkVHT3ZHRUN2eVAtNlZzOHBpb2VkTGdHcURkY0txMGlVdG1mZ0Zuc2otU0ZuMTMyQWYtUk5UaG5faFFqb3B3Z01meDczLUHSAeYBQVVfeXFMUEZlS3F4TFZ6YnA0UGNOWmp0ZExJZE00OUhBdXhCMk5QZDNuTUZaRTMxNUV4N0pkemx4UjlPb2szdndKVU9QaEJ1TFdvMHdTUFVRdlVRMTRpcFFhdms5UzZSMy1TVGlvdlpWdTBHTnpOU0pjZ3d5Vzhzd1I5QWlOSlRLZ0NJUEM4U1lFSU45QUpJMXlJemw0SDBWS0J1LWtVWVdjd1VoM2N3alBqRUxSbXBFTk4xZ19nWndTY3VwcmRaN244OVFwTlhkRUdIaVRBNU4zN2tYRllRTE5xYjdYaVNacS1QaEE?oc=5",
-      "publishedAt": "2026-07-20T20:15:52.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "With just a week left until August recess, Congress faces long to-do list",
-      "url": "https://www.npr.org/2026/07/20/nx-s1-5897469/with-just-a-week-left-until-august-recess-congress-faces-long-to-do-list",
-      "publishedAt": "2026-07-20T08:42:17.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Republican strategist on the hurdles the GOP faces to pass reconciliation bill",
-      "url": "https://www.npr.org/2026/07/20/nx-s1-5899842/republican-strategist-on-the-hurdles-the-gop-faces-to-pass-reconciliation-bill",
-      "publishedAt": "2026-07-20T08:42:12.000Z"
     }
   ]
 }
