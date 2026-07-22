@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#09131b" name="theme-color"/>
+<title>Election Night Simulator | National Poll Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<link href="ui-polish.css?v=20260717-mobile-1" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to simulator</a>
+<div class="page-shell simulator-page-shell">
+<header class="page-header simulator-page-header">
+<div class="container">
+<nav class="top-nav">
+<a class="logo" href="index.html">National Poll Tracker</a>
+<button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span>Menu</span><i aria-hidden="true"></i></button>
+<div class="nav-links" id="primary-navigation">
+<a href="methodology.html">About the Project</a>
+<a href="national-averages.html">National Averages</a>
+<a href="trump-approval.html">Trump Approval</a>
+<a href="senate.html">Senate</a>
+<a href="governor.html">Governor</a>
+<a href="house.html">House</a>
+<a href="analysis.html">Analysis</a>
+<a href="methodology.html#contact">Contact</a>
+</div>
+</nav>
+<section class="hero simulator-hero">
+<span class="section-kicker">2026 election night</span>
+<h1>Election night simulator</h1>
+<p class="intro">Move through election night and see when the races in your forecast could be called.</p>
+</section>
+</div>
+</header>
+
+<main class="container page-content simulator-page" data-election-simulator id="main-content">
+<section class="simulator-intro-card">
+<div>
+<span class="detail-kicker">Forecast replay</span>
+<h2>Your map, on election night</h2>
+<p>Calls are an estimate based on poll-closing bands and each race's rating. This is a forecast replay, not live results.</p>
+<span class="simulator-map-source" data-simulator-map-source hidden></span>
+</div>
+<div class="simulator-scenario-wrap">
+<span>Start with a preset</span>
+<div class="simulator-scenario-controls" role="group" aria-label="Simulation scenario">
+<button class="simulator-scenario-button is-active" type="button" data-scenario="site" aria-pressed="true">Site prediction</button>
+<button class="simulator-scenario-button" type="button" data-scenario="dem-edge" aria-pressed="false">Democratic edge</button>
+<button class="simulator-scenario-button" type="button" data-scenario="dem-surge" aria-pressed="false">Strong Democratic edge</button>
+<button class="simulator-scenario-button" type="button" data-scenario="gop-edge" aria-pressed="false">GOP edge</button>
+<button class="simulator-scenario-button" type="button" data-scenario="gop-surge" aria-pressed="false">Strong GOP edge</button>
+</div>
+<div class="simulator-customizer">
+<div class="simulator-customizer-intro">
+<span data-simulator-preset-label>Site prediction</span>
+<strong data-simulator-custom-label>Adjusted with the slider</strong>
+</div>
+<label class="simulator-adjustment-control">
+<span>National environment</span>
+<input type="range" min="-4" max="4" step="1" value="0" data-simulator-swing aria-label="National environment"/>
+<i class="simulator-range-ticks" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></i>
+<em><b>Democratic</b><b>GOP</b></em>
+</label>
+<div class="simulator-variation-control">
+<button type="button" data-simulator-variation-toggle aria-pressed="false" aria-expanded="false">Variation: Off</button>
+<div class="simulator-variation-levels" data-simulator-variation-levels role="group" aria-label="Variation level" hidden>
+<button type="button" data-simulator-variation="1" aria-pressed="true">Low</button>
+<button type="button" data-simulator-variation="2" aria-pressed="false">Medium</button>
+<button type="button" data-simulator-variation="3" aria-pressed="false">High</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="simulator-score-grid" aria-label="Election night scoreboards">
+<article class="simulator-score-card is-senate" data-simulator-score="senate"></article>
+<article class="simulator-score-card is-house" data-simulator-score="house"></article>
+<article class="simulator-score-card is-governor" data-simulator-score="governor"></article>
+</section>
+
+<section class="simulator-maps-section" aria-labelledby="simulator-maps-heading">
+<div class="simulator-maps-heading">
+<div><span class="section-kicker">Calls on the map</span><h2 id="simulator-maps-heading">Watch the map fill in</h2></div>
+<p>Rating shades run from Tilt to Solid; called races brighten as the night moves on.</p>
+</div>
+<div class="simulator-map-grid">
+<article class="simulator-map-card"><div class="simulator-map-card-heading"><h3>Senate</h3><span data-simulator-map-count="senate">0 called</span></div><div class="simulator-map-canvas" data-simulator-map="senate"></div></article>
+<article class="simulator-map-card"><div class="simulator-map-card-heading"><h3>Governor</h3><span data-simulator-map-count="governor">0 called</span></div><div class="simulator-map-canvas" data-simulator-map="governor"></div></article>
+</div>
+<article class="simulator-map-card simulator-house-map-card"><div class="simulator-map-card-heading"><h3>House</h3><span data-simulator-map-count="house">0 called</span></div><div class="simulator-map-canvas" data-simulator-map="house"></div></article>
+<div class="simulator-map-legend" aria-label="Map rating colors"><span><i class="is-dem-tilt"></i>Tilt D</span><span><i class="is-dem-lean"></i>Lean D</span><span><i class="is-dem-likely"></i>Likely D</span><span><i class="is-dem-solid"></i>Solid D</span><span><i class="is-rep-tilt"></i>Tilt R</span><span><i class="is-rep-lean"></i>Lean R</span><span><i class="is-rep-likely"></i>Likely R</span><span><i class="is-rep-solid"></i>Solid R</span></div>
+</section>
+
+<section class="simulator-board" aria-labelledby="calls-heading">
+<div class="simulator-board-heading">
+<div>
+<span class="section-kicker">Calls as they come in</span>
+<h2 id="calls-heading">Election desk</h2>
+</div>
+</div>
+<div class="simulator-board-controls" role="group" aria-label="Call list filter">
+<button type="button" class="simulator-filter-button is-active" data-simulator-filter="all" aria-pressed="true">All calls</button>
+<button type="button" class="simulator-filter-button" data-simulator-filter="senate" aria-pressed="false">Senate</button>
+<button type="button" class="simulator-filter-button" data-simulator-filter="house" aria-pressed="false">House</button>
+<button type="button" class="simulator-filter-button" data-simulator-filter="governor" aria-pressed="false">Governor</button>
+</div>
+<div class="simulator-call-list" data-simulator-call-list aria-live="polite"></div>
+</section>
+
+<section class="simulator-timeline-dock" aria-label="Election night clock">
+<div class="simulator-time-readout">
+<span>Election night</span>
+<strong data-simulator-time>6:00 PM ET</strong>
+</div>
+<div class="simulator-next-call" data-simulator-next-call>Loading forecast...</div>
+<div class="simulator-slider-wrap">
+<input data-simulator-clock type="range" min="0" max="600" value="0" step="5" aria-label="Election night time"/>
+<div class="simulator-slider-labels"><span>6 PM ET</span><span>Midnight</span><span data-simulator-end-time>4 AM ET</span></div>
+</div>
+<div class="simulator-clock-actions">
+<div class="simulator-playback-controls">
+<button type="button" class="simulator-play-button" data-simulator-play aria-pressed="false">Play</button>
+<div class="simulator-speed-controls" role="group" aria-label="Playback speed"></div>
+</div>
+<button type="button" class="simulator-clock-button" data-simulator-restart>Restart</button>
+<button type="button" class="simulator-clock-button is-primary" data-simulator-finish>Jump to finish</button>
+</div>
+</section>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner"><p>National Poll Tracker</p><p>State of the Race</p></div></footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<script src="js/election-night-simulator.js?v=20260717-rating-shades-1"></script>
+<script src="js/site-nav.js"></script>
+<script src="js/dog-mascot.js?v=20260712-11"></script>
+</body>
+</html>

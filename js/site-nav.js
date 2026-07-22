@@ -7,6 +7,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!nav || !toggle || !links) return;
 
+  const addNavigationLink = (href, label) => {
+    if (links.querySelector(`a[href="${href}"]`)) return;
+    const link = document.createElement("a");
+    link.href = href;
+    link.textContent = label;
+    if (window.location.pathname.endsWith(`/${href}`)) link.setAttribute("aria-current", "page");
+    const contactLink = links.querySelector('a[href*="#contact"]');
+    links.insertBefore(link, contactLink || null);
+  };
+
+  addNavigationLink("map-maker.html", "Map Maker");
+  addNavigationLink("election-night.html", "Simulation");
+
   nav.setAttribute("aria-label", "Primary navigation");
   toggle.setAttribute("aria-label", "Open navigation menu");
 

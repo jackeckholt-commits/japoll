@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#09131b" name="theme-color"/>
+<title>Map Maker | National Poll Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900;1000&display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<link href="ui-polish.css?v=20260717-mobile-2" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="page-shell map-maker-page-shell">
+<header class="page-header map-maker-page-header">
+<div class="container">
+<nav class="top-nav">
+<a class="logo" href="index.html">National Poll Tracker</a>
+<button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span>Menu</span><i aria-hidden="true"></i></button>
+<div class="nav-links" id="primary-navigation">
+<a href="methodology.html">About the Project</a>
+<a href="national-averages.html">National Averages</a>
+<a href="trump-approval.html">Trump Approval</a>
+<a href="senate.html">Senate</a>
+<a href="governor.html">Governor</a>
+<a href="house.html">House</a>
+<a href="analysis.html">Analysis</a>
+<a aria-current="page" href="map-maker.html">Map Maker</a>
+<a href="methodology.html#contact">Contact</a>
+</div>
+</nav>
+<section class="hero compact-page-hero map-maker-hero">
+<h1>Map maker</h1>
+</section>
+</div>
+</header>
+
+<main class="container page-content map-maker-page" id="main-content" data-map-maker>
+<section class="map-maker-workbench" aria-label="Prediction builder">
+
+<div class="map-maker-tabs" role="tablist" aria-label="Choose a map">
+<button type="button" role="tab" aria-selected="true" data-map-maker-type="house">House <span>435 districts</span></button>
+<button type="button" role="tab" aria-selected="false" data-map-maker-type="senate">Senate <span>2026 races</span></button>
+<button type="button" role="tab" aria-selected="false" data-map-maker-type="governor">Governor <span>2026 races</span></button>
+</div>
+
+<div class="map-maker-controls">
+<section class="map-maker-save-group" aria-labelledby="save-heading">
+<div class="map-maker-save-guide">
+<span class="detail-kicker" id="save-heading">Rate races</span>
+<p class="map-maker-cycle-note">Choose a party, then click a race to set its rating.</p>
+</div>
+<label class="map-maker-name-field" for="map-maker-name"><span>Prediction name</span><input id="map-maker-name" data-map-maker-name type="text" maxlength="80" placeholder="e.g. My November forecast" autocomplete="off"/></label>
+<div class="map-maker-save-actions">
+<button type="button" class="map-maker-save-button" data-map-maker-save>Save prediction</button>
+<button type="button" class="map-maker-simulate-button" data-map-maker-simulate>Simulate map</button>
+<button type="button" class="map-maker-secondary-button" data-map-maker-reset>Start from site forecast</button>
+<button type="button" class="map-maker-secondary-button" data-map-maker-clear>Clear map</button>
+</div>
+<p class="map-maker-save-status" data-map-maker-status aria-live="polite">Not saved yet.</p>
+</section>
+</div>
+
+<section class="map-maker-summary" data-map-maker-summary aria-live="polite"></section>
+
+<section class="map-maker-map-card" aria-label="Interactive prediction map">
+<div class="map-maker-map-heading">
+<div>
+<span class="detail-kicker" data-map-maker-map-kicker>Prediction</span>
+<h2 data-map-maker-map-title>House map</h2>
+</div>
+<div class="map-maker-map-actions"><div class="map-maker-party-picker" role="group" aria-label="Choose a party to rate"><button type="button" data-map-maker-party="dem" aria-pressed="true"><i></i>Dem</button><button type="button" data-map-maker-party="rep" aria-pressed="false"><i></i>GOP</button></div><button type="button" class="map-maker-simulate-button" data-map-maker-simulate>Simulate this map</button></div>
+<p data-map-maker-map-note>Democrats selected. Scroll to zoom; click a state or district to change its rating.</p>
+</div>
+<div class="map-maker-layout">
+<div class="map-maker-canvas" data-map-maker-canvas><div class="map-loading">Loading map...</div></div>
+<aside class="map-maker-detail" data-map-maker-detail>
+<span class="detail-kicker">Map maker</span>
+<h3>Choose a race</h3>
+<p>Click a district or active state race to cycle its call.</p>
+</aside>
+</div>
+</section>
+</section>
+
+<details class="map-maker-saved-section">
+<summary class="map-maker-saved-summary">
+<span><span class="detail-kicker">Saved maps</span><strong>Your predictions</strong></span>
+<span class="map-maker-saved-toggle" aria-hidden="true"></span>
+</summary>
+<div class="map-maker-saved-content">
+<div class="map-maker-saved-heading">
+<div><span class="detail-kicker">Saved maps</span><h2 id="saved-maps-title">Your predictions</h2></div>
+<button type="button" class="map-maker-secondary-button" data-map-maker-new>New prediction</button>
+</div>
+<p class="map-maker-storage-note">This browser only.</p>
+<div class="map-maker-saved-list" data-map-maker-saved-list></div>
+</div>
+</details>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner"><p>National Poll Tracker</p><p>State of the Race</p></div></footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<script src="js/map-maker.js?v=20260717-party-picker-1"></script>
+<script src="js/site-nav.js"></script>
+<script src="js/dog-mascot.js?v=20260712-11"></script>
+</body>
+</html>

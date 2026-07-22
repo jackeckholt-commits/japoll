@@ -56,6 +56,7 @@ a { color: #78beff; }
 .connection-card { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; padding: clamp(1.3rem, 3vw, 2.2rem); }
 .connection-card h2 { margin: 0.45rem 0; }
 .connection-card p { color: var(--muted); line-height: 1.55; }
+.connection-card a { display: inline-flex; align-items: center; min-height: 44px; }
 .step-number { display: grid; place-items: center; flex: 0 0 auto; width: 34px; height: 34px; border: 1px solid #5e819b; border-radius: 10px; color: #9ed2ff; background: #1a3142; font-weight: 900; }
 .connection-controls { align-self: center; }
 label { display: grid; gap: 0.45rem; color: #d7e5ee; font-size: 0.88rem; font-weight: 800; }
@@ -172,6 +173,7 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
   .race-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 620px) {
+  body { padding-bottom: 138px; }
   .admin-brand strong { display: none; }
   .admin-shell { width: min(100% - 1rem, 1180px); }
   .connection-card, .editor-section { border-radius: 15px; }

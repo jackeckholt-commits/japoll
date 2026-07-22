@@ -13,7 +13,7 @@
     "validate-data": "node scripts/validate-data.js",
     "start": "npx live-server . --port=5500",
     "install-browsers": "npx playwright install chromium",
-    "check": "node --check scripts/update-polls.js && node --check scripts/update-house.js && node --check scripts/update-news.js && node --check scripts/import-yapms-house.js && node --check scripts/build-house-map.js && node --check scripts/update-race-links.js && node --check scripts/sources/house-forecasts.js && node --check js/load-polling-data.js && node --check js/trend-charts.js && node --check js/race-maps.js && node --check js/house-forecast.js && node --check js/editorial-content.js && node --check js/admin.js && node --check js/site-nav.js && node --check js/dog-mascot.js && node scripts/validate-data.js"
+    "check": "node --check scripts/update-polls.js && node --check scripts/update-house.js && node --check scripts/update-news.js && node --check scripts/import-yapms-house.js && node --check scripts/build-house-map.js && node --check scripts/update-race-links.js && node --check scripts/sources/house-forecasts.js && node --check js/load-polling-data.js && node --check js/trend-charts.js && node --check js/race-maps.js && node --check js/house-forecast.js && node --check js/editorial-content.js && node --check js/election-night-simulator.js && node --check js/map-maker.js && node --check js/admin.js && node --check js/site-nav.js && node --check js/dog-mascot.js && node scripts/validate-data.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
