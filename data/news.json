@@ -1,41 +1,53 @@
 {
-  "generatedAt": "2026-07-22T04:01:13.653Z",
+  "generatedAt": "2026-07-22T07:22:47.738Z",
   "articles": [
+    {
+      "source": "The New York Times",
+      "title": "In Maine Senate Race, Democrats Go From Chaos to Coronation",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ0VTWkk0TzVBTlRtMTYtNThDRGRlSWVTSTgyRWtsb203czNUekxQQ0tPNEtaMEcyc3NkWnpsWkxVbU9Oa3dFV0psOThld1A4M3JMMFhUVm5rS21fWkxvQjZaUDJmLU9BYldlZnNrN3dlZHVGQ2xyVktEc1FXLWFBV19LYVl1YXZZSE1waEFIaTlGbFcx?oc=5",
+      "publishedAt": "2026-07-22T07:09:50.000Z"
+    },
+    {
+      "source": "Arizona Capitol Times",
+      "title": "Legislative roundup: Where the closest primaries stand",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPXzZrQXFxVEdZUWN3blB5LUZjQnl5eW90bk8tUDBwYVkxOFFEeURKbFR6WllzRC11ejNZM3VPVFZUZDRBZTIybXFQZzJwSVlrMG5pOUp5T3hfQTc2QjhaU2FZbU9WaGlNTDZPRkNwaDBLa0NOLTBsT05rVXZuMzVZZzl2bjBQOXEzd09TQ1NIbFR6T2dvdkx2X0FVVHExdw?oc=5",
+      "publishedAt": "2026-07-22T06:32:26.000Z"
+    },
     {
       "source": "The Washington Post",
       "title": "Live updates: Andy Biggs wins Arizona GOP governor primary to face Katie Hobbs",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNV0U3S245eGxhbDVqN0xYVlRoQmZUVUNEUjhqSjdya1p1T05FSFNxMHUwR2luQ0JzSlluZ3gxNUROenF1RHU3djFsUEhZd2pqUjYyYUx3MWI4U3pTeVoyWWgtSXlJWkZ5QUk4UXN5elppRHR0Y2psTFhzb1N4b0E1aWxqZzZRNzB2UmVjYkVvNzk5alh2RWlxd0dvOVB5UGVTNW9DTHhRd2JtMFZ3b1RZS3FIX1FnYUtHa2ZnaQ?oc=5",
-      "publishedAt": "2026-07-22T03:40:37.000Z"
+      "publishedAt": "2026-07-22T06:11:00.000Z"
     },
     {
-      "source": "Politico",
-      "title": "Rep. Andy Biggs wins GOP primary for Arizona governor",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMllzQzZBRVh1VDAxU3RYMGtQR2lFdUdJYVJIcnpxSUZFREFROUUydk1LYzhoVzM3ZXZVSjc0WlFfeTlzbjdPV3l3b1lxdGlfRTJyZVUxX0pWb1lUWWFLbHh6N1daYzRTLVU4SGVTR1lONXYzU0J3T3FQZThDV1d4MTEtVzdnc21yaVM2c0V3?oc=5",
-      "publishedAt": "2026-07-22T03:04:00.000Z"
+      "source": "NPR",
+      "title": "Mamdani says New York City can't arrest Netanyahu but the federal government should",
+      "url": "https://www.npr.org/2026/07/22/g-s1-134880/mamdani-nyc-netanyahu",
+      "publishedAt": "2026-07-22T06:04:29.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Rep. Blake Moore, R-Utah, on GOP's efforts to pass budget reconciliation bill",
+      "url": "https://www.npr.org/2026/07/22/nx-s1-5897533/rep-blake-moore-r-utah-on-gops-efforts-to-pass-budget-reconciliation-bill",
+      "publishedAt": "2026-07-22T04:55:23.000Z"
+    },
+    {
+      "source": "The Guardian",
+      "title": "Trump ally wins Republican primary for Arizona governor, setting up race against Katie Hobbs",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMDl0dVBLWjRqdTY0cDMteXY5akZvLTJlWHdkQnR5Z1Q0TDVLb290aGZ3ZUFOTDdEOGd5SWRYYURqMkVVNGZPSVpmTE9ubU1NYnNjVHBnMjdsTTVlcy01TEVaNGhOYlFrSk1MNC1yejdOLXdUaXVvay1IR0R0WEZ2UzNNYmxhaV9mSWdfSXBVbnVkamNYLWVKYVJXelZKZw?oc=5",
+      "publishedAt": "2026-07-22T03:17:00.000Z"
+    },
+    {
+      "source": "KJZZ",
+      "title": "Warren Petersen leads Rodney Glassman in race for Arizona GOP attorney general nomination",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWRBMEJfQWEwV0p0RW5rSURHaFF6UWNFXzF3dWlBc3dIeWhQM3BMN0FxQlZnaXlfQ2JYRjlCNkFxeWhQMjU3amRYQm9yMTlITXRwTG9VdVN5MHpVTlNKMVQwMzNldlJYaURWYzRTY2RtR0s4empwSnUwRUtySUFyTy1ZTHJGOU5uSUpsbGE1VHB3UG45aGpMRWFyQXYwVkw2a1djUmVZWXpOWms5WTVMS0FB?oc=5",
+      "publishedAt": "2026-07-22T03:12:00.000Z"
     },
     {
       "source": "NPR",
       "title": "House votes to extend government funding, aiming to avoid an election year shutdown",
       "url": "https://www.npr.org/2026/07/21/nx-s1-5902245/government-funding-house-vote-continuing-resolution",
       "publishedAt": "2026-07-22T02:20:15.000Z"
-    },
-    {
-      "source": "AZ Family",
-      "title": "Arizona CD1 open seat draws national attention",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbkJ6Tm5iS29WZlN0OHZiaVB6Zk1Pa2RHbEh5NFhmOEluMWZvMTVQX1VqUDR4cnY3Q05nc2REV2hiZmFoLWM4aDMzdWxkYXRQSUdfSm9OdmNIRjRZdHBHRk5McktRdWx2M1lFMXRjOU13c213ZkZLVE5DSnM2b0FkVjh3VjNOWk5YMlE4?oc=5",
-      "publishedAt": "2026-07-22T02:15:00.000Z"
-    },
-    {
-      "source": "AZ Family",
-      "title": "Jay Feely wins GOP primary for Arizona’s CD1; still too close for Democrats",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVVZ6azZtVnRxZm5YS3I4OFhqOEtfaWJ2aFM3MzRGM1J3SW1hYWNpNkRzU2tYLUFCYUg2d0k2WVhHanZObmZ3ZmV5RUJxQUY4WnQxa3pJYVNHNVdnMGJvZDFHbXF3dFNFVVlSM1ZocnFHMTdHTmZlUUtqbHZqeTU1RTF3cTlPZmJaZlNPN3NhZUc2MnNrZUNHZjlDdGdCQnVUYkVmSg?oc=5",
-      "publishedAt": "2026-07-22T02:15:00.000Z"
-    },
-    {
-      "source": "AZPM News",
-      "title": "Live Updates: 2026 Arizona Primary Election",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ09yWnZ5cS1lSTdBNjRJaWhRaEd0SDdlWDhYTjlJVG5DTEQ5X191TWVyTmVaeGhvUmNQcHRST1JrcWN6VWY2R0lYZW1IM3FlOUhiYW5fLTg5QzlFY1c3WEM1OHlQRzlzRjJMVnlmaEtFeDd3dlVqYzA1Q1ZDSVBVVnZuNFhuM1dDUGhHRWg3dXlSTXNocU44?oc=5",
-      "publishedAt": "2026-07-22T01:38:55.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -48,18 +60,6 @@
       "title": "Federal civil rights agency moves to stop requiring demographic data collection after 60 years",
       "url": "https://www.pbs.org/newshour/politics/federal-civil-rights-agency-moves-to-stop-requiring-demographic-data-collection-after-60-years",
       "publishedAt": "2026-07-22T00:08:25.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Democrats could take initial vote on 2028 presidential primary calendar this week",
-      "url": "https://www.pbs.org/newshour/politics/democrats-could-take-initial-vote-on-2028-presidential-primary-calendar-this-week",
-      "publishedAt": "2026-07-21T23:52:05.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Kennedy presses top military officials for 'straight talk' on fallout if U.S. leaves Iran now",
-      "url": "https://www.pbs.org/newshour/politics/watch-kennedy-presses-top-military-officials-for-straight-talk-on-fallout-if-u-s-leaves-iran-now",
-      "publishedAt": "2026-07-21T23:28:39.000Z"
     }
   ]
 }
