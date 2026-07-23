@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-07-23T07:20:02.838Z",
+  "generatedAt": "2026-07-23T10:52:14.251Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "'New York Times' alleges White House abuses legal system to intimidate reporters",
+      "url": "https://www.npr.org/2026/07/23/nx-s1-5903854/trump-new-air-force-one-nyt-subpoenas",
+      "publishedAt": "2026-07-23T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "How predominantly Black areas in 6 states have been split up by redistricting",
+      "url": "https://www.npr.org/2026/07/23/nx-s1-5896335/black-voters-republican-redistricting",
+      "publishedAt": "2026-07-23T09:00:00.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Nebraska U.S. Senate Election 2026: Latest Polls",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQai04b2VObzBCUm05bjZ0NHNWY1YxbXlPR0t6cktsdkRaeUpRaHVBbzVsc2xILU1fRTNQY0xvT01SalZNQU9LTDQ0bVBLbnF6aGg0VUxXa0hPSG1NdGd5UWZOWUVhUjhqRXdQU2tEWnhIcWNQYm4tNWR1eHotczVvQmFUejZJbTFpR3NCdUhR?oc=5",
+      "publishedAt": "2026-07-23T01:17:54.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "Michigan U.S. Senate Election 2026: Latest Polls",
@@ -42,24 +60,6 @@
       "title": "The implications of Trump loyalists and election deniers winning GOP primaries",
       "url": "https://www.pbs.org/newshour/show/the-implications-of-trump-loyalists-and-election-deniers-winning-gop-primaries",
       "publishedAt": "2026-07-22T22:40:07.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Breakthroughs in Chinese AI models threaten U.S. lead in tech race",
-      "url": "https://www.pbs.org/newshour/show/breakthroughs-in-chinese-ai-models-threaten-u-s-lead-in-tech-race",
-      "publishedAt": "2026-07-22T22:35:28.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "House passes Pentagon funding bill and a blueprint to unlock new dollars for Iran war",
-      "url": "https://www.npr.org/2026/07/22/nx-s1-5903130/house-vote-iran-war-funding-reconciliation",
-      "publishedAt": "2026-07-22T21:51:19.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump administration signs commercial nuclear deal with Saudi Arabia",
-      "url": "https://www.npr.org/2026/07/22/nx-s1-5903293/trump-saudi-arabia-nuclear-deal",
-      "publishedAt": "2026-07-22T21:17:24.000Z"
     }
   ]
 }
