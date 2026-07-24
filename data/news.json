@@ -1,11 +1,53 @@
 {
-  "generatedAt": "2026-07-23T21:43:51.440Z",
+  "generatedAt": "2026-07-24T03:57:59.229Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Justice Dept. drops 'New York Times' subpoenas under pressure from judge",
+      "url": "https://www.npr.org/2026/07/23/nx-s1-5905732/nyt-subpoenas-trump-air-force-one-plane-qatar-security",
+      "publishedAt": "2026-07-24T03:31:19.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH LIVE: Day 2 of FDA advisory panel meeting to consider use of peptides",
+      "url": "https://www.pbs.org/newshour/health/watch-live-day-2-of-fda-advisory-panel-meeting-to-consider-use-of-peptides",
+      "publishedAt": "2026-07-24T00:49:28.000Z"
+    },
+    {
+      "source": "FOX 10 Phoenix",
+      "title": "What does Arizona's state mine inspector actually do?",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTnFhZ3pRUHVEYWpTLWpEYTEtdkVsYW1zSDh5LTJ0RnVkTTJEQ19tREt3LVEtaEhxb3Aycko2WXhSVmVWTHFhaDkxOE05aS1FaDl6M0YwY1VVZjdGYlRjSlRJQ2psUXJXN3o0MktnT3pEM0otSjFqUmFDQ0RrQ3VaWmF6MVF5S3VMUHZqVWZTUU9QQdIBlwFBVV95cUxOOUpIVzYtaUlBYWx2dkw0VmtDclBaT0lfUTdqS0ptYWwwUl9FTVhJSkM3VHE0RkVFVHF2UmhEUzA4eUMtSWJiaUpsVXFqVFh0dlVNc01LaUUwUlBMZUdNZElkZ2RKY25YakxINjl6U3lzMkZaMzVwQmxEOGZ1Y1B5d2VhZ3RZa0paLW92WllwbVV2UTBLWk1r?oc=5",
+      "publishedAt": "2026-07-24T00:39:20.000Z"
+    },
+    {
+      "source": "PBS",
+      "title": "Trump to travel to Michigan ahead of swing state's primary election",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTDF0aGtCckliUm1CM3p4NlF5QUhaYUJ4RXhURnYzSFo2RG4yQkxRdXdVX3VXdmlhazhEQXVWbVBtVGRtMG9DSWtFNk1tb0I0NFA1TGlHcmlaWllWbFd6dERzeEIxVEE3S1FCT3B4cTZyajc5NU5CeWF0Y3ZEUFJ1bm5leUdLcVJhOTRBWU5MbmRtdDJqeEFhNlFuZGwzVUYwV1dYdDBRUdIBrAFBVV95cUxNOHZYdXZ6SDRWOXM0MUNORVI5MEpUV054Um81VmNOWE04c2dXOXc4aTVNSHNTQkR3MXlOVzR2TmkyWFhpeXZSaVlpeGE3elA2WXRrYjJQRmlhZW83ekRyNzdhZzRDOVBjcUtrRkJaTmlZSGJQbzJBQ1BJc2gtWWR4eWRZNWFnbk9hNTdFd1I1UER2c01Tb0xYcXM5TXBUeklHZXdndVo5aW1DdjZ1?oc=5",
+      "publishedAt": "2026-07-23T23:52:18.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump imposes double-digit tariffs on dozens of countries as stopgap 10% levies expire Friday",
+      "url": "https://www.pbs.org/newshour/politics/trump-imposes-double-digit-tariffs-on-dozens-of-countries-as-stopgap-10-levies-expire-friday",
+      "publishedAt": "2026-07-23T23:04:52.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump threatens 'major military punishment' after Houthi attacks on tankers in Red Sea",
+      "url": "https://www.pbs.org/newshour/show/trump-threatens-major-military-punishment-after-houthi-attacks-on-tankers-in-red-sea",
+      "publishedAt": "2026-07-23T22:55:29.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump to impose double-digit tariffs on dozens of countries",
+      "url": "https://www.npr.org/2026/07/23/g-s1-135388/trump-tariffs-trade-country",
+      "publishedAt": "2026-07-23T22:06:50.000Z"
+    },
     {
       "source": "Nebraska Examiner",
       "title": "Democrat outraises Republican in competitive NE-O2 race, but both have about $1M to spend",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNei12cGtoZlE5MFBNU3RmNmE3SXhTOVc2MEZ3UTI0UGVMSHJGNjFFemJQSW5ZVmduX0xuSDRFUl9xWlBWWWZuMXA3dDRuaTZ0NkVrNzAzRnlUV0pZc2JvamZNTlB0WU04eDJldHVzY0p4d3RydXl6aExud3Q1TVl6RjY1cGJ0RERLWDRWNVdBN1Q4TEkwbGM5RzBmWnRMSV9wcUt0VjUxQnVYMXVNRnppUlJvVVNscnQ0X1dyMm54QWZENHZiNER3?oc=5",
-      "publishedAt": "2026-07-23T21:11:15.000Z"
+      "publishedAt": "2026-07-23T21:16:42.000Z"
     },
     {
       "source": "ABC7 Bay Area",
@@ -17,49 +59,7 @@
       "source": "YouGov",
       "title": "Donald Trump is deeply unpopular. Why aren't Democrats doing better in the race for Congress?",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSXg1WEVqcWpKdFJNcWdidThydFF3aVZFUjRkYU8wT2VtWlZ5RFFYOExpQ2VOc0V3VkFwYUpOM1RjNllnRzlKV01jemV1RUpQR1A5czRmRmFQd1RGNzR3Nl9TZlhZaFlLQzFYQkJnYVZGTEN2WnM0bHY0SnFoc0JXcTNIN29IUmFUOVJ5TTZDc2dnb2RQaERiYWowWDFucjVKdWxaYnExTHppYjRMaVB1RGcyRVBkSHMzRTY0TUZyaVdWa3lpU0RIUG53?oc=5",
-      "publishedAt": "2026-07-23T20:26:20.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump allies are poised to weaken protections for historic sites — not just in D.C.",
-      "url": "https://www.npr.org/2026/07/23/nx-s1-5904435/section-106-review-trump-historic-preservation-council",
-      "publishedAt": "2026-07-23T20:14:58.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Trump hosts World Series champion LA Dodgers at the White House",
-      "url": "https://www.pbs.org/newshour/nation/watch-live-trump-hosts-world-series-champion-la-dodgers-at-the-white-house",
-      "publishedAt": "2026-07-23T20:08:33.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Trump expands pledge aimed at shielding consumers from energy cost hikes due to data centers",
-      "url": "https://www.pbs.org/newshour/politics/watch-trump-expands-pledge-aimed-at-shielding-consumers-from-energy-cost-hikes-due-to-data-centers",
-      "publishedAt": "2026-07-23T19:24:21.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump adds new condition to Saudi nuclear deal, says kingdom must normalize relations with Israel",
-      "url": "https://www.pbs.org/newshour/world/trump-adds-new-condition-to-saudi-nuclear-deal-says-kingdom-must-normalize-relations-with-israel",
-      "publishedAt": "2026-07-23T18:40:05.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Amish Shah wins Democratic congressional primary in Arizona, a blow to the party establishment",
-      "url": "https://www.pbs.org/newshour/politics/amish-shah-wins-democratic-congressional-primary-in-arizona-a-blow-to-the-party-establishment",
-      "publishedAt": "2026-07-23T18:20:00.000Z"
-    },
-    {
-      "source": "MPR News",
-      "title": "'A coin flip': The tight Democratic race for Senate between Craig and Flanagan",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc2h6ZUFpeXRrTHhlYmFGY283Uk1ZYWc0T1BTejIyVzIzWEpjZThsdzZ3NkpKQmtiMGYwajdJU2tGMkJGVWdMT1o5cjgzdFBxd29tam8yOVhoZjQzTU9mZlByYjFYWTdvc3ZCdDdCbWJlSjE3Nl9CMFlhQUVqbERySHA5VTBXZnZlWC1iRFIzQ2xRWW1WQWVqUFVnWG8?oc=5",
-      "publishedAt": "2026-07-23T18:10:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "For a 2nd time, House approves resolution to end the war in Iran in a rebuke to Trump",
-      "url": "https://www.npr.org/2026/07/23/nx-s1-5904515/congress-iran-war-powers-vote",
-      "publishedAt": "2026-07-23T17:35:02.000Z"
+      "publishedAt": "2026-07-23T20:30:01.000Z"
     }
   ]
 }
