@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-07-24T10:48:50.135Z",
+  "generatedAt": "2026-07-24T14:25:56.465Z",
   "articles": [
+    {
+      "source": "NC Newsline",
+      "title": "New $2.3M ad campaign ties Whatley to convicted sex offender as NC's US Senate race tightens",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd1FCNG92Q0VMaDl0Q3Ficy05cG90UkJNZGxJQjlUOWVPbUpmbllWVUJGVVo3UWEzN3RlX2VMbHJWS2FkZU9FeFY5TUIyalVFTXg3RUtiZUktekJMNEZwakV5WDlydmFNVWc4blpYakkxN3QtOEZyLUxhOTZMQkprS2ZLMVZ6M25xbVp0ZXA0bTRiWkFFYW1KZjlmTjAzbG8wdVRpYmFkQ0M5OHZJMDdVTTZha3dGZm96NHBpNUlQTDNqckE?oc=5",
+      "publishedAt": "2026-07-24T10:04:06.000Z"
+    },
     {
       "source": "Indiana Capital Chronicle",
       "title": "Bid to question voters central in recount of Indiana Senate race separated by 3 votes",
@@ -9,7 +15,7 @@
     },
     {
       "source": "NPR",
-      "title": "Trump refuses to give up on tariffs - a pillar of his economic legacy",
+      "title": "Trump refuses to give up on tariffs — a pillar of his economic legacy",
       "url": "https://www.npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada",
       "publishedAt": "2026-07-24T09:00:00.000Z"
     },
@@ -54,12 +60,6 @@
       "title": "Trump threatens 'major military punishment' after Houthi attacks on tankers in Red Sea",
       "url": "https://www.pbs.org/newshour/show/trump-threatens-major-military-punishment-after-houthi-attacks-on-tankers-in-red-sea",
       "publishedAt": "2026-07-23T22:55:29.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump to impose double-digit tariffs on dozens of countries",
-      "url": "https://www.npr.org/2026/07/23/g-s1-135388/trump-tariffs-trade-country",
-      "publishedAt": "2026-07-23T22:06:50.000Z"
     }
   ]
 }
