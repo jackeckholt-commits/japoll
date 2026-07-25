@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-07-25T03:54:21.011Z",
+  "generatedAt": "2026-07-25T07:04:08.190Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Trump returns to correspondents' dinner 3 months after shooting",
+      "url": "https://www.npr.org/2026/07/25/nx-s1-5907805/white-house-correspondents-dinner",
+      "publishedAt": "2026-07-25T05:04:00.000Z"
+    },
+    {
+      "source": "5 EYEWITNESS NEWS",
+      "title": "KSTP/SurveyUSA poll: Lindell, Tafoya increase their leads; Craig, Ellison margins shrink",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT0RBcUhIWFJJaE9aMGVaVWw1dUxtcVFybDJxVXZZeGJRRUhxN3lJc3dMOWxSaVQ4U08yN2d0TjZlSU1KNGJzWFJNNGp4eVJ5YTNNUjBfTHZqMVVsVTkzQ3hPVVBLWGpfRTVLa01PMHhlN0d6YzcydUxTVDY5VGpRYXEzUlJXaXd0Q3VjN2xhZ3hiVDdGa3Jja1FWNWJPcjZORkJZUUlJOHlBZGZ4MzQ4TDcwcHhJdnBfaDhheWFDRlFhTUpMeGNyVzV3?oc=5",
+      "publishedAt": "2026-07-25T04:34:49.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "2026 Midterm Primary Election Calendar",
@@ -14,16 +26,16 @@
       "publishedAt": "2026-07-24T22:35:39.000Z"
     },
     {
+      "source": "Elon University",
+      "title": "Israel Balderas talks press access in N.C. Senate race in News & Observer",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd1ROUWs2NkdBeUdpUWZ5MnhNdXlxWGJWemdKX2x5UnpwbWNGRXBsTFphNHdUT1ZWRHRpSmVHLVFHYmh6Q1VERzFxaWxJNGxrbGNTcWVCQVBuSVpFWGJRT1d5MVRHdUpWOVpVclVQZHh4VURyb0ptLXBjRnMyY0g2eUxudW1GSUpXOXFiemx2Q3BjanpManpHMUhzcGNkTnRwMElLdWl4bGlUalgtZmc0cVFqMEk?oc=5",
+      "publishedAt": "2026-07-24T22:22:48.000Z"
+    },
+    {
       "source": "Source New Mexico",
       "title": "New Mexico Democratic Party to meet Saturday to select new lieutenant governor candidate",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ0MxSDYzMVdIaHNVY1NYZlRPVjhFMjRLd1J0WllpLUN6X2xrRkRKaVYxTEFFallRVjVsRl9CTFdwRnFqZ0JXSTBnazFjb2EzeFhIZjhNeW91ZVZiYmpkXzAxdzEwNjVKQnJFT1oxLVpQakRxc1N2VmFMc1VVRHNUdUhRT05PQWRPNzVEUE10TnN2UUFDdW5hUzJJTHVncElyV0dkNkE0Y1o0blBqTjZiSE1DUXg0QXpJ?oc=5",
       "publishedAt": "2026-07-24T22:20:05.000Z"
-    },
-    {
-      "source": "Elon University",
-      "title": "Israel Balderas talks press access in N.C. Senate race in News & Observer",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd1ROUWs2NkdBeUdpUWZ5MnhNdXlxWGJWemdKX2x5UnpwbWNGRXBsTFphNHdUT1ZWRHRpSmVHLVFHYmh6Q1VERzFxaWxJNGxrbGNTcWVCQVBuSVpFWGJRT1d5MVRHdUpWOVpVclVQZHh4VURyb0ptLXBjRnMyY0g2eUxudW1GSUpXOXFiemx2Q3BjanpManpHMUhzcGNkTnRwMElLdWl4bGlUalgtZmc0cVFqMEk?oc=5",
-      "publishedAt": "2026-07-24T22:18:45.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -48,18 +60,6 @@
       "title": "Democrats select South Carolina for their first 2028 presidential nominating contest",
       "url": "https://www.pbs.org/newshour/politics/democrats-select-south-carolina-for-their-first-2028-presidential-nominating-contest",
       "publishedAt": "2026-07-24T21:26:57.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "St. Louis Democratic House primary exposes party rifts over Israel",
-      "url": "https://www.npr.org/2026/07/24/nx-s1-5903070/st-louis-democratic-house-primary-exposes-party-rifts-over-israel",
-      "publishedAt": "2026-07-24T21:17:28.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Trump touts new nuclear reactors in his push to speed up domestic power",
-      "url": "https://www.pbs.org/newshour/politics/watch-trump-touts-new-nuclear-reactors-in-his-push-to-speed-up-production",
-      "publishedAt": "2026-07-24T20:45:37.000Z"
     }
   ]
 }
