@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-07-25T10:16:18.527Z",
+  "generatedAt": "2026-07-25T14:18:45.106Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Fact-checking Mullin's claim that foreign adversaries can access voting machines in U.S. elections",
+      "url": "https://www.pbs.org/newshour/politics/fact-checking-mullins-claim-that-foreign-adversaries-can-access-voting-machines-in-u-s-elections",
+      "publishedAt": "2026-07-25T12:00:26.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Week in Politics: Iran War; Trump attends solemn ritual; nuclear deal with Saudi Arabia",
+      "url": "https://www.npr.org/2026/07/25/nx-s1-5903811/week-in-politics-iran-war-trump-attends-solemn-ritual-nuclear-deal-with-saudi-arabia",
+      "publishedAt": "2026-07-25T11:43:45.000Z"
+    },
     {
       "source": "NBC News",
       "title": "Democrats poised to nominate Troy Jackson in must-win Maine Senate race",
@@ -10,7 +22,7 @@
     {
       "source": "NPR",
       "title": "Democrats in Maine gather to replace Graham Platner in the race against Susan Collins",
-      "url": "https://www.npr.org/2026/07/25/nx-s1-5902982/democrats-maine-senate-race",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RR2ZJbTBwRVVLTWwxeVZ0dmx4bUc0NXFYR3lBUUdITFBLVlZuWkxsaTlLNy1kT3pHNEp0eDVfVGljWVpFdFN6Q0VlR0MzWTNUSDFPcUxKSVdFRHdHaTNVYWg2YzhHWWNhME5UTEp3S2g4TVVXMG85SG9pSDM?oc=5",
       "publishedAt": "2026-07-25T09:00:00.000Z"
     },
     {
@@ -32,34 +44,22 @@
       "publishedAt": "2026-07-25T00:52:58.000Z"
     },
     {
+      "source": "The New York Times",
+      "title": "Arizona Governor Primary Election Results",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ1EwVG5MdVZuMlRkdGpDNVVyLW84ZjhWUlB4bkdPUmNHUzZrdVdlRlM3XzN2VEpOeDRVRk00dHBOUzdxbi1YMm1RbTdUd0RxNTZobFdBX0ttZTV0UjB1eE5aM0tmWlpmNHg1dllLaEpDVVdoU2puR3RpVmxSZVRtTkhnenN3S0EzdV91Qmtady1iN3c2ekZJMHdEc0VOUQ?oc=5",
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
       "source": "PBS NewsHour",
       "title": "Brooks and Marcus on the Iran conflict becoming a 'forever war'",
       "url": "https://www.pbs.org/newshour/show/brooks-and-marcus-on-the-iran-conflict-becoming-a-forever-war",
       "publishedAt": "2026-07-24T22:35:39.000Z"
     },
     {
-      "source": "Elon University",
-      "title": "Israel Balderas talks press access in N.C. Senate race in News & Observer",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd1ROUWs2NkdBeUdpUWZ5MnhNdXlxWGJWemdKX2x5UnpwbWNGRXBsTFphNHdUT1ZWRHRpSmVHLVFHYmh6Q1VERzFxaWxJNGxrbGNTcWVCQVBuSVpFWGJRT1d5MVRHdUpWOVpVclVQZHh4VURyb0ptLXBjRnMyY0g2eUxudW1GSUpXOXFiemx2Q3BjanpManpHMUhzcGNkTnRwMElLdWl4bGlUalgtZmc0cVFqMEk?oc=5",
-      "publishedAt": "2026-07-24T22:22:48.000Z"
-    },
-    {
-      "source": "Source New Mexico",
-      "title": "New Mexico Democratic Party to meet Saturday to select new lieutenant governor candidate",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ0MxSDYzMVdIaHNVY1NYZlRPVjhFMjRLd1J0WllpLUN6X2xrRkRKaVYxTEFFallRVjVsRl9CTFdwRnFqZ0JXSTBnazFjb2EzeFhIZjhNeW91ZVZiYmpkXzAxdzEwNjVKQnJFT1oxLVpQakRxc1N2VmFMc1VVRHNUdUhRT05PQWRPNzVEUE10TnN2UUFDdW5hUzJJTHVncElyV0dkNkE0Y1o0blBqTjZiSE1DUXg0QXpJ?oc=5",
-      "publishedAt": "2026-07-24T22:20:05.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "WATCH: Trump says Venezuela is 'not ready yet' for elections after U.S. ouster of Maduro",
       "url": "https://www.pbs.org/newshour/politics/watch-trump-says-venezuela-is-not-ready-yet-for-elections-after-u-s-ouster-of-maduro",
       "publishedAt": "2026-07-24T21:52:42.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Democrats approve new primary election calendar, putting South Carolina first",
-      "url": "https://www.npr.org/2026/07/24/nx-s1-5906834/dnc-primary-election-calendar-south-carolina-2028",
-      "publishedAt": "2026-07-24T21:50:41.000Z"
     }
   ]
 }
