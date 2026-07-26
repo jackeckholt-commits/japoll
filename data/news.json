@@ -1,11 +1,41 @@
 {
-  "generatedAt": "2026-07-26T10:23:45.141Z",
+  "generatedAt": "2026-07-26T14:16:21.683Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "As Hegseth pursues a 'High-T' military, here's what to know about testosterone replacement",
+      "url": "https://www.pbs.org/newshour/health/as-hegseth-pursues-a-high-t-military-heres-what-to-know-about-testosterone-replacement",
+      "publishedAt": "2026-07-26T13:00:43.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Maine Senate Dems Nominee",
+      "url": "https://www.npr.org/2026/07/26/nx-s1-5906372/maine-senate-dems-nominee",
+      "publishedAt": "2026-07-26T12:25:26.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Politics chat: How the war with Iran will shape midterms, Troy Jackson enters Maine Senate race",
+      "url": "https://www.npr.org/2026/07/26/nx-s1-5906388/politics-chat-how-the-war-with-iran-will-shape-midterms-troy-jackson-enters-maine-senate-race",
+      "publishedAt": "2026-07-26T11:58:32.000Z"
+    },
+    {
+      "source": "The Guardian",
+      "title": "He’s a doctor and a progressive. Will he win a key US Senate race in Michigan?",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa19vOTNVeHM5SF8zcVhuZWczaGRNdXB5WkQ2c0Qxc2hsQU1neUxuOVRNUzkwNGFhRzZ4Zks5TkJlanhIeVZZRF9HN2NjUWwwY1R2OHVJYzRiUl9TMmhuOXR0azZLc01pQU1Zb01XUVRnX2FYR05ndWtPY2xMLW16WHUyNEtCR0FacG4teHZOZGpzeHQ2TWFBUw?oc=5",
+      "publishedAt": "2026-07-26T11:01:00.000Z"
+    },
     {
       "source": "NPR",
       "title": "Rage-giving, innovation and cuts: How public media has survived without federal funds",
       "url": "https://www.npr.org/2026/07/26/nx-s1-5884022/pbs-npr-public-radio-tv-funding-trump",
       "publishedAt": "2026-07-26T10:00:00.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Democrats Reset the Maine Senate Race. Now Comes the Tricky Part.",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTzRBVjBkQnYzU0ZvQzAzRV9SdDZBLXd5ZUpneVc3OHplenZIbXRoY3I2V05VNWlIaHRwZXJnX1FfSkFGcjNFbkZhaHpIRjhxM1RXUFNsN2tYcHQ2UE82VzYxR3h5bFBIM0dDd2ttR0JBbVJiZ1E0cU1aTTZLR29TZEJfTHVxbjQzRzc0Mm90M0hOUQ?oc=5",
+      "publishedAt": "2026-07-26T09:01:42.000Z"
     },
     {
       "source": "NBC News",
@@ -20,12 +50,6 @@
       "publishedAt": "2026-07-26T00:57:40.000Z"
     },
     {
-      "source": "Reuters",
-      "title": "Maine Democrats nominate Troy Jackson to replace Platner in US Senate race",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSllqZ2RPVm9vaWtHRlBld0ZGbmlwVlcyMjl2WVNPWHNjNmpGeEJETEhmV1dKMTI1Ukcweng0NnVhUkU1YkFsemFXZ2ZwU1RUaWE1eWg3Q3dSYmhwcF9kQ0FpaVBFSE81NkIzcEloczQ4WWZmLVN0QzM1enA0MkhnbGlteWdvMjFwTnA4ZUQycnRjOHpLTllNNGwyRGdJU0tjUEJpbWxhX2JJdGhLd0ZlWlotTU1Xczc1d085ZFBB?oc=5",
-      "publishedAt": "2026-07-25T22:38:45.000Z"
-    },
-    {
       "source": "The New York Times",
       "title": "Troy Jackson Picked to Replace Platner as Democratic Nominee in Maine Senate Race",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQklheVFDel80MVRLTHpreHotQ21WUFBVTnhEaTVZQXZaZHQ1X2Y2bXU2YXlSbWRhWUtmeHNBRDY3TnlMNTBUcUpSWmxYUFFxU0h6NzFDNGp4cEJtMXJWUktMZ3VpMFNxN05xX0NtakltcDNqb0gtNVBoV0pwa0pacjdJY28xTVZvMDI1NGVzVnF4THJ6SUVoZkQ2WQ?oc=5",
@@ -36,30 +60,6 @@
       "title": "Biden ghostwriter tapes to be released",
       "url": "https://www.npr.org/2026/07/25/nx-s1-5906749/biden-ghostwriter-tapes-justice-department-trump-debate",
       "publishedAt": "2026-07-25T19:36:18.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "After Democratic Shake-Up, Susan Collins Holds Enormous Cash Edge in Maine",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeFZGSE9fd0VGczEycTA0TFp1TGNuZTdXbjY5OVRsWTZWNk84dkxtNzMwdUIxOFEtaTRiVXdhUG1yWTl2ZTU5MGo4WElKZ1lfb2lkcTJPWV9CNko3Sm1meE1tN0xjSU96ZWo0RHFEU3Q3NmpXRXktMFdGM3p3c0tQOG54VjVEeDZrZ0V1QzVXSERDY0pHcEdB?oc=5",
-      "publishedAt": "2026-07-25T19:03:08.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Fact-checking Mullin's claim that foreign adversaries can access voting machines in U.S. elections",
-      "url": "https://www.pbs.org/newshour/politics/fact-checking-mullins-claim-that-foreign-adversaries-can-access-voting-machines-in-u-s-elections",
-      "publishedAt": "2026-07-25T12:00:26.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Week in Politics: Iran War; Trump attends solemn ritual; nuclear deal with Saudi Arabia",
-      "url": "https://www.npr.org/2026/07/25/nx-s1-5903811/week-in-politics-iran-war-trump-attends-solemn-ritual-nuclear-deal-with-saudi-arabia",
-      "publishedAt": "2026-07-25T11:43:45.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Democrats in Maine formally nominate Troy Jackson as their new candidate for U.S. Senate",
-      "url": "https://www.npr.org/2026/07/25/nx-s1-5902982/democrats-maine-senate-race",
-      "publishedAt": "2026-07-25T09:00:00.000Z"
     }
   ]
 }
