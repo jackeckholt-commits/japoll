@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-07-25T11:34:21.375Z",
+  "updatedAt": "2026-07-27T13:23:03.375Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
-    "democrats": 207.9,
-    "tossup": 19.3,
-    "republicans": 207.6,
+    "democrats": 208,
+    "tossup": 19.7,
+    "republicans": 207.3,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
-    "nonTossupDemocrats": 207.9,
-    "nonTossupRepublicans": 207.6,
-    "averageTossup": 19.3,
+    "nonTossupDemocrats": 208,
+    "nonTossupRepublicans": 207.3,
+    "averageTossup": 19.7,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
   "average": {
     "categories": {
-      "demSafe": 179.3,
-      "demLikely": 16.3,
+      "demSafe": 179.7,
+      "demLikely": 16,
       "demLean": 12.3,
-      "tossup": 19.3,
+      "tossup": 19.7,
       "repLean": 11.3,
-      "repLikely": 34,
-      "repSafe": 162.3
+      "repLikely": 33,
+      "repSafe": 163
     },
     "totals": {
-      "democrats": 207.9,
-      "tossup": 19.3,
-      "republicans": 207.6,
+      "democrats": 208,
+      "tossup": 19.7,
+      "republicans": 207.3,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -45,18 +45,18 @@
       "updated": "2026-07-25",
       "url": "https://www.racetothewh.com/house",
       "categories": {
-        "demSafe": 176,
-        "demLikely": 20,
+        "demSafe": 177,
+        "demLikely": 19,
         "demLean": 15,
-        "tossup": 23,
+        "tossup": 24,
         "repLean": 14,
-        "repLikely": 49,
-        "repSafe": 138
+        "repLikely": 46,
+        "repSafe": 140
       },
       "totals": {
         "democrats": 211,
-        "tossup": 23,
-        "republicans": 201
+        "tossup": 24,
+        "republicans": 200
       },
       "included": true,
       "scrapeStatus": "live",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T11:34:13.904Z",
+  "updatedAt": "2026-07-27T13:22:56.007Z",
   "genericBallot": {
     "average": {
       "democrats": 47.7,
@@ -77,7 +77,7 @@
   "trumpApproval": {
     "average": {
       "approve": 38,
-      "disapprove": 59.2
+      "disapprove": 59.3
     },
     "sources": [
       {
@@ -95,8 +95,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 36.8,
-        "disapprove": 59.4,
+        "approve": 36.9,
+        "disapprove": 59.6,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
@@ -106,8 +106,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "approve": 39,
-        "disapprove": 57.9,
+        "approve": 39.1,
+        "disapprove": 58.1,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
         "scrapeStatus": "live",
