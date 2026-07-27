@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-07-27T04:26:38.962Z",
+  "generatedAt": "2026-07-27T08:15:21.586Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "With just a few primary elections to go, the competitive Senate map keeps shifting",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX1dwU0I1bDhacy1fcGZfVkFWY1BBa2MxOXlnUnlrOElyVFBYdDIxNkRBLWtfdDc4RTNaQ3BZZmVfem9Rc3JQSDgtZHBnZktlUm9sVTVOcDhMY3kyS3dja3V4dmJzOVNWZmYxbDN6bEtwVHFVMnd5emR2RUZBVW1jb1lvUnZOdw?oc=5",
+      "publishedAt": "2026-07-27T05:13:24.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "2026 Midterm Primary Election Calendar",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGNpVG94WTFTeEtVaGJwSEZEMEQ2UEpSS1pJd2p4R3FkRVBwVU9vOUFnSmxRMkNQRHd6eUxJeXFPZjZYdVlCc2tjS1ZsWTNRN2thOEZQWmxYN2VtUDFHZTNQaXlRTzFOZC1VV0JIVThnbk5PQlhZN0RNZG9URVpwY2E5cUJsQzRF?oc=5",
+      "publishedAt": "2026-07-27T00:57:37.000Z"
+    },
     {
       "source": "Source New Mexico",
       "title": "New Mexico Democratic lieutenant governor candidates tout experience, vision in final plea",
@@ -18,12 +30,6 @@
       "title": "As Hegseth pursues a 'High-T' military, here's what to know about testosterone replacement",
       "url": "https://www.pbs.org/newshour/health/as-hegseth-pursues-a-high-t-military-heres-what-to-know-about-testosterone-replacement",
       "publishedAt": "2026-07-26T13:00:43.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "2026 Midterm Primary Election Calendar",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGNpVG94WTFTeEtVaGJwSEZEMEQ2UEpSS1pJd2p4R3FkRVBwVU9vOUFnSmxRMkNQRHd6eUxJeXFPZjZYdVlCc2tjS1ZsWTNRN2thOEZQWmxYN2VtUDFHZTNQaXlRTzFOZC1VV0JIVThnbk5PQlhZN0RNZG9URVpwY2E5cUJsQzRF?oc=5",
-      "publishedAt": "2026-07-26T12:34:23.000Z"
     },
     {
       "source": "NPR",
@@ -44,22 +50,16 @@
       "publishedAt": "2026-07-26T11:01:00.000Z"
     },
     {
-      "source": "The Guardian",
-      "title": "Troy Jackson secures Democratic nomination for Maine Senate seat after chaotic primary race",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVDJQbGNvbGVWNVpZNXlTbkZ1UERzWDlFNlFrLWVHNWgzUXd2SGRQYWdQMEM0RGZGM0pZNUFJSkRSNHRfR3RVOEZhUnpuLWlVVFAtRnZ3OXVwQzBKVWwxcnphUkgyVmRfeGxlYllsQ1IwUzEwbWU5NTctcl9mMWREV3VrX1U5Vl9FMDRPdHNFeWFjYUNobEl4RVd4U1ZTUUw3ai13WmprNlU0Rmtz?oc=5",
-      "publishedAt": "2026-07-26T10:14:32.000Z"
-    },
-    {
       "source": "NPR",
       "title": "Rage-giving, innovation and cuts: How public media has survived without federal funds",
       "url": "https://www.npr.org/2026/07/26/nx-s1-5884022/pbs-npr-public-radio-tv-funding-trump",
       "publishedAt": "2026-07-26T10:00:00.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Biden ghostwriter tapes to be released",
-      "url": "https://www.npr.org/2026/07/25/nx-s1-5906749/biden-ghostwriter-tapes-justice-department-trump-debate",
-      "publishedAt": "2026-07-25T19:36:18.000Z"
+      "source": "PBS NewsHour",
+      "title": "Fact-checking Mullin's claim that foreign adversaries can access voting machines in U.S. elections",
+      "url": "https://www.pbs.org/newshour/politics/fact-checking-mullins-claim-that-foreign-adversaries-can-access-voting-machines-in-u-s-elections",
+      "publishedAt": "2026-07-25T12:00:26.000Z"
     }
   ]
 }
