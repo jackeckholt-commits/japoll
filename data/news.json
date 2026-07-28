@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-07-27T21:48:24.937Z",
+  "generatedAt": "2026-07-28T03:51:35.348Z",
   "articles": [
+    {
+      "source": "The New York Times",
+      "title": "2026 Midterm Primary Election Calendar",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGNpVG94WTFTeEtVaGJwSEZEMEQ2UEpSS1pJd2p4R3FkRVBwVU9vOUFnSmxRMkNQRHd6eUxJeXFPZjZYdVlCc2tjS1ZsWTNRN2thOEZQWmxYN2VtUDFHZTNQaXlRTzFOZC1VV0JIVThnbk5PQlhZN0RNZG9URVpwY2E5cUJsQzRF?oc=5",
+      "publishedAt": "2026-07-28T00:50:01.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Rand Paul releases Anthony Fauci's pandemic-era diary notes. Here's what they tell us",
+      "url": "https://www.npr.org/2026/07/27/nx-s1-5909531/rand-paul-anthony-fauci-coronavirus-diary-lab-leak-origin",
+      "publishedAt": "2026-07-28T00:05:31.000Z"
+    },
+    {
+      "source": "KTTC | Rochester, MN",
+      "title": "MN DFL race for U.S. Senate heats up as primary approaches",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ1RIelRKV2pINGFxN2hheUNDaEM1TzNCLTNPeHp1U18yc2pxbGMzaVJmLUwtcGthUmZoRWtNMjZST2dudU9fdmU5NHVXa0RzWndWZnZtYjluMV9BbGdxTk1zd0tEdUc0S3pnNnUzQ0VISC1aa2ZhaE5jazU2bmxSRW9jZEZIQUJaaEHSAZ4BQVVfeXFMUGlVOWxqNU5rZ3ZTT1c2NW85em9ibThGcXc4YmpDRW5lc1lIVnE5d2hIQXJmWWpiVlBXU2p3RnhFckpQeFZ6SEVTalRjSk5sblpyNVZicDg0TTRUb2FkTlAxMXY0SkRqNUJtWlNUcHFHUjJXZ0JKdzRKbzFrbkpsY2huV05jYWxlNlNhVDctdU9Da0NUcWpHMHNlYTdHaHc?oc=5",
+      "publishedAt": "2026-07-27T23:51:00.000Z"
+    },
+    {
+      "source": "Bridge Michigan",
+      "title": "Full video: Haley Stevens, Abdul El-Sayed debate in Michigan US Senate race",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZkIzMm1wdDBXUDVpQmI1MjZsZXBFN1ktUVJpZHlDOGZ5MDY3RG80T2xUZHVRaG12Z25sYmdxUkRlNHBYRU5nLTA5dDc1aUpUMXlKb1pUUXFDd2VfUzZwN0FvZzM4bzl5ZXBueU1lVmRGV2JSYXZtOHFWaW1VQTN4YnNsaE5RUmJQTUZDQW5KcFVuaXFTNGh0RlEzdHBqMTZudDVvd3h4akxWLVZ3ZWQzNDRSOEREdw?oc=5",
+      "publishedAt": "2026-07-27T22:51:15.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Senate faces packed, complicated agenda as midterms loom",
+      "url": "https://www.pbs.org/newshour/show/senate-faces-packed-complicated-agenda-as-midterms-loom",
+      "publishedAt": "2026-07-27T22:40:31.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "India's youth-led 'cockroach' protests expose cracks in Modi's government",
+      "url": "https://www.pbs.org/newshour/show/indias-youth-led-cockroach-protests-expose-cracks-in-modis-government",
+      "publishedAt": "2026-07-27T22:35:28.000Z"
+    },
+    {
+      "source": "Source New Mexico",
+      "title": "Two New Mexico House members officially retire, teeing up Democratic primary winners to replace them",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLTlWN1YycVhyd0FmTE45NkQ0SERGUk5lUXNJNTVOOVBLNEV0YU5vTGV2enluaHRCR3VwM2J0UDBZYzRyc1R6TEUwTm5wZ2VRSENOd19RUnMtLTlBa2F3T2JjQndvLTloVDB0dExQeEhpbnE4S19ST3NZX2hWZUZsX0V0bUZkZ1RxUjQ3YVFjTWF1dWtJNWdIZVVpM0JUcy02bk1wQXFDSjhRcmFldzVSd0l4WnNScnoyeVhGX2w1Mk5vaVgzSmdGcVZOTHQ?oc=5",
+      "publishedAt": "2026-07-27T22:35:18.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Tamara Keith and Amy Walter on midterm voter enthusiasm",
+      "url": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-midterm-voter-enthusiasm",
+      "publishedAt": "2026-07-27T22:25:04.000Z"
+    },
+    {
+      "source": "CT Mirror",
+      "title": "CT primary election 2026: Who's running and how to vote",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zSV9WTkdoc1hNOWtOb2trU1B5VXFKM3lXMlVDeVpLVEFtdV83MUJxZWVfanRDTGlxTEFlNXpOSl9pUU16eXdKeDJIWURMYlVKcm9MNFpSV1FLMDBlYUxFV2t0cURGUUNkdGxjTHIyXzFld1dpdk5YSg?oc=5",
+      "publishedAt": "2026-07-27T21:46:39.000Z"
+    },
     {
       "source": "NPR",
       "title": "Platner energized Maine's Democrats. Jackson's challenge will be to keep them engaged",
       "url": "https://www.npr.org/2026/07/27/nx-s1-5902276/platner-energized-maines-democrats-jacksons-challenge-will-be-to-keep-them-engaged",
       "publishedAt": "2026-07-27T21:29:27.000Z"
-    },
-    {
-      "source": "Nebraska Examiner",
-      "title": "Loser of Nebraska Democratic US Senate primary sues party to force replacement for Burbank",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS0RjT2FNWi1iTVdad1BsR0lXVkpYUkZhY3JNYThIcm01NGpEaVVYbktWcTlQeE5namYxSWQ4a2xpYl83TG9fVV9xTm5wZ01YdVpyeThEUTUyOWxsTWVmTVpFMjAydUFGSzVZTUpPQnF2QlBWUEc4ZUhSVXlXTzhITVJtZXpMVG1JWF9xN3k4aUhlNDVIVnNKNGhXNTFmQUtHVTVZM0x3U3VIOXFwNkZpQkpiNUlCRlNOX2hxcWpKT3Vxend4c0hkRHdyMA?oc=5",
-      "publishedAt": "2026-07-27T20:48:45.000Z"
-    },
-    {
-      "source": "MPR News",
-      "title": "Angie Craig, Peggy Flanagan spar over fraud, immigration in U.S. Senate debate",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0lGMzFCZHNZQjZuRGlJWDJxaXZ2a1JETHREUUZ1dWV5TjNoeldOS1U5ZHpZa3pkZFNyV25rQ245Y3NubHM0by1fOEN5M3dCTFVpT2IwUUdWT3dwMDdWR0wtWGFIWEpuR2RnazBnd1pCaHRhM29XcHNXcEJpMnpHMnM1VnN4VE5wc0loUFFxeXVJV2Q0b21mY1JvaWp2dm5uN3hrODBrelo?oc=5",
-      "publishedAt": "2026-07-27T20:32:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "'Show me how this ends.' Thune responds to Trump's escalated calls to pass SAVE America Act",
-      "url": "https://www.pbs.org/newshour/politics/show-me-how-this-ends-thune-responds-to-trumps-escalated-calls-to-pass-save-america-act",
-      "publishedAt": "2026-07-27T20:30:29.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump administration urges Supreme Court to allow order targeting mail-in voting before midterms",
-      "url": "https://www.pbs.org/newshour/politics/trump-administration-urges-supreme-court-to-allow-order-targeting-mail-in-voting-before-midterms",
-      "publishedAt": "2026-07-27T19:56:18.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Inside Joe Manchin's new quest to elect more Independents to Congress",
-      "url": "https://www.npr.org/2026/07/27/nx-s1-5906367/joe-manchin-independent-candidates-congress",
-      "publishedAt": "2026-07-27T19:55:05.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Republicans decry a new Democratic Socialists of America platform as Dem primaries split the party",
-      "url": "https://www.pbs.org/newshour/politics/republicans-decry-a-new-democratic-socialists-of-america-platform-as-dem-primaries-split-the-party",
-      "publishedAt": "2026-07-27T19:33:24.000Z"
-    },
-    {
-      "source": "Minnesota Reformer",
-      "title": "Takeaways from the latest debate between Democratic Senate hopefuls Angie Craig, Peggy Flanagan",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMXVhaHFwYVVaMkZZMWpoWVdqbFE5YUNWOWlNMFA5OUVDNl9CWHU0ZlQ5cXBUOWpxSGZBM2l4NmRMenRETTZEc1BtUjV3MWNCb2J1WXpyTHNXSkVhV3Y1OGFDaE5jMFY5UTA3T2xIVzFjNERCdWdkWlowWmFjaWcyRVhoWlZURm03NzhMYUt1QjY4elVjNlM0bVRzYVhZaUpFNEROclFCMXNzTGxfWTFvaTR0MzJlR2FPM0VoRzc0LV9TX2U2Q3U3dzVoOXc?oc=5",
-      "publishedAt": "2026-07-27T19:20:04.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump demands Senate cancel August break until it passes the SAVE America Act",
-      "url": "https://www.pbs.org/newshour/politics/trump-demands-senate-cancel-august-break-until-it-passes-the-save-america-act",
-      "publishedAt": "2026-07-27T19:19:19.000Z"
-    },
-    {
-      "source": "El Paso Times",
-      "title": "Gov. Greg Abbott, Gina Hinojosa talk Talarico in Texas governor race",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOSDVyaTF3MEFGRHZaNUhGLWs5dWFNRFJRa1B6RVJCTTdLbVh4VzBEbWhKTUFGbVktRF9Tem9KT3p0bkFpV0gyVEpZQUdGanlWWDM3TVJGVlo4RGF3Nl9ENV9UODZCLVgwbWJ3N3FsbExUUFlkNDUzRnB3Mm9XNWhiSGtaRThpaUE0YUlnY2xQaVFUUGNCSGJWdkt6N3JnRllSY3h5YWlJWnNWeURjVGRwc2RGNkF2RTEydGFpLVFzOEJxanI5X3VtSGFUQ1puUFh2Tm5NZU1KSzEyU1VIV3FZdjdfVkZCdzFSbF9TZWZHaXN6THVxcXFJeER5N3RjajBpSDV5Yg?oc=5",
-      "publishedAt": "2026-07-27T18:39:00.000Z"
     }
   ]
 }
