@@ -1,6 +1,5 @@
 const MAP_MAKER_ATLAS_URL = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 const MAP_MAKER_STORAGE_KEY = "japoll.map-maker.saves.v1";
-const MAP_MAKER_SIMULATION_KEY = "japoll.map-maker.simulation.v1";
 const MAP_MAKER_TYPES = ["house", "senate", "governor"];
 const RATING_STEPS = {
   dem: ["demSolid", "demLikely", "demLean", "demTilt"],
@@ -128,24 +127,6 @@ function writeSaves(saves) {
   } catch (error) {
     setStatus("This browser could not save your prediction. Try allowing site storage.", true);
     return false;
-  }
-}
-
-function startMapSimulation(prediction) {
-  const activeIds = getActiveRaces(prediction.type).map(race => getRaceId(prediction.type, race));
-  const assignments = Object.fromEntries(activeIds.map(id => [id, normalizeOutcome(prediction.assignments?.[id])]));
-  const payload = {
-    version: 1,
-    name: prediction.name || `${MAP_MAKER_META[prediction.type].title} prediction`,
-    type: prediction.type,
-    assignments,
-    createdAt: new Date().toISOString()
-  };
-  try {
-    localStorage.setItem(MAP_MAKER_SIMULATION_KEY, JSON.stringify(payload));
-    window.location.href = "election-night.html?map=custom";
-  } catch (error) {
-    setStatus("This browser could not open your simulation. Try allowing site storage.", true);
   }
 }
 
@@ -432,7 +413,7 @@ function renderSavedPredictions() {
   list.innerHTML = saves.map(save => `
     <article class="map-maker-saved-card">
       <div><span>${escapeHtml(MAP_MAKER_META[save.type]?.title || "Map")} prediction</span><h3>${escapeHtml(save.name || "Untitled prediction")}</h3><p>Saved ${formatSavedDate(save.savedAt)}</p></div>
-      <div class="map-maker-saved-actions"><button type="button" data-map-maker-load="${escapeHtml(save.id)}">Open</button><button type="button" data-map-maker-simulate-save="${escapeHtml(save.id)}">Simulate</button><button type="button" data-map-maker-delete="${escapeHtml(save.id)}" aria-label="Delete ${escapeHtml(save.name || "prediction")}">Delete</button></div>
+      <div class="map-maker-saved-actions"><button type="button" data-map-maker-load="${escapeHtml(save.id)}">Open</button><button type="button" data-map-maker-delete="${escapeHtml(save.id)}" aria-label="Delete ${escapeHtml(save.name || "prediction")}">Delete</button></div>
     </article>
   `).join("");
 }
@@ -485,15 +466,6 @@ function saveCurrentPrediction() {
   workspace.dirty = false;
   renderSavedPredictions();
   setStatus(`Saved as “${workspace.name}”.`);
-}
-
-function simulateCurrentPrediction() {
-  const workspace = getWorkspace();
-  startMapSimulation({
-    name: document.querySelector("[data-map-maker-name]").value.trim() || workspace.name,
-    type: mapMakerType,
-    assignments: Object.fromEntries(workspace.assignments)
-  });
 }
 
 function resetToSiteForecast() {
@@ -562,19 +534,13 @@ function bindMapMakerControls() {
     workspace.dirty = true;
   });
   document.querySelector("[data-map-maker-save]").addEventListener("click", saveCurrentPrediction);
-  document.querySelectorAll("[data-map-maker-simulate]").forEach(button => button.addEventListener("click", simulateCurrentPrediction));
   document.querySelector("[data-map-maker-reset]").addEventListener("click", resetToSiteForecast);
   document.querySelector("[data-map-maker-clear]").addEventListener("click", clearCurrentMap);
   document.querySelector("[data-map-maker-new]").addEventListener("click", newPrediction);
   document.querySelector("[data-map-maker-saved-list]").addEventListener("click", event => {
     const load = event.target.closest("[data-map-maker-load]");
-    const simulate = event.target.closest("[data-map-maker-simulate-save]");
     const remove = event.target.closest("[data-map-maker-delete]");
     if (load) loadSavedPrediction(load.dataset.mapMakerLoad);
-    if (simulate) {
-      const save = readSaves().find(item => item.id === simulate.dataset.mapMakerSimulateSave);
-      if (save && MAP_MAKER_TYPES.includes(save.type)) startMapSimulation(save);
-    }
     if (remove) deleteSavedPrediction(remove.dataset.mapMakerDelete);
   });
 }

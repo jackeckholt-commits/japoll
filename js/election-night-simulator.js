@@ -1,7 +1,6 @@
 const START_MINUTE = 18 * 60;
 const MAP_ORDER = ["senate", "house", "governor"];
 const US_ATLAS_URL = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
-const MAP_MAKER_SIMULATION_KEY = "japoll.map-maker.simulation.v1";
 const PLAYBACK_SPEEDS = {
   "very-slow": 1250,
   slow: 800,
@@ -27,12 +26,6 @@ const MARGIN_LIMITS_BY_CATEGORY = {
   demSolid: [15, 30], repSolid: [15, 30],
   tossup: [0.1, 1.5], "no-data": [0.1, 5]
 };
-const CUSTOM_MAP_RATINGS = new Set([
-  "clear", "dem", "rep", "tossup",
-  "demSolid", "demLikely", "demLean", "demTilt",
-  "repSolid", "repLikely", "repLean", "repTilt"
-]);
-
 const MAP_META = {
   senate: { label: "Senate", className: "is-senate" },
   house: { label: "House", className: "is-house" },
@@ -74,8 +67,6 @@ const PRESET_BY_ENVIRONMENT = {
 };
 
 let raceData = null;
-let baseRaceData = null;
-let customMapSimulation = null;
 let events = [];
 let scenario = "site";
 let filter = "all";
@@ -112,39 +103,6 @@ function seededValue(race, salt = 0) {
   return value - Math.floor(value);
 }
 
-function cloneRaceData(data) {
-  return JSON.parse(JSON.stringify(data));
-}
-
-function readCustomMapSimulation() {
-  if (new URLSearchParams(window.location.search).get("map") !== "custom") return null;
-  try {
-    const saved = JSON.parse(localStorage.getItem(MAP_MAKER_SIMULATION_KEY) || "null");
-    if (!saved || !MAP_ORDER.includes(saved.type) || !saved.assignments || typeof saved.assignments !== "object") return null;
-    return saved;
-  } catch (error) {
-    return null;
-  }
-}
-
-function applyCustomMapSimulation(data, simulation) {
-  const races = data.maps?.[simulation.type]?.races || [];
-  races.forEach(race => {
-    const id = getRaceId(simulation.type, race);
-    const rawChoice = simulation.assignments[id] ?? "clear";
-    if (!CUSTOM_MAP_RATINGS.has(rawChoice)) return;
-    if (rawChoice === "clear") {
-      race.active = false;
-      return;
-    }
-    const choice = rawChoice === "dem" ? "demLean" : rawChoice === "rep" ? "repLean" : rawChoice;
-    race.customMapChoice = choice;
-    race.marginCategory = choice;
-    if (choice.startsWith("dem")) race.party = "dem";
-    if (choice.startsWith("rep")) race.party = "rep";
-  });
-}
-
 function getShiftedCategory(category) {
   const magnitude = Math.abs(environment);
   if (!magnitude) return category;
@@ -177,13 +135,6 @@ function getVariationChance(category) {
 }
 
 function getOutcomeParty(race, category) {
-  if (String(race.customMapChoice).startsWith("dem")) return "dem";
-  if (String(race.customMapChoice).startsWith("rep")) return "rep";
-  if (race.customMapChoice === "tossup") {
-    return variationEnabled
-      ? (seededValue(race, 7) < 0.5 ? "dem" : "rep")
-      : (hashRace(race) % 2 ? "dem" : "rep");
-  }
   const projectedParty = partyFromCategory(category, race.party);
   if (!variationEnabled) return projectedParty;
 
@@ -389,7 +340,8 @@ function updateSimulationMaps() {
   document.querySelectorAll("[data-simulator-map-race]").forEach(path => {
     const event = eventByKey.get(path.dataset.simulatorMapRace);
     path.dataset.callState = !event ? "inactive" : event.callMinute <= now ? event.party : "pending";
-    path.dataset.rating = event?.category || "";
+    const strength = String(event?.category || "").replace(/^(dem|rep)/, "");
+    path.dataset.rating = event && /^(Solid|Likely|Lean|Tilt)$/.test(strength) ? `${event.party}${strength}` : "";
   });
   MAP_ORDER.forEach(mapKey => {
     const count = document.querySelector(`[data-simulator-map-count="${mapKey}"]`);
@@ -511,9 +463,7 @@ function updateScenarioControls() {
   const presetLabel = document.querySelector("[data-simulator-preset-label]");
   const label = document.querySelector("[data-simulator-custom-label]");
   if (slider) slider.value = String(environment);
-  if (presetLabel) presetLabel.textContent = customMapSimulation
-    ? (customMapSimulation.name || "Your map")
-    : (PRESETS[scenario]?.label || "Custom environment");
+  if (presetLabel) presetLabel.textContent = PRESETS[scenario]?.label || "Custom environment";
   if (label) label.textContent = "Adjusted with the slider";
   const variationToggle = document.querySelector("[data-simulator-variation-toggle]");
   const variationLevels = document.querySelector("[data-simulator-variation-levels]");
@@ -529,11 +479,6 @@ function updateScenarioControls() {
     button.classList.toggle("is-active", active);
     button.setAttribute("aria-pressed", String(active));
   });
-  const mapSource = document.querySelector("[data-simulator-map-source]");
-  if (mapSource) {
-    mapSource.hidden = !customMapSimulation;
-    mapSource.textContent = customMapSimulation ? `Playing: ${customMapSimulation.name || "your map"}` : "";
-  }
 }
 
 function stopPlayback() {
@@ -585,10 +530,6 @@ function resetVariationSeed() {
 
 function setScenario(nextScenario, resetClock = false) {
   stopPlayback();
-  if (customMapSimulation) {
-    customMapSimulation = null;
-    raceData = cloneRaceData(baseRaceData);
-  }
   scenario = nextScenario;
   environment = PRESETS[nextScenario].environment;
   resetVariationSeed();
@@ -677,20 +618,10 @@ async function startSimulator() {
   try {
     const response = await fetch("data/races.json", { cache: "no-store" });
     if (!response.ok) throw new Error("Forecast data could not be loaded.");
-    baseRaceData = await response.json();
-    customMapSimulation = readCustomMapSimulation();
-    raceData = cloneRaceData(baseRaceData);
-    if (customMapSimulation) applyCustomMapSimulation(raceData, customMapSimulation);
+    raceData = await response.json();
     setupPlaybackSpeedControls();
     bindControls();
-    if (customMapSimulation) {
-      scenario = "custom-map";
-      environment = 0;
-      resetVariationSeed();
-      rebuildSimulation(true);
-    } else {
-      setScenario("site");
-    }
+    setScenario("site");
     void loadMapAssets();
   } catch (error) {
     root.innerHTML = `<section class="simulator-error"><h2>Simulator unavailable</h2><p>${error.message}</p></section>`;
