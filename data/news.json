@@ -1,17 +1,35 @@
 {
-  "generatedAt": "2026-07-28T07:25:22.977Z",
+  "generatedAt": "2026-07-28T11:02:44.437Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Trump to meet with Ukraine's Zelenskyy and Israel's Netanyahu",
+      "url": "https://www.npr.org/2026/07/28/nx-s1-5909329/trump-to-meet-with-ukraines-zelenskyy-and-israels-netanyahu",
+      "publishedAt": "2026-07-28T10:35:52.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Former Pentagon official on Trump's meetings with the leaders of Ukraine and Israel",
+      "url": "https://www.npr.org/2026/07/28/nx-s1-5909275/former-pentagon-official-on-trumps-meetings-with-the-leaders-of-ukraine-and-israel",
+      "publishedAt": "2026-07-28T10:35:48.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump shattered ethics norms. Will voters trust Democrats to fix them?",
+      "url": "https://www.npr.org/2026/07/28/nx-s1-5869808/family-trump-profit-corruption-voters-ethics-democrats",
+      "publishedAt": "2026-07-28T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Survey finds most Americans believe corruption is a problem in politics",
+      "url": "https://www.npr.org/2026/07/28/nx-s1-5906784/survey-finds-most-americans-believe-corruption-is-a-problem-in-politics",
+      "publishedAt": "2026-07-28T08:42:10.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "2026 Midterm Primary Election Calendar",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGNpVG94WTFTeEtVaGJwSEZEMEQ2UEpSS1pJd2p4R3FkRVBwVU9vOUFnSmxRMkNQRHd6eUxJeXFPZjZYdVlCc2tjS1ZsWTNRN2thOEZQWmxYN2VtUDFHZTNQaXlRTzFOZC1VV0JIVThnbk5PQlhZN0RNZG9URVpwY2E5cUJsQzRF?oc=5",
       "publishedAt": "2026-07-28T00:50:01.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Rand Paul releases Anthony Fauci's pandemic-era diary notes. Here's what they tell us",
-      "url": "https://www.npr.org/2026/07/27/nx-s1-5909531/rand-paul-anthony-fauci-coronavirus-diary-lab-leak-origin",
-      "publishedAt": "2026-07-28T00:05:31.000Z"
     },
     {
       "source": "KTTC | Rochester, MN",
@@ -42,24 +60,6 @@
       "title": "Two New Mexico House members officially retire, teeing up Democratic primary winners to replace them",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOLTlWN1YycVhyd0FmTE45NkQ0SERGUk5lUXNJNTVOOVBLNEV0YU5vTGV2enluaHRCR3VwM2J0UDBZYzRyc1R6TEUwTm5wZ2VRSENOd19RUnMtLTlBa2F3T2JjQndvLTloVDB0dExQeEhpbnE4S19ST3NZX2hWZUZsX0V0bUZkZ1RxUjQ3YVFjTWF1dWtJNWdIZVVpM0JUcy02bk1wQXFDSjhRcmFldzVSd0l4WnNScnoyeVhGX2w1Mk5vaVgzSmdGcVZOTHQ?oc=5",
       "publishedAt": "2026-07-27T22:35:18.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Tamara Keith and Amy Walter on midterm voter enthusiasm",
-      "url": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-midterm-voter-enthusiasm",
-      "publishedAt": "2026-07-27T22:25:04.000Z"
-    },
-    {
-      "source": "CT Mirror",
-      "title": "CT primary election 2026: Who's running and how to vote",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zSV9WTkdoc1hNOWtOb2trU1B5VXFKM3lXMlVDeVpLVEFtdV83MUJxZWVfanRDTGlxTEFlNXpOSl9pUU16eXdKeDJIWURMYlVKcm9MNFpSV1FLMDBlYUxFV2t0cURGUUNkdGxjTHIyXzFld1dpdk5YSg?oc=5",
-      "publishedAt": "2026-07-27T21:46:39.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Platner energized Maine's Democrats. Jackson's challenge will be to keep them engaged",
-      "url": "https://www.npr.org/2026/07/27/nx-s1-5902276/platner-energized-maines-democrats-jacksons-challenge-will-be-to-keep-them-engaged",
-      "publishedAt": "2026-07-27T21:29:27.000Z"
     }
   ]
 }
