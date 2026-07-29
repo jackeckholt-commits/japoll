@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T13:23:03.375Z",
+  "updatedAt": "2026-07-29T12:21:00.964Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
@@ -21,13 +21,13 @@
   },
   "average": {
     "categories": {
-      "demSafe": 179.7,
+      "demSafe": 180,
       "demLikely": 16,
-      "demLean": 12.3,
+      "demLean": 12,
       "tossup": 19.7,
       "repLean": 11.3,
-      "repLikely": 33,
-      "repSafe": 163
+      "repLikely": 32,
+      "repSafe": 164
     },
     "totals": {
       "democrats": 208,
@@ -42,16 +42,16 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-07-25",
+      "updated": "2026-07-28",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 177,
-        "demLikely": 19,
-        "demLean": 15,
+        "demLikely": 20,
+        "demLean": 14,
         "tossup": 24,
         "repLean": 14,
-        "repLikely": 46,
-        "repSafe": 140
+        "repLikely": 45,
+        "repSafe": 141
       },
       "totals": {
         "democrats": 211,
@@ -66,16 +66,16 @@
       "key": "270towin",
       "name": "270toWin",
       "shortName": "270toWin",
-      "updated": "2026-07-23",
+      "updated": "2026-07-27",
       "url": "https://www.270towin.com/2026-house-election/",
       "categories": {
-        "demSafe": 178,
-        "demLikely": 18,
+        "demSafe": 179,
+        "demLikely": 17,
         "demLean": 12,
         "tossup": 17,
         "repLean": 11,
-        "repLikely": 35,
-        "repSafe": 164
+        "repLikely": 33,
+        "repSafe": 166
       },
       "totals": {
         "democrats": 208,
