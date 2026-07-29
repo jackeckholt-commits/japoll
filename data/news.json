@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-07-29T07:31:10.581Z",
+  "generatedAt": "2026-07-29T11:09:32.855Z",
   "articles": [
     {
       "source": "NPR",
-      "title": "Haitian TPS holders in South Florida brace for end of their legal status",
-      "url": "https://www.npr.org/2026/07/29/nx-s1-5910837/haiti-tps-florida-trump-immigration",
-      "publishedAt": "2026-07-29T06:56:37.000Z"
+      "title": "U.S. and Iran resume attacks. And, Fauci to face Senate questions on COVID pandemic",
+      "url": "https://www.npr.org/2026/07/29/g-s1-136076/up-first-newsletter-iran-benjamin-netanyahu-trump-iowa-water-anthony-fauci-fed-rates",
+      "publishedAt": "2026-07-29T11:00:47.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Ukrainian President Zelenskyy says he had a 'good meeting' with Trump in Washington",
+      "url": "https://www.npr.org/2026/07/29/nx-s1-5910692/ukrainian-president-zelenskyy-says-he-had-a-good-meeting-with-trump-in-washington",
+      "publishedAt": "2026-07-29T10:50:54.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Did Zelenskyy get what he needed from his D.C. visit? Former ambassador weighs in",
+      "url": "https://www.npr.org/2026/07/29/nx-s1-5910639/did-zelenskyy-get-what-he-needed-from-his-d-c-visit-former-ambassador-weighs-in",
+      "publishedAt": "2026-07-29T10:50:48.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Senate confirms Jay Clayton as director of national intelligence",
+      "url": "https://www.npr.org/2026/07/29/nx-s1-5910749/senate-confirms-jay-clayton-as-director-of-national-intelligence",
+      "publishedAt": "2026-07-29T10:49:36.000Z"
     },
     {
       "source": "The Washington Post",
@@ -42,24 +60,6 @@
       "title": "What Netanyahu and Zelenskyy are hoping to accomplish after meetings with Trump",
       "url": "https://www.pbs.org/newshour/show/what-netanyahu-and-zelenskyy-are-hoping-to-accomplish-after-meetings-with-trump",
       "publishedAt": "2026-07-28T22:55:01.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Lindsey Graham remembered for impact on South Carolina and the world",
-      "url": "https://www.pbs.org/newshour/show/lindsey-graham-remembered-for-impact-on-south-carolina-and-the-world",
-      "publishedAt": "2026-07-28T22:50:53.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "U.S. looks to boost anti-China spending worldwide by hundreds of millions of dollars, documents say",
-      "url": "https://www.pbs.org/newshour/world/u-s-looks-to-boost-anti-china-spending-worldwide-by-hundreds-of-millions-of-dollars-documents-say",
-      "publishedAt": "2026-07-28T22:44:23.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Why doctors say abortion bans are worsening medical care during miscarriages",
-      "url": "https://www.pbs.org/newshour/show/why-doctors-say-abortion-bans-are-worsening-medical-care-during-miscarriages",
-      "publishedAt": "2026-07-28T22:35:46.000Z"
     }
   ]
 }
