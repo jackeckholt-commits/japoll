@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T04:11:20.654Z",
+  "updatedAt": "2026-07-30T03:59:09.027Z",
   "predictions": {
     "senate": {
       "democrats": 51,
@@ -40,11 +40,42 @@
   ],
   "posts": [
     {
+      "id": "polling-discrepancies",
+      "category": "Analysis",
+      "title": "Polling discrepancies",
+      "excerpt": "It's all a fugazi, it's fairy dust",
+      "body": "When looking at polls that try to predict an election result, like the generic ballot or statewide races, it can be hard to get a clear picture of the information available. One thing I’ve noticed is that all adults, registered voters, and the people who actually vote on Election Day can be very different groups. For example, a large majority of the population might like a candidate, but when it comes time to vote, many of them may not show up. This is called voting propensity and is usually used to describe how likely certain groups are to vote.\n\nRight now, this effect tends to benefit Democrats, although it has not always been that way. Polling companies try to account for it through sampling and other adjustments, but it is still hard to know exactly who will vote on Election Day. As fewer people respond to polls, it becomes even harder to track. Polling companies will keep making adjustments, and my site tries to do the same, but there is no way to perfectly predict what the electorate will look like. In the end, a lot of it is still a crapshoot, and no one really knows what will happen until the votes are counted.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageCaption": "",
+      "articleUrl": "",
+      "articleTitle": "",
+      "publishedAt": "2026-07-30"
+    },
+    {
+      "id": "new-features",
+      "category": "Update",
+      "title": "New Features",
+      "excerpt": "Added some new tools",
+      "body": "I added the ability to create maps and simulate elections. The map-making tool is based on other tools I have used, combining the parts I liked while remaining functional. It is not anything revolutionary, but it allows both me and other users to create maps and save them directly to the site.\n\nThe second feature I added is an election simulator. It includes several customizable options and allows users to test the predictions made on the site in real time.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageCaption": "",
+      "articleUrl": "",
+      "articleTitle": "",
+      "publishedAt": "2026-07-20"
+    },
+    {
       "id": "maine-senate-changes-and-gallup-poll",
       "category": "Update",
       "title": "Maine senate changes and Gallup Poll",
       "excerpt": "Graham Platner leaves Maine senate race And Gallup releases party Id poll",
       "body": "First , Graham Platner has dropped out of the Maine Senate race after allegations of rape came out. This kinda just adds to all the controversies this guy already had, and there was too much pressure for him not to drop out. Platner has been plagued by controversy, and this one was really just the nail in the coffin. The Maine Senate race is going to stay where it was because, without a candidate, it basically just goes back to the baseline. There is also no polling data for whoever the new candidate will be.\n\nIn other news, Gallup released its party ID poll, which looks to give Democrats their biggest advantage since 2009. The party ID poll is one of the most accurate things, at least historically, when predicting the makeup of the electorate and the national popular vote. There is a lot of discrepancy between national and state polls right now, and the party ID poll does not really help clear the waters there.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageCaption": "",
+      "articleUrl": "",
+      "articleTitle": "",
       "publishedAt": "2026-07-12"
     },
     {
@@ -53,6 +84,11 @@
       "title": "Release and happy 4th",
       "excerpt": "The Official Release",
       "body": "Happy Fourth of July and happy 250th!\n\nThis is the official release of my site. It has been a summer project for me, and I hope it can help provide candidate and polling information for the next election in an easy-to-understand way. The ability to change is one of the most important parts of our country, and in my opinion, it is what has allowed this country to thrive. Elections have always been important to me because they are a way for people to create change. That interest and passion for elections and change is what pushed me to create this site, so hopefully it can help others get interested and participate in that change too.\nOnce again, happy Fourth, and be safe today.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageCaption": "",
+      "articleUrl": "",
+      "articleTitle": "",
       "publishedAt": "2026-07-04"
     },
     {
@@ -61,6 +97,11 @@
       "title": "Explaining data",
       "excerpt": "Explaining my predictions",
       "body": "Some of my predictions might seem to favor Democrats more than others out there. This is primarily because I account for voting propensity, or the likelihood that individual groups will actually vote in the election and which party they are favoring. Looking at that can give a better picture of the results, especially because national and statewide polls can be inaccurate since it is hard to predict who will actually vote. This same model was used to predict the results in 2024 and was accurate, so hopefully it holds again.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageCaption": "",
+      "articleUrl": "",
+      "articleTitle": "",
       "publishedAt": "2026-07-01"
     },
     {
@@ -69,6 +110,11 @@
       "title": "Welcome to Japoll",
       "excerpt": "New things",
       "body": "This is going to be where I will post updates in election data, and other news related to elections.  Idk if I will actually add stuff this but its here for future use.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageCaption": "",
+      "articleUrl": "",
+      "articleTitle": "",
       "publishedAt": "2026-06-30"
     }
   ]
