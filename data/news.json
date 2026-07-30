@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-07-30T10:51:37.217Z",
+  "generatedAt": "2026-07-30T14:54:59.243Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Alien Terrorist Removal Court to hold its first-ever hearing after 30 years",
+      "url": "https://www.npr.org/2026/07/30/g-s1-136289/alien-terrorist-removal-court-isis-terror-plot",
+      "publishedAt": "2026-07-30T13:10:45.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Michigan U.S. Senate Election 2026: Latest Polls",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5",
+      "publishedAt": "2026-07-30T11:25:07.000Z"
+    },
+    {
+      "source": "Nashville Banner",
+      "title": "Poll shows Republican gubernatorial primary getting tight",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYVlVaGNRMVMxRWRtXzZ1TTR0cVRCMGdnMm5oT25NbGVzd1JXQnhCM081Ui1uTDJaVXQ1a1o2WWFVYl9iVWYyT3lxc2gzcTNjajFzam4yVjd1a2pCU1pFOFljU09PcVFLS3lmc3Z6aXhERXFGTFNzdlp4SE83dl8wLVJlcXM2bWlscWRmTW5haWJLZw?oc=5",
+      "publishedAt": "2026-07-30T11:03:00.000Z"
+    },
     {
       "source": "NPR",
       "title": "Senate panel delays vote on Blanche's AG nomination as key Republicans voice concerns",
@@ -12,6 +30,12 @@
       "title": "Sen. Richard Blumenthal talks about Anthony Fauci's contentious Senate hearing",
       "url": "https://www.npr.org/2026/07/30/nx-s1-5912213/sen-richard-blumenthal-talks-about-anthony-faucis-contentious-senate-hearing",
       "publishedAt": "2026-07-30T10:36:43.000Z"
+    },
+    {
+      "source": "- Emerson Polling",
+      "title": "Michigan 2026 Poll: Abdul El-Sayed Leads Haley Stevens for Democratic US Senate Nomination",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMHNyREIwa0tPYU1hVWJ5QjdZaXpxUndGQnFmckNEZnE1ZWcwV1lPbVUzSjdQUjFDN0kybjZscklZMHhZbWs2MW5sZWV1eHRMNndaNWdPUnBydjJhX3I0Z1JBTUlITXdNZlBJbFJmN1lNNG9BZDc3c29WQ0hueG1IYWhnbkFIVFd6emR0Sk1ia19ncWJhcTZCZlV5RFFnR2ZtcDJXTy16aENYYUtjVndYZkw1Zk9MNzFNTzRUcV9wNHh0Zw?oc=5",
+      "publishedAt": "2026-07-30T10:03:43.000Z"
     },
     {
       "source": "Tallahassee Democrat",
@@ -30,30 +54,6 @@
       "title": "The Trump administration has undercut the U.S. asylum program. These 3 charts show how",
       "url": "https://www.npr.org/2026/07/30/nx-s1-5891889/trump-asylum-program-changes-charts",
       "publishedAt": "2026-07-30T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Sen. Rand Paul says he'll move to hold Fauci in contempt after combative hearing",
-      "url": "https://www.npr.org/2026/07/30/nx-s1-5911873/sen-rand-paul-says-hell-move-to-hold-fauci-in-contempt-after-combative-hearing",
-      "publishedAt": "2026-07-30T08:41:03.000Z"
-    },
-    {
-      "source": "The Times",
-      "title": "California governor race: results and polls for 2026 election",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3JaZU51SlFQT1FKZEJhOV9iOUJFS3l4Skh3RVY1Y0RFTTJhZTE2X29uVXBnZmVWeVY2V0N3Y3VhaHo0MmFaNkFTQWY4YWxXNEs2bjNmU0hoTWkwUmRiMEdnZ0c3SXQ1dWpaMDRBMHNkLVJGQ3E5enRHOUkxWXBfVGtIX2hwRlR6Vlc4cllHVnQ5TllaSGNsSFlvOUZKa083Rlh3WXFBdzhYNnFzTDBCbkFOUDdyLUctN3c?oc=5",
-      "publishedAt": "2026-07-30T08:20:40.000Z"
-    },
-    {
-      "source": "Michigan Advance",
-      "title": "State of the Race: Michigan’s competitive congressional primaries will draw November battle lines",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbXdoelBNWm9tV00wU3laamQ2S2QtSENBay05SkVRcW1TbUxnQ3RlQ0FwSURnUWZBY3FqUFE2SmlqeGFOLUNycmE1eDJ5LWxQYmFvb0Izc1VYS2Y0WGFDZEo3YXBnc0pFVWZjcEhLZEVYWWI0Tjdma0RNMzlDcEZFZFp2SlF1S3BMTVpYNzBrU205SmhuQ2E4U0Z4YXlHTWxITHNKMG53WTVOU2ZrM21hdkhOOUxUb1c3OGZ1ZkVJR2ZGQ3V6ZjdqUzQ1VWNlSVJ2?oc=5",
-      "publishedAt": "2026-07-30T08:05:43.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Louisiana Senate Primary Runoff Election 2026 Live Results",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDgtZF93Qno1QzRWU21uazVhUXdhX2txWjZEeklsY1R3bXBZUHJUemEtSlJCYW5hTV9HX2YyS3c0dXBkM3gyVjB5RW4yeVpOQ2VEdjhwd1lBU2M2Sk1YejlBQzJ5Y3lfUGg4TmhYR1pFN1FLREVrX2JRLTlJS3ZMd3padENmbjA4d3FNUUxBYVY?oc=5",
-      "publishedAt": "2026-07-30T04:15:37.000Z"
     },
     {
       "source": "PBS NewsHour",
