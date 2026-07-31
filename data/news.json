@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-07-31T11:11:34.011Z",
+  "generatedAt": "2026-07-31T15:09:26.215Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH LIVE: Trump hosts Cabinet meeting at Camp David",
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-hosts-cabinet-meeting-at-camp-david",
+      "publishedAt": "2026-07-31T15:01:10.000Z"
+    },
+    {
+      "source": "Alaska Beacon",
+      "title": "Ranked-choice voting? Hold on. Alaskans have another ballot measure to decide first.",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGh0UGRBMjF0R2FCWTdxc1luZF93S2VmZURBLXB5V3lTUkxKSHpLU3RzaDh2OWF3YnVueS0zWVN5djBuZ2ZhWmxfLWxPeGNUdTNrYmQ2SWlGNXFZb3RiSHBDYVZfWkdlOU1pdm03eEk2X0FLeHl4MklwQzR5Y3NHRmZzdkJCS3k2NUFoV01hSVE3dG5mUkpObmlxcVhEMG5mWWlaZERIWi00ZU9OUUlnX29FRF9XT21SdGc?oc=5",
+      "publishedAt": "2026-07-31T13:54:07.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Michigan U.S. Senate Election 2026: Latest Polls",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5",
+      "publishedAt": "2026-07-31T13:00:08.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "The Race for Congress: Latest 2026 Polls",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EdUZXTXBzRFFLOGZJR2hWaHlFUUw0em5XbTZQYTRNbnNmdkVOaXBRcEtuUDhQWnhxNUVsckIwTERBUUplcWtOSWtzY09Yb3FDVzBJY05kU04wb0dZc1d5LXlLbm1jZi1wckVUcjFoSTI1WDQ3R2FxRHZ3?oc=5",
+      "publishedAt": "2026-07-31T12:50:29.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump announced a deal for Hamas to disarm. And, the U.S. economy slowed a bit",
+      "url": "https://www.npr.org/2026/07/31/g-s1-136527/up-first-newsletter-trump-hamas-israel-todd-blanche-us-economy",
+      "publishedAt": "2026-07-31T11:30:26.000Z"
+    },
     {
       "source": "NPR",
       "title": "Trump says he may pull Todd Blanche's nomination to circumvent GOP holdouts",
@@ -14,52 +44,22 @@
       "publishedAt": "2026-07-31T10:42:15.000Z"
     },
     {
-      "source": "NPR",
-      "title": "One Big Beautiful Bill cut healthcare funds. Now, Republicans have to sell the costs",
-      "url": "https://www.npr.org/2026/07/31/nx-s1-5870960/republican-ads-healthcare-medicaid-2026-midterms",
-      "publishedAt": "2026-07-31T09:00:00.000Z"
+      "source": "FOX 2 Detroit",
+      "title": "Jocelyn Benson explains why she missed FOX 2's Democratic Gubernatorial Debate",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GUW5jNTVXTl9GbnBLQmM0UDU0eVlFRXpvNjdEa1lkdVZaZHVfTEhhVzZ4c3VIWmJDVlNiN3NYM3RyTy1QVkdqNVZBeE05dWdKYjRnTFduTFJESm1iZzBkdVQtNXNKQdIBa0FVX3lxTE0wN2d5aWpCRWRrUWtmSnRHbmVtVU8xZmVjZmVzR2stSEEyenhORm41dkh4b1ByOHlMTGJLODA1MkJ1b3pOcWVObC13STJldUhEaF9NZG9ZbFB5aWVKbGZ1MXRVcjU1TnRYS09v?oc=5",
+      "publishedAt": "2026-07-31T10:19:58.000Z"
+    },
+    {
+      "source": "Axios",
+      "title": "Divided Democrats face a moment of truth in Michigan Senate primary",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMnpFZWF1TE5LV2M1bTA0dGFwZVRxeEVkTldPSW95aGxfVHBqM1Atd1RwdTRyaTMwLU1qM0F3d052cjBqRlp3RjVvSUZPX3BBbEJKQjRLUWROc3NIRk44eEtnWFh1cERSN3d1Zml5UVRhUmNaM3NzalJYOWp4bF92cF9FbDJrZ0dya3hn?oc=5",
+      "publishedAt": "2026-07-31T09:01:53.000Z"
     },
     {
       "source": "NPR",
-      "title": "Democrats show divisions on Israel amid competitive midterm elections",
-      "url": "https://www.npr.org/2026/07/31/nx-s1-5896216/democrats-israel-congress-2026-midterm-elections",
+      "title": "Trump's noncitizen voter data remains a mystery. But the claims raise midterm fears",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5906708/trump-claim-noncitizens-midterms-election-interference-voter-rolls",
       "publishedAt": "2026-07-31T09:00:00.000Z"
-    },
-    {
-      "source": "WPR",
-      "title": "Wisconsin’s 2026 primary for governor gets shaken up again",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNVpGX3VoRnBXY09qQVNqT1c3RmZPdGlxaC1zZldIem9lRzdYaTQ0N0J4Z0tuWGhQWlJoTm8zd2l5YVBsS0Zxc0tnYnlIcXg4VXJmZTNLOGU1N21SaEpNWW51RWZOY09HLWNXSmdNNG1xNXdxNnZPTGpHRThZb2RZRGFOSlhnRExLTWY3MTgycDNtSEM4VkJkMDlSWVdOVm9LZVBpQkI4UmVNQnlBU3c?oc=5",
-      "publishedAt": "2026-07-31T02:57:40.000Z"
-    },
-    {
-      "source": "Milwaukee Journal Sentinel",
-      "title": "Mandela Barnes ends Democratic campaign for Wisconsin governor",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZXVzRkh5VDBmUHVGeE9HN3ZDelBLRUNWWWdscTNlTTFTRUFUem9pd0JndU1mUldJM1M0cERGeE95YnVlbDZrR3ZsMmN4VTJMOWR2cFppUFo2SERjbXJBRFU4WWxlenR2RThXSG5YdmtkTTV1UXhiLTNkREx2Q29PenB1dGtOWjhDVE8zVUJ2dnFLUmFUUjE3TFA2MW1BTGZ2V3J4ZFRKRmcxdE81WHpvQkctVmlEVHFkUkhMNQ?oc=5",
-      "publishedAt": "2026-07-31T02:32:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "North Carolina U.S. Senate Election 2026: Latest Polls",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcG0yWVJ4b1FCblhNSEdUeDZTb1BHUEh2TjItUTN6MjlsV09ZYlA0aHZ4R0V0b2ZjRTA0SHJkTGJxaDJPaXh0OEIxZFhIVWhsd0t2bFBRYTdrc3p1cHZCTmp4UC1UR183S0loRDU2QmE4cGVMZWt4LVA2T05wUHhJQTJ0Q1d3d1M2Q180dWpHTHVFblVaV3c?oc=5",
-      "publishedAt": "2026-07-31T02:25:18.000Z"
-    },
-    {
-      "source": "WOWT",
-      "title": "Election 2026: Nebraska Senate candidates campaign amid unusual controversies",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYkw3enMwUTdJbEdsTU5Vd21RR0h0N1FpV3dwajhxV1R3R1ZOeXNJTlYyYnVNWTdXSG9JME90ZmV1TmxHUFBRZUpvM29UcWtSeHk4YnNSUV9oU09ZNkcwTDV4QWQxQWwzclRjZXRKSlBtSkNIdEVXZ2VrcjdIeG5EcTFBVzZ6SzN3VjlPQktqSTB4ZXdBVlhRdVhqTWtPY01HVURJRUE0R3BQQjRfX2fSAcIBQVVfeXFMTzBLYlpmSFFpY0RMZnE3S3dwSFRXSEpLMEFJOGhGYUZoMHkwMEpaY0xtel90S3daUklIbnNndi1xTzBZUmhuTXZHMTJKUjBkNXE1M0VfUmFKUVRzdkJNMnRmbmVfa1Nub0RHOV9TaU9hS0F5QzhFNGk0MGV2cVgzUjdQVE1YTnlyOWtpcEstdUJPdUZ3VWY5YnVkYnRpblRKSVA0N2dvT3ppd2xNSGpjTWR5a3NPSG50WFU1Nm1OeGc0RFE?oc=5",
-      "publishedAt": "2026-07-31T01:55:00.000Z"
-    },
-    {
-      "source": "KTVQ",
-      "title": "Too personal? Ads sharing private phone numbers in Montana U.S. Senate race",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONU1GSW9LT0lfcXMtS2ZxVklleXh6dkJVdkJ2VmxpWm40N1hRVmdOSE5lcEVGVWh3OVJMbVNROEw0UWRHNUl5MlhMdEhvelNVWkNIRG0zOVVnckhvM2NJdWtsUGEzR1Y5UVFQTlFsX1dtaW9obDAzaWpEYW9aTmlkcXdObnNnR3NzTkhqYV9WNER1OXZvMW01bWl1MUd5M2pX?oc=5",
-      "publishedAt": "2026-07-31T00:56:19.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "In Missouri, Cori Bush and Wesley Bell's primary rematch sets up key test for Democrats",
-      "url": "https://www.pbs.org/newshour/politics/in-missouri-cori-bush-and-wesley-bells-primary-rematch-sets-up-key-test-for-democrats",
-      "publishedAt": "2026-07-30T23:37:33.000Z"
     }
   ]
 }
