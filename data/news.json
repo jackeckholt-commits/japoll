@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-07-31T07:35:23.708Z",
+  "generatedAt": "2026-07-31T11:11:34.011Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Trump says he may pull Todd Blanche's nomination to circumvent GOP holdouts",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5913860/trump-says-he-may-pull-todd-blanches-nomination-to-circumvent-gop-holdouts",
+      "publishedAt": "2026-07-31T10:42:20.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Former Sen. Flake on what GOP objections over Blanche's nomination means for Trump",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5913739/former-sen-flake-on-what-gop-objections-over-blanches-nomination-means-for-trump",
+      "publishedAt": "2026-07-31T10:42:15.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "One Big Beautiful Bill cut healthcare funds. Now, Republicans have to sell the costs",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5870960/republican-ads-healthcare-medicaid-2026-midterms",
+      "publishedAt": "2026-07-31T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Democrats show divisions on Israel amid competitive midterm elections",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5896216/democrats-israel-congress-2026-midterm-elections",
+      "publishedAt": "2026-07-31T09:00:00.000Z"
+    },
     {
       "source": "WPR",
       "title": "Wisconsin’s 2026 primary for governor gets shaken up again",
@@ -8,10 +32,16 @@
       "publishedAt": "2026-07-31T02:57:40.000Z"
     },
     {
-      "source": "jsonline.com",
+      "source": "Milwaukee Journal Sentinel",
       "title": "Mandela Barnes ends Democratic campaign for Wisconsin governor",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZXVzRkh5VDBmUHVGeE9HN3ZDelBLRUNWWWdscTNlTTFTRUFUem9pd0JndU1mUldJM1M0cERGeE95YnVlbDZrR3ZsMmN4VTJMOWR2cFppUFo2SERjbXJBRFU4WWxlenR2RThXSG5YdmtkTTV1UXhiLTNkREx2Q29PenB1dGtOWjhDVE8zVUJ2dnFLUmFUUjE3TFA2MW1BTGZ2V3J4ZFRKRmcxdE81WHpvQkctVmlEVHFkUkhMNQ?oc=5",
       "publishedAt": "2026-07-31T02:32:00.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "North Carolina U.S. Senate Election 2026: Latest Polls",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcG0yWVJ4b1FCblhNSEdUeDZTb1BHUEh2TjItUTN6MjlsV09ZYlA0aHZ4R0V0b2ZjRTA0SHJkTGJxaDJPaXh0OEIxZFhIVWhsd0t2bFBRYTdrc3p1cHZCTmp4UC1UR183S0loRDU2QmE4cGVMZWt4LVA2T05wUHhJQTJ0Q1d3d1M2Q180dWpHTHVFblVaV3c?oc=5",
+      "publishedAt": "2026-07-31T02:25:18.000Z"
     },
     {
       "source": "WOWT",
@@ -20,7 +50,7 @@
       "publishedAt": "2026-07-31T01:55:00.000Z"
     },
     {
-      "source": "ktvq.com",
+      "source": "KTVQ",
       "title": "Too personal? Ads sharing private phone numbers in Montana U.S. Senate race",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONU1GSW9LT0lfcXMtS2ZxVklleXh6dkJVdkJ2VmxpWm40N1hRVmdOSE5lcEVGVWh3OVJMbVNROEw0UWRHNUl5MlhMdEhvelNVWkNIRG0zOVVnckhvM2NJdWtsUGEzR1Y5UVFQTlFsX1dtaW9obDAzaWpEYW9aTmlkcXdObnNnR3NzTkhqYV9WNER1OXZvMW01bWl1MUd5M2pX?oc=5",
       "publishedAt": "2026-07-31T00:56:19.000Z"
@@ -30,36 +60,6 @@
       "title": "In Missouri, Cori Bush and Wesley Bell's primary rematch sets up key test for Democrats",
       "url": "https://www.pbs.org/newshour/politics/in-missouri-cori-bush-and-wesley-bells-primary-rematch-sets-up-key-test-for-democrats",
       "publishedAt": "2026-07-30T23:37:33.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "How shipping risks from Ukraine and Iran wars are converging",
-      "url": "https://www.pbs.org/newshour/show/how-shipping-risks-from-ukraine-and-iran-wars-are-converging",
-      "publishedAt": "2026-07-30T22:52:44.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Blanche's AG nomination on hold over opposition to DOJ's 'anti-weaponization fund'",
-      "url": "https://www.pbs.org/newshour/show/blanches-ag-nomination-on-hold-over-opposition-to-dojs-anti-weaponization-fund",
-      "publishedAt": "2026-07-30T22:40:48.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Missouri couple murdered in Guatemala after husband was deported",
-      "url": "https://www.pbs.org/newshour/show/missouri-couple-murdered-in-guatemala-after-husband-was-deported-2",
-      "publishedAt": "2026-07-30T22:35:28.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "The Race for Congress: Latest 2026 Polls",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EdUZXTXBzRFFLOGZJR2hWaHlFUUw0em5XbTZQYTRNbnNmdkVOaXBRcEtuUDhQWnhxNUVsckIwTERBUUplcWtOSWtzY09Yb3FDVzBJY05kU04wb0dZc1d5LXlLbm1jZi1wckVUcjFoSTI1WDQ3R2FxRHZ3?oc=5",
-      "publishedAt": "2026-07-30T22:00:34.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "After Fauci Senate hearing, experts worry about 'chilling effect' on public health",
-      "url": "https://www.npr.org/2026/07/30/nx-s1-5913384/anthony-fauci-fifth-rand-paul-covid-public-health-chilling",
-      "publishedAt": "2026-07-30T20:37:48.000Z"
     }
   ]
 }
