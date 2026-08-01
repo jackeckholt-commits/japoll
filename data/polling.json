@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-31T12:16:48.643Z",
+  "updatedAt": "2026-08-01T11:36:48.954Z",
   "genericBallot": {
     "average": {
       "democrats": 47.9,
-      "republicans": 42.2
+      "republicans": 42.1
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 48.6,
-        "republicans": 42.3,
+        "democrats": 48.7,
+        "republicans": 42,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
         "scrapeStatus": "live",
@@ -32,7 +32,7 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "democrats": 48.3,
+        "democrats": 48.4,
         "republicans": 41.9,
         "included": true,
         "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
@@ -76,8 +76,8 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 37.2,
-      "disapprove": 60.5
+      "approve": 37,
+      "disapprove": 60.7
     },
     "sources": [
       {
@@ -95,8 +95,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 36.2,
-        "disapprove": 60.8,
+        "approve": 36.1,
+        "disapprove": 61,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
@@ -139,8 +139,8 @@
         "key": "nyt",
         "name": "The New York Times",
         "shortName": "NYT",
-        "approve": 38,
-        "disapprove": 59,
+        "approve": 37,
+        "disapprove": 60,
         "included": true,
         "url": "https://www.nytimes.com/interactive/polls/donald-trump-approval-rating-polls.html",
         "scrapeStatus": "live",
