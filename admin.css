@@ -77,6 +77,9 @@ input:focus, textarea:focus, select:focus { border-color: #72baff; box-shadow: 0
 .connection-status { display: block; margin-top: 0.65rem; color: var(--muted); font-size: 0.82rem; }
 .connection-status.is-connected { color: var(--green); }
 .connection-status.is-error { color: #ff949a; }
+.remember-device { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 0.7rem; color: #d7e5ee; font-size: 0.86rem; font-weight: 800; }
+.remember-device input { width: 1rem; height: 1rem; accent-color: #63b4f1; }
+.remember-device-note { display: block; margin-top: 0.25rem; color: var(--muted); font-size: 0.75rem; line-height: 1.35; }
 
 .editor-nav { position: sticky; top: 67px; z-index: 10; display: flex; gap: 0.45rem; margin: 1.5rem 0; padding: 0.55rem; overflow-x: auto; border: 1px solid rgba(81, 118, 145, 0.38); border-radius: 14px; background: rgba(9, 19, 27, 0.88); backdrop-filter: blur(14px); scrollbar-width: none; }
 .editor-nav::-webkit-scrollbar { display: none; }
@@ -110,8 +113,15 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 .post-editor-toolbar p { color: var(--muted); }
 .post-editor-toolbar .secondary-button { min-height: 44px; }
 .post-editor-list { display: grid; gap: 1rem; }
-.post-editor { display: grid; grid-template-columns: minmax(150px, 0.55fr) minmax(220px, 1.45fr); gap: 1rem; padding: 1.25rem; border-top: 3px solid #aa8aff; }
-.post-editor legend { color: #cbb9ff; }
+.post-editor, .news-editor { overflow: hidden; border: 1px solid #30495b; border-radius: 14px; background: rgba(14, 31, 42, 0.82); }
+.post-editor-summary, .news-editor-summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 58px; padding: 0.8rem 1.1rem; cursor: pointer; color: white; list-style: none; }
+.post-editor-summary::-webkit-details-marker, .news-editor-summary::-webkit-details-marker { display: none; }
+.post-editor-summary::after, .news-editor-summary::after { content: "+"; flex: 0 0 auto; color: #9dd3ff; font-size: 1.2rem; font-weight: 900; }
+.post-editor[open] .post-editor-summary::after, .news-editor[open] .news-editor-summary::after { content: "−"; }
+.post-editor-summary strong, .news-editor-summary strong { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.post-editor-summary span, .news-editor-summary span { flex: 0 0 auto; color: var(--muted); font-size: 0.78rem; font-weight: 800; }
+.post-editor-fields { display: grid; grid-template-columns: minmax(150px, 0.55fr) minmax(220px, 1.45fr); gap: 1rem; margin: 0; padding: 1.25rem; border: 0; border-top: 1px solid #30495b; border-radius: 0; }
+.post-editor-fields legend, .news-editor-fields legend { color: #cbb9ff; }
 .post-editor .post-title-field,
 .post-editor .post-excerpt-field,
 .post-editor .post-body-field { grid-column: 1 / -1; }
@@ -123,10 +133,10 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 .news-editor-heading p { color: var(--muted); }
 .news-editor-list { display: grid; gap: 0.85rem; }
 .news-editor-list + .post-editor-toolbar { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
-.news-editor { position: relative; display: grid; grid-template-columns: minmax(150px, 0.55fr) minmax(180px, 0.55fr) minmax(260px, 1.4fr); gap: 0.85rem; padding: 1rem; border-top: 2px solid #68bfff; }
-.news-editor > label:last-child { grid-column: 1 / -1; }
-.news-editor .remove-post-button { position: absolute; top: 0.65rem; right: 0.75rem; }
-.post-editor textarea { min-height: 190px; }
+.news-editor-fields { position: relative; display: grid; grid-template-columns: minmax(150px, 0.55fr) minmax(180px, 0.55fr) minmax(260px, 1.4fr); gap: 0.85rem; margin: 0; padding: 1rem; border: 0; border-top: 1px solid #30495b; border-radius: 0; }
+.news-editor-fields > label:last-child { grid-column: 1 / -1; }
+.news-editor-fields .remove-post-button { position: absolute; top: 0.65rem; right: 0.75rem; }
+.post-editor-fields textarea { min-height: 190px; }
 .post-editor-heading { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .post-editor-heading strong { font-size: 1.05rem; }
 .remove-post-button { min-height: 38px; padding: 0.55rem 0.75rem; border: 1px solid rgba(255, 89, 98, 0.45); border-radius: 9px; cursor: pointer; color: #ff9ca1; background: rgba(255, 89, 98, 0.08); font-weight: 900; }
@@ -154,6 +164,8 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 
 .save-dock { position: fixed; z-index: 30; inset: auto 0 0; display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 84px; padding: 0.8rem max(1rem, calc((100vw - 1180px) / 2)); border-top: 1px solid #3b5669; background: rgba(10, 22, 30, 0.96); backdrop-filter: blur(18px); }
 .save-dock div { display: grid; gap: 0.2rem; }
+.save-dock .save-dock-actions { display: flex; align-items: center; gap: 0.55rem; }
+.save-dock-actions .secondary-button { min-height: 44px; border: 1px solid #426980; background: #173548; }
 .save-dock span { color: var(--muted); font-size: 0.84rem; }
 #save-button { min-width: 175px; min-height: 50px; padding: 0.8rem 1.2rem; background: linear-gradient(135deg, #337db1, #9c3e7b); }
 #save-button:disabled { cursor: not-allowed; opacity: 0.45; }
@@ -163,10 +175,10 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
 
 @media (max-width: 900px) {
   .connection-card, .prediction-grid { grid-template-columns: 1fr; }
-  .post-editor { grid-template-columns: 1fr; }
-  .post-editor > * { grid-column: 1 !important; }
-  .news-editor { grid-template-columns: 1fr; }
-  .news-editor > * { grid-column: 1 !important; }
+  .post-editor-fields { grid-template-columns: 1fr; }
+  .post-editor-fields > * { grid-column: 1 !important; }
+  .news-editor-fields { grid-template-columns: 1fr; }
+  .news-editor-fields > * { grid-column: 1 !important; }
   .race-toolbar { grid-template-columns: 1fr; align-items: stretch; }
   .race-filters { justify-content: stretch; }
   .house-state-filter, .race-search { flex: 1 1 0; width: auto; }
@@ -186,6 +198,8 @@ legend { padding: 0 0.55rem; font-size: 1.15rem; font-weight: 900; }
   .house-state-filter, .race-search { width: 100%; }
   .race-row { grid-template-columns: 1fr; }
   .save-dock { min-height: 96px; }
-  .save-dock div { max-width: 55%; }
+  .save-dock > div:first-child { max-width: 46%; }
+  .save-dock .save-dock-actions { gap: 0.35rem; }
+  .save-dock-actions .secondary-button { padding: 0.65rem 0.7rem; font-size: 0.77rem; }
   #save-button { min-width: 135px; }
 }

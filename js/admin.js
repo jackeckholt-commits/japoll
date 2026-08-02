@@ -1,6 +1,9 @@
 const REPOSITORY = "jackeckholt-commits/japoll";
 const BRANCH = "main";
 const API_ROOT = `https://api.github.com/repos/${REPOSITORY}`;
+const SESSION_TOKEN_KEY = "japollGithubToken";
+const REMEMBERED_TOKEN_KEY = "japollGithubTokenRemembered";
+const DRAFT_KEY = "japollAdminDraftV1";
 
 const RATING_OPTIONS = {
   "no-data": { label: "No rating yet", party: "none" },
@@ -18,12 +21,13 @@ const RATING_OPTIONS = {
 const EXPECTED_TOTALS = { house: 435, senate: 100, governor: 50 };
 let editorialData = null;
 let raceData = null;
-let connectedToken = sessionStorage.getItem("japollGithubToken") || "";
+let connectedToken = sessionStorage.getItem(SESSION_TOKEN_KEY) || localStorage.getItem(REMEMBERED_TOKEN_KEY) || "";
 let currentRaceTab = "senate";
 let hasUnsavedChanges = false;
 
 const form = document.querySelector("#editor-form");
 const tokenInput = document.querySelector("#github-token");
+const rememberDevice = document.querySelector("#remember-device");
 const connectButton = document.querySelector("#connect-button");
 const connectionStatus = document.querySelector("#connection-status");
 const saveButton = document.querySelector("#save-button");
@@ -40,6 +44,10 @@ const postEditors = document.querySelector("#post-editors");
 const addPostButton = document.querySelector("#add-post-button");
 const newsEditors = document.querySelector("#news-editors");
 const addNewsButton = document.querySelector("#add-news-button");
+const saveDraftButton = document.querySelector("#save-draft-button");
+const previewButton = document.querySelector("#preview-button");
+
+if (rememberDevice && localStorage.getItem(REMEMBERED_TOKEN_KEY)) rememberDevice.checked = true;
 
 function valueAtPath(object, path) {
   return path.split(".").reduce((value, key) => value?.[key], object);
@@ -77,6 +85,22 @@ function apiHeaders(token = connectedToken) {
   };
 }
 
+function clearStoredToken() {
+  sessionStorage.removeItem(SESSION_TOKEN_KEY);
+  localStorage.removeItem(REMEMBERED_TOKEN_KEY);
+}
+
+function saveTokenForSession(token) {
+  if (rememberDevice?.checked) {
+    localStorage.setItem(REMEMBERED_TOKEN_KEY, token);
+    sessionStorage.removeItem(SESSION_TOKEN_KEY);
+    return "Connected. This private device will remember your token.";
+  }
+  sessionStorage.setItem(SESSION_TOKEN_KEY, token);
+  localStorage.removeItem(REMEMBERED_TOKEN_KEY);
+  return "Connected. Your token is kept only in this browser tab.";
+}
+
 async function connectGithub() {
   const token = tokenInput.value.trim() || connectedToken;
   if (!token) {
@@ -95,20 +119,52 @@ async function connectGithub() {
     if (!repository.permissions?.push) throw new Error("This token can view Japoll, but it does not have Contents: Read and write permission.");
 
     connectedToken = token;
-    sessionStorage.setItem("japollGithubToken", token);
+    const connectionMessage = saveTokenForSession(token);
     tokenInput.value = "";
     tokenInput.placeholder = "Connected for this tab";
     saveButton.disabled = false;
-    setConnection("Connected. Your token is kept only in this browser tab.", "connected");
+    setConnection(connectionMessage, "connected");
     setSaveState(hasUnsavedChanges ? "Unpublished changes" : "Ready to publish", "Your changes can now be sent to Japoll.");
   } catch (error) {
     connectedToken = "";
-    sessionStorage.removeItem("japollGithubToken");
+    clearStoredToken();
     saveButton.disabled = true;
     setConnection(error.message, "error");
   } finally {
     connectButton.disabled = false;
     connectButton.textContent = "Connect";
+  }
+}
+
+function saveDraft() {
+  if (!editorialData || !raceData) return;
+  const draft = {
+    editorial: collectEditorialData(),
+    races: updateRaceDataFromEditor(),
+    savedAt: new Date().toISOString()
+  };
+  localStorage.setItem(DRAFT_KEY, JSON.stringify(draft));
+  setSaveState("Draft saved on this device", "Preview it now or keep editing before you publish.", "success");
+}
+
+function previewDraft() {
+  saveDraft();
+  window.open("analysis.html?preview=1", "_blank", "noopener");
+}
+
+function restoreDraftIfAvailable() {
+  const rawDraft = localStorage.getItem(DRAFT_KEY);
+  if (!rawDraft) return false;
+  try {
+    const draft = JSON.parse(rawDraft);
+    if (!draft.editorial || !draft.races) return false;
+    if (!window.confirm("Restore the unpublished draft saved on this device?")) return false;
+    editorialData = draft.editorial;
+    raceData = draft.races;
+    return true;
+  } catch {
+    localStorage.removeItem(DRAFT_KEY);
+    return false;
   }
 }
 
@@ -122,13 +178,14 @@ async function loadCurrentData() {
 
     editorialData = await editorialResponse.json();
     raceData = await racesResponse.json();
+    const restoredDraft = restoreDraftIfAvailable();
     populateForm();
     renderPostEditors();
     renderNewsEditors();
     renderRaceEditors();
     syncAutoPredictionFields(true);
     validatePredictionTotals();
-    setSaveState("Current data loaded", connectedToken ? "Connected and ready to publish." : "Connect GitHub when you are ready to publish.");
+    setSaveState(restoredDraft ? "Draft restored" : "Current data loaded", restoredDraft ? "Review it, preview it, or publish when ready." : connectedToken ? "Connected and ready to publish." : "Connect GitHub when you are ready to publish.");
   } catch (error) {
     setSaveState("Could not load the editor", error.message, "error");
   }
@@ -208,9 +265,20 @@ function createContentInput(field, value = "", options = {}) {
 }
 
 function createPostEditor(post = {}, index = 0) {
+  const editor = document.createElement("details");
+  editor.className = "post-editor";
+  editor.dataset.postId = post.id || "";
+  editor.open = index === 0 || !post.title;
+  const summary = document.createElement("summary");
+  summary.className = "post-editor-summary";
+  const summaryTitle = document.createElement("strong");
+  summaryTitle.textContent = post.title || `New post ${index + 1}`;
+  const summaryDate = document.createElement("span");
+  summaryDate.textContent = post.publishedAt || "Draft";
+  summary.append(summaryTitle, summaryDate);
+
   const fieldset = document.createElement("fieldset");
-  fieldset.className = "post-editor";
-  fieldset.dataset.postId = post.id || "";
+  fieldset.className = "post-editor-fields";
 
   const legend = document.createElement("legend");
   legend.textContent = post.title || `New post ${index + 1}`;
@@ -224,7 +292,7 @@ function createPostEditor(post = {}, index = 0) {
   remove.type = "button";
   remove.textContent = "Remove post";
   remove.addEventListener("click", () => {
-    fieldset.remove();
+    editor.remove();
     markDirty();
   });
   heading.append(helper, remove);
@@ -259,7 +327,9 @@ function createPostEditor(post = {}, index = 0) {
 
   title.addEventListener("input", () => {
     legend.textContent = title.value.trim() || "New post";
+    summaryTitle.textContent = title.value.trim() || "New post";
   });
+  date.addEventListener("input", () => { summaryDate.textContent = date.value || "Draft"; });
 
   fieldset.append(
     legend,
@@ -275,7 +345,8 @@ function createPostEditor(post = {}, index = 0) {
     articleUrlLabel,
     articleTitleLabel
   );
-  return fieldset;
+  editor.append(summary, fieldset);
+  return editor;
 }
 
 function renderPostEditors() {
@@ -297,8 +368,18 @@ function addNewPost() {
 }
 
 function createNewsEditor(article = {}, index = 0) {
+  const editor = document.createElement("details");
+  editor.className = "news-editor";
+  editor.open = index === 0 || !article.title;
+  const summary = document.createElement("summary");
+  summary.className = "news-editor-summary";
+  const summaryTitle = document.createElement("strong");
+  summaryTitle.textContent = article.title || `News link ${index + 1}`;
+  const summaryMeta = document.createElement("span");
+  summaryMeta.textContent = [article.source, article.publishedAt].filter(Boolean).join(" · ") || "Draft";
+  summary.append(summaryTitle, summaryMeta);
   const fieldset = document.createElement("fieldset");
-  fieldset.className = "news-editor";
+  fieldset.className = "news-editor-fields";
   const legend = document.createElement("legend");
   legend.textContent = article.source || `News link ${index + 1}`;
   const remove = document.createElement("button");
@@ -306,7 +387,7 @@ function createNewsEditor(article = {}, index = 0) {
   remove.type = "button";
   remove.textContent = "Remove link";
   remove.addEventListener("click", () => {
-    fieldset.remove();
+    editor.remove();
     markDirty();
   });
 
@@ -320,7 +401,10 @@ function createNewsEditor(article = {}, index = 0) {
   });
   source.addEventListener("input", () => {
     legend.textContent = source.value.trim() || "News link";
+    summaryMeta.textContent = [source.value.trim(), date.value].filter(Boolean).join(" · ") || "Draft";
   });
+  title.addEventListener("input", () => { summaryTitle.textContent = title.value.trim() || "News link"; });
+  date.addEventListener("input", () => { summaryMeta.textContent = [source.value.trim(), date.value].filter(Boolean).join(" · ") || "Draft"; });
 
   fieldset.append(
     legend,
@@ -330,7 +414,8 @@ function createNewsEditor(article = {}, index = 0) {
     makeLabel("Headline", title),
     makeLabel("Article URL", url)
   );
-  return fieldset;
+  editor.append(summary, fieldset);
+  return editor;
 }
 
 function renderNewsEditors() {
@@ -542,6 +627,7 @@ function updateRaceDataFromEditor() {
       race.marginLabel = null;
       race.predictedMargin = null;
       race.lastUpdated = displayDate;
+      delete race.ratingHistory;
     });
 
     const activeRaces = map.races.filter(race => race.active === true);
@@ -670,6 +756,8 @@ form.addEventListener("input", event => {
 });
 addPostButton?.addEventListener("click", addNewPost);
 addNewsButton?.addEventListener("click", addNewsArticle);
+saveDraftButton?.addEventListener("click", saveDraft);
+previewButton?.addEventListener("click", previewDraft);
 document.querySelectorAll("[data-race-tab]").forEach(button => {
   button.addEventListener("click", () => selectRaceTab(button.dataset.raceTab));
 });

@@ -26,6 +26,40 @@ const RATING_LABELS = {
   repSolid: "Safe Republican"
 };
 
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>'"]/g, character => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", "\"": "&quot;"
+  }[character]));
+}
+
+function raceIdentifier(mapKey, race) {
+  return `${mapKey}:${mapKey === "house" ? race.id : String(race.fips).padStart(2, "0")}`;
+}
+
+function attachRaceActions(container, race, mapKey) {
+  const shareButton = container.querySelector("[data-share-race]");
+  if (shareButton) {
+    shareButton.addEventListener("click", async () => {
+      const url = new URL(window.location.href);
+      url.searchParams.set("race", raceIdentifier(mapKey, race));
+      const shareData = { title: `${race.label || race.name} | Japoll`, text: `${race.label || race.name}: ${formatRaceStatus(race)}`, url: url.href };
+      try {
+        if (navigator.share) await navigator.share(shareData);
+        else {
+          await navigator.clipboard.writeText(url.href);
+          shareButton.textContent = "Link copied ✓";
+          setTimeout(() => { shareButton.textContent = "Share"; }, 1800);
+        }
+      } catch (error) {
+        if (error?.name !== "AbortError") {
+          shareButton.textContent = "Couldn’t share";
+          setTimeout(() => { shareButton.textContent = "Share"; }, 1800);
+        }
+      }
+    });
+  }
+}
+
 
 function getRaceClass(race) {
   if (!race || race.active !== true) return "state-no-race";
@@ -229,7 +263,7 @@ function renderMarginSummary(container, mapData) {
   return true;
 }
 
-function renderRaceDetail(panel, race, mapData) {
+function renderRaceDetail(panel, race, mapData, mapKey) {
   if (!race) {
     const unit = mapData.unitLabel === "district" ? "district" : "state";
     const activeLabel = unit === "district" ? "Every district is selectable" : "Colored states have active races";
@@ -258,8 +292,12 @@ function renderRaceDetail(panel, race, mapData) {
     <p><strong>Status:</strong> ${formatRaceStatus(race)}</p>
     ${noteLine}
     ${candidateSection}
+    <div class="race-utility-actions">
+      <button type="button" class="race-utility-button" data-share-race>Share</button>
+    </div>
     ${renderRaceLinks(race, mapData)}
   `;
+  attachRaceActions(panel, race, mapKey);
 }
 
 async function loadRaceData() {
@@ -280,7 +318,7 @@ async function loadHouseGeometry(mapData) {
   return geometryResponse.json();
 }
 
-function renderRaceMap(section, mapData, atlas) {
+function renderRaceMap(section, mapData, atlas, mapKey) {
   const mapSlot = section.querySelector("[data-race-map-svg]");
   const detailPanel = section.querySelector("[data-race-detail]");
   const barSlot = section.querySelector("[data-race-bar]");
@@ -289,7 +327,7 @@ function renderRaceMap(section, mapData, atlas) {
 
   renderProjectionBar(barSlot, mapData);
   renderCurrentCompositionNote(barSlot, mapData);
-  renderRaceDetail(detailPanel, null, mapData);
+  renderRaceDetail(detailPanel, null, mapData, mapKey);
 
   const raceByFips = new Map((mapData.races || []).map(race => [String(race.fips).padStart(2, "0"), race]));
   const stateFeatures = topojson.feature(atlas, atlas.objects.states).features;
@@ -344,7 +382,7 @@ function renderRaceMap(section, mapData, atlas) {
 
       svg.selectAll(".race-state").classed("is-selected", false);
       d3.select(this).classed("is-selected", true);
-      renderRaceDetail(detailPanel, race, mapData);
+      renderRaceDetail(detailPanel, race, mapData, mapKey);
     })
     .on("keydown", function(event, feature) {
       if (event.key !== "Enter" && event.key !== " ") return;
@@ -385,6 +423,10 @@ function renderRaceMap(section, mapData, atlas) {
     .attr("text-anchor", "middle")
     .attr("dominant-baseline", "middle")
     .text(feature => FIPS_TO_POSTAL[String(feature.id).padStart(2, "0")] || "");
+
+  const sharedRace = new URLSearchParams(window.location.search).get("race");
+  const sharedMatch = [...raceByFips.values()].find(race => raceIdentifier(mapKey, race) === sharedRace);
+  if (sharedMatch) renderRaceDetail(detailPanel, sharedMatch, mapData, mapKey);
 }
 
 function renderHouseDistrictMap(section, mapData, geoJson) {
@@ -394,7 +436,7 @@ function renderHouseDistrictMap(section, mapData, geoJson) {
   if (!mapSlot || !detailPanel) return;
 
   if (barSlot) renderProjectionBar(barSlot, mapData);
-  renderRaceDetail(detailPanel, null, mapData);
+  renderRaceDetail(detailPanel, null, mapData, "house");
 
   const races = Array.isArray(mapData.races) ? mapData.races : [];
   const raceById = new Map(races.map(race => [race.id, race]));
@@ -453,7 +495,7 @@ function renderHouseDistrictMap(section, mapData, geoJson) {
       if (!race) return;
       districts.classed("is-selected", false);
       d3.select(this).classed("is-selected", true);
-      renderRaceDetail(detailPanel, race, mapData);
+      renderRaceDetail(detailPanel, race, mapData, "house");
     })
     .on("keydown", function(event) {
       if (event.key !== "Enter" && event.key !== " ") return;
@@ -512,6 +554,10 @@ function renderHouseDistrictMap(section, mapData, geoJson) {
       .translate(-centerX, -centerY);
     svg.transition().duration(260).call(zoom.transform, transform);
   });
+
+  const sharedRace = new URLSearchParams(window.location.search).get("race");
+  const sharedMatch = races.find(race => raceIdentifier("house", race) === sharedRace);
+  if (sharedMatch) renderRaceDetail(detailPanel, sharedMatch, mapData, "house");
 }
 
 function renderCurrentCompositionNote(container, mapData) {
@@ -535,6 +581,35 @@ function renderCurrentCompositionNote(container, mapData) {
   container.appendChild(wrapper);
 }
 
+function renderRaceTable(section, mapData, mapKey) {
+  const slot = document.querySelector("[data-race-table-section] [data-race-table]");
+  if (!slot) return;
+  const races = (mapData.races || []).filter(race => race.active !== false);
+  const rowHtml = race => {
+    const candidates = (race.candidates || []).map(candidate => escapeHtml(candidate.name)).filter(Boolean).join(" · ");
+    return `<tr data-race-search="${escapeHtml(`${race.label || race.name} ${race.state} ${formatRaceStatus(race)}`.toLowerCase())}">
+      <td><strong>${escapeHtml(race.label || race.name)}</strong><span>${escapeHtml(candidates || race.state || "")}</span></td>
+      <td><span class="race-rating-pill ${getRaceClass(race)}">${escapeHtml(formatRaceStatus(race))}</span></td>
+      <td>${escapeHtml(race.lastUpdated || "—")}</td>
+      <td><div class="race-table-actions"><button type="button" class="race-utility-button" data-share-race>Share</button></div></td>
+    </tr>`;
+  };
+  slot.innerHTML = `<div class="race-table-toolbar"><label>Find a race<input type="search" data-race-table-search placeholder="State, district, candidate, or rating"/></label><span data-race-table-count>${races.length} races</span></div><div class="race-table-shell"><table><thead><tr><th>Race</th><th>Rating</th><th>Updated</th><th><span class="visually-hidden">Actions</span></th></tr></thead><tbody>${races.map(rowHtml).join("")}</tbody></table></div>`;
+  slot.querySelectorAll("tbody tr").forEach((row, index) => attachRaceActions(row, races[index], mapKey));
+  const input = slot.querySelector("[data-race-table-search]");
+  const count = slot.querySelector("[data-race-table-count]");
+  input.addEventListener("input", () => {
+    const query = input.value.trim().toLowerCase();
+    let shown = 0;
+    slot.querySelectorAll("tbody tr").forEach(row => {
+      const visible = !query || row.dataset.raceSearch.includes(query);
+      row.hidden = !visible;
+      if (visible) shown += 1;
+    });
+    count.textContent = `${shown} of ${races.length} races`;
+  });
+}
+
 async function initializeRaceMaps() {
   const sections = document.querySelectorAll("[data-race-map]");
   if (!sections.length) return;
@@ -553,7 +628,8 @@ async function initializeRaceMaps() {
 
       if (!mapData) return;
       if (key === "house") renderHouseDistrictMap(section, mapData, houseGeometry);
-      else renderRaceMap(section, mapData, atlas);
+      else renderRaceMap(section, mapData, atlas, key);
+      renderRaceTable(section, mapData, key);
     });
   } catch (error) {
     console.error("Could not load race map:", error);

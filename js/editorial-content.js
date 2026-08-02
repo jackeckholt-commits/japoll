@@ -247,8 +247,17 @@ async function loadEditorialContent() {
       fetch("data/news.json", { cache: "no-store" })
     ]);
     if (!editorialResponse.ok) throw new Error("Could not load editorial data");
-    const editorial = await editorialResponse.json();
-    const raceData = racesResponse.ok ? await racesResponse.json() : null;
+    let editorial = await editorialResponse.json();
+    let raceData = racesResponse.ok ? await racesResponse.json() : null;
+    if (new URLSearchParams(window.location.search).get("preview") === "1") {
+      try {
+        const draft = JSON.parse(localStorage.getItem("japollAdminDraftV1") || "null");
+        if (draft?.editorial) editorial = draft.editorial;
+        if (draft?.races) raceData = draft.races;
+      } catch {
+        // A bad local draft should never stop the public content from rendering.
+      }
+    }
     const automatedNews = newsResponse.ok ? await newsResponse.json() : null;
     const newsArticles = mergeNewsArticles(automatedNews?.articles, editorial.newsArticles);
 

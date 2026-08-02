@@ -13,8 +13,8 @@
         "demSolid": 9,
         "demLikely": 3,
         "demLean": 2,
-        "demTilt": 3,
-        "repTilt": 2,
+        "demTilt": 4,
+        "repTilt": 1,
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 10,
@@ -382,12 +382,12 @@
           "fips": "19",
           "name": "Iowa",
           "active": true,
-          "party": "rep",
+          "party": "dem",
           "status": "prediction",
           "strength": "no-data",
           "label": "Iowa Senate",
           "note": "",
-          "marginCategory": "repTilt",
+          "marginCategory": "demTilt",
           "marginLabel": null,
           "predictedMargin": null,
           "candidates": [
@@ -1282,13 +1282,13 @@
           {
             "key": "demTilt",
             "label": "Tilt D",
-            "count": 3,
+            "count": 4,
             "className": "margin-dem-tilt"
           },
           {
             "key": "repTilt",
             "label": "Tilt R",
-            "count": 2,
+            "count": 1,
             "className": "margin-rep-tilt"
           },
           {
@@ -1338,8 +1338,8 @@
         "note": "Includes two independent senators who caucus with Democrats."
       },
       "projectedTotals": {
-        "dem": 51,
-        "rep": 49,
+        "dem": 52,
+        "rep": 48,
         "label": "Projected Senate seats"
       },
       "lastUpdated": "Jul 29, 2026",
@@ -1357,8 +1357,8 @@
         "demSolid": 12,
         "demLikely": 3,
         "demLean": 3,
-        "demTilt": 2,
-        "repTilt": 1,
+        "demTilt": 3,
+        "repTilt": 0,
         "repLean": 3,
         "repLikely": 3,
         "repSolid": 9,
@@ -1745,12 +1745,12 @@
           "fips": "19",
           "name": "Iowa",
           "active": true,
-          "party": "rep",
+          "party": "dem",
           "status": "prediction",
           "strength": "no-data",
           "label": "Iowa Governor",
           "note": "",
-          "marginCategory": "repTilt",
+          "marginCategory": "demTilt",
           "marginLabel": null,
           "predictedMargin": null,
           "candidates": [
@@ -2666,13 +2666,13 @@
           {
             "key": "demTilt",
             "label": "Tilt D",
-            "count": 2,
+            "count": 3,
             "className": "margin-dem-tilt"
           },
           {
             "key": "repTilt",
             "label": "Tilt R",
-            "count": 1,
+            "count": 0,
             "className": "margin-rep-tilt"
           },
           {
@@ -2717,8 +2717,8 @@
         "note": "Governorships not up for election in 2026."
       },
       "projectedTotals": {
-        "dem": 25,
-        "rep": 25,
+        "dem": 26,
+        "rep": 24,
         "label": "Projected governorships"
       },
       "lastUpdated": "Jul 29, 2026",

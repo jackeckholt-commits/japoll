@@ -26,7 +26,7 @@
     <div>
       <span class="step-number">1</span>
       <h2 id="connection-title">Connect your GitHub account</h2>
-      <p>Use a fine-grained token with <strong>Contents: Read and write</strong> access to the Japoll repository. It stays in this browser tab and is never added to the website.</p>
+      <p>Use a fine-grained token with <strong>Contents: Read and write</strong> access to the Japoll repository. By default it stays in this browser tab and is never added to the website.</p>
       <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Create a GitHub token ↗</a>
     </div>
     <div class="connection-controls">
@@ -35,6 +35,8 @@
         <input id="github-token" type="password" autocomplete="off" placeholder="github_pat_…"/>
         <button id="connect-button" class="secondary-button" type="button">Connect</button>
       </div>
+      <label class="remember-device"><input id="remember-device" type="checkbox"/> <span>Remember this device</span></label>
+      <small class="remember-device-note">Keeps the token in this browser after you close the tab. Only use a private device.</small>
       <span id="connection-status" class="connection-status">You can preview current data before connecting.</span>
     </div>
   </section>
@@ -127,7 +129,11 @@
 
 <div class="save-dock">
   <div><strong id="save-title">Ready to edit</strong><span id="save-status">Connect GitHub when you are ready to publish.</span></div>
+  <div class="save-dock-actions">
+    <button id="save-draft-button" class="secondary-button" type="button">Save draft</button>
+    <button id="preview-button" class="secondary-button" type="button">Preview</button>
   <button id="save-button" type="submit" form="editor-form" disabled>Publish changes</button>
+  </div>
 </div>
 
 <script src="js/admin.js?v=20260712-4"></script>

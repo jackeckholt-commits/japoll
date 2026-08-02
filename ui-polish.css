@@ -9,6 +9,37 @@
   --ui-focus: #b9e1ff;
 }
 
+/* Race tables, history, and share controls. */
+.race-table-card { margin-top: clamp(1rem, 2vw, 1.8rem); }
+.race-table-toolbar { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin: 1.25rem 0 0.8rem; }
+.race-table-toolbar label { display: grid; gap: 0.35rem; min-width: min(100%, 390px); color: #a9c0d0; font-size: 0.76rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+.race-table-toolbar input { width: 100%; min-height: 42px; padding: 0.65rem 0.75rem; border: 1px solid rgba(105, 151, 181, .45); border-radius: 10px; color: #eff8ff; background: rgba(7, 22, 32, .7); font: inherit; text-transform: none; }
+.race-table-toolbar > span { color: #a9c0d0; font-size: .84rem; font-weight: 800; }
+.race-table-shell { overflow: auto; border: 1px solid rgba(97, 141, 169, .34); border-radius: 14px; background: rgba(7, 21, 30, .42); }
+.race-table-shell table { width: 100%; min-width: 840px; border-collapse: collapse; text-align: left; }
+.race-table-shell th { padding: .75rem .9rem; border-bottom: 1px solid rgba(97, 141, 169, .34); color: #96bbd6; font-size: .68rem; letter-spacing: .07em; text-transform: uppercase; }
+.race-table-shell td { padding: .85rem .9rem; border-bottom: 1px solid rgba(97, 141, 169, .19); color: #dce9f1; font-size: .88rem; vertical-align: middle; }
+.race-table-shell tr:last-child td { border-bottom: 0; }
+.race-table-shell td:first-child strong { display: block; color: #fff; }
+.race-table-shell td:first-child span { display: block; margin-top: .2rem; color: #abc2d1; font-size: .78rem; }
+.race-rating-pill { display: inline-flex; align-items: center; min-height: 27px; padding: .25rem .55rem; border: 1px solid currentColor; border-radius: 999px; font-size: .76rem; font-weight: 900; white-space: nowrap; }
+.race-rating-pill.state-demSolid, .race-rating-pill.state-demLikely, .race-rating-pill.state-demLean, .race-rating-pill.state-demTilt { color: #89c9ff; background: rgba(72, 150, 232, .13); }
+.race-rating-pill.state-repSolid, .race-rating-pill.state-repLikely, .race-rating-pill.state-repLean, .race-rating-pill.state-repTilt { color: #ffadb3; background: rgba(228, 80, 91, .12); }
+.race-rating-pill.state-tossup { color: #f0d58f; background: rgba(203, 165, 88, .12); }
+.race-rating-pill.state-no-data { color: #b7c5ce; background: rgba(164, 184, 195, .08); }
+.race-utility-actions, .race-table-actions { display: flex; flex-wrap: wrap; gap: .4rem; }
+.race-utility-button { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: .42rem .65rem; border: 1px solid rgba(103, 163, 202, .55); border-radius: 9px; cursor: pointer; color: #dff2ff; background: rgba(31, 78, 109, .4); font: inherit; font-size: .78rem; font-weight: 900; text-decoration: none; }
+.race-utility-button:hover { border-color: #74c5f8; color: #fff; background: rgba(52, 125, 170, .62); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 650px) {
+  .race-table-card { padding: 1rem; }
+  .race-table-toolbar { align-items: stretch; flex-direction: column; }
+  .race-table-toolbar label { min-width: 0; }
+  .race-table-toolbar > span { align-self: flex-end; }
+  .race-utility-actions { gap: .3rem; }
+  .race-utility-button { min-height: 32px; padding: .4rem .55rem; }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -3175,6 +3206,32 @@ button {
   width: min(100%, 40ch);
   justify-self: end;
   text-align: right;
+}
+
+/* Keep the averaging notes in normal flow so they never sit on top of a value. */
+.generic-ballot,
+.approval-card {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.generic-ballot .homepage-metric-footer,
+.approval-card .homepage-metric-footer-end {
+  position: static;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.approval-card {
+  padding-bottom: clamp(24px, 3vw, 36px) !important;
+}
+
+@media (max-width: 620px) {
+  .generic-ballot .homepage-metric-footer,
+  .approval-card .homepage-metric-footer-end {
+    width: 100%;
+    padding-top: 14px;
+  }
 }
 
 /* 1.2.1: on-site prediction map maker. */
