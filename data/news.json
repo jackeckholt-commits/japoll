@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-08-02T14:15:01.102Z",
+  "generatedAt": "2026-08-02T17:45:06.942Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Sen. Bernie Moreno says former son-in-law Max Miller should not serve in the House",
+      "url": "https://www.pbs.org/newshour/politics/sen-bernie-moreno-says-former-son-in-law-max-miller-should-not-serve-in-the-house",
+      "publishedAt": "2026-08-02T16:15:43.000Z"
+    },
     {
       "source": "NPR",
       "title": "Politics chat: Will Democrats use the war and high prices for their midterm strategy?",
       "url": "https://www.npr.org/2026/08/02/nx-s1-5911749/politics-chat-will-democrats-use-the-war-and-high-prices-for-their-midterm-strategy",
       "publishedAt": "2026-08-02T12:08:02.000Z"
+    },
+    {
+      "source": "Politico",
+      "title": "Wisconsin Dems are in chaos over their governor race, despite Tony Evers’ efforts",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0dWRFJnbHlWaWFjT2E1c2pVUDI4MXBJd0poRHgwdHVwNFc1U1c5M29DLU5yOGc1cVE1QnZpMlZ3ZnhoNE8zUkdJRzBPWE03THByN01iaUtaMFRIaVJmTzRuQ0lSSmNDLTM3WjJKUlBKMHBkV3VPQ2dwSjRabGVtanEtMGNVOGdyYXVrSlprTjduNDVfTDlV?oc=5",
+      "publishedAt": "2026-08-02T11:00:00.000Z"
     },
     {
       "source": "NPR",
@@ -48,18 +60,6 @@
       "title": "Trump blasts Pirro after she refutes his claim that Reflecting Pool was damaged by vandals",
       "url": "https://www.pbs.org/newshour/politics/trump-blasts-pirro-after-she-refutes-his-claim-that-reflecting-pool-was-damaged-by-vandals",
       "publishedAt": "2026-08-01T18:34:10.000Z"
-    },
-    {
-      "source": "Kansas Reflector",
-      "title": "Democrats in Kansas governor’s race debate Gov. Laura Kelly’s role in primary campaign",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeFR0RU1XcURmVTU2a1hDcmFGd2JNd29MTmFzWlBlUm5WQ3hNRGxNVHRtLWJXR2RaVmpKcGdjX2FvczI2MEtYb3RyeFNoZTlIZng3WEtFTGd1YWVqRDFvS3VtbjBucE9rbmhJM3NLY0wyQ2pQTF9DbkFScFZaVXBWakdmM2dlU3g1MUhXb1FpUU9YbUhLemZyTkFsdURWYnVQNk9IYUFIZnpMSk1RdjNWbzNqeWpqb2JxcWFGYTRyTEw?oc=5",
-      "publishedAt": "2026-08-01T16:38:24.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump's threat to push ahead on settlement fund injects new uncertainty into attorney general talks",
-      "url": "https://www.pbs.org/newshour/politics/trumps-threat-to-push-ahead-on-settlement-fund-injects-new-uncertainty-into-attorney-general-talks",
-      "publishedAt": "2026-08-01T16:15:42.000Z"
     }
   ]
 }
