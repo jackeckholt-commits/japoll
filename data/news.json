@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-08-02T10:20:49.895Z",
+  "generatedAt": "2026-08-02T14:15:01.102Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Politics chat: Will Democrats use the war and high prices for their midterm strategy?",
+      "url": "https://www.npr.org/2026/08/02/nx-s1-5911749/politics-chat-will-democrats-use-the-war-and-high-prices-for-their-midterm-strategy",
+      "publishedAt": "2026-08-02T12:08:02.000Z"
+    },
     {
       "source": "NPR",
       "title": "Trump says he's cancelling Iran strikes, deal pending",
@@ -54,12 +60,6 @@
       "title": "Trump's threat to push ahead on settlement fund injects new uncertainty into attorney general talks",
       "url": "https://www.pbs.org/newshour/politics/trumps-threat-to-push-ahead-on-settlement-fund-injects-new-uncertainty-into-attorney-general-talks",
       "publishedAt": "2026-08-01T16:15:42.000Z"
-    },
-    {
-      "source": "City & State Pennsylvania",
-      "title": "Madeleine Dean",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzlxS3F5dG5uTHF3c1lqZU5hRlg4VjdvLWJxeGhmMUZNSUxTWlBYTllQODlOTDhNYUdOX1ZqOVE1RlJaR29zZzJYUjlMQWVNV1BxWjZwcFNzc0lZZ1ZibmRyOGFUMUlJUVZpWTVlYnowVy1VZENWRGl0Q0tWbDlmYQ?oc=5",
-      "publishedAt": "2026-08-01T12:55:04.000Z"
     }
   ]
 }
