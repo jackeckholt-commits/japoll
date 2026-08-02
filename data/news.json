@@ -1,11 +1,35 @@
 {
-  "generatedAt": "2026-08-02T17:45:06.942Z",
+  "generatedAt": "2026-08-02T21:38:18.459Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump frequently announces he's halting strikes in Iran. But they keep happening",
+      "url": "https://www.pbs.org/newshour/politics/trump-frequently-announces-hes-halting-strikes-in-iran-but-they-keep-happening",
+      "publishedAt": "2026-08-02T21:29:47.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Michigan U.S. Senate Election 2026: Latest Polls",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5",
+      "publishedAt": "2026-08-02T19:30:08.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Capital One says it closed Trump Organization accounts over money-laundering concerns",
+      "url": "https://www.npr.org/2026/08/02/g-s1-136834/capital-one-trump-bank-anti-money-laundering",
+      "publishedAt": "2026-08-02T18:31:34.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Sen. Bernie Moreno says former son-in-law Max Miller should not serve in the House",
       "url": "https://www.pbs.org/newshour/politics/sen-bernie-moreno-says-former-son-in-law-max-miller-should-not-serve-in-the-house",
       "publishedAt": "2026-08-02T16:15:43.000Z"
+    },
+    {
+      "source": "Politico",
+      "title": "Kansas’ data center boom is shaking up the governor’s race",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY3ZNZ2xFZ3Vwc1M3bGNUM2JDR2ZkZzBKLWhSR0dFX2tXdkU1aXJQSmpmOWVuUko4RE93dVloMm8zS0hmT1FoTTAzWkVtQVJNLXdMMXdxVDRTX2JVOGpKRDZRTnB3TlJtZXJiME5VaDJia3JaUGNzay1rUWxscXdpWklDNllLMHJlVjhaSzlORjMwQQ?oc=5",
+      "publishedAt": "2026-08-02T14:00:00.000Z"
     },
     {
       "source": "NPR",
@@ -36,30 +60,6 @@
       "title": "Darline Graham promotes Trump's agenda in her political debut ahead of special Senate primary",
       "url": "https://www.pbs.org/newshour/politics/darline-graham-promotes-trumps-agenda-in-her-political-debut-ahead-of-special-senate-primary",
       "publishedAt": "2026-08-01T22:07:37.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Bill championed by late Senator Lindsey Graham seeks to increase sanctions on Russia",
-      "url": "https://www.npr.org/2026/08/01/nx-s1-5913204/bill-championed-by-late-senator-lindsey-graham-seeks-to-increase-sanctions-on-russia",
-      "publishedAt": "2026-08-01T20:54:08.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Democrats see a chance to flip a seat as focus on abuse claims mounts against Ohio Rep. Max Miller",
-      "url": "https://www.pbs.org/newshour/politics/democrats-see-a-chance-to-flip-a-seat-as-focus-on-abuse-claims-mounts-against-ohio-rep-max-miller",
-      "publishedAt": "2026-08-01T20:14:55.000Z"
-    },
-    {
-      "source": "Nashville Banner",
-      "title": "Blackburn Shares Unreleased Poll to Combat Claims of Rose’s Momentum in Tennessee Governor’s Race",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV1NFOTc3TXdnNUZONVJUdG93RTJmQnB3T0hycVBreGlwR3QtcGFqYW5vVFZTR2hXeC1sY0Z0aE1SZFNMd0ZORDl0WXRnSDNHamVOYUVLMldlTVIxWEZTNERCVXllc0R0UHY4X2tUclZlekpEeFAxbE5OV3ZKdnZ2VzhhSjVUNUFDbVNkNUJ2ZGE1MThC?oc=5",
-      "publishedAt": "2026-08-01T19:37:35.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump blasts Pirro after she refutes his claim that Reflecting Pool was damaged by vandals",
-      "url": "https://www.pbs.org/newshour/politics/trump-blasts-pirro-after-she-refutes-his-claim-that-reflecting-pool-was-damaged-by-vandals",
-      "publishedAt": "2026-08-01T18:34:10.000Z"
     }
   ]
 }
