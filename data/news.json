@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-08-03T04:20:40.111Z",
+  "generatedAt": "2026-08-03T08:03:48.894Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Todd Blanche rescinds Trump's 'anti-weaponization fund' ahead of nomination hearing",
+      "url": "https://www.npr.org/2026/08/03/g-s1-136864/todd-blanche-rescinds-trump-anti-weaponization-fund",
+      "publishedAt": "2026-08-03T05:04:19.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Senate leaders reach funding deal to avoid shutdown during campaign season",
@@ -54,12 +60,6 @@
       "title": "Politics chat: Will Democrats use the war and high prices for their midterm strategy?",
       "url": "https://www.npr.org/2026/08/02/nx-s1-5911749/politics-chat-will-democrats-use-the-war-and-high-prices-for-their-midterm-strategy",
       "publishedAt": "2026-08-02T12:08:02.000Z"
-    },
-    {
-      "source": "Politico",
-      "title": "Wisconsin Dems are in chaos over their governor race, despite Tony Evers’ efforts",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0dWRFJnbHlWaWFjT2E1c2pVUDI4MXBJd0poRHgwdHVwNFc1U1c5M29DLU5yOGc1cVE1QnZpMlZ3ZnhoNE8zUkdJRzBPWE03THByN01iaUtaMFRIaVJmTzRuQ0lSSmNDLTM3WjJKUlBKMHBkV3VPQ2dwSjRabGVtanEtMGNVOGdyYXVrSlprTjduNDVfTDlV?oc=5",
-      "publishedAt": "2026-08-02T11:00:00.000Z"
     }
   ]
 }
