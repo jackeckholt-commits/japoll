@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T11:36:57.749Z",
+  "updatedAt": "2026-08-03T13:21:07.387Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
@@ -25,8 +25,8 @@
       "demLikely": 16,
       "demLean": 12.3,
       "tossup": 19.7,
-      "repLean": 12,
-      "repLikely": 31.3,
+      "repLean": 12.3,
+      "repLikely": 31,
       "repSafe": 163.7
     },
     "totals": {
@@ -42,15 +42,15 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-08-01",
+      "updated": "2026-08-03",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 175,
         "demLikely": 22,
         "demLean": 15,
         "tossup": 23,
-        "repLean": 16,
-        "repLikely": 44,
+        "repLean": 17,
+        "repLikely": 43,
         "repSafe": 140
       },
       "totals": {
