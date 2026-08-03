@@ -1,11 +1,35 @@
 {
-  "generatedAt": "2026-08-03T08:03:48.894Z",
+  "generatedAt": "2026-08-03T12:01:30.569Z",
   "articles": [
     {
+      "source": "The New York Times",
+      "title": "Michigan’s Tense Democratic Senate Race Poses a Big Test for a Divided Party",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMlVHSFhWRmt1SldIS3o2bzVyd1VmZjZGcnpDVVY2QVNqWXNIZWxrRGxTRkdmbU40VVRHQl84Q1hiTk82NTYweWEyeEViWTFEMVJtMGFLZERwRk1rMTZzcG9GYzhILWxMVkVyQjZIZ01lX0steDdrNlA4TzFBT3c3dktsQmRqZFh1aFJBZlJuS1J3ZFNaY3BPTw?oc=5",
+      "publishedAt": "2026-08-03T09:00:58.000Z"
+    },
+    {
       "source": "NPR",
-      "title": "Todd Blanche rescinds Trump's 'anti-weaponization fund' ahead of nomination hearing",
-      "url": "https://www.npr.org/2026/08/03/g-s1-136864/todd-blanche-rescinds-trump-anti-weaponization-fund",
-      "publishedAt": "2026-08-03T05:04:19.000Z"
+      "title": "For Republicans planning post-Trump future, one race in Washington is worth watching",
+      "url": "https://www.npr.org/2026/08/03/nx-s1-5902154/2026-primaries-washington-state-republican-party-trump",
+      "publishedAt": "2026-08-03T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Bedbugs, bad Wi-Fi: Federal workers say forced summer relocations have been chaos",
+      "url": "https://www.npr.org/2026/08/03/nx-s1-5896088/forced-federal-relocations-haphazard",
+      "publishedAt": "2026-08-03T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Activist David Hogg talks about the future of the Democratic Party",
+      "url": "https://www.npr.org/2026/08/03/nx-s1-5913239/activist-david-hogg-talks-about-the-future-of-the-democratic-party",
+      "publishedAt": "2026-08-03T08:45:14.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump and Senate GOP deadlocked on key issues as congressional recess approaches",
+      "url": "https://www.npr.org/2026/08/03/nx-s1-5914644/trump-and-senate-gop-deadlocked-on-key-issues-as-congressional-recess-approaches",
+      "publishedAt": "2026-08-03T08:44:39.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -32,34 +56,10 @@
       "publishedAt": "2026-08-02T19:30:08.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Capital One says it closed Trump Organization accounts over money-laundering concerns",
-      "url": "https://www.npr.org/2026/08/02/g-s1-136834/capital-one-trump-bank-anti-money-laundering",
-      "publishedAt": "2026-08-02T18:31:34.000Z"
-    },
-    {
       "source": "Politico",
       "title": "Democrats’ path to win the Senate runs through the Midwest",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMFZyMGVKbFJJRHBrMUNvLTdHc3VPblRyVXpQdUU1WjBVV3JXMEVqekNyX2NoUXJ4MGViM2hrd3M4TE43cmFQeVByU0J3U3RKUVhXS3lOd3RISzZhZGhURFpxOW5aZ0NYdDUzZGdZVWRMbzRPa0xHQXNPYWRYVFhJSGNMa3F4RC1GZUE?oc=5",
       "publishedAt": "2026-08-02T18:00:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Sen. Bernie Moreno says former son-in-law Max Miller should not serve in the House",
-      "url": "https://www.pbs.org/newshour/politics/sen-bernie-moreno-says-former-son-in-law-max-miller-should-not-serve-in-the-house",
-      "publishedAt": "2026-08-02T16:15:43.000Z"
-    },
-    {
-      "source": "Politico",
-      "title": "Kansas’ data center boom is shaking up the governor’s race",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY3ZNZ2xFZ3Vwc1M3bGNUM2JDR2ZkZzBKLWhSR0dFX2tXdkU1aXJQSmpmOWVuUko4RE93dVloMm8zS0hmT1FoTTAzWkVtQVJNLXdMMXdxVDRTX2JVOGpKRDZRTnB3TlJtZXJiME5VaDJia3JaUGNzay1rUWxscXdpWklDNllLMHJlVjhaSzlORjMwQQ?oc=5",
-      "publishedAt": "2026-08-02T14:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Politics chat: Will Democrats use the war and high prices for their midterm strategy?",
-      "url": "https://www.npr.org/2026/08/02/nx-s1-5911749/politics-chat-will-democrats-use-the-war-and-high-prices-for-their-midterm-strategy",
-      "publishedAt": "2026-08-02T12:08:02.000Z"
     }
   ]
 }
