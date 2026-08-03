@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-08-02T21:38:18.459Z",
+  "generatedAt": "2026-08-03T04:20:40.111Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Senate leaders reach funding deal to avoid shutdown during campaign season",
+      "url": "https://www.pbs.org/newshour/politics/senate-leaders-reach-funding-deal-to-avoid-shutdown-during-campaign-season",
+      "publishedAt": "2026-08-02T22:49:31.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Ken Martin hunkers down at the Democratic National Committee as a storm gathers around party leader",
+      "url": "https://www.pbs.org/newshour/politics/ken-martin-hunkers-down-at-the-democratic-national-committee-as-a-storm-gathers-around-party-leader",
+      "publishedAt": "2026-08-02T22:11:04.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Trump frequently announces he's halting strikes in Iran. But they keep happening",
@@ -18,6 +30,12 @@
       "title": "Capital One says it closed Trump Organization accounts over money-laundering concerns",
       "url": "https://www.npr.org/2026/08/02/g-s1-136834/capital-one-trump-bank-anti-money-laundering",
       "publishedAt": "2026-08-02T18:31:34.000Z"
+    },
+    {
+      "source": "Politico",
+      "title": "Democrats’ path to win the Senate runs through the Midwest",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMFZyMGVKbFJJRHBrMUNvLTdHc3VPblRyVXpQdUU1WjBVV3JXMEVqekNyX2NoUXJ4MGViM2hrd3M4TE43cmFQeVByU0J3U3RKUVhXS3lOd3RISzZhZGhURFpxOW5aZ0NYdDUzZGdZVWRMbzRPa0xHQXNPYWRYVFhJSGNMa3F4RC1GZUE?oc=5",
+      "publishedAt": "2026-08-02T18:00:00.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -42,24 +60,6 @@
       "title": "Wisconsin Dems are in chaos over their governor race, despite Tony Evers’ efforts",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0dWRFJnbHlWaWFjT2E1c2pVUDI4MXBJd0poRHgwdHVwNFc1U1c5M29DLU5yOGc1cVE1QnZpMlZ3ZnhoNE8zUkdJRzBPWE03THByN01iaUtaMFRIaVJmTzRuQ0lSSmNDLTM3WjJKUlBKMHBkV3VPQ2dwSjRabGVtanEtMGNVOGdyYXVrSlprTjduNDVfTDlV?oc=5",
       "publishedAt": "2026-08-02T11:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump says he's cancelling Iran strikes, deal pending",
-      "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
-      "publishedAt": "2026-08-02T07:34:27.000Z"
-    },
-    {
-      "source": "Al Jazeera",
-      "title": "US Arabs eye ‘historic’ Senate win for Abdul El-Sayed despite AIPAC attacks",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYnRFc3BRQTBxZ2VqMklDV2V5RUJhRTROZFUyS1pCM085REhnTGhNXzBnZVRwemlmNUxfdnZSZGVXTFd4NUNiRVlna0Ffd3p0clllMWZTazFVQ1VSdmlkdHRxamo1OXIxdTQ0cWF2THFuVHg4VWdxV2xVcDBMSC1xV2hVdWVsOHRaMVdWX1ZjUktFcnFmamFWU3Z6YkdsejhhaWtCQm5TaGpvLWVjQWFWLXNGNNIBuAFBVV95cUxOSVNmN3Btd1F0TmVRQ0wxbEJXT1BqY1FFTDJSWGJfYUFjdnpuS05BSWktNzVxQmx0MVNYVU9yclBhWmQtMnloQ2ZSZ1Zxejg1TGNocTJjeUpVNkRBd1REVkZ3a0E1QnB2SVdEb1B1dWhBM2FPS3pJUEpsMWNWVkFaSmxzSm12WEg3VFhGLTFvZ1c3ZnFJOUxKSElBSkdxNmQtSm51OGNEaW9VcTY1NHY0YkFOTEV2NU9E?oc=5",
-      "publishedAt": "2026-08-01T22:39:46.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Darline Graham promotes Trump's agenda in her political debut ahead of special Senate primary",
-      "url": "https://www.pbs.org/newshour/politics/darline-graham-promotes-trumps-agenda-in-her-political-debut-ahead-of-special-senate-primary",
-      "publishedAt": "2026-08-01T22:07:37.000Z"
     }
   ]
 }
