@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-08-06T07:26:15.860Z",
+  "generatedAt": "2026-08-06T11:07:20.341Z",
   "articles": [
     {
       "source": "NPR",
-      "title": "Senate committee set to vote on whether to hold Fauci in contempt of Congress",
-      "url": "https://www.npr.org/2026/08/06/nx-s1-5921383/anthony-fauci-contempt-of-congress-vote",
-      "publishedAt": "2026-08-06T07:16:22.000Z"
+      "title": "Political consultant talks about the Democratic Party's road to the midterms",
+      "url": "https://www.npr.org/2026/08/06/nx-s1-5922187/political-consultant-talks-about-the-democratic-partys-road-to-the-midterms",
+      "publishedAt": "2026-08-06T10:46:09.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Michigan's U.S. Senate seat race is set. Here are the challenges the candidates face",
+      "url": "https://www.npr.org/2026/08/06/nx-s1-5922517/michigans-u-s-senate-seat-race-is-set-here-are-the-challenges-the-candidates-face",
+      "publishedAt": "2026-08-06T10:46:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Celebrity culture is one thing. For TMZ, Congress is the new 'reality show'",
+      "url": "https://www.npr.org/2026/08/06/nx-s1-5922731/tmz-congress",
+      "publishedAt": "2026-08-06T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Senate Finance Committee wrestles with how to sustain Social Security benefits",
+      "url": "https://www.npr.org/2026/08/06/nx-s1-5922409/senate-finance-committee-wrestles-with-how-to-sustain-social-security-benefits",
+      "publishedAt": "2026-08-06T08:40:23.000Z"
     },
     {
       "source": "The New York Times",
@@ -14,7 +32,7 @@
       "publishedAt": "2026-08-06T02:29:00.000Z"
     },
     {
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "title": "Abdul El-Sayed wins Michigan Senate primary in defining race for Democrats",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNXzFNSG4zTFNIZEYwZ0RqekVULTZ6MkNnSFJJZ0RUakZPMWR3bERUQVY0cUxzSzFUSkJPVlZ5VHByZzZLNlE3bGdWT25VRUhKaVNXcHhvSjMyUHkwVGJyb3g5STlBcVFWaU9rOGszaU5DQVNYdW43ZldJT0szQW9UV0w2UTNVa2ZiWFZVN1Z4dEV4Tjd5YUNhbl9B?oc=5",
       "publishedAt": "2026-08-06T01:30:00.000Z"
@@ -42,24 +60,6 @@
       "title": "Wisconsin's 2026 primary for governor hits the home stretch",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWFJOMERxZ1pDU3dMTF9pTkFRVzZDUEhaQkxUQ3diSkswX01YSUtJbnltY1JhVV9mTW5MdzlsOWlBOHZXTktHc29ISjRncWRQSDAxUGZzVmtBZWZrT1hLeDBsdVM2eTFEb0lVZEM1bWQ4RGc3MnZ2ak1weU5CRXVvM2NsazBzWm4tZVBDZmt4WTd0QVNGZExRZ2x3?oc=5",
       "publishedAt": "2026-08-05T22:47:15.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Retired Army colonel explains why Patriot missiles are so valuable and in short supply",
-      "url": "https://www.pbs.org/newshour/show/retired-army-colonel-explains-why-patriot-missiles-are-so-valuable-and-in-short-supply",
-      "publishedAt": "2026-08-05T22:42:22.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Tennessee secretary of state on redistricting, election security and low voter turnout",
-      "url": "https://www.pbs.org/newshour/show/tennessee-secretary-of-state-on-redistricting-election-security-and-low-voter-turnout",
-      "publishedAt": "2026-08-05T22:35:49.000Z"
-    },
-    {
-      "source": "WDET 101.9 FM",
-      "title": "Detroit Evening Report: Primary election results",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUllUVUdKRjdrVUNIdW1fTlRRbHBEZk1DQTh3SE1ab1czLUt6a0wzU3J3S0xCTTFCb1ZWMEY2ZUsyUk41eEw2QXhXbVlxVTNWVkpIWU41ODd1TVJUN3VZNWRJNEszTkxSN0MyN3lMdm1PS29iTThRSnRhN2JrVkVUczZn?oc=5",
-      "publishedAt": "2026-08-05T21:11:23.000Z"
     }
   ]
 }
