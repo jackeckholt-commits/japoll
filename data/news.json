@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-08-08T13:32:44.838Z",
+  "generatedAt": "2026-08-08T17:12:56.021Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "What to know about Trump's new attempt to limit birthright citizenship",
+      "url": "https://www.pbs.org/newshour/politics/what-to-know-about-trumps-new-attempt-to-limit-birthright-citizenship",
+      "publishedAt": "2026-08-08T15:39:17.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Todd Blanche narrowly confirmed as Trump's attorney general in overnight vote",
+      "url": "https://www.pbs.org/newshour/politics/todd-blanche-narrowly-confirmed-as-trumps-attorney-general-in-overnight-vote",
+      "publishedAt": "2026-08-08T15:18:05.000Z"
+    },
     {
       "source": "NPR",
       "title": "Minnesota GOP divided over Mike Lindell's potential gubernatorial nomination",
@@ -26,40 +38,28 @@
       "publishedAt": "2026-08-08T10:00:00.000Z"
     },
     {
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "title": "Meet the candidates running in the 2026 Michigan gubernatorial race",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk5jM19la0xQVWRJZ1Bkd05HdVFMVGtzUnFqd0luY0ZWOVhmR2VYanMtQWNEOEtlOER3VTVDcWh4aHJKSzJaRVNad3NHX1pKeV81R2xPQ1FQS0p4RnQ5cjltaGFUWVNDYkhnZmZVNDRsX3hkdElsU1ZzTXhiQk9fLWxySk9FN0hETGNWSjUyWDlabkktOGhtbkVUaDV1SmlzMnA0S21OdDhWcHU5aEVLMUxMODl4Nnc2R0NjNXhn?oc=5",
+      "publishedAt": "2026-08-08T09:00:01.000Z"
+    },
+    {
       "source": "dscc.org",
       "title": "NEW: Race Raters Shift FOUR Senate Races Toward Democrats as Momentum Builds for Democrats",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVE5obGY1R091dlQzdUplOXIxZXhVdXl2eGpHUElIbGYzdlNoRVFYcG42cmMyU01RdDJlc2Y3U0VyTTU5dW1NTDJyZEpYUEpEcUMtZHF6a3JGSDJQeDVfWkhkdmdlX0llTWZjNFV5WUF2OXppWmhZM3BHaFdvelRBUkZRalozN3h5ek5kdm9OXzJlTXNVX3ZldWo2MGh0d0hlTVlIV2hhOUhsdXZqNUlDVlRuMmJCVzFLYlJj?oc=5",
       "publishedAt": "2026-08-08T00:24:29.000Z"
     },
     {
+      "source": "The New York Times",
+      "title": "Race Too Close to Call in Democratic Primary for Michigan Senate Seat",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWpKeVFhVFlyMV9FX09pTEdJVFUzeGI1ajkxajlQb3FyX0gwdkM0c2VwYUpnTlVZdkJIaDVBRkxJZFBwVVJxMklaQ1dGVEFUTmU1T1dfM05KXzQteU5OSUVwdnFvTS1XaVRNZDluRGdjVklKU1FiXzRYNXFYSjgxeXdwQnY2Zw?oc=5",
+      "publishedAt": "2026-08-07T23:57:00.000Z"
+    },
+    {
       "source": "PBS NewsHour",
       "title": "ICE will only release body camera video when in agency's 'best interests,' policy says",
       "url": "https://www.pbs.org/newshour/nation/ice-will-only-release-body-camera-video-when-in-agencys-best-interests-policy-says",
       "publishedAt": "2026-08-07T23:35:08.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Blanche on track for narrow Senate confirmation as attorney general",
-      "url": "https://www.pbs.org/newshour/show/blanche-on-track-for-narrow-senate-confirmation-as-attorney-general",
-      "publishedAt": "2026-08-07T22:45:40.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Colombia's new president reflects Latin America's right-wing shift",
-      "url": "https://www.pbs.org/newshour/show/colombias-new-president-reflects-latin-americas-right-wing-shift",
-      "publishedAt": "2026-08-07T22:35:21.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Race Too Close to Call in Democratic Primary for Michigan Senate Seat",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWpKeVFhVFlyMV9FX09pTEdJVFUzeGI1ajkxajlQb3FyX0gwdkM0c2VwYUpnTlVZdkJIaDVBRkxJZFBwVVJxMklaQ1dGVEFUTmU1T1dfM05KXzQteU5OSUVwdnFvTS1XaVRNZDluRGdjVklKU1FiXzRYNXFYSjgxeXdwQnY2Zw?oc=5",
-      "publishedAt": "2026-08-07T22:22:24.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Brooks and Capehart on what progressive primary wins mean for Democrats",
-      "url": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-what-progressive-primary-wins-mean-for-democrats",
-      "publishedAt": "2026-08-07T22:20:06.000Z"
     }
   ]
 }
