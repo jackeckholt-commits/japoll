@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-08-09T13:36:27.621Z",
+  "generatedAt": "2026-08-09T17:15:12.690Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Joe Biden's prostate cancer has spread and is causing him pain, Hunter Biden says",
+      "url": "https://www.pbs.org/newshour/politics/joe-bidens-prostate-cancer-has-spread-and-is-causing-him-pain-hunter-biden-says",
+      "publishedAt": "2026-08-09T15:32:05.000Z"
+    },
+    {
+      "source": "Politico",
+      "title": "South Carolina’s Senate race tests Trump — again",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN3E3dUV4UVkyVTB5MnJxUUd3WlZtTFZDMlNZQmZNbWpsUEpyWldERkdjVnRsOHgzSG5sMFc4VlRKMU9jaW81WXRvaVYwMTUxaVpnV0xZc04waWp3aW5aWlA4dWhvbWM3Sjd3dlhZWDRFZ1RHcnotSnNOMVhtTGNsa2EzTVB6SGM5YjVhcTA1YVBrOXlXV3RB?oc=5",
+      "publishedAt": "2026-08-09T15:00:00.000Z"
+    },
+    {
+      "source": "Star Tribune",
+      "title": "Election results in the 2026 Minnesota primaries for governor, senate and more",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTE4wRW9XMGI3dGN0OXJXdlJwVWNCM0hoOGltUks0NlJjVlhldGk2YzZycUpLcDg1SGV1WnljUWVCNld6Z0NiX2gtMjhuX0FPQlM5NHZ0TDM2b3RKV0tGTzR3TWZ5NnlhbFJCcFYwOXdBQzNheVdFazM5ZHo1VXc3RFY5MA?oc=5",
+      "publishedAt": "2026-08-09T14:18:37.000Z"
+    },
     {
       "source": "NPR",
       "title": "Max Miller is refusing to drop his bid for reelection. Here's what voters think",
@@ -26,25 +44,13 @@
       "publishedAt": "2026-08-09T12:12:17.000Z"
     },
     {
-      "source": "Star Tribune",
-      "title": "Election results in the 2026 Minnesota primaries for governor, senate and more",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTE4wRW9XMGI3dGN0OXJXdlJwVWNCM0hoOGltUks0NlJjVlhldGk2YzZycUpLcDg1SGV1WnljUWVCNld6Z0NiX2gtMjhuX0FPQlM5NHZ0TDM2b3RKV0tGTzR3TWZ5NnlhbFJCcFYwOXdBQzNheVdFazM5ZHo1VXc3RFY5MA?oc=5",
-      "publishedAt": "2026-08-09T11:18:37.000Z"
-    },
-    {
-      "source": "Hawaii Public Radio",
-      "title": "2026 Hawaiʻi primary election results",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZnlPYkJtc1lZdFVqWmdpRTRIOGJNUWFMNHNmZE1KaUxXMHZzUUVyMHV0aVVNRzRNdGk4WnBhc2tFVjhOZ0RVMlhNQUpqTTRSNzBTeFVLVnZiZnQ0MjRqaW1NdkNOQnl1VEc1bU9KTE1zZXZxTkVyanR6VGdhQUNnell0Nm9xWW9tMnBJ?oc=5",
-      "publishedAt": "2026-08-09T06:02:00.000Z"
-    },
-    {
-      "source": "Honolulu Civil Beat",
+      "source": "civilbeat.org",
       "title": "Hawaiʻi Legislature: Early Results Show Most Incumbents Winning",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSHdBSUN5RE96UzdwN3E1SmMxZDNzdUFqTXBFOGVidjBDMlotVnFXSXo1bUw2SmMtWEhaSjAtS0Vrd0JIT2hIQWJYNmVURF9Cb080a0Zsd2pwYV84bWg0M09OeE9ySDlnbEk1OW5kOTNiS2R0SF9GTm5HLWRPMktvUVQ1OUxiSUJ2X3J4cFhHRmo5SHFteWx5T010S3h1WUVPTmZTMg?oc=5",
       "publishedAt": "2026-08-09T05:58:29.000Z"
     },
     {
-      "source": "Honolulu Civil Beat",
+      "source": "civilbeat.org",
       "title": "Maui Election Results: Bissen Out Ahead Of Sugimura In Mayor’s Race",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcFdKWWN3RlptWTZNNXQyMlZiUUpmNEZFSnFETUM1dERXbkpCYXAwX25McTItNVBVWTE0T1VfN2drd2Q0WWhEZFlZS3pzUGZoRWVFNGxXUklfVGNjQkE2OWhKVnVtMVBfYkcyVEFjY0xxTzRuTlJGWU1OU2NnaE9ubHdnWDMtT1pPSDBEZkNEYlpxazBhTUlMTVVTZTJNdmxoMkE?oc=5",
       "publishedAt": "2026-08-09T05:48:01.000Z"
@@ -54,12 +60,6 @@
       "title": "Kawakami wins lieutenant governor race in Democratic primary",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYVhwcmc3QmpvQkRtZEpVTWFzbzFPS2VlS0I2WEItcGtYbmdlNlFpeExnN1pCUU4xcTlwTjdtOEsyc013d1dmN01xV2VEeV9DTEp0ZTlEc2pYQzIxTUxGSjQ2NlN1cTFzdUt5eDRwWEtnUkczMGhmckFzRDVtNS10THNUaVdMX05EQk8xMi1RNXR1VXNWZTZEQ1dvT2k2dFJQ0gG0AUFVX3lxTE9aR0pPSFFKZFFqb2w1ck9YX2szS1kxaUM1THhkQldzYlZqYzZObTg2Q1QzMkRUanJtdFNHb0E2Q0J3QXpPVFFKZGpvODZOZ0hxX2Fxel9zUmdDNm1SRDhvaWJ0Tm1HVlI0VHZhanRueWVfYUpJdHkycUIxZUt6dlVzcVpvc3JMdVIxaFk5ZmxxcU9EeGF1dGxQWE14RXN6ZmhzUll5OXNoNDZTX1paaHN0QUh0aA?oc=5",
       "publishedAt": "2026-08-09T05:41:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "How Troy Jackson went from Maine logger to Democratic nominee for Senate against Susan Collins",
-      "url": "https://www.pbs.org/newshour/politics/how-troy-jackson-went-from-maine-logger-to-democratic-nominee-for-senate-against-susan-collins",
-      "publishedAt": "2026-08-08T19:05:04.000Z"
     }
   ]
 }
