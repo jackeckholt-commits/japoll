@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-08-10T10:02:15.651Z",
+  "generatedAt": "2026-08-10T14:06:22.670Z",
   "articles": [
+    {
+      "source": "CNN",
+      "title": "The 9 Senate seats most likely to flip in 2026",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MMEc1Vm5NUXhNNlRPTnhRS3JOVV9vWUh3QmhMT0hSTDBIQUlWVnJWTUJGTGZzQ21TaUszclBid0ZIYzA2dUs5SmZTOU9ra2tvOWVEcTc0NXVIdEd3amNkY1dLNUNfMFBpX1RqbkNTRGRtUkJTQjNlUHJfa0M?oc=5",
+      "publishedAt": "2026-08-10T10:00:29.000Z"
+    },
+    {
+      "source": "MPR News",
+      "title": "Choices on the direction of both parties await Minnesota primary voters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQzV5cTZQWDBXWHJtY2hlSDlOcEhzTUViUUpYeTJFcXlrVWRmWXhOYnFDVTJWYkZvMnBkOUwwbi1LZXlnUmFHekV1ZTdPeGxWTFlaVWo0OHp5LV95eXdnUzFTMnhWYlphZ1FIVldNNGdOTlEzTVg0ai1TUUF6MzVQaUFDV3NOVVZjX1hPTVZtMHFEeVpYVVhWR2NSQUpFYnUtSFhrMExzZFBKNTFzTFV6bWRvZ2ZJdnhaem83RzR3?oc=5",
+      "publishedAt": "2026-08-10T09:00:00.000Z"
+    },
     {
       "source": "NPR",
       "title": "In a competitive Maine Senate race, women voters could be the deciders",
@@ -9,14 +21,14 @@
     },
     {
       "source": "NPR",
-      "title": "Voters are sick of the two-party system. A new poll shows they're open to big changes",
-      "url": "https://www.npr.org/2026/08/10/nx-s1-5920312/proportional-representation-poll",
+      "title": "Mike Lindell touts Trump ties in race for governor of Minnesota, where Trump has lost",
+      "url": "https://www.npr.org/2026/08/10/nx-s1-5925152/lindell-minnesota-primary-elections-trump",
       "publishedAt": "2026-08-10T09:00:00.000Z"
     },
     {
       "source": "NPR",
-      "title": "Mike Lindell touts Trump ties in race for governor of Minnesota, where Trump has lost",
-      "url": "https://www.npr.org/2026/08/10/nx-s1-5925152/lindell-minnesota-primary-elections-trump",
+      "title": "Voters are sick of the 2-party system. A new poll shows they're open to big changes",
+      "url": "https://www.npr.org/2026/08/10/nx-s1-5920312/proportional-representation-poll",
       "publishedAt": "2026-08-10T09:00:00.000Z"
     },
     {
@@ -32,7 +44,7 @@
       "publishedAt": "2026-08-10T06:08:19.000Z"
     },
     {
-      "source": "Michigan Advance",
+      "source": "michiganadvance.com",
       "title": "Newsom says national support ‘crucial’ for Democrats to win Michigan’s U.S. Senate race",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNX084YldacHBmQ2xON1l5SWFGY1pxMzNBNG9VZDN4dVNKX0c5RDFDRU5Bb055XzNlM3lmaWtZS2ticmtYNzAwQkJKQmNtejRNMDZIdVpXSFRVc0w5RFFSSnNoakpRZXY3c213cFdqbmdieG41T3l1T2otUWhhRG5CLXNDbVdWUkhSdHFnU1FxdXJ4enlXMnBFdzB0cldDY1lCb0hpY0kySWlJYzVod1M3RlVYLW9ocHRZQmlEcnFXZzI?oc=5",
       "publishedAt": "2026-08-09T23:12:27.000Z"
@@ -48,18 +60,6 @@
       "title": "El-Sayed spoke with Obama as Michigan Democrats look to unite after a bitter Senate primary",
       "url": "https://www.pbs.org/newshour/politics/el-sayed-spoke-with-obama-as-michigan-democrats-look-to-unite-after-a-bitter-senate-primary",
       "publishedAt": "2026-08-09T18:54:24.000Z"
-    },
-    {
-      "source": "Decision Desk HQ | Substack",
-      "title": "Florida may be a Republican redoubt on the 2026 Senate map",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOGlpSVF6cG5KeTJ1LTJ3ZmktSzUwVkxqb0Z1YmMyM1pVRTRhd3FQQ2dqbk1DNGNlaWpLQmZKVTdpbUZ3VW5SSnRYbWdXenFVbGtTU0RsVlRzSUtRTktNemJvbjdUTlVaVm5oUy0yNVltTnZGNEQ2ZlNDMzNVZl9CeEtlY3pjRW9QU0ltTVUxQ3g0Nlhua1E4?oc=5",
-      "publishedAt": "2026-08-09T18:24:19.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump's immigration crackdown looms over Minnesota's bruising Senate primary",
-      "url": "https://www.pbs.org/newshour/politics/trumps-immigration-crackdown-looms-over-minnesotas-bruising-senate-primary",
-      "publishedAt": "2026-08-09T17:18:47.000Z"
     }
   ]
 }
