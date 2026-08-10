@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-08-10T17:37:47.252Z",
+  "generatedAt": "2026-08-10T21:26:00.841Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "After his Reflecting Pool vandalism case is dismissed, David Hearn looks for closure",
+      "url": "https://www.npr.org/2026/08/10/nx-s1-5925117/reflecting-pool-david-hearn-legal-fight",
+      "publishedAt": "2026-08-10T20:49:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Todd Blanche sworn in as attorney general after bruising confirmation battle",
+      "url": "https://www.pbs.org/newshour/politics/todd-blanche-sworn-in-as-attorney-general-after-bruising-confirmation-battle",
+      "publishedAt": "2026-08-10T20:39:24.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump and RFK Jr. try again to upend vaccines for kids",
+      "url": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order",
+      "publishedAt": "2026-08-10T20:25:02.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump signs executive order on childhood vaccine recommendations",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-signs-executive-order-on-childhood-vaccine-recommendations",
+      "publishedAt": "2026-08-10T20:10:20.000Z"
+    },
+    {
+      "source": "WPR",
+      "title": "Candidates make closing pitches ahead of Wisconsin primary for governor",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRnNpS0dMOU11ZGhTLUFpTE9mS0p0UkVhaDF3WEg0Sk8yMGprMXBQWGtVUFZnOGhJTENqMUdIcVlQbXlkY3FLNVN6Rlp5UXg1c0FBMk1PbmVhMEFSRnJ0QnpvVWJwTE5yX0M4a0RETlQ2QmZGOXNUV3pTbU5GbFpNWFBPYlh3S1F1eHJN?oc=5",
+      "publishedAt": "2026-08-10T19:54:59.000Z"
+    },
+    {
+      "source": "WFYI",
+      "title": "Recount upends election result for Indiana Senate District 23 — Paula Copenhaver beats incumbent Deery",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUHBQYXVfZlpMMGtDQlI5TXFqWHJNRWczNHhpamlDUWUxUFdIRjVlQ1k1SFJabjJpbWxFNDNndTJrVlduZkZGRmt3TzZ2blBFeTlKZExLVHZ4a1BlOEZMX2dGWUxSMFpHOWdSZ3JTZzVGazJiTERkeXMySm9QWlhkRmEwbVBvVGhmcnNfU1FUMUJ0TFBBak9TT2E1TEFuSjFyNmxlRUNiMmVYdmFheXBvUDh6d2VxZ0JpWV91QzBqWUtpaXpWV0lLMXhvS3ZVRFBQd2xORkd6WDJWUQ?oc=5",
+      "publishedAt": "2026-08-10T19:47:00.000Z"
+    },
+    {
+      "source": "Indiana Capital Chronicle",
+      "title": "Trump-backed challenger jumps ahead of Republican senator in Indiana recount",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWTc5SkhQQVlJRVdnajlJd3V5S3dvVWNLZ1NVZ2dEa2QwQzJpX2EwMWVrN3owZGRPQ2djU2ZsMEVNdXR0dkFFd0F2UWpPdVBVdGFpNjk0N0lTNmV0UHNTbHdOUUl3bTBUWmM0RG9kME5YbmZ4VUFDU29FWGNiNGV4cHNZWkpRVzR1T2owVDY0S1hrRThaeTkxWC1qQzFBU0loc1Ywb0NjWjlEQWlITlkyYWZOclAwSjZoanVnNG1XZWlIQQ?oc=5",
+      "publishedAt": "2026-08-10T18:20:25.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "'The Nerd Reich' tracks the 'unmasking of Silicon Valley's true politics'",
+      "url": "https://www.npr.org/2026/08/10/nx-s1-5925350/the-nerd-reich-tracks-the-unmasking-of-silicon-valleys-true-politics",
+      "publishedAt": "2026-08-10T17:38:12.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Ocasio-Cortez says she's freezing her eggs as she considers her political career",
@@ -12,54 +60,6 @@
       "title": "Washington grapples with a $1.4 billion National Guard deployment extension until 2029",
       "url": "https://www.pbs.org/newshour/nation/washington-grapples-with-a-1-4-billion-national-guard-deployment-extension-until-2029",
       "publishedAt": "2026-08-10T16:10:38.000Z"
-    },
-    {
-      "source": "The Washington Post",
-      "title": "A twist in the race for Lindsey Graham’s seat: No clear Trump-aligned candidate",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSlI3Zm9NMGU0THROdHZBWVBHamY0eWxDcXdGd3pKdzhNSjI4Z0Z5Q3JLT0phSWhUR3NxOGNPUi1aU1lxZGtibWh0VzVDVVUyejZsSEYwN3NfVkgxTjUzOEVDc18zaDdqZ0pVbHpyX05nYTBIRDdhWGdlUGRnOWFYUkJKR2xSbVVQTmEyNjk4b2I4T2E3Q2NGQ1NPRUhzMzAxdlNRa0ZvVVRlY21ZaDJiNnZMWldMVlU?oc=5",
-      "publishedAt": "2026-08-10T16:00:00.000Z"
-    },
-    {
-      "source": "Houston Public Media",
-      "title": "James Talarico leans into populist message in Pasadena, attacking Ken Paxton and ‘billionaire megadonors’",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYVdHcEVRdnoxX2ppa2FWamhxSU1mNXVLYzZnbW1xYTNiVnJmdEdqT2FMdFpPWnM1Z2lMM0pHcTZNS0daRXNJZktXRF9qOG90Zk5yZ3BVZ015cGsweF9VbmJndERvenpEVW9HbjdZYkUtajFHVTJvQ2pWdlR3M3dYYjFiYVptUWNmMUFIVkJESmg4ZENzRDRHZU1TeWRRbHA2d2dIS1BkM0lMdkk5WElxRG5DZ2NyZ3VHZ2NrQWkwQVJyZ0JFc3J5WNIB0AFBVV95cUxNdUlTVXZCNmpUWHlfOW5sWEk2bEpRUVRLalBFV2t1WVFrbHRxUzMzMGZ6YTMtMnM2dEJsMlI3RzRfMkc5VmdTdzRjc1k0ckFGWUppVXZBWE5vVk1ja2hjRm1ucXhWU3RiSzJ4UVlvdDFSdDQySWplYVV2WW5adjhfU09CR3NzUVJqY2VWTjdPWVFtMzZzMUR0X0E4M3RXbmtPM0ZmektfQnVhRUdNRTZzX1p2cnJtMzU0ajBKSWVzYTEzMmZKR2kyUWE0VzE2VDJU?oc=5",
-      "publishedAt": "2026-08-10T15:58:02.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump announces staff secretary Will Scharf, who helped secure ballroom approval, will be his new White House counsel",
-      "url": "https://www.pbs.org/newshour/politics/trump-announces-staff-secretary-will-scharf-who-helped-secure-ballroom-approval-will-be-his-new-white-house-counsel",
-      "publishedAt": "2026-08-10T15:03:30.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Joint Base Charleston renamed for Sen. Lindsey Graham",
-      "url": "https://www.pbs.org/newshour/world/watch-live-hegseth-speaks-at-joint-base-lindsey-graham-renaming-ceremony",
-      "publishedAt": "2026-08-10T14:50:19.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Democrats Face Their Next Big Fight Between Moderates and the Left",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYWtNWk9uM2pXdkdlN1dlTWVtT2VLV0VUY09pTmhSdDB5UDdSRk1wUzNfNVFPT25VUVRUODlFUnlZMHF0c2tvSEw5anNjcS1XMWhZemZ4LWZtSE5CdFNxMXFPY0k3NV9BNnJsLXc0YlRzQ21uV05vU1ZQazE5NXlsd2lHREZxM3YxQnJwZE5WXzA0aWdBYnc?oc=5",
-      "publishedAt": "2026-08-10T14:04:08.000Z"
-    },
-    {
-      "source": "Minnesota Reformer",
-      "title": "The primary election is Tuesday. Here’s what you need to know.",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObVUzaHRvZFFzcWR6aV9nVVN5WGxqWmk0U2l4Z3JSWXRZdE5ER05SVHltbmxpemZlZDQ5WTd2S1lha0xycVlGY25sX3h2UF9qbkNiZU9PbzVvMUUtR0NaWnRSSXpYQnVydlB0akFsYUdnbEMtdHUyQXZncHBpODc4ZG00dlpiVW9EaFFpZzhvQl8xM0dtMWVVQ2lXVzZ5VkYybFJr?oc=5",
-      "publishedAt": "2026-08-10T13:43:54.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "National Primary Elections 2026: Live Results and Map",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkNV9IM2xTNmVHV2tnUHd5NGRPT0cxSnY5blVHWG1UdlF3U2JDay1jZjE0MGp5S1REc0syWEpuOHBKbHpodnExWm1OcF9UTlhQWl9DeGZYWkk1SXhKUFdNcE8tdWhUODk4OERTSGg3WnIwdw?oc=5",
-      "publishedAt": "2026-08-10T13:33:58.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "In a competitive Maine Senate race, women voters could be the deciders",
-      "url": "https://www.npr.org/2026/08/10/nx-s1-5925349/maine-senate-race-susan-collins-troy-jackson-women-voters",
-      "publishedAt": "2026-08-10T09:00:00.000Z"
     }
   ]
 }
