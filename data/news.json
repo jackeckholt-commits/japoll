@@ -1,16 +1,52 @@
 {
-  "generatedAt": "2026-08-11T09:42:56.456Z",
+  "generatedAt": "2026-08-11T14:06:13.648Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Live Results: Wisconsin midterm primaries",
+      "url": "https://www.pbs.org/newshour/politics/live-results-wisconsin-midterm-primaries",
+      "publishedAt": "2026-08-11T14:00:12.000Z"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "What to know about US primary election in Minnesota",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3J4TzVmYnRkZmtWMjBaVVdJWS14RDhfaGtIZ2NrdXVwOEJUWmEtTFIzMlVqX2kyMlZFVk1JejlEOFRmLXZkTlZOS0pBWWNQMHkzM2ltYnhuWXdubFpZQ2FvWFFzNWxxMThnV3FPWERlNWFxOHl2bElvVTZVR3lKYWwxVTFMc0E4ZHcza01taFp0NlNlYktR0gGcAUFVX3lxTE1hejVpQlZSZGJ5T09JU2tIRDkwbExGWGp0aVprQ0RvNFd1eW9Qa2xXNm0zNnh5Z09OS1RNaFJKNHVxNTVIRkZES0cyblE3eVQtQ0N6SDFVTzFBdDliaXNFRTlQSkpWNUZkUVJ0T0dyVF9WMGRncTBjbFV5N0ZKd2tOTHlfQl80VktIS3VwMS1nZWVYU2pwTGlzMHhYSg?oc=5",
+      "publishedAt": "2026-08-11T13:07:30.000Z"
+    },
+    {
+      "source": "WPR",
+      "title": "How to vote in Wisconsin’s Aug. 11 primary",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OcENyaVNUZU44YlpWVXR5UzZZYVJlSkpTcVY1cXh6YXdsQ2pqOGVsYjNHaUhBQzNjaG9xVFU0VUtwaTR1cFRtTnl1WjRMeFVKdzlmZ1JuVV9BTVljQUlTZEdtZzFURU9EcTUtZ1pTNlBNazZy?oc=5",
+      "publishedAt": "2026-08-11T11:45:00.000Z"
+    },
+    {
+      "source": "ABC7 Bay Area",
+      "title": "South Carolina Republicans hold primary to pick Senate replacement for the late Lindsey Graham",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRkM2N001Y0g2eHRGYkVKRndnY1RWamNzb0tYdjNMQ09WVXkxQzNFZmpDclg4dEVzM1RYSnVVNXN0UE1mMHd2NG84NzhSZ2Iyd2hsMVlFVFdDZDhCQ0ZRNjhreFlLMFNBM0lCZkRLRVVCN0lwLW1DMl9pOUhneTI3eGhrMlZLTzljRHVZbFU2dW9qUThPblRUbWM3elNVZDU5ZTVCWUxxU0JiSWRBUnYzbXFfaVJ3aVF5NklF0gHAAUFVX3lxTFBYUlI1LVJJcHFqWFh0T2tZQVgwQzZDRVZGcHNYR3lQN0Y0NXFDLWJyOXZaakpwb00yZ3EtdUc0M1ZBMGFTZVhOa3pTS1FpbVU2aEpjcGsybHJnYmV3bzRVT0RGV3hfaUszcjdFemxMV09uVDlJZTJWZl9ZQW9VV09aSlUxUzB2YndNRkpTcWZ4Q19GV01DT0RYNE9fZ0U4cWtRQlJRc25RT1JPM2dJNDB6cVVlaWJqVlV6NXVQY2hNdg?oc=5",
+      "publishedAt": "2026-08-11T11:24:08.000Z"
+    },
+    {
+      "source": "Sahan Journal",
+      "title": "Live election results: Minnesota governor’s race",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYzRXWlRtVVNxYUR5UDFQRmtGc0JCTXlwSjNrTXNzRFZVbHpYdW5JLW8yUDg1LUpTRXJMU1FUOEJhY0NGbExxdUNXUzBIVzJ5Nkl1THcxNjZ1VnZJcDM3VWNQcXktOEUyZDhtaEU3SEJzeGhHSi03dWFKS3E4LWNtMWd0clF2cm1GY2Q1YkM2SU5DclF1LWNiRGZmeDVUbU5qYW1iRlVaWGhIQ0FOeEVHUw?oc=5",
+      "publishedAt": "2026-08-11T11:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Primaries in Wisconsin and Minnesota pit progressives against moderates",
+      "url": "https://www.npr.org/2026/08/11/nx-s1-5927242/primaries-in-wisconsin-and-minnesota-pit-progressives-against-moderates",
+      "publishedAt": "2026-08-11T10:52:52.000Z"
+    },
+    {
+      "source": "FOX 5 New York",
+      "title": "Connecticut primary election 2026: Key races, what's on the ballot",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVNnMmZMSXlIbldlZngtdDFTOERzSk92TjdaWUtQa05UY0lMVnVFaERTZ0N4U21wbXVFbGU2cGd2dHgtcXJVWmRVM0xUeTdFSlBUVUlROW05TkpCTWlQV2FJZy1XeGN3VXI0LVE0X0h6bndaRThkVzU3SmlxbzBIM1ZXaGQ4QXhjWFlLaWtsSXZ1NXVX?oc=5",
+      "publishedAt": "2026-08-11T10:26:43.000Z"
+    },
     {
       "source": "NPR",
       "title": "Alabama holds second primary Tuesday, leading to confusion, concerns about low turnout",
       "url": "https://www.npr.org/2026/08/11/nx-s1-5927490/alabama-primary-election-2026-midterms-redistricting",
-      "publishedAt": "2026-08-11T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "A year in, thousands of armed troops have quietly become a fixture of D.C. life",
-      "url": "https://www.npr.org/2026/08/11/nx-s1-5927230/national-guard-dc-anniversary-trump",
       "publishedAt": "2026-08-11T09:00:00.000Z"
     },
     {
@@ -20,46 +56,10 @@
       "publishedAt": "2026-08-11T09:00:00.000Z"
     },
     {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-08-11T07:17:43.000Z"
-    },
-    {
-      "source": "PBS Wisconsin",
-      "title": "Wisconsin's 2026 primary election arrives with high-profile races for governor, two congressional seats",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRm8yNGM3c0xiVmtiZTBCU216VXQxYzBPd01yemZtOHJzdlMySGVQQWtWZ2pfMlZqRmg2bGtVZWNXeEt0TThObmMtc3NzNTJfUXRRdF8zWWk3QjIyeHR0akxKcG5oT2x5VktRMGZZd29JdDdjX1NITjRNOGVubUI3dWM0VWZ4SThSOHVJWktwbjlZMkNBZGFNUnozalNQZjBqVUNiZGFTUnNRYTMyZ08yX2pLN29DNEhKVDNhTTU4cmVmc3Fzay0wb1dXN0U1NG9xRUZv?oc=5",
-      "publishedAt": "2026-08-11T06:13:01.000Z"
-    },
-    {
-      "source": "PBS Wisconsin",
-      "title": "Wisconsin and Minnesota primaries next to feature clashes between progressive and establishment Democrats",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSUtsMDNiU0toMWdyLXl1aFFXYl9hSWJvaHJfbXM3VFNMenZRaHNZTFViWlAtcHpZdzd5Z1NncWFQUncxQlVpcXFQakFwU3ljYkkyVUdhZW1LY1NaRHFPMGFreVVwZzRweU1XUmJTcjNQSFBNTXF0RXhZS2VHU2pIR0dYVGduSEp2Nk5pUE1GNWp3Z0xqeVFib1R5czZKalhNUlBfUlZQZ2l0WlVRTzVIMkg4RGNZSXJPaXdVUWdocVB5ZGM5cU5hVGpHWXZvMkpFbHdmRnVIaEk?oc=5",
-      "publishedAt": "2026-08-11T01:15:53.000Z"
-    },
-    {
-      "source": "Montana Free Press",
-      "title": "As withdrawal deadline passes, Bankhead stays the course",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jTjR0Y09oNEF0MDE4U1MxMzFoNHpEMHhNTl9IRkpYYWxJZEYyd2dQNG1NU0RfVGdPeW5SSzdKTE9oUGc0X2d1SGpIN2FTNGsxT05fV0g5TjNXU0xkYWdPMzV1QkZEeWk1XzB3NzVzb1o2anlmbndtVmRn?oc=5",
-      "publishedAt": "2026-08-11T00:03:44.000Z"
-    },
-    {
-      "source": "flatheadbeacon.com",
-      "title": "As Withdrawal Deadline Comes to a Close in Senate Race, Bankhead and Bodnar Both Commit to Staying the Course",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR01JVERjRnNzUTF5aW9PcDd0Q3NrR1JMVkFJbFNacFoyQVo1TXdRMHhwTlJ1T2JyY1VlSDVXYzNqOFpoVGpCTldUd3BDZm5NTmNxT0RXV21wdUJzSjVSWDBlZ1VKbDJFMElkOGNCTTZlTC1BajI0WVdoc1lGRmtvM3RSSHc2a0pBd19Kc2R3M2NzVzVVLVhaSkRXeFZDNnV2Z2dUUF9BNjZ1LTJqSzJ1MDEzTFRWbnA5T1VaTzA2WHQ4NVZYb01VVGg1RldJbDYtYV80MlVfQkFVSVBveGY0Tw?oc=5",
-      "publishedAt": "2026-08-10T23:33:57.000Z"
-    },
-    {
       "source": "NPR",
-      "title": "Alabama heads into a second primary election after redistricting",
-      "url": "https://www.npr.org/2026/08/10/nx-s1-5914823/alabama-heads-into-a-special-election-after-redistricting",
-      "publishedAt": "2026-08-10T22:43:05.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "State voting officials join CISA security call with election 85 days away",
-      "url": "https://www.pbs.org/newshour/show/state-voting-officials-join-cisa-security-call-with-election-85-days-away",
-      "publishedAt": "2026-08-10T22:40:59.000Z"
+      "title": "Armed troops have patrolled D.C. for 1 year now. It's challenging democratic norms",
+      "url": "https://www.npr.org/2026/08/11/nx-s1-5927230/national-guard-dc-anniversary-trump",
+      "publishedAt": "2026-08-11T09:00:00.000Z"
     }
   ]
 }
