@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-08-11T02:53:12.412Z",
+  "generatedAt": "2026-08-11T05:42:03.237Z",
   "articles": [
+    {
+      "source": "The New York Times",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-08-11T04:11:43.000Z"
+    },
     {
       "source": "PBS Wisconsin",
       "title": "Wisconsin and Minnesota primaries next to feature clashes between progressive and establishment Democrats",
@@ -8,16 +14,22 @@
       "publishedAt": "2026-08-11T01:15:53.000Z"
     },
     {
-      "source": "Flathead Beacon",
+      "source": "montanafreepress.org",
+      "title": "As withdrawal deadline passes, Bankhead stays the course",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jTjR0Y09oNEF0MDE4U1MxMzFoNHpEMHhNTl9IRkpYYWxJZEYyd2dQNG1NU0RfVGdPeW5SSzdKTE9oUGc0X2d1SGpIN2FTNGsxT05fV0g5TjNXU0xkYWdPMzV1QkZEeWk1XzB3NzVzb1o2anlmbndtVmRn?oc=5",
+      "publishedAt": "2026-08-11T00:03:44.000Z"
+    },
+    {
+      "source": "flatheadbeacon.com",
       "title": "As Withdrawal Deadline Comes to a Close in Senate Race, Bankhead and Bodnar Both Commit to Staying the Course",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR01JVERjRnNzUTF5aW9PcDd0Q3NrR1JMVkFJbFNacFoyQVo1TXdRMHhwTlJ1T2JyY1VlSDVXYzNqOFpoVGpCTldUd3BDZm5NTmNxT0RXV21wdUJzSjVSWDBlZ1VKbDJFMElkOGNCTTZlTC1BajI0WVdoc1lGRmtvM3RSSHc2a0pBd19Kc2R3M2NzVzVVLVhaSkRXeFZDNnV2Z2dUUF9BNjZ1LTJqSzJ1MDEzTFRWbnA5T1VaTzA2WHQ4NVZYb01VVGg1RldJbDYtYV80MlVfQkFVSVBveGY0Tw?oc=5",
       "publishedAt": "2026-08-10T23:33:57.000Z"
     },
     {
-      "source": "Daily Montanan",
-      "title": "Bankhead staying in Senate race, setting up a four-way battle",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWZtNFk5R2hzZ0VhMFBZaEFORGI5WTBEeUZSVWdkekNEOTJYclZtQ0NCQ0tydFpjYkNuTlBDdDV3al8xd0tMY2cwQURFWTNHYlY1QnBjNzRLbHhWVEhweno5dFIxeWVnWDRmN2xady1IT05rOXB6S0FJWWpaY3RCajRCLURKSHo3N191RWpLQnFyTjNQTWxPTzNSOEd6M0E?oc=5",
-      "publishedAt": "2026-08-10T22:49:39.000Z"
+      "source": "AP News",
+      "title": "Wisconsin Primary Results 2026: House and Governor",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5UHdqdTc4YnlVX20wdDVfaUt3bi1IcU1uWi1DR3Q5LUZIU3VEVDAwTVE0Nm8tMXpaTnVlbHFXTUkwLW5DM2hIeWd2elFTazNsT2F6SG84anQxakQyRGFEckZQdmdqZTVpTGZUU3IxdUs0OW5uc183eA?oc=5",
+      "publishedAt": "2026-08-10T23:12:25.000Z"
     },
     {
       "source": "NPR",
@@ -30,12 +42,6 @@
       "title": "State voting officials join CISA security call with election 85 days away",
       "url": "https://www.pbs.org/newshour/show/state-voting-officials-join-cisa-security-call-with-election-85-days-away",
       "publishedAt": "2026-08-10T22:40:59.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-08-10T22:32:27.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -54,12 +60,6 @@
       "title": "This Medicare Part D subsidy is expiring. We answered your questions",
       "url": "https://www.pbs.org/newshour/health/this-medicare-part-d-subsidy-is-expiring-we-answered-your-questions",
       "publishedAt": "2026-08-10T22:15:05.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "After his Reflecting Pool vandalism case is dismissed, David Hearn looks for closure",
-      "url": "https://www.npr.org/2026/08/10/nx-s1-5925117/reflecting-pool-david-hearn-legal-fight",
-      "publishedAt": "2026-08-10T20:49:00.000Z"
     }
   ]
 }
