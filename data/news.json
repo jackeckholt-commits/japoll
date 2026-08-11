@@ -1,11 +1,35 @@
 {
-  "generatedAt": "2026-08-11T05:42:03.237Z",
+  "generatedAt": "2026-08-11T09:42:56.456Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Alabama holds second primary Tuesday, leading to confusion, concerns about low turnout",
+      "url": "https://www.npr.org/2026/08/11/nx-s1-5927490/alabama-primary-election-2026-midterms-redistricting",
+      "publishedAt": "2026-08-11T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "A year in, thousands of armed troops have quietly become a fixture of D.C. life",
+      "url": "https://www.npr.org/2026/08/11/nx-s1-5927230/national-guard-dc-anniversary-trump",
+      "publishedAt": "2026-08-11T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "In Minnesota and Wisconsin, competitive primaries will again test power of progressive candidates",
+      "url": "https://www.npr.org/2026/08/11/nx-s1-5927455/minnesota-wisconsin-primaries-hong-dsa-crowley-lindell-craig-flanagan-trump",
+      "publishedAt": "2026-08-11T09:00:00.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "Tracking Competitive Races in the House and Senate",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-08-11T04:11:43.000Z"
+      "publishedAt": "2026-08-11T07:17:43.000Z"
+    },
+    {
+      "source": "PBS Wisconsin",
+      "title": "Wisconsin's 2026 primary election arrives with high-profile races for governor, two congressional seats",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRm8yNGM3c0xiVmtiZTBCU216VXQxYzBPd01yemZtOHJzdlMySGVQQWtWZ2pfMlZqRmg2bGtVZWNXeEt0TThObmMtc3NzNTJfUXRRdF8zWWk3QjIyeHR0akxKcG5oT2x5VktRMGZZd29JdDdjX1NITjRNOGVubUI3dWM0VWZ4SThSOHVJWktwbjlZMkNBZGFNUnozalNQZjBqVUNiZGFTUnNRYTMyZ08yX2pLN29DNEhKVDNhTTU4cmVmc3Fzay0wb1dXN0U1NG9xRUZv?oc=5",
+      "publishedAt": "2026-08-11T06:13:01.000Z"
     },
     {
       "source": "PBS Wisconsin",
@@ -14,7 +38,7 @@
       "publishedAt": "2026-08-11T01:15:53.000Z"
     },
     {
-      "source": "montanafreepress.org",
+      "source": "Montana Free Press",
       "title": "As withdrawal deadline passes, Bankhead stays the course",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jTjR0Y09oNEF0MDE4U1MxMzFoNHpEMHhNTl9IRkpYYWxJZEYyd2dQNG1NU0RfVGdPeW5SSzdKTE9oUGc0X2d1SGpIN2FTNGsxT05fV0g5TjNXU0xkYWdPMzV1QkZEeWk1XzB3NzVzb1o2anlmbndtVmRn?oc=5",
       "publishedAt": "2026-08-11T00:03:44.000Z"
@@ -24,12 +48,6 @@
       "title": "As Withdrawal Deadline Comes to a Close in Senate Race, Bankhead and Bodnar Both Commit to Staying the Course",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR01JVERjRnNzUTF5aW9PcDd0Q3NrR1JMVkFJbFNacFoyQVo1TXdRMHhwTlJ1T2JyY1VlSDVXYzNqOFpoVGpCTldUd3BDZm5NTmNxT0RXV21wdUJzSjVSWDBlZ1VKbDJFMElkOGNCTTZlTC1BajI0WVdoc1lGRmtvM3RSSHc2a0pBd19Kc2R3M2NzVzVVLVhaSkRXeFZDNnV2Z2dUUF9BNjZ1LTJqSzJ1MDEzTFRWbnA5T1VaTzA2WHQ4NVZYb01VVGg1RldJbDYtYV80MlVfQkFVSVBveGY0Tw?oc=5",
       "publishedAt": "2026-08-10T23:33:57.000Z"
-    },
-    {
-      "source": "AP News",
-      "title": "Wisconsin Primary Results 2026: House and Governor",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5UHdqdTc4YnlVX20wdDVfaUt3bi1IcU1uWi1DR3Q5LUZIU3VEVDAwTVE0Nm8tMXpaTnVlbHFXTUkwLW5DM2hIeWd2elFTazNsT2F6SG84anQxakQyRGFEckZQdmdqZTVpTGZUU3IxdUs0OW5uc183eA?oc=5",
-      "publishedAt": "2026-08-10T23:12:25.000Z"
     },
     {
       "source": "NPR",
@@ -42,24 +60,6 @@
       "title": "State voting officials join CISA security call with election 85 days away",
       "url": "https://www.pbs.org/newshour/show/state-voting-officials-join-cisa-security-call-with-election-85-days-away",
       "publishedAt": "2026-08-10T22:40:59.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Tamara Keith and Amy Walter on the energy behind outsider candidates",
-      "url": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-the-energy-behind-outsider-candidates",
-      "publishedAt": "2026-08-10T22:30:23.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Family of Marine veteran imprisoned in Russia warns he's near death",
-      "url": "https://www.pbs.org/newshour/show/family-of-marine-veteran-imprisoned-in-russia-warns-hes-near-death",
-      "publishedAt": "2026-08-10T22:25:01.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "This Medicare Part D subsidy is expiring. We answered your questions",
-      "url": "https://www.pbs.org/newshour/health/this-medicare-part-d-subsidy-is-expiring-we-answered-your-questions",
-      "publishedAt": "2026-08-10T22:15:05.000Z"
     }
   ]
 }
