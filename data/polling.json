@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-09T10:53:17.533Z",
+  "updatedAt": "2026-08-11T11:05:37.301Z",
   "genericBallot": {
     "average": {
-      "democrats": 47.8,
-      "republicans": 41.8
+      "democrats": 47.9,
+      "republicans": 42
     },
     "sources": [
       {
@@ -21,8 +21,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "democrats": 49.2,
-        "republicans": 42.5,
+        "democrats": 49.6,
+        "republicans": 43.4,
         "included": true,
         "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
         "scrapeStatus": "live",
@@ -77,7 +77,7 @@
   "trumpApproval": {
     "average": {
       "approve": 37.4,
-      "disapprove": 59.9
+      "disapprove": 60
     },
     "sources": [
       {
@@ -95,8 +95,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 36.7,
-        "disapprove": 60,
+        "approve": 36.4,
+        "disapprove": 60.4,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
@@ -107,7 +107,7 @@
         "name": "Silver Bulletin",
         "shortName": "Silver",
         "approve": 38.5,
-        "disapprove": 58.3,
+        "disapprove": 58.2,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
         "scrapeStatus": "live",
