@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-08-12T09:46:36.148Z",
+  "generatedAt": "2026-08-12T14:06:29.849Z",
   "articles": [
     {
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "title": "Wisconsin live primary results: Crowley projected to defeat Hong",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaktqamdqbmVGM1pvTzJuT25EbXZhbXZjZDVNa21UeUpLZ0dmTkJuTnRiZGpUSEVzYjVIQmpZRzdzMWJhQWJmakJvNko5Y0hRYzIyWVRkQWJnSzZCcmtaQmt0c2pURXUwUHhHeG1SdDlBVjhYMF9pUDJxOG1KYXNNbjU5RjI2cTRkZlA0RFNsb1JiNExsem9v0gGcAUFVX3lxTE9ZY1owa2pnendOcWZ0eGxJMV9aWlFNWG9TTjlvRVF5SEs0dTBrM0VVeWpSZTlBV19pRUFTaEtLbEtTUllCRU9GM3JBS2V3bk9ubDFUbVBhRzlhOW1MU3BWZWx5MDlndHpMTkZtMGdTMl9QZGNHcmJxOEY1dmQyYk5HbzVOZEtfeTZ6SDhHenhwYXM3VTBBMDYxWm9XNQ?oc=5",
-      "publishedAt": "2026-08-12T09:10:21.000Z"
+      "source": "Wisconsin Examiner",
+      "title": "Crowley nominated for governor in Democratic primary photo-finish",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdFBaV0l4dnR4X2hJUUI2UzQweGpvQi1YSDBrd2V6OFhrZVB5UTlnYkFQd0Q0a0lqejI5dER2WUFjMFVvLVp2ZXVCVlhId0xZZGszTm9iN0o4a3J3SjZMNVBVSzZrb25IMlZvSTVDa2p0MnVfNlJTSDRmTWp1aWRHMkFKa3Zhc3dhRDIteFFENW1zN2NYdDUw?oc=5",
+      "publishedAt": "2026-08-12T12:41:43.000Z"
+    },
+    {
+      "source": "PBS Wisconsin",
+      "title": "Crowley wins Wisconsin's 2026 Democratic primary for governor in a photo finish",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZUlGd290b0QxSWtvR2dtU2NPeVZ1RV8xQmJhQXJJd09zTk1hNXZuTUdQVVl6Q2wzbDZuc3pfdl9vcktseG45SUp1dWl6ZTFHTlhpS09DRnRKTktXZmlOc2pGby1oVzNiVVJIWVNKei16Yllmb05hQlBneTlCU2I5VDN1dFFwR3dpY29HUllKbC1RY1JUVVpSbXpZUzBYdlBOOEdtM0JMWWo1SE9yWVdfUGlIYVQ?oc=5",
+      "publishedAt": "2026-08-12T10:51:18.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Andrew Tate's extradition fight tests his influence with Trump's America",
+      "url": "https://www.npr.org/2026/08/12/nx-s1-5902974/andrew-tate-tristan-extradition-maga-trump-political-ties",
+      "publishedAt": "2026-08-12T10:47:30.000Z"
     },
     {
       "source": "Al Jazeera",
@@ -38,12 +50,6 @@
       "publishedAt": "2026-08-12T08:08:38.000Z"
     },
     {
-      "source": "NPR",
-      "title": "In Wisconsin, David Crowley defeats Francesca Hong in Democratic primary for governor",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2l4dm5UczF6YXZLU3NTakp0Z213X3JSeWlGWF8xUU52NE1MWWJBRE5FX09jUWhhUGdsZzFkSExPbG1BaGhxYjdXTWxmU01YWnRGSWRoM0c3bk9qQ0Znd0hVXzhvMFMzWUlReGduVTVXNUE2SlQwTVFNNVl0VTE3T094NDlIUDVHUENjWDFqMHdxSjRQWFBUSmc5czgxMXM?oc=5",
-      "publishedAt": "2026-08-12T08:06:55.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "Top adviser to Iran's Revolutionary Guard leader sits down for rare interview",
       "url": "https://www.pbs.org/newshour/show/top-adviser-to-irans-revolutionary-guard-leader-sits-down-for-rare-interview",
@@ -54,12 +60,6 @@
       "title": "The effectiveness and cost of the National Guard deployment in D.C.",
       "url": "https://www.pbs.org/newshour/show/the-effectiveness-and-cost-of-the-national-guard-deployment-in-d-c",
       "publishedAt": "2026-08-11T22:35:32.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "What to know as your driver's license gets a digital upgrade",
-      "url": "https://www.pbs.org/newshour/show/what-to-know-as-your-drivers-license-gets-a-digital-upgrade",
-      "publishedAt": "2026-08-11T22:25:07.000Z"
     }
   ]
 }
