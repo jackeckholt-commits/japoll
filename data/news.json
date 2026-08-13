@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-08-13T06:05:47.172Z",
+  "generatedAt": "2026-08-13T09:46:59.234Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "These swing voters in Nevada say they are not dismissing socialist candidates",
+      "url": "https://www.npr.org/2026/08/13/nx-s1-5929406/nevada-economy-socialism-focus-groups",
+      "publishedAt": "2026-08-13T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Author discusses the common myths and stereotypes about domestic violence",
+      "url": "https://www.npr.org/2026/08/13/nx-s1-5922413/author-discusses-the-common-myths-and-stereotypes-about-domestic-violence",
+      "publishedAt": "2026-08-13T08:43:17.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Rep. Ro Khanna shares why he thinks Democrats should nominate a progressive in 2028",
+      "url": "https://www.npr.org/2026/08/13/nx-s1-5888570/rep-ro-khanna-shares-why-he-thinks-democrats-should-nominate-a-progressive-in-2028",
+      "publishedAt": "2026-08-13T08:42:12.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "Democratic Socialist Falls in Tight Wisconsin Primary for Governor",
@@ -42,24 +60,6 @@
       "title": "Latest primaries yield mixed results for moderate and progressive Democrats",
       "url": "https://www.pbs.org/newshour/show/latest-primaries-yield-mixed-results-for-moderate-and-progressive-democrats",
       "publishedAt": "2026-08-12T22:55:11.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Democratic and Republican strategists on the direction of both parties",
-      "url": "https://www.pbs.org/newshour/show/democratic-and-republican-strategists-on-the-direction-of-both-parties",
-      "publishedAt": "2026-08-12T22:50:06.000Z"
-    },
-    {
-      "source": "PBS Wisconsin",
-      "title": "David Crowley on running in Wisconsin's 2026 governor race",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQzlMaFExbjZpaVRPcEE4UTBKWDRSaDVJWEpFX0VlejJzVFgxMG5WYm53Tm9mZFhHMkxjalhiQzI3M1pwNmc5Tmx3dE1FQndJdXh1cVl0Rm0zaG50WURzSjROZkZXZjFsX2xjY1daYkxndERYbGJNMlZkcDRkbzFVY3R6NjgtNWgzRExNOGxsazB4TlFXV0RnZQ?oc=5",
-      "publishedAt": "2026-08-12T21:30:55.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Democratic strategist reflects on Wisconsin and Minnesota primaries",
-      "url": "https://www.npr.org/2026/08/12/nx-s1-5929407/democratic-strategist-reflects-on-wisconsin-and-minnesota-primaries",
-      "publishedAt": "2026-08-12T20:59:17.000Z"
     }
   ]
 }
