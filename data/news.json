@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-08-14T14:02:54.867Z",
+  "generatedAt": "2026-08-14T17:38:53.010Z",
   "articles": [
+    {
+      "source": "The Washington Post",
+      "title": "Michigan’s marquee Senate race close in first poll after El-Sayed primary win",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTERCNUxzWHplenVPVU4tRVlfeU9zVEtRakZpT2RPUkFwUmd2dHlGbmZ1Q3lDX1RSWllLdFVPWWQ4ZHFUTGdjRGlnN3hYb1pXN1NOWWEydkY0ME1lVEFTRWxKbTBSS3l1a3hodFEyNzF6bEdtUG1NOXc1ZjVVd2w5bGxwWUF2VGJZVkdnQzhYMlI3VGE3c1djcGJLcGZSLXFJVkxpUllpRHhfVkI0bkgtX1BKc2xoYTVadGhjRG1QYi1BNXM?oc=5",
+      "publishedAt": "2026-08-14T17:33:10.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH LIVE: Trump to highlight violent crime reduction during visit to NY police academy",
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-to-highlight-violent-crime-reduction-during-visit-to-ny-police-academy",
+      "publishedAt": "2026-08-14T16:58:03.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "World War II Memorial in Washington vandalized with bubbles and graffiti, upsetting Trump",
+      "url": "https://www.pbs.org/newshour/politics/world-war-ii-memorial-in-washington-vandalized-with-bubbles-and-graffiti-upsetting-trump",
+      "publishedAt": "2026-08-14T14:29:52.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump asks Supreme Court to let White House resume ballroom construction during appeal",
+      "url": "https://www.pbs.org/newshour/politics/trump-asks-supreme-court-to-let-white-house-resume-ballroom-construction-during-appeal",
+      "publishedAt": "2026-08-14T14:17:45.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "National Primary Elections 2026: Live Results and Map",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkNV9IM2xTNmVHV2tnUHd5NGRPT0cxSnY5blVHWG1UdlF3U2JDay1jZjE0MGp5S1REc0syWEpuOHBKbHpodnExWm1OcF9UTlhQWl9DeGZYWkk1SXhKUFdNcE8tdWhUODk4OERTSGg3WnIwdw?oc=5",
+      "publishedAt": "2026-08-14T13:58:41.000Z"
+    },
     {
       "source": "NPR",
       "title": "U.S. missionary who was kidnapped in Niger is released",
@@ -11,7 +41,7 @@
       "source": "CBS News",
       "title": "2026 Florida primary election guide: Key races to watch across South Florida on Aug. 18",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcWp1OTB2Y09LQmctQW1zRDRkNUFoaTRXeGdxN2gzU0xyWGVTVk5PaDdOTzZFMG41YmNNZVNrU1JkQjhRU1d6cDExRHhLbnZjTk9tT2EyNVNoOUxNcXl2dzRtSlBUM3BKUlI5VTRKeE9vZDFRclB1OGpBVnFrUS05Wnd4YlF0aXRVUmJtbEZoSGNGREctNWR1NndpYw?oc=5",
-      "publishedAt": "2026-08-14T11:06:10.000Z"
+      "publishedAt": "2026-08-14T11:06:00.000Z"
     },
     {
       "source": "NPR",
@@ -30,36 +60,6 @@
       "title": "Judge drops Nevada case against electors accused of forging 2020 election certificate",
       "url": "https://www.pbs.org/newshour/politics/judge-drops-nevada-case-against-electors-accused-of-forging-2020-election-certificate",
       "publishedAt": "2026-08-14T00:07:50.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "'Act of terror': U.S. condemns Israeli settler siege of Palestinian homes in West Bank",
-      "url": "https://www.pbs.org/newshour/show/act-of-terror-u-s-condemns-israeli-settler-siege-of-palestinian-homes-in-west-bank",
-      "publishedAt": "2026-08-13T22:55:39.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Palestinian American family recounts siege of West Bank home by Israeli settlers",
-      "url": "https://www.pbs.org/newshour/show/palestinian-american-family-recounts-siege-of-west-bank-home-by-israeli-settlers",
-      "publishedAt": "2026-08-13T22:54:49.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "How Trump's construction projects are changing Washington and costing taxpayers",
-      "url": "https://www.pbs.org/newshour/show/how-trumps-construction-projects-are-changing-washington-and-costing-taxpayers",
-      "publishedAt": "2026-08-13T22:50:08.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Key Races in Wisconsin, Minnesota and South Carolina",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObFN6ZFl1dFNXbVZUOURmNmI1MllKNk9aV0dualdfNGJ1bEloMllSbHRBaG5EcWNmUFNLVWk3eW5UXzNfQ2hkUndKQUxyTUpiV0tLVXh1SnZGSDdiWjdzM2lOZUlfTmlTWk5BQ2NKaS02UEZjQkY3Qk5NMUhEZlBZZ29udw?oc=5",
-      "publishedAt": "2026-08-13T22:30:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Who Is Ahead in the Wisconsin Governor's Race? Latest 2026 Election Polls",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFJMcWhkMnREMjZfaDRwc3NsZmZaUzlvUmdmZUNUVTRkaHhreEFVQ2lxRW9EeUhMU3h0LVhEel9DUlNwSHdQRm1TODkyX09yZUJnWEs3bXZfRm1yM1RxM2lyMnIxR184ZGdoQ21SLVA0VEI5RFVhUnN1TEMxNWJxSTM2MkRudkQ1TmZWMElR?oc=5",
-      "publishedAt": "2026-08-13T22:12:36.000Z"
     }
   ]
 }
