@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-08-14T17:38:53.010Z",
+  "generatedAt": "2026-08-14T21:02:50.977Z",
   "articles": [
     {
-      "source": "The Washington Post",
-      "title": "Michigan’s marquee Senate race close in first poll after El-Sayed primary win",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTERCNUxzWHplenVPVU4tRVlfeU9zVEtRakZpT2RPUkFwUmd2dHlGbmZ1Q3lDX1RSWllLdFVPWWQ4ZHFUTGdjRGlnN3hYb1pXN1NOWWEydkY0ME1lVEFTRWxKbTBSS3l1a3hodFEyNzF6bEdtUG1NOXc1ZjVVd2w5bGxwWUF2VGJZVkdnQzhYMlI3VGE3c1djcGJLcGZSLXFJVkxpUllpRHhfVkI0bkgtX1BKc2xoYTVadGhjRG1QYi1BNXM?oc=5",
-      "publishedAt": "2026-08-14T17:33:10.000Z"
+      "source": "PBS NewsHour",
+      "title": "Trump's vaccine order would require millions of individual shots last used decades ago",
+      "url": "https://www.pbs.org/newshour/health/trumps-vaccine-order-would-require-millions-of-individual-shots-last-used-decades-ago",
+      "publishedAt": "2026-08-14T20:16:56.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump says USS Lincoln's deployment was 'not nearly long enough'",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-says-uss-lincolns-deployment-was-not-nearly-long-enough",
+      "publishedAt": "2026-08-14T19:17:17.000Z"
+    },
+    {
+      "source": "PBS Wisconsin",
+      "title": "Recapping Wisconsin's 2026 primary election for governor",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQalFJRWl2bUJoaTVjTS1JRGVmMkpZZGxMaU5IQUZGZFlkZFRkSkRoWmpTY0tBMEJtZ1EyLS0zNklYT2ZuXzZZVzFyVmprVXo4YWdTRmlkNHdTUWZFWkU3VGVGTXNoS29KdFNiRUdsWmZOeHptdFFVWG44dk9uZFBFYThxelhhcHZjWUZydWN5UWk4Rm9JOHc?oc=5",
+      "publishedAt": "2026-08-14T18:16:00.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -14,16 +26,22 @@
       "publishedAt": "2026-08-14T16:58:03.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "World War II Memorial in Washington vandalized with bubbles and graffiti, upsetting Trump",
-      "url": "https://www.pbs.org/newshour/politics/world-war-ii-memorial-in-washington-vandalized-with-bubbles-and-graffiti-upsetting-trump",
-      "publishedAt": "2026-08-14T14:29:52.000Z"
+      "source": "The New York Times",
+      "title": "Who Is Ahead in the Wisconsin Governor's Race? Latest 2026 Election Polls",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFJMcWhkMnREMjZfaDRwc3NsZmZaUzlvUmdmZUNUVTRkaHhreEFVQ2lxRW9EeUhMU3h0LVhEel9DUlNwSHdQRm1TODkyX09yZUJnWEs3bXZfRm1yM1RxM2lyMnIxR184ZGdoQ21SLVA0VEI5RFVhUnN1TEMxNWJxSTM2MkRudkQ1TmZWMElR?oc=5",
+      "publishedAt": "2026-08-14T16:11:59.000Z"
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 midterm election forecast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+      "publishedAt": "2026-08-14T15:11:11.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Trump asks Supreme Court to let White House resume ballroom construction during appeal",
-      "url": "https://www.pbs.org/newshour/politics/trump-asks-supreme-court-to-let-white-house-resume-ballroom-construction-during-appeal",
-      "publishedAt": "2026-08-14T14:17:45.000Z"
+      "title": "Suspect arrested in World War II Memorial vandalism in Washington",
+      "url": "https://www.pbs.org/newshour/politics/world-war-ii-memorial-in-washington-vandalized-with-bubbles-and-graffiti-upsetting-trump",
+      "publishedAt": "2026-08-14T14:29:52.000Z"
     },
     {
       "source": "NBC News",
@@ -42,24 +60,6 @@
       "title": "2026 Florida primary election guide: Key races to watch across South Florida on Aug. 18",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcWp1OTB2Y09LQmctQW1zRDRkNUFoaTRXeGdxN2gzU0xyWGVTVk5PaDdOTzZFMG41YmNNZVNrU1JkQjhRU1d6cDExRHhLbnZjTk9tT2EyNVNoOUxNcXl2dzRtSlBUM3BKUlI5VTRKeE9vZDFRclB1OGpBVnFrUS05Wnd4YlF0aXRVUmJtbEZoSGNGREctNWR1NndpYw?oc=5",
       "publishedAt": "2026-08-14T11:06:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "New aircraft carrier heads toward Mideast after reports of issues on long-deployed USS Lincoln",
-      "url": "https://www.npr.org/2026/08/14/nx-s1-5931183/new-aircraft-carrier-heads-toward-mideast-after-reports-of-issues-on-long-deployed-uss-lincoln",
-      "publishedAt": "2026-08-14T06:31:29.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Judge drops Nevada case against electors accused of forging certificate in 2020 election",
-      "url": "https://www.npr.org/2026/08/14/nx-s1-5931179/judge-drops-nevada-case-against-electors-accused-of-forging-certificate-in-2020-election",
-      "publishedAt": "2026-08-14T05:42:35.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Judge drops Nevada case against electors accused of forging 2020 election certificate",
-      "url": "https://www.pbs.org/newshour/politics/judge-drops-nevada-case-against-electors-accused-of-forging-2020-election-certificate",
-      "publishedAt": "2026-08-14T00:07:50.000Z"
     }
   ]
 }
