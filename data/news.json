@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-08-14T03:12:29.168Z",
+  "generatedAt": "2026-08-14T06:04:41.739Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Judge drops Nevada case against electors accused of forging certificate in 2020 election",
+      "url": "https://www.npr.org/2026/08/14/nx-s1-5931179/judge-drops-nevada-case-against-electors-accused-of-forging-certificate-in-2020-election",
+      "publishedAt": "2026-08-14T05:42:35.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Judge drops Nevada case against electors accused of forging 2020 election certificate",
@@ -44,22 +50,16 @@
       "publishedAt": "2026-08-13T22:12:36.000Z"
     },
     {
+      "source": "WPR",
+      "title": "Primaries set up battle for control of Wisconsin Legislature",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53NnZLN1NfWkhTTHFOVzhhdVQ0UDRWbkV5WktNRWtYUkVvTDEwbFN6U0xibF90UjFUSE1qbWt5MkVEN2kxLXpUcFJVXzFoMEo1a1lDMGgyZU9sYnM5TzVFbkdoQVNfQ19yMEZKUE01RGVVd1d5SHpXZWFCQQ?oc=5",
+      "publishedAt": "2026-08-13T22:03:57.000Z"
+    },
+    {
       "source": "NPR",
       "title": "AIPAC didn't always spend on campaigns. Now it faces criticism over money in politics",
       "url": "https://www.npr.org/2026/08/13/nx-s1-5923565/aipac-didnt-always-spend-on-campaigns-now-it-faces-criticism-over-money-in-politics",
       "publishedAt": "2026-08-13T21:18:49.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Democratic socialism's next test is the Midwest",
-      "url": "https://www.npr.org/2026/08/13/nx-s1-5929260/democratic-socialisms-next-test-is-the-midwest",
-      "publishedAt": "2026-08-13T21:12:53.000Z"
-    },
-    {
-      "source": "fairvote.org",
-      "title": "Alaska to see highly competitive primaries and general elections",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVC1MdzhrWmFKZXZQUEpCNFlhNW1Ma1lFaUIzME02X3gwODI1MEd2Y1J0ZDFpYThfdU9vZl9LM0VnVElZWXJEQ01iOV81QzZxUzhwd1FFQkNPM0ozWnc1blZLUHF6YXc2SXpsV0d0QkVpZHVqQTIyUDVFRVpBaXZxUjZKZGJicU00ZkdQYU93bw?oc=5",
-      "publishedAt": "2026-08-13T19:05:45.000Z"
     }
   ]
 }
