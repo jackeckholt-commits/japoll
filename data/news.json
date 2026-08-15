@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-08-15T17:00:40.367Z",
+  "generatedAt": "2026-08-15T20:59:30.976Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Democrats' 2028 presidential calendar gives Black and Latino voters and union members an early say",
+      "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
+      "publishedAt": "2026-08-15T19:00:56.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
+      "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+      "publishedAt": "2026-08-15T18:21:32.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "U.S. pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
@@ -44,22 +56,10 @@
       "publishedAt": "2026-08-14T22:50:43.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "Brooks and Atkins Stohr on 'woke' politics in America",
-      "url": "https://www.pbs.org/newshour/show/brooks-and-atkins-stohr-on-woke-politics-in-america",
-      "publishedAt": "2026-08-14T22:30:52.000Z"
-    },
-    {
       "source": "Elon University",
       "title": "Israel Balderas talks North Carolina Senate race, Iran war and more on WGHP’s ‘Swing State’",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR0stQ2xhV045a3NpSGtfb3dsRXZoaTVjRHhyRHBET3VOTTNkd3g3SGEwanZpM2hLVXRzSnRkckdlZjlFdG82Z3VmM2JzeF9zMmEweGl2WXhnaWNkZmpORWJqSnluWEswUkp4SHV0VXdYX2p1dzNUUEUtZE5iUlpXcmJQR1Y0UVFFSzVqaFgtVzgtV2dGNF9qVklDM0NkVTladjJ6azJfdXdLQmloOHVGRHhLYnZxOTN0Ql9DSDVmS0hXb1ZxMDVv?oc=5",
       "publishedAt": "2026-08-14T22:28:30.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Democrats grapple with Trump's push to limit transparency within the executive branch",
-      "url": "https://www.npr.org/2026/08/14/nx-s1-5930399/democrats-grapple-with-trumps-push-to-limit-transparency-within-the-executive-branch",
-      "publishedAt": "2026-08-14T21:49:04.000Z"
     }
   ]
 }
