@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-08-13T11:12:29.165Z",
+  "updatedAt": "2026-08-15T10:39:28.313Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
     "democrats": 209.4,
-    "tossup": 19.3,
-    "republicans": 206.4,
+    "tossup": 20,
+    "republicans": 205.6,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
     "nonTossupDemocrats": 209.4,
-    "nonTossupRepublicans": 206.4,
-    "averageTossup": 19.3,
+    "nonTossupRepublicans": 205.6,
+    "averageTossup": 20,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
@@ -24,15 +24,15 @@
       "demSafe": 180.7,
       "demLikely": 15,
       "demLean": 13.7,
-      "tossup": 19.3,
-      "repLean": 11.7,
-      "repLikely": 33,
-      "repSafe": 161.7
+      "tossup": 20,
+      "repLean": 12.3,
+      "repLikely": 32.3,
+      "repSafe": 161
     },
     "totals": {
       "democrats": 209.4,
-      "tossup": 19.3,
-      "republicans": 206.4,
+      "tossup": 20,
+      "republicans": 205.6,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -42,21 +42,21 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-08-12",
+      "updated": "2026-08-14",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 176,
         "demLikely": 20,
         "demLean": 19,
-        "tossup": 20,
-        "repLean": 16,
-        "repLikely": 43,
+        "tossup": 21,
+        "repLean": 18,
+        "repLikely": 40,
         "repSafe": 141
       },
       "totals": {
         "democrats": 215,
-        "tossup": 20,
-        "republicans": 200
+        "tossup": 21,
+        "republicans": 199
       },
       "included": true,
       "scrapeStatus": "live",
@@ -66,21 +66,21 @@
       "key": "270towin",
       "name": "270toWin",
       "shortName": "270toWin",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "url": "https://www.270towin.com/2026-house-election/",
       "categories": {
         "demSafe": 182,
         "demLikely": 14,
         "demLean": 12,
-        "tossup": 19,
+        "tossup": 20,
         "repLean": 10,
-        "repLikely": 39,
-        "repSafe": 159
+        "repLikely": 37,
+        "repSafe": 160
       },
       "totals": {
         "democrats": 208,
-        "tossup": 19,
-        "republicans": 208
+        "tossup": 20,
+        "republicans": 207
       },
       "included": true,
       "scrapeStatus": "live",
@@ -90,7 +90,7 @@
       "key": "cook",
       "name": "Cook Political Report",
       "shortName": "Cook",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "url": "https://www.cookpolitical.com/ratings/house-race-ratings",
       "categories": {
         "demSafe": 184,
@@ -98,8 +98,8 @@
         "demLean": 10,
         "tossup": 19,
         "repLean": 9,
-        "repLikely": 17,
-        "repSafe": 185
+        "repLikely": 20,
+        "repSafe": 182
       },
       "totals": {
         "democrats": 205,
