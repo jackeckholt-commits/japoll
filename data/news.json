@@ -1,23 +1,41 @@
 {
-  "generatedAt": "2026-08-16T09:03:56.088Z",
+  "generatedAt": "2026-08-16T13:19:02.373Z",
   "articles": [
     {
       "source": "NPR",
-      "title": "State Department spokesperson on Iran war and U.S. visa revocations",
-      "url": "https://www.npr.org/2026/08/15/nx-s1-5931811/state-department-spokesperson-on-iran-war-and-u-s-visa-revocations",
-      "publishedAt": "2026-08-15T21:20:51.000Z"
+      "title": "As Trump blocks Medicaid funds, one trans teen's mom asks: What's next?",
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+      "publishedAt": "2026-08-16T11:54:19.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "In Florida, Congressman Byron Donalds' seat is up for grabs for Republicans",
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5927132/in-florida-congressman-byron-donalds-seat-is-up-for-grabs-for-republicans",
+      "publishedAt": "2026-08-16T11:46:25.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Polls everywhere in primary season. Can they be trusted?",
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5929568/polls-everywhere-in-primary-season-can-they-be-trusted",
+      "publishedAt": "2026-08-16T11:46:24.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Politics chat: Democrats take lessons from the primaries, set 2028 calendar",
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5929152/politics-chat-democrats-take-lessons-from-the-primaries-set-2028-calendar",
+      "publishedAt": "2026-08-16T11:46:22.000Z"
+    },
+    {
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "title": "Full interviews: Hear from Benson, James as they face off in Michigan gubernatorial race",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNlV1RjNnVFlUdkNTSVdrVHRLcExHQVZTcThMUXRaMG1nMHJPWlBoZTB6ODE5RWo3M19Rdk5ZbDV5RTdWd1FhcW5rcVdPenRXQUpUeHYtaUdzQ0JoUWFMZ2tPck8zMll2Tjl2UU50Tnp1bTdVQUhBa19tZm8zdXRWOUljNFdoWFFwR05IdG5OOGVhVG1Tbnp6Vzl2SVRvZWVfckJISmFtUVJ6Vi11LXlEenE5c0dKNFM0dzVJcDdzb3A3ZXZIc0Jkb0hHZlFJR0dSczdQa3FwSQ?oc=5",
+      "publishedAt": "2026-08-16T09:00:00.000Z"
     },
     {
       "source": "PBS NewsHour",
       "title": "Democrats' 2028 presidential calendar gives Black and Latino voters and union members an early say",
       "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
       "publishedAt": "2026-08-15T19:00:56.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
-      "url": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
-      "publishedAt": "2026-08-15T18:21:32.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -32,18 +50,6 @@
       "publishedAt": "2026-08-15T12:30:21.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Week in Politics: USS Lincoln; latest primaries and Democrats; White House ballroom",
-      "url": "https://www.npr.org/2026/08/15/nx-s1-5929131/week-in-politics-uss-lincoln-latest-primaries-and-democrats-white-house-ballroom",
-      "publishedAt": "2026-08-15T11:40:15.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "They fought for the U.S. in Afghanistan. Now they worry about losing their green cards",
-      "url": "https://www.npr.org/2026/08/15/nx-s1-5897606/afghanistan-visa-green-card-deport",
-      "publishedAt": "2026-08-15T09:00:00.000Z"
-    },
-    {
       "source": "Alaska Beacon",
       "title": "After Alaska’s ‘final four’ primary, a silent primary may decide who’s on the ballot in November",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBYUHJFeVhocEk1dWpoOFdBb0p6bWtXbE42YUF3bTl4b1RyMV9nWG5HaDBuVEIzRUxITng2dnFiZ0hWaHFuS015aQ?oc=5",
@@ -54,12 +60,6 @@
       "title": "Luigi Mangione reveals motive for CEO's killing after pleading guilty in federal case",
       "url": "https://www.pbs.org/newshour/show/luigi-mangione-reveals-motive-for-ceos-killing-after-pleading-guilty-in-federal-case",
       "publishedAt": "2026-08-14T22:57:22.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "News Wrap: Record-breaking heat wave grips Europe",
-      "url": "https://www.pbs.org/newshour/show/news-wrap-record-breaking-heat-wave-grips-europe",
-      "publishedAt": "2026-08-14T22:50:43.000Z"
     }
   ]
 }
