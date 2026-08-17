@@ -1,9 +1,15 @@
 {
-  "generatedAt": "2026-08-17T09:23:51.965Z",
+  "generatedAt": "2026-08-17T13:26:58.036Z",
   "articles": [
     {
       "source": "NPR",
-      "title": "Can a student ID be used for voting? More Republican-led states are banning it",
+      "title": "Sen. Mark Kelly discusses conditions aboard the USS Lincoln",
+      "url": "https://www.npr.org/2026/08/17/nx-s1-5933015/sen-mark-kelly-discusses-conditions-aboard-the-uss-lincoln",
+      "publishedAt": "2026-08-17T10:49:59.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Advocates worry new bans on student IDs will trip up young voters",
       "url": "https://www.npr.org/2026/08/17/nx-s1-5791740/college-student-voting-voter-id",
       "publishedAt": "2026-08-17T09:00:00.000Z"
     },
@@ -54,12 +60,6 @@
       "title": "In Florida, Congressman Byron Donalds' seat is up for grabs for Republicans",
       "url": "https://www.npr.org/2026/08/16/nx-s1-5927132/in-florida-congressman-byron-donalds-seat-is-up-for-grabs-for-republicans",
       "publishedAt": "2026-08-16T11:46:25.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Polls everywhere in primary season. Can they be trusted?",
-      "url": "https://www.npr.org/2026/08/16/nx-s1-5929568/polls-everywhere-in-primary-season-can-they-be-trusted",
-      "publishedAt": "2026-08-16T11:46:24.000Z"
     }
   ]
 }
