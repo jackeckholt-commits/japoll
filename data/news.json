@@ -1,11 +1,35 @@
 {
-  "generatedAt": "2026-08-16T20:58:59.411Z",
+  "generatedAt": "2026-08-17T02:09:16.439Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+      "url": "https://www.pbs.org/newshour/politics/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea",
+      "publishedAt": "2026-08-16T22:01:52.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Fact-checking claims about Taylor Farms' donations to Trump-aligned groups",
+      "url": "https://www.pbs.org/newshour/politics/fact-checking-claims-about-taylor-farms-donations-to-trump-aligned-groups",
+      "publishedAt": "2026-08-16T21:18:10.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "A Free-for-All in Alaska as 17 Candidates Compete to Be Governor",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZmhMMmZ2aEcyTGxFejVfZE94YnZES2FpX3B0ZDNUVFBBZm1FSURVcFpNX2pTMWhrWWotbm5HYmVLM2VPME1hS0ZEbHZ1Vzl6dGVOZ2FTSmtVZVNxenN5MVJMMkNyT25nXzJmeEhQc0c3a2k2cWJHYnVXN0ZFbUQ5NkNB?oc=5",
+      "publishedAt": "2026-08-16T18:36:12.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Republicans won the redistricting competition. Don't tell that to this California congressman",
       "url": "https://www.pbs.org/newshour/politics/republicans-won-the-redistricting-competition-dont-tell-that-to-this-california-congressman",
       "publishedAt": "2026-08-16T17:37:25.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Who Is Ahead in the Wisconsin Governor's Race? Latest 2026 Election Polls",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFJMcWhkMnREMjZfaDRwc3NsZmZaUzlvUmdmZUNUVTRkaHhreEFVQ2lxRW9EeUhMU3h0LVhEel9DUlNwSHdQRm1TODkyX09yZUJnWEs3bXZfRm1yM1RxM2lyMnIxR184ZGdoQ21SLVA0VEI5RFVhUnN1TEMxNWJxSTM2MkRudkQ1TmZWMElR?oc=5",
+      "publishedAt": "2026-08-16T15:35:16.000Z"
     },
     {
       "source": "NPR",
@@ -36,30 +60,6 @@
       "title": "Full interviews: Hear from Benson, James as they face off in Michigan gubernatorial race",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNlV1RjNnVFlUdkNTSVdrVHRLcExHQVZTcThMUXRaMG1nMHJPWlBoZTB6ODE5RWo3M19Rdk5ZbDV5RTdWd1FhcW5rcVdPenRXQUpUeHYtaUdzQ0JoUWFMZ2tPck8zMll2Tjl2UU50Tnp1bTdVQUhBa19tZm8zdXRWOUljNFdoWFFwR05IdG5OOGVhVG1Tbnp6Vzl2SVRvZWVfckJISmFtUVJ6Vi11LXlEenE5c0dKNFM0dzVJcDdzb3A3ZXZIc0Jkb0hHZlFJR0dSczdQa3FwSQ?oc=5",
       "publishedAt": "2026-08-16T09:00:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Democrats' 2028 presidential calendar gives Black and Latino voters and union members an early say",
-      "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
-      "publishedAt": "2026-08-15T19:00:56.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "U.S. pulls last aircraft carrier in Asia as Trump focuses on Iran and the Western Hemisphere",
-      "url": "https://www.pbs.org/newshour/world/u-s-pulls-last-aircraft-carrier-in-asia-as-trump-focuses-on-iran-and-the-western-hemisphere",
-      "publishedAt": "2026-08-15T16:22:32.000Z"
-    },
-    {
-      "source": "Silver Bulletin",
-      "title": "FLIPR 2026 midterm election forecast",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
-      "publishedAt": "2026-08-15T12:30:21.000Z"
-    },
-    {
-      "source": "Alaska Beacon",
-      "title": "After Alaska’s ‘final four’ primary, a silent primary may decide who’s on the ballot in November",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBYUHJFeVhocEk1dWpoOFdBb0p6bWtXbE42YUF3bTl4b1RyMV9nWG5HaDBuVEIzRUxITng2dnFiZ0hWaHFuS015aQ?oc=5",
-      "publishedAt": "2026-08-15T00:40:06.000Z"
     }
   ]
 }
