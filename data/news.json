@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-08-17T05:21:20.626Z",
+  "generatedAt": "2026-08-17T09:23:51.965Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Can a student ID be used for voting? More Republican-led states are banning it",
+      "url": "https://www.npr.org/2026/08/17/nx-s1-5791740/college-student-voting-voter-id",
+      "publishedAt": "2026-08-17T09:00:00.000Z"
+    },
+    {
+      "source": "PBS Wisconsin",
+      "title": "Democratic primary turnout soars in Wisconsin, other states in 2026",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVEZVRlZFLU14dGw0Z0xzcUl3a2VIbW0wVS10Y0p2N1VFOUtndVgzaGRJX1lqUFNRLTUyWXc1cHNrMTVfZTFQdW9QSVBSLTFWd2tnV2ZjT0RrLVBLdzREcUcxT2ZvM3J3NW5Md214Rkh5UUs0X0UtTjltVlR4OWhoSnhsaTZkYS1nV0JXRFhEN1RWRXRPby01TkpkeGhrS2lhd28wOQ?oc=5",
+      "publishedAt": "2026-08-17T04:32:54.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
@@ -26,6 +38,12 @@
       "publishedAt": "2026-08-16T17:37:25.000Z"
     },
     {
+      "source": "Kentucky Lantern",
+      "title": "Kentucky Democrats look to midterm elections, governor’s race during annual statewide dinner",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcHJpak5lOGY0bGluTUZpdngtNlc0aG8wQ1E5dkZuekVTeG9xdUhSNDNDZy1GbWJTcjl3Nk1KMk5Da0FDVnFOX2x3OGNvQjZEQUdkQUdNOU1iNnNjbVV3QU1jUGhLeGxSYlVJcXNMcU42UF9aTUVKZGRsUmNJZVpMb21ZeUlTc1RvYjg2REVpTjJ4RlFtZWtwRU5xUFNVWnpJMkFvRDlLcTk5M21QT0FjbzY5SFlmbWdpa296RHdJODV2OFh2cXhFMXZ3?oc=5",
+      "publishedAt": "2026-08-16T15:11:19.000Z"
+    },
+    {
       "source": "NPR",
       "title": "'What are we going to do?' The mom of a trans teen grapples with Trump's Medicaid move",
       "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
@@ -42,24 +60,6 @@
       "title": "Polls everywhere in primary season. Can they be trusted?",
       "url": "https://www.npr.org/2026/08/16/nx-s1-5929568/polls-everywhere-in-primary-season-can-they-be-trusted",
       "publishedAt": "2026-08-16T11:46:24.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Politics chat: Democrats take lessons from the primaries, set 2028 calendar",
-      "url": "https://www.npr.org/2026/08/16/nx-s1-5929152/politics-chat-democrats-take-lessons-from-the-primaries-set-2028-calendar",
-      "publishedAt": "2026-08-16T11:46:22.000Z"
-    },
-    {
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "title": "Full interviews: Hear from Benson, James as they face off in Michigan gubernatorial race",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNlV1RjNnVFlUdkNTSVdrVHRLcExHQVZTcThMUXRaMG1nMHJPWlBoZTB6ODE5RWo3M19Rdk5ZbDV5RTdWd1FhcW5rcVdPenRXQUpUeHYtaUdzQ0JoUWFMZ2tPck8zMll2Tjl2UU50Tnp1bTdVQUhBa19tZm8zdXRWOUljNFdoWFFwR05IdG5OOGVhVG1Tbnp6Vzl2SVRvZWVfckJISmFtUVJ6Vi11LXlEenE5c0dKNFM0dzVJcDdzb3A3ZXZIc0Jkb0hHZlFJR0dSczdQa3FwSQ?oc=5",
-      "publishedAt": "2026-08-16T09:00:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Democrats' 2028 presidential calendar gives Black and Latino voters and union members an early say",
-      "url": "https://www.pbs.org/newshour/politics/democrats-2028-presidential-calendar-gives-black-and-latino-voters-and-union-members-an-early-say",
-      "publishedAt": "2026-08-15T19:00:56.000Z"
     }
   ]
 }
