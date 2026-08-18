@@ -1,26 +1,32 @@
 {
-  "generatedAt": "2026-08-18T05:13:54.416Z",
+  "generatedAt": "2026-08-18T09:15:26.449Z",
   "articles": [
     {
-      "source": "alaskabeacon.com",
+      "source": "NPR",
+      "title": "This crowded Republican primary in Florida has drawn a unique cast of candidates",
+      "url": "https://www.npr.org/2026/08/18/nx-s1-5930699/florida-republican-19th-district-carpetbaggers",
+      "publishedAt": "2026-08-18T09:00:00.000Z"
+    },
+    {
+      "source": "Salve Regina University",
+      "title": "New Survey Results: Foulkes leads McKee in Governor’s race as Reed holds strong Senate lead while other races remain uncertain",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMURQeDFaVkdackZGMzdLQUFSUl8xV0NlRTlfWmhreU1RdUdKanE4VDExa2RISzQyaE95YWtIMERVYUNZdjhTTXo1ZDVzbU1BVEMyNy01eWxXdVZzV1VqZDBYendLSUxReF9sUzZhVlk2OXdCcEVkejFKV2owQ0ZJMFBGQ0RNWENxUUZkQmhidkxOdlBHTzE3YVpnd3MyWVVwTnFRcFJVNUE3LUhlNTUwNTU0QzdxYmNtNmhQSkFETlVIU3IybklUZlN3VQ?oc=5",
+      "publishedAt": "2026-08-18T04:44:03.000Z"
+    },
+    {
+      "source": "Alaska Beacon",
       "title": "Polls open at 7 a.m. on Alaska’s pick-one, top-four statewide primary election day",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNczVtdEVvdGRxaG5nNzJlRjMzMG5ncHQ5N0I4NXNhUU1HbkFXaElDTzhIanNxZUxYMTJEYnpGenU4VXJLTDhxNGwxOUZIMEFpcXBDOHB3SE9WVVBMSXpEZVlRX0NVbFV6aWYzMDFRTkp2VHRBZUo0aURLX3psRGY5aTVKbElUWEVNajcwNGhhRFVfMlk0OGhod0s1ZEJTNFhnYWxJNWhzY1R1NDg4SEJGd1BkRlVITVU?oc=5",
-      "publishedAt": "2026-08-18T02:32:51.000Z"
+      "publishedAt": "2026-08-18T03:22:40.000Z"
     },
     {
-      "source": "The New York Times",
-      "title": "Florida Race to Replace Byron Donalds Features Candidates Who Have Already Run for Congress",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNklRSlYyOHJPM0pIRnNhdUYwM0t3M0ZrUlJNekktTV8zRG1rWHMxLS1fX0NxV3VoSDNXRW9jazh3TUU0WnRHcld2NWpmQ1Fucm1qUFFZLUY3cWdWRE13OExfQ28xbzA4N2pTekpxSEM1anFXaEZsMG05V3ZxeXFKVmdQaXhCMUc3dVE?oc=5",
-      "publishedAt": "2026-08-18T00:48:36.000Z"
-    },
-    {
-      "source": "pbs.org",
+      "source": "PBS",
       "title": "Live Results: Wyoming midterm primaries",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeHdkcmhXM2V6LXBBOFFFUnpldC1VRG5QTW0yZ3F4bFNpVElCVXRUdUJMU3ByWDFYQmRRSmE3czNrTG5UNjZKakVjbTVLbGwxME11dmU5QUlQTnpHLS1nZmVCMFF4TF9CbDlINzFvdnpmcDZYRDlUZ0VsenNUR0tFRklR0gGHAUFVX3lxTFBjV29OaE5feDhOdmJkT21HcTZUTnZaSXZtYWxYNmcwSWRqZDVYVEhPODB3SWRTbWE2b1g4c0xwekZKUU0yallvOXBYN2lZRUZnR1ItLUl3YlFhOHhOTGpKX29XUGZCclVfcDVRMXp2NEdnUndEenR0ZUpSZ2VBYTRGTEV2QWZWZw?oc=5",
       "publishedAt": "2026-08-18T00:00:49.000Z"
     },
     {
-      "source": "pbs.org",
+      "source": "PBS",
       "title": "Live Results: Alaska midterm primaries",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT3Qtckp0bVV3RElXR3VVY2U1VFNhU3paMTdUbTYzZXBWUkhDOVBpTzJiQ0cwZ1lfdF8weHc3eWdXWkFQZlhCZVltSExJUG9TSUJUMEdCS2h2NUVaem04eGFNM29aalRYeWxsTkxfRTBUZnJPR1pYQldaZ0I4eXpIVdIBhgFBVV95cUxOWXNObnE5Q1V2SGFfbUFrRmpHUmFKMlQ5VnJlVFVPQWVKbThxOUNZQTFHeEFFVDktU05TdF9yQUgtbzQ2LWRJTGRQT2hramJyWm5jcm5ubF9mUWZHVnp4X0JyZk41MW5YRGpXUEZ4bkFjdlJROXFZbURvem9fX1RucTdPLXk4UQ?oc=5",
       "publishedAt": "2026-08-18T00:00:32.000Z"
@@ -32,7 +38,7 @@
       "publishedAt": "2026-08-18T00:00:04.000Z"
     },
     {
-      "source": "pbs.org",
+      "source": "PBS",
       "title": "Live Results: California special election to replace former Rep. Eric Swalwell",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTRvRUo1cTJXbUdISVJhQ3JwWlJSTVhmdVlHNEc5a3RnOEdPYWV4RkFiQnAzdnJkd053QmJvUW5KRW82anVQQWlhMDRBZkMwak1GSGgxeGwtSWJCRU1tNVZsTzVWOEt2WkF4YkZscXJnNzE1b3ZQNGEtMDRVT0VwTldfcy1fMl9TVjFzV08zRm84MVg2akNGRWxhXzRDSWgwbUxDUUM3c1E1a0JIRW1vWHNoNWrSAboBQVVfeXFMUExWUGdwM1pVLTAzVmtKUWYtT1FHVWRGbDRjWmJsNHg0UThEYXpFVEVCdzdURklMam5xeDNTdzFHbEhoQXc5WmtTbUFucDVxRWtvQ0FlSnhSVzVrbV9mY190eHNnVWV6YmVxS083T29DbjJBVV9jek5VdnhXbVl0YVEtdTdRQ29lQzdId1hxdE1RaTJDOVktM05HX2FFbkVpandMaUc5NFlkaGlCb1gtVEsxa0k5ZXFXM1Nn?oc=5",
       "publishedAt": "2026-08-18T00:00:01.000Z"
@@ -54,12 +60,6 @@
       "title": "Democratic Rep. Jimmy Gomez being investigated over sexual misconduct allegations",
       "url": "https://www.npr.org/2026/08/17/nx-s1-5935513/jimmy-gomez-house-ethics-investigation",
       "publishedAt": "2026-08-17T19:53:37.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "DHS defends investigating agency critics and giving them warning notices",
-      "url": "https://www.npr.org/2026/08/17/nx-s1-5934692/dhs-free-speech-investigations",
-      "publishedAt": "2026-08-17T13:31:13.000Z"
     }
   ]
 }
