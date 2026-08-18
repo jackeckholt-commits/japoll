@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-30T03:59:09.027Z",
+  "updatedAt": "2026-08-18T22:02:06.813Z",
   "predictions": {
     "senate": {
-      "democrats": 51,
-      "republicans": 49,
+      "democrats": 52,
+      "republicans": 48,
       "label": "Projected Senate seats"
     },
     "governor": {
-      "democrats": 25,
-      "republicans": 25,
+      "democrats": 26,
+      "republicans": 24,
       "label": "Projected governorships"
     },
     "house": {
@@ -39,6 +39,19 @@
     }
   ],
   "posts": [
+    {
+      "id": "how-its-moveing",
+      "category": "Trends",
+      "title": "How its moveing",
+      "excerpt": "Polling trends in each state and primary results",
+      "body": "Since the start of August there have been 13 primaries held as of writing. The dominating story of the primaries has continued to be the establishment Democrats fighting off the progressive insurgents. There have been wins and losses for both sides. The Michigan primary was a notable win for progressives when Abdul El-Sayed narrowly defeated Haley Stevens after being outspent by millions. The establishment did have their fair share of wins, notably in Missouri and Wisconsin with Cori Bush and Francisco Hong both losing. On the Republican side, primaries have not been nearly as dramatic, though famous pillow salesman Mike Lindell, a Trump-endorsed candidate, lost his primary for Minnesota governor and stated that there was election fraud in the state (which is BS).\n\nThere hasn't been too many changes in already established races though there has been some good polling for both Peltola in Alaska and Talarico. Right now unless there are changes in the state of the race the trends are starting to establish themselves. Always keep in mind that anything can happen though and what looks like a certainty now could change entirely by election day.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "imageCaption": "",
+      "articleUrl": "",
+      "articleTitle": "",
+      "publishedAt": "2026-08-18"
+    },
     {
       "id": "polling-discrepancies",
       "category": "Analysis",
