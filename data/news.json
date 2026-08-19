@@ -1,29 +1,47 @@
 {
-  "generatedAt": "2026-08-19T17:03:29.165Z",
+  "generatedAt": "2026-08-19T21:03:50.326Z",
   "articles": [
     {
       "source": "PBS NewsHour",
-      "title": "Democratic socialist Angie Nixon won the Senate primary in Florida. Can she win in November?",
-      "url": "https://www.pbs.org/newshour/politics/democratic-socialist-angie-nixon-won-the-senate-primary-in-florida-can-she-win-in-november",
-      "publishedAt": "2026-08-19T16:38:35.000Z"
+      "title": "What to know about the fake election poll numbers shared and retracted by a mysterious company",
+      "url": "https://www.pbs.org/newshour/politics/what-to-know-about-the-fake-election-poll-numbers-shared-and-retracted-by-a-mysterious-company",
+      "publishedAt": "2026-08-19T20:59:46.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Florida senate primary winner Angie Nixon relied on grassroots organizing",
+      "url": "https://www.npr.org/2026/08/19/nx-s1-5937530/florida-senate-primary-winner-angie-nixon-relied-on-grassroots-organizing",
+      "publishedAt": "2026-08-19T20:44:46.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "'No serious dispute' that Comey's seashell post could be read as a Trump threat, prosecutors say",
-      "url": "https://www.pbs.org/newshour/politics/no-serious-dispute-that-comeys-seashell-post-could-be-read-as-a-trump-threat-prosecutors-say",
-      "publishedAt": "2026-08-19T15:57:25.000Z"
+      "title": "WATCH: Trump talks about North Korea, interest rates while hosting cryptocurrency leaders at the White House",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-talks-about-north-korea-interest-rates-while-hosting-cryptocurrency-leaders-at-the-white-house",
+      "publishedAt": "2026-08-19T20:39:50.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Kennedy Center tells court it won't try to restore Trump's name to the building before Sept. 8",
-      "url": "https://www.pbs.org/newshour/politics/kennedy-center-tells-court-it-wont-try-to-restore-trumps-name-to-the-building-before-sept-8",
-      "publishedAt": "2026-08-19T15:40:04.000Z"
+      "title": "WATCH: Trump previews new White House helipad",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-previews-new-white-house-helipad",
+      "publishedAt": "2026-08-19T20:14:27.000Z"
+    },
+    {
+      "source": "Pennsylvania Capital-Star",
+      "title": "Democrats declare victory after tight special election in Trump+18 state House district",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYm9FNFhvazFHR2tZX2ZnWTN5NzZlZzlXdlRYUkM3VzRuVlZuQ0ZuVWNFZVVaeDRnb19XY0dCMzZfRkw2YldqWGlVbWRzMHc5bVJSLTZ5bUpDOUZUX0hmMGhmWGptcVVGMlhjdkpnYWJ2MDlqcVh6NDVsSHNBS3pBMkh6Q284ZU1Nd3dFSFNod0NiVXJjQkQ3VWdDZ0NZVkR1RzJ4SlZCWEUzdFBvMXFDUGdqMVVVd2RjbkpFNUx2MGlrYWozcVpMTXd3?oc=5",
+      "publishedAt": "2026-08-19T20:10:12.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Trump says U.S. and Canada reached last-minute deal to delay 50% US tariffs on Canadian imports",
-      "url": "https://www.pbs.org/newshour/world/trump-says-us-and-canada-reached-last-minute-deal-to-delay-50-us-tariffs-on-canadian-imports",
-      "publishedAt": "2026-08-19T15:27:20.000Z"
+      "title": "Trump picks White House aide Dr. Heidi Overton to lead FDA",
+      "url": "https://www.pbs.org/newshour/politics/trump-picks-white-house-aide-dr-heidi-overton-to-lead-fda",
+      "publishedAt": "2026-08-19T18:38:11.000Z"
+    },
+    {
+      "source": "The News Journal",
+      "title": "Who will win midterms 2026? Here's what results of Tuesday primaries mean for November",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQ1hsZkpTbndfZThSOWJubHd2Rk1ZdDZDNEtSYUxyMXpMTXpLWGI4eklRRUFVT3BsN1NLOF9LMV9mSkVOMm0wV3JQYVR2N0I5YWtfUUNuc0MzdjhpMW4wUGZock5FQkNTRzBwWHIySllTOHJ3ZDBNNmFpeUJFWVNpdWI1WlZ2cFRZRWE5SHg2QjhWMFEyQXhMNjlOUVBaajBBTEtKTXo4WWdIckNRWUhhV0dpbnJ6aUFnQnZyM3JxcWpLMFpoNkswdnBwTEJsQmQxV0xmRjhuUWZyN3NnSS0wck4ybkJ3Y2huOU1DVndLMVhmOGFPTlh3?oc=5",
+      "publishedAt": "2026-08-19T15:18:00.000Z"
     },
     {
       "source": "PBS",
@@ -38,28 +56,10 @@
       "publishedAt": "2026-08-19T14:25:32.000Z"
     },
     {
-      "source": "CAWP",
+      "source": "cawp.rutgers.edu",
       "title": "Results from the August 18th Primaries in Alaska, Florida, and Wyoming",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSmFWVFVXZFA2WHFOdC1lck11cU5OeFJqWEV2WTJ2bGhJVHpwSTJXcjM1b1NpVkNpQ3hoUDI3aXNVRlQ4Umd4Q1YxSU81TWtBUE9mV2x5c0w0Wk5kSDVvTXJTb3IyUXlQSjVBbTVTYmo3OXExb0FjUUg5ZVhyOE11VjRjUGRLZktWM1I3WXl4RQ?oc=5",
-      "publishedAt": "2026-08-19T13:45:00.000Z"
-    },
-    {
-      "source": "FOX 5 Atlanta",
-      "title": "Insider Advantage poll, Paramount pitch & MARTA bus cameras",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY2ctcHEyTEYzTDZuelRTVUdxb3BwRUhaNm43ZnNNUzQ4N1ZfS1QwN3hWOFBxLXZYazlNeHdwTVRtV29qdGZjVkgyT3pMbVdkSGlYcTM2dWNTU1FBcG5KUjM4b0dZdjNKTkxKV2JLMmZjVWhtaG02X01WU0hXZGN1N1VkTEFmYl91TW95ZERQRFnSAZYBQVVfeXFMTWZIZXNGLUtPTUc4UkNrSzVEcWZJN1h2VU00bFJ5YjYzWTVnYjBJUmNTNjNaVUtPWFBHUnRMUmNzMXl0U2toQ3F6NjZjemIyQWx1M1dweVlxODUySWhrTnptdjhGb3daSEZmZXBLeWVqM2c4eEplRm9Ca1oyQlJlWU1CT2lxcmY2WXlWeHR0elJycHFKR0VR?oc=5",
-      "publishedAt": "2026-08-19T13:29:15.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "Republican senator Dan Sullivan and Democrat Mary Peltola advance in Alaska Senate primary",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbFBkMThyZU1jdUgzN2JvRW5Qa3R0R19tcWFUQXltY2RfQllsd0xNX1dhcFRUQWN4YmJYaVQ5aUZQQzJ3dGNCWGh5azR3Q2trMUdIdkFPNGRibUpGRkZIOEVLTzgzR1NJOGdrVUJsc01CaHlRZmNCUk5EMHhnNmtqTnotWQ?oc=5",
-      "publishedAt": "2026-08-19T13:21:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Elbridge who? How the name of a forgotten founder lives on in the word 'gerrymander'",
-      "url": "https://www.npr.org/2026/08/19/nx-s1-5930301/gerrymandering-elbridge-gerry-redistricting",
-      "publishedAt": "2026-08-19T09:00:00.000Z"
+      "publishedAt": "2026-08-19T14:20:39.000Z"
     }
   ]
 }
