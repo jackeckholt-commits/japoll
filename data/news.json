@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-08-20T17:10:37.337Z",
+  "generatedAt": "2026-08-20T21:05:06.001Z",
   "articles": [
     {
       "source": "PBS NewsHour",
-      "title": "ICE and Iran worked together to deport Iranians from U.S., newly released emails show",
-      "url": "https://www.pbs.org/newshour/world/ice-and-iran-worked-together-to-deport-iranians-from-u-s-newly-released-emails-show",
-      "publishedAt": "2026-08-20T15:53:45.000Z"
+      "title": "AP report: Federal agents seize devices from ex-Rep. Eric Swalwell in sexual misconduct probe",
+      "url": "https://www.pbs.org/newshour/politics/ap-report-federal-agents-seize-devices-from-ex-rep-eric-swalwell-in-sexual-misconduct-probe",
+      "publishedAt": "2026-08-20T20:47:06.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Missouri court allows new Trump-backed U.S. House districts to be used in November election",
-      "url": "https://www.pbs.org/newshour/politics/missouri-court-allows-new-trump-backed-u-s-house-districts-to-be-used-in-november-election",
-      "publishedAt": "2026-08-20T15:20:31.000Z"
+      "title": "WATCH LIVE: Balance of Power &mdash; Redistricting, Courts, and the Right to Vote | 2026 Hutchins Forum",
+      "url": "https://www.pbs.org/newshour/nation/watch-live-balance-of-power-redistricting-courts-and-the-right-to-vote-2026-hutchins-forum",
+      "publishedAt": "2026-08-20T20:29:54.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "So-called 'blue state refugees' have helped turn Florida red",
+      "url": "https://www.npr.org/2026/08/20/nx-s1-5930693/so-called-blue-state-refugees-have-helped-turn-florida-red",
+      "publishedAt": "2026-08-20T20:05:47.000Z"
+    },
+    {
+      "source": "The Des Moines Register",
+      "title": "Iowa Senate race a 'toss-up,' governor race 'leans Democrat' | Report",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeW9mZF8yaENGUVdiWkM5NGpvR3diWDlCWGhDc01Hb1NOWlhmNU1WQjVNYlpsakJWV2xqMkVKeXdSSE9aaFZxV0xoUHR5djRrWDM1TE1nODZ1UzFGelVSNWJhbzNCanE2VDU5VGVtdy1WSTBpWVJqWWVRMnQwMlRnNFRMRkFxdjVYUEJyWXVZTFlaQW5EUU1BSVVJbTFNbW16WkRZM05WMEt0Yl9uV0RPRno1SmsyMWtCd2dWdUc1LXBvcjJOWmtwSVI0YzNLVnBiWWxFSkZBMkIzSWJT?oc=5",
+      "publishedAt": "2026-08-20T19:49:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Michael Cohen, Trump's former fixer-turned-enemy, is hosting the president on his radio show",
+      "url": "https://www.pbs.org/newshour/politics/michael-cohen-trumps-former-fixer-turned-enemy-is-hosting-the-president-on-his-radio-show",
+      "publishedAt": "2026-08-20T19:40:53.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump keeps embracing data centers, an unpopular topic in midterm races",
+      "url": "https://www.pbs.org/newshour/politics/trump-keeps-embracing-data-centers-an-unpopular-topic-in-midterm-races",
+      "publishedAt": "2026-08-20T19:21:18.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-08-20T18:56:39.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Top Alaska Senate Candidates Advance as Angie Nixon Wins in Florida",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQci1UckpMV09GWU5CY3VPWGxobnZnOEh6akZLb0syV3A1bGd4Zi1sSEpFajZ2YTc5UnpBSHpsejQyQnJHRFdQTkIxYlZUb1Rfak43bUFzMjhzc0trZVQxNkRaTWZxdENhUWFVVGMxSGk3N09CUkIxTnMyWTdidmFpb2h2TEk?oc=5",
+      "publishedAt": "2026-08-20T18:40:28.000Z"
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 midterm election forecast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+      "publishedAt": "2026-08-20T17:35:22.000Z"
     },
     {
       "source": "NPR",
       "title": "D.C.'s IndyCar race will zoom past museums. Some worry it could harm the art inside",
       "url": "https://www.npr.org/2026/08/20/nx-s1-5939431/dc-indycar-race-museums-art-vibration",
       "publishedAt": "2026-08-20T15:18:21.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Philadelphia, Boston or Denver? Democrats narrow their list of 2028 presidential convention sites",
-      "url": "https://www.pbs.org/newshour/politics/philadelphia-boston-or-denver-democrats-narrow-their-list-of-2028-presidential-convention-sites",
-      "publishedAt": "2026-08-20T15:02:35.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "U.S. sends 20 deportees to Liberia, part of 1,200 migrants the country will receive under new deal",
-      "url": "https://www.pbs.org/newshour/world/u-s-sends-20-deportees-to-liberia-part-of-1200-migrants-the-country-will-receive-under-new-deal",
-      "publishedAt": "2026-08-20T14:48:02.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Top Alaska Senate Candidates Advance as Angie Nixon Wins in Florida",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQci1UckpMV09GWU5CY3VPWGxobnZnOEh6akZLb0syV3A1bGd4Zi1sSEpFajZ2YTc5UnpBSHpsejQyQnJHRFdQTkIxYlZUb1Rfak43bUFzMjhzc0trZVQxNkRaTWZxdENhUWFVVGMxSGk3N09CUkIxTnMyWTdidmFpb2h2TEk?oc=5",
-      "publishedAt": "2026-08-20T14:46:00.000Z"
-    },
-    {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-08-20T11:56:26.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "The system meant to protect ICE detainees has collapsed",
-      "url": "https://www.npr.org/2026/08/20/nx-s1-5850361/grievance-ice-detention-immigrants",
-      "publishedAt": "2026-08-20T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Privacy advocates call on Maryland to investigate data brokers",
-      "url": "https://www.npr.org/2026/08/20/nx-s1-5938822/maryland-privacy-data-brokers",
-      "publishedAt": "2026-08-20T09:00:00.000Z"
-    },
-    {
-      "source": "Anchorage Daily News",
-      "title": "Top candidates in Alaska governor’s race say they are weighing a consolidated field as primary results come in",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSXpoOFJ6N05teU5VMkRjTUl5UDhzRXM2MzdSLXIxek1WNHAtbThRYU5rZUZpWVVCQkFDTDRzMlJVUmJsajJZckVGSFNjTllmQUVpb1J5aDRzWFpMTV9yRkNvYWtMTGtzMmpFTmpoNnRrLUFRUkZkZVpxLUhiZm8yT09oWV9fMFBtSG5NZG5fV0NPdGRmYlBkRGtOeU44RjVIWnk3NG5IQk9qSV9EV3I1WmZEbU5SWXJHZzZuUWJYZ2E0eHNWWDRrbEd4UzNaODN1NnVRTmhySmtybF9EeGVYWWthYkg?oc=5",
-      "publishedAt": "2026-08-20T02:48:54.000Z"
     }
   ]
 }
