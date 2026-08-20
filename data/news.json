@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-08-19T21:03:50.326Z",
+  "generatedAt": "2026-08-20T02:06:51.340Z",
   "articles": [
     {
+      "source": "The New York Times",
+      "title": "Top Alaska Senate Candidates Advance as Angie Nixon Wins in Florida",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQci1UckpMV09GWU5CY3VPWGxobnZnOEh6akZLb0syV3A1bGd4Zi1sSEpFajZ2YTc5UnpBSHpsejQyQnJHRFdQTkIxYlZUb1Rfak43bUFzMjhzc0trZVQxNkRaTWZxdENhUWFVVGMxSGk3N09CUkIxTnMyWTdidmFpb2h2TEk?oc=5",
+      "publishedAt": "2026-08-20T00:03:00.000Z"
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 midterm election forecast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+      "publishedAt": "2026-08-19T23:33:47.000Z"
+    },
+    {
       "source": "PBS NewsHour",
-      "title": "What to know about the fake election poll numbers shared and retracted by a mysterious company",
-      "url": "https://www.pbs.org/newshour/politics/what-to-know-about-the-fake-election-poll-numbers-shared-and-retracted-by-a-mysterious-company",
-      "publishedAt": "2026-08-19T20:59:46.000Z"
+      "title": "What the Florida and Alaska primary results mean for November",
+      "url": "https://www.pbs.org/newshour/show/what-the-florida-and-alaska-primary-results-mean-for-november",
+      "publishedAt": "2026-08-19T22:55:56.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "What to know about Dr. Heidi Overton, Trump's pick to lead the FDA",
+      "url": "https://www.pbs.org/newshour/show/what-to-know-about-dr-heidi-overton-trumps-pick-to-lead-the-fda",
+      "publishedAt": "2026-08-19T22:40:07.000Z"
+    },
+    {
+      "source": "Pennsylvania Capital-Star",
+      "title": "Democrats declare victory after tight special election in Trump+18 state House district",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYm9FNFhvazFHR2tZX2ZnWTN5NzZlZzlXdlRYUkM3VzRuVlZuQ0ZuVWNFZVVaeDRnb19XY0dCMzZfRkw2YldqWGlVbWRzMHc5bVJSLTZ5bUpDOUZUX0hmMGhmWGptcVVGMlhjdkpnYWJ2MDlqcVh6NDVsSHNBS3pBMkh6Q284ZU1Nd3dFSFNod0NiVXJjQkQ3VWdDZ0NZVkR1RzJ4SlZCWEUzdFBvMXFDUGdqMVVVd2RjbkpFNUx2MGlrYWozcVpMTXd3?oc=5",
+      "publishedAt": "2026-08-19T22:36:07.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump's tough treatment of allies has a 'net positive,' Rebeccah Heinrichs says",
+      "url": "https://www.pbs.org/newshour/show/trumps-tough-treatment-of-allies-has-a-net-positive-rebeccah-heinrichs-says",
+      "publishedAt": "2026-08-19T22:35:13.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Historian's American road trip examines parallels between the Gilded Age and today",
+      "url": "https://www.pbs.org/newshour/show/historians-american-road-trip-examines-parallels-between-the-gilded-age-and-today",
+      "publishedAt": "2026-08-19T22:30:09.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Experts raise alarms over Census Bureau report Trump is touting on noncitizen voting",
+      "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting",
+      "publishedAt": "2026-08-19T21:27:51.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Alaska primary sets up big Senate race between Sullivan and Peltola",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMUtBZUFXR0pFMWJhSlZkYWRsY21ia3FWVm1TcEFvSVVVTXMzMzhvdFc0SWxYb25EUDVRWEhvV1FUTk5LaVVpcFZrZEhIS3NoQUdObjl1VXFERTFOcjhRclM5dUVXd2NnNk1KOWVrLTByMlNmR252QnhBYzMxcW9HRTRxMy1NbmFlZVpISThIaTV6dnBGZHFZVkJxQnVvaWVWeVRGck5rbzNpQmpyS3FjZEVR?oc=5",
+      "publishedAt": "2026-08-19T21:04:15.000Z"
     },
     {
       "source": "NPR",
       "title": "Florida senate primary winner Angie Nixon relied on grassroots organizing",
       "url": "https://www.npr.org/2026/08/19/nx-s1-5937530/florida-senate-primary-winner-angie-nixon-relied-on-grassroots-organizing",
       "publishedAt": "2026-08-19T20:44:46.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Trump talks about North Korea, interest rates while hosting cryptocurrency leaders at the White House",
-      "url": "https://www.pbs.org/newshour/politics/watch-trump-talks-about-north-korea-interest-rates-while-hosting-cryptocurrency-leaders-at-the-white-house",
-      "publishedAt": "2026-08-19T20:39:50.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Trump previews new White House helipad",
-      "url": "https://www.pbs.org/newshour/politics/watch-trump-previews-new-white-house-helipad",
-      "publishedAt": "2026-08-19T20:14:27.000Z"
-    },
-    {
-      "source": "Pennsylvania Capital-Star",
-      "title": "Democrats declare victory after tight special election in Trump+18 state House district",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYm9FNFhvazFHR2tZX2ZnWTN5NzZlZzlXdlRYUkM3VzRuVlZuQ0ZuVWNFZVVaeDRnb19XY0dCMzZfRkw2YldqWGlVbWRzMHc5bVJSLTZ5bUpDOUZUX0hmMGhmWGptcVVGMlhjdkpnYWJ2MDlqcVh6NDVsSHNBS3pBMkh6Q284ZU1Nd3dFSFNod0NiVXJjQkQ3VWdDZ0NZVkR1RzJ4SlZCWEUzdFBvMXFDUGdqMVVVd2RjbkpFNUx2MGlrYWozcVpMTXd3?oc=5",
-      "publishedAt": "2026-08-19T20:10:12.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump picks White House aide Dr. Heidi Overton to lead FDA",
-      "url": "https://www.pbs.org/newshour/politics/trump-picks-white-house-aide-dr-heidi-overton-to-lead-fda",
-      "publishedAt": "2026-08-19T18:38:11.000Z"
-    },
-    {
-      "source": "The News Journal",
-      "title": "Who will win midterms 2026? Here's what results of Tuesday primaries mean for November",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQ1hsZkpTbndfZThSOWJubHd2Rk1ZdDZDNEtSYUxyMXpMTXpLWGI4eklRRUFVT3BsN1NLOF9LMV9mSkVOMm0wV3JQYVR2N0I5YWtfUUNuc0MzdjhpMW4wUGZock5FQkNTRzBwWHIySllTOHJ3ZDBNNmFpeUJFWVNpdWI1WlZ2cFRZRWE5SHg2QjhWMFEyQXhMNjlOUVBaajBBTEtKTXo4WWdIckNRWUhhV0dpbnJ6aUFnQnZyM3JxcWpLMFpoNkswdnBwTEJsQmQxV0xmRjhuUWZyN3NnSS0wck4ybkJ3Y2huOU1DVndLMVhmOGFPTlh3?oc=5",
-      "publishedAt": "2026-08-19T15:18:00.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Progressive scores upset victory in Florida, and other takeaways from Tuesday's elections",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQamdQb0FMRVhheTNRa2NVWHBaZzR1M2pUeFY4ZlBfQnA4SXdSeFlyZ2pKelNOSlktX0ZCZUdEYVNXeEx1WVA4azVsZWZWejdfS3k5Mk5uMDZfWl9JckxPU0RzWXY1eDk1ZGMwblA3WFBPZC1oX1VwVWdHYmFXMlNBUTBGeXV4bFkxOW91dmhjVWRpSi1GN2ZTbl9wY29fdnVkdEZSQ1BZZWVlYnFaX1MtX1FsQUJlOERXMTRjdlJ5R2oyVWPSAcgBQVVfeXFMUDMtSUJJYWR1TXlpRkpPNnFuUS1LeUJWQ1dvWmQzc3FocjFXLW4tM1c2Slp3bDhiUXVERHBLd2wtU1BRWUxaUXUteU9LeW01QUJ1YWtGY3FTLWtqU1pQQlBZaW9ET1hWQVFNVjBWMXJOdVlhMzhiZ3pmQU1oeWIxQ25hUU5TLUxibUJRdk41Q2szQXdZOVF2dGVDNGZQaW1zMDdVWFlLaFp0SzZfeWw3dDFFNXVtNVVobnZ0ZmJBQUpCcGh4UG5iRWI?oc=5",
-      "publishedAt": "2026-08-19T14:28:06.000Z"
-    },
-    {
-      "source": "Anchorage Daily News",
-      "title": "Democrats lead crowded primary field in Alaska governor’s race",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdldwZWJMa3RQM25wbGVmSUJUaUtIVTEyTFlBUXVLUGN5RzV0ZGg2dVN5WWVSZDhselFXcjRPQ0YzNjFfWjJfTkJRSzJfaTh4M2N0LVN1QkZvVUlTS1ZxV0Z3S0NpUjFmR2RmbTFUMXRGaXRpVUcxWVNsOG0wZWs3OFc5amtnY01GNXFBV3JVOHF6M1I4cVV6SlB3N0I3ZEpjczdXYmlmRUJtWW03c1hlUVF3cjR1Zw?oc=5",
-      "publishedAt": "2026-08-19T14:25:32.000Z"
-    },
-    {
-      "source": "cawp.rutgers.edu",
-      "title": "Results from the August 18th Primaries in Alaska, Florida, and Wyoming",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSmFWVFVXZFA2WHFOdC1lck11cU5OeFJqWEV2WTJ2bGhJVHpwSTJXcjM1b1NpVkNpQ3hoUDI3aXNVRlQ4Umd4Q1YxSU81TWtBUE9mV2x5c0w0Wk5kSDVvTXJTb3IyUXlQSjVBbTVTYmo3OXExb0FjUUg5ZVhyOE11VjRjUGRLZktWM1I3WXl4RQ?oc=5",
-      "publishedAt": "2026-08-19T14:20:39.000Z"
     }
   ]
 }
