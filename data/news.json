@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-08-20T05:15:12.555Z",
+  "generatedAt": "2026-08-20T09:17:32.489Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Here's how the system to report problems in ICE detention has failed immigrants",
+      "url": "https://www.npr.org/2026/08/20/nx-s1-5850361/grievance-ice-detention-immigrants",
+      "publishedAt": "2026-08-20T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Privacy advocates call on Maryland to investigate data brokers",
+      "url": "https://www.npr.org/2026/08/20/nx-s1-5938822/maryland-privacy-data-brokers",
+      "publishedAt": "2026-08-20T09:00:00.000Z"
+    },
     {
       "source": "Anchorage Daily News",
       "title": "Top candidates in Alaska governor’s race say they are weighing a consolidated field as primary results come in",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSXpoOFJ6N05teU5VMkRjTUl5UDhzRXM2MzdSLXIxek1WNHAtbThRYU5rZUZpWVVCQkFDTDRzMlJVUmJsajJZckVGSFNjTllmQUVpb1J5aDRzWFpMTV9yRkNvYWtMTGtzMmpFTmpoNnRrLUFRUkZkZVpxLUhiZm8yT09oWV9fMFBtSG5NZG5fV0NPdGRmYlBkRGtOeU44RjVIWnk3NG5IQk9qSV9EV3I1WmZEbU5SWXJHZzZuUWJYZ2E0eHNWWDRrbEd4UzNaODN1NnVRTmhySmtybF9EeGVYWWthYkg?oc=5",
-      "publishedAt": "2026-08-20T02:48:25.000Z"
+      "publishedAt": "2026-08-20T02:48:54.000Z"
     },
     {
       "source": "The New York Times",
@@ -48,18 +60,6 @@
       "title": "Historian's American road trip examines parallels between the Gilded Age and today",
       "url": "https://www.pbs.org/newshour/show/historians-american-road-trip-examines-parallels-between-the-gilded-age-and-today",
       "publishedAt": "2026-08-19T22:30:09.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Experts raise alarms over Census Bureau report Trump is touting on noncitizen voting",
-      "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting",
-      "publishedAt": "2026-08-19T21:27:51.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Florida senate primary winner Angie Nixon relied on grassroots organizing",
-      "url": "https://www.npr.org/2026/08/19/nx-s1-5937530/florida-senate-primary-winner-angie-nixon-relied-on-grassroots-organizing",
-      "publishedAt": "2026-08-19T20:44:46.000Z"
     }
   ]
 }
