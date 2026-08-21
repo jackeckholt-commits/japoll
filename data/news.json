@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-08-21T13:32:12.289Z",
+  "generatedAt": "2026-08-21T17:11:54.893Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Enrollment in SNAP grocery aid is dropping faster than expected",
+      "url": "https://www.pbs.org/newshour/nation/enrollment-in-snap-grocery-aid-is-dropping-faster-than-expected",
+      "publishedAt": "2026-08-21T15:28:29.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH LIVE: Trump stumps for S.C. Sen. Darline Graham ahead of GOP runoff",
+      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-stumps-for-s-c-sen-darline-graham-ahead-of-gop-runoff",
+      "publishedAt": "2026-08-21T14:34:57.000Z"
+    },
+    {
+      "source": "Alaska Beacon",
+      "title": "With almost all Alaska primary election day ballots counted, only a few races remain in question",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYldfdjFFdk1wa2ZyWGludjcxODhPWTkyQ0xiSG52TkNfbElabFh2VjJ3MlZjdEdnMUhubVhZNWFfMFdNSXplOXdYUUloQ3FXMmc3VEFxTmx1cVpHWHNrR3ktMWpCRV85cWJjRUcxN2NCY3h6Z3JxdXp2RGhHWnFSd0dySWNackZaY2N2NzVyZzRLbk9lWmJpNjFJTS1uWmpOMF9YODVreVJPdXJmMlV6WkNTdnJZb0NwMTROdjBBekJIaUZhWFQ0VU4wQ0c?oc=5",
+      "publishedAt": "2026-08-21T14:21:27.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Top Alaska Senate Candidates Advance as Angie Nixon Wins in Florida",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQci1UckpMV09GWU5CY3VPWGxobnZnOEh6akZLb0syV3A1bGd4Zi1sSEpFajZ2YTc5UnpBSHpsejQyQnJHRFdQTkIxYlZUb1Rfak43bUFzMjhzc0trZVQxNkRaTWZxdENhUWFVVGMxSGk3N09CUkIxTnMyWTdidmFpb2h2TEk?oc=5",
+      "publishedAt": "2026-08-21T14:20:37.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-08-21T12:19:57.000Z"
+    },
+    {
+      "source": "CAWP",
+      "title": "Results from the August 18th Primaries in Alaska, Florida, and Wyoming",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSmFWVFVXZFA2WHFOdC1lck11cU5OeFJqWEV2WTJ2bGhJVHpwSTJXcjM1b1NpVkNpQ3hoUDI3aXNVRlQ4Umd4Q1YxSU81TWtBUE9mV2x5c0w0Wk5kSDVvTXJTb3IyUXlQSjVBbTVTYmo3OXExb0FjUUg5ZVhyOE11VjRjUGRLZktWM1I3WXl4RQ?oc=5",
+      "publishedAt": "2026-08-21T12:15:00.000Z"
+    },
     {
       "source": "NPR",
       "title": "Top Iran official says US focus on economic warfare shows it has failed militarily",
@@ -8,10 +44,10 @@
       "publishedAt": "2026-08-21T11:42:10.000Z"
     },
     {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-08-21T10:05:15.000Z"
+      "source": "Axios",
+      "title": "Iowa Senate and governor races shift left",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDZRa09PczNmM3RXNTBqZWw0YlFxcDNwYnl1azVLNzlGNmFHYUFfOTh1cWU3UlBXODAydzcydFQ1di0xTU1zbG4teWNqYnBqcmlRSUh5S1pWeHprNlN1THVHY1hsZlQ4d3dtN205UHFWc2JEZ1lXVHdRV0tPMTlrOXA0dkp1X3kyMWxIRFEzVFE5eWVsRGkxMFl3?oc=5",
+      "publishedAt": "2026-08-21T10:52:49.000Z"
     },
     {
       "source": "NPR",
@@ -20,46 +56,10 @@
       "publishedAt": "2026-08-21T09:01:00.000Z"
     },
     {
-      "source": "Axios",
-      "title": "Iowa Senate and governor races shift left",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDZRa09PczNmM3RXNTBqZWw0YlFxcDNwYnl1azVLNzlGNmFHYUFfOTh1cWU3UlBXODAydzcydFQ1di0xTU1zbG4teWNqYnBqcmlRSUh5S1pWeHprNlN1THVHY1hsZlQ4d3dtN205UHFWc2JEZ1lXVHdRV0tPMTlrOXA0dkp1X3kyMWxIRFEzVFE5eWVsRGkxMFl3?oc=5",
-      "publishedAt": "2026-08-21T07:51:57.000Z"
-    },
-    {
-      "source": "Axios",
-      "title": "Texas and Iowa Senate races tighten heading into midterms",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNk1PWXU4QXFlM2RTZS04MW02RldsbGlDUzlobzF5cnJJeDRhUldIZEI5RlNURDg1SkZZUFRoSUVNNTdDSnVRaGNTSTF6MmpYUkdlM3k1Nk9aYUdWSk9DVXhUNV9FQ0xkSmY0aWVBZzZJZnpRbXBSV21KTlRPTzluYkJlV251Q0ZzMnZ1U2tEUW5wZDhUVjFoZmtXUk54blE?oc=5",
-      "publishedAt": "2026-08-21T06:41:07.000Z"
-    },
-    {
       "source": "NPR",
       "title": "Federal agents seize devices from ex-Rep. Eric Swalwell in sexual misconduct probe, AP source says",
       "url": "https://www.npr.org/2026/08/21/nx-s1-5940542/federal-agents-seize-eric-swalwell-sexual-misconduct-probe",
       "publishedAt": "2026-08-21T05:49:48.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "State lawmaker Aisha Wahab wins California special election to replace former Rep. Swalwell",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbzFibjN5UU1XSHd4M0Nnd3NlMnQzdlFjcXRBalNESWpKWXRtRktjcG5uUTFkZ0ktMkk2TU5vLUNSZlVPU2RaUlpPT2ZTNm8wcnBla0Rma3NLbWxZX09VSWtEZGt0VUNwNWotOWs5U1lldC1rODJGSVZRQkpxM29DSHp5aUtPd3lkaHFLVmNzU0NsZ3lfSlRrQ000Nm8yTkg5VW81WVpuSHlxYkpGOW1tbC1BbUcxekJ2VTFLTUp2NWVkU2NaVjFR?oc=5",
-      "publishedAt": "2026-08-21T01:12:20.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Top Alaska Senate Candidates Advance as Angie Nixon Wins in Florida",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQci1UckpMV09GWU5CY3VPWGxobnZnOEh6akZLb0syV3A1bGd4Zi1sSEpFajZ2YTc5UnpBSHpsejQyQnJHRFdQTkIxYlZUb1Rfak43bUFzMjhzc0trZVQxNkRaTWZxdENhUWFVVGMxSGk3N09CUkIxTnMyWTdidmFpb2h2TEk?oc=5",
-      "publishedAt": "2026-08-21T01:07:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Why Treasury yields are at 20-year highs &ndash; and why it matters",
-      "url": "https://www.pbs.org/newshour/show/why-treasury-yields-are-at-20-year-highs-and-why-it-matters",
-      "publishedAt": "2026-08-20T22:55:50.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "War crimes are part of Russia's strategy in Ukraine, retired U.S. Army colonel says",
-      "url": "https://www.pbs.org/newshour/show/war-crimes-are-part-of-russias-strategy-in-ukraine-retired-u-s-army-colonel-says",
-      "publishedAt": "2026-08-20T22:42:08.000Z"
     }
   ]
 }
