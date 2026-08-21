@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-08-21T05:16:21.365Z",
+  "generatedAt": "2026-08-21T09:19:31.795Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "What to know about this weekend's IndyCar race on the National Mall",
+      "url": "https://www.npr.org/2026/08/21/nx-s1-5939443/dc-indycar-race-overview-watch-politics",
+      "publishedAt": "2026-08-21T09:01:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Federal agents seize devices from ex-Rep. Eric Swalwell in sexual misconduct probe, AP source says",
+      "url": "https://www.npr.org/2026/08/21/nx-s1-5940542/federal-agents-seize-eric-swalwell-sexual-misconduct-probe",
+      "publishedAt": "2026-08-21T05:49:48.000Z"
+    },
+    {
+      "source": "Axios",
+      "title": "Iowa Senate and governor races shift left",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDZRa09PczNmM3RXNTBqZWw0YlFxcDNwYnl1azVLNzlGNmFHYUFfOTh1cWU3UlBXODAydzcydFQ1di0xTU1zbG4teWNqYnBqcmlRSUh5S1pWeHprNlN1THVHY1hsZlQ4d3dtN205UHFWc2JEZ1lXVHdRV0tPMTlrOXA0dkp1X3kyMWxIRFEzVFE5eWVsRGkxMFl3?oc=5",
+      "publishedAt": "2026-08-21T05:03:45.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "Tracking Competitive Races in the House and Senate",
@@ -20,16 +38,10 @@
       "publishedAt": "2026-08-21T01:07:00.000Z"
     },
     {
-      "source": "FOX 10 Phoenix",
-      "title": "2026 election: New poll shows Hobbs leading Biggs in Arizona Governor's race",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY3pFdFpVcEZ0RTdiOVU0cXdKQVZ4TnpCYW52cnRHaHBxb0pqUTI0U2JLYTdJUFhwZ2dxeEE0ei1UekJidGliYlFZQ3lGRE93bWVfcUxKWVEyQ3hVT0lHU1cxUjlpN1FrQTAwTUhLY2tVbjF0ZHpTdG9WYk5UUDlDV3VSUDVTQVVvc3ViMjhOeEE1V1M2b2NIWnpDTFpwRG5fZGdsMGJjdjRaWXE4VkE?oc=5",
-      "publishedAt": "2026-08-20T23:40:11.000Z"
-    },
-    {
-      "source": "The Des Moines Register",
-      "title": "Iowa Senate race a 'toss-up,' governor race 'leans Democrat' | Report",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeW9mZF8yaENGUVdiWkM5NGpvR3diWDlCWGhDc01Hb1NOWlhmNU1WQjVNYlpsakJWV2xqMkVKeXdSSE9aaFZxV0xoUHR5djRrWDM1TE1nODZ1UzFGelVSNWJhbzNCanE2VDU5VGVtdy1WSTBpWVJqWWVRMnQwMlRnNFRMRkFxdjVYUEJyWXVZTFlaQW5EUU1BSVVJbTFNbW16WkRZM05WMEt0Yl9uV0RPRno1SmsyMWtCd2dWdUc1LXBvcjJOWmtwSVI0YzNLVnBiWWxFSkZBMkIzSWJT?oc=5",
-      "publishedAt": "2026-08-20T23:19:00.000Z"
+      "source": "Axios",
+      "title": "Texas and Iowa Senate races tighten heading into midterms",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNk1PWXU4QXFlM2RTZS04MW02RldsbGlDUzlobzF5cnJJeDRhUldIZEI5RlNURDg1SkZZUFRoSUVNNTdDSnVRaGNTSTF6MmpYUkdlM3k1Nk9aYUdWSk9DVXhUNV9FQ0xkSmY0aWVBZzZJZnpRbXBSV21KTlRPTzluYkJlV251Q0ZzMnZ1U2tEUW5wZDhUVjFoZmtXUk54blE?oc=5",
+      "publishedAt": "2026-08-21T00:36:00.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -48,18 +60,6 @@
       "title": "Why primary polls appear to be so inaccurate this year",
       "url": "https://www.pbs.org/newshour/show/why-primary-polls-appear-to-be-so-inaccurate-this-year",
       "publishedAt": "2026-08-20T22:30:31.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "So-called 'blue state refugees' have helped turn Florida red",
-      "url": "https://www.npr.org/2026/08/20/nx-s1-5930693/so-called-blue-state-refugees-have-helped-turn-florida-red",
-      "publishedAt": "2026-08-20T20:05:47.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "D.C.'s IndyCar race will zoom past museums. Some worry it could harm the art inside",
-      "url": "https://www.npr.org/2026/08/20/nx-s1-5939431/dc-indycar-race-museums-art-vibration",
-      "publishedAt": "2026-08-20T15:18:21.000Z"
     }
   ]
 }
