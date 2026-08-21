@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-08-21T09:19:31.795Z",
+  "generatedAt": "2026-08-21T13:32:12.289Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Top Iran official says US focus on economic warfare shows it has failed militarily",
+      "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
+      "publishedAt": "2026-08-21T11:42:10.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-08-21T10:05:15.000Z"
+    },
     {
       "source": "NPR",
       "title": "What to know about this weekend's IndyCar race on the National Mall",
@@ -8,22 +20,22 @@
       "publishedAt": "2026-08-21T09:01:00.000Z"
     },
     {
+      "source": "Axios",
+      "title": "Iowa Senate and governor races shift left",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDZRa09PczNmM3RXNTBqZWw0YlFxcDNwYnl1azVLNzlGNmFHYUFfOTh1cWU3UlBXODAydzcydFQ1di0xTU1zbG4teWNqYnBqcmlRSUh5S1pWeHprNlN1THVHY1hsZlQ4d3dtN205UHFWc2JEZ1lXVHdRV0tPMTlrOXA0dkp1X3kyMWxIRFEzVFE5eWVsRGkxMFl3?oc=5",
+      "publishedAt": "2026-08-21T07:51:57.000Z"
+    },
+    {
+      "source": "Axios",
+      "title": "Texas and Iowa Senate races tighten heading into midterms",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNk1PWXU4QXFlM2RTZS04MW02RldsbGlDUzlobzF5cnJJeDRhUldIZEI5RlNURDg1SkZZUFRoSUVNNTdDSnVRaGNTSTF6MmpYUkdlM3k1Nk9aYUdWSk9DVXhUNV9FQ0xkSmY0aWVBZzZJZnpRbXBSV21KTlRPTzluYkJlV251Q0ZzMnZ1U2tEUW5wZDhUVjFoZmtXUk54blE?oc=5",
+      "publishedAt": "2026-08-21T06:41:07.000Z"
+    },
+    {
       "source": "NPR",
       "title": "Federal agents seize devices from ex-Rep. Eric Swalwell in sexual misconduct probe, AP source says",
       "url": "https://www.npr.org/2026/08/21/nx-s1-5940542/federal-agents-seize-eric-swalwell-sexual-misconduct-probe",
       "publishedAt": "2026-08-21T05:49:48.000Z"
-    },
-    {
-      "source": "Axios",
-      "title": "Iowa Senate and governor races shift left",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDZRa09PczNmM3RXNTBqZWw0YlFxcDNwYnl1azVLNzlGNmFHYUFfOTh1cWU3UlBXODAydzcydFQ1di0xTU1zbG4teWNqYnBqcmlRSUh5S1pWeHprNlN1THVHY1hsZlQ4d3dtN205UHFWc2JEZ1lXVHdRV0tPMTlrOXA0dkp1X3kyMWxIRFEzVFE5eWVsRGkxMFl3?oc=5",
-      "publishedAt": "2026-08-21T05:03:45.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-08-21T03:59:12.000Z"
     },
     {
       "source": "PBS",
@@ -38,12 +50,6 @@
       "publishedAt": "2026-08-21T01:07:00.000Z"
     },
     {
-      "source": "Axios",
-      "title": "Texas and Iowa Senate races tighten heading into midterms",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNk1PWXU4QXFlM2RTZS04MW02RldsbGlDUzlobzF5cnJJeDRhUldIZEI5RlNURDg1SkZZUFRoSUVNNTdDSnVRaGNTSTF6MmpYUkdlM3k1Nk9aYUdWSk9DVXhUNV9FQ0xkSmY0aWVBZzZJZnpRbXBSV21KTlRPTzluYkJlV251Q0ZzMnZ1U2tEUW5wZDhUVjFoZmtXUk54blE?oc=5",
-      "publishedAt": "2026-08-21T00:36:00.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "Why Treasury yields are at 20-year highs &ndash; and why it matters",
       "url": "https://www.pbs.org/newshour/show/why-treasury-yields-are-at-20-year-highs-and-why-it-matters",
@@ -54,12 +60,6 @@
       "title": "War crimes are part of Russia's strategy in Ukraine, retired U.S. Army colonel says",
       "url": "https://www.pbs.org/newshour/show/war-crimes-are-part-of-russias-strategy-in-ukraine-retired-u-s-army-colonel-says",
       "publishedAt": "2026-08-20T22:42:08.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Why primary polls appear to be so inaccurate this year",
-      "url": "https://www.pbs.org/newshour/show/why-primary-polls-appear-to-be-so-inaccurate-this-year",
-      "publishedAt": "2026-08-20T22:30:31.000Z"
     }
   ]
 }
