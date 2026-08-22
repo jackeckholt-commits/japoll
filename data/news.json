@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-08-22T13:19:43.001Z",
+  "generatedAt": "2026-08-22T17:00:02.670Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
+      "url": "https://www.pbs.org/newshour/politics/federal-judge-vacates-trump-policy-that-suspended-processing-of-immigration-visas-from-75-countries",
+      "publishedAt": "2026-08-22T16:50:24.000Z"
+    },
     {
       "source": "NPR",
       "title": "Week in Politics: Canada talks collapse; U.S. 'Economic D-Day; record national debt",
@@ -9,7 +15,7 @@
     },
     {
       "source": "NPR",
-      "title": "U.S.-Canada trade talks collapse just before deadline for tariffs",
+      "title": "Hours after U.S. imposes tariffs, Canada says it'll strike back starting Sept. 8",
       "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
       "publishedAt": "2026-08-22T04:36:27.000Z"
     },
@@ -36,12 +42,6 @@
       "title": "Paramount's Warner Bros. bid and threat to leave California divide Hollywood",
       "url": "https://www.pbs.org/newshour/show/paramounts-warner-bros-bid-and-threat-to-leave-california-divide-hollywood",
       "publishedAt": "2026-08-21T22:40:11.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "U.S. ambassador responds to rising tensions between Israel, Turkey and Syria",
-      "url": "https://www.pbs.org/newshour/show/u-s-ambassador-responds-to-rising-tensions-between-israel-turkey-and-syria",
-      "publishedAt": "2026-08-21T22:35:17.000Z"
     },
     {
       "source": "thetexan.news",
