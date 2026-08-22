@@ -1,17 +1,29 @@
 {
-  "generatedAt": "2026-08-22T02:05:09.055Z",
+  "generatedAt": "2026-08-22T05:05:31.546Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "U.S. imposes 50% tariffs on $20 billion worth of Canadian products",
+      "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+      "publishedAt": "2026-08-22T04:36:27.000Z"
+    },
     {
       "source": "The Times",
       "title": "Who will win the 2026 midterm elections? Polls and predictions",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-08-22T00:26:01.000Z"
+      "publishedAt": "2026-08-22T03:25:36.000Z"
     },
     {
       "source": "Alaska Beacon",
       "title": "Is a U.S. Department of Justice investigation about to disrupt Alaska’s U.S. Senate race?",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNFh3OWh2UFdQOHpOcXNUOWJnZVBzakJSb0JUS245S1IzMDI0TGY2OE5aazJIdTBocURMQU52bVl3MzNhbldxMWdJWk4zY3BDR1NjSFJQOWFoVjhuMzJhSER0d3p6VkpOSjRHenRMSGJIcE5aUGgydm1sTDNUaHF3Yi0xWVh4VDJSQ0ZPNlZOc1JCQk9vdE51aUdNaWdQZENYTW1YdHNrRnZWblJEay03QlJCN3ZPNWFVVEltVFdFdw?oc=5",
       "publishedAt": "2026-08-21T23:56:30.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Top Alaska Senate Candidates Advance as Angie Nixon Wins in Florida",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQci1UckpMV09GWU5CY3VPWGxobnZnOEh6akZLb0syV3A1bGd4Zi1sSEpFajZ2YTc5UnpBSHpsejQyQnJHRFdQTkIxYlZUb1Rfak43bUFzMjhzc0trZVQxNkRaTWZxdENhUWFVVGMxSGk3N09CUkIxTnMyWTdidmFpb2h2TEk?oc=5",
+      "publishedAt": "2026-08-21T23:52:00.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -38,28 +50,16 @@
       "publishedAt": "2026-08-21T22:35:17.000Z"
     },
     {
-      "source": "The New York Times",
-      "title": "Top Alaska Senate Candidates Advance as Angie Nixon Wins in Florida",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQci1UckpMV09GWU5CY3VPWGxobnZnOEh6akZLb0syV3A1bGd4Zi1sSEpFajZ2YTc5UnpBSHpsejQyQnJHRFdQTkIxYlZUb1Rfak43bUFzMjhzc0trZVQxNkRaTWZxdENhUWFVVGMxSGk3N09CUkIxTnMyWTdidmFpb2h2TEk?oc=5",
-      "publishedAt": "2026-08-21T20:02:00.000Z"
-    },
-    {
-      "source": "Axios",
-      "title": "Iowa Senate and governor races shift left",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDZRa09PczNmM3RXNTBqZWw0YlFxcDNwYnl1azVLNzlGNmFHYUFfOTh1cWU3UlBXODAydzcydFQ1di0xTU1zbG4teWNqYnBqcmlRSUh5S1pWeHprNlN1THVHY1hsZlQ4d3dtN205UHFWc2JEZ1lXVHdRV0tPMTlrOXA0dkp1X3kyMWxIRFEzVFE5eWVsRGkxMFl3?oc=5",
-      "publishedAt": "2026-08-21T19:55:04.000Z"
-    },
-    {
       "source": "thetexan.news",
       "title": "Cook Political Report Moves Texas Statewide Races Toward Democrats",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMFYyUDY2dExFZDdBbFFZSUktZUd0ZVo2eklyaGQ1cVUwNHJDbkloRlhMY25PX1pldTEtVDloNGgzZENOaDZvUjJ5dmpscWhGeHhKMEwybzFINm1iM09qOTJqQXk3eE5QSVpvbkNjRk9GczlXb19LbnJPUkJRZ2NJcGxPX1IybFR0Ylo0V084X2c4SGdaWkVjcFZzQTh1bE9RZjFzTFVSaDV5anZsSUo2alJvVElzd3g0Z1Z5Q2ZNU0NpaUtYaXlWdGhTSWRIMFBTX2lVQnB5Z1QzQUtRdW1jdG54SWhCTUlE?oc=5",
       "publishedAt": "2026-08-21T19:34:00.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Supreme Court allows Trump's ballroom construction to continue for now",
-      "url": "https://www.npr.org/2026/08/21/nx-s1-5935417/supreme-court-allows-trumps-ballroom-construction-to-continue-for-now",
-      "publishedAt": "2026-08-21T18:47:48.000Z"
+      "source": "Alaska Public Media",
+      "title": "4 takeaways from Alaska's primary election",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTGp2VmYyLXAtMGVFaVJNOGxDV3IyeWFXbUdXR3VsbkdBUEZNWXF2VlZWRHhMZFBJTUE0VWtuVWlMSWpUeWhERHY0aktWcFR1LXdEUG5vQm1zZTJ0eU9pWHZ6WE81SWJ2eHA2TG1JVnl2UF8zVEl0MDBxdF9mbkNoUjhUb1ZFR21xLWh5M1h0WDlidzRhYTAzRXZiZTEybzVtcDNB?oc=5",
+      "publishedAt": "2026-08-21T18:49:00.000Z"
     }
   ]
 }
