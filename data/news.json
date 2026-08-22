@@ -1,11 +1,53 @@
 {
-  "generatedAt": "2026-08-21T21:01:10.308Z",
+  "generatedAt": "2026-08-22T02:05:09.055Z",
   "articles": [
     {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-08-22T00:26:01.000Z"
+    },
+    {
+      "source": "Alaska Beacon",
+      "title": "Is a U.S. Department of Justice investigation about to disrupt Alaska’s U.S. Senate race?",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNFh3OWh2UFdQOHpOcXNUOWJnZVBzakJSb0JUS245S1IzMDI0TGY2OE5aazJIdTBocURMQU52bVl3MzNhbldxMWdJWk4zY3BDR1NjSFJQOWFoVjhuMzJhSER0d3p6VkpOSjRHenRMSGJIcE5aUGgydm1sTDNUaHF3Yi0xWVh4VDJSQ0ZPNlZOc1JCQk9vdE51aUdNaWdQZENYTW1YdHNrRnZWblJEay03QlJCN3ZPNWFVVEltVFdFdw?oc=5",
+      "publishedAt": "2026-08-21T23:56:30.000Z"
+    },
+    {
       "source": "PBS NewsHour",
-      "title": "Arizona AG declines to charge Gov. Katie Hobbs over pay-to-play allegations",
-      "url": "https://www.pbs.org/newshour/politics/arizona-ag-declines-to-charge-gov-katie-hobbs-over-pay-to-play-allegations",
-      "publishedAt": "2026-08-21T20:55:56.000Z"
+      "title": "Stars and Stripes editor, reporter fired for insubordination after doing CBS interview",
+      "url": "https://www.pbs.org/newshour/politics/stars-and-stripes-editor-reporter-fired-for-insubordination-after-doing-cbs-interview",
+      "publishedAt": "2026-08-21T23:42:26.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "From White House ballroom to IndyCar race, Trump's spectacles take center stage in D.C.",
+      "url": "https://www.pbs.org/newshour/show/from-white-house-ballroom-to-indycar-race-trumps-spectacles-take-center-stage-in-d-c",
+      "publishedAt": "2026-08-21T22:55:27.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Paramount's Warner Bros. bid and threat to leave California divide Hollywood",
+      "url": "https://www.pbs.org/newshour/show/paramounts-warner-bros-bid-and-threat-to-leave-california-divide-hollywood",
+      "publishedAt": "2026-08-21T22:40:11.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "U.S. ambassador responds to rising tensions between Israel, Turkey and Syria",
+      "url": "https://www.pbs.org/newshour/show/u-s-ambassador-responds-to-rising-tensions-between-israel-turkey-and-syria",
+      "publishedAt": "2026-08-21T22:35:17.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Top Alaska Senate Candidates Advance as Angie Nixon Wins in Florida",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQci1UckpMV09GWU5CY3VPWGxobnZnOEh6akZLb0syV3A1bGd4Zi1sSEpFajZ2YTc5UnpBSHpsejQyQnJHRFdQTkIxYlZUb1Rfak43bUFzMjhzc0trZVQxNkRaTWZxdENhUWFVVGMxSGk3N09CUkIxTnMyWTdidmFpb2h2TEk?oc=5",
+      "publishedAt": "2026-08-21T20:02:00.000Z"
+    },
+    {
+      "source": "Axios",
+      "title": "Iowa Senate and governor races shift left",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDZRa09PczNmM3RXNTBqZWw0YlFxcDNwYnl1azVLNzlGNmFHYUFfOTh1cWU3UlBXODAydzcydFQ1di0xTU1zbG4teWNqYnBqcmlRSUh5S1pWeHprNlN1THVHY1hsZlQ4d3dtN205UHFWc2JEZ1lXVHdRV0tPMTlrOXA0dkp1X3kyMWxIRFEzVFE5eWVsRGkxMFl3?oc=5",
+      "publishedAt": "2026-08-21T19:55:04.000Z"
     },
     {
       "source": "thetexan.news",
@@ -18,48 +60,6 @@
       "title": "Supreme Court allows Trump's ballroom construction to continue for now",
       "url": "https://www.npr.org/2026/08/21/nx-s1-5935417/supreme-court-allows-trumps-ballroom-construction-to-continue-for-now",
       "publishedAt": "2026-08-21T18:47:48.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Supreme Court chief justice allows work on Trump's $400M White House ballroom to continue for now",
-      "url": "https://www.pbs.org/newshour/politics/supreme-court-chief-justice-allows-work-on-trumps-400m-white-house-ballroom-to-continue-for-now",
-      "publishedAt": "2026-08-21T18:42:55.000Z"
-    },
-    {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-08-21T18:24:33.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Idaho Governor Election 2026: Latest Polls",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeFBvel85RXQ0UGpvS25LdlA1NHp2ODIzbGZMQ3JJUTd6MzJxbFR4Z3ZseDY5OFlXRGxud1pjTnJpeUU5Tm9rVDJoWDVoN0EwNzBMZnFONWVnS2Voem5mai0tSjN1Nkg1cklXc3VETUltWTdfR2dLbDE0ZTlVYndmZHByTFJyejBT?oc=5",
-      "publishedAt": "2026-08-21T17:20:15.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Enrollment in SNAP grocery aid is dropping faster than expected",
-      "url": "https://www.pbs.org/newshour/nation/enrollment-in-snap-grocery-aid-is-dropping-faster-than-expected",
-      "publishedAt": "2026-08-21T15:28:29.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Trump stumps for S.C. Sen. Darline Graham ahead of GOP runoff",
-      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-stumps-for-s-c-sen-darline-graham-ahead-of-gop-runoff",
-      "publishedAt": "2026-08-21T14:34:57.000Z"
-    },
-    {
-      "source": "Alaska Beacon",
-      "title": "With almost all Alaska primary election day ballots counted, only a few races remain in question",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYldfdjFFdk1wa2ZyWGludjcxODhPWTkyQ0xiSG52TkNfbElabFh2VjJ3MlZjdEdnMUhubVhZNWFfMFdNSXplOXdYUUloQ3FXMmc3VEFxTmx1cVpHWHNrR3ktMWpCRV85cWJjRUcxN2NCY3h6Z3JxdXp2RGhHWnFSd0dySWNackZaY2N2NzVyZzRLbk9lWmJpNjFJTS1uWmpOMF9YODVreVJPdXJmMlV6WkNTdnJZb0NwMTROdjBBekJIaUZhWFQ0VU4wQ0c?oc=5",
-      "publishedAt": "2026-08-21T14:21:27.000Z"
-    },
-    {
-      "source": "KATV",
-      "title": "New poll signals tighter 2026 Arkansas races as Jones, Shoffner outpace GOP incumbents",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaG9XV0hmdEFKckxZalVYQUY5MHFHNFFJWXVyT1RiREdCM2NMZHFGamN6czFVUUg3X0paLWhzQll3YWgwZXVmMVZ2RGhrU2t6V2szbmQ3WVhTbmh5SHlHUWt6TmtYR1cwbEZrTExUbldjQ1lrQ2VOWEZ2b0hYYU54cTRvX1RTd2dLV0Vsd3dfdUtqMzlkY24waG5ZRWFnYkxMN1FIUnJGSjNKOC1NblQ5S0xCUQ?oc=5",
-      "publishedAt": "2026-08-21T13:52:40.000Z"
     }
   ]
 }
