@@ -1,17 +1,11 @@
 {
-  "generatedAt": "2026-08-22T05:05:31.546Z",
+  "generatedAt": "2026-08-22T09:03:49.559Z",
   "articles": [
     {
       "source": "NPR",
-      "title": "U.S. imposes 50% tariffs on $20 billion worth of Canadian products",
+      "title": "U.S.-Canada trade talks collapse minutes before deadline for tariffs to take effect",
       "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
       "publishedAt": "2026-08-22T04:36:27.000Z"
-    },
-    {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-08-22T03:25:36.000Z"
     },
     {
       "source": "Alaska Beacon",
@@ -60,6 +54,12 @@
       "title": "4 takeaways from Alaska's primary election",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTGp2VmYyLXAtMGVFaVJNOGxDV3IyeWFXbUdXR3VsbkdBUEZNWXF2VlZWRHhMZFBJTUE0VWtuVWlMSWpUeWhERHY0aktWcFR1LXdEUG5vQm1zZTJ0eU9pWHZ6WE81SWJ2eHA2TG1JVnl2UF8zVEl0MDBxdF9mbkNoUjhUb1ZFR21xLWh5M1h0WDlidzRhYTAzRXZiZTEybzVtcDNB?oc=5",
       "publishedAt": "2026-08-21T18:49:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Supreme Court allows Trump's ballroom construction to continue for now",
+      "url": "https://www.npr.org/2026/08/21/nx-s1-5935417/supreme-court-allows-trumps-ballroom-construction-to-continue-for-now",
+      "publishedAt": "2026-08-21T18:47:48.000Z"
     }
   ]
 }
