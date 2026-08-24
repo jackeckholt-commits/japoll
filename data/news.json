@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-08-24T09:30:02.249Z",
+  "generatedAt": "2026-08-24T13:37:35.627Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Treasury Secretary Scott Bessent to unveil new economic sanctions on Iran",
+      "url": "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran",
+      "publishedAt": "2026-08-24T12:26:00.000Z"
+    },
+    {
+      "source": "The Guardian",
+      "title": "Devastation, doubt and blame: Hurricane Helene looms over North Carolina’s US Senate race",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWlVKclpBSnpKYmJELVJ2bzNxMnh3ZHRKcWEyaFVQNTRmdTYzUUdYX29IMnU5NS1wdTF5VUh5NmlIWTJ2QkdGRlc3RUYzcHdkUVlGQkk5SFM4U0ZBUzFhajFGYmxPem5VSHFrRDBNaDV4QzNlMEhrY293dU02R0U0R2tWUkFYWHJ2cjdIVGZwT3FGWkJDQnlnZW12d1dnZnI1QkxxZVhfNGRIZw?oc=5",
+      "publishedAt": "2026-08-24T10:02:00.000Z"
+    },
     {
       "source": "NPR",
       "title": "How Trump's foreign policy is affecting America's relationship with its allies",
       "url": "https://www.npr.org/2026/08/24/nx-s1-5940692/how-trumps-foreign-policy-is-affecting-americas-relationship-with-its-allies",
       "publishedAt": "2026-08-24T08:43:04.000Z"
+    },
+    {
+      "source": "WKMG",
+      "title": "Lake County recount leaves Republican congressional race virtually unchanged",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM0Nad2thX2tLd04talkzZFphYkgxRnFfaTNUa19Hd21ncUJpaWdjby1mbTlwMmhucXgyc3cwRHJRN3NHNHY0d2N1M3puMHI5MEVnNnUwM1drRllqVExqQ0pCUFRGdlhKTDUwdXFFS3FJYkI0QWFyVUZGT1RDLXN6ZEM3VEZRX3BibS1SS2p0MExBZFNCRkVHQVd6SzlRRWZxRm91d3dlUEVXeVpRVWRXNXlKMWg1R0g0Sm5DVko0UnU?oc=5",
+      "publishedAt": "2026-08-24T07:20:13.000Z"
     },
     {
       "source": "Nebraska Examiner",
@@ -20,22 +38,10 @@
       "publishedAt": "2026-08-23T20:41:38.000Z"
     },
     {
-      "source": "Axios",
-      "title": "Dems turning more GOP Senate strongholds into midterm battlegrounds",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRDBRNWZMQ1AtbzEyZ0xwV2NDYlJCTnplMVRfZGhEWjc3ZW9sTGlzZFJ6WWIwcE1Cei1yNDF0OThUTjRybkJOcHhSWThWZExacWJ6TFFPY2lmUWctYzBFMGtCQngzSEMtRVlVTUxRY01mcE0yTFZuQTNKOW5Zd191aGx4ZEdNeWR2a2lXYmhRQnFqZkk4?oc=5",
-      "publishedAt": "2026-08-23T20:20:30.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "Report: Jared Kushner and Democratic leader Jeffries meet with House control at stake in November",
       "url": "https://www.pbs.org/newshour/politics/jared-kushner-and-democratic-leader-jeffries-meet-with-house-control-at-stake-in-november",
       "publishedAt": "2026-08-23T19:34:55.000Z"
-    },
-    {
-      "source": "City & State Pennsylvania",
-      "title": "2026 Pennsylvania Race Election Race | Polls, Candidates & Odds",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYU1xS2lkRVZ3a1YwUmZ0aUtfT25saWwwMEh3bmUzMUJOdmhBb29fS1VkRUpVdEQ2MW9TRnlQNldKNHVoaEJNMW5ZdjRMd3J2WnBmRGxiQnlIWmlIcWRpekhMRmR4Mm9lbkFIVGtDVDNYU1FPZVQ5aHp4YndlbDA5bGtqaXFja3pQNWZQTEc3dXIzQnhkVnRwZ1I5azJ1VnJOemtUa0NfdjNUVm1OSFhwVmk0d19XdVdNcFg3bTJtWTI3NDZN?oc=5",
-      "publishedAt": "2026-08-23T19:20:34.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -44,22 +50,16 @@
       "publishedAt": "2026-08-23T15:21:21.000Z"
     },
     {
+      "source": "Axios",
+      "title": "Dems turning more GOP Senate strongholds into midterm battlegrounds",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRDBRNWZMQ1AtbzEyZ0xwV2NDYlJCTnplMVRfZGhEWjc3ZW9sTGlzZFJ6WWIwcE1Cei1yNDF0OThUTjRybkJOcHhSWThWZExacWJ6TFFPY2lmUWctYzBFMGtCQngzSEMtRVlVTUxRY01mcE0yTFZuQTNKOW5Zd191aGx4ZEdNeWR2a2lXYmhRQnFqZkk4?oc=5",
+      "publishedAt": "2026-08-23T13:01:31.000Z"
+    },
+    {
       "source": "NPR",
       "title": "Becerra, running for governor of California, faces a health insurance problem",
       "url": "https://www.npr.org/2026/08/23/nx-s1-5941143/california-governor-xavier-becerra-health-insurance",
       "publishedAt": "2026-08-23T12:50:09.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump nominates Cameron Hamilton to lead FEMA (again)",
-      "url": "https://www.npr.org/2026/08/23/nx-s1-5939486/trump-nominates-cameron-hamilton-to-lead-fema-again",
-      "publishedAt": "2026-08-23T12:25:12.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Week in politics: primaries results, Iran pressure, Korean relations flip",
-      "url": "https://www.npr.org/2026/08/23/nx-s1-5940819/week-in-politics-primaries-results-iran-pressure-korean-relations-flip",
-      "publishedAt": "2026-08-23T12:02:43.000Z"
     }
   ]
 }
