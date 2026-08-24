@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-08-24T05:24:53.072Z",
+  "generatedAt": "2026-08-24T09:30:02.249Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "How Trump's foreign policy is affecting America's relationship with its allies",
+      "url": "https://www.npr.org/2026/08/24/nx-s1-5940692/how-trumps-foreign-policy-is-affecting-americas-relationship-with-its-allies",
+      "publishedAt": "2026-08-24T08:43:04.000Z"
+    },
     {
       "source": "Nebraska Examiner",
       "title": "Nebraska Democrats vote not to fill vacancy for Senate race",
@@ -14,22 +20,28 @@
       "publishedAt": "2026-08-23T20:41:38.000Z"
     },
     {
+      "source": "Axios",
+      "title": "Dems turning more GOP Senate strongholds into midterm battlegrounds",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRDBRNWZMQ1AtbzEyZ0xwV2NDYlJCTnplMVRfZGhEWjc3ZW9sTGlzZFJ6WWIwcE1Cei1yNDF0OThUTjRybkJOcHhSWThWZExacWJ6TFFPY2lmUWctYzBFMGtCQngzSEMtRVlVTUxRY01mcE0yTFZuQTNKOW5Zd191aGx4ZEdNeWR2a2lXYmhRQnFqZkk4?oc=5",
+      "publishedAt": "2026-08-23T20:20:30.000Z"
+    },
+    {
       "source": "PBS NewsHour",
       "title": "Report: Jared Kushner and Democratic leader Jeffries meet with House control at stake in November",
       "url": "https://www.pbs.org/newshour/politics/jared-kushner-and-democratic-leader-jeffries-meet-with-house-control-at-stake-in-november",
       "publishedAt": "2026-08-23T19:34:55.000Z"
     },
     {
+      "source": "City & State Pennsylvania",
+      "title": "2026 Pennsylvania Race Election Race | Polls, Candidates & Odds",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYU1xS2lkRVZ3a1YwUmZ0aUtfT25saWwwMEh3bmUzMUJOdmhBb29fS1VkRUpVdEQ2MW9TRnlQNldKNHVoaEJNMW5ZdjRMd3J2WnBmRGxiQnlIWmlIcWRpekhMRmR4Mm9lbkFIVGtDVDNYU1FPZVQ5aHp4YndlbDA5bGtqaXFja3pQNWZQTEc3dXIzQnhkVnRwZ1I5azJ1VnJOemtUa0NfdjNUVm1OSFhwVmk0d19XdVdNcFg3bTJtWTI3NDZN?oc=5",
+      "publishedAt": "2026-08-23T19:20:34.000Z"
+    },
+    {
       "source": "PBS NewsHour",
       "title": "Trump waves the green flag to start the IndyCar race as racers zoom through Washington's streets",
       "url": "https://www.pbs.org/newshour/politics/trump-will-kick-off-the-indycar-race-before-cars-zoom-through-washingtons-streets",
       "publishedAt": "2026-08-23T15:21:21.000Z"
-    },
-    {
-      "source": "Axios",
-      "title": "Dems turning more GOP Senate strongholds into midterm battlegrounds",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRDBRNWZMQ1AtbzEyZ0xwV2NDYlJCTnplMVRfZGhEWjc3ZW9sTGlzZFJ6WWIwcE1Cei1yNDF0OThUTjRybkJOcHhSWThWZExacWJ6TFFPY2lmUWctYzBFMGtCQngzSEMtRVlVTUxRY01mcE0yTFZuQTNKOW5Zd191aGx4ZEdNeWR2a2lXYmhRQnFqZkk4?oc=5",
-      "publishedAt": "2026-08-23T13:18:50.000Z"
     },
     {
       "source": "NPR",
@@ -48,18 +60,6 @@
       "title": "Week in politics: primaries results, Iran pressure, Korean relations flip",
       "url": "https://www.npr.org/2026/08/23/nx-s1-5940819/week-in-politics-primaries-results-iran-pressure-korean-relations-flip",
       "publishedAt": "2026-08-23T12:02:43.000Z"
-    },
-    {
-      "source": "PhillyBurbs",
-      "title": "How will Tuesday primary results impact November midterms 2026?",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOREVTaHFyejk1d1NhYXpNVXRaX3JsR0ZXMU16ZVBBV01oRnJIQ1p3NjRvV3RmLUtwNXlYV3oyV2NyNkhtQ3Y1RXZheXBxQUNaNUxVUW42aDRNVjNHRTROLWFXUzBBYkt3d0NJdlZvTUZGN3NOcmNvSEl4bXNjazVBSDRFX2xlSk5oQ3FGTG5KY2RKOXEzcjNDX1puVFVWT1MxM3Qtd2YtYXZWYk5wQ0RKTUtmeHlNX2xNNGRncmxkR3lwVnpMX2QwTEpLWDlxWGtSQlZaMnNlVGdLMHl1bmE3Q0tjTQ?oc=5",
-      "publishedAt": "2026-08-23T09:06:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "The complexities of covering swing voters and what they teach us about politics",
-      "url": "https://www.npr.org/2026/08/22/nx-s1-5938772/the-complexities-of-covering-swing-voters-and-what-they-teach-us-about-politics",
-      "publishedAt": "2026-08-22T21:30:46.000Z"
     }
   ]
 }
