@@ -1,10 +1,40 @@
 {
-  "generatedAt": "2026-08-24T17:16:02.015Z",
+  "generatedAt": "2026-08-24T21:06:47.458Z",
   "articles": [
     {
       "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Bessent expected to announce new round of Iran sanctions",
-      "url": "https://www.pbs.org/newshour/world/watch-live-bessent-expected-to-announce-new-round-of-iran-sanctions",
+      "title": "U.S. set for largest mass visa revocation in history targeting up to 200,000 foreigners, officials say",
+      "url": "https://www.pbs.org/newshour/politics/u-s-set-for-largest-mass-visa-revocation-in-history-targeting-up-to-200000-foreigners-officials-say",
+      "publishedAt": "2026-08-24T20:59:38.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Supreme Court pauses lower court ruling on Trump's mail voting order as hurdles loom",
+      "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court",
+      "publishedAt": "2026-08-24T20:53:45.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "A Census Bureau report on noncitizen voting has ties to a Trump-aligned think tank",
+      "url": "https://www.npr.org/2026/08/24/nx-s1-5938799-e1/a-census-bureau-report-on-noncitizen-voting-has-ties-to-a-trump-aligned-think-tank",
+      "publishedAt": "2026-08-24T20:40:33.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Pete Buttigieg returns to South Carolina as he weighs another White House run",
+      "url": "https://www.pbs.org/newshour/politics/pete-buttigieg-returns-to-south-carolina-as-he-weighs-another-white-house-run",
+      "publishedAt": "2026-08-24T20:12:53.000Z"
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 midterm election forecast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+      "publishedAt": "2026-08-24T18:43:12.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Bessent announces new sanctions to block Iran's revenue streams",
+      "url": "https://www.pbs.org/newshour/world/watch-bessent-announces-new-round-of-iran-sanctions",
       "publishedAt": "2026-08-24T16:30:21.000Z"
     },
     {
@@ -30,36 +60,6 @@
       "title": "How close is the race between James Talarico and Ken Paxton? See the major polls.",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pd24yNFR6cGpjNUpBZVVOZmN1bTJvc3YtM21NNWRLUEU4emtTWFdNTDNNMDFUb09sczhldE9hdGRZNXg2VDhEci1vZlZCREZTWkE0cjc2RVVEVUxtVFU2RF8tQjRsb1BhZXJmc0h4Ykt4MkQ1cng0?oc=5",
       "publishedAt": "2026-08-24T15:00:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Ontario's premier says Reagan would be 'throwing up' over Trump's tariffs",
-      "url": "https://www.pbs.org/newshour/world/ontarios-premier-says-reagan-would-be-throwing-up-over-trumps-tariffs",
-      "publishedAt": "2026-08-24T14:57:37.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Treasury Secretary Scott Bessent is set to unveil new economic sanctions on Iran",
-      "url": "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran",
-      "publishedAt": "2026-08-24T12:26:00.000Z"
-    },
-    {
-      "source": "Oklahoma Voice",
-      "title": "Voters set to determine winner of GOP governor primary, outcome of controversial state questions",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNXo0azJNekNJNVNmSTlzN2hodTlYMENQSjQ0aXBSU1c4V1JWdk5oRTlHZE9lLVFONzAtQlhlWVBnbnRENUhlbzNidXlYaS04WE16Y2ZnamVXSmVRRXRzMVg4Q2JGM05VQnQ2dDZOQnFHZ1J1TE1XSWdiU3RIZmVZSDZfRWdMcWwtSk1VMzRxbkd4RlRicXJqMEVFNXcxY0lVenZUeDYySjZYOHFQdTBTNHdUUVRoUU9oclpzd2dyZHkxc3hqaTVENFR3?oc=5",
-      "publishedAt": "2026-08-24T10:33:35.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "How Trump's foreign policy is affecting America's relationship with its allies",
-      "url": "https://www.npr.org/2026/08/24/nx-s1-5940692/how-trumps-foreign-policy-is-affecting-americas-relationship-with-its-allies",
-      "publishedAt": "2026-08-24T08:43:04.000Z"
-    },
-    {
-      "source": "Axios",
-      "title": "Dems turning more GOP Senate strongholds into midterm battlegrounds",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRDBRNWZMQ1AtbzEyZ0xwV2NDYlJCTnplMVRfZGhEWjc3ZW9sTGlzZFJ6WWIwcE1Cei1yNDF0OThUTjRybkJOcHhSWThWZExacWJ6TFFPY2lmUWctYzBFMGtCQngzSEMtRVlVTUxRY01mcE0yTFZuQTNKOW5Zd191aGx4ZEdNeWR2a2lXYmhRQnFqZkk4?oc=5",
-      "publishedAt": "2026-08-24T05:24:37.000Z"
     }
   ]
 }
