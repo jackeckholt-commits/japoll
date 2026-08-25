@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-08-25T05:17:40.292Z",
+  "generatedAt": "2026-08-25T09:19:52.085Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Can Trump's economic war against Iran do what airstrikes and negotiations couldn't?",
+      "url": "https://www.npr.org/2026/08/25/nx-s1-5943572/trump-iran-sanctions",
+      "publishedAt": "2026-08-25T09:07:09.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "The UK will help Ukraine make long-range missiles by sharing classified tech information",
+      "url": "https://www.npr.org/2026/08/25/nx-s1-5944059/the-uk-will-help-ukraine-make-long-range-missiles-by-sharing-classified-tech-information",
+      "publishedAt": "2026-08-25T05:14:03.000Z"
+    },
     {
       "source": "NPR",
       "title": "US set for largest mass visa revocation in history targeting up to 200,000 foreigners, officials say",
@@ -44,22 +56,10 @@
       "publishedAt": "2026-08-24T22:40:47.000Z"
     },
     {
-      "source": "PBS",
-      "title": "Live Results: Oklahoma's midterm primary runoff",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS29tRnNlMVh3Wm52WkVyNU52YmhqamhrU291NlR2QV9TUjVEekNFbWFMN1UxWHVrczdVWTE5dy1XLWVDUVhFc3JIenltd3R5SkFEQy1FUXVXdGZCamNFOU9rMkh0SU5HT0tMMURZYkNBcHdyVTFQV1doRnpEV3RUMGdsTkNKMkFQeUNB0gGQAUFVX3lxTE5SRnVaakd0WF9GNGpBbDN3UnU2WlFFZkRzM1BmajRWTXBMeUQ3T1c1NzdlQm1FeEFHd2xjaHVib0pKVVNMbXpBbmRKdHJEa3l1YU5PME5pUUFhdXVER2JHcXM1U3lMU0gyMFMyakIydTdsQ295XzA5NU1JbXRvY2hNQ3NJa3d1OTdwT21zSzhUaw?oc=5",
-      "publishedAt": "2026-08-24T21:45:44.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Third time the charm? Democrat Christina Bohannan tries again in pivotal House race in Iowa",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVRkYldwazdPN1NHUDJSTjZlZVJ2RHpONW1rQzBUSjJtb3ROaGRjb2psV3UyemJ1V09GOW1vZFNSQXk1RFIycmZzOHo1TTM5b001VFBhd2xVSnBzdnpCVmw2RkFFaG1TSGdHOG1maTJJUTB2MzlSdUNHUUx4Rlc3MW5ueUgycDZfTVFIQW1MS3VrMFVZSDFTeW5KeTZBblFOSU5OSmRYMmxwVkU3emNsVkxrSnVVbTBpYllsSFZmTXdhUHhUSnBr0gHMAUFVX3lxTFBMVV9ZR2wyMmZvUHQ3Z28yeEJfUXZPdXdoTFpPUnQwOXhNSmFWdWVHOFIzQ1NXbXdoc1hOdXhhcjVRVGpNUzgyVklib0FvV1JSWmRCWmNzb2NRV19qRTV4ZnVEcTA4bUQ2N3FxSThvZ3FxRzNjZUQ1Vkg2VUNnZUhqQTJkRnN3dXRKQ3ZUS1BHVk5yU1BoWE5DOHdZSVE2Q1FoVnZKRzNXV1JQTlloSERnOWJOV05ZY1l5czZrY1VqeDNoaWtrZXhUNWt1Mw?oc=5",
-      "publishedAt": "2026-08-24T21:41:51.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Live Results: South Carolina's special Senate GOP primary runoff",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYjg2V0dHUnUxU29oMEx1RjdqaDZwM1J6eDZ4akpwOV9wZ2pJb3pGTEktVm9VNWI1WkYzUnBVTi1WMVhwdHV2MElXX3I4UHRKV0QzbUNZbWNVakNmd0NnRkF4c3JjdlZIUjhYc1BORDY5dUtoQmN5Q01saUJKVEUyM1RtanphcERldEFrSl9OdWFDMm1lZ3lsM254ZE42QUFWa2fSAacBQVVfeXFMTUdwNU9iaTRZY2M4RDFMWkNPMTlJU0F1cmpDS3F3dlRHYm5hUU03ZGNpYldzSzh4V3hzODQwcGVnbUdERzNqMmFPUk0xWndnRVExMjVaTEFhZko4TlA0dW5JM2lrMzRmazU3U3dGRl9QMTFtU3MwZDliWVJFd19Udm1uemVIdHYwMEprck1mVnA1cTljeEJzYkNURlJ6SXVFRFg2WVkxdm8?oc=5",
-      "publishedAt": "2026-08-24T21:30:42.000Z"
+      "source": "The New York Times",
+      "title": "Idaho Governor Election 2026: Latest Polls",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeFBvel85RXQ0UGpvS25LdlA1NHp2ODIzbGZMQ3JJUTd6MzJxbFR4Z3ZseDY5OFlXRGxud1pjTnJpeUU5Tm9rVDJoWDVoN0EwNzBMZnFONWVnS2Voem5mai0tSjN1Nkg1cklXc3VETUltWTdfR2dLbDE0ZTlVYndmZHByTFJyejBT?oc=5",
+      "publishedAt": "2026-08-24T22:17:41.000Z"
     }
   ]
 }
