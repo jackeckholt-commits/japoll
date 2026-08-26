@@ -1,18 +1,6 @@
 {
-  "generatedAt": "2026-08-26T02:13:48.715Z",
+  "generatedAt": "2026-08-26T05:17:05.578Z",
   "articles": [
-    {
-      "source": "AP News",
-      "title": "South Carolina U.S. Senate Special Runoff Election Live Results 2026",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWjNkVmZSYy1PUUp2V1p2ZHJCVUx1NVdtOWFkMkNNT1EzcWs2ZXNvOVZnaGR3NDVqRkxBQjJxbkM5RzdlUDZvMzB6c2tKeGhLbGRKVEFWN01tQjFEWjA5NHFGTERnenNSa2Vfb2wyOGp2a0NCTEZEMFRpQ0JxaXZ1Z0V4Rlg0eG5PRTh2WURrc2dWVHRCNWRvZjVqbVpaT0Fn?oc=5",
-      "publishedAt": "2026-08-26T01:23:07.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Sen. Darline Graham wins the Republican Senate primary runoff in South Carolina",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNVFhYVgwcXFQRUJZRU9ManB4VWh5ZUNlQ1hLMmhJbkVTTDNDMEJrdldtVmVfME16NksyWi1qQmxqb1g2SU1tVUlVM3VvNUdmV19QMnhWOEczenl3RE11aTZpZmM4Um02WWJqR3FyYTV4MXNlU1MzWkZpdkkwR0YySGRnM18yb1RkVnJNcDdJV2JFUFZGeXJzM3k2N1RndzV6WjdDNVFiR1pXWmhiU2ozdzRNcw?oc=5",
-      "publishedAt": "2026-08-26T00:53:00.000Z"
-    },
     {
       "source": "PBS NewsHour",
       "title": "Canada retaliates with tariffs against U.S. as relations deteriorate",
@@ -38,28 +26,28 @@
       "publishedAt": "2026-08-25T22:35:51.000Z"
     },
     {
-      "source": "FOX 7 Austin",
-      "title": "Texas governor’s race: Abbott widens lead over Hinojosa in new poll",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSjJvNVZTYWZpa0d2R3ZPRklCNTJPdGM4ZEVvcDdqQVFodUVuS09FMWVMZUpLeDI3enAycndyTEVWUWRSSU5KS0tWNG1STUdxMEF2U0ZoNndJdjZobnNkY19Vb2lEZnpsdGZoSDV0ZDV2d29ja3hNaWpPWFFHNTF6R2pYeVZSdURqeGZHWVdxYlQ?oc=5",
-      "publishedAt": "2026-08-25T22:33:15.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Idaho Governor Election 2026: Latest Polls",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeFBvel85RXQ0UGpvS25LdlA1NHp2ODIzbGZMQ3JJUTd6MzJxbFR4Z3ZseDY5OFlXRGxud1pjTnJpeUU5Tm9rVDJoWDVoN0EwNzBMZnFONWVnS2Voem5mai0tSjN1Nkg1cklXc3VETUltWTdfR2dLbDE0ZTlVYndmZHByTFJyejBT?oc=5",
-      "publishedAt": "2026-08-25T22:15:08.000Z"
-    },
-    {
-      "source": "WBTV",
-      "title": "Tracking South Carolina runoff election results for special GOP Senate primary",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdFExcnVmVEtjU2NRdFlFRTFrVkdnREo5SVMxQ05pVUtYYi1BcWdRZ2VVSnhrRk5GUG1qdGg3di1DUnhrUVZIVUNwQjZzX1prMHYwMUEwOTF1c1VHbElHeGF4NTZxcVJhdlM0LTg2MFdFOGxLdVFYQk1rVmZoS0JTX1Y4RWNNM1NhOUNOMVdTR0xlSUpXdDRsb1BSOWRCc1NFN1ZJeUFLZGFMRU0?oc=5",
-      "publishedAt": "2026-08-25T22:04:27.000Z"
-    },
-    {
       "source": "NPR",
       "title": "Sen. Darline Graham wins GOP nomination for U.S. Senate in South Carolina",
       "url": "https://www.npr.org/2026/08/25/nx-s1-5943041/south-carolina-senate-runoff-graham-norman-trump-endorsement",
       "publishedAt": "2026-08-25T20:47:54.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "DHS acknowledges the noncitizen numbers it touted on voter rolls were inflated",
+      "url": "https://www.npr.org/2026/08/25/nx-s1-5940807/noncitizen-voters-trump-nevada-call",
+      "publishedAt": "2026-08-25T18:15:23.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Canada hits back at the U.S. with tariffs as the countries' trade fight escalates",
+      "url": "https://www.npr.org/2026/08/25/nx-s1-5944240/canada-us-tariffs",
+      "publishedAt": "2026-08-25T15:20:18.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Several states will decide voter ID ballot measures this year",
+      "url": "https://www.npr.org/2026/08/25/nx-s1-5940004/voter-id-citizenship-ballot-measures",
+      "publishedAt": "2026-08-25T14:40:36.000Z"
     }
   ]
 }
