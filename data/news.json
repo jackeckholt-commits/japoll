@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-08-30T05:51:37.749Z",
+  "generatedAt": "2026-08-30T13:59:41.045Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Politics chat: more tariffs, mail-in voting order, Kushner-Jeffries meeting",
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5948115/politics-chat-more-tariffs-mail-in-voting-order-kushner-jeffries-meeting",
+      "publishedAt": "2026-08-30T12:02:26.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Are you sure that Kimmel clip was real? Late-night AI deepfakes are spreading online",
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5943190/jimmy-kimmel-deepfake-jon-stewart-abc-ai",
+      "publishedAt": "2026-08-30T11:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump administration deports relative of Afghans who helped US military to Central African Republic",
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5949230/trump-administration-deports-afghan-central-african-republic",
+      "publishedAt": "2026-08-30T08:32:13.000Z"
+    },
     {
       "source": "Silver Bulletin",
       "title": "FLIPR 2026 midterm election forecast",
@@ -42,24 +60,6 @@
       "title": "One Democrat to Face Three Republicans for Alaska Governor",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nS0dvZnZJWGp6UHZaN1k4b1JNc3BNcnNuTFVXUFFPN2cwcHFjbzFEemd3OWdwdFl0Skp5VGowdGpJVVBadVIwcU1TV3NXVlNVY2t1dzIyT052TTVPU1UzM3llLTFnQlBkcHpQeXBwNXhsMFZ3dlc3Rg?oc=5",
       "publishedAt": "2026-08-29T13:01:46.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Week in Politics: Trump renames Lake Ontario 'Lake America'; Fed chair signals hikes",
-      "url": "https://www.npr.org/2026/08/29/nx-s1-5945108/week-in-politics-trump-renames-lake-ontario-lake-america-fed-chair-signals-hikes",
-      "publishedAt": "2026-08-29T11:40:48.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Why is one WNBA team calling in national security experts?",
-      "url": "https://www.npr.org/2026/08/29/nx-s1-5947897/wnba-national-security",
-      "publishedAt": "2026-08-29T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump says U.S. has entered deal with Venezuela to take control of 65 billion barrels of oil reserves",
-      "url": "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves",
-      "publishedAt": "2026-08-29T02:07:55.000Z"
     }
   ]
 }
