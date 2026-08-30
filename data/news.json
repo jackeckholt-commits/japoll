@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-08-30T13:59:41.045Z",
+  "generatedAt": "2026-08-30T19:28:06.515Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Lake Ontario to 'Lake America': Who gets to decide what goes on maps?",
+      "url": "https://www.pbs.org/newshour/nation/lake-ontario-to-lake-america-who-gets-to-decide-what-goes-on-maps",
+      "publishedAt": "2026-08-30T18:16:37.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Ontario premier answers Trump's 'Lake America' with giant 'Lake Ontario' sign",
+      "url": "https://www.pbs.org/newshour/world/ontario-premier-answers-trumps-lake-america-with-giant-lake-ontario-sign",
+      "publishedAt": "2026-08-30T15:37:07.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Canada claps back at Trump's efforts to rename Lake Ontario as 'Lake America'",
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5949254/lake-ontario-america-doug-ford-trump-sign-google",
+      "publishedAt": "2026-08-30T14:36:44.000Z"
+    },
     {
       "source": "NPR",
       "title": "Politics chat: more tariffs, mail-in voting order, Kushner-Jeffries meeting",
@@ -12,6 +30,12 @@
       "title": "Are you sure that Kimmel clip was real? Late-night AI deepfakes are spreading online",
       "url": "https://www.npr.org/2026/08/30/nx-s1-5943190/jimmy-kimmel-deepfake-jon-stewart-abc-ai",
       "publishedAt": "2026-08-30T11:00:00.000Z"
+    },
+    {
+      "source": "Los Angeles Times",
+      "title": "Commentary: Don't look now, but suddenly the U.S. Senate is in play",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM3dHV2RfTkFBN21pWFp4ZXRPSWpkQ09OcHU2alIwbnBRSkhSVFgzblNzSW5rZ2I0bzk0eFBzRGtSck56YVNMMElHdHk1X1hlRDNsSDdKYmNTdnd0X3hOU1p6bDFOM1pEbXd3dUpacUVLUXZNNnVYUkRuTWJpMkxYX1dpTVhZN0M5ZkNSQ0J6N21kZEZNT1NoQXVXRlBCMXVLZEhJX2FtSjRIQTlta3pfSE8wWko4TklyUjBB?oc=5",
+      "publishedAt": "2026-08-30T10:00:00.000Z"
     },
     {
       "source": "NPR",
@@ -36,30 +60,6 @@
       "title": "The Earth is sizzling, but climate isn't a hot topic for Democrats in this year's campaigns",
       "url": "https://www.pbs.org/newshour/politics/the-earth-is-sizzling-but-climate-isnt-a-hot-topic-for-democrats-in-this-years-campaigns",
       "publishedAt": "2026-08-29T18:40:12.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump cannot deport students for criticizing Israel, judge rules",
-      "url": "https://www.pbs.org/newshour/nation/trump-cannot-deport-students-for-criticizing-israel-judge-rules",
-      "publishedAt": "2026-08-29T18:14:48.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Untested in court, Trump's new tariffs on Canada raise legal questions",
-      "url": "https://www.pbs.org/newshour/politics/untested-in-court-trumps-new-tariffs-on-canada-raise-legal-questions",
-      "publishedAt": "2026-08-29T15:58:58.000Z"
-    },
-    {
-      "source": "The Texas Tribune",
-      "title": "James Talarico to air first TV ad attacking Ken Paxton in Senate race",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWRNUGJKTV82QlBhc3AtcWpLeUFSWkNuLW02bzJhUk1OQjBGVk1aT0xrVXppSlNqTDVBbWxRZElfdjgxdFlVa3ZLWlI2RVdCWUx1TmFIaFoxRWpadU1lZlBPVDcxSTd2Rkw4SVE0ZnFrZDV5TnlnM1JsUDVHRGFoT3BaSktoaFNkVFFBODlieXUxQkhKRWViQzRCaHE?oc=5",
-      "publishedAt": "2026-08-29T14:00:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "One Democrat to Face Three Republicans for Alaska Governor",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nS0dvZnZJWGp6UHZaN1k4b1JNc3BNcnNuTFVXUFFPN2cwcHFjbzFEemd3OWdwdFl0Skp5VGowdGpJVVBadVIwcU1TV3NXVlNVY2t1dzIyT052TTVPU1UzM3llLTFnQlBkcHpQeXBwNXhsMFZ3dlc3Rg?oc=5",
-      "publishedAt": "2026-08-29T13:01:46.000Z"
     }
   ]
 }
