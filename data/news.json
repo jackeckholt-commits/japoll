@@ -1,17 +1,29 @@
 {
-  "generatedAt": "2026-08-30T19:28:06.515Z",
+  "generatedAt": "2026-08-30T22:56:12.071Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Lake Ontario now called Lake America on Google Maps for U.S. users after Trump ordered name change",
+      "url": "https://www.pbs.org/newshour/nation/lake-ontario-now-called-lake-america-on-google-maps-for-u-s-users-after-trump-ordered-name-change",
+      "publishedAt": "2026-08-30T22:38:24.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "U.S. plans to sanction another bank in effort to clamp down on Iran transactions, Bessent tells AP",
+      "url": "https://www.pbs.org/newshour/world/u-s-plans-to-sanction-another-bank-in-effort-to-clamp-down-on-iran-transactions-bessent-tells-ap",
+      "publishedAt": "2026-08-30T22:28:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Why Republicans are focusing on transgender issues in competitive 2026 campaigns",
+      "url": "https://www.pbs.org/newshour/politics/why-republicans-are-focusing-on-transgender-issues-in-competitive-2026-campaigns",
+      "publishedAt": "2026-08-30T22:05:11.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Lake Ontario to 'Lake America': Who gets to decide what goes on maps?",
       "url": "https://www.pbs.org/newshour/nation/lake-ontario-to-lake-america-who-gets-to-decide-what-goes-on-maps",
       "publishedAt": "2026-08-30T18:16:37.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Ontario premier answers Trump's 'Lake America' with giant 'Lake Ontario' sign",
-      "url": "https://www.pbs.org/newshour/world/ontario-premier-answers-trumps-lake-america-with-giant-lake-ontario-sign",
-      "publishedAt": "2026-08-30T15:37:07.000Z"
     },
     {
       "source": "NPR",
@@ -48,18 +60,6 @@
       "title": "FLIPR 2026 midterm election forecast",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
       "publishedAt": "2026-08-29T22:41:29.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "What we know about Trump's deal giving U.S. access to vast oil reserves in Venezuela",
-      "url": "https://www.pbs.org/newshour/politics/what-we-know-about-trumps-deal-giving-u-s-access-to-vast-oil-reserves-in-venezuela",
-      "publishedAt": "2026-08-29T19:44:42.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "The Earth is sizzling, but climate isn't a hot topic for Democrats in this year's campaigns",
-      "url": "https://www.pbs.org/newshour/politics/the-earth-is-sizzling-but-climate-isnt-a-hot-topic-for-democrats-in-this-years-campaigns",
-      "publishedAt": "2026-08-29T18:40:12.000Z"
     }
   ]
 }
