@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-08-31T16:23:40.358Z",
+  "generatedAt": "2026-08-31T21:38:42.155Z",
   "articles": [
     {
       "source": "PBS NewsHour",
+      "title": "WATCH: Trump says Fed Chair Warsh will 'do what he has to do' on possible rate hikes",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-says-fed-chair-warsh-will-do-what-he-has-to-do-on-possible-rate-hikes",
+      "publishedAt": "2026-08-31T21:20:06.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump says 'Medicare for All' doesn't work",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-says-medicare-for-all-doesnt-work",
+      "publishedAt": "2026-08-31T21:15:03.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump says more pharmaceutical companies will lower drug prices",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-says-more-pharmaceutical-companies-will-lower-drug-prices",
+      "publishedAt": "2026-08-31T21:09:56.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Supreme Court allows White House to continue construction on Trump's $400 million ballroom",
+      "url": "https://www.pbs.org/newshour/politics/supreme-court-allows-white-house-to-continue-construction-on-trumps-400-million-ballroom",
+      "publishedAt": "2026-08-31T20:27:04.000Z"
+    },
+    {
+      "source": "Concord Monitor",
+      "title": "Support for Pappas dwindles in U.S. Senate race as GOP, progressive challengers climb in the polls",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQdS1tWms1eGsyaDNGQ1VCUUtSTmxRampRd1RKdHYySEtLUWJlWTJDUmNRYWxBak50a0hkRXBGSm1XZFl6TlNBUWFiTjhiWXcwWm1oUkJMa3cySEVNVGZZbGZRdTZKQkpCTjk0MS1jaVBJbXluYlppRllfVQ?oc=5",
+      "publishedAt": "2026-08-31T19:42:02.000Z"
+    },
+    {
+      "source": "The Providence Journal",
+      "title": "Your RI primary election guide to the races and storylines we're watching",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY3JQWHN6UEtQcXVJaTdYZkk3UkdaTV9ZNlduRG55US1tVnVFR01hYkdpc1NpZHJLdTU3RXduNE5jeVpkUHdHT0VIS2FRMUkyQVNqWGVjZ0gyX2RnUkUyak9BamQ5SDZWajBWczY3S050djZ0MTlrd1ZUeDNVbmtLYlRhaUZ0OV8tc0NLS3BRSi1EMUxwSXJFeWNhRFBGbm1LaWxkdGpxbUpVX09jNklBVmEtSFpjaW02QU5yRjJVNGNlSHBQdXRJQXhjLVllaW82MEg3TjByc1RET3g5?oc=5",
+      "publishedAt": "2026-08-31T19:07:00.000Z"
+    },
+    {
+      "source": "FOX 2 Detroit",
+      "title": "Dems, GOP continue campaigns for a seat in Lansing and DC",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnFKS2ZrYzk4cUR0U2ZQNEZFc1lOemd5SDBLTkU2SmVqWGNQeF9OcEQ1Tk5NRHVHcERPX0pILVBNMW9SeWFIRHpDR0p2RmVPbjEtOVJEV3NTajQ4bFhVb3MwQkQ2OGJlWXpITnZROU0xQ2tScml6V2l4dHpJQWsyWmF0UdIBiAFBVV95cUxPM1NhalZOYzY4TmFtY0R1NFpyZXg5Vm44QjBVMGxqcFRXRnlTYWFjY0xmOUp1ZnNRa1Z3OVFvU1VfNXI1YTd5UEl3eHZYWU95dHdicHAtQjEySklXYmI1aVA3RWVlMVBWU1dkQW5HdFhtOVVWOFdfbmU1M1JZaUdrSUVyeHZpM2JX?oc=5",
+      "publishedAt": "2026-08-31T18:01:51.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Republican concerns mount as Sen. Jon Husted navigates a tricky race in Ohio",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa1FXMWxhZk1KWXZ1a0dNb2J2Y0pmZ3hWemVRcVNxbWthS3R1em1jZUQyUXVKSlNBalFVZlItMUxzR0VsallmUURWYnhxMkhIZ1VOZDkzendsRHBpTWhlVkxucThVVkZVTWpsX2hFQUthMmZTUldBZkJDRFdsQjN0ay1zRjRIWkk0X0s2bmozYVNTQUFqWTQ5NFVqb2lzWEdCaksweml3?oc=5",
+      "publishedAt": "2026-08-31T17:34:00.000Z"
+    },
+    {
+      "source": "pbs.org",
       "title": "Live Results: Massachusetts midterm primaries",
-      "url": "https://www.pbs.org/newshour/politics/live-results-massachusetts-midterm-primaries",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHNaRkdiVTBlNnd3RTBTM1pUeWpWSDBydjZQX0dUc1ZYT2lIUzFYYk1tcjIwRWY1SU5NRzdkRWVkNEhvdUpqaWM4Q09WbnpKUDRIQlFVVzRtM1lrc3pGV3ZJVjczZjZpXzlqNFVFTlhFX3JNT2g3Vzh4YmU4QUttVEZhbHdJdjBFdnfSAY8BQVVfeXFMUHVWaktTMUxCeVplQVZHMG1xTHFnbmJ5cDJWblBlOS1oemp3c0dISDZYdWRHVmFvY1JjRlVUbEpzclRQQ0RhbUJnZTBwRHo1YTExRHJEdlFkMVVnZDAwci1IZVB6aW56d1g5OHFWalVuNnhxbTltMnlVQ3VLZl80VjVaTGNLb0NKX18xcXpnRmc?oc=5",
       "publishedAt": "2026-08-31T16:08:38.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Hosting G20 meeting, Bessent tries to rally allies on Iran as tariffs strain ties",
-      "url": "https://www.pbs.org/newshour/world/hosting-g20-meeting-bessent-tries-to-rally-allies-on-iran-as-tariffs-strain-ties",
-      "publishedAt": "2026-08-31T15:04:31.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "In Massachusetts U.S. Senate race, challenger Moulton says Markey, 80, is too old for another term. Young Democrats are divided",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQlRBQURxMEV0YllBd2NzeG4wUk50c2xucU5kWHRaSzQ3YWZyQ2pjNkJNQU1iMHgzb3FOWHdOc1U3VEJvaTlSSThZMm0zS0JGelM4R0N0NjFSVEZfSDdkNWpPeEQ1OTQ3RlN4R1plY1NJSlJESUpFTENlRHJPWnBJUmVmblo4YVRLUllGTHIzd2d6Ym51Nno0bUxhejFkQUJ2SklYeFdYODJZb3BGMWp2NHZFWHhCQVJUQ0ZVdDlVM2VWVmhQMVdPaDFkSFBqYkdyeFZyaFhXZGw3WF9fb1NzUzhySTR4cUtrXzFzX2dkMmJzcF85OERZ0gH3AUFVX3lxTE9CVEFBRHEwRXRiWUF3Y3N4bjBSTnRzbG5xTmRYdFpLNDdhZnJDamM2Qk1BTWIweDNvcU5Yd05zVTdUQm9pOVJJOFkybTNLQkZ6UzhHQ3Q2MVJURl9IN2Q1ak94RDU5NDdGU3hHWmVjU0lKUkRJSkVMQ2VEck9acElSZWZuWjhhVEtSWUZMcjN3Z3pibnU2ejRtTGF6MWRBQnZKSVh4V1g4MllvcEYxanY0dkVYeEJBUlRDRlV0OVUzZVZWaFAxV09oMWRIUGpiR3J4VnJoWFdkbDdYX19vU3NTOHJJNHhxS2tfMXNfZ2QyYnNwXzk4RFk?oc=5",
-      "publishedAt": "2026-08-31T14:55:10.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Senate challenger Moulton says Markey is too old for another term. Young Massachusetts Democrats are divided",
-      "url": "https://www.pbs.org/newshour/politics/in-massachusetts-u-s-senate-race-challenger-moulton-says-markey-80-is-too-old-for-another-term-young-democrats-are-divided",
-      "publishedAt": "2026-08-31T14:55:10.000Z"
-    },
-    {
-      "source": "WBUR",
-      "title": "Here are the local races to watch in the Massachusetts state primary Tuesday",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HMmF6SWtqZ1FpOEE3X25jNXNELTV6UTJTWFFkQThzX3B0ekhCYzBpSjVFQ3E4ZVVIbzktSHMtSUJPaVdOVExENlhOZFlMb0NUTDNndDA2eWtxSmYwTWVRRDhwUDVvRDNrWm9PbHlTLW9ZSmEyLTUwZDJmV25BUQ?oc=5",
-      "publishedAt": "2026-08-31T14:02:59.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH LIVE: House returns after August recess to tackle stopgap spending bill and more",
-      "url": "https://www.pbs.org/newshour/politics/watch-live-house-returns-after-august-recess-to-tackle-stopgap-spending-bill-and-more",
-      "publishedAt": "2026-08-31T13:41:30.000Z"
     },
     {
       "source": "NPR",
       "title": "Trump says U.S. struck deal to take control of 65 billion barrels Venezuelan oil",
       "url": "https://www.npr.org/2026/08/31/nx-s1-5949305/trump-says-u-s-struck-deal-to-take-control-of-65-billion-barrels-venezuelan-oil",
       "publishedAt": "2026-08-31T10:49:12.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Scholar discusses Trump's claims of a new Venezuelan oil agreement",
-      "url": "https://www.npr.org/2026/08/31/nx-s1-5949309/scholar-discusses-trumps-claims-of-a-new-venezuelan-oil-agreement",
-      "publishedAt": "2026-08-31T10:49:08.000Z"
-    },
-    {
-      "source": "Shreveport Times",
-      "title": "Cheat sheet: Navigating Louisiana's 2026 elections",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcmRPT3hIQkRLb2FxdlVBSXc5bEJtQVRIYlQ0QWlJWUl2amF4c0VzdFdLc0JHT0VXcGtIOVlIQWNkYkpGMGhLY2xGZnBPWXJZYmNEUnhiVERkSnVZa2FZU3llaE1EZGl5S1RHWUtJc293al9FYjRYa1lCa2dpMHMwSFJxQjgwLUdxNXZHWDZKZmQ3Ymx5V3U5eE51Vkc4OHdTY3VSLUxlcXBMcG84VHFLVE5QZzNBYTdkSTNrQU9FSmtNdHM0T0Y3SlhGaUNjenV5VmlsTVo4dEhjV3J1bGxvV1JoVms?oc=5",
-      "publishedAt": "2026-08-31T09:08:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "The U.S.-Venezuela oil deal won't lower your gas prices. Here's what you need to know",
-      "url": "https://www.npr.org/2026/08/31/nx-s1-5949407/us-venezuelan-oil-deal",
-      "publishedAt": "2026-08-31T09:00:00.000Z"
     }
   ]
 }
