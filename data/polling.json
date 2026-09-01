@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T17:38:49.616Z",
+  "updatedAt": "2026-09-01T15:07:14.104Z",
   "genericBallot": {
     "average": {
       "democrats": 47.7,
@@ -10,7 +10,7 @@
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 47.3,
+        "democrats": 47.2,
         "republicans": 41.1,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
@@ -21,7 +21,7 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "democrats": 49.5,
+        "democrats": 49.6,
         "republicans": 43.3,
         "included": true,
         "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
@@ -32,8 +32,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "democrats": 48.2,
-        "republicans": 41.5,
+        "democrats": 48.3,
+        "republicans": 41.6,
         "included": true,
         "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
         "scrapeStatus": "live",
@@ -76,16 +76,16 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 37.1,
-      "disapprove": 59.4
+      "approve": 36.9,
+      "disapprove": 59.6
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "approve": 38.9,
-        "disapprove": 58.6,
+        "approve": 38.3,
+        "disapprove": 59,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
         "scrapeStatus": "live",
@@ -95,8 +95,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 36,
-        "disapprove": 59.4,
+        "approve": 35.9,
+        "disapprove": 59.7,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
@@ -128,8 +128,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "approve": 37.3,
-        "disapprove": 58.2,
+        "approve": 36.8,
+        "disapprove": 58.5,
         "included": true,
         "url": "https://www.racetothewh.com/trump",
         "scrapeStatus": "live",
