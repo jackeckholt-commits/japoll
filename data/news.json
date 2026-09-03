@@ -1,53 +1,65 @@
 {
-  "generatedAt": "2026-09-03T13:00:48.405Z",
+  "generatedAt": "2026-09-03T19:27:30.776Z",
   "articles": [
     {
       "source": "NPR",
-      "title": "Democrats demand Homeland Security officials fund election security ahead of midterms",
-      "url": "https://www.npr.org/2026/09/03/nx-s1-5954541/election-security-midterms-dhs-democrats",
-      "publishedAt": "2026-09-03T09:00:00.000Z"
+      "title": "Tributes to Gloria Steinem are flooding in, from Hollywood to Capitol Hill",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5955579/gloria-steinem-tributes",
+      "publishedAt": "2026-09-03T19:04:19.000Z"
+    },
+    {
+      "source": "The Washington Post",
+      "title": "Elon Musk’s super PAC enters the midterms with Senate race spending",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVFGVHB4c2s3MXBlYkgyVDBjNWZzV293Wlp5eklZcnZpaWFWUlhXM253QU1qS3k5RVE0ZVVrdG5YWGZJTjFfNGpTUFIwTHJDWW12R1BvSkgwUFVOcmpPbEcyNzlqTlBuanpqT2VlMGFFSk1NX2Y3Z1QzQ1ZQNWVzMW5DMTB0SWRpLVI0dkMyTXlsbHZyeHVPWFpSeGZYRWRKTTRQMFpvLVFRanlieFJlTjZXUTg?oc=5",
+      "publishedAt": "2026-09-03T19:02:21.000Z"
+    },
+    {
+      "source": "KERA News",
+      "title": "James Talarico's U.S. Senate campaign held a Lotería in San Antonio",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZU52R2kzUUx3ckhyTGh2YkduZ0VIajdGUG1OcFN0ZTJiTHlNT2UyeVFHZHEtUEtoZFZ0eXcyTGp5Y1ZmaXZMZHhDNWxjbkZSSGw2R19xaTRSYU16VHhlR1RSQ3QyVUVTRnZmYXhLNXhXM1RNVWwzUzhGSHJ3SEZmYXZ6ZzJuV3ZNaEdEOFl1Ry1kY2FHbXZjN2xZdXZMZFNhSG83a0FtWWI4QmEzMVpZREYyM0tYd28?oc=5",
+      "publishedAt": "2026-09-03T18:53:00.000Z"
     },
     {
       "source": "NPR",
-      "title": "Inside the failed mission to eliminate FEMA",
-      "url": "https://www.npr.org/2026/09/03/nx-s1-5943052/fema-trump-flood-wildfire-hurricane-disaster",
-      "publishedAt": "2026-09-03T09:00:00.000Z"
+      "title": "ICE officer faces federal charges for lying over shooting of Venezuelan immigrant",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5955654/justice-department-charges-castro-ice-officer",
+      "publishedAt": "2026-09-03T18:14:53.000Z"
     },
     {
       "source": "NPR",
-      "title": "Veteran political journalist on division among Democrats over Democratic Socialism",
-      "url": "https://www.npr.org/2026/09/03/nx-s1-5910644/veteran-political-journalist-on-division-among-democrats-over-democratic-socialism",
-      "publishedAt": "2026-09-03T08:08:56.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Ex-National Security Council director on administration's plan for Venezuela oil",
-      "url": "https://www.npr.org/2026/09/03/nx-s1-5954063/ex-national-security-council-director-on-administrations-plan-for-venezuela-oil",
-      "publishedAt": "2026-09-03T08:08:17.000Z"
+      "title": "Fox News star Maria Bartiromo is out at the network",
+      "url": "https://www.npr.org/2026/09/03/nx-s1-5955645/maria-bartiromo-fox-news",
+      "publishedAt": "2026-09-03T18:05:57.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "U.S. strikes Iran again as Tehran targets American allies in Gulf region",
-      "url": "https://www.pbs.org/newshour/show/u-s-strikes-iran-again-as-tehran-targets-american-allies-in-gulf-region",
-      "publishedAt": "2026-09-02T22:55:26.000Z"
+      "title": "Democrats promise a big agenda if they win control of Congress, but their unity is being tested",
+      "url": "https://www.pbs.org/newshour/politics/democrats-promise-a-big-agenda-if-they-win-control-of-congress-but-their-unity-is-being-tested",
+      "publishedAt": "2026-09-03T17:33:43.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Prolonged Iran war creating major dent in global economy, Cliff Kupchan says",
-      "url": "https://www.pbs.org/newshour/show/prolonged-iran-war-creating-major-dent-in-global-economy-cliff-kupchan-says",
-      "publishedAt": "2026-09-02T22:50:15.000Z"
+      "title": "EPA proposal could leave the public in the dark on data center plans",
+      "url": "https://www.pbs.org/newshour/politics/epa-proposal-could-leave-the-public-in-the-dark-on-data-center-plans",
+      "publishedAt": "2026-09-03T16:14:48.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Whistleblower's attorney details concerns over USPS mail-in ballot system",
-      "url": "https://www.pbs.org/newshour/show/whistleblowers-attorney-details-concerns-over-usps-mail-in-ballot-system",
-      "publishedAt": "2026-09-02T22:40:19.000Z"
+      "title": "WATCH: Vance holds White House briefing after Leavitt's departure",
+      "url": "https://www.pbs.org/newshour/politics/watch-live-vance-holds-white-house-briefing-after-leavitts-departure",
+      "publishedAt": "2026-09-03T15:52:56.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "Democratic strategist on the new anti-partisan swing voters",
-      "url": "https://www.pbs.org/newshour/show/democratic-strategist-on-the-new-anti-partisan-swing-voters",
-      "publishedAt": "2026-09-02T22:35:50.000Z"
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 midterm election forecast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+      "publishedAt": "2026-09-03T15:47:34.000Z"
+    },
+    {
+      "source": "nytimes.com",
+      "title": "Who Is Ahead in the U.S. Senate Race in Tennessee? Latest 2026 Polls",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd3Zjd2JhTDhJcGJwOUFjUDQzVTdocjc2Ry16TV9mRjlVYVRialpQNWYwV2g4ZjFYUHg3aE9yWEpsUER0aUpYbzJNb212NWw4RHFBSWR6UGZheld0VDlsVFRyY216bEwxVVR2YWZFTmlRc3RGajVkdHFMMFBwdXBTcWFWRUd5dnZUQmpZVDAwYw?oc=5",
+      "publishedAt": "2026-09-03T15:46:56.000Z"
     }
   ]
 }
