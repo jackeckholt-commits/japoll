@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-09-04T12:56:05.063Z",
+  "generatedAt": "2026-09-04T19:09:11.897Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "EPA seeks more public comments as it struggles to devise water rule that limits scope on wetlands",
+      "url": "https://www.pbs.org/newshour/politics/epa-seeks-more-public-comments-as-it-struggles-to-devise-water-rule-that-limits-scope-on-wetlands",
+      "publishedAt": "2026-09-04T18:56:17.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump administration pushes to remove tax exemption for private colleges with DEI policies",
+      "url": "https://www.pbs.org/newshour/education/trump-administration-pushes-to-remove-tax-exemption-for-private-colleges-with-dei-policies",
+      "publishedAt": "2026-09-04T18:13:08.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Missouri court blocks Trump-backed U.S. House map and orders it to be put to a vote",
+      "url": "https://www.pbs.org/newshour/politics/missouri-court-blocks-trump-backed-u-s-house-map-and-orders-it-to-be-put-to-a-vote",
+      "publishedAt": "2026-09-04T17:48:45.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "U.S. issues sanctions on Turkish bank that it calls a 'critical financial lifeline' for Iran",
+      "url": "https://www.pbs.org/newshour/world/u-s-issues-sanctions-on-turkish-bank-that-it-calls-a-critical-financial-lifeline-for-iran",
+      "publishedAt": "2026-09-04T17:26:55.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-04T16:05:33.000Z"
+    },
     {
       "source": "Decision Desk HQ | Substack",
       "title": "📈 GOP holds big edge in Montana’s Senate race",
@@ -8,58 +38,28 @@
       "publishedAt": "2026-09-04T11:00:20.000Z"
     },
     {
-      "source": "The Economist",
-      "title": "US Senate 2026 forecast",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUU5iZF9CcElOTXkydDhVWVJsUDVaalhNYlpZT1VacEEtVG93VnNVdTkzVUVIRWxpZ2tHN0xUdEFKY1Q0SDkyX3lzRk50cS1wLVVYOG1QRnBGWmlzdnowZjE1WE9vNURDTWM1RVVJdVVuOVJ6STNGaERacDBNSUFFU0YteGw?oc=5",
-      "publishedAt": "2026-09-04T10:52:28.000Z"
-    },
-    {
-      "source": "WHYY",
+      "source": "whyy.org",
       "title": "Pa. election 2026: Your 6th Senate District voter guide",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHRPbE1PWG9MdlZ3S3VGUXN6Nm55N044VzBkZlIzbk1HQ2JDWjFQM3ZOVE9ad1E4Slp5SmhHaHBpTnFIRVR2VXNYMVR2aTVOcHRUbWRpTHBzNzdMQkZmcWNtS010aUN5SnlFaG4tSThGS3BDcng1TmJIS091TGx4em9nRGNTM1ZDVkQwR2gtQk8?oc=5",
       "publishedAt": "2026-09-04T10:36:42.000Z"
     },
     {
-      "source": "WHYY",
+      "source": "whyy.org",
       "title": "Pa. election 2026: What to know about the 24th Senate District race in Berks and Montco",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcE13eWpMZ1RqLWVCc3FNdFgtQkNnTy1WT0xiN2pUYXBkVHB5WGI0aV82T1VTVzJTelFnMF9fOER4bWEwOEJLSWN2X3RFbVpMUzlaUGlHUExOWTRmYXlta3pFQ21xeHFjU05UYWs4MWNKeXpvWmlTSmZpYkhQZlloS083U0oxMVNpcEc2QUMtcw?oc=5",
       "publishedAt": "2026-09-04T10:01:42.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Wesleyan president calls Trump's tax-exempt proposal 'extraordinary overreach'",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5955592/wesleyan-president-trump-tax-exempt-race-programs",
+      "publishedAt": "2026-09-04T08:03:21.000Z"
     },
     {
       "source": "The New York Times",
       "title": "Who Is Ahead in the U.S. Senate Race in Tennessee? Latest 2026 Polls",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd3Zjd2JhTDhJcGJwOUFjUDQzVTdocjc2Ry16TV9mRjlVYVRialpQNWYwV2g4ZjFYUHg3aE9yWEpsUER0aUpYbzJNb212NWw4RHFBSWR6UGZheld0VDlsVFRyY216bEwxVVR2YWZFTmlRc3RGajVkdHFMMFBwdXBTcWFWRUd5dnZUQmpZVDAwYw?oc=5",
       "publishedAt": "2026-09-04T01:29:29.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump again appeals to Supreme Court on mail voting restrictions as midterms loom",
-      "url": "https://www.pbs.org/newshour/politics/trump-again-appeals-to-supreme-court-on-mail-voting-restrictions-as-midterms-loom",
-      "publishedAt": "2026-09-04T00:25:01.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "The Trump administration still aims to make state citizenship lists ahead of midterms",
-      "url": "https://www.npr.org/2026/09/03/nx-s1-5955822/voting-citizenship-lists-dhs-uscis-lawsuit",
-      "publishedAt": "2026-09-03T23:59:35.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump appointees advance plans for Lafayette Square fencing and White House gates",
-      "url": "https://www.pbs.org/newshour/politics/trump-appointees-advance-plans-for-lafayette-square-fencing-and-white-house-gates",
-      "publishedAt": "2026-09-03T22:53:15.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Leon Black defies subpoena to testify in Epstein inquiry and sues House panel",
-      "url": "https://www.npr.org/2026/09/03/nx-s1-5955643/leon-black-jeffrey-epstein-lawsuit",
-      "publishedAt": "2026-09-03T22:19:02.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump asks Supreme Court to lift block on USPS plan to restrict mail voting",
-      "url": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
-      "publishedAt": "2026-09-03T20:48:21.000Z"
     }
   ]
 }
