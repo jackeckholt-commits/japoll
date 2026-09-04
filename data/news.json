@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-09-04T19:09:11.897Z",
+  "generatedAt": "2026-09-04T22:32:35.027Z",
   "articles": [
     {
       "source": "PBS NewsHour",
-      "title": "EPA seeks more public comments as it struggles to devise water rule that limits scope on wetlands",
-      "url": "https://www.pbs.org/newshour/politics/epa-seeks-more-public-comments-as-it-struggles-to-devise-water-rule-that-limits-scope-on-wetlands",
-      "publishedAt": "2026-09-04T18:56:17.000Z"
+      "title": "Trump administration scrubs gender-based bullying data from school civil rights survey",
+      "url": "https://www.pbs.org/newshour/education/trump-administration-scrubs-gender-based-bullying-data-from-school-civil-rights-survey",
+      "publishedAt": "2026-09-04T22:06:30.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Trump administration pushes to remove tax exemption for private colleges with DEI policies",
-      "url": "https://www.pbs.org/newshour/education/trump-administration-pushes-to-remove-tax-exemption-for-private-colleges-with-dei-policies",
-      "publishedAt": "2026-09-04T18:13:08.000Z"
+      "title": "ICE officer pleads not guilty to lying about shooting and is ordered released from custody",
+      "url": "https://www.pbs.org/newshour/nation/ice-officer-pleads-not-guilty-to-lying-about-shooting-and-is-ordered-released-from-custody",
+      "publishedAt": "2026-09-04T21:57:50.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "Missouri court blocks Trump-backed U.S. House map and orders it to be put to a vote",
-      "url": "https://www.pbs.org/newshour/politics/missouri-court-blocks-trump-backed-u-s-house-map-and-orders-it-to-be-put-to-a-vote",
-      "publishedAt": "2026-09-04T17:48:45.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "U.S. issues sanctions on Turkish bank that it calls a 'critical financial lifeline' for Iran",
-      "url": "https://www.pbs.org/newshour/world/u-s-issues-sanctions-on-turkish-bank-that-it-calls-a-critical-financial-lifeline-for-iran",
-      "publishedAt": "2026-09-04T17:26:55.000Z"
+      "source": "NPR",
+      "title": "4 things investigators learned about the dysfunction at Trump's Labor Department",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
+      "publishedAt": "2026-09-04T21:47:19.000Z"
     },
     {
       "source": "The Times",
       "title": "Who will win the 2026 midterm elections? Polls and predictions",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-04T16:05:33.000Z"
+      "publishedAt": "2026-09-04T21:27:30.000Z"
     },
     {
-      "source": "Decision Desk HQ | Substack",
-      "title": "📈 GOP holds big edge in Montana’s Senate race",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRkFwQ0REbnVjTVpwTldYZ2t4YjNaMEJva3BQZnZFdmNjSHBHcmppZWNaa3Zvbm0wM1RWMlo3VzcwT2dkUjhZbl9zQXdSazY1WGdVSVlXUktKUnRKSnRnbmhoa1RLLUlPeVUzY3h1OUxWQkRrbmlSck1WRFh3SDBBQ0RKV2lDTEZUSjZGaTlPV25xSnhnMmtvOWxVZEdzVlQ5ZlRUMWVBdFhIM2FpV2ZPU0t0MGN3X19hQkt0QQ?oc=5",
-      "publishedAt": "2026-09-04T11:00:20.000Z"
-    },
-    {
-      "source": "whyy.org",
-      "title": "Pa. election 2026: Your 6th Senate District voter guide",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHRPbE1PWG9MdlZ3S3VGUXN6Nm55N044VzBkZlIzbk1HQ2JDWjFQM3ZOVE9ad1E4Slp5SmhHaHBpTnFIRVR2VXNYMVR2aTVOcHRUbWRpTHBzNzdMQkZmcWNtS010aUN5SnlFaG4tSThGS3BDcng1TmJIS091TGx4em9nRGNTM1ZDVkQwR2gtQk8?oc=5",
-      "publishedAt": "2026-09-04T10:36:42.000Z"
-    },
-    {
-      "source": "whyy.org",
-      "title": "Pa. election 2026: What to know about the 24th Senate District race in Berks and Montco",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcE13eWpMZ1RqLWVCc3FNdFgtQkNnTy1WT0xiN2pUYXBkVHB5WGI0aV82T1VTVzJTelFnMF9fOER4bWEwOEJLSWN2X3RFbVpMUzlaUGlHUExOWTRmYXlta3pFQ21xeHFjU05UYWs4MWNKeXpvWmlTSmZpYkhQZlloS083U0oxMVNpcEc2QUMtcw?oc=5",
-      "publishedAt": "2026-09-04T10:01:42.000Z"
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump calls Iran war 'small potatoes' and 'very intermittent'",
+      "url": "https://www.pbs.org/newshour/world/watch-trump-calls-iran-war-small-potatoes-and-very-intermittent",
+      "publishedAt": "2026-09-04T21:18:55.000Z"
     },
     {
       "source": "NPR",
-      "title": "Wesleyan president calls Trump's tax-exempt proposal 'extraordinary overreach'",
-      "url": "https://www.npr.org/2026/09/04/nx-s1-5955592/wesleyan-president-trump-tax-exempt-race-programs",
-      "publishedAt": "2026-09-04T08:03:21.000Z"
+      "title": "'Hidden tribunals:' Immigration court due process in tumult with new locations",
+      "url": "https://www.npr.org/2026/09/04/g-s1-142042/immigration-court-hidden-tribunals",
+      "publishedAt": "2026-09-04T21:11:56.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump says skilled foreign workers take jobs away from Americans. It's not that simple, experts say",
+      "url": "https://www.pbs.org/newshour/economy/trump-says-skilled-foreign-workers-take-jobs-away-from-americans-its-not-that-simple-experts-say",
+      "publishedAt": "2026-09-04T20:46:15.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "El-Sayed divided Michigan Democrats. Whether they unify could decide Senate control",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5946840/el-sayed-divided-michigan-democrats-whether-they-unify-could-decide-senate-control",
+      "publishedAt": "2026-09-04T20:41:06.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump's arch may break ground without final approval. Veterans are trying to stop it",
+      "url": "https://www.npr.org/2026/09/04/nx-s1-5957459/trump-arch-excavation-lawsuit-veterans",
+      "publishedAt": "2026-09-04T20:15:05.000Z"
     },
     {
       "source": "The New York Times",
       "title": "Who Is Ahead in the U.S. Senate Race in Tennessee? Latest 2026 Polls",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd3Zjd2JhTDhJcGJwOUFjUDQzVTdocjc2Ry16TV9mRjlVYVRialpQNWYwV2g4ZjFYUHg3aE9yWEpsUER0aUpYbzJNb212NWw4RHFBSWR6UGZheld0VDlsVFRyY216bEwxVVR2YWZFTmlRc3RGajVkdHFMMFBwdXBTcWFWRUd5dnZUQmpZVDAwYw?oc=5",
-      "publishedAt": "2026-09-04T01:29:29.000Z"
+      "publishedAt": "2026-09-04T19:06:44.000Z"
     }
   ]
 }
