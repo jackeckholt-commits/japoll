@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-09-04T05:08:15.377Z",
+  "generatedAt": "2026-09-04T12:56:05.063Z",
   "articles": [
+    {
+      "source": "Decision Desk HQ | Substack",
+      "title": "📈 GOP holds big edge in Montana’s Senate race",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRkFwQ0REbnVjTVpwTldYZ2t4YjNaMEJva3BQZnZFdmNjSHBHcmppZWNaa3Zvbm0wM1RWMlo3VzcwT2dkUjhZbl9zQXdSazY1WGdVSVlXUktKUnRKSnRnbmhoa1RLLUlPeVUzY3h1OUxWQkRrbmlSck1WRFh3SDBBQ0RKV2lDTEZUSjZGaTlPV25xSnhnMmtvOWxVZEdzVlQ5ZlRUMWVBdFhIM2FpV2ZPU0t0MGN3X19hQkt0QQ?oc=5",
+      "publishedAt": "2026-09-04T11:00:20.000Z"
+    },
+    {
+      "source": "The Economist",
+      "title": "US Senate 2026 forecast",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUU5iZF9CcElOTXkydDhVWVJsUDVaalhNYlpZT1VacEEtVG93VnNVdTkzVUVIRWxpZ2tHN0xUdEFKY1Q0SDkyX3lzRk50cS1wLVVYOG1QRnBGWmlzdnowZjE1WE9vNURDTWM1RVVJdVVuOVJ6STNGaERacDBNSUFFU0YteGw?oc=5",
+      "publishedAt": "2026-09-04T10:52:28.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Pa. election 2026: Your 6th Senate District voter guide",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcHRPbE1PWG9MdlZ3S3VGUXN6Nm55N044VzBkZlIzbk1HQ2JDWjFQM3ZOVE9ad1E4Slp5SmhHaHBpTnFIRVR2VXNYMVR2aTVOcHRUbWRpTHBzNzdMQkZmcWNtS010aUN5SnlFaG4tSThGS3BDcng1TmJIS091TGx4em9nRGNTM1ZDVkQwR2gtQk8?oc=5",
+      "publishedAt": "2026-09-04T10:36:42.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Pa. election 2026: What to know about the 24th Senate District race in Berks and Montco",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcE13eWpMZ1RqLWVCc3FNdFgtQkNnTy1WT0xiN2pUYXBkVHB5WGI0aV82T1VTVzJTelFnMF9fOER4bWEwOEJLSWN2X3RFbVpMUzlaUGlHUExOWTRmYXlta3pFQ21xeHFjU05UYWs4MWNKeXpvWmlTSmZpYkhQZlloS083U0oxMVNpcEc2QUMtcw?oc=5",
+      "publishedAt": "2026-09-04T10:01:42.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "Who Is Ahead in the U.S. Senate Race in Tennessee? Latest 2026 Polls",
@@ -14,40 +38,16 @@
       "publishedAt": "2026-09-04T00:25:01.000Z"
     },
     {
-      "source": "FOX 7 Austin",
-      "title": "Greg Abbott & Gina Hinojosa on the campaign trail",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LSGpCRGtZYU1ZQ1p5dXdfRGJiNWJCUjBtYU90d1FqUE1GckpKVHhmdHgwemZPYzhESXVJSTNXNkRYbzcwOHNtZ3I3RzBHRWpfZ3FjNFNscWFySUljbDIxVHUybkhnSTVhMkp3UzhsSVJLcFBmckVWaC1TWmNMZ9IBgwFBVV95cUxQUUszcXhRYTBYdEdqV3FUVTNxVHVGMlBNcG5ybTgwbkh3dmF3bE5LVU9HLVdtcFZtTlJtdEZWZnpBczkzS1R3NlZBRXhtaFlOd25TaF9tVjNJUzB6WEs1RUNJQUZLNHBwMndPaGx5dWhRTHFjMDZqNEE2cUpjT3Vmc2Ytaw?oc=5",
-      "publishedAt": "2026-09-04T00:02:56.000Z"
-    },
-    {
       "source": "NPR",
       "title": "The Trump administration still aims to make state citizenship lists ahead of midterms",
       "url": "https://www.npr.org/2026/09/03/nx-s1-5955822/voting-citizenship-lists-dhs-uscis-lawsuit",
       "publishedAt": "2026-09-03T23:59:35.000Z"
     },
     {
-      "source": "Dr. Amy Acton for Governor",
-      "title": "RATINGS CHANGE: Inside Elections Moves Ohio Governor’s Race from Lean to Tilt Republican in “Sign of Strength for Acton”",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORXJlam1NZFhLZ3pXQzB5cWhHcVplT2ZHT09hMnd1TmM1Ni1TcGVGYV9MUDk3R1RQT3BtX3RjUG9VODh5YWlfdlRGcUpQaDE3QzV5bnJFcGY4LXhaa3NaVjAxSm5FTVdkRE1WdVJpSmM3UUQzSVg1alRxeE16T0xONEx4bDAzWUROUVpfSml0eHFiTTBWMHRONGViQy1aLVdCVVMtTFBrLVVGWVhZeTZpVGw3NkkwVDhRZEZOZFdMdWo0VVZkNU1ndEJLb3N2VUxBeWVPTXYyeWttUGJRUFNv?oc=5",
-      "publishedAt": "2026-09-03T22:57:23.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "Trump appointees advance plans for Lafayette Square fencing and White House gates",
       "url": "https://www.pbs.org/newshour/politics/trump-appointees-advance-plans-for-lafayette-square-fencing-and-white-house-gates",
       "publishedAt": "2026-09-03T22:53:15.000Z"
-    },
-    {
-      "source": "Daily Montanan",
-      "title": "Billings area legislative race draws two write-in candidates",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY01jNHBFNF82QmUtcWstTEtUTG9xM093RXkteDRJQnh3YVJSV3k2aTZRam5xS0pER3NDLXM4LXNCX3h6SktoRDI1YURuVXZ2aTVzT202aU13SUZNc3BKVTZrdG0zYVVudzFKM3A2YnlVM2JDbDhhNVFrREFjRU5tS2pFOWR4ZlNqb3ZtOWYwUjFDRERrVm5jSnNLNkVvejg?oc=5",
-      "publishedAt": "2026-09-03T22:49:11.000Z"
-    },
-    {
-      "source": "The Washington Post",
-      "title": "Elon Musk’s super PAC enters the midterms with Senate race spending",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLVFGVHB4c2s3MXBlYkgyVDBjNWZzV293Wlp5eklZcnZpaWFWUlhXM253QU1qS3k5RVE0ZVVrdG5YWGZJTjFfNGpTUFIwTHJDWW12R1BvSkgwUFVOcmpPbEcyNzlqTlBuanpqT2VlMGFFSk1NX2Y3Z1QzQ1ZQNWVzMW5DMTB0SWRpLVI0dkMyTXlsbHZyeHVPWFpSeGZYRWRKTTRQMFpvLVFRanlieFJlTjZXUTg?oc=5",
-      "publishedAt": "2026-09-03T22:40:00.000Z"
     },
     {
       "source": "NPR",
