@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T14:35:07.937Z",
+  "updatedAt": "2026-09-05T13:29:43.168Z",
   "note": "Estimated points before automated collection are carried over from data/history.json. New scraper runs append or replace dated points here.",
   "runs": [
     {
@@ -5542,6 +5542,113 @@
             "key": "silver",
             "approve": 38.6,
             "disapprove": 57.7,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "cnn",
+            "approve": 35,
+            "disapprove": 63,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "racetowh",
+            "approve": 36.9,
+            "disapprove": 58.7,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "nyt",
+            "approve": 38,
+            "disapprove": 58,
+            "included": false,
+            "status": "fallback"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "timestamp": "2026-09-05T13:29:43.168Z",
+      "estimated": false,
+      "genericBallot": {
+        "average": {
+          "democrats": 47.6,
+          "republicans": 42,
+          "margin": 5.6
+        },
+        "sources": [
+          {
+            "key": "votehub",
+            "democrats": 47,
+            "republicans": 41.4,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "fiftyplusone",
+            "democrats": 49.7,
+            "republicans": 43.6,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "silver",
+            "democrats": 48,
+            "republicans": 41.5,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "cnn",
+            "democrats": 45,
+            "republicans": 42,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "racetowh",
+            "democrats": 48.1,
+            "republicans": 41.6,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "nyt",
+            "democrats": null,
+            "republicans": null,
+            "included": false,
+            "status": "not_applicable"
+          }
+        ]
+      },
+      "trumpApproval": {
+        "average": {
+          "approve": 37.1,
+          "disapprove": 59.3,
+          "net": -22.2
+        },
+        "sources": [
+          {
+            "key": "votehub",
+            "approve": 38.7,
+            "disapprove": 58,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "fiftyplusone",
+            "approve": 36.2,
+            "disapprove": 59.4,
+            "included": true,
+            "status": "live"
+          },
+          {
+            "key": "silver",
+            "approve": 38.8,
+            "disapprove": 57.5,
             "included": true,
             "status": "live"
           },
