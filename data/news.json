@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-09-05T04:57:20.095Z",
+  "generatedAt": "2026-09-05T12:05:56.289Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Trump administration to dig at triumphal arch site despite final federal approvals",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-final-federal-approvals",
+      "publishedAt": "2026-09-05T11:43:24.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Week in Politics: Trump's face on the coin; reshaping the capital; the midterms",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5957499/week-in-politics-trumps-face-on-the-coin-reshaping-the-capital-the-midterms",
+      "publishedAt": "2026-09-05T11:43:22.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-05T09:34:30.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Pa. election 2026: Voter guides, key races and more",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb1VOUFo1MjhoZ1VHRkxaNlNEMWFuN3VzTml4UHZLWktKeTRnRXR1VGV3RnZNZmxVRkZZek9aRFJwN3JLbm01bW40emRsME9OMlNMLTk0dmxLR2tyaEFsbDlYdzJLc0JmTXA3N1Y4b1ZyR1ZhS2lkMGJwN2tzMlV3OUxkV1dweGZUQXNNT245Yw?oc=5",
+      "publishedAt": "2026-09-05T09:30:08.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Gallup Polls Show Democrats Outnumber Republicans Ahead of 2026 Midterm Elections",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdjdmRWh1QXE4cjhXWk9jZWk2bng1SjZpRVgxcnFQQTRGMS1WUXZKUzJLZnlfNFVpNmE3V28xbkc0Sk1feVFvYTV3ZkRKWkw5T1dNVFIxYURFckN1cFkzalRPNHRBaUNTQlE3MVVZM3NSSC13Mlp2WFdQRTJlS1c1bGJQSTVtdEJNV244ZnRfbk1mRTJKVS0wZ1BEMlQ?oc=5",
+      "publishedAt": "2026-09-05T09:03:09.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
+      "publishedAt": "2026-09-05T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Flock cameras draw opposition from across the political spectrum",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5955778/flock-surveillance-camera-opposition-politics",
+      "publishedAt": "2026-09-05T09:00:00.000Z"
+    },
     {
       "source": "Honolulu Civil Beat",
       "title": "High Court Orders New Election For Hawaiʻi House Race",
@@ -8,58 +50,16 @@
       "publishedAt": "2026-09-05T03:16:18.000Z"
     },
     {
-      "source": "WSJ",
-      "title": "The 2026 Races That Could Determine House Control",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNS1wLUNrSWYwU2tzT2o5ZmMzSFVIYjd0TVVpQTJxdVNKUGd5ckFTc1hFMTdQVkZ0WGZFUWlBS09lakFSNUVLRzVRSWk4M1dCXzdrRjg2VnpaVFZJZWFhYVpKNXVJb2o1V2UxRHdIUzM3WWNVZDhnZEdDTDl6dmNoYVZrV190NHh6UC1aa0ZjTkI1ZlpuaG4zZWQ3a3ZSQQ?oc=5",
-      "publishedAt": "2026-09-05T02:16:06.000Z"
-    },
-    {
-      "source": "Alaska's News Source",
+      "source": "alaskasnewssource.com",
       "title": "Election 2026: With bipartisan House majority in the balance, several races will determine control of legislature",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeHREbkl1UjBQNHNNR0p4eEpqTFNzT2RfTFBiS1dLQUVidGRuSEhQVjNRX0N6MlhLbm9jTFg0OWNaZkdNcHJBQ01Fb2daZjJrS0x2Vmt5cFI4eFVGLTN4QUZGUjFkRVRFWWs3OEJEUUQ3RVpnb1VtdUtkU3oyeDA4dld1ZXd4WWVSa05wcG91aFl5VjIxYlhkZ29WX19oZVoydUpoYVNiZVRpNWxPdGs5T01qRElISVZubTJIS1RZZHN4bnZWZ25ETkw5U2lVekZ0ZXNHUHgtbGlZQ1VXVUw5ZNIB9AFBVV95cUxNTExySVR1UlhVYnlSYmpuVjhsNHk3YTdOMzd1b0lUM0MtVnNKZkcwU0VXVGtjbVlDbk9wOE8zTVVGeUxfWVFhTWtfcEttU1pDcHpiNlZaY1FsSDFWZE5rZ1lGV0pZT3FSVi1SaGtyeGZIay1KeDFkR1Y5NDhyNE9jeEZqSUdRT21PN00yWnFKbjJPT3U5WWZkdTdWNW1fdmpIQXIzaklBWXAxcjJFX0JFamZia0FVeGV2QzlNWkY1MHRYYU5saElXUjdTRC1TM1FnS09fWDlHNXVkek9Jc0s3Smp6LV9adm43VGtFU2tJWTA3ckR1?oc=5",
       "publishedAt": "2026-09-05T01:35:00.000Z"
-    },
-    {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-05T00:28:15.000Z"
     },
     {
       "source": "PBS NewsHour",
       "title": "Federal judge extends block on Trump order seeking to limit mail voting in the midterms",
       "url": "https://www.pbs.org/newshour/politics/federal-judge-extends-block-on-trump-order-seeking-to-limit-mail-voting-in-the-midterms",
       "publishedAt": "2026-09-05T00:19:17.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Why the U.S. job market remains resilient in face of global pressures and inflation",
-      "url": "https://www.pbs.org/newshour/show/why-the-u-s-job-market-remains-resilient-in-face-of-global-pressures-and-inflation",
-      "publishedAt": "2026-09-04T22:55:43.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "What's next for Lindsay Clancy after a mistrial in her murder case",
-      "url": "https://www.pbs.org/newshour/show/whats-next-for-lindsay-clancy-after-a-mistrial-in-her-murder-case",
-      "publishedAt": "2026-09-04T22:50:41.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "News Wrap: 2 men rescued from Nepal tunnel 9 days after catastrophic flood",
-      "url": "https://www.pbs.org/newshour/show/news-wrap-2-men-rescued-from-nepal-tunnel-9-days-after-catastrophic-flood",
-      "publishedAt": "2026-09-04T22:45:33.000Z"
-    },
-    {
-      "source": "Houston Public Media",
-      "title": "The Battle for Texas: GOP, Paxton and Talarico",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNXzIwX3Jma0R6cXo1cWJLT0RDNmM5Z0NBRHNmLS1IUkhHM3dsOEc5dVJ0MjdmZ2U2ZE5rTDhVeU4tNlllQ1FUeG55SXJhb210YnNCcHB6MmtrRGxJYzNtSkhtb1ZCbHJQRldmVzUzZFlrV1RoUXhXY2Z0NzlNLTRDcmFiN05FaHlQdGlxbzdoZzdQbnVoS1h3OTdycFJPWHd3ZFdtdHVXWC1DaGpEN01NM2hwRGhsQzdBejZnWDVDdXJXakpKRS1Od0wtX0hITHfSAc8BQVVfeXFMTV8yMF9yZmtEenF6NXFiS09EQzZjOWdDQURzZi0tSFJIRzN3bDhHOXVSdDI3ZmdlNmROa0w4VXlOLTZZZUNRVHhueUlyYW9tdGJzQnBwejJra0RsSWMzbUpIbW9WQmxyUEZXZlc1M2RZa1dUaFF4V2NmdDc5TS00Q3JhYjdORWh5UHRpcW83aGc3UG51aEtYdzk3cnBST1h3d2RXbXR1V1gtQ2hqRDdNTTNocERobEM3QXo2Z1g1Q3VyV2pKSkUtTndMLV9ISEx3?oc=5",
-      "publishedAt": "2026-09-04T22:32:27.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "4 things investigators learned about the dysfunction at Trump's Labor Department",
-      "url": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
-      "publishedAt": "2026-09-04T21:47:19.000Z"
     }
   ]
 }
