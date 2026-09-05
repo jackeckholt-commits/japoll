@@ -1,11 +1,23 @@
 {
-  "generatedAt": "2026-09-05T15:34:14.034Z",
+  "generatedAt": "2026-09-05T18:34:44.160Z",
   "articles": [
     {
-      "source": "WSJ",
+      "source": "PBS NewsHour",
+      "title": "Kennedy Center renews call for Trump-backed shutdown after part of a ceiling collapses",
+      "url": "https://www.pbs.org/newshour/politics/kennedy-center-renews-call-for-trump-backed-shutdown-after-part-of-a-ceiling-collapses",
+      "publishedAt": "2026-09-05T17:33:29.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "New Hampshire's GOP primary features two familiar names from the past, and voters are fine with that",
+      "url": "https://www.pbs.org/newshour/politics/new-hampshires-gop-primary-features-two-familiar-names-from-the-past-and-voters-are-fine-with-that",
+      "publishedAt": "2026-09-05T16:35:17.000Z"
+    },
+    {
+      "source": "wsj.com",
       "title": "The 2026 Races That Could Determine House Control",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNS1wLUNrSWYwU2tzT2o5ZmMzSFVIYjd0TVVpQTJxdVNKUGd5ckFTc1hFMTdQVkZ0WGZFUWlBS09lakFSNUVLRzVRSWk4M1dCXzdrRjg2VnpaVFZJZWFhYVpKNXVJb2o1V2UxRHdIUzM3WWNVZDhnZEdDTDl6dmNoYVZrV190NHh6UC1aa0ZjTkI1ZlpuaG4zZWQ3a3ZSQQ?oc=5",
-      "publishedAt": "2026-09-05T12:46:07.000Z"
+      "publishedAt": "2026-09-05T15:46:08.000Z"
     },
     {
       "source": "NPR",
@@ -20,10 +32,16 @@
       "publishedAt": "2026-09-05T11:43:22.000Z"
     },
     {
-      "source": "WHYY",
+      "source": "whyy.org",
       "title": "Pa. election 2026: Voter guides, key races and more",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb1VOUFo1MjhoZ1VHRkxaNlNEMWFuN3VzTml4UHZLWktKeTRnRXR1VGV3RnZNZmxVRkZZek9aRFJwN3JLbm01bW40emRsME9OMlNMLTk0dmxLR2tyaEFsbDlYdzJLc0JmTXA3N1Y4b1ZyR1ZhS2lkMGJwN2tzMlV3OUxkV1dweGZUQXNNT245Yw?oc=5",
       "publishedAt": "2026-09-05T09:30:08.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Gallup Polls Show Democrats Outnumber Republicans Ahead of 2026 Midterm Elections",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdjdmRWh1QXE4cjhXWk9jZWk2bng1SjZpRVgxcnFQQTRGMS1WUXZKUzJLZnlfNFVpNmE3V28xbkc0Sk1feVFvYTV3ZkRKWkw5T1dNVFIxYURFckN1cFkzalRPNHRBaUNTQlE3MVVZM3NSSC13Mlp2WFdQRTJlS1c1bGJQSTVtdEJNV244ZnRfbk1mRTJKVS0wZ1BEMlQ?oc=5",
+      "publishedAt": "2026-09-05T09:03:09.000Z"
     },
     {
       "source": "NPR",
@@ -38,28 +56,10 @@
       "publishedAt": "2026-09-05T09:00:00.000Z"
     },
     {
-      "source": "Honolulu Civil Beat",
-      "title": "High Court Orders New Election For Hawaiʻi House Race",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVEFNWDVEUGVfM1pmQ3lLeFNSd0xoZXF2aTVGZnpTZkc5MEdDUG9sY1hMSjZBUmxnVks3RndnNkVDVUJWUEJmOU1iTjlxRnhsZTk0dVhYcE9rWHQyMkN4QWd0RmhqbGx3STNJYV9aZFp1Ni1LU3VRZjJ4VDlMdkdtbTVZRnNzcWZVN0FRRzZmaGlCNENDcVlWOQ?oc=5",
-      "publishedAt": "2026-09-05T03:16:18.000Z"
-    },
-    {
-      "source": "Alaska's News Source",
-      "title": "Election 2026: With bipartisan House majority in the balance, several races will determine control of legislature",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeHREbkl1UjBQNHNNR0p4eEpqTFNzT2RfTFBiS1dLQUVidGRuSEhQVjNRX0N6MlhLbm9jTFg0OWNaZkdNcHJBQ01Fb2daZjJrS0x2Vmt5cFI4eFVGLTN4QUZGUjFkRVRFWWs3OEJEUUQ3RVpnb1VtdUtkU3oyeDA4dld1ZXd4WWVSa05wcG91aFl5VjIxYlhkZ29WX19oZVoydUpoYVNiZVRpNWxPdGs5T01qRElISVZubTJIS1RZZHN4bnZWZ25ETkw5U2lVekZ0ZXNHUHgtbGlZQ1VXVUw5ZNIB9AFBVV95cUxNTExySVR1UlhVYnlSYmpuVjhsNHk3YTdOMzd1b0lUM0MtVnNKZkcwU0VXVGtjbVlDbk9wOE8zTVVGeUxfWVFhTWtfcEttU1pDcHpiNlZaY1FsSDFWZE5rZ1lGV0pZT3FSVi1SaGtyeGZIay1KeDFkR1Y5NDhyNE9jeEZqSUdRT21PN00yWnFKbjJPT3U5WWZkdTdWNW1fdmpIQXIzaklBWXAxcjJFX0JFamZia0FVeGV2QzlNWkY1MHRYYU5saElXUjdTRC1TM1FnS09fWDlHNXVkek9Jc0s3Smp6LV9adm43VGtFU2tJWTA3ckR1?oc=5",
-      "publishedAt": "2026-09-05T01:35:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Federal judge extends block on Trump order seeking to limit mail voting in the midterms",
-      "url": "https://www.pbs.org/newshour/politics/federal-judge-extends-block-on-trump-order-seeking-to-limit-mail-voting-in-the-midterms",
-      "publishedAt": "2026-09-05T00:19:17.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Why the U.S. job market remains resilient in face of global pressures and inflation",
-      "url": "https://www.pbs.org/newshour/show/why-the-u-s-job-market-remains-resilient-in-face-of-global-pressures-and-inflation",
-      "publishedAt": "2026-09-04T22:55:43.000Z"
+      "source": "Courthouse News",
+      "title": "Hawaii Supreme Court orders new election in tied House race",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMVJmRHdERVM0WjFGRmRRZXZzaUN6bGd6bzdQQ0JiS25MTW0yTmxZOS1Vd2RlT1lYTEk3VXQ3bWNGTVNuZXh4Z09tTDBfdUpybWE3eko3bjR4aXZiUkZjOF9hT3loamlTMFpnMk96NTdSMUJCVExkeGM5QUtuS2ZxMjBVMFhJUDFxRy1hR1RFcUhwRU5tV3c?oc=5",
+      "publishedAt": "2026-09-05T06:12:41.000Z"
     }
   ]
 }
