@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-09-06T15:48:19.889Z",
+  "generatedAt": "2026-09-06T18:38:45.754Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "California made Gavin Newsom famous. Will it drag down his 2028 presidential ambitions?",
+      "url": "https://www.pbs.org/newshour/politics/california-made-gavin-newsom-famous-will-it-drag-down-his-2028-presidential-ambitions",
+      "publishedAt": "2026-09-06T16:52:25.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions",
@@ -8,34 +14,10 @@
       "publishedAt": "2026-09-06T15:15:28.000Z"
     },
     {
-      "source": "Spectrum News",
+      "source": "spectrumlocalnews.com",
       "title": "A whiplash election year enters its final stretch as Trump holds wild cards",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT3FoZ3VtMVhhOTFucnRHQXZxVEkzQWQtMW1LZzhMRlBsVEFSeGdkanE0dzd6YnBtU2swYnFhcWF1RHdIUGlRRjV6RDN5Z09PNVpfQ2VMbFBsX2daMTJ5aXdNVGVGM0E3MXRiUzkwVVpiSEprSUd3TnRDa3NXbGUwUDlqd2NoZXlKSXVTWkZKbzBaemZOa3VqM2w0OVlLelp6QUlUNDVSQzZlMWJLdV9ZdHRiOGtNYXd6bFZFMlp4MENpZWlKM21WSkoxVFJJRjlC?oc=5",
       "publishedAt": "2026-09-06T14:46:00.000Z"
-    },
-    {
-      "source": "AJC.com",
-      "title": "Mike Collins, facing tough Senate race, will speak at GOP convention",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX3RlcF9jYkNuYS1mN3FZNFVIejQ1aEpSQnE3b05ubWZuSE9rdXhTdHFKd1dGdHV4bkx1NERCazEzQkRIY3dPRUx0SzZONXF3VnJQVEtNVVVfSTFOY1Q3S2lmeGxJM3c5cGdnY3hSYVBrMUUxQ045YnpzTWNaVlAyNm95c21OR3hHM1lYRGJWdmpNZmZnd0pxVHVzdldjSm1IaXNLelBKUQ?oc=5",
-      "publishedAt": "2026-09-06T14:39:26.000Z"
-    },
-    {
-      "source": "New York Post",
-      "title": "Trump's MAGA super PAC pours $10M into Ken Paxton's Texas Senate race after polls show him trailing Dem Talarico",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcngtOEUtWk5fekN6M1AzRkNHVE9MYmJabFBQR0RlUVI0OVRVTk9zZUk1aGstMzI5N3BlSnpCQ3FleTZaa05mSEtRdXBLcVB0RGE1TzlRQjc3bGxrVG5xaFdncG4zUEQtYXZocUhUUWZ6ZjExVnZjLVl2Q0xGYm1fZlVwWERIUUVRTlpsdzdzODdqS0NDSVNIXzlfNV9QdWVtNnQ3c19SYzVwOWswb2pfZDNqVVhQanc3SmpMdUwwcEc?oc=5",
-      "publishedAt": "2026-09-06T14:27:02.000Z"
-    },
-    {
-      "source": "CNN",
-      "title": "GOP pollster: Texas Senate race ‘is a race that Republicans cannot afford to lose’",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFgyWG5LZGlDUVlLM2NmY2d0RXk2VmdSN1RiUktkSG1qcmlfMXY4YzlwYXpaa2RPM2h2cEZMcjVRdkx5UEdXdVlMcFRNSnMxaEF0SjhwZVhTS0ZOM3UzdHVHR2hFb0pNbFd3YUNfRGV3NW5jVGQxY0llSGUzS3hKT25YZnI?oc=5",
-      "publishedAt": "2026-09-06T14:22:05.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "London mayoral contenders limber up for a race that is Sadiq Khan’s to lose",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORVV6NnRIT2NEVTlVRDFWSXdHS1Y0RmxLZG9mR21zZHJ6V3hhaXZsS0ZoaTlMZm5wN0pFLW5HNDd6QkFWYmhzc2doVlh3dExseG40d1Q1aVJJbDl2d2xraVhOaXVKWUhCM2tjNjZlT3ltdjNWdmMtNzFnN1BBTVBSUDlEeWROMzhHTkZGWklZQTZCZkRwTVUxUFVGVQ?oc=5",
-      "publishedAt": "2026-09-06T13:27:00.000Z"
     },
     {
       "source": "NPR",
@@ -51,15 +33,33 @@
     },
     {
       "source": "NPR",
-      "title": "U.S. envoys Witkoff and Kushner land for talks in Kyiv after meeting Putin in Moscow",
+      "title": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
       "url": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
       "publishedAt": "2026-09-06T09:51:04.000Z"
     },
     {
-      "source": "PBS NewsHour",
+      "source": "The New York Times",
+      "title": "Massachusetts Governor Primary Election Results",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVlBDbkpOc09rT1hRa00tR2pyZ1NMaEt1WWcxTThZeGZadlVIdVVPbmJfT01yd2FjbU5Qc3lqUE9WZXZxNlo1LWN6aTI0Vm9Ic3dldEs2dWJyNFBpMW5VUW1zanlkNE04cERrNnpKMHhIRGpubWJLWDlvZ2E1aXRhR2o0NjY1aEFGaktwSmNBTV9jTkFPREI4Ri1FWVRXWnNjSHhXSnRn?oc=5",
+      "publishedAt": "2026-09-06T00:00:00.000Z"
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Trump-backed group announces $10m ad spend for midterm Senate race in Texas",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUFhhRVlCMVdNSXlGbmVwQjYwUHJTZ0NyU3dicGt4aWpLVkJ5NmhtZjYxY1FNWFJoNklZek8tOEZtZWJRX3VqMjFUbUVDeG9CSnE2ejZHcnNVY3U0alZNTExMcWs0eHV1YzVidmo1NlFEaVpJemxTUlEyR2Q5aURmN1ZVd1BjaFYxMldqeG0zb3RxTmtOUmZ3cjItR3RQN1RoOW00d2FEMjNZT3M5Z1Z4YktBOVnSAboBQVVfeXFMUGdTeFhUTkVzY1hXVXBJLTdOUW1xSjZ4UEtubkc5WTJuTnhHZTEtb1cyRjRNRXFoankySHdrLXNvYVJuNkp5YUhkdGc3SGNvMGxhT0pnMHFEc1pTYjVaVVd4NmhCT3FNWnhrYlcxTmR0dFFsY3J3WGp6WURjYVhJZERTcEFzeDFqbVJhQmRoMnVnempXMDRJR1l1QlV5bHVXNklQS2FxV21IRHQxN01jZm9tTFBlbEh4RVNB?oc=5",
+      "publishedAt": "2026-09-05T23:05:13.000Z"
+    },
+    {
+      "source": "pbs.org",
       "title": "Here's a look at 'reach' election races where Democrats hope to pull off House upsets",
-      "url": "https://www.pbs.org/newshour/politics/heres-a-look-at-reach-election-races-where-democrats-hope-to-pull-off-house-upsets",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMXB4MWx2Y1VMTjZtZUdjR0V4ZndMMzBnNjFnUnljX1V6OEhiRTZHV3JLT2RldmVrUUhqZnd2c3RKZEJCbDJYYTEtX2haeWdDTFZTNV9tYVIzVWV3Mzc3ZTFyTU9nT0JoT3VMNTFiVVFaTmFscDJDZXQ3ZGNFS29QZ3FackhPMFNDb1RId1VZbHYzZTJyRVdyaUlnNVdMekxHVlZuNWR4Z2RqMmxvSURBdDNGUG5XdVZRZTY2X9IBwgFBVV95cUxNdHptUDNvbk9ZZnQ5U0NqSTRpWGgyajg4anIwazdRQm5RaWo5ZUQwTUJ2MXhnd08wMzdva3laM1FUd09UY29XMWhmSkUyaUJzOEVLU01lLWg0NTVLclZMVXBrcGZqeGRLbmxJM1BEN25EMjZHbmdnTnpXQzNLc2xzNW9vQ3VFMlNzY2FaVTZ3S0NHeHYzZkp6SzQ4VG91OVpxMHBZa0pHTC1Ma0JMNDZsTGdnUmh4ZEFWV2dBR3JNcmtmUQ?oc=5",
       "publishedAt": "2026-09-05T22:36:33.000Z"
+    },
+    {
+      "source": "270toWin.com",
+      "title": "FiftyPlusOne 2026 Senate Forecast",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhSSzR0UU1sLVVHLU1BMUlWbExHYmdRNU9Jd2g5VEQ0OXB2ckxBT3dXcDQ0aWFOd1B3MVR3Snk3eld5MkxuaThPTy1tU2FjdGd6N0wzenFOY0JVbGk4RWxqbk9JY09NOW9SLWg0ZlplWUZKMFk1ZFRzMk1vTkhJeHRUdGJxdw?oc=5",
+      "publishedAt": "2026-09-05T22:00:00.000Z"
     }
   ]
 }
