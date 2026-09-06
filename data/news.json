@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-06T12:19:54.213Z",
+  "generatedAt": "2026-09-06T15:48:19.889Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump administration makes another appeal to Supreme Court to allow mail ballot restrictions",
+      "url": "https://www.pbs.org/newshour/politics/trump-administration-makes-another-appeal-to-supreme-court-to-allow-mail-ballot-restrictions",
+      "publishedAt": "2026-09-06T15:15:28.000Z"
+    },
+    {
+      "source": "Spectrum News",
+      "title": "A whiplash election year enters its final stretch as Trump holds wild cards",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT3FoZ3VtMVhhOTFucnRHQXZxVEkzQWQtMW1LZzhMRlBsVEFSeGdkanE0dzd6YnBtU2swYnFhcWF1RHdIUGlRRjV6RDN5Z09PNVpfQ2VMbFBsX2daMTJ5aXdNVGVGM0E3MXRiUzkwVVpiSEprSUd3TnRDa3NXbGUwUDlqd2NoZXlKSXVTWkZKbzBaemZOa3VqM2w0OVlLelp6QUlUNDVSQzZlMWJLdV9ZdHRiOGtNYXd6bFZFMlp4MENpZWlKM21WSkoxVFJJRjlC?oc=5",
+      "publishedAt": "2026-09-06T14:46:00.000Z"
+    },
+    {
+      "source": "AJC.com",
+      "title": "Mike Collins, facing tough Senate race, will speak at GOP convention",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX3RlcF9jYkNuYS1mN3FZNFVIejQ1aEpSQnE3b05ubWZuSE9rdXhTdHFKd1dGdHV4bkx1NERCazEzQkRIY3dPRUx0SzZONXF3VnJQVEtNVVVfSTFOY1Q3S2lmeGxJM3c5cGdnY3hSYVBrMUUxQ045YnpzTWNaVlAyNm95c21OR3hHM1lYRGJWdmpNZmZnd0pxVHVzdldjSm1IaXNLelBKUQ?oc=5",
+      "publishedAt": "2026-09-06T14:39:26.000Z"
+    },
+    {
+      "source": "New York Post",
+      "title": "Trump's MAGA super PAC pours $10M into Ken Paxton's Texas Senate race after polls show him trailing Dem Talarico",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcngtOEUtWk5fekN6M1AzRkNHVE9MYmJabFBQR0RlUVI0OVRVTk9zZUk1aGstMzI5N3BlSnpCQ3FleTZaa05mSEtRdXBLcVB0RGE1TzlRQjc3bGxrVG5xaFdncG4zUEQtYXZocUhUUWZ6ZjExVnZjLVl2Q0xGYm1fZlVwWERIUUVRTlpsdzdzODdqS0NDSVNIXzlfNV9QdWVtNnQ3c19SYzVwOWswb2pfZDNqVVhQanc3SmpMdUwwcEc?oc=5",
+      "publishedAt": "2026-09-06T14:27:02.000Z"
+    },
+    {
+      "source": "CNN",
+      "title": "GOP pollster: Texas Senate race ‘is a race that Republicans cannot afford to lose’",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFgyWG5LZGlDUVlLM2NmY2d0RXk2VmdSN1RiUktkSG1qcmlfMXY4YzlwYXpaa2RPM2h2cEZMcjVRdkx5UEdXdVlMcFRNSnMxaEF0SjhwZVhTS0ZOM3UzdHVHR2hFb0pNbFd3YUNfRGV3NW5jVGQxY0llSGUzS3hKT25YZnI?oc=5",
+      "publishedAt": "2026-09-06T14:22:05.000Z"
+    },
+    {
+      "source": "The Guardian",
+      "title": "London mayoral contenders limber up for a race that is Sadiq Khan’s to lose",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORVV6NnRIT2NEVTlVRDFWSXdHS1Y0RmxLZG9mR21zZHJ6V3hhaXZsS0ZoaTlMZm5wN0pFLW5HNDd6QkFWYmhzc2doVlh3dExseG40d1Q1aVJJbDl2d2xraVhOaXVKWUhCM2tjNjZlT3ltdjNWdmMtNzFnN1BBTVBSUDlEeWROMzhHTkZGWklZQTZCZkRwTVUxUFVGVQ?oc=5",
+      "publishedAt": "2026-09-06T13:27:00.000Z"
+    },
     {
       "source": "NPR",
       "title": "Public backlash against data centers is rising. Politicians are playing catchup",
@@ -20,46 +56,10 @@
       "publishedAt": "2026-09-06T09:51:04.000Z"
     },
     {
-      "source": "Al Jazeera",
-      "title": "Trump-backed group announces $10m ad spend for midterm Senate race in Texas",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUFhhRVlCMVdNSXlGbmVwQjYwUHJTZ0NyU3dicGt4aWpLVkJ5NmhtZjYxY1FNWFJoNklZek8tOEZtZWJRX3VqMjFUbUVDeG9CSnE2ejZHcnNVY3U0alZNTExMcWs0eHV1YzVidmo1NlFEaVpJemxTUlEyR2Q5aURmN1ZVd1BjaFYxMldqeG0zb3RxTmtOUmZ3cjItR3RQN1RoOW00d2FEMjNZT3M5Z1Z4YktBOVnSAboBQVVfeXFMUGdTeFhUTkVzY1hXVXBJLTdOUW1xSjZ4UEtubkc5WTJuTnhHZTEtb1cyRjRNRXFoankySHdrLXNvYVJuNkp5YUhkdGc3SGNvMGxhT0pnMHFEc1pTYjVaVVd4NmhCT3FNWnhrYlcxTmR0dFFsY3J3WGp6WURjYVhJZERTcEFzeDFqbVJhQmRoMnVnempXMDRJR1l1QlV5bHVXNklQS2FxV21IRHQxN01jZm9tTFBlbEh4RVNB?oc=5",
-      "publishedAt": "2026-09-05T23:05:13.000Z"
-    },
-    {
-      "source": "PBS",
+      "source": "PBS NewsHour",
       "title": "Here's a look at 'reach' election races where Democrats hope to pull off House upsets",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMXB4MWx2Y1VMTjZtZUdjR0V4ZndMMzBnNjFnUnljX1V6OEhiRTZHV3JLT2RldmVrUUhqZnd2c3RKZEJCbDJYYTEtX2haeWdDTFZTNV9tYVIzVWV3Mzc3ZTFyTU9nT0JoT3VMNTFiVVFaTmFscDJDZXQ3ZGNFS29QZ3FackhPMFNDb1RId1VZbHYzZTJyRVdyaUlnNVdMekxHVlZuNWR4Z2RqMmxvSURBdDNGUG5XdVZRZTY2X9IBwgFBVV95cUxNdHptUDNvbk9ZZnQ5U0NqSTRpWGgyajg4anIwazdRQm5RaWo5ZUQwTUJ2MXhnd08wMzdva3laM1FUd09UY29XMWhmSkUyaUJzOEVLU01lLWg0NTVLclZMVXBrcGZqeGRLbmxJM1BEN25EMjZHbmdnTnpXQzNLc2xzNW9vQ3VFMlNzY2FaVTZ3S0NHeHYzZkp6SzQ4VG91OVpxMHBZa0pHTC1Ma0JMNDZsTGdnUmh4ZEFWV2dBR3JNcmtmUQ?oc=5",
+      "url": "https://www.pbs.org/newshour/politics/heres-a-look-at-reach-election-races-where-democrats-hope-to-pull-off-house-upsets",
       "publishedAt": "2026-09-05T22:36:33.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Flock cameras become midterm campaign target as voters balk at tech companies' power",
-      "url": "https://www.pbs.org/newshour/politics/flock-cameras-become-midterm-campaign-target-as-voters-balk-at-tech-companies-power",
-      "publishedAt": "2026-09-05T21:07:22.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Trump's first major midterm money move: A $10 million Texas Senate ad blitz",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMl9SN1E1Nm1vQnpiM3F1UkIzV1pOa2JRNkN0SGwwR0ViNk1HZ2M0RHVvRUIyMXlDdDB6N1FQU2tTVDMtcVVKeElsbEFUdFJQbXZTZGFEUHNxbGJLTnE1TnJONndyM2V1aFYzU3lZYTlCME9HWVFQbkFxZkhHYjZZV3JRNFZ1Q1h3dmlPUWlrblozR253dkctbUlTODdxYWgxNTBXOTFXcTBNOVJjbHM40gG0AUFVX3lxTFBKUHpLZUpyRjlsM1IxX242a0czeFFnSXlsRk5pUDRoREVPNzJZRU1xcmxid1RLcGNSOF82MHJwQTNqXzdTZU5sSVFiRy1zRjh2Z2wzMUpiZy1VRURWX1RZVTNDRjdxcUN3QWM5V2V0VGZVVng1R0RCaXFzb2sydWtpd2ljSm9ORWxSS0ZGMTVzU2NJZEpZV2RBRzJ1SXpDRDVubHdxWFRaRHhSTndNRnExMFhteA?oc=5",
-      "publishedAt": "2026-09-05T20:44:35.000Z"
-    },
-    {
-      "source": "Silver Bulletin",
-      "title": "FLIPR 2026 midterm election forecast",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
-      "publishedAt": "2026-09-05T20:36:32.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Trump-aligned super PAC to spend $10 million in Texas Senate race",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZWdIMllTakVZY1REM29XTmoxb1c4em9aZUx3TXNBQjUtRzVDZVE1UjZFMUtnbVJWeWVMLWpzcEdiNnVLSVlLdFhRdFJEMlNnZXdnTVc0TG9jTUhZU21aU1NnNi1CZm5hTVBDOGVuOTlBZmVnOVFWdWNGdklUQ09kUmhyZUpSclZFY1JQdTZ0SkR6aVprYjRMR0NJU2hCaVB2YzJuSnYxcnU1QThkR281T2F2M04zMEhGMjRvdHFRMEJrbGpBRkE?oc=5",
-      "publishedAt": "2026-09-05T19:30:46.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Kennedy Center renews call for Trump-backed shutdown after part of a ceiling collapses",
-      "url": "https://www.pbs.org/newshour/politics/kennedy-center-renews-call-for-trump-backed-shutdown-after-part-of-a-ceiling-collapses",
-      "publishedAt": "2026-09-05T17:33:29.000Z"
     }
   ]
 }
