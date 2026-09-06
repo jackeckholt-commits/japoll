@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-06T05:06:52.082Z",
+  "generatedAt": "2026-09-06T12:19:54.213Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Public backlash against data centers is rising. Politicians are playing catchup",
+      "url": "https://www.npr.org/2026/09/06/nx-s1-5948148/public-backlash-against-data-centers-is-rising-politicians-are-playing-catchup",
+      "publishedAt": "2026-09-06T12:02:47.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Politics chat: First-ever Republican midterm convention or Trump rally?",
+      "url": "https://www.npr.org/2026/09/06/nx-s1-5954027/politics-chat-first-ever-republican-midterm-convention-or-trump-rally",
+      "publishedAt": "2026-09-06T12:02:42.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "U.S. envoys Witkoff and Kushner land for talks in Kyiv after meeting Putin in Moscow",
+      "url": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+      "publishedAt": "2026-09-06T09:51:04.000Z"
+    },
     {
       "source": "Al Jazeera",
       "title": "Trump-backed group announces $10m ad spend for midterm Senate race in Texas",
@@ -8,7 +26,7 @@
       "publishedAt": "2026-09-05T23:05:13.000Z"
     },
     {
-      "source": "pbs.org",
+      "source": "PBS",
       "title": "Here's a look at 'reach' election races where Democrats hope to pull off House upsets",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMXB4MWx2Y1VMTjZtZUdjR0V4ZndMMzBnNjFnUnljX1V6OEhiRTZHV3JLT2RldmVrUUhqZnd2c3RKZEJCbDJYYTEtX2haeWdDTFZTNV9tYVIzVWV3Mzc3ZTFyTU9nT0JoT3VMNTFiVVFaTmFscDJDZXQ3ZGNFS29QZ3FackhPMFNDb1RId1VZbHYzZTJyRVdyaUlnNVdMekxHVlZuNWR4Z2RqMmxvSURBdDNGUG5XdVZRZTY2X9IBwgFBVV95cUxNdHptUDNvbk9ZZnQ5U0NqSTRpWGgyajg4anIwazdRQm5RaWo5ZUQwTUJ2MXhnd08wMzdva3laM1FUd09UY29XMWhmSkUyaUJzOEVLU01lLWg0NTVLclZMVXBrcGZqeGRLbmxJM1BEN25EMjZHbmdnTnpXQzNLc2xzNW9vQ3VFMlNzY2FaVTZ3S0NHeHYzZkp6SzQ4VG91OVpxMHBZa0pHTC1Ma0JMNDZsTGdnUmh4ZEFWV2dBR3JNcmtmUQ?oc=5",
       "publishedAt": "2026-09-05T22:36:33.000Z"
@@ -20,7 +38,7 @@
       "publishedAt": "2026-09-05T21:07:22.000Z"
     },
     {
-      "source": "pbs.org",
+      "source": "PBS",
       "title": "Trump's first major midterm money move: A $10 million Texas Senate ad blitz",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMl9SN1E1Nm1vQnpiM3F1UkIzV1pOa2JRNkN0SGwwR0ViNk1HZ2M0RHVvRUIyMXlDdDB6N1FQU2tTVDMtcVVKeElsbEFUdFJQbXZTZGFEUHNxbGJLTnE1TnJONndyM2V1aFYzU3lZYTlCME9HWVFQbkFxZkhHYjZZV3JRNFZ1Q1h3dmlPUWlrblozR253dkctbUlTODdxYWgxNTBXOTFXcTBNOVJjbHM40gG0AUFVX3lxTFBKUHpLZUpyRjlsM1IxX242a0czeFFnSXlsRk5pUDRoREVPNzJZRU1xcmxid1RLcGNSOF82MHJwQTNqXzdTZU5sSVFiRy1zRjh2Z2wzMUpiZy1VRURWX1RZVTNDRjdxcUN3QWM5V2V0VGZVVng1R0RCaXFzb2sydWtpd2ljSm9ORWxSS0ZGMTVzU2NJZEpZV2RBRzJ1SXpDRDVubHdxWFRaRHhSTndNRnExMFhteA?oc=5",
       "publishedAt": "2026-09-05T20:44:35.000Z"
@@ -42,24 +60,6 @@
       "title": "Kennedy Center renews call for Trump-backed shutdown after part of a ceiling collapses",
       "url": "https://www.pbs.org/newshour/politics/kennedy-center-renews-call-for-trump-backed-shutdown-after-part-of-a-ceiling-collapses",
       "publishedAt": "2026-09-05T17:33:29.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump administration to dig at triumphal arch site despite no final federal approvals",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-no-final-federal-approvals",
-      "publishedAt": "2026-09-05T11:43:24.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Week in Politics: Trump's face on the coin; reshaping the capital; the midterms",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5957499/week-in-politics-trumps-face-on-the-coin-reshaping-the-capital-the-midterms",
-      "publishedAt": "2026-09-05T11:43:22.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Voters are fed up with data centers. Both parties are trying to cash in for midterms",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5913671/ai-data-center-campaign-spending",
-      "publishedAt": "2026-09-05T09:00:00.000Z"
     }
   ]
 }
