@@ -1,23 +1,41 @@
 {
-  "generatedAt": "2026-09-07T20:10:10.870Z",
+  "generatedAt": "2026-09-07T23:00:09.221Z",
   "articles": [
     {
       "source": "PBS NewsHour",
+      "title": "Far-right AfD win signals shift in Germany, raises alarm in Europe",
+      "url": "https://www.pbs.org/newshour/show/far-right-afd-win-signals-shift-in-germany-raises-alarm-in-europe",
+      "publishedAt": "2026-09-07T22:50:01.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "News Wrap: Tropical Storm Marie brings dangerous surf to California coast",
+      "url": "https://www.pbs.org/newshour/show/news-wrap-tropical-storm-marie-brings-dangerous-surf-to-california-coast",
+      "publishedAt": "2026-09-07T22:45:56.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "EU seeks to reassure a Trump-rattled Greenland with promise of a new partnership and investment",
+      "url": "https://www.pbs.org/newshour/world/eu-seeks-to-reassure-a-trump-rattled-greenland-with-promise-of-a-new-partnership-and-investment",
+      "publishedAt": "2026-09-07T21:29:13.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Midterm elections head into the home stretch as candidates attend Labor Day events",
+      "url": "https://www.pbs.org/newshour/politics/midterm-elections-head-into-the-home-stretch-as-candidates-attend-labor-day-events",
+      "publishedAt": "2026-09-07T21:16:47.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump's construction projects are transforming the capital",
+      "url": "https://www.npr.org/2026/09/07/nx-s1-5958600/trumps-construction-projects-are-transforming-the-capital",
+      "publishedAt": "2026-09-07T20:32:13.000Z"
+    },
+    {
+      "source": "PBS",
       "title": "A whiplash election year enters its final stretch as Trump holds wild cards",
-      "url": "https://www.pbs.org/newshour/politics/a-whiplash-election-year-enters-its-final-stretch-as-trump-holds-wild-cards",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSXNrczZKSGxBR1M0bFR6UThPWGdHYUpLOUlzTzRCSHl4bnZOVDM0RTQyYlpoLXJMZEhSREc1S1ZtUy1lbkI4dXRId1VXd2RTb0VCTGtyZjltMlh1aDkwUjlGdVZaOGxmUFBmU2VfaE9GQVpKSmEwU2pEZHF3YU9ZNXpGT2FkNk9YWVAyT1l6NE5WT3owRnl2VG40SmprU2VtYWM2YlMweWloN0dGUzh0OWFKQdIBuAFBVV95cUxNY254ZXRhZU5ZcWJ1U1lyUS1BbFBVWW9ORXE5eTc0NkJrd1ZrLVY5S053Zm45VkRaUUI3bEgxUEhfNElvTzFOQjJzN2Nob01vQnl2STBRSXN3RlpfMi1EVXdGUktkME9Ua3poanBVVjk4V1haT2c2UnlVWmZMQy1fNHJoSTc0dEpsNHBsQkdlbHBhVGFsb1h3WWNDdnpxZ0c4VTJkNEpwVUgtekpOa3hRNUUxeHV1LXpw?oc=5",
       "publishedAt": "2026-09-07T19:30:39.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump keeps heralding an economic boom, but even a solid jobs report is causing problems for him",
-      "url": "https://www.pbs.org/newshour/politics/trump-keeps-heralding-an-economic-boom-but-even-a-solid-jobs-report-is-causing-problems-for-him",
-      "publishedAt": "2026-09-07T18:46:50.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Armed man charged toward Democratic candidate for Ohio governor at fair, law enforcement says",
-      "url": "https://www.pbs.org/newshour/politics/armed-man-charged-toward-democratic-candidate-for-ohio-governor-at-fair-law-enforcement-says",
-      "publishedAt": "2026-09-07T18:03:32.000Z"
     },
     {
       "source": "The Belmont Voice",
@@ -42,24 +60,6 @@
       "title": "The nine midterm races that will decide control of the US Senate",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWHNQbThINkZTd0M5Zi1aVTBMNlNNa2NFeFhWaWwwampJc0c0T1ptcVRDemJGX3owMm1zRFZmQ1BQaWdYbVRJMk9nTUhDVEpoc1h5LTZ0QmIwRlFZQ2tYV0RFZUpLVk5rY3lLSHVQMmZDOE1udEZyVTc2eUIxV3F1SW05T2lkUWtBLWYzZkRaWDhvaTdXX1ZNRGhZYTVUZGM?oc=5",
       "publishedAt": "2026-09-07T10:05:43.000Z"
-    },
-    {
-      "source": "New Hampshire Bulletin",
-      "title": "The 1st Congressional District: Eastern NH voters have plenty of options Tuesday",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGJMeEdDN05xTU9vYXpKWHN1VGU5aVllXzR1UkpqbzNfRTBnZ21aTlAyTHhfYXFHNVdtazZtX04wWEV2S2ZNdXAtZF9ocHkzQ1pCSGpfUnNsY1Byc3VFWk00ZUc1NmE1RFZEZ29rel9admlkRFhUUHFyUzl6enV6NVJzQ19sUVVyZm01OXk4RzZmUTR2UElSVUJQWkg1NU1kOUxPOExFNjhxQW1uVG4zTVZZM0xRODhYdmk3dWc4UFE5QQ?oc=5",
-      "publishedAt": "2026-09-07T09:01:24.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "With the midterms fast approaching, campaign season begins",
-      "url": "https://www.npr.org/2026/09/07/nx-s1-5955739/with-the-midterms-fast-approaching-campaign-season-begins",
-      "publishedAt": "2026-09-07T08:43:05.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "What to expect as midterm campaign season kicks off",
-      "url": "https://www.npr.org/2026/09/07/nx-s1-5955604/what-to-expect-as-midterm-campaign-season-kicks-off",
-      "publishedAt": "2026-09-07T08:42:57.000Z"
     }
   ]
 }
