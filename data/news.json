@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-09-08T19:36:16.050Z",
+  "generatedAt": "2026-09-08T22:58:56.714Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Canadian tariffs on U.S. goods take effect, marking turning point in relations",
+      "url": "https://www.pbs.org/newshour/show/canadian-tariffs-on-u-s-goods-take-effect-marking-turning-point-in-relations",
+      "publishedAt": "2026-09-08T22:55:04.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "How the U.S.-Canada trade dispute is impacting the economy on both sides of the border",
+      "url": "https://www.pbs.org/newshour/show/how-the-u-s-canada-trade-dispute-is-impacting-the-economy-on-both-sides-of-the-border",
+      "publishedAt": "2026-09-08T22:50:20.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump's trade war with Canada looms over key Congressional races",
+      "url": "https://www.pbs.org/newshour/show/trumps-trade-war-with-canada-looms-over-key-congressional-races",
+      "publishedAt": "2026-09-08T22:47:07.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "News Wrap: NYC officials release documents showing city was aware of toxic air after 9/11",
+      "url": "https://www.pbs.org/newshour/show/news-wrap-nyc-officials-release-documents-showing-city-was-aware-of-toxic-air-after-9-11",
+      "publishedAt": "2026-09-08T22:45:47.000Z"
+    },
+    {
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "title": "New polling shows where Michigan voters stand in 2026 U.S. Senate race",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVV9JZEJmVlpYS05fMmpoYl9scTBJcDU3TFFPTGtxVmJCdFN2VTZzd21jemE3VHpydWQ5d09CSjJCM2lqeEZtWW5MYmZncDFoTDcyUFV2MVdSYmJ2ajc2MHNoLWt6c1JFcFlsdTlXVk5pTlFRalltWHlScTBtZ2dCdE5oUVlWMUlYcFlyLWFWX3htLVM4bHdtZ3gxRC05R1dvMjYxVGp3T3JSQVNveHRMd29haDVfN3lOTXpDX0JKRWE?oc=5",
+      "publishedAt": "2026-09-08T21:00:00.000Z"
+    },
+    {
+      "source": "The Michigan Independent",
+      "title": "How to vote early in this year’s election in Michigan",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcWM5a0JLbUNGcVpUWlN5OGxPcEJTcTV2dkxycjUtTEQ4Wk1FQ1NVMTNhWDJDcW9XdkRtQlRSd2ZGQXQ3SHRVcElUUkVtSHVsanpFUXhTOF9pQUpFeHp1OTRmMFJLZnZFZ3R4Z2hjLUdpNUlxdFJPTkpFdnlRVTVIblQ5clR0MUJsUWlLMW9teTZ3YkZhdVRObUZB?oc=5",
+      "publishedAt": "2026-09-08T20:00:40.000Z"
+    },
+    {
+      "source": "Houston Public Media",
+      "title": "The 2026 midterm general election season is upon us. Here’s what to watch",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNU2VKUEZxTGNqSzhLOWk4bER3cGRQWGZGTUpIWG9mdXZxSE4wR2NhcmdsZ2tVOEVicWU2QWl3ck91Y05lRXl2VGhYdnV5UDFkelI2eTZnTXJtbTlqdnFHTGZyTjhuNjAwRlc1aDZCR2YtR3pfYnJuTE84TUdBRktRX0RsblE1Q3ZWZEg4RkZxUXZNUFpiMGdCbzZmOFZTTkhZbmgteVFEemNNUzBLOWdhQzNma3B6THN1UTVURFZTYnJiX2s2MlJtMXZtZWQ4M21CaFJjS0d0VkNhTk13dTlLVFZlZVdoSHozaU1YaURHYmxaSHFQSnphVjVsTG3SAfwBQVVfeXFMTVNlSlBGcUxjaks4SzlpOGxEd3BkUFhmRk1KSFhvZnV2cUhOMEdjYXJnbGdrVThFYnFlNkFpd3JPdWNOZUV5dlRoWHZ1eVAxZHpSNnk2Z01ybW05anZxR0xmck44bjYwMEZXNWg2QkdmLUd6X2JybkxPOE1HQUZLUV9EbG5RNUN2VmRIOEZGcVF2TVBaYjBnQm82ZjhWU05IWW5oLXlRRHpjTVMwSzlnYUMzZmtwekxzdVE1VERWU2JyYl9rNjJSbTF2bWVkODNtQmhSY0tHdFZDYU5Nd3U5S1RWZWVXaEh6M2lNWGlER2JsWkhxUEp6YVY1bExt?oc=5",
+      "publishedAt": "2026-09-08T19:37:49.000Z"
+    },
     {
       "source": "Brookings",
       "title": "Trump’s approval slump and candidate quality drive 2026 Senate races",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR0RURnpzaTNhLWc1aG5MaUZFQzVkejdBaHFBQm05ZHd0M1prUEVpWmYzN1ZWZnA2SFo0bnVLUHpUWXdkcm5OcnhpU0U4UVU0QS1kV1ZtQ1FEaTVqNlhhQ0dnQ0NseU02MUFsNUdPejR5SGVHSHhMdWpTSURSTmQ4VUVNSDJIcmFaNFY1dkxYSlFDWEJ6VTdNMTJlM1JKZC1WYTE1Zk9B?oc=5",
-      "publishedAt": "2026-09-08T19:08:28.000Z"
+      "publishedAt": "2026-09-08T19:29:39.000Z"
     },
     {
       "source": "Brookings",
-      "title": "In 2026 governor races, local issues rival national trend",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQODl4a1VmOGh2dHdsR1E1NFJ2cGk1ckhSY29LZ0FPamJrZnk2Z1lEemNjSmMzcjJHZHlzeWhZek91SnFQRHlDRFVvMWF4dWJQT21uWmpRWU9ubEVta0IwUFBPSWc4Zk9vZTBWSUdkRU1nTVdnQ3JyUm96V2dKUHRUQjJ0YjFKWmEzVkhvQW5reERvd0UydEU0?oc=5",
-      "publishedAt": "2026-09-08T19:08:28.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Republicans were confident about keeping the Senate. Now the battle is wide open",
-      "url": "https://www.pbs.org/newshour/politics/republicans-were-confident-about-keeping-the-senate-now-the-battle-is-wide-open",
-      "publishedAt": "2026-09-08T17:41:24.000Z"
-    },
-    {
-      "source": "CNBC",
-      "title": "New Hampshire goes to the polls in primary for key open Senate seat",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQREROOG5xZVA0VC1TLUNYSGI4eTJ6bFR3ZDd0R2xwTGptbHFIempoc0ZMbG9qRUlZRldtbTJ6SXgwVjQxLW1FTlNSdFphNWp3NWg1b3lrWGtlSk1ZdU5vY1hoZ3M2dXZ3ZzdtcmdBcS1Ydk1ac3hsMFUyUXVLZEtsZFpHZWc1MXVQZ3dDSXhpY3JUVTlhb1BjUzkwNWJVNXZIZF9ra2ZoOG44cnh1WWwtdmlnby0zOEU4TFHSAb8BQVVfeXFMTzhMeU5tQmpwSmgyVHd6Vm5EbFBTQnV4MFRLd3BMN0ppQ0duQmdKTG1BU21odzZZcEEzUk1wYUJkWnZ1dElOTTgxdUUwX3R2aFJ5dkVvUmthZ0NOdjV5R3Y0SlpfaW9laFlwOGdZZVJ0czVEUmxfeVIxaXVydVpoNEhZSHU2MC1WSVlxcy1Ma2ZRYS04RHdhdzd1a0xHNWI4VUpkQkhEZnRnaENVaDJrckJQWFNIenlkQ2FMSkFueFk?oc=5",
-      "publishedAt": "2026-09-08T17:07:40.000Z"
-    },
-    {
-      "source": "Reuters",
-      "title": "New Hampshire primary kicks off battle for one of nation's key open Senate seats",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYzZkZE5JRl9OaE5yN0pMLUJfRlV4RXFOaXYzSlduUy1lUWJtM3R3Yk90cDhCT1RGamdYM3ktQVZQb004UVd5TGlXUWF1LWh1eW5LbnBTT0dsb1Z5c3BfbEVhcXJqenQtZFlQSU9zWEpTeVVQQ3ZmSjNrZ043Z0YwS2EwTlJwemVHV0lIbjVYY0o5SzE0WUNYZmYwZm9VdXdhSlB3UHhBY29rUnB2NWxxazhDQV9tVF9t?oc=5",
-      "publishedAt": "2026-09-08T17:03:04.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Lonnie Bunch to retire from Smithsonian leadership following Trump administration clash",
-      "url": "https://www.pbs.org/newshour/politics/lonnie-bunch-to-retire-from-smithsonian-leadership-following-trump-administration-clash",
-      "publishedAt": "2026-09-08T17:02:50.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "New Hampshire U.S. Senate Primary 2026: Live Election Results",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS0ZnQkg1N1BETkpUODNnaFJCRndVQnZvV3BENzl5WFVHdklsQ1NFalpHSE1qcU42aG9EZnRxby1qanBrOFhhQnpNMVk2Mzd4N0dzbzlDX3JSNHNQM012VFJTd3h6WHBldFRHVm1qeFFseDZwNlY5NldXNWdSaENjblFyNXZNU0pnU2hiZE9LU3poOFdvenZZWDlFUGExNlltRGJLa3hzZw?oc=5",
-      "publishedAt": "2026-09-08T16:21:46.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Gavin Newsom on Democrats, Trump and 2028",
-      "url": "https://www.pbs.org/newshour/podcasts/settle-in-with-pbs-news/gavin-newsom-on-democrats-trump-and-2028",
-      "publishedAt": "2026-09-08T16:16:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Live Results: Rhode Island midterm primaries",
-      "url": "https://www.pbs.org/newshour/politics/live-results-rhode-island-midterm-primaries",
-      "publishedAt": "2026-09-08T15:55:39.000Z"
+      "title": "Democrats on track to outperform 2026 House forecasts",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjFNNzJrZnZaWkR0U0tuYmlEWGhqellqZXNmY1VhZC10SG9jcXVqOFBkUDQza1ctRmZyVzlEYzNlYnZObDNVU1lfanl4RFhxNVNBMVZETnlPVGdhVnNNRnZXNW55MUVCYWtyZ2hNZmJlY3FwVmRLTFpaN0RYVlBXdWlrX2lJNWJDRXpkYWRydWxMMjA?oc=5",
+      "publishedAt": "2026-09-08T19:08:43.000Z"
     },
     {
       "source": "NPR",
-      "title": "The 2026 midterm general election season is upon us. Here's what to watch",
-      "url": "https://www.npr.org/2026/09/08/nx-s1-5960533/2026-midterm-campaign-kickoff-house-senate-trump",
-      "publishedAt": "2026-09-08T09:00:00.000Z"
+      "title": "Republicans hope unconventional convention will rally voters ahead of midterms",
+      "url": "https://www.npr.org/2026/09/08/nx-s1-5950566/republicans-hope-unconventional-convention-will-rally-voters-ahead-of-midterms",
+      "publishedAt": "2026-09-08T08:42:13.000Z"
     }
   ]
 }
