@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-09-08T22:58:56.714Z",
+  "generatedAt": "2026-09-09T05:18:48.034Z",
   "articles": [
+    {
+      "source": "The Washington Post",
+      "title": "Live results: Ayotte easily beats two challengers in New Hampshire governor primary",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRXJzcU9abUY0UVdnRWhKa1UtOHBqODBldGpUV0pVcXY0WkZ3OU10VDl4SE01cnRXS3hPZU9KbEF4VklSdTRIRGw4cDBYa0JucDdWVkFKbXdEdWluRTFwYk1RaDcwclNFOEtLaktqVWRwN0dwRWJhNmRNTTZNaFdRektOTlJ0OXBYNE9vRlhCd0ZzSWZZTjdWbUV1dUJSZEZWSXlzb1lGYU5TSmJDQTZWQXFCelFvNEk2Nmc?oc=5",
+      "publishedAt": "2026-09-09T03:14:00.000Z"
+    },
+    {
+      "source": "New Hampshire Public Radio",
+      "title": "NH 2026 Primary Election Results: State House & Senate (Dem)",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiQVVnRGVBdkVzMGtkX3ZvRGFUWk1xakdtcDlIcUhjanp1SzF2QXE1ZUJxczN0S2hIMVRSM29DczFfZlc2c2hkNnNFeGNCRUJ1WGpkMkdhbEI2MWhmT28tSWVqdXV4Q2VmS2VsVVExVUdIMVptLVQxOGo0eWJiXzg?oc=5",
+      "publishedAt": "2026-09-09T00:25:13.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "U.S. will ban dairy products, motorcycles and most alcoholic beverages from Canada",
+      "url": "https://www.pbs.org/newshour/economy/u-s-will-ban-dairy-products-motorcycles-and-most-alcoholic-beverages-from-canada",
+      "publishedAt": "2026-09-09T00:20:23.000Z"
+    },
+    {
+      "source": "The Guardian",
+      "title": "Trump-backed John Sununu wins New Hampshire Republican Senate primary",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdHd0WHhKZ0p5WHhGYklNTG5FTVpOd09YdE9veVh1bFI0TVdTOXRPZFVTZTVnOWg1NUVRV1pKVl9Fc0ZPN053UnZrOWlkUC14WG9Ba3RRX3hLcE9hVDZKNkF6dzAxSUlaVTI2RkVtc2tTY0ViNmR1cVd0X2JhTVJEb1hGSGZwR28xUWdtd1JGSVU?oc=5",
+      "publishedAt": "2026-09-09T00:09:00.000Z"
+    },
+    {
+      "source": "CBS News",
+      "title": "New Hampshire Senate race set between Chris Pappas and John Sununu after projected primary wins",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcW5DSE9QSGVyejQ4eVlrS00yMDlkdmlxamhtaTU0WTJRTFRtWW5JSlhFazR2UEtqc051ZnMwMi0zQjQwNnREMEUyaU9kN25GSjdWVDRTRWtQamp4V0pZM2hRRXZzamhqSTJka282VDZHS2N4bFlvN1RQUmtPNDFJamlxTXZ5aTZzUVpBNnd1Szc1YnB4UFE?oc=5",
+      "publishedAt": "2026-09-09T00:05:00.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Republican John Sununu and Democrat Chris Pappas win New Hampshire Senate primaries, setting up battleground race",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObGNjQmY0QlZFS2huc1ZnMmtMclNBSzJwbnZlcC1tTXVOV2x5QWV0czJmZWQ2TVdXSDZsUXRjQUloZlcwMGZzcGtTakw5NE5WU1JqTVBHZTdvSFg4eXFXdFY3cG5iOE9YWHhBc1U3MVNMeXZqT1ZIR3RDNkt3WlJnN2wzekpUalZJLXczRjRyQzFqdVhfUG4wdmptQUdkd1NwcmZEcEU3d1JLQ2pCbDNwSGFsNkRmR0NFWEE?oc=5",
+      "publishedAt": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "What to watch as Republicans gather in Dallas for Trump's unusual midterm convention",
+      "url": "https://www.pbs.org/newshour/politics/what-to-watch-as-republicans-gather-in-dallas-for-trumps-unusual-midterm-convention",
+      "publishedAt": "2026-09-08T23:49:11.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Canadian tariffs on U.S. goods take effect, marking turning point in relations",
@@ -14,52 +56,10 @@
       "publishedAt": "2026-09-08T22:50:20.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "Trump's trade war with Canada looms over key Congressional races",
-      "url": "https://www.pbs.org/newshour/show/trumps-trade-war-with-canada-looms-over-key-congressional-races",
-      "publishedAt": "2026-09-08T22:47:07.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "News Wrap: NYC officials release documents showing city was aware of toxic air after 9/11",
-      "url": "https://www.pbs.org/newshour/show/news-wrap-nyc-officials-release-documents-showing-city-was-aware-of-toxic-air-after-9-11",
-      "publishedAt": "2026-09-08T22:45:47.000Z"
-    },
-    {
-      "source": "ClickOnDetroit | WDIV Local 4",
-      "title": "New polling shows where Michigan voters stand in 2026 U.S. Senate race",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVV9JZEJmVlpYS05fMmpoYl9scTBJcDU3TFFPTGtxVmJCdFN2VTZzd21jemE3VHpydWQ5d09CSjJCM2lqeEZtWW5MYmZncDFoTDcyUFV2MVdSYmJ2ajc2MHNoLWt6c1JFcFlsdTlXVk5pTlFRalltWHlScTBtZ2dCdE5oUVlWMUlYcFlyLWFWX3htLVM4bHdtZ3gxRC05R1dvMjYxVGp3T3JSQVNveHRMd29haDVfN3lOTXpDX0JKRWE?oc=5",
-      "publishedAt": "2026-09-08T21:00:00.000Z"
-    },
-    {
-      "source": "The Michigan Independent",
-      "title": "How to vote early in this year’s election in Michigan",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcWM5a0JLbUNGcVpUWlN5OGxPcEJTcTV2dkxycjUtTEQ4Wk1FQ1NVMTNhWDJDcW9XdkRtQlRSd2ZGQXQ3SHRVcElUUkVtSHVsanpFUXhTOF9pQUpFeHp1OTRmMFJLZnZFZ3R4Z2hjLUdpNUlxdFJPTkpFdnlRVTVIblQ5clR0MUJsUWlLMW9teTZ3YkZhdVRObUZB?oc=5",
-      "publishedAt": "2026-09-08T20:00:40.000Z"
-    },
-    {
-      "source": "Houston Public Media",
-      "title": "The 2026 midterm general election season is upon us. Here’s what to watch",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNU2VKUEZxTGNqSzhLOWk4bER3cGRQWGZGTUpIWG9mdXZxSE4wR2NhcmdsZ2tVOEVicWU2QWl3ck91Y05lRXl2VGhYdnV5UDFkelI2eTZnTXJtbTlqdnFHTGZyTjhuNjAwRlc1aDZCR2YtR3pfYnJuTE84TUdBRktRX0RsblE1Q3ZWZEg4RkZxUXZNUFpiMGdCbzZmOFZTTkhZbmgteVFEemNNUzBLOWdhQzNma3B6THN1UTVURFZTYnJiX2s2MlJtMXZtZWQ4M21CaFJjS0d0VkNhTk13dTlLVFZlZVdoSHozaU1YaURHYmxaSHFQSnphVjVsTG3SAfwBQVVfeXFMTVNlSlBGcUxjaks4SzlpOGxEd3BkUFhmRk1KSFhvZnV2cUhOMEdjYXJnbGdrVThFYnFlNkFpd3JPdWNOZUV5dlRoWHZ1eVAxZHpSNnk2Z01ybW05anZxR0xmck44bjYwMEZXNWg2QkdmLUd6X2JybkxPOE1HQUZLUV9EbG5RNUN2VmRIOEZGcVF2TVBaYjBnQm82ZjhWU05IWW5oLXlRRHpjTVMwSzlnYUMzZmtwekxzdVE1VERWU2JyYl9rNjJSbTF2bWVkODNtQmhSY0tHdFZDYU5Nd3U5S1RWZWVXaEh6M2lNWGlER2JsWkhxUEp6YVY1bExt?oc=5",
-      "publishedAt": "2026-09-08T19:37:49.000Z"
-    },
-    {
-      "source": "Brookings",
-      "title": "Trump’s approval slump and candidate quality drive 2026 Senate races",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR0RURnpzaTNhLWc1aG5MaUZFQzVkejdBaHFBQm05ZHd0M1prUEVpWmYzN1ZWZnA2SFo0bnVLUHpUWXdkcm5OcnhpU0U4UVU0QS1kV1ZtQ1FEaTVqNlhhQ0dnQ0NseU02MUFsNUdPejR5SGVHSHhMdWpTSURSTmQ4VUVNSDJIcmFaNFY1dkxYSlFDWEJ6VTdNMTJlM1JKZC1WYTE1Zk9B?oc=5",
-      "publishedAt": "2026-09-08T19:29:39.000Z"
-    },
-    {
-      "source": "Brookings",
-      "title": "Democrats on track to outperform 2026 House forecasts",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjFNNzJrZnZaWkR0U0tuYmlEWGhqellqZXNmY1VhZC10SG9jcXVqOFBkUDQza1ctRmZyVzlEYzNlYnZObDNVU1lfanl4RFhxNVNBMVZETnlPVGdhVnNNRnZXNW55MUVCYWtyZ2hNZmJlY3FwVmRLTFpaN0RYVlBXdWlrX2lJNWJDRXpkYWRydWxMMjA?oc=5",
-      "publishedAt": "2026-09-08T19:08:43.000Z"
-    },
-    {
       "source": "NPR",
-      "title": "Republicans hope unconventional convention will rally voters ahead of midterms",
-      "url": "https://www.npr.org/2026/09/08/nx-s1-5950566/republicans-hope-unconventional-convention-will-rally-voters-ahead-of-midterms",
-      "publishedAt": "2026-09-08T08:42:13.000Z"
+      "title": "The 2026 midterm general election season is upon us. Here's what to watch",
+      "url": "https://www.npr.org/2026/09/08/nx-s1-5960533/2026-midterm-campaign-kickoff-house-senate-trump",
+      "publishedAt": "2026-09-08T09:00:00.000Z"
     }
   ]
 }
