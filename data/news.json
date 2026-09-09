@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-09-09T05:18:48.034Z",
+  "generatedAt": "2026-09-09T13:09:33.995Z",
   "articles": [
     {
-      "source": "The Washington Post",
-      "title": "Live results: Ayotte easily beats two challengers in New Hampshire governor primary",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRXJzcU9abUY0UVdnRWhKa1UtOHBqODBldGpUV0pVcXY0WkZ3OU10VDl4SE01cnRXS3hPZU9KbEF4VklSdTRIRGw4cDBYa0JucDdWVkFKbXdEdWluRTFwYk1RaDcwclNFOEtLaktqVWRwN0dwRWJhNmRNTTZNaFdRektOTlJ0OXBYNE9vRlhCd0ZzSWZZTjdWbUV1dUJSZEZWSXlzb1lGYU5TSmJDQTZWQXFCelFvNEk2Nmc?oc=5",
-      "publishedAt": "2026-09-09T03:14:00.000Z"
+      "source": "NPR",
+      "title": "Trump officials propose sweeping changes to the census that would reshape voting maps",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5845147/trump-us-census-citizenship-question-race-categories",
+      "publishedAt": "2026-09-09T12:58:43.000Z"
     },
     {
-      "source": "New Hampshire Public Radio",
-      "title": "NH 2026 Primary Election Results: State House & Senate (Dem)",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiQVVnRGVBdkVzMGtkX3ZvRGFUWk1xakdtcDlIcUhjanp1SzF2QXE1ZUJxczN0S2hIMVRSM29DczFfZlc2c2hkNnNFeGNCRUJ1WGpkMkdhbEI2MWhmT28tSWVqdXV4Q2VmS2VsVVExVUdIMVptLVQxOGo0eWJiXzg?oc=5",
-      "publishedAt": "2026-09-09T00:25:13.000Z"
+      "source": "CBS News",
+      "title": "New Hampshire Senate race set between Chris Pappas and John Sununu after projected primary wins",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcW5DSE9QSGVyejQ4eVlrS00yMDlkdmlxamhtaTU0WTJRTFRtWW5JSlhFazR2UEtqc051ZnMwMi0zQjQwNnREMEUyaU9kN25GSjdWVDRTRWtQamp4V0pZM2hRRXZzamhqSTJka282VDZHS2N4bFlvN1RQUmtPNDFJamlxTXZ5aTZzUVpBNnd1Szc1YnB4UFE?oc=5",
+      "publishedAt": "2026-09-09T12:23:00.000Z"
+    },
+    {
+      "source": "Spectrum News",
+      "title": "Former U.S. Sen. John E. Sununu to face U.S. Rep. Chris Pappas in New Hampshire Senate race",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUmhXWTVzb3QxQ0RPVGVac1FrUFdNZGF2a2ZtZGY0WmR6cXNOeU9iOHlLYWJhY09QWEpjTkpqMUx4bXdwd2FLQzBoUjdya0hTOUhzRUE0S3YwT1ZybmFKcDBLT01Ea1N4UzJwdjZfYnVFWTdqcjZveDVad2JJY1E5TGJDRjlNbWgyZ1VGaG9LczFjcXBkdlRUckRhRk44SDZuS2kxR1QtRE00YUR6bzk0alVn?oc=5",
+      "publishedAt": "2026-09-09T12:22:00.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Pa. election 2026: What to know about the 1st Congressional District race in Bucks County",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTldFR3lCMHpYY3dyNmttTElvVjhEczI0OG9PR3VyTTB3SzJrUXVjRWR5ZlJ3bnV0NmNMVDRVYXREbVB1d0o2RkR3c05lWHJicjVLSjJydXpnRkpCZjJCS1NCWkpTbU9YbEFQMWR5NVEwYU9xTGtFRVF3OVBuelh4VGNLLW5aU0RoS291R3JsYmEtV3NGTExj?oc=5",
+      "publishedAt": "2026-09-09T09:44:41.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "National Guard member arrested in DC, accused of drawing gun on fellow Guard member",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5962678/national-guard-arrested",
+      "publishedAt": "2026-09-09T09:05:03.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Pa. election 2026: What to know about the 142nd House District race in Bucks County",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZUhUMGN4UTlqRldxYzRLbVc5RnQwREtiWURTWmR0b3lNR2VvVWRzaHJjN0dZdzRSZWd2VExYV2V5UFVqWldrRm1Ud1Iwel9YaDlyYTZmakttNkRPb0xFbnRBbk5aTjBLa0VOVl9SY0M4ZmhhQnducFRJQUVOUWpnRm1kckUxbzlMblQyRTh3djg?oc=5",
+      "publishedAt": "2026-09-09T09:04:37.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Mail-in voters weigh flying to vote in person and other backup plans amid uncertainty",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5946380/trump-mail-in-voting-by-mail",
+      "publishedAt": "2026-09-09T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Republicans kick off a 'Trumpapalooza' of a midterm convention Wednesday in Texas",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5961045/republican-midterm-convention-dallas-trump-vance",
+      "publishedAt": "2026-09-09T09:00:00.000Z"
+    },
+    {
+      "source": "New Hampshire Bulletin",
+      "title": "Shaheen defeats Sullivan to win Democratic nomination in 1st Congressional District",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaXpBRnR4V0xzNWZVS3lnSHNmMGVzLUtNa0psSXRYVDg0eGVVYVRoeVUySmFsMTR3QUt0a0FqUWlmVnJOcy1Xb3MwbUNWZkFKQmNhRWtZNmF3Mi11dkJsOXJ6WnlzY3poMm5iU0s2UG43T2Q4YjQ5WWhsSUxGTWdYcVRlWGtualR5SE5lVFlLY0pxUU0xR25wWlpqZ19DbHRDVlhiejhhaWIyMFg1dlNOR0ltNWk2RE9OQjRoNHVxY19qTU0wa0lj?oc=5",
+      "publishedAt": "2026-09-09T06:37:25.000Z"
     },
     {
       "source": "PBS NewsHour",
       "title": "U.S. will ban dairy products, motorcycles and most alcoholic beverages from Canada",
       "url": "https://www.pbs.org/newshour/economy/u-s-will-ban-dairy-products-motorcycles-and-most-alcoholic-beverages-from-canada",
       "publishedAt": "2026-09-09T00:20:23.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "Trump-backed John Sununu wins New Hampshire Republican Senate primary",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdHd0WHhKZ0p5WHhGYklNTG5FTVpOd09YdE9veVh1bFI0TVdTOXRPZFVTZTVnOWg1NUVRV1pKVl9Fc0ZPN053UnZrOWlkUC14WG9Ba3RRX3hLcE9hVDZKNkF6dzAxSUlaVTI2RkVtc2tTY0ViNmR1cVd0X2JhTVJEb1hGSGZwR28xUWdtd1JGSVU?oc=5",
-      "publishedAt": "2026-09-09T00:09:00.000Z"
-    },
-    {
-      "source": "CBS News",
-      "title": "New Hampshire Senate race set between Chris Pappas and John Sununu after projected primary wins",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcW5DSE9QSGVyejQ4eVlrS00yMDlkdmlxamhtaTU0WTJRTFRtWW5JSlhFazR2UEtqc051ZnMwMi0zQjQwNnREMEUyaU9kN25GSjdWVDRTRWtQamp4V0pZM2hRRXZzamhqSTJka282VDZHS2N4bFlvN1RQUmtPNDFJamlxTXZ5aTZzUVpBNnd1Szc1YnB4UFE?oc=5",
-      "publishedAt": "2026-09-09T00:05:00.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Republican John Sununu and Democrat Chris Pappas win New Hampshire Senate primaries, setting up battleground race",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObGNjQmY0QlZFS2huc1ZnMmtMclNBSzJwbnZlcC1tTXVOV2x5QWV0czJmZWQ2TVdXSDZsUXRjQUloZlcwMGZzcGtTakw5NE5WU1JqTVBHZTdvSFg4eXFXdFY3cG5iOE9YWHhBc1U3MVNMeXZqT1ZIR3RDNkt3WlJnN2wzekpUalZJLXczRjRyQzFqdVhfUG4wdmptQUdkd1NwcmZEcEU3d1JLQ2pCbDNwSGFsNkRmR0NFWEE?oc=5",
-      "publishedAt": "2026-09-09T00:00:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "What to watch as Republicans gather in Dallas for Trump's unusual midterm convention",
-      "url": "https://www.pbs.org/newshour/politics/what-to-watch-as-republicans-gather-in-dallas-for-trumps-unusual-midterm-convention",
-      "publishedAt": "2026-09-08T23:49:11.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Canadian tariffs on U.S. goods take effect, marking turning point in relations",
-      "url": "https://www.pbs.org/newshour/show/canadian-tariffs-on-u-s-goods-take-effect-marking-turning-point-in-relations",
-      "publishedAt": "2026-09-08T22:55:04.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "How the U.S.-Canada trade dispute is impacting the economy on both sides of the border",
-      "url": "https://www.pbs.org/newshour/show/how-the-u-s-canada-trade-dispute-is-impacting-the-economy-on-both-sides-of-the-border",
-      "publishedAt": "2026-09-08T22:50:20.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "The 2026 midterm general election season is upon us. Here's what to watch",
-      "url": "https://www.npr.org/2026/09/08/nx-s1-5960533/2026-midterm-campaign-kickoff-house-senate-trump",
-      "publishedAt": "2026-09-08T09:00:00.000Z"
     }
   ]
 }
