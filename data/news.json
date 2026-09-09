@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-09-09T13:09:33.995Z",
+  "generatedAt": "2026-09-09T19:29:57.184Z",
   "articles": [
     {
-      "source": "NPR",
-      "title": "Trump officials propose sweeping changes to the census that would reshape voting maps",
-      "url": "https://www.npr.org/2026/09/09/nx-s1-5845147/trump-us-census-citizenship-question-race-categories",
-      "publishedAt": "2026-09-09T12:58:43.000Z"
+      "source": "PBS NewsHour",
+      "title": "With AI memes, Trump promotes mythical version of himself as challenges stack up ahead of midterms",
+      "url": "https://www.pbs.org/newshour/politics/with-ai-memes-trump-promotes-mythical-version-of-himself-as-challenges-stack-up-ahead-of-midterms",
+      "publishedAt": "2026-09-09T19:26:04.000Z"
     },
     {
-      "source": "CBS News",
-      "title": "New Hampshire Senate race set between Chris Pappas and John Sununu after projected primary wins",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcW5DSE9QSGVyejQ4eVlrS00yMDlkdmlxamhtaTU0WTJRTFRtWW5JSlhFazR2UEtqc051ZnMwMi0zQjQwNnREMEUyaU9kN25GSjdWVDRTRWtQamp4V0pZM2hRRXZzamhqSTJka282VDZHS2N4bFlvN1RQUmtPNDFJamlxTXZ5aTZzUVpBNnd1Szc1YnB4UFE?oc=5",
-      "publishedAt": "2026-09-09T12:23:00.000Z"
-    },
-    {
-      "source": "Spectrum News",
-      "title": "Former U.S. Sen. John E. Sununu to face U.S. Rep. Chris Pappas in New Hampshire Senate race",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUmhXWTVzb3QxQ0RPVGVac1FrUFdNZGF2a2ZtZGY0WmR6cXNOeU9iOHlLYWJhY09QWEpjTkpqMUx4bXdwd2FLQzBoUjdya0hTOUhzRUE0S3YwT1ZybmFKcDBLT01Ea1N4UzJwdjZfYnVFWTdqcjZveDVad2JJY1E5TGJDRjlNbWgyZ1VGaG9LczFjcXBkdlRUckRhRk44SDZuS2kxR1QtRE00YUR6bzk0alVn?oc=5",
-      "publishedAt": "2026-09-09T12:22:00.000Z"
-    },
-    {
-      "source": "WHYY",
-      "title": "Pa. election 2026: What to know about the 1st Congressional District race in Bucks County",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTldFR3lCMHpYY3dyNmttTElvVjhEczI0OG9PR3VyTTB3SzJrUXVjRWR5ZlJ3bnV0NmNMVDRVYXREbVB1d0o2RkR3c05lWHJicjVLSjJydXpnRkpCZjJCS1NCWkpTbU9YbEFQMWR5NVEwYU9xTGtFRVF3OVBuelh4VGNLLW5aU0RoS291R3JsYmEtV3NGTExj?oc=5",
-      "publishedAt": "2026-09-09T09:44:41.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "National Guard member arrested in DC, accused of drawing gun on fellow Guard member",
-      "url": "https://www.npr.org/2026/09/09/nx-s1-5962678/national-guard-arrested",
-      "publishedAt": "2026-09-09T09:05:03.000Z"
-    },
-    {
-      "source": "WHYY",
-      "title": "Pa. election 2026: What to know about the 142nd House District race in Bucks County",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZUhUMGN4UTlqRldxYzRLbVc5RnQwREtiWURTWmR0b3lNR2VvVWRzaHJjN0dZdzRSZWd2VExYV2V5UFVqWldrRm1Ud1Iwel9YaDlyYTZmakttNkRPb0xFbnRBbk5aTjBLa0VOVl9SY0M4ZmhhQnducFRJQUVOUWpnRm1kckUxbzlMblQyRTh3djg?oc=5",
-      "publishedAt": "2026-09-09T09:04:37.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Mail-in voters weigh flying to vote in person and other backup plans amid uncertainty",
-      "url": "https://www.npr.org/2026/09/09/nx-s1-5946380/trump-mail-in-voting-by-mail",
-      "publishedAt": "2026-09-09T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Republicans kick off a 'Trumpapalooza' of a midterm convention Wednesday in Texas",
-      "url": "https://www.npr.org/2026/09/09/nx-s1-5961045/republican-midterm-convention-dallas-trump-vance",
-      "publishedAt": "2026-09-09T09:00:00.000Z"
-    },
-    {
-      "source": "New Hampshire Bulletin",
-      "title": "Shaheen defeats Sullivan to win Democratic nomination in 1st Congressional District",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaXpBRnR4V0xzNWZVS3lnSHNmMGVzLUtNa0psSXRYVDg0eGVVYVRoeVUySmFsMTR3QUt0a0FqUWlmVnJOcy1Xb3MwbUNWZkFKQmNhRWtZNmF3Mi11dkJsOXJ6WnlzY3poMm5iU0s2UG43T2Q4YjQ5WWhsSUxGTWdYcVRlWGtualR5SE5lVFlLY0pxUU0xR25wWlpqZ19DbHRDVlhiejhhaWIyMFg1dlNOR0ltNWk2RE9OQjRoNHVxY19qTU0wa0lj?oc=5",
-      "publishedAt": "2026-09-09T06:37:25.000Z"
+      "source": "Legis1",
+      "title": "Pappas, Sununu Set for Toss-Up NH Senate Race",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DLXdOdkRlN3hXQUVzbnFzVEF4MTFYN2lwVEx1ajJXVHk0M1QtRHhUaGxYakFic1VpZnc2OTdray1TZmxGdGhfc1JCV2F0WTMzV1dETlJDNlZGQ1JlTUxONzMxUENVYW5PMzhvNEZ1YkhvWV9wWkJB?oc=5",
+      "publishedAt": "2026-09-09T19:18:56.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "U.S. will ban dairy products, motorcycles and most alcoholic beverages from Canada",
-      "url": "https://www.pbs.org/newshour/economy/u-s-will-ban-dairy-products-motorcycles-and-most-alcoholic-beverages-from-canada",
-      "publishedAt": "2026-09-09T00:20:23.000Z"
+      "title": "Gov. McKee faces tough challenge from Foulkes in Rhode Island Democratic primary",
+      "url": "https://www.pbs.org/newshour/politics/gov-mckee-faces-tough-challenge-from-foulkes-in-rhode-island-democratic-primary",
+      "publishedAt": "2026-09-09T19:05:53.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-09T18:11:30.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Republicans gather in Dallas for two-day midterm convention billed as 'Trump-a-Palooza'",
+      "url": "https://www.pbs.org/newshour/politics/republicans-gather-in-dallas-for-two-day-midterm-convention-billed-as-trump-a-palooza",
+      "publishedAt": "2026-09-09T18:07:44.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Andrew Tate is denied bail and will remain in jail during his extradition fight",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5954174/andrew-tate-bail-extradition-jail",
+      "publishedAt": "2026-09-09T17:23:15.000Z"
+    },
+    {
+      "source": "WBUR",
+      "title": "The latest on Maine's Senate race between Troy Jackson and Susan Collins",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Pb20yV05GUnZMMWoySUNNWkdsQWdSR0JiaDJMb1ZGTWpGUmRtcGVUcXBONl9qZmwxSGxhRG9TUzV1QkZpcEtGMGhKWml0WHZaNHhvcGlHVkNCdlJ6Skp4eDBUVlRYdnJLWjNweHB2UkUzY1JxWUE?oc=5",
+      "publishedAt": "2026-09-09T16:07:22.000Z"
+    },
+    {
+      "source": "CNN",
+      "title": "Maine and Michigan Senate races are neck and neck, CNN polls find",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDQzVTlTUmRiM2hfUTZwNXVZUzVfc3NZNEZyU0dzTU40MXR4cl9NdFNlQXJBRE5pbExTNGlOUnFZckJjUklzV1JiNHJKLWFSLV9GVm5ZaVBRSVN4SDNSVjhDcnI5akQtcWhjSGZ2ZVlMU19SUS0zaXZxOGMyZWdTYTBRelpObmluRDl3SWQ1MG9mWnZ5c2ZFR0JSQXZLaUl1UHJvSGdub3Nsbjg?oc=5",
+      "publishedAt": "2026-09-09T16:00:29.000Z"
+    },
+    {
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "title": "Poll: Where Michigan voters stand in 2026 Attorney General race",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZFc5TzFJTFhMQTYxQ01ycmJSV1VNbUthd3B0UkNXUHAxU0FzZkJjRFFUdlg4c2Z0dVRzVWdSZldiaTlFeTFMQl9EVlcteWQ3YTR4UE1ycXJ0V19xTkNYN1RJZmlJLVVGM2MzTG1yQm9YMEZFZGZRTVQ0VW5pcVJTVElYbk5YejFaYjdRbkF2ZC1DSEdacWpFaUh1anpxbjQ0T3NrTXVIMUFLTFczUXNWNUlYbmtzNUhFRHc?oc=5",
+      "publishedAt": "2026-09-09T16:00:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "With Sununu vs. Pappas, familiar names will compete in New Hampshire Senate race",
+      "url": "https://www.pbs.org/newshour/politics/with-sununu-vs-pappas-familiar-names-will-compete-in-new-hampshire-senate-race",
+      "publishedAt": "2026-09-09T15:45:12.000Z"
     }
   ]
 }
