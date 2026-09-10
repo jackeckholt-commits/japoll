@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-09-09T22:46:13.664Z",
+  "generatedAt": "2026-09-10T05:19:56.315Z",
   "articles": [
+    {
+      "source": "The Washington Post",
+      "title": "Five takeaways from the New Hampshire primaries and an under-the-radar Senate race",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcVIyYi0tMDEwUXhmekt0aE5Xa2ZNNktfUF9NU3cwNnZTY3F6VXZ5WWRUdENMSU5TNVE3TXFqY2o1d3BtbXlvUWNBMlVrVnduWjFMZ2IxWUhLUldiRGRoQUlrQXVuYmxteXJCUFNCU0J2UVduc0ttM3JxYzJ6X3NJYWZTQUZjNDFULWtWTHJmWEZRSmc0WW1HZS1xY1NUcDdYMW02UGRFbTI0U0F2WGxQTWlZVnUxR00?oc=5",
+      "publishedAt": "2026-09-10T03:57:17.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump promises $5,000 'dividend' for Americans if GOP wins midterms",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-promises-5000-dividend-for-americans-if-gop-wins-midterms",
+      "publishedAt": "2026-09-10T03:41:34.000Z"
+    },
+    {
+      "source": "localnewslive.com",
+      "title": "Texas Senate Race takes top billing at 2026 RNC Convention",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUUctSVFIT19mTjk3cm5pRDBhelh2dlNSOXFNM1lGNVdDdG5xUzFZX3NpNno1bC1uWHJUUnRWakktSlZOdGdValE5MUJNYW1ESDUxS1ZWeHdIdFpmWTBpODFZRnZWLUlWZG1VSXZtZFZtcW5VM0lNblRCOXM2eFpJMWJ5c2Z2TXJFaVV5SkVFQXZGVFF3UTZJb3NrQWgxWEV3TDNxUTJ3?oc=5",
+      "publishedAt": "2026-09-10T02:02:00.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-10T01:52:35.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Fetterman, already at odds with his party, makes surprise video for GOP convention",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5963916/john-fetterman-gop-midterm-convention-trump",
+      "publishedAt": "2026-09-10T01:17:28.000Z"
+    },
+    {
+      "source": "The Washington Post",
+      "title": "Live results: Matchups set for U.S. House elections in Rhode Island",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR1UtZ3RVZ3FfRWI1LURjS1hkZzdSeVBJdS1LbkRiYm1ySktsNXBhQ2pCOXY4Zk5iRlhWUUxULVE4cll2alhsX2ZPanltOHdzRDV0a25mUkVIeEJEcFR4NlBTcWdjcThxV0dPWDI0OWFPdnZpLXpEOHZpaHM1VDNNcWRFSjdoc3NDTkVrVVl0UXNWVXBwRXRHVWc1SmVrendlUjNGRnZlRVBGYVl2X3VCTXRZZDI?oc=5",
+      "publishedAt": "2026-09-10T01:00:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "AI researcher warns companies are ignoring catastrophic risks",
+      "url": "https://www.pbs.org/newshour/show/ai-researcher-warns-companies-are-ignoring-catastrophic-risks",
+      "publishedAt": "2026-09-09T22:55:11.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "News Wrap: White House defends Trump's $45,000 gifts to Natalie Harp and other aides",
+      "url": "https://www.pbs.org/newshour/show/news-wrap-white-house-defends-trumps-45000-gifts-to-natalie-harp-and-other-aides",
+      "publishedAt": "2026-09-09T22:45:05.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "What to expect from the GOP's first-ever midterm convention",
@@ -8,58 +56,10 @@
       "publishedAt": "2026-09-09T22:40:53.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "Missouri's election maps in chaos after conflicting rulings",
-      "url": "https://www.pbs.org/newshour/show/missouris-election-maps-in-chaos-after-conflicting-rulings",
-      "publishedAt": "2026-09-09T22:35:47.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Trump says oil prices will come down after midterm elections",
-      "url": "https://www.pbs.org/newshour/politics/watch-trump-says-oil-prices-will-come-down-after-midterm-elections",
-      "publishedAt": "2026-09-09T22:08:17.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Rubio hails Ecuador as an 'aggressive' partner in the US counterdrug push",
-      "url": "https://www.pbs.org/newshour/world/rubio-hails-ecuador-as-an-aggressive-partner-in-the-us-counterdrug-push",
-      "publishedAt": "2026-09-09T21:53:07.000Z"
-    },
-    {
-      "source": "The Washington Post",
-      "title": "Five takeaways from the New Hampshire primaries and an under-the-radar Senate race",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcVIyYi0tMDEwUXhmekt0aE5Xa2ZNNktfUF9NU3cwNnZTY3F6VXZ5WWRUdENMSU5TNVE3TXFqY2o1d3BtbXlvUWNBMlVrVnduWjFMZ2IxWUhLUldiRGRoQUlrQXVuYmxteXJCUFNCU0J2UVduc0ttM3JxYzJ6X3NJYWZTQUZjNDFULWtWTHJmWEZRSmc0WW1HZS1xY1NUcDdYMW02UGRFbTI0U0F2WGxQTWlZVnUxR00?oc=5",
-      "publishedAt": "2026-09-09T21:46:14.000Z"
-    },
-    {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-09T21:11:54.000Z"
-    },
-    {
       "source": "NPR",
       "title": "Republicans kick off unconventional midterm convention in Dallas with Trump speech",
       "url": "https://www.npr.org/2026/09/09/nx-s1-5963200/republicans-kick-off-unconventional-midterm-convention-in-dallas-with-trump-speech",
       "publishedAt": "2026-09-09T20:36:20.000Z"
-    },
-    {
-      "source": "Silver Bulletin",
-      "title": "FLIPR 2026 midterm election forecast",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
-      "publishedAt": "2026-09-09T20:11:53.000Z"
-    },
-    {
-      "source": "Legis1",
-      "title": "Pappas, Sununu Set for Toss-Up NH Senate Race",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DLXdOdkRlN3hXQUVzbnFzVEF4MTFYN2lwVEx1ajJXVHk0M1QtRHhUaGxYakFic1VpZnc2OTdray1TZmxGdGhfc1JCV2F0WTMzV1dETlJDNlZGQ1JlTUxONzMxUENVYW5PMzhvNEZ1YkhvWV9wWkJB?oc=5",
-      "publishedAt": "2026-09-09T19:18:56.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Gov. McKee faces tough challenge from Foulkes in Rhode Island Democratic primary",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXoyRWpPR2dmLXBYbWszOUVZLVVZR082d0dMdGdaX1k3amdwX3J5R2VZeF91QUVleHNlQVJyUmViNlRacW1vUmNraDlMNTFfVnJwbUdVbV83SWt2dVlpX3RkcnNzM25STi1WTXY3SlhKajhkS1NZbEhuMXlOcnhYVzE5aHpjVVhRSDV2T3VlOUhzY3FONEN3bkhVTXMxNm1kbGRtQkhFVWh2alA4bmZRQmJqX1MzLURH0gG-AUFVX3lxTE9MMDc0cFFtek9ud25ZZ1RJeUl6cVJKTWk5QU1yaUlkMmlQX1BkdE5NUllFMXl3NVlYS2R5QnhreDEzbjdoVWdDWHZKWkZ0aWpqMk9uaHM2Zzk1d0poam1odGFuYzd3ZFU0dWVIOEtVc0VrT1NGZzhERkVMRDhsc05ObWZ6d00wUEdpdW0yNkV1ZDJ1Yk5ob3VDSVB2Z0xiMFlBUk9yVmJ3Q2tDVkV0MGw2dGt2eHM3VXR1d1VoRlE?oc=5",
-      "publishedAt": "2026-09-09T19:05:53.000Z"
     }
   ]
 }
