@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-09-11T13:01:15.209Z",
+  "generatedAt": "2026-09-11T19:17:55.291Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Afghan woman whose case was the first for a long-dormant court has been deported, officials say",
+      "url": "https://www.pbs.org/newshour/politics/afghan-woman-whose-case-was-the-first-for-a-long-dormant-court-has-been-deported-officials-say",
+      "publishedAt": "2026-09-11T18:42:05.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Senators from both parties question OpenAI on breach of AI startup Hugging Face",
+      "url": "https://www.pbs.org/newshour/politics/senators-from-both-parties-question-openai-on-breach-of-ai-startup-hugging-face",
+      "publishedAt": "2026-09-11T17:56:42.000Z"
+    },
+    {
+      "source": "decisiondeskhq.substack.com",
+      "title": "📈 Iowa’s Senate race is a dead heat",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVDhEWGxNa2pjV1Bla0dFd3lHRGk2b0FwRGowVXhMbm9LUHlDamxFdGd4bnVwMFBVNGduMFJONXZTMDhjQUU2LVh2czZfaC13R05GUzdHSFp4bjJ0b3lGcnpnRXFxZ0UzTWZGR2xZSkREdVRWM2ROMklUQU5oQWVFbkRkbjF2UGRCX2k1TmxmbV82UGtQMmNYMUpCdmZVOGc2dFhhSU5oQjlUdW5KV0FsQlhxdXdLRjljTkxqd1ZsOA?oc=5",
+      "publishedAt": "2026-09-11T17:28:52.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "As Trump squeezes the International Criminal Court, more countries are leaving",
+      "url": "https://www.pbs.org/newshour/world/as-trump-squeezes-the-international-criminal-court-more-countries-are-leaving",
+      "publishedAt": "2026-09-11T16:52:33.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-09-11T16:15:35.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "New Hampshire First Congressional District Primary Election Results",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWmg2S1RrRlItQWd4aERyRmM5MkVodXR4Nnc0cEdkUUZXLWZtU0c3M0xDTUdwSE1lY0NQeU5JYThpV1lYd25Xam5zX3JsTzQ5VnJWMlhQRnZSYVRHMjlsQXhkOGhQMFFaTjIyNE1FaS03ZE96VF9YX0QtQmpTYVNwSGJKMzk5N3lSMjZGVlR5RjlmdXI3R0w5a1B4R2JwOUhLYjc5VFFubmg?oc=5",
+      "publishedAt": "2026-09-11T15:37:00.000Z"
+    },
+    {
+      "source": "Source New Mexico",
+      "title": "New Mexico Election 2026: US Senator",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jMEpIZVRrTEI1a2V6NkpmVlFob043X0RTY2Z4aHlsaGd4eWF6VE5IVDgydUwxU2ZwLUwzVHZpUEJJY3I2bkJVdHBxRzI2czNwcU9SUWxvZzlkN29FaktJcXVhSHhxQU1tLVhENWhFTm93bjRLUFFZ?oc=5",
+      "publishedAt": "2026-09-11T15:05:07.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump list of U.S.-designated 'foreign terrorist organizations' in Latin America grows to 21",
+      "url": "https://www.pbs.org/newshour/world/trump-list-of-u-s-designated-foreign-terrorist-organizations-in-latin-america-grows-to-21",
+      "publishedAt": "2026-09-11T14:23:19.000Z"
+    },
     {
       "source": "NPR",
       "title": "Remembering 9/11. And, Vance, Trump urge voters to back Republicans in the midterms",
@@ -8,58 +56,10 @@
       "publishedAt": "2026-09-11T11:55:49.000Z"
     },
     {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-11T10:23:51.000Z"
-    },
-    {
-      "source": "economist.com",
-      "title": "US Senate 2026 forecast",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUU5iZF9CcElOTXkydDhVWVJsUDVaalhNYlpZT1VacEEtVG93VnNVdTkzVUVIRWxpZ2tHN0xUdEFKY1Q0SDkyX3lzRk50cS1wLVVYOG1QRnBGWmlzdnowZjE1WE9vNURDTWM1RVVJdVVuOVJ6STNGaERacDBNSUFFU0YteGw?oc=5",
-      "publishedAt": "2026-09-11T09:53:48.000Z"
-    },
-    {
       "source": "WHYY",
       "title": "New Jersey election 2026: What to know about the 12th Congressional District race",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaDFWd0J4SU0xX0VmamdZVW94dlFEX0tNVk0zWVhjbGxia0ZyNE9BMGlOZmVUWEVFRUw2UXhxSEl3TDg5RmhUYmpqRTFvc1BoTThFdTA5TGpoRjZxSmZxVHBtOW9fRW9ybzJvOVphRjRIS2JSaXF6T0FzQi1ZcUlPX2VpcEw5cFNnbnM2aU1DYzdqazZBSmc?oc=5",
       "publishedAt": "2026-09-11T09:50:18.000Z"
-    },
-    {
-      "source": "City & State New York",
-      "title": "The 2026 congressional general election races to watch",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbHRpUTBEemJBeG9fQl9fT1BnVGlFbjJBdEZScGNuZGNYb1JRcjVnd2N3dkxDeHY1cUYxMU5SdzBMQUxoUm9TWGpyZmxKSmQ1SHlqMFFVY3hkd1lNdnd6ZTBHRTQxTHBDM0ZFMmVpYTRGNVJGbnhzMVhHNkpLT3J6YzVqYjNscjJvNndPOUF6RzNYaHlRcmtva19WNndDaTFCcmM3Rmp3?oc=5",
-      "publishedAt": "2026-09-11T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Empty seats, socialism and Trump dominate the Republican midterm convention",
-      "url": "https://www.npr.org/2026/09/11/nx-s1-5962848/republican-convention-trump-dividend-vance-midterms",
-      "publishedAt": "2026-09-11T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "From DOGE to space lasers, Alex Gibney peels back the many layers of Elon Musk",
-      "url": "https://www.npr.org/2026/09/11/nx-s1-5962167/alex-gibney-elon-musk-documentary-review",
-      "publishedAt": "2026-09-11T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "These Michigan swing voters are bracing for higher prices from trade war with Canada",
-      "url": "https://www.npr.org/2026/09/11/nx-s1-5963884/michigan-focus-groups-canada-trump-tariffs",
-      "publishedAt": "2026-09-11T09:00:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Trump delivers remarks at Pentagon's Sept. 11 observance ceremony",
-      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-delivers-remarks-at-pentagons-sept-11-observance-ceremony",
-      "publishedAt": "2026-09-11T00:21:12.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Missouri is poised to revert to former districts after Supreme Court rejects Trump-backed map",
-      "url": "https://www.pbs.org/newshour/politics/missouri-is-poised-to-revert-to-former-districts-after-supreme-court-rejects-trump-backed-map",
-      "publishedAt": "2026-09-10T23:25:15.000Z"
     }
   ]
 }
