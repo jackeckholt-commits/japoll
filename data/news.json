@@ -1,11 +1,53 @@
 {
-  "generatedAt": "2026-09-11T05:17:36.853Z",
+  "generatedAt": "2026-09-11T13:01:15.209Z",
   "articles": [
     {
-      "source": "thetimes.com",
+      "source": "NPR",
+      "title": "Remembering 9/11. And, Vance, Trump urge voters to back Republicans in the midterms",
+      "url": "https://www.npr.org/2026/09/11/g-s1-142846/up-first-newsletter-september-11-remembrance-republican-midterm-convention-scotus-missouri-redistricting",
+      "publishedAt": "2026-09-11T11:55:49.000Z"
+    },
+    {
+      "source": "The Times",
       "title": "Who will win the 2026 midterm elections? Polls and predictions",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-11T03:33:56.000Z"
+      "publishedAt": "2026-09-11T10:23:51.000Z"
+    },
+    {
+      "source": "economist.com",
+      "title": "US Senate 2026 forecast",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUU5iZF9CcElOTXkydDhVWVJsUDVaalhNYlpZT1VacEEtVG93VnNVdTkzVUVIRWxpZ2tHN0xUdEFKY1Q0SDkyX3lzRk50cS1wLVVYOG1QRnBGWmlzdnowZjE1WE9vNURDTWM1RVVJdVVuOVJ6STNGaERacDBNSUFFU0YteGw?oc=5",
+      "publishedAt": "2026-09-11T09:53:48.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "New Jersey election 2026: What to know about the 12th Congressional District race",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaDFWd0J4SU0xX0VmamdZVW94dlFEX0tNVk0zWVhjbGxia0ZyNE9BMGlOZmVUWEVFRUw2UXhxSEl3TDg5RmhUYmpqRTFvc1BoTThFdTA5TGpoRjZxSmZxVHBtOW9fRW9ybzJvOVphRjRIS2JSaXF6T0FzQi1ZcUlPX2VpcEw5cFNnbnM2aU1DYzdqazZBSmc?oc=5",
+      "publishedAt": "2026-09-11T09:50:18.000Z"
+    },
+    {
+      "source": "City & State New York",
+      "title": "The 2026 congressional general election races to watch",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbHRpUTBEemJBeG9fQl9fT1BnVGlFbjJBdEZScGNuZGNYb1JRcjVnd2N3dkxDeHY1cUYxMU5SdzBMQUxoUm9TWGpyZmxKSmQ1SHlqMFFVY3hkd1lNdnd6ZTBHRTQxTHBDM0ZFMmVpYTRGNVJGbnhzMVhHNkpLT3J6YzVqYjNscjJvNndPOUF6RzNYaHlRcmtva19WNndDaTFCcmM3Rmp3?oc=5",
+      "publishedAt": "2026-09-11T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Empty seats, socialism and Trump dominate the Republican midterm convention",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5962848/republican-convention-trump-dividend-vance-midterms",
+      "publishedAt": "2026-09-11T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "From DOGE to space lasers, Alex Gibney peels back the many layers of Elon Musk",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5962167/alex-gibney-elon-musk-documentary-review",
+      "publishedAt": "2026-09-11T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "These Michigan swing voters are bracing for higher prices from trade war with Canada",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5963884/michigan-focus-groups-canada-trump-tariffs",
+      "publishedAt": "2026-09-11T09:00:00.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -18,48 +60,6 @@
       "title": "Missouri is poised to revert to former districts after Supreme Court rejects Trump-backed map",
       "url": "https://www.pbs.org/newshour/politics/missouri-is-poised-to-revert-to-former-districts-after-supreme-court-rejects-trump-backed-map",
       "publishedAt": "2026-09-10T23:25:15.000Z"
-    },
-    {
-      "source": "WHYY",
-      "title": "In his first campaign ad, Fitzpatrick’s democratic challenger Bob Harvie calls for data center moratorium",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObkQzTjctQTFyWVlpSzlQUTJKa2xpM1IwczJRQzlUTHZIN0ZnWW4zbEIzSEFWNDUxOFVYa3BTZklSVW53Y281cEhXY3VxeHJFSmNISG43WlMtT3BmSG1CQlpMT3lpaFUtbGk5bkdyb0dXZWJteHVPZ0hUUVlCSlBKU2VMQjlJOUE5ajdzTUhJd2RySU0?oc=5",
-      "publishedAt": "2026-09-10T23:24:59.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump's vow of $5,000 payments to Americans faces bipartisan criticism",
-      "url": "https://www.pbs.org/newshour/show/trumps-vow-of-5000-payments-to-americans-faces-bipartisan-criticism",
-      "publishedAt": "2026-09-10T22:55:04.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "A look at the young conservative movement a year after Charlie Kirk's killing",
-      "url": "https://www.pbs.org/newshour/show/a-look-at-the-young-conservative-movement-a-year-after-charlie-kirks-killing",
-      "publishedAt": "2026-09-10T22:50:23.000Z"
-    },
-    {
-      "source": "El Paso Times",
-      "title": "New poll shows divided voters in Talarico vs. Paxton US Senate race",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZE9pdXRxcHhKOF9BdkFoX1B1bWluZUR6d215TzhyOXJUcHM3WC0ySm9PYVpTakxsOHhmamJGVzVfaFZLR1hlQUl3YWRwel9IN0JlQ2xqRVBYN3lOZTBVdmZHUFlUNGIwXzhjenplR1BNZFcybWdueHo3eWF1UGlvam91RXlTVnFRcXk0QjZOV1RQVVFEWndNWHRVSUVOZjdPZXNsX1BPYmlNenE3YmFSZjlXVmdEbjVaZEpCSkJUSzhZdTVpa1E2T29hSmdScnhkRGItT28zMzM0cTdoT3pKTFEzR015WGI5M1RWMGNUR18?oc=5",
-      "publishedAt": "2026-09-10T21:10:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Lawsuit challenges intimidation of DHS observers across the country",
-      "url": "https://www.npr.org/2026/09/10/nx-s1-5961220/dhs-ice-observers-surveillance-lawsuit",
-      "publishedAt": "2026-09-10T21:07:38.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "After court flurry, Missouri officials set aside GOP redistricting",
-      "url": "https://www.npr.org/2026/09/10/nx-s1-5965533/after-court-flurry-missouri-officials-set-aside-gop-redistricting",
-      "publishedAt": "2026-09-10T21:02:01.000Z"
-    },
-    {
-      "source": "The Hill",
-      "title": "DDHQ shifts Senate odds to Democrats, then back to GOP: ‘A coin flip’",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2RngtcG81TFpRbnd3VWtVclVod1piZ3BIXy0zamFLblVzWmhiNXEtWkttWVJ6MERMbjZXYS0tSnVqQW43WEdVOE4xZWtLM3dPU1A5dGxtM0ZvRlN2UXZXZ0hUZjJKcnZFdlQ1TlVSWEF6TDlfdG56cENOc9IBgAFBVV95cUxPU1FadTdnd0c2R21RQ091cHZYSTVOLVBxTDBYT3E2UmEtSzlrNDZvc3JvMm1HNlU5aHFWdWRmZUE4WE9BSHUzUXFqaGFPQllpWGdfM3JtdlFBWTJCNWFKRklXUFN1d29FazdZUHY2QXI5VFpYOUhldXFVR25Pc1BYUA?oc=5",
-      "publishedAt": "2026-09-10T20:31:00.000Z"
     }
   ]
 }
