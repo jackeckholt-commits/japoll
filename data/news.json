@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-09-11T19:17:55.291Z",
+  "generatedAt": "2026-09-11T22:47:59.574Z",
   "articles": [
+    {
+      "source": "thetexan.news",
+      "title": "National Republican Spending Pours In to Support Paxton in Tight U.S. Senate Race",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOUUxXZUhYS0ZxcWNtUG0zTFdEOU00MVNiYVFnckxLT3Y0V011SDljMkY0cHNGdnA4cXNvUV9FanlpdG9pS0lQWGxodHpfSGxfdnhOcVI2bHc3SmdvZEFlMGxiMU5ENzRLRGUwYmlqYW5mQW5lVEFWMjNTRzhmZjYxUk0zOE1wU00wNWxidEM0eW1UaGhJcWhXM3J2YkgtY2FLdTlvNXJ4WmE1blV3dWVuYXFpb2ZtRG9Tc2gxMlBPckttQllOV3JnSW8tWGhkemZOajZ4WTQzaWMtMm9ic2J5RUZQcXhiYjhIbTR4T05aWjVDalY0Q3didTJnNA?oc=5",
+      "publishedAt": "2026-09-11T22:29:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump leads RNC in pledge to 'cheat like hell' in November elections",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-leads-rnc-in-pledge-to-cheat-like-hell-in-november-elections",
+      "publishedAt": "2026-09-11T21:56:18.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Mayor of the 'Air Capital of the World' reacts to Trump's threats against Bombardier",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5963499/mayor-of-the-air-capital-of-the-world-reacts-to-trumps-threats-against-bombardier",
+      "publishedAt": "2026-09-11T20:34:45.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump heads to Ireland to watch some golf at his club and conduct some diplomacy",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5958496/trump-heads-to-ireland-to-watch-some-golf-at-his-club-and-conduct-some-diplomacy",
+      "publishedAt": "2026-09-11T20:26:24.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
+      "url": "https://www.pbs.org/newshour/politics/cia-releases-dozens-of-presidential-daily-briefs-on-bin-laden-and-al-qaida-before-sept-11",
+      "publishedAt": "2026-09-11T19:58:22.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Afghan woman whose case was the first for a long-dormant court has been deported, officials say",
@@ -14,52 +44,22 @@
       "publishedAt": "2026-09-11T17:56:42.000Z"
     },
     {
-      "source": "decisiondeskhq.substack.com",
+      "source": "Decision Desk HQ | Substack",
       "title": "📈 Iowa’s Senate race is a dead heat",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVDhEWGxNa2pjV1Bla0dFd3lHRGk2b0FwRGowVXhMbm9LUHlDamxFdGd4bnVwMFBVNGduMFJONXZTMDhjQUU2LVh2czZfaC13R05GUzdHSFp4bjJ0b3lGcnpnRXFxZ0UzTWZGR2xZSkREdVRWM2ROMklUQU5oQWVFbkRkbjF2UGRCX2k1TmxmbV82UGtQMmNYMUpCdmZVOGc2dFhhSU5oQjlUdW5KV0FsQlhxdXdLRjljTkxqd1ZsOA?oc=5",
       "publishedAt": "2026-09-11T17:28:52.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "As Trump squeezes the International Criminal Court, more countries are leaving",
-      "url": "https://www.pbs.org/newshour/world/as-trump-squeezes-the-international-criminal-court-more-countries-are-leaving",
-      "publishedAt": "2026-09-11T16:52:33.000Z"
+      "source": "The New York Times",
+      "title": "Arkansas Governor Election 2026: Latest Polls",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONjhPN1kyNkFQZUhIakFHcUI2TUZPUThxM2hia3FkSG5RSVo5MVZWRjM0OEQ2U1Y0ZnFGdm1uenpnNWV4ajNCRHU1Rlpqc3c1T2w3M1ppazMxTUVPQWt2RElIdHRyQUxBMEY4X3VQanBqSWxkV3lhWTZKZGxNeXlKQlBMNXZxUF9sZWlDag?oc=5",
+      "publishedAt": "2026-09-11T16:54:16.000Z"
     },
     {
       "source": "The New York Times",
       "title": "Tracking Competitive Races in the House and Senate",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
       "publishedAt": "2026-09-11T16:15:35.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "New Hampshire First Congressional District Primary Election Results",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWmg2S1RrRlItQWd4aERyRmM5MkVodXR4Nnc0cEdkUUZXLWZtU0c3M0xDTUdwSE1lY0NQeU5JYThpV1lYd25Xam5zX3JsTzQ5VnJWMlhQRnZSYVRHMjlsQXhkOGhQMFFaTjIyNE1FaS03ZE96VF9YX0QtQmpTYVNwSGJKMzk5N3lSMjZGVlR5RjlmdXI3R0w5a1B4R2JwOUhLYjc5VFFubmg?oc=5",
-      "publishedAt": "2026-09-11T15:37:00.000Z"
-    },
-    {
-      "source": "Source New Mexico",
-      "title": "New Mexico Election 2026: US Senator",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jMEpIZVRrTEI1a2V6NkpmVlFob043X0RTY2Z4aHlsaGd4eWF6VE5IVDgydUwxU2ZwLUwzVHZpUEJJY3I2bkJVdHBxRzI2czNwcU9SUWxvZzlkN29FaktJcXVhSHhxQU1tLVhENWhFTm93bjRLUFFZ?oc=5",
-      "publishedAt": "2026-09-11T15:05:07.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump list of U.S.-designated 'foreign terrorist organizations' in Latin America grows to 21",
-      "url": "https://www.pbs.org/newshour/world/trump-list-of-u-s-designated-foreign-terrorist-organizations-in-latin-america-grows-to-21",
-      "publishedAt": "2026-09-11T14:23:19.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Remembering 9/11. And, Vance, Trump urge voters to back Republicans in the midterms",
-      "url": "https://www.npr.org/2026/09/11/g-s1-142846/up-first-newsletter-september-11-remembrance-republican-midterm-convention-scotus-missouri-redistricting",
-      "publishedAt": "2026-09-11T11:55:49.000Z"
-    },
-    {
-      "source": "WHYY",
-      "title": "New Jersey election 2026: What to know about the 12th Congressional District race",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaDFWd0J4SU0xX0VmamdZVW94dlFEX0tNVk0zWVhjbGxia0ZyNE9BMGlOZmVUWEVFRUw2UXhxSEl3TDg5RmhUYmpqRTFvc1BoTThFdTA5TGpoRjZxSmZxVHBtOW9fRW9ybzJvOVphRjRIS2JSaXF6T0FzQi1ZcUlPX2VpcEw5cFNnbnM2aU1DYzdqazZBSmc?oc=5",
-      "publishedAt": "2026-09-11T09:50:18.000Z"
     }
   ]
 }
