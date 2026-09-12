@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-09-12T12:22:11.725Z",
+  "generatedAt": "2026-09-12T15:50:31.984Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Democrats and Republicans can agree: there should be more monetary support for child care",
+      "url": "https://www.npr.org/2026/09/12/nx-s1-5965806/democrats-and-republicans-can-agree-there-should-be-more-monetary-support-for-child-care",
+      "publishedAt": "2026-09-12T12:47:08.000Z"
+    },
     {
       "source": "NPR",
       "title": "President Trump to meet with Irish president and prime minister",
@@ -14,22 +20,16 @@
       "publishedAt": "2026-09-12T12:04:21.000Z"
     },
     {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-09-12T10:23:44.000Z"
-    },
-    {
       "source": "NPR",
       "title": "Neighbor turned on neighbor after Charlie Kirk's killing. Is the divide here to stay?",
       "url": "https://www.npr.org/2026/09/12/nx-s1-5952234/charlie-kirk-death-doxing",
       "publishedAt": "2026-09-12T09:00:00.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Ethics watchdogs await RFK Jr.'s financial report",
-      "url": "https://www.npr.org/2026/09/11/nx-s1-5964970/ethics-watchdogs-await-rfk-jr-s-financial-report",
-      "publishedAt": "2026-09-12T00:42:54.000Z"
+      "source": "The Nevada Independent",
+      "title": "2026 Nevada Election Guide",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XbUUwVW1JN05lUmlOQmVJMTd2TTFVdGh2X2JZZHpNOF94RkRpNmR6d3BxckswdXJ2Q2lGcWlYdHlEVHdac1cwcE03Y1JqX0RvdFg5Y2t6V3htMzctT2EzMy1DRG9nV0YyaDYybEhqMVUyUmZRcmc?oc=5",
+      "publishedAt": "2026-09-12T07:25:00.000Z"
     },
     {
       "source": "PBS NewsHour",
