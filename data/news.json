@@ -1,11 +1,29 @@
 {
-  "generatedAt": "2026-09-12T05:06:52.749Z",
+  "generatedAt": "2026-09-12T12:22:11.725Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "President Trump to meet with Irish president and prime minister",
+      "url": "https://www.npr.org/2026/09/12/nx-s1-5966500/president-trump-to-meet-with-irish-president-and-prime-minister",
+      "publishedAt": "2026-09-12T12:04:24.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Week in politics: Trump attends Republican midterm convention and Pentagon's 9/11 memorial service",
+      "url": "https://www.npr.org/2026/09/12/nx-s1-5965782/week-in-politics-trump-attends-republican-midterm-convention-and-pentagons-9-11-memorial-service",
+      "publishedAt": "2026-09-12T12:04:21.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "Tracking Competitive Races in the House and Senate",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-09-12T01:17:11.000Z"
+      "publishedAt": "2026-09-12T10:23:44.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Neighbor turned on neighbor after Charlie Kirk's killing. Is the divide here to stay?",
+      "url": "https://www.npr.org/2026/09/12/nx-s1-5952234/charlie-kirk-death-doxing",
+      "publishedAt": "2026-09-12T09:00:00.000Z"
     },
     {
       "source": "NPR",
@@ -42,24 +60,6 @@
       "title": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
       "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports",
       "publishedAt": "2026-09-11T22:50:58.000Z"
-    },
-    {
-      "source": "thetexan.news",
-      "title": "National Republican Spending Pours In to Support Paxton in Tight U.S. Senate Race",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOUUxXZUhYS0ZxcWNtUG0zTFdEOU00MVNiYVFnckxLT3Y0V011SDljMkY0cHNGdnA4cXNvUV9FanlpdG9pS0lQWGxodHpfSGxfdnhOcVI2bHc3SmdvZEFlMGxiMU5ENzRLRGUwYmlqYW5mQW5lVEFWMjNTRzhmZjYxUk0zOE1wU00wNWxidEM0eW1UaGhJcWhXM3J2YkgtY2FLdTlvNXJ4WmE1blV3dWVuYXFpb2ZtRG9Tc2gxMlBPckttQllOV3JnSW8tWGhkemZOajZ4WTQzaWMtMm9ic2J5RUZQcXhiYjhIbTR4T05aWjVDalY0Q3didTJnNA?oc=5",
-      "publishedAt": "2026-09-11T22:29:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "House Polls 2026: See the Latest Midterm Polls",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wdWtoX2hEV1pta2c0ZXB6cV9ZeU9JbWRwbHZ3bzNucUxlaC1JMjhHcUNPME40UUtDdDZlRF9jUkNjUzVEc0RSVVRwU2ZKLUdMY1FuVlIxcHJfdWsydFllWFh2eV9MbTFhSzVXVUExclk?oc=5",
-      "publishedAt": "2026-09-11T20:56:49.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Mayor of the 'Air Capital of the World' reacts to Trump's threats against Bombardier",
-      "url": "https://www.npr.org/2026/09/11/nx-s1-5963499/mayor-of-the-air-capital-of-the-world-reacts-to-trumps-threats-against-bombardier",
-      "publishedAt": "2026-09-11T20:34:45.000Z"
     }
   ]
 }
