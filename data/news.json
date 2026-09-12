@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-09-11T22:47:59.574Z",
+  "generatedAt": "2026-09-12T05:06:52.749Z",
   "articles": [
+    {
+      "source": "The New York Times",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-09-12T01:17:11.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Ethics watchdogs await RFK Jr.'s financial report",
+      "url": "https://www.npr.org/2026/09/11/nx-s1-5964970/ethics-watchdogs-await-rfk-jr-s-financial-report",
+      "publishedAt": "2026-09-12T00:42:54.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Officials in Nashville unite across the aisle over renaming airport after Dolly Parton",
+      "url": "https://www.pbs.org/newshour/politics/officials-in-nashville-unite-across-the-aisle-over-renaming-airport-after-dolly-parton",
+      "publishedAt": "2026-09-12T00:11:40.000Z"
+    },
+    {
+      "source": "Montana Free Press",
+      "title": "Alme leads Bodnar in U.S. Senate race, Democrat and Libertarian lag behind",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT21GeVRwTU9GbmRHSDBvLUJoZ2ZrRmpwMi1ydmNrOXg1a0VmdXUtNUJJa0hNUUFPOHNGVUYtc3ZqcVFmZkFjUGdhbDVIbl9zSTQzS1I0aEplS29Zc0JPOGNBYWI3U0tTX3EwUzZMMS1PVHp6ODhwelpRZlJIajVxSVpwYVRQZ2gxOGRqdjZ4ZDh0Uk14UzZaV0dR?oc=5",
+      "publishedAt": "2026-09-11T23:38:26.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Federal court rejects Trump administration order keeping Michigan coal plant open",
+      "url": "https://www.pbs.org/newshour/politics/federal-court-rejects-trump-administration-order-keeping-michigan-coal-plant-open",
+      "publishedAt": "2026-09-11T23:02:58.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Americans remember the lives lost in the 9/11 attacks 25 years ago",
+      "url": "https://www.pbs.org/newshour/show/americans-remember-the-lives-lost-in-the-9-11-attacks-25-years-ago",
+      "publishedAt": "2026-09-11T22:55:08.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
+      "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports",
+      "publishedAt": "2026-09-11T22:50:58.000Z"
+    },
     {
       "source": "thetexan.news",
       "title": "National Republican Spending Pours In to Support Paxton in Tight U.S. Senate Race",
@@ -8,58 +50,16 @@
       "publishedAt": "2026-09-11T22:29:00.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Trump leads RNC in pledge to 'cheat like hell' in November elections",
-      "url": "https://www.pbs.org/newshour/politics/watch-trump-leads-rnc-in-pledge-to-cheat-like-hell-in-november-elections",
-      "publishedAt": "2026-09-11T21:56:18.000Z"
+      "source": "The New York Times",
+      "title": "House Polls 2026: See the Latest Midterm Polls",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wdWtoX2hEV1pta2c0ZXB6cV9ZeU9JbWRwbHZ3bzNucUxlaC1JMjhHcUNPME40UUtDdDZlRF9jUkNjUzVEc0RSVVRwU2ZKLUdMY1FuVlIxcHJfdWsydFllWFh2eV9MbTFhSzVXVUExclk?oc=5",
+      "publishedAt": "2026-09-11T20:56:49.000Z"
     },
     {
       "source": "NPR",
       "title": "Mayor of the 'Air Capital of the World' reacts to Trump's threats against Bombardier",
       "url": "https://www.npr.org/2026/09/11/nx-s1-5963499/mayor-of-the-air-capital-of-the-world-reacts-to-trumps-threats-against-bombardier",
       "publishedAt": "2026-09-11T20:34:45.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump heads to Ireland to watch some golf at his club and conduct some diplomacy",
-      "url": "https://www.npr.org/2026/09/11/nx-s1-5958496/trump-heads-to-ireland-to-watch-some-golf-at-his-club-and-conduct-some-diplomacy",
-      "publishedAt": "2026-09-11T20:26:24.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
-      "url": "https://www.pbs.org/newshour/politics/cia-releases-dozens-of-presidential-daily-briefs-on-bin-laden-and-al-qaida-before-sept-11",
-      "publishedAt": "2026-09-11T19:58:22.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Afghan woman whose case was the first for a long-dormant court has been deported, officials say",
-      "url": "https://www.pbs.org/newshour/politics/afghan-woman-whose-case-was-the-first-for-a-long-dormant-court-has-been-deported-officials-say",
-      "publishedAt": "2026-09-11T18:42:05.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Senators from both parties question OpenAI on breach of AI startup Hugging Face",
-      "url": "https://www.pbs.org/newshour/politics/senators-from-both-parties-question-openai-on-breach-of-ai-startup-hugging-face",
-      "publishedAt": "2026-09-11T17:56:42.000Z"
-    },
-    {
-      "source": "Decision Desk HQ | Substack",
-      "title": "📈 Iowa’s Senate race is a dead heat",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVDhEWGxNa2pjV1Bla0dFd3lHRGk2b0FwRGowVXhMbm9LUHlDamxFdGd4bnVwMFBVNGduMFJONXZTMDhjQUU2LVh2czZfaC13R05GUzdHSFp4bjJ0b3lGcnpnRXFxZ0UzTWZGR2xZSkREdVRWM2ROMklUQU5oQWVFbkRkbjF2UGRCX2k1TmxmbV82UGtQMmNYMUpCdmZVOGc2dFhhSU5oQjlUdW5KV0FsQlhxdXdLRjljTkxqd1ZsOA?oc=5",
-      "publishedAt": "2026-09-11T17:28:52.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Arkansas Governor Election 2026: Latest Polls",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONjhPN1kyNkFQZUhIakFHcUI2TUZPUThxM2hia3FkSG5RSVo5MVZWRjM0OEQ2U1Y0ZnFGdm1uenpnNWV4ajNCRHU1Rlpqc3c1T2w3M1ppazMxTUVPQWt2RElIdHRyQUxBMEY4X3VQanBqSWxkV3lhWTZKZGxNeXlKQlBMNXZxUF9sZWlDag?oc=5",
-      "publishedAt": "2026-09-11T16:54:16.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-09-11T16:15:35.000Z"
     }
   ]
 }
