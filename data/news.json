@@ -1,20 +1,44 @@
 {
-  "generatedAt": "2026-09-13T18:58:32.455Z",
+  "generatedAt": "2026-09-13T22:37:44.328Z",
   "articles": [
     {
       "source": "PBS NewsHour",
-      "title": "Exit polls show left-wing opposition ahead in Swedish vote, projected to win majority",
+      "title": "Trump downplays the need to check AI development and says he doesn't want to cede edge to China",
+      "url": "https://www.pbs.org/newshour/politics/trump-downplays-the-need-to-check-ai-development-and-says-he-doesnt-want-to-cede-edge-to-china",
+      "publishedAt": "2026-09-13T22:08:25.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Inside a Philadelphia barbershop, Black men debate their political past and future",
+      "url": "https://www.pbs.org/newshour/politics/inside-a-philadelphia-barbershop-black-men-debate-their-political-past-and-future",
+      "publishedAt": "2026-09-13T20:01:56.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "House Speaker Mike Johnson says Trump's $5,000 'dividend' needs congressional approval",
+      "url": "https://www.pbs.org/newshour/politics/house-speaker-mike-johnson-says-trumps-5000-dividend-needs-congressional-approval",
+      "publishedAt": "2026-09-13T19:36:17.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Latest House Polls: Midterm Elections 2026",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wdWtoX2hEV1pta2c0ZXB6cV9ZeU9JbWRwbHZ3bzNucUxlaC1JMjhHcUNPME40UUtDdDZlRF9jUkNjUzVEc0RSVVRwU2ZKLUdMY1FuVlIxcHJfdWsydFllWFh2eV9MbTFhSzVXVUExclk?oc=5",
+      "publishedAt": "2026-09-13T19:21:44.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Partial returns show close race between Sweden's conservative government and left-wing opposition",
       "url": "https://www.pbs.org/newshour/world/swedish-voters-go-to-polls-to-choose-a-new-parliament-as-hard-right-bids-for-role-in-government",
       "publishedAt": "2026-09-13T18:41:40.000Z"
     },
     {
-      "source": "PBS NewsHour",
-      "title": "The secret ballot has been an article of faith in U.S. elections. That's being tested in Georgia",
-      "url": "https://www.pbs.org/newshour/politics/the-secret-ballot-has-been-an-article-of-faith-in-u-s-elections-thats-being-tested-in-georgia",
-      "publishedAt": "2026-09-13T18:19:30.000Z"
+      "source": "The New York Times",
+      "title": "Governor Polls 2026: See the Latest Election Polls",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
+      "publishedAt": "2026-09-13T18:36:29.000Z"
     },
     {
-      "source": "WHYY",
+      "source": "whyy.org",
       "title": "Republican gubernatorial candidate Stacy Garrity campaigns in ‘unsafe’ Philly",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcVZkWC1HbW1UT3VLYk5FLTFMQjNpZXk2NDlzWGdRSVpnYkNvVnROWjlORWFQQ3c2R1RtMVEwOUVJWHZDSWw2eWFuUno2WS1tZTY1X1dBbXREQ0NMMFM2NkUzNzAyVUx4VTlBVHN5cFBlY3FuSkhiN2N1U1VGaFlUNElIeVNnVDVuY2VCUg?oc=5",
       "publishedAt": "2026-09-13T18:04:38.000Z"
@@ -24,18 +48,6 @@
       "title": "Wisconsin congressman survives emergency plane landing, swims to safety",
       "url": "https://www.npr.org/2026/09/13/nx-s1-5968081/wisconsin-congressman-survives-emergency-plane-landing-swims-to-safety",
       "publishedAt": "2026-09-13T17:45:33.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Rep. Tom Tiffany swims to safety after plane makes emergency landing in a Wisconsin lake",
-      "url": "https://www.pbs.org/newshour/politics/rep-tom-tiffany-swims-to-safety-after-plane-makes-emergency-landing-in-a-wisconsin-lake",
-      "publishedAt": "2026-09-13T16:12:04.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump calls on Ukraine to halt strikes on Russian diesel, saying attacks are causing a shortage",
-      "url": "https://www.pbs.org/newshour/world/trump-calls-on-ukraine-to-halt-strikes-on-russian-diesel-saying-attacks-are-causing-a-shortage",
-      "publishedAt": "2026-09-13T15:58:37.000Z"
     },
     {
       "source": "CBS News",
@@ -48,18 +60,6 @@
       "title": "Politics chat: Trump's $5,000 promise to voters, Vance invokes Charlie Kirk",
       "url": "https://www.npr.org/2026/09/13/nx-s1-5964863/politics-chat-trumps-5-000-promise-to-voters-vance-invokes-charlie-kirk",
       "publishedAt": "2026-09-13T12:04:27.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "The Social Security trust fund is running out. Why is it not a top campaign issue?",
-      "url": "https://www.npr.org/2026/09/13/nx-s1-5898447-e1/the-social-security-trust-fund-is-running-out-why-is-it-not-a-top-campaign-issue",
-      "publishedAt": "2026-09-13T12:04:25.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "How a young woman was recruited to ISIS — and how she eventually escaped",
-      "url": "https://www.npr.org/2026/09/13/nx-s1-5963568/canada-woman-escapes-isis",
-      "publishedAt": "2026-09-13T09:00:00.000Z"
     }
   ]
 }
