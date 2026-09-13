@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-09-13T13:28:13.256Z",
+  "generatedAt": "2026-09-13T18:58:32.455Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Exit polls show left-wing opposition ahead in Swedish vote, projected to win majority",
+      "url": "https://www.pbs.org/newshour/world/swedish-voters-go-to-polls-to-choose-a-new-parliament-as-hard-right-bids-for-role-in-government",
+      "publishedAt": "2026-09-13T18:41:40.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "The secret ballot has been an article of faith in U.S. elections. That's being tested in Georgia",
+      "url": "https://www.pbs.org/newshour/politics/the-secret-ballot-has-been-an-article-of-faith-in-u-s-elections-thats-being-tested-in-georgia",
+      "publishedAt": "2026-09-13T18:19:30.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Republican gubernatorial candidate Stacy Garrity campaigns in ‘unsafe’ Philly",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcVZkWC1HbW1UT3VLYk5FLTFMQjNpZXk2NDlzWGdRSVpnYkNvVnROWjlORWFQQ3c2R1RtMVEwOUVJWHZDSWw2eWFuUno2WS1tZTY1X1dBbXREQ0NMMFM2NkUzNzAyVUx4VTlBVHN5cFBlY3FuSkhiN2N1U1VGaFlUNElIeVNnVDVuY2VCUg?oc=5",
+      "publishedAt": "2026-09-13T18:04:38.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Wisconsin congressman survives emergency plane landing, swims to safety",
+      "url": "https://www.npr.org/2026/09/13/nx-s1-5968081/wisconsin-congressman-survives-emergency-plane-landing-swims-to-safety",
+      "publishedAt": "2026-09-13T17:45:33.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Rep. Tom Tiffany swims to safety after plane makes emergency landing in a Wisconsin lake",
+      "url": "https://www.pbs.org/newshour/politics/rep-tom-tiffany-swims-to-safety-after-plane-makes-emergency-landing-in-a-wisconsin-lake",
+      "publishedAt": "2026-09-13T16:12:04.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump calls on Ukraine to halt strikes on Russian diesel, saying attacks are causing a shortage",
+      "url": "https://www.pbs.org/newshour/world/trump-calls-on-ukraine-to-halt-strikes-on-russian-diesel-saying-attacks-are-causing-a-shortage",
+      "publishedAt": "2026-09-13T15:58:37.000Z"
+    },
+    {
+      "source": "CBS News",
+      "title": "2026 midterm election races to watch",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fM0tjOXRhTlFDWE14WWZTcGZxSUJPZGxjcG1ldlgyMC0tT1M2VWZadXVIMWZHUmNWTExKUmRsT0RHSjRYUTFycjRqMlVma0dOTEd6cTRXTUdqUGtmZ01lSVlrd0VCb0RZ?oc=5",
+      "publishedAt": "2026-09-13T13:18:53.000Z"
+    },
     {
       "source": "NPR",
       "title": "Politics chat: Trump's $5,000 promise to voters, Vance invokes Charlie Kirk",
@@ -15,51 +57,9 @@
     },
     {
       "source": "NPR",
-      "title": "How a young woman became an ISIS bride — and then an informant, helping save others",
+      "title": "How a young woman was recruited to ISIS — and how she eventually escaped",
       "url": "https://www.npr.org/2026/09/13/nx-s1-5963568/canada-woman-escapes-isis",
       "publishedAt": "2026-09-13T09:00:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Minnesota churches roiled by legal battle over ICE surveillance and right to protest",
-      "url": "https://www.pbs.org/newshour/nation/minnesota-churches-roiled-by-legal-battle-over-ice-surveillance-and-right-to-protest",
-      "publishedAt": "2026-09-12T21:25:55.000Z"
-    },
-    {
-      "source": "nhpr.org",
-      "title": "NH 2026 Primary Election Results: State House & Senate (GOP)",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOUJDRHBnYjktMjVPemI4dXgycGJFTjktYlM1bW1tdlFmYzA3Yk40TDh3ZFF6S0xsd1Z4WlRoTFpIZmdFazdrcU9iUXJxeWlnVnRRb2h5RWdZbV9wb3lRMVZZRTlKcUtlNHliaU1PZE9kSnB0djF3ZWlRRkRZNDQ?oc=5",
-      "publishedAt": "2026-09-12T21:12:55.000Z"
-    },
-    {
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "title": "How Democrats could replace Graham Platner in Maine Senate race and who might take his place",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeU5hUmliZUs5d18yLXZJdGZqZy1GLVBzM2J6dmxxRi1MZTJoWHR4c0dJOEV1ZllUNjAxS19qSng0TmpDdVJERVp1WjUxQzFLc3NfdmExMENJci1FOC03SGl5M3Z2SkViVFJ5a0NCaXZXZnAyb2FZMFdzOVR5Ym50dVg1OTJ0Y2JNbExrLVBCNWRLdThnOHNzRzRIQ2o3dGI4NmlsSWxNVdIBrAFBVV95cUxPOWtfWXdhYmNfblBEam43LW9VUVRXYUNZM09meEo2TS1BMXE4dlRTMWJSTVNYaE42RW9neW9tVk5rTng3Y0VtMmJ2QmszMTdUaVluYlFYblBWc2daUlM4VnNKWHM1NUdKejFQclIyYmlnRkpGOHgtRl9sMlFjUmFEZjhtUEwzRXl1QlFBMjJQcVY1SWRiNXhrNjRuMjJ4MlAzVHZIYjB4LUY5aWxl?oc=5",
-      "publishedAt": "2026-09-12T19:22:32.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "AP analysis: Justice Department went after protesters for felony assault, but juries and judges were unconvinced",
-      "url": "https://www.pbs.org/newshour/politics/ap-analysis-justice-department-went-after-protesters-for-felony-assault-but-juries-and-judges-were-unconvinced",
-      "publishedAt": "2026-09-12T18:46:38.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Alien Terrorist Removal Court deports legal US resident to Afghanistan in first-ever case",
-      "url": "https://www.npr.org/2026/09/12/nx-s1-5967476/alien-removal-court-deportation-afganistan",
-      "publishedAt": "2026-09-12T18:29:18.000Z"
-    },
-    {
-      "source": "Politico",
-      "title": "Republicans fear they have a North Carolina problem",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeHlFeGF2R3hfeUF4VF9ycHU4eWFUYTRxTGlyQmMya0NKWGM4eUh4MFdTQ3FZcXpRM2pkT2xVTnQ0R1BzcnJiNnoyU29qV3d2SjB5VWktTktlX1lydk9rWjN1dWdJSFJjZGRMcTJtRVRYSUR2ZmdWNUNsazRmaThJNXZhNldsaWdLV2lLQTVMQ3ZLOTNZUDFmQXJR?oc=5",
-      "publishedAt": "2026-09-12T18:00:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump touches a nerve while in Ireland by saying reunification would be 'fantastic'",
-      "url": "https://www.pbs.org/newshour/politics/trump-touches-a-nerve-while-in-ireland-by-saying-reunification-would-be-fantastic",
-      "publishedAt": "2026-09-12T17:11:01.000Z"
     }
   ]
 }
