@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-13T05:23:28.698Z",
+  "generatedAt": "2026-09-13T13:28:13.256Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Politics chat: Trump's $5,000 promise to voters, Vance invokes Charlie Kirk",
+      "url": "https://www.npr.org/2026/09/13/nx-s1-5964863/politics-chat-trumps-5-000-promise-to-voters-vance-invokes-charlie-kirk",
+      "publishedAt": "2026-09-13T12:04:27.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "The Social Security trust fund is running out. Why is it not a top campaign issue?",
+      "url": "https://www.npr.org/2026/09/13/nx-s1-5898447-e1/the-social-security-trust-fund-is-running-out-why-is-it-not-a-top-campaign-issue",
+      "publishedAt": "2026-09-13T12:04:25.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "How a young woman became an ISIS bride — and then an informant, helping save others",
+      "url": "https://www.npr.org/2026/09/13/nx-s1-5963568/canada-woman-escapes-isis",
+      "publishedAt": "2026-09-13T09:00:00.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Minnesota churches roiled by legal battle over ICE surveillance and right to protest",
@@ -8,7 +26,7 @@
       "publishedAt": "2026-09-12T21:25:55.000Z"
     },
     {
-      "source": "New Hampshire Public Radio",
+      "source": "nhpr.org",
       "title": "NH 2026 Primary Election Results: State House & Senate (GOP)",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VOUJDRHBnYjktMjVPemI4dXgycGJFTjktYlM1bW1tdlFmYzA3Yk40TDh3ZFF6S0xsd1Z4WlRoTFpIZmdFazdrcU9iUXJxeWlnVnRRb2h5RWdZbV9wb3lRMVZZRTlKcUtlNHliaU1PZE9kSnB0djF3ZWlRRkRZNDQ?oc=5",
       "publishedAt": "2026-09-12T21:12:55.000Z"
@@ -42,24 +60,6 @@
       "title": "Trump touches a nerve while in Ireland by saying reunification would be 'fantastic'",
       "url": "https://www.pbs.org/newshour/politics/trump-touches-a-nerve-while-in-ireland-by-saying-reunification-would-be-fantastic",
       "publishedAt": "2026-09-12T17:11:01.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump asks Smithsonian to install George Washington statues and exhibit",
-      "url": "https://www.pbs.org/newshour/politics/trump-asks-smithsonian-to-install-george-washington-statues-and-exhibit",
-      "publishedAt": "2026-09-12T15:59:51.000Z"
-    },
-    {
-      "source": "Silver Bulletin",
-      "title": "FLIPR 2026 midterm election forecast",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
-      "publishedAt": "2026-09-12T15:52:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Democrats and Republicans can agree: there should be more monetary support for child care",
-      "url": "https://www.npr.org/2026/09/12/nx-s1-5965806/democrats-and-republicans-can-agree-there-should-be-more-monetary-support-for-child-care",
-      "publishedAt": "2026-09-12T12:47:08.000Z"
     }
   ]
 }
