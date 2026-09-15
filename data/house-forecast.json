@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-09-13T14:23:44.037Z",
+  "updatedAt": "2026-09-15T15:01:10.818Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
-    "democrats": 211.9,
-    "tossup": 19.3,
-    "republicans": 203.7,
+    "democrats": 211.3,
+    "tossup": 20.7,
+    "republicans": 203,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
-    "nonTossupDemocrats": 211.9,
-    "nonTossupRepublicans": 203.7,
-    "averageTossup": 19.3,
+    "nonTossupDemocrats": 211.3,
+    "nonTossupRepublicans": 203,
+    "averageTossup": 20.7,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
   "average": {
     "categories": {
-      "demSafe": 181.3,
+      "demSafe": 182.7,
       "demLikely": 16.3,
-      "demLean": 14.3,
-      "tossup": 19.3,
-      "repLean": 11.7,
-      "repLikely": 29.3,
-      "repSafe": 162.7
+      "demLean": 12.3,
+      "tossup": 20.7,
+      "repLean": 12,
+      "repLikely": 26.3,
+      "repSafe": 164.7
     },
     "totals": {
-      "democrats": 211.9,
-      "tossup": 19.3,
-      "republicans": 203.7,
+      "democrats": 211.3,
+      "tossup": 20.7,
+      "republicans": 203,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -42,21 +42,21 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "url": "https://www.racetothewh.com/house",
       "categories": {
-        "demSafe": 176,
+        "demSafe": 180,
         "demLikely": 19,
-        "demLean": 21,
-        "tossup": 20,
-        "repLean": 19,
-        "repLikely": 41,
-        "repSafe": 139
+        "demLean": 15,
+        "tossup": 23,
+        "repLean": 21,
+        "repLikely": 28,
+        "repSafe": 149
       },
       "totals": {
-        "democrats": 216,
-        "tossup": 20,
-        "republicans": 199
+        "democrats": 214,
+        "tossup": 23,
+        "republicans": 198
       },
       "included": true,
       "scrapeStatus": "live",
@@ -72,15 +72,15 @@
         "demSafe": 183,
         "demLikely": 18,
         "demLean": 13,
-        "tossup": 17,
-        "repLean": 9,
-        "repLikely": 26,
-        "repSafe": 169
+        "tossup": 18,
+        "repLean": 8,
+        "repLikely": 30,
+        "repSafe": 165
       },
       "totals": {
         "democrats": 214,
-        "tossup": 17,
-        "republicans": 204
+        "tossup": 18,
+        "republicans": 203
       },
       "included": true,
       "scrapeStatus": "live",
