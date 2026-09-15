@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-09-15T05:24:23.403Z",
+  "generatedAt": "2026-09-15T13:52:43.348Z",
   "articles": [
+    {
+      "source": "The New York Times",
+      "title": "Governor Polls 2026: See the Latest Election Polls",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
+      "publishedAt": "2026-09-15T13:26:23.000Z"
+    },
+    {
+      "source": "VTDigger",
+      "title": "VTDigger launches 2026 Vermont general election guide",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GS2RsTWVZeFc4eVFjN0YzX3hHZDlUZWJCNTNBcXo5M1lXcHpIQ2xKZTJsQm1ucmo4OVV2Rkc0VXpnNDU3QzF2MlQ4VFN1dGQ4VWY0U2NGYXVzTDlRbEZIdmJjVGdpWV85dWNWU2M0Rld5Zmx5a0NJ?oc=5",
+      "publishedAt": "2026-09-15T11:19:21.000Z"
+    },
+    {
+      "source": "Mississippi Today",
+      "title": "Mississippi 2026 midterm elections guide: Who’s running? What are the issues?",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYUU2cFJaVV9Qa1FOa1pkQWpLb3Q0UDg1NzNiamlmSVpOYXdIS3FHS1hxWjEycVcxaF9VRlBjbU41dHVWSmtrbXJrYS1wOF9lZG1NNXpDNFF2czZZR1FrSkMzRVRuc215SnNjMFRGRGwta0lsQ3ZwYVlSeGVqdmRmTlFvbnM0X0xIbG1FT3l1WWFkTzQxVEVWMVM5cUNIMDEzWHRUZ1ZNdVIzMWY1YVVfT3JnRHpYTkFuVmFQWDgwYU81Ylk2?oc=5",
+      "publishedAt": "2026-09-15T11:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump says developing AI is a critical race, downplaying fears",
+      "url": "https://www.npr.org/2026/09/15/nx-s1-5968682/trump-says-developing-ai-is-a-critical-race-downplaying-fears",
+      "publishedAt": "2026-09-15T10:42:20.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Sen. Bernie Sanders says Congress has gotten a 'wake-up call' on AI risks",
+      "url": "https://www.npr.org/2026/09/15/nx-s1-5968653/sen-bernie-sanders-says-congress-has-gotten-a-wake-up-call-on-ai-risks",
+      "publishedAt": "2026-09-15T10:42:15.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "This bill could reshape crypto in America -- and it's sparking a major battle",
+      "url": "https://www.npr.org/2026/09/15/nx-s1-5968711/clarity-act-crypto-senate-vote",
+      "publishedAt": "2026-09-15T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Bernie Sanders and Steve Bannon to share a stage to promote curbs on AI",
+      "url": "https://www.npr.org/2026/09/15/nx-s1-5968678/bernie-sanders-and-steve-bannon-to-share-a-stage-to-promote-curbs-on-ai",
+      "publishedAt": "2026-09-15T09:00:00.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Supreme Court rejects Trump mail ballot restrictions ahead of midterms",
@@ -8,13 +50,7 @@
       "publishedAt": "2026-09-15T01:02:29.000Z"
     },
     {
-      "source": "NPR",
-      "title": "The Supreme Court rejects Trump's mail voting restrictions for this year's midterms",
-      "url": "https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump",
-      "publishedAt": "2026-09-14T23:38:40.000Z"
-    },
-    {
-      "source": "azfamily.com",
+      "source": "AZ Family",
       "title": "2026 Election: These competitive Arizona races could decide control of US House",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2wtTFlSYmZEVVV1TE1QdW9EVG5aMkVOU29jeGVaT0JvVGVKc0dLLVIycDlzWE9aLXRUSXhWSUVxMGVSck1pZUZuVm8zak5sQmk0MUhJV0pNZHlaTmdwVjBnX3ZCUFc4N1Y1V3VBMUxpS3dVejBoQ3VaelZBQzRia3hZU0Q0TnBrNGpXOGMyRldINFhndXJFLUlMbWhJX3VDVkJlQi1tTE4xdmZZX3M5WEF3?oc=5",
       "publishedAt": "2026-09-14T23:32:00.000Z"
@@ -24,42 +60,6 @@
       "title": "Mahmoud Khalil lawsuit says Columbia University failed to protect pro-Palestinian activists",
       "url": "https://www.pbs.org/newshour/nation/mahmoud-khalil-lawsuit-says-columbia-university-failed-to-protect-pro-palestinian-activists",
       "publishedAt": "2026-09-14T23:02:54.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump pushes back as AI leaders fuel calls to rein in rapidly advancing technology",
-      "url": "https://www.pbs.org/newshour/show/trump-pushes-back-as-ai-leaders-fuel-calls-to-rein-in-rapidly-advancing-technology",
-      "publishedAt": "2026-09-14T22:55:54.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "News Wrap: Kennedy Center warns of 'fiscal collapse' without Trump's name on building",
-      "url": "https://www.pbs.org/newshour/show/news-wrap-kennedy-center-warns-of-fiscal-collapse-without-trumps-name-on-building",
-      "publishedAt": "2026-09-14T22:45:46.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Mitch McConnell returns to Senate after fall that led to an extended medical absence",
-      "url": "https://www.npr.org/2026/09/14/nx-s1-5968909/mitch-mcconnell-senate-return",
-      "publishedAt": "2026-09-14T22:36:33.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Federal agents may have broken state laws in voter fraud hunt, whistleblower claims",
-      "url": "https://www.npr.org/2026/09/14/nx-s1-5968892/dhs-whistleblower-voter-fraud",
-      "publishedAt": "2026-09-14T22:05:06.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "What's next for Senator John Fetterman?",
-      "url": "https://www.npr.org/2026/09/14/nx-s1-5968629/whats-next-for-senator-john-fetterman",
-      "publishedAt": "2026-09-14T20:34:26.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Live Results: Delaware midterm primaries",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU0FnRFpYYVVGb011V2RMQVBKTEtFNW9XVzczSjBWVjBiYlpiZU1QbHBxbGlwQ0R1UmMtUk5vR3pmZ3gwMnNYV1VKLXZEX3NvNnIzRExGdmt2Y3RXUVRDSnVpOVlRNHdlaWhRdmZvSlVRY2ZrTFJBWjVJbFRNdGlkbXRwTdIBiAFBVV95cUxPYkIxN2ZxQ3BTZHNyRTM4Mnk5b0FIUFdDOUVZOTh4VW16NklqaUowS1FzajZqcUk1MUd3c1VsbEV4cTBYaV9LZ0QwckttMDRvazRNN2FhQTl4MnBvV1JYaFJJaXVtUEQ3QmRMVEdtd0lFOHFWV3YwbUxDV3BRTnQ4YWNTUURFSEE5?oc=5",
-      "publishedAt": "2026-09-14T19:38:50.000Z"
     }
   ]
 }
