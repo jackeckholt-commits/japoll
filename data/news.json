@@ -1,11 +1,53 @@
 {
-  "generatedAt": "2026-09-16T05:18:41.963Z",
+  "generatedAt": "2026-09-16T13:44:49.120Z",
   "articles": [
     {
-      "source": "The Washington Post",
-      "title": "This blue state is the midterms’ surprising new Senate battleground",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOal80Z21vWndYS0RpMm9wMVppZnlfQ0M4SV95dUhZREFZS1RFTXB2Z2pXQm0ybFdvRzBZR2wxc3B6R2l2encweTc5Q2gyUFJiTEl1Z2h6anY4U1lDQWV4bUNwVGRHaF9xaXFaWENoY0huUG5uQW0wT2t0YlgwRFh2VkYwbGN4Y2xteHkwQlRRZEg5cVdzNEdhY1BBVWMwelhlUG5BbzhneGVqUThSaXFUOW1Kclk?oc=5",
-      "publishedAt": "2026-09-16T03:40:15.000Z"
+      "source": "The New York Times",
+      "title": "Latest Governor Polls: Election 2026",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
+      "publishedAt": "2026-09-16T12:57:07.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-16T11:49:21.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Rep. Thomas Massie moves to impeach Defense Secretary Pete Hegseth over the Iran war",
+      "url": "https://www.npr.org/2026/09/16/nx-s1-5969910/rep-thomas-massie-moves-to-impeach-defense-secretary-pete-hegseth-over-the-iran-war",
+      "publishedAt": "2026-09-16T10:47:32.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "New Jersey election 2026: Your 1st Congressional District voter guide",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZlVmcTFVUFR5NEZ2Y3hFT1EtdWtSYW9GTW94Vmk4d0dtOWlkdmNXWjZSdk1UMUU3ZXVWaGJRcndTaDFuN0V6WkhWVmRGREFSVjRYd1Zfa1RTblpZMUtRZkdPVmtKUWtGTVB1dFh0NTk1OGtKeXM4LVNFTFVtYUNHR05lTzRTcGtoc09mZzQwV2JaNXVX?oc=5",
+      "publishedAt": "2026-09-16T10:09:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Vanity Fair feature profiles the political development of JD Vance at Yale",
+      "url": "https://www.npr.org/2026/09/16/nx-s1-5970450/vanity-fair-feature-profiles-the-political-development-of-jd-vance-at-yale",
+      "publishedAt": "2026-09-16T09:42:33.000Z"
+    },
+    {
+      "source": "Votebeat",
+      "title": "Everything you need to know about the 2026 election in Michigan",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcW5zejdHX0JRQXNUZnFRRVR2dXBGRXk0SkdiWnNkZjlWNjZVV08wM1dRQ3RyQzFST3g5aGpOaDRRd00zWlpKMWxvdDhlTVBQcDhuWUdoNS0wN3pNeVFXS0txVkZSRmxJdTk5VWRKbVBkM2FKZC1SYkpRLThvVkpjSDJhTjItWEdLand3V1ZEY2NzU3Y1N1pkUnJ6SnhxcWpLMUE?oc=5",
+      "publishedAt": "2026-09-16T09:01:46.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "As campaign season gears up, AI-generated ads are everywhere",
+      "url": "https://www.npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms",
+      "publishedAt": "2026-09-16T09:00:00.000Z"
+    },
+    {
+      "source": "CNN",
+      "title": "Election results: Delaware primary",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NZUtfS0NsVVdackVJZzJxNW1YT1BrbjY3SzFIbHVZQlcxMGFaaDZvcVBZYUNQWVBYbVBpUmE5T01iX3VDVHdkOTFMWm5EMUFoUzVEc2ZnSmxMWHAzU1NV?oc=5",
+      "publishedAt": "2026-09-16T03:43:00.000Z"
     },
     {
       "source": "NPR",
@@ -14,52 +56,10 @@
       "publishedAt": "2026-09-16T03:03:47.000Z"
     },
     {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-16T03:01:41.000Z"
-    },
-    {
-      "source": "nytimes.com",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-09-16T02:52:16.000Z"
-    },
-    {
-      "source": "WHYY",
-      "title": "Ted Lauzen defeats challengers in Delaware’s Democratic primary for state treasurer",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JV3JwY0FqOWtzRWFWMkV6UE85aFRSSk4zdmpNY2ZoS25uaVFtMGd5VGFpcTNUUlNxTTQtaGxROV9BZThYNHJ6V3JDUFQwdEJLVkJYSkNGRkN5RlVKbGRWRjJXVUNtNzNxSEp3Zk9VQVhWNEFyVXZaV3NQcmdWTkE?oc=5",
-      "publishedAt": "2026-09-16T01:30:06.000Z"
-    },
-    {
-      "source": "WHYY",
-      "title": "Arminio wins GOP primary, will face McBride in November election",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON0FrUERNY3ZjNUhWZnhzVWNjMUo4VnlSRWRVajZzUThRUDVoWHVIemREZWppTG42Z01LUTFBV1dmWXVYUUltaW1Pbmt1OWU5RFdYZmJ5ejhrLUxyT2drVkJXT1p1NzMxc05OSDctWGxWejcyQ25Icl9oSkdpQTdBSWtqZWFvdHV2d0lDVA?oc=5",
-      "publishedAt": "2026-09-16T01:14:48.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "Election officials get mail-in voting clarity after Supreme Court decision",
       "url": "https://www.pbs.org/newshour/show/elections-officials-get-mail-in-voting-clarity-after-supreme-court-decision",
       "publishedAt": "2026-09-15T22:55:38.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Analyzing the Supreme Court's mail-in voting decision and Trump's reaction",
-      "url": "https://www.pbs.org/newshour/show/analyzing-the-supreme-courts-mail-in-voting-decision-and-trumps-reaction",
-      "publishedAt": "2026-09-15T22:50:01.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "News Wrap: Democrats block crypto bill, demand limits on Trump's investments",
-      "url": "https://www.pbs.org/newshour/show/news-wrap-democrats-block-crypto-bill-demand-limits-on-trumps-investments",
-      "publishedAt": "2026-09-15T22:45:59.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "NATO jets shoot down drone in Lithuania as Russia continues to provoke Europe",
-      "url": "https://www.pbs.org/newshour/show/nato-jets-shoot-down-drone-in-lithuania-as-russia-continues-to-provoke-europe",
-      "publishedAt": "2026-09-15T22:40:02.000Z"
     }
   ]
 }
