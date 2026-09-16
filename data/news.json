@@ -1,17 +1,47 @@
 {
-  "generatedAt": "2026-09-15T23:11:12.004Z",
+  "generatedAt": "2026-09-16T05:18:41.963Z",
   "articles": [
+    {
+      "source": "The Washington Post",
+      "title": "This blue state is the midterms’ surprising new Senate battleground",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOal80Z21vWndYS0RpMm9wMVppZnlfQ0M4SV95dUhZREFZS1RFTXB2Z2pXQm0ybFdvRzBZR2wxc3B6R2l2encweTc5Q2gyUFJiTEl1Z2h6anY4U1lDQWV4bUNwVGRHaF9xaXFaWENoY0huUG5uQW0wT2t0YlgwRFh2VkYwbGN4Y2xteHkwQlRRZEg5cVdzNEdhY1BBVWMwelhlUG5BbzhneGVqUThSaXFUOW1Kclk?oc=5",
+      "publishedAt": "2026-09-16T03:40:15.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Judge blocks DHS from acting against a man over a harsh email to an ICE official",
+      "url": "https://www.npr.org/2026/09/15/nx-s1-5970459/ice-dhs-david-streever-free-speech",
+      "publishedAt": "2026-09-16T03:03:47.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-16T03:01:41.000Z"
+    },
+    {
+      "source": "nytimes.com",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-09-16T02:52:16.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Ted Lauzen defeats challengers in Delaware’s Democratic primary for state treasurer",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JV3JwY0FqOWtzRWFWMkV6UE85aFRSSk4zdmpNY2ZoS25uaVFtMGd5VGFpcTNUUlNxTTQtaGxROV9BZThYNHJ6V3JDUFQwdEJLVkJYSkNGRkN5RlVKbGRWRjJXVUNtNzNxSEp3Zk9VQVhWNEFyVXZaV3NQcmdWTkE?oc=5",
+      "publishedAt": "2026-09-16T01:30:06.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Arminio wins GOP primary, will face McBride in November election",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON0FrUERNY3ZjNUhWZnhzVWNjMUo4VnlSRWRVajZzUThRUDVoWHVIemREZWppTG42Z01LUTFBV1dmWXVYUUltaW1Pbmt1OWU5RFdYZmJ5ejhrLUxyT2drVkJXT1p1NzMxc05OSDctWGxWejcyQ25Icl9oSkdpQTdBSWtqZWFvdHV2d0lDVA?oc=5",
+      "publishedAt": "2026-09-16T01:14:48.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Election officials get mail-in voting clarity after Supreme Court decision",
       "url": "https://www.pbs.org/newshour/show/elections-officials-get-mail-in-voting-clarity-after-supreme-court-decision",
       "publishedAt": "2026-09-15T22:55:38.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "NATO jets shoot down drone in Lithuania as Russia continues to provoke Europe",
-      "url": "https://www.pbs.org/newshour/show/nato-jets-shoot-down-drone-in-lithuania-as-russia-continues-to-provoke-europe",
-      "publishedAt": "2026-09-15T22:55:02.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -26,40 +56,10 @@
       "publishedAt": "2026-09-15T22:45:59.000Z"
     },
     {
-      "source": "The New York Times",
-      "title": "Latest Governor Polls: Election 2026",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
-      "publishedAt": "2026-09-15T22:38:41.000Z"
-    },
-    {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-15T21:50:30.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Latest Senate Polls: Midterm Elections 2026",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
-      "publishedAt": "2026-09-15T21:12:09.000Z"
-    },
-    {
-      "source": "PBS Wisconsin",
-      "title": "Tom Tiffany on the 2026 election for governor of Wisconsin",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORThzUng5endOLV85cUE2RWtSQUh0UWpaanZva0RJdXVkQ191c1FOQ1d3Nkk1SDhteGxFX3VEcm8xRThYNVhjSGdXN3dmOUREZ1B3QlJlckZORExleTdTVWstQjg4TGZjOUw0cGhudTZScDc3UE9QcjNoRGJrbEpzc20wUXdUdFd4VkUxaWphUFh6WVFPTWg0SUlB?oc=5",
-      "publishedAt": "2026-09-15T20:39:07.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "For many Pennsylvania Democrats, frustration with Fetterman is at a breaking point",
-      "url": "https://www.npr.org/2026/09/15/nx-s1-5961512/for-many-pennsylvania-democrats-frustration-with-fetterman-is-at-a-breaking-point",
-      "publishedAt": "2026-09-15T20:12:20.000Z"
-    },
-    {
-      "source": "Axios",
-      "title": "Scoop: GOP super PAC jumps into Nebraska Senate race with $1.4M ad buy",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUURwN2xWYk9VX0hpVkdOclM2ZHQ1bWpGeWhTcDNXcm0xSEJuTmstMlJ1OU8xNERZQ0ZqSF9jS0VIOUpfY29DS3ZURVRsS0RvbmdrcndUcjZrTFB3ZVc2NUM0MUhDckVjS1N3UGkxNWFsd19qejJYODBlQU04WjVCVHRSam9ZS2F5b3FlN1NTV3JHY0hTLS1UVkF3?oc=5",
-      "publishedAt": "2026-09-15T19:34:24.000Z"
+      "source": "PBS NewsHour",
+      "title": "NATO jets shoot down drone in Lithuania as Russia continues to provoke Europe",
+      "url": "https://www.pbs.org/newshour/show/nato-jets-shoot-down-drone-in-lithuania-as-russia-continues-to-provoke-europe",
+      "publishedAt": "2026-09-15T22:40:02.000Z"
     }
   ]
 }
