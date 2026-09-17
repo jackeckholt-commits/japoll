@@ -1,35 +1,53 @@
 {
-  "generatedAt": "2026-09-17T19:52:05.569Z",
+  "generatedAt": "2026-09-17T23:06:45.806Z",
   "articles": [
     {
       "source": "PBS NewsHour",
-      "title": "Judge orders Kennedy Center to provide 30 days' notice before making any major physical changes",
-      "url": "https://www.pbs.org/newshour/arts/judge-orders-kennedy-center-to-provide-30-days-notice-before-making-any-major-physical-changes",
-      "publishedAt": "2026-09-17T19:38:45.000Z"
+      "title": "News Wrap: Judge says Kennedy Center must provide notice before making changes to building",
+      "url": "https://www.pbs.org/newshour/show/news-wrap-judge-says-kennedy-center-must-provide-notice-before-making-changes-to-building",
+      "publishedAt": "2026-09-17T22:45:01.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "About 35 million people have been put into new House districts in the fight over congressional maps, report says",
-      "url": "https://www.pbs.org/newshour/politics/about-35-million-people-have-been-put-into-new-house-districts-in-the-fight-over-congressional-maps-report-says",
-      "publishedAt": "2026-09-17T18:59:33.000Z"
+      "title": "Congress passes new sanctions on Russia and countries using Russian energy",
+      "url": "https://www.pbs.org/newshour/show/congress-passes-new-sanctions-on-russia-and-countries-using-russian-energy",
+      "publishedAt": "2026-09-17T22:40:38.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "A global AI safety strategy depends on U.S.-China cooperation. They each see the other as the problem",
-      "url": "https://www.pbs.org/newshour/world/a-global-ai-safety-strategy-depends-on-u-s-china-cooperation-they-each-see-the-other-as-the-problem",
-      "publishedAt": "2026-09-17T18:10:32.000Z"
+      "title": "How Trump's immigration crackdown made it harder to become U.S. citizen",
+      "url": "https://www.pbs.org/newshour/show/how-trumps-immigration-crackdown-made-it-harder-to-become-u-s-citizen",
+      "publishedAt": "2026-09-17T22:35:44.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Florida congresswoman running for reelection breaks with Trump on immigration",
-      "url": "https://www.pbs.org/newshour/politics/florida-congresswoman-running-for-reelection-breaks-with-trump-on-immigration",
-      "publishedAt": "2026-09-17T17:21:00.000Z"
+      "title": "Trump's push to restrict mail ballots failed. Other efforts to reshape the midterms continue",
+      "url": "https://www.pbs.org/newshour/politics/trumps-push-to-restrict-mail-ballots-failed-other-efforts-to-reshape-the-midterms-continue",
+      "publishedAt": "2026-09-17T22:26:56.000Z"
     },
     {
-      "source": "The Washington Post",
-      "title": "We polled Michigan’s Senate race. There’s good and bad news for Democrats.",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMkUxcmpyRVV0c1RUc3NBX28taEU2YVlYOWE1dlkyYlhodHJQZ3psQ1BtRmlJWHdXRElBMjJiV2VLOFB3djFzdnAwVDRnUWtfWjkxS2RXZ1NJSDVkRHVXZl9aNDNNUTlJTWFNQzhERzV5U0FtMVB1SVRCLVNZNnBpekdqcnpSa2Z2RnU5NzF2VHI2WDFMVkN5a1FMbWZFT2xiWDhPRm0tNjg2dER5LWtXcVkyY3dBeFMtaEVlMVNOMTVhZ3VlR25tU0lsOA?oc=5",
-      "publishedAt": "2026-09-17T17:00:01.000Z"
+      "source": "NPR",
+      "title": "Trump withdraws Lance Schroyer, a former Oklahoma state trooper, as his nominee to lead ICE",
+      "url": "https://www.npr.org/2026/09/17/nx-s1-5973271/trump-withdraws-lance-schroyer-a-former-oklahoma-state-trooper-as-his-nominee-to-lead-ice",
+      "publishedAt": "2026-09-17T21:17:39.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Latest House Polls: Midterm Elections 2026",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wdWtoX2hEV1pta2c0ZXB6cV9ZeU9JbWRwbHZ3bzNucUxlaC1JMjhHcUNPME40UUtDdDZlRF9jUkNjUzVEc0RSVVRwU2ZKLUdMY1FuVlIxcHJfdWsydFllWFh2eV9MbTFhSzVXVUExclk?oc=5",
+      "publishedAt": "2026-09-17T20:42:27.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Latest Governor Polls: Election 2026",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
+      "publishedAt": "2026-09-17T17:31:08.000Z"
+    },
+    {
+      "source": "FOX 7 Austin",
+      "title": "Talarico, Paxton in dead heat in latest Texas Senate poll",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ1d0NlR3LUxFbEJ1Z2poZEF1cV9rbmpBUFZsd2Jld0dQQkQ3dG9yYTlCY1E2T1NIUzJZTmd6TV9pUmktM3QwVTJSdm9HNWtxSU5DVTg5NDdEVGRiazZXSlZ5dEFNVFRUSVRPNXhXb3lWenNrcDE2RmNUNFd3WExjeFdhd2VlZUZ6YnRMWg?oc=5",
+      "publishedAt": "2026-09-17T16:40:04.000Z"
     },
     {
       "source": "Carolina Journal",
@@ -42,24 +60,6 @@
       "title": "'American Scoundrel' traces Roy Cohn's playbook from McCarthyism to Trump",
       "url": "https://www.npr.org/2026/09/17/nx-s1-5965831/american-scoundrel-traces-roy-cohns-playbook-from-mccarthyism-to-trump",
       "publishedAt": "2026-09-17T16:14:06.000Z"
-    },
-    {
-      "source": "Mississippi Today",
-      "title": "Hyde-Smith, Colom continue website war, mocking each other in Senate race",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVDhUSEJtZmhyVk9VLXlVa0ZfZkROZFhPdnNRZDNHLU9TWWwxa3FVUUtvblRmNlZfaDFsRDNRUXZrUnkyd05wUDJjdHZGOXdxRTRRT3FKdHR2S3NxbE1Cb2xMN2xrNXJjVGNBVktzdmNhODdLYkZLVVZEejJYcllobGV3?oc=5",
-      "publishedAt": "2026-09-17T16:00:00.000Z"
-    },
-    {
-      "source": "WSMV",
-      "title": "Tennessee 2026 voter guide: Key dates, deadlines and what you need to know for the November 3 general election",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSlgwM2lfWVctVUk5Tk8yNmp6Zkc2UkNOWkZXSzYyMjFKc0w2SEJlVGVpdnZ2eWdVN2F3VHYtM2tVZ1YzQWdoRTBNcjZZMXVFdHM0c3lzMG95dWNvQzhaR1ZYTDdhR3hGSnlLelNKQ3VlSGZxeld5NDFldXVoak9VQ1pDelllU2M3QW9ZX05Uek16dDluSWMtdU9CZFpGNzBZRUtkb25qMVRRTmJwR3FrRG1CN0Y0dGRjREU2d2E3Y2pKTlhI?oc=5",
-      "publishedAt": "2026-09-17T12:52:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Delaware U.S. Senate Primary 2026: Live Election Results",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX3JVT29iTk1ONzV6X0NONXlOcm5PRl9RTXFOemtpUjctRmM2b29OMlo3VEFHM3NwQnhkMzlyaDNMOTNNVUl1VE9SU0piVzJtczRXRFhBQzhZbVZ2dzlwbE4tVjVIbU1mei1ybEdod2wtcGJPcE1MZ3d5THd1bTdwdldiN2V3dTVsNXoyeUQ4dDEzZnNmRHNYRWF2TDVJWlFH?oc=5",
-      "publishedAt": "2026-09-17T12:07:00.000Z"
     }
   ]
 }
