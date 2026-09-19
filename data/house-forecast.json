@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-09-17T15:01:29.199Z",
+  "updatedAt": "2026-09-19T13:57:36.703Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
-    "democrats": 211.3,
-    "tossup": 21.7,
-    "republicans": 202,
+    "democrats": 211.4,
+    "tossup": 21.3,
+    "republicans": 202.3,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
-    "nonTossupDemocrats": 211.3,
-    "nonTossupRepublicans": 202,
-    "averageTossup": 21.7,
+    "nonTossupDemocrats": 211.4,
+    "nonTossupRepublicans": 202.3,
+    "averageTossup": 21.3,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
   "average": {
     "categories": {
-      "demSafe": 183,
-      "demLikely": 16,
-      "demLean": 12.3,
-      "tossup": 21.7,
+      "demSafe": 182.7,
+      "demLikely": 16.7,
+      "demLean": 12,
+      "tossup": 21.3,
       "repLean": 11,
-      "repLikely": 26.7,
+      "repLikely": 27,
       "repSafe": 164.3
     },
     "totals": {
-      "democrats": 211.3,
-      "tossup": 21.7,
-      "republicans": 202,
+      "democrats": 211.4,
+      "tossup": 21.3,
+      "republicans": 202.3,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -42,21 +42,21 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-09-16",
+      "updated": "2026-09-18",
       "url": "https://www.racetothewh.com/house",
       "categories": {
-        "demSafe": 181,
-        "demLikely": 18,
-        "demLean": 15,
-        "tossup": 24,
+        "demSafe": 180,
+        "demLikely": 20,
+        "demLean": 14,
+        "tossup": 23,
         "repLean": 20,
-        "repLikely": 28,
+        "repLikely": 29,
         "repSafe": 149
       },
       "totals": {
         "democrats": 214,
-        "tossup": 24,
-        "republicans": 197
+        "tossup": 23,
+        "republicans": 198
       },
       "included": true,
       "scrapeStatus": "live",
