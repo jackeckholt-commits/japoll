@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-09-19T12:41:49.699Z",
+  "generatedAt": "2026-09-19T16:06:20.829Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Thousands join protest outside Kennedy Center, expressing concern that Trump might tear it down",
+      "url": "https://www.pbs.org/newshour/politics/thousands-join-protest-outside-kennedy-center-expressing-concern-that-trump-might-tear-it-down",
+      "publishedAt": "2026-09-19T15:41:29.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "CNN, MS NOW, Politico reporters denied access to White House following Trump ban",
+      "url": "https://www.npr.org/2026/09/19/nx-s1-5974854/trump-cnn-msnow-politico-ban",
+      "publishedAt": "2026-09-19T15:26:31.000Z"
+    },
+    {
+      "source": "El Paso Times",
+      "title": "Paxton, Talarico Texas US Senate contest tightens in race's final weeks",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORVhrMDg3Zms2dGVIRnZDS1p1NlRHX215Qm1kNkNjdHotZ1BjQW82VjN3anAwdWZzbU1GcFpvNEU2WmxJX010QVNYWWIxYnRRbXB0T3lHU0xMLVFBMllBX1JyM3llc2VkSTcwRXRrX2JablEtZDVQWG0wa2dxbjFkMmNkVEVId3hLajZaUnVmMmdRZXRsT0NPWTBULVFIdndSY3VrSGJjN2hGdWRnZi1JRTdRbl9nZFJUQXpxNzJNdXl5ZUxENnRjWVd5OXF4UnhjaFU3LXI1MDBMVVhNbUhRZmFYYUc?oc=5",
+      "publishedAt": "2026-09-19T13:57:00.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Latest Senate Polls: Midterm Elections 2026",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
+      "publishedAt": "2026-09-19T13:36:51.000Z"
+    },
     {
       "source": "NPR",
       "title": "Week in Politics: Trump bans news outlets; Iran War; mail-in voting; interest rates",
@@ -8,22 +32,10 @@
       "publishedAt": "2026-09-19T11:46:46.000Z"
     },
     {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-19T09:55:50.000Z"
-    },
-    {
       "source": "WHYY",
       "title": "New Jersey election 2026: What to know about the 2nd Congressional District race",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWnNuS2EzRGFnaU9ONGlfZU80S1lpZkd4aXdMMmxYQUJoYTgzOTdJck9pVUdER09OdGhnc2tsbEJxd0s4eDhHbExiQzhocFFCTjJfNU94emRzaXFpeWFlRFVNTEdUUElKTmVZcEFvUXJBOXQ5UWlYcWVfSHlSb1RNaDlOOVBiVEJMRWhiUGNRRW0xcm5S?oc=5",
       "publishedAt": "2026-09-19T09:11:33.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-09-19T08:08:15.000Z"
     },
     {
       "source": "PBS",
@@ -48,18 +60,6 @@
       "title": "What's in the Greenland agreement between U.S. and Denmark",
       "url": "https://www.pbs.org/newshour/show/whats-in-the-greenland-agreement-between-u-s-and-denmark",
       "publishedAt": "2026-09-18T22:57:29.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump says he's banning 3 outlets from White House in his latest attack on press freedom",
-      "url": "https://www.pbs.org/newshour/show/trump-says-hes-banning-3-outlets-from-white-house-in-his-latest-attack-on-press-freedom",
-      "publishedAt": "2026-09-18T22:56:04.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "News Wrap: Newsom signs order for AI safety in California",
-      "url": "https://www.pbs.org/newshour/show/news-wrap-newsom-signs-order-for-ai-safety-in-california",
-      "publishedAt": "2026-09-18T22:55:08.000Z"
     }
   ]
 }
