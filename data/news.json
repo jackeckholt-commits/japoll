@@ -1,17 +1,29 @@
 {
-  "generatedAt": "2026-09-19T05:06:51.855Z",
+  "generatedAt": "2026-09-19T12:41:49.699Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Week in Politics: Trump bans news outlets; Iran War; mail-in voting; interest rates",
+      "url": "https://www.npr.org/2026/09/19/nx-s1-5973250/week-in-politics-trump-bans-news-outlets-iran-war-mail-in-voting-interest-rates",
+      "publishedAt": "2026-09-19T11:46:46.000Z"
+    },
     {
       "source": "The Times",
       "title": "Who will win the 2026 midterm elections? Polls and predictions",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-19T03:52:29.000Z"
+      "publishedAt": "2026-09-19T09:55:50.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "New Jersey election 2026: What to know about the 2nd Congressional District race",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWnNuS2EzRGFnaU9ONGlfZU80S1lpZkd4aXdMMmxYQUJoYTgzOTdJck9pVUdER09OdGhnc2tsbEJxd0s4eDhHbExiQzhocFFCTjJfNU94emRzaXFpeWFlRFVNTEdUUElKTmVZcEFvUXJBOXQ5UWlYcWVfSHlSb1RNaDlOOVBiVEJMRWhiUGNRRW0xcm5S?oc=5",
+      "publishedAt": "2026-09-19T09:11:33.000Z"
     },
     {
       "source": "The New York Times",
       "title": "Tracking Competitive Races in the House and Senate",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-09-19T02:01:28.000Z"
+      "publishedAt": "2026-09-19T08:08:15.000Z"
     },
     {
       "source": "PBS",
@@ -20,22 +32,16 @@
       "publishedAt": "2026-09-19T01:22:02.000Z"
     },
     {
-      "source": "NewsNation",
-      "title": "10 races that could determine which party controls the House",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTU5BZThXVnJlV3lUend5MzdRNEM5ZlphZDhJUzYyS1F5aTZibDlBY25Fa2NMVHJkWmZVcl9wOEd6a0JDWFhLbGZsbzU3elk0S0FkdUpTTTRHOHM0VEJxdHMxWVNRMjdwMy12dnN3WVBxZmh4anhaTl94aGpKdmgtWGs5cHdwanhJZG4wamNwUEZDSEhEemdvYjRxZ3diZVpZczlF0gGoAUFVX3lxTFBqeG45bHM4WnVHSXBDd0ttVFNObGswbUh2aE5yakczd3JhMElYQUV4bzhmeHI3Z2RiSFVRTWtLUXllcGIybTdENm1EUGVVN0tzcW1UUVhjWjlCUGcxNlBsUmlvR0lXbmtzUnBXYklVZ2tIaXRwcGR6bmlWNi1lV0V5TjVrTVBPTGN0SWZUTm1DZ3BydVhCQkZlSmcxTWdwYUFELV9NajV1UQ?oc=5",
-      "publishedAt": "2026-09-19T00:22:56.000Z"
+      "source": "wtwcfox",
+      "title": "New polls show Florida governor, Senate and AG races tightening within margin of error",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc3JHUExnZ0RlcGFfWW9mQV9IWlFISUNBMmI1dkFXaWdaWHhvQVlzOXVQUThIS3A2ODhkblhzNzlxZWJkVVBvYlY4SXNzVUxYbUlTem10dnBWVDRBbC11QUt6c2ZjOWl2SGEtbHR6cTNyd28tRUxrZGVacWF1OVVTQ3BSR2xSb2lSZWdyektndUYtbG02RVdJdlRHX2llRGZpLWxkX2hiSFlzbS1DZ1l1WXlyaw?oc=5",
+      "publishedAt": "2026-09-19T01:00:49.000Z"
     },
     {
       "source": "PBS NewsHour",
       "title": "Trump administration begins building border wall in Big Bend region of Texas",
       "url": "https://www.pbs.org/newshour/politics/trump-administration-begins-building-border-wall-in-big-bend-region-of-texas",
       "publishedAt": "2026-09-19T00:07:59.000Z"
-    },
-    {
-      "source": "AP News",
-      "title": "Delaware U.S. House Primary Election Live Results 2026",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVjZVR18xWU9Pbzl0WHRZdTV6NHYycnFRZDlCYTgtcTVaWjhNX2ZZb1NjcHJlOWxLdXF6X19LeWZ3bWUwVjNiODRXWS0yb3F3d1JxU1hmdlNxT0lGbTAwMkRORWhBbE80V3lDbmRRX1FoVUtIN29GT19tWmgxemV5ODJrZw?oc=5",
-      "publishedAt": "2026-09-18T23:51:25.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -54,12 +60,6 @@
       "title": "News Wrap: Newsom signs order for AI safety in California",
       "url": "https://www.pbs.org/newshour/show/news-wrap-newsom-signs-order-for-ai-safety-in-california",
       "publishedAt": "2026-09-18T22:55:08.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump says he is banning CNN, MS NOW and Politico from the White House",
-      "url": "https://www.npr.org/2026/09/18/g-s1-144112/trump-ban-cnn-msnow-politico-white-house-media",
-      "publishedAt": "2026-09-18T20:15:53.000Z"
     }
   ]
 }
