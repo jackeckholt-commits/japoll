@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-20T13:13:30.121Z",
+  "generatedAt": "2026-09-20T19:04:01.590Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Alaskans will decide fate of ranked choice voting system after chaotic end to state's primary",
+      "url": "https://www.pbs.org/newshour/politics/alaskans-will-decide-fate-of-ranked-choice-voting-system-after-chaotic-end-to-states-primary",
+      "publishedAt": "2026-09-20T17:34:29.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump says his planned arch would become a 'military complex' able to host drones and snipers",
+      "url": "https://www.pbs.org/newshour/politics/trump-says-his-planned-arch-would-become-a-military-complex-able-to-host-drones-and-snipers",
+      "publishedAt": "2026-09-20T15:08:03.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump says his D.C. arch will serve as 'military complex' with snipers and drones",
+      "url": "https://www.npr.org/2026/09/20/nx-s1-5975449/trump-washington-dc-arch-military-complex-snipers-drones",
+      "publishedAt": "2026-09-20T15:05:47.000Z"
+    },
     {
       "source": "NPR",
       "title": "In Colorado, a GOP candidate says his differences with Trump show he's with the voters",
@@ -26,10 +44,10 @@
       "publishedAt": "2026-09-20T09:16:42.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Thousands of planned launches, terms of deal, worry some near Louisiana SpaceX site",
-      "url": "https://www.npr.org/2026/09/20/nx-s1-5974180/spacex-musk-landry-louisiana-ndas",
-      "publishedAt": "2026-09-20T09:00:00.000Z"
+      "source": "270toWin.com",
+      "title": "FiftyPlusOne 2026 Senate Forecast",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhSSzR0UU1sLVVHLU1BMUlWbExHYmdRNU9Jd2g5VEQ0OXB2ckxBT3dXcDQ0aWFOd1B3MVR3Snk3eld5MkxuaThPTy1tU2FjdGd6N0wzenFOY0JVbGk4RWxqbk9JY09NOW9SLWg0ZlplWUZKMFk1ZFRzMk1vTkhJeHRUdGJxdw?oc=5",
+      "publishedAt": "2026-09-19T22:00:00.000Z"
     },
     {
       "source": "The Hill",
@@ -42,24 +60,6 @@
       "title": "Denmark's leaders are cautiously optimistic about Trump's announcement of a Greenland deal",
       "url": "https://www.pbs.org/newshour/world/denmarks-leaders-are-cautiously-optimistic-about-trumps-announcement-of-a-greenland-deal",
       "publishedAt": "2026-09-19T18:20:13.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump announces all 50 states joining Medicaid drug pricing model",
-      "url": "https://www.pbs.org/newshour/politics/trump-announces-all-50-states-joining-medicaid-drug-pricing-model",
-      "publishedAt": "2026-09-19T16:37:05.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "MS NOW, CNN and Politico say their journalists were denied access to White House after Trump ban",
-      "url": "https://www.pbs.org/newshour/politics/ms-now-cnn-and-politico-say-their-journalists-were-denied-access-to-white-house-after-trump-ban",
-      "publishedAt": "2026-09-19T16:24:28.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Thousands join protest outside Kennedy Center, expressing concern that Trump might tear it down",
-      "url": "https://www.pbs.org/newshour/politics/thousands-join-protest-outside-kennedy-center-expressing-concern-that-trump-might-tear-it-down",
-      "publishedAt": "2026-09-19T15:41:29.000Z"
     }
   ]
 }
