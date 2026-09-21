@@ -1,11 +1,53 @@
 {
-  "generatedAt": "2026-09-21T15:20:20.718Z",
+  "generatedAt": "2026-09-21T20:37:57.784Z",
   "articles": [
     {
       "source": "PBS NewsHour",
-      "title": "CNN, MS NOW, Politico say they've notified Trump they're suing over denied White House access",
-      "url": "https://www.pbs.org/newshour/politics/cnn-ms-now-politico-say-theyve-notified-trump-theyre-suing-over-denied-white-house-access",
-      "publishedAt": "2026-09-21T11:39:54.000Z"
+      "title": "Trump shows off new White House helipad, but networks skip coverage during First Amendment fight",
+      "url": "https://www.pbs.org/newshour/politics/trump-shows-off-new-white-house-helipad-but-networks-skip-coverage-during-first-amendment-fight",
+      "publishedAt": "2026-09-21T20:26:50.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-21T19:35:32.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Republicans target Las Vegas congressional seat touting Trump's 'no tax on tips'",
+      "url": "https://www.pbs.org/newshour/politics/republicans-target-las-vegas-congressional-seat-touting-trumps-no-tax-on-tips",
+      "publishedAt": "2026-09-21T18:54:01.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "This swing state Republican is distancing himself from Trump, but it may not save him in the midterms",
+      "url": "https://www.pbs.org/newshour/politics/this-swing-state-republican-is-distancing-himself-from-trump-but-it-may-not-save-him-in-the-midterms",
+      "publishedAt": "2026-09-21T18:29:27.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Key senators reject White House proposal on NIH grants",
+      "url": "https://www.pbs.org/newshour/politics/key-senators-reject-white-house-proposal-on-nih-grants",
+      "publishedAt": "2026-09-21T18:22:30.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Minnesota Senate Primary Election 2026 Live Results: Tafoya, Craig, Flanagan and More",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmFiQnRuLWtOaW1sZ010dkpyd2NyN19pNkU0SFhlcXBSeWs4SkFrbUFibHE4MF9MNVliLTZ6QWJkM2N0OVZZYjY1andZLW1ZeFlqSlFQWTRYZlJXODFpOFhKalJxNHA2V2JuSjgyUmpyd1dWNTdlVmxtaDRSVE5KM05PSHVqREE?oc=5",
+      "publishedAt": "2026-09-21T14:51:53.000Z"
+    },
+    {
+      "source": "Virginia Mercury",
+      "title": "With US House control hanging in the balance, Wittman faces Taylor in contentious VA-01 race",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOG43dS1WSm5CYjMyVjNBTWhZNDRySW9xQnhKRkVBMUhtZlZNMV9Fa2J3OEREcTh5OFVMRGRIaVhpcEQyX1dLUkJOREc0NVZzQXVRLXZ3Q0RYdGZtakZKc3BvSklsMzhRcE9zX2M0N3Vfb0pWMENJM0dQUWFnX0ZlYmlhSGVNZnRzaDFSR2hnT3VWT2NWRVlGVG1IalZuV05WMHVENXFzOWZ4Qko4QXBPdVRFRkNwM3A5bEwxVFdCVF9laXJRM3NWMW90NA?oc=5",
+      "publishedAt": "2026-09-21T14:41:47.000Z"
+    },
+    {
+      "source": "Mississippi Today",
+      "title": "Mississippi midterms: Senate race pits Hyde-Smith against Colom, Pinkins",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSlVhNXc1VTJ6VVhFM0g0ZGtsM01YR1plR2RZNVRQMnNVbG5TdGZVejlMV0ZPaUNYM3Y2Yk5haHFOLUtQcDA5TWNuZmoyb2RRbHRsbVdDUm8wY2U1U0hmcGFUcW5pWW82SUJtQzVUc0NCbDNBZHZKQ1hCamdaOVVKbV9kVS1DTnVnamhLb1Rn?oc=5",
+      "publishedAt": "2026-09-21T11:00:00.000Z"
     },
     {
       "source": "The New York Times",
@@ -14,52 +56,10 @@
       "publishedAt": "2026-09-21T10:17:09.000Z"
     },
     {
-      "source": "Tennessee Lookout",
-      "title": "Democrats face uphill battle in winning any Tennessee U.S. House race",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ2tWd0xZZ0dlaWR6dGZ4TV9iMG5xdWltRWk5Zmt4TEkzbFZ4aXFEV1lWZGMxUUxqQ1JJeWVHMWh1a0dGOXVvYUJaM2c5Ynp5em1HbzhzSUJ0cU9VX3IwMkItYlV4Yy03cUo1SzhHbE5FYnJrdm9LYzdMVU83MFhQWFJaUjJzdVN4c1NGNkp4V1dJSWJmZXUtQUk4aXl4VEdiWWxRejIzUUhsT2hzLVE?oc=5",
-      "publishedAt": "2026-09-21T10:08:27.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Texas poll: James Talarico holds a narrow advantage for Senate while Greg Abbott leads for governor",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVmVZV0dTYTVwdkdRX2xOTVJKb2NDa2t2VWpvV1FLNFN5U0ZMc1lOb0h1Z0I1TWFwS1RKRFlUcTc4Q195TDFaQVZfdkR2c0hmdGNYQWtnWC1NVzhlV2ZISnFXYzZSMmdnWHhNZFBHcWRGRUpmRnJqUUYzWEhZQW02Rnl4TVFmc1JJZVBzbUF6bkZyeW50Sl9xSVR4WExtOUJ6YnhSa1hXM1VEUW11X2xNTldXZ1dObGlHM2MydkNOb0Y2SXdzOG9F?oc=5",
-      "publishedAt": "2026-09-21T10:00:00.000Z"
-    },
-    {
-      "source": "virginiamercury.com",
-      "title": "With US House control hanging in the balance, Wittman faces Taylor in contentious VA-01 race",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOG43dS1WSm5CYjMyVjNBTWhZNDRySW9xQnhKRkVBMUhtZlZNMV9Fa2J3OEREcTh5OFVMRGRIaVhpcEQyX1dLUkJOREc0NVZzQXVRLXZ3Q0RYdGZtakZKc3BvSklsMzhRcE9zX2M0N3Vfb0pWMENJM0dQUWFnX0ZlYmlhSGVNZnRzaDFSR2hnT3VWT2NWRVlGVG1IalZuV05WMHVENXFzOWZ4Qko4QXBPdVRFRkNwM3A5bEwxVFdCVF9laXJRM3NWMW90NA?oc=5",
-      "publishedAt": "2026-09-21T09:37:38.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Elon Musk is flying under the radar in the Texas Senate race. Republicans want to keep it that way.",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdS11VmF2bTM4d1UxMnZKQlNfT1JCU3E5RmRkcGRRTEZTOVNOd0RTc3Rma0QybFV6WDRUUHdiRmxFeFdnWVNvYXU4YjI4RTRKRm5wV1hVMTQzQ2ZEc2JhOEJJRk5GSFRMd0lXd1hYbzNsSmZfYU4zZHlRMXJfN3IwY0FIZ2h0YnEzSnR4SGtFcTFqckxrWHRUY2lDZ2g5Zw?oc=5",
-      "publishedAt": "2026-09-21T09:02:42.000Z"
-    },
-    {
       "source": "NPR",
       "title": "Many GOP candidates still echo Trump's 2020 claims. Lots of voters want to move on",
       "url": "https://www.npr.org/2026/09/21/nx-s1-5974313/election-denial-trump-2026",
       "publishedAt": "2026-09-21T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "CNN, MS NOW and Politico sue Trump after being barred from White House",
-      "url": "https://www.npr.org/2026/09/21/nx-s1-5975451/reporters-say-they-were-blocked-from-entering-white-house-after-trump-banned-outlets",
-      "publishedAt": "2026-09-21T08:39:38.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "President Trump navigates tough political waters with UNGA, Xi visit and AI",
-      "url": "https://www.npr.org/2026/09/20/nx-s1-5975459/president-trump-navigates-tough-political-waters-with-unga-xi-visit-and-ai",
-      "publishedAt": "2026-09-20T21:14:01.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Alaskans will decide fate of ranked choice voting system after chaotic end to state's primary",
-      "url": "https://www.pbs.org/newshour/politics/alaskans-will-decide-fate-of-ranked-choice-voting-system-after-chaotic-end-to-states-primary",
-      "publishedAt": "2026-09-20T17:34:29.000Z"
     }
   ]
 }
