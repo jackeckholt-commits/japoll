@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-09-22T13:40:37.759Z",
+  "generatedAt": "2026-09-22T19:53:52.120Z",
   "articles": [
     {
+      "source": "NPR",
+      "title": "Trump's D.C. arch is now a military complex. Here's how that complicates things",
+      "url": "https://www.npr.org/2026/09/22/nx-s1-5977646/trump-dc-arch-military-complex-questions",
+      "publishedAt": "2026-09-22T19:25:05.000Z"
+    },
+    {
       "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Trump addresses 2026 United Nations General Assembly",
+      "title": "WATCH: Trump signs agreement with leaders of Denmark and Greenland",
+      "url": "https://www.pbs.org/newshour/world/watch-trump-signs-agreement-with-leaders-of-denmark-and-greenland",
+      "publishedAt": "2026-09-22T17:53:12.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Republican senator calls for probe of Trump Jr. after wedding party bankrolled by Russian oligarch",
+      "url": "https://www.pbs.org/newshour/politics/republican-senator-calls-for-probe-of-trump-jr-after-wedding-party-bankrolled-by-russian-oligarch",
+      "publishedAt": "2026-09-22T17:41:11.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump dismisses concerns about AI risks at UN, says he won't rein it in",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-dismisses-concerns-about-ai-risks-at-un-says-he-wont-rein-it-in",
+      "publishedAt": "2026-09-22T17:11:15.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-22T16:59:52.000Z"
+    },
+    {
+      "source": "FOX 7 Austin",
+      "title": "Talarico holds narrow lead over Paxton in latest Texas Senate poll",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSklnbG5yWDZ6LW1nSkZicUJNeHh2WEQ4ZndHZm5oMFg1TW55SUxxS3NpWjNER1BsOExBV25HRU4xcnFuZy11dW5oc0doeS1XOFJfSFRuM0Y5b1JnSDRmamdfaDRORTk5QW1ZOTRPRzZIT3VyaE5sWTc0Ni1LalRXVzVkVUZsazAtREktLTF4WQ?oc=5",
+      "publishedAt": "2026-09-22T16:59:00.000Z"
+    },
+    {
+      "source": "Spotlight PA",
+      "title": "Election 2026: PA legislature races to watch",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbXdwT1pkSWFOc203OXBBdGtNa0xVVXRtbzl3b3lZbVdxLVZMY3FBY2FiV3ZFdGw0aEJQOE01aF8yREExcXpXRE9RbnVkcWxUUjRHUmdQYXFWQzFTZXA3LXo3c0lVd19KM1ZpeXMyWEhYVnI0Zld2OHhSbV9kTHRiUDE0SVpIVVlUUmdxVGtzVXY5UnpzUG4zS1JTdEFxY3VxbURJR1lDaWxablBQNUk3MTdTcGM?oc=5",
+      "publishedAt": "2026-09-22T14:46:15.000Z"
+    },
+    {
+      "source": "Houston Public Media",
+      "title": "Texas Senate race focuses on high prices — but what can candidates actually do about it?",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQUmlKOUY4Y2FFemdYeUFCaFFDaC05djRoSDNrR3MxS2RlanRtN21CQXo2SlJrZnhzYVlWbk5tX2Uxelg5MUtlRmk0cVBCWFBVdWl4SGlQeEZZRzEwZmFLMC0td2VCcEZsYkRneU0yRkxMYk5qR1ZVNDBVekJ4VDRWeWFnRUo3QUlJQUJrenA1bkpaMmVpOTdOVmlhblJzQXN0VjR0MUNOV1lYQXdWQ2NBVVRVZEd3QWNRbmtBYmJtU0lKZVJNT0dIT2lkWWJXNndxcHo0TzhVUEtkVURXaEtKMW5KM1QtRkhwWUQ4ZGhHbWRZYWhHdDBGR2N3bGJRLU1tVGJDZm94bVpYeXUyd2RZ0gGPAkFVX3lxTFBSaUo5RjhjYUV6Z1h5QUJoUUNoLTl2NGhIM2tHczFLZGVqdG03bUJBejZKUmtmeHNhWVZuTm1fZTF6WDkxS2VGaTRxUEJYUFV1aXhIaVB4RllHMTBmYUswLS13ZUJwRmxiRGd5TTJGTExiTmpHVlU0MFV6QnhUNFZ5YWdFSjdBSUlBQmt6cDVuSloyZWk5N05WaWFuUnNBc3RWNHQxQ05XWVhBd1ZDY0FVVFVkR3dBY1Fua0FiYm1TSUplUk1PR0hPaWRZYlc2d3FwejRPOFVQS2RVRFdoS0oxbkozVC1GSHBZRDhkaEdtZFlhaEd0MEZHY3dsYlEtTW1UYkNmb3htWlh5dTJ3ZFk?oc=5",
+      "publishedAt": "2026-09-22T13:30:09.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump addresses 2026 United Nations General Assembly",
       "url": "https://www.pbs.org/newshour/world/watch-live-trump-addresses-2026-united-nations-general-assembly",
       "publishedAt": "2026-09-22T13:26:55.000Z"
     },
     {
-      "source": "The New York Times",
-      "title": "Latest Governor Polls: Election 2026",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
-      "publishedAt": "2026-09-22T11:02:14.000Z"
-    },
-    {
-      "source": "KERA News",
-      "title": "Texas Senate race focuses on high prices — but what can candidates actually do about it?",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV1A1NUhELTdaT0tiY3ZhTG1ZS2V4a1RXbWRHRERkYXQtbF8xUFk4bF9JSGM1bXB6U0NvOWZSVDdPWFlpTkxLbG9pNG1UZGFiMlBxbEdNWjdMeElUWV9GcWdNLTluUE90eWlNbE9rQXNDbk5TT1M0aXVFZlZQT3RrNkJjN1QtQ291QldpMUh5VFRJTDZ4YV9mSm5NZlB2djJTM2ZpMjZlaG9kT2JSR3d0Y3AyU1NNOFFHODFzaHJ2NzExbG5lTG5YejNieTdZVHJuODA2dERSQUFZMGxEX3c?oc=5",
-      "publishedAt": "2026-09-22T09:57:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "The House Freedom Caucus has to transform — it could preview the GOP's post-Trump era",
-      "url": "https://www.npr.org/2026/09/22/g-s1-144369/freedom-caucus-trump-republicans",
-      "publishedAt": "2026-09-22T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump heads to U.N. looking for wins after a rough week",
-      "url": "https://www.npr.org/2026/09/22/nx-s1-5976843/trump-heads-to-u-n-looking-for-wins-after-a-rough-week",
-      "publishedAt": "2026-09-22T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "A U.S. House race in Arizona could hinge on voters' opinion of the Big Beautiful Bill",
-      "url": "https://www.npr.org/2026/09/22/nx-s1-5973072/a-u-s-house-race-in-arizona-could-hinge-on-voters-opinion-of-the-big-beautiful-bill",
-      "publishedAt": "2026-09-22T08:47:14.000Z"
-    },
-    {
-      "source": "Cardinal News",
-      "title": "Virginia’s Senate race is taking place outside the national spotlight",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRXRHajJqaEtFWV9HODVreUJzWVN3eWdFRUFiV19qMHJnWU9YeWFXa1dkbWlYZ2ZtX0QzOURRcEtqdTZ0UURfY2FhOFkzN0oxcnE1SjhRV0tLQW1OQm9yeGZMcFFGbVhVdGFtendMUGtTci1oTlFQcU9ncHR6VFNCRlN0WHhwejFqMFBxSjdXSGpRczRnbjFGSGFyeF9CMUpCR2lYMk1qNy0?oc=5",
-      "publishedAt": "2026-09-22T08:10:00.000Z"
-    },
-    {
-      "source": "Marist Poll",
-      "title": "Polls, Analysis, Learning, and More",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdkdsVm9RQmV4eE1yUVJQcEFzdFl4ZE0tc2d1M0l6dUtUSGVxc0tYNG9yY1dZdHJITW4tcjhDNWVJd1dtTnJzZFZCWDFnaXVTNThxR3gwV3pvWmRFMmhfU0hNVlplM1JqT2MzSzM2bnN2eWlvVHBXcU1UQWN6Vm1lN18tWjhtenpUbnc?oc=5",
-      "publishedAt": "2026-09-22T04:10:57.000Z"
-    },
-    {
-      "source": "Tennessee Lookout",
-      "title": "Democrats face uphill battle in winning any Tennessee U.S. House race",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ2tWd0xZZ0dlaWR6dGZ4TV9iMG5xdWltRWk5Zmt4TEkzbFZ4aXFEV1lWZGMxUUxqQ1JJeWVHMWh1a0dGOXVvYUJaM2c5Ynp5em1HbzhzSUJ0cU9VX3IwMkItYlV4Yy03cUo1SzhHbE5FYnJrdm9LYzdMVU83MFhQWFJaUjJzdVN4c1NGNkp4V1dJSWJmZXUtQUk4aXl4VEdiWWxRejIzUUhsT2hzLVE?oc=5",
-      "publishedAt": "2026-09-22T00:42:49.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Press pool declines to cover Trump in protest of his ban on news outlets",
-      "url": "https://www.pbs.org/newshour/show/press-pool-declines-to-cover-trump-in-protest-of-his-ban-on-news-outlets",
-      "publishedAt": "2026-09-21T22:55:26.000Z"
+      "source": "USA Today",
+      "title": "El-Sayed lead for Michigan Senate grows, helped by views of Trump",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOY3lrcHI2YjJFc3pOdXNvWFZoOUFTTDM3Ulp0N21rcGc0WkVTcmVKQnpHbnVtdDlaamJDQkprT0ZKRkd6TkFQMV9ZOTBfMHNrMVdVUGhhMDZWbUFPVVZQdjU5NUd6aEk1QW5weW5uMk5IMlJqSThGMm5teU5sZnlXc1djNkoxc0pmVTdoaUZ2bjBCbG4yd1pCb0prTzM4MEd4S1ExOGFabHl5NlhWRkROTGtEc2U5aUV1LUlFelMycUlBRlM2NlJyZ2hTZDgzM3JvNzFR?oc=5",
+      "publishedAt": "2026-09-22T12:08:00.000Z"
     }
   ]
 }
