@@ -1,17 +1,35 @@
 {
-  "generatedAt": "2026-09-25T23:35:28.998Z",
+  "generatedAt": "2026-09-26T05:31:39.571Z",
   "articles": [
+    {
+      "source": "The New York Times",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-09-26T03:19:35.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-09-26T02:30:43.000Z"
+    },
+    {
+      "source": "Iowa Public Radio",
+      "title": "Hinson calls for 'immediate' end to Iran war as U.S. Senate race intensifies",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYkpjbkRFVkRXTFJuRFgxX1h4dEhFc1pBVExCazU4SmJ2OXoySnJMbFVEdFBoTFhlRUxBVzNsUm81akYtRDNaczV2VGp4SjN1Z0szWGNPSEdqUWtxQ215Z1NNak13aWs0MXEwVnhxQWFoWjVLc0ZoaWt6TnZUaHNjRlNIOHRkMjF4QUtfZUNGck81dzdNNHQtRi14UDM?oc=5",
+      "publishedAt": "2026-09-26T02:00:00.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Latest Senate Polls: Midterm Elections 2026",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
+      "publishedAt": "2026-09-25T23:22:13.000Z"
+    },
     {
       "source": "FOX 7 Austin",
       "title": "Political messaging as midterms get closer",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcFdKODRTQUxRSllJMFhnMm9kZXEwM3AyM2pBYWt2bTBka1IwZzlHRmhkZmNQYkF2MU5qemRGXzllX01BTTFIY1pEc1FlaHN6dHR0MFROSkJUZzJ1WVNhZDV1Q05QNW1XNHdEdTVGN21JS242QWRZNFhBTXoxY1FFS19pQkEyelBUMW90LVJB0gGTAUFVX3lxTFBtWE1Xck5iZDJUWWZPeF9xYzc3dmRxdFJmdkpoeVRxZ2VuRHlPV21EekZGLTNaekIwWWZNbXRjY2hiOWs4Y2pHbUdrSFp3UWV6aEdmT1puTDNoTzljUHpMbTkxNFFlX0dFZFVFQ21jRkpOcy0taTM2aWgyaWJ2N1NBTFNjWElCeW1xZGdJb0sxOV9LRQ?oc=5",
       "publishedAt": "2026-09-25T23:08:48.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Texas Election 2026: Key Races and Historical Presidential Election Results",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uWFNONTdBQ1dFOUxtbU1pbGVJOXF4LVI1TUFYaTg5SFo2U0YzY1ZRemY4bmxaZ191MHVwbzkyTHhlaXlKWEhtdXdqSFZ5ZFhFMGRSZXRxdVpZRTVFZE1Od2NnTUtMYlFNY1YzNGlB?oc=5",
-      "publishedAt": "2026-09-25T22:56:35.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -36,24 +54,6 @@
       "title": "Health care costs a major concern for voters ahead of midterms",
       "url": "https://www.pbs.org/newshour/show/health-care-costs-a-major-concern-for-voters-ahead-of-midterms",
       "publishedAt": "2026-09-25T22:35:56.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Midterms 2026: Congress and State Election Polls, Predictions and More",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
-      "publishedAt": "2026-09-25T22:22:29.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Louisiana Senate Primary Runoff Election 2026 Live Results",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDgtZF93Qno1QzRWU21uazVhUXdhX2txWjZEeklsY1R3bXBZUHJUemEtSlJCYW5hTV9HX2YyS3c0dXBkM3gyVjB5RW4yeVpOQ2VEdjhwd1lBU2M2Sk1YejlBQzJ5Y3lfUGg4TmhYR1pFN1FLREVrX2JRLTlJS3ZMd3padENmbjA4d3FNUUxBYVY?oc=5",
-      "publishedAt": "2026-09-25T22:21:32.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Iowa Election 2026: Key Races and Historical Presidential Election Results",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XenJqb2VYaGRLZVJrNS1HdHo3VlFTY3J6YVA5RUVvdDU0dUhGeE5PVTM5MmM5S3JydV9NN21rcEVxWjdSaG9TN3lldWQtcG91N3BnWmNvMG5kSWpwd0lDeHdXSk1ENVdPNGdBQg?oc=5",
-      "publishedAt": "2026-09-25T22:21:32.000Z"
     },
     {
       "source": "NPR",
