@@ -1,17 +1,35 @@
 {
-  "generatedAt": "2026-09-26T05:31:39.571Z",
+  "generatedAt": "2026-09-26T13:23:33.330Z",
   "articles": [
     {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-09-26T03:19:35.000Z"
+      "source": "NPR",
+      "title": "Press pool dispute escalates as White House cuts CNN from Air Force One travel",
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel",
+      "publishedAt": "2026-09-26T11:38:03.000Z"
     },
     {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-09-26T02:30:43.000Z"
+      "source": "NPR",
+      "title": "Supreme Court rejects GOP-backed Missouri map, preserving key seat for Democrats",
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5981449/supreme-court-rejects-gop-backed-missouri-map-preserving-key-seat-for-democrats",
+      "publishedAt": "2026-09-26T11:38:02.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Week in Politics: Trump faces Republican defections; U.S.-China summit; press feud",
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5979806/week-in-politics-trump-faces-republican-defections-u-s-china-summit-press-feud",
+      "publishedAt": "2026-09-26T11:37:54.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Battle for the Lehigh Valley: Can GOP hold its razor-thin margin?",
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5947225/battle-for-the-lehigh-valley-can-gop-hold-its-razor-thin-margin",
+      "publishedAt": "2026-09-26T11:37:51.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Who’s Winning the Race for Congress?",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaTdiUDVwOFVQM3V0VWMyQ2RqSmJPUW5EZzRuNWY4MHpVUzVVVWJnci0tR0dNTGZZM2JBS1p5a2JYN3pWNVlHaFBWZWx6UnVwcnNqcFhmWUROZmFaZXVYXzRKYkV4aUd1anN0b0MyYW0zSlZyQm9yM0szdXptNklsNVhlNk5DSVlKVjNta0pFOA?oc=5",
+      "publishedAt": "2026-09-26T05:38:56.000Z"
     },
     {
       "source": "Iowa Public Radio",
@@ -32,34 +50,16 @@
       "publishedAt": "2026-09-25T23:08:48.000Z"
     },
     {
+      "source": "NBC News",
+      "title": "Midterms 2026: Congress and State Election Polls, Predictions and More",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
+      "publishedAt": "2026-09-25T22:56:35.000Z"
+    },
+    {
       "source": "PBS NewsHour",
       "title": "What the Supreme Court's voter-citizenship database decision means for the midterms",
       "url": "https://www.pbs.org/newshour/show/what-the-supreme-courts-voter-citizenship-database-decision-means-for-the-midterms",
       "publishedAt": "2026-09-25T22:55:46.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "News Wrap: Xi wraps up 3-day state visit with Trump",
-      "url": "https://www.pbs.org/newshour/show/news-wrap-xi-wraps-up-3-day-state-visit-with-trump",
-      "publishedAt": "2026-09-25T22:45:24.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Mexico's foreign secretary on Trump, cartel violence and U.S. trade talks",
-      "url": "https://www.pbs.org/newshour/show/mexicos-foreign-secretary-on-trump-cartel-violence-and-u-s-trade-talks",
-      "publishedAt": "2026-09-25T22:40:01.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Health care costs a major concern for voters ahead of midterms",
-      "url": "https://www.pbs.org/newshour/show/health-care-costs-a-major-concern-for-voters-ahead-of-midterms",
-      "publishedAt": "2026-09-25T22:35:56.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Supreme Court blocks Trump-backed Missouri congressional map",
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
-      "publishedAt": "2026-09-25T22:06:16.000Z"
     }
   ]
 }
