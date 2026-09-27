@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-09-25T15:16:42.649Z",
+  "updatedAt": "2026-09-27T15:11:50.738Z",
   "genericBallot": {
     "average": {
       "democrats": 49,
-      "republicans": 41.8
+      "republicans": 41.9
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 49.7,
+        "democrats": 49.6,
         "republicans": 41.4,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
@@ -55,7 +55,7 @@
         "name": "Race to WH",
         "shortName": "Race to WH",
         "democrats": 50.1,
-        "republicans": 41.6,
+        "republicans": 41.7,
         "included": true,
         "url": "https://www.racetothewh.com/polls/genericballot",
         "scrapeStatus": "live",
@@ -76,7 +76,7 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 36.3,
+      "approve": 36.4,
       "disapprove": 61.5
     },
     "sources": [
@@ -85,7 +85,7 @@
         "name": "VoteHub",
         "shortName": "VoteHub",
         "approve": 37.7,
-        "disapprove": 60.4,
+        "disapprove": 60.5,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
         "scrapeStatus": "live",
@@ -95,8 +95,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 34.7,
-        "disapprove": 62.1,
+        "approve": 35,
+        "disapprove": 62,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
