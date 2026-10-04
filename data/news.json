@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-04T14:23:32.176Z",
+  "generatedAt": "2026-10-04T19:48:38.430Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Trump names national intelligence chief Jay Clayton as new AI czar",
+      "url": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump",
+      "publishedAt": "2026-10-04T18:36:48.000Z"
+    },
+    {
+      "source": "nytimes.com",
+      "title": "Democrats Lead Governor Races Deep in Republican Territory, Polls Show",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdzl3OEVkaldjTGpnY3dqbTR4QjJhaVg5TTFDTFFjbm1vckNaaFQ3N1V6VmtFUFA5Q3JfaUZoc3A5V21zVXpQMzVWUlJBbVA3ZnlHSDJOSkZRS09HMExZNDJlY1JPNG50QUowa0xub01xVlpKMWliSVhQMWVoeWZ6bEZTM3dqUVFt?oc=5",
+      "publishedAt": "2026-10-04T18:29:01.000Z"
+    },
+    {
+      "source": "thetimes.com",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-10-04T16:46:39.000Z"
+    },
+    {
+      "source": "nytimes.com",
+      "title": "Some Democrats Say Senate Race In South Carolina Is Winnable. Others, not so much.",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWXdmZU1YV2dDR1JiMUdVWlNMMzhKOVVObXk0LVJHU1RVMlRzSUJnTk9xbzRBWWpfdTBzeTV0SERkUHhqcUxXeXEzNUV5d1FnMG5wOXRwTEdLd2lWSHlpS2RYcUNQMXVUTk9QUGxQTjZjSWlQMGRXZ2ktMHl1cUNSU1pOZ2puVTUzOEtQUm9QOEpyTGpnSmRXQzFoRmU4TWU4TUc3NVp3NVhTeGlzNWUtVk1DQ2ZVdw?oc=5",
+      "publishedAt": "2026-10-04T16:32:20.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump names national intelligence director Jay Clayton to lead a new federal AI task force",
+      "url": "https://www.pbs.org/newshour/politics/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force",
+      "publishedAt": "2026-10-04T16:31:42.000Z"
+    },
+    {
+      "source": "nytimes.com",
+      "title": "Latest Senate Polls: Midterm Elections 2026",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
+      "publishedAt": "2026-10-04T14:36:59.000Z"
+    },
     {
       "source": "NPR",
       "title": "Politics chat: Midterm polls, Senate races, Trump in Texas",
@@ -14,40 +50,16 @@
       "publishedAt": "2026-10-04T09:00:00.000Z"
     },
     {
+      "source": "France 24",
+      "title": "Ossoff and El-Sayed: Two Senate races and what they say about the Democratic Party",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWV9JRXNJZ21YanZjMHlTVTN3cnVySVlVbXlTMkNtNVhtOGtxQ1c5bHh1Sm56bU83ZnNkY0ljUzZMUjl0MU9vTjgyU0FYLURRM19Obm9fSWs0eERuVUp0T1VPOEtBUkVPUW5zb3U3TmN3RVllOExHdmQ1NkRqNndkelBUdGlaNjh2eVJlcVJHbU85VFVkT2szX19lZjR0U09jUzcyTzZFWkNIYjl0UzF5NG0wd0p1UzNsd0VCazZqcWRJQzNqRHc?oc=5",
+      "publishedAt": "2026-10-04T07:21:26.000Z"
+    },
+    {
       "source": "PBS NewsHour",
       "title": "A $28 billion hemp THC industry is fighting to save itself from a looming federal ban",
       "url": "https://www.pbs.org/newshour/economy/a-28-billion-hemp-thc-industry-is-fighting-to-save-itself-from-a-looming-federal-ban",
       "publishedAt": "2026-10-03T22:06:17.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump rallies in Ohio to boost Jon Husted in a tight Senate race against Sherrod Brown",
-      "url": "https://www.pbs.org/newshour/politics/trump-rallies-in-ohio-to-boost-jon-husted-in-a-tight-senate-race-against-sherrod-brown",
-      "publishedAt": "2026-10-03T20:53:07.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump urges calls to Arkansas Sen. Tom Cotton in push for permanent daylight saving time",
-      "url": "https://www.pbs.org/newshour/politics/trump-urges-calls-to-arkansas-sen-tom-cotton-in-push-for-permanent-daylight-saving-time",
-      "publishedAt": "2026-10-03T17:43:38.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "A gut punch in Ohio: Nearly 1,400 laid off at truck factory just days before Trump rally",
-      "url": "https://www.pbs.org/newshour/politics/a-gut-punch-in-ohio-nearly-1400-laid-off-at-truck-factory-just-days-before-trump-rally",
-      "publishedAt": "2026-10-03T16:50:47.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Week in Politics: Inflation pressure; war in Iran and effect on midterm elections",
-      "url": "https://www.npr.org/2026/10/03/nx-s1-5989415/week-in-politics-inflation-pressure-war-in-iran-and-effect-on-midterm-elections",
-      "publishedAt": "2026-10-03T11:47:06.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "How high-profile scandals are shaping key contests ahead of the midterms",
-      "url": "https://www.npr.org/2026/10/03/nx-s1-5983806/how-high-profile-scandals-are-shaping-key-contests-ahead-of-the-midterms",
-      "publishedAt": "2026-10-03T11:47:05.000Z"
     }
   ]
 }
