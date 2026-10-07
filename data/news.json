@@ -1,35 +1,53 @@
 {
-  "generatedAt": "2026-10-07T06:30:59.943Z",
+  "generatedAt": "2026-10-07T15:47:07.938Z",
   "articles": [
     {
       "source": "WBAL-TV",
       "title": "Rematch: Cox, Moore debate in Maryland governor's race",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWnFpcm5xQndrZEoyQTFOQ0pMVHM2aDI5cHI0SFBoZktid1pwd19Yc1RGVUF4YlFvV1hmZWZNMlItWjZ6V2lqcEhwMVhtNUkwLW9GeWdrREEyUXRXTzdlTFRZQkJZS2luTUg5ajJBVHdmVUJjZDMwZUZ4bWhkX3VHU1AtaHNmYWZZVXFVY0FNMTV1VGstQWVxNXRhOFo?oc=5",
-      "publishedAt": "2026-10-07T06:25:58.000Z"
+      "publishedAt": "2026-10-07T15:34:49.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "What happened in the first Maine Senate debate between Collins and Jackson",
+      "url": "https://www.pbs.org/newshour/politics/what-happened-in-the-first-maine-senate-debate-between-collins-and-jackson",
+      "publishedAt": "2026-10-07T14:13:29.000Z"
+    },
+    {
+      "source": "Forbes",
+      "title": "Hottest Midterm Races—3 Races Shift Toward Democrats (Updated Daily)",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWEhlVFktVjBLck9INm9uWExhbjduMjRXWGlJeVZLU0NUV0FJYlFMVHRvNGk2dmUzdHBMcUh1WjZ2eGtGSUxwWWNUNHd0dF90ZktxTm1vMjRvdE1aN08wYXUtT2dOY21kcjBudUQxTzh4NHQtRzRRQ0trUW5mWE9hUEFFT3ZmU0NuaUpHSU9UcEk1LUhtVmhhSy1UcEk4cC1Lay1VZDRsc0FFZThmbWd0bjZBT3VXZlFwajRpNEUzczFXbk13XzBiWUdR?oc=5",
+      "publishedAt": "2026-10-07T14:07:00.000Z"
+    },
+    {
+      "source": "USA Today",
+      "title": "Democrat Josh Turek leads key Iowa Senate race, new poll shows",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVG1pd1pYeXRMOHdZQTF2MklSc0F1UThVVG45eVk2bmpKOFVOdVU0cENpbUY5VU9ReDUxakV2T012LW1uUl9DWm9NOTVjeE4wZC1FS0hBeC1FQlk0ODA5Wmp4OHFHZVJmcV9IOWY1OFhiUl9RWXZFeWdDWTVUbEphbVhWdm1lZ0RWVG1URjNKcGE5bHk3MGJfV2JDUk82RFoyT1Exei0zNzAyekQ2VTgtc3hjbUN0Y2hKMUZVWE94TG9DRzAwNjdhWWgxdndMODBheXV4WENEVk04dWV3blA2OQ?oc=5",
+      "publishedAt": "2026-10-07T13:32:00.000Z"
     },
     {
       "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-10-07T04:22:20.000Z"
+      "title": "Latest Senate Polls: Midterm Elections 2026",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
+      "publishedAt": "2026-10-07T13:13:09.000Z"
     },
     {
-      "source": "Marist Poll",
-      "title": "Polls, Analysis, Learning, and More",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMHhldS1NbEx6eFd5ZFM5OWd3aDFTYkFkdzliYTFEczhCQ1RiRkxGcmtnQWg0NkRsYTY3R1RJM2FhVXVqOVdTQ2llWkh5aEJScDhUSXZiX0dzVExLOWRmQ3RYTmtlY0M5RUhtLUd1eVNCVEVMbVFUX0VUZDBKcFhSYXctYWxfUQ?oc=5",
-      "publishedAt": "2026-10-07T04:06:04.000Z"
+      "source": "Bloomberg.com",
+      "title": "Stock Trades Put Pennsylvania GOP Seat in Play, With Control of House for Grabs",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObVJMNXNlWThoSUVXcFU2ZUg1NTR2QkZqVC1jbzFKZGNLTHJtMnY5MW1nYjZ0UE1ueDdodUtiLXU1T0h2b1FOdUw5MjVrUTlabDJWVlZRM3BWLWFJT2REdGtnSTlYNmxlbU1QanI2UjJhRW9tNnRRRl9fNklMQkw4bmZCbDdSbV9TVUtNa0pMREtKeTcycFBMc3BNd1U0cmxVNFJrdTFzdWJnWlhtTG10T3pVN21yZDlTd294cjc2N3hWSzlt?oc=5",
+      "publishedAt": "2026-10-07T12:00:00.000Z"
     },
     {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-10-07T03:31:10.000Z"
+      "source": "NPR",
+      "title": "'Medicare for All' message attracts midterm voters buckling under medical bills",
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5992772/medicare-for-all-midterm-voters-medical-bills-affordability",
+      "publishedAt": "2026-10-07T09:00:00.000Z"
     },
     {
-      "source": "Alaska Public Media",
-      "title": "Pollock trawlers feel cast as the villains of Alaska's U.S. Senate race",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa0dDdzJfd0JzRTdiYzVMaWVRMl9TRmxQd3hpbThkNVVZTkhzdU9zTWYzUTNNRHNVdkR2eENSNzVNbVZxRHJIcTlCVGFmc3pFOEZLd1pRaGd3QUNXeEV2MzRMQjNqOW1nZU1BVy1UN0gyMFZkNnRONW9LRFBwWklGcnFacElyQ2ltUlhnVDFmUUdULWFzem9RcjhZV0wyTE5URzdSVkZsOGpMZFc4b3pIN3dfc3l4TFR1c1Rz?oc=5",
-      "publishedAt": "2026-10-07T03:04:00.000Z"
+      "source": "NPR",
+      "title": "Carpetbagger allegation, misplaced valor make Nevada's safe red House seat competitive",
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5984671/nevada-midterm-election-valor-carpetbagger-reno",
+      "publishedAt": "2026-10-07T09:00:00.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -42,24 +60,6 @@
       "title": "French students lead massive protests against education policies",
       "url": "https://www.pbs.org/newshour/show/french-students-lead-massive-protests-demanding-more-education-funding",
       "publishedAt": "2026-10-06T22:55:43.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Suspected Iranian drone plot pushed U.S. to evacuate bombers from British air base",
-      "url": "https://www.pbs.org/newshour/show/suspected-iranian-drone-plot-pushed-u-s-to-evacuate-bombers-from-british-airbase",
-      "publishedAt": "2026-10-06T22:50:32.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "News Wrap: Cornell says Sally Yates will review handling of sexual assault reports",
-      "url": "https://www.pbs.org/newshour/show/news-wrap-cornell-says-sally-yates-will-review-handling-of-sexual-assault-reports",
-      "publishedAt": "2026-10-06T22:45:39.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Dems have edge in midterms, poll shows. And, Paramount-Warner Bros. merger to close",
-      "url": "https://www.npr.org/2026/10/06/g-s1-146626/up-first-newsletter-election-day-skydance-christa-pike-russia-plague-scare",
-      "publishedAt": "2026-10-06T11:19:25.000Z"
     }
   ]
 }
