@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-10-09T17:01:17.279Z",
+  "updatedAt": "2026-10-11T16:21:08.937Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
     "democrats": 216.6,
-    "tossup": 19.7,
-    "republicans": 198.6,
+    "tossup": 19.3,
+    "republicans": 199.1,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
     "nonTossupDemocrats": 216.6,
-    "nonTossupRepublicans": 198.6,
-    "averageTossup": 19.7,
+    "nonTossupRepublicans": 199.1,
+    "averageTossup": 19.3,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
@@ -24,15 +24,15 @@
       "demSafe": 184.3,
       "demLikely": 18.3,
       "demLean": 14,
-      "tossup": 19.7,
-      "repLean": 13,
-      "repLikely": 24.3,
-      "repSafe": 161.3
+      "tossup": 19.3,
+      "repLean": 12.7,
+      "repLikely": 24.7,
+      "repSafe": 161.7
     },
     "totals": {
       "democrats": 216.6,
-      "tossup": 19.7,
-      "republicans": 198.6,
+      "tossup": 19.3,
+      "republicans": 199.1,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -42,21 +42,21 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-10-09",
+      "updated": "2026-10-10",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 184,
         "demLikely": 19,
         "demLean": 14,
-        "tossup": 23,
-        "repLean": 19,
-        "repLikely": 26,
-        "repSafe": 150
+        "tossup": 22,
+        "repLean": 18,
+        "repLikely": 27,
+        "repSafe": 151
       },
       "totals": {
         "democrats": 217,
-        "tossup": 23,
-        "republicans": 195
+        "tossup": 22,
+        "republicans": 196
       },
       "included": true,
       "scrapeStatus": "live",
