@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-11T06:29:40.631Z",
+  "generatedAt": "2026-10-11T15:05:31.937Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Politics chat: Trump announces fuel deal with Russia. What does it mean for sanctions?",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5996550/politics-chat-trump-announces-fuel-deal-with-russia-what-does-it-mean-for-sanctions",
+      "publishedAt": "2026-10-11T12:03:56.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Republicans stay bullish on Texas governor’s race, but two key groups present challenges",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdUhHWTN0RmFEOXhER3VOTEhaSXJNc1dJRjVYb0pqR00zNVBYdERmOUdJNHFjYU1ldXd2cTFEd245Q1BnM2UxZlZlYmRBdWpjcjVZVUthdTdWN1hFUXlGTGVIc2prOUFZWW1LdmtHcmZFZTBCSVlEV1VKaDB0S3VDVGI4TUo1ano4QW5EYmhiMXY3RjhUc0VwcVRsdjlxdEVlalY5YS0wUXVSVmk3LWpWeHNMQURmY1BveHppX1pn?oc=5",
+      "publishedAt": "2026-10-11T12:00:40.000Z"
+    },
+    {
+      "source": "PhillyBurbs",
+      "title": "Who do latest polls show winning 2026 midterms? See odds, forecasts",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2Nfblo5eFdnLXhoMUw3UERjOXNub0xVLXFJME5QdDJHVFhJejlMUVRucW9RdVNpbzR0VEI0aDBmLThJbEJlRGNiNmpuYmpLZThydVlSSkNtb21yOTgzU3pFcFJuTGpoTlN3NHBhcHlkNnNWdXFlUlJxYUFYcEZ0anlveE83ano4OU5RLWpXWmxySU9zNjFYRjNSYlhvTnRyRGktZF91TFd1WWxXWlJKaWVrbi1fYXlTelllZVhkRE9HQ1VXamU0Y3MxZS05STlYVG95MVExMUwwV0tqNlE?oc=5",
+      "publishedAt": "2026-10-11T09:11:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Reshaped civil rights mission at Justice Department transforms its work, workforce",
+      "url": "https://www.npr.org/2026/10/11/g-s1-145063/justice-department-civil-rights-transformed",
+      "publishedAt": "2026-10-11T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "In one of the country's most competitive districts, a Democrat tries to keep her seat",
+      "url": "https://www.npr.org/2026/10/11/nx-s1-5968691/midterm-elections-washington-congressional-district",
+      "publishedAt": "2026-10-11T09:00:00.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Latest Governor Polls: Election 2026",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxQ1V3Wmo0azVsV1dIb0Y3Qjd2ZGptMDZEVF9MeU43MXFpY0k0U2NLejlfeXBqS0lUSlpwWGhuY2ZpM0RJNmxRNzZnVUV3TDRXSjNVMUROX3JwZ3M2dGdmcXM2X2lwTU1mZ1BzeHpTNUlWTGkt?oc=5",
+      "publishedAt": "2026-10-10T22:27:06.000Z"
+    },
     {
       "source": "NPR",
       "title": "Trump's economic strategy resemble similar policies in East Asia",
@@ -14,46 +50,10 @@
       "publishedAt": "2026-10-10T21:37:08.000Z"
     },
     {
-      "source": "NPR",
-      "title": "U.S. imposes sweeping sanctions on International Criminal Court",
-      "url": "https://www.npr.org/2026/10/10/nx-s1-5996606/u-s-imposes-sweeping-sanctions-on-international-criminal-court",
-      "publishedAt": "2026-10-10T11:40:51.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Week in Politics: Hegseth's livestream backlash; Greece ambassador Guilfoyle scandal",
-      "url": "https://www.npr.org/2026/10/10/nx-s1-5995114/week-in-politics-hegseths-livestream-backlash-greece-ambassador-guilfoyle-scandal",
-      "publishedAt": "2026-10-10T11:40:48.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "On the ground in Ohio's 9th District: The battleground shaping next month's midterms",
-      "url": "https://www.npr.org/2026/10/10/nx-s1-5965798/on-the-ground-in-ohios-9th-district-the-battleground-shaping-next-months-midterms",
-      "publishedAt": "2026-10-10T11:40:46.000Z"
-    },
-    {
       "source": "Sun Sentinel",
       "title": "Florida polls show Republicans lead Democrats in governor and Senate races, but contests remain close",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZzlUXzU4N0JVUXYzN1BISEF0T3RHS0FIaFFpUjk5TkhmVkVCZ3R6eXZOaVhYenk3OXk0WWZBcVU0TW5WQnAtMjlSLUstSHlFMklfYVVDcUE2X3h5TmxFZy13R3dRdWFYSUpzbkJyaE1NSjM0SGZ5MmQ4Q2dzNGNTY1IzZ0RRVGJIMVY1S3UwZ3ZEeVdtWHp0QTF2V0J6bFBvR3c3S19TVnVIRHZkeHpmOVFWSjJxMUNyS2p2R09iTnZBcGhLYWNjczdMUUN3cExBeHB6MkpKbV8?oc=5",
       "publishedAt": "2026-10-10T11:01:19.000Z"
-    },
-    {
-      "source": "WHYY",
-      "title": "Delaware election 2026: What to know about the U.S. Senate race between Chris Coons and Mike Katz",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85YUZaTHVnRThMQVJ4VEJmb3hmbG54ckJjcVdoZy12bmwxcUMtNnh0ZjBMWGpmOE52cDVaZGd3TmNDYXNBQXU1eTBEb1dqTm5DZE1YVTJpVC1nam41WWdmSDR1b05OTUhkcmJnYUtPbW5HZkl6VGpR?oc=5",
-      "publishedAt": "2026-10-10T10:45:04.000Z"
-    },
-    {
-      "source": "The Colorado Sun",
-      "title": "Where Phil Weiser, Victor Marx stand on the big issues in Colorado’s race for governor",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWXhoUTFWeVhVdU9uT1hKdk5jV3NBY0laVUNQcS1XdXYyQ0s1aXVQY0xIMFNka2o5WnJTUEdBeDBpeHp3Ry1iSmFuc1M4X1hQNVZiU0JUR3R0M1c1MlphQUpDNHFZTEtnbTFBUFhWMXNtNGJmb3ZVMXlTVXRfMkVxVTJIal9HOWlJMlVnWkdwRGZDbkU?oc=5",
-      "publishedAt": "2026-10-10T09:55:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Could the Oregon Governor’s Race Be a Republican Hope?",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUEQtSkhRVUQ5WjNKOVRRMGFlV082cklPYjFjLWMtdW9PUFAxaUlTbkRENGpTNzNJdDdydmI3WmQ3UmtlY2F0M3VSS0hQVkUtR19fN1Q5WnRlWTFqQkJVUjlKQ3VqX25GQmdjaWFfVWdTNjFmQW9xRlhsNHR2cmJaNTZuOUN1Y2VfYVBkVUtaUnJYZw?oc=5",
-      "publishedAt": "2026-10-10T09:00:53.000Z"
     },
     {
       "source": "PBS NewsHour",
