@@ -1,11 +1,53 @@
 {
-  "generatedAt": "2026-10-13T02:15:05.963Z",
+  "generatedAt": "2026-10-13T12:11:54.692Z",
   "articles": [
     {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-10-12T23:42:28.000Z"
+      "source": "NPR",
+      "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+      "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+      "publishedAt": "2026-10-13T11:08:14.000Z"
+    },
+    {
+      "source": "Statesman Journal",
+      "title": "Kotek, Drazan to face off in final governor's race debate. How to watch",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNT1dBcUxiMHNLaFJrQV9jN2ltTGJBS0dWbVhGbldRMGI1MjZRc1FFWVBWUFdyRkpRdUVCd1hzZkJQc2xocWlVNVdfMGcxNjNfZ3ZQam93OUhoanZBZzNVUi1rZmlob0J1aklEdmNIb0xIbkdERTllQk1YXy0xdHp5akY5RDZpTUtzNGNhNXVQOU1CbXZUMDFhX0x3UnNCcS01Z1lnT0F1bl9Ea1h2OXQydzlGcktQVC1TaWw3M21oVzM1SHFRLU1GcVdpeFU2MV9laG05T0NEdDhvRmtlbEJqZw?oc=5",
+      "publishedAt": "2026-10-13T11:02:00.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Latest Senate Polls: Midterm Elections 2026",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
+      "publishedAt": "2026-10-13T09:22:07.000Z"
+    },
+    {
+      "source": "The Guardian",
+      "title": "US midterm elections: 10 under-the-radar races worth watching",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT2RWY2Vqc0MzVmpFUlRNa0RuMURrSE1KeFJGdm9GcWh0dG5FV1RFa1d1ckxYMjY0M2hIeTFnal9xckV0Q2lDdlpmelI0ZExvbkRGNnFOZjluNTdwYm5iQjRFU004YnpwTkxoRmlIVFJCcTJ0YlBiLVk1bmxxVUllM3dIYXY0R3cwOWN2TUgyb1JiaHRETmZTbS1BTTBCRzFGUzRUTFE1SV9IVkZ3TVk5WDdNOA?oc=5",
+      "publishedAt": "2026-10-13T09:01:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Polls are a snapshot, and other helpful things to remember during the midterm elections",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYU5UNXgxakNhdGxjS0lneUJxRHNEV1ExQW9LUzB4N20xNjRWYTVVQ1pqZmlKZllRaDlxMjF4QldqeHdBMUdMMlRJa21QdEF3bWNIdmRrVERnb2djV0gtUko4eUxxM3FNa3hheDlmRllpMk1BQmc0cVFZMHhwVS1faTNMMmxfaWhfbU1Ndg?oc=5",
+      "publishedAt": "2026-10-13T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Win or lose, independent candidates want to meet voters in the middle",
+      "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
+      "publishedAt": "2026-10-13T09:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Should states force cities to build cheaper houses? Voters here will decide",
+      "url": "https://www.npr.org/2026/10/13/nx-s1-5979839/massachusetts-starter-homes-ballot-affordability",
+      "publishedAt": "2026-10-13T09:00:00.000Z"
+    },
+    {
+      "source": "BBC",
+      "title": "Where the US midterm elections will be won and lost",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qeHZpUU1lTm12dDU5M2dQUzU5M3FEbFRlRnkybWtkRFl4aHEwLVh6N3hmbDRwdG9BU2ZFYVFhSFZ4cTBLbk4tR1gtMjZXcUREUGNOd0huNEJ4T1k?oc=5",
+      "publishedAt": "2026-10-13T05:02:44.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -18,48 +60,6 @@
       "title": "Water access becomes a top election concern for Arizona voters",
       "url": "https://www.pbs.org/newshour/show/water-access-becomes-a-top-election-concern-for-arizona-voters",
       "publishedAt": "2026-10-12T22:40:51.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Tamara Keith and Amy Walter on the GOP's vulnerability in the midterms",
-      "url": "https://www.pbs.org/newshour/show/tamara-keith-and-amy-walter-on-the-gops-vulnerability-in-the-midterms",
-      "publishedAt": "2026-10-12T22:35:32.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Suspected plot at U.S.-run air base almost certainly directed by Iran, UK prime minister says",
-      "url": "https://www.pbs.org/newshour/world/suspected-plot-at-u-s-run-air-base-almost-certainly-directed-by-iran-uk-prime-minister-says",
-      "publishedAt": "2026-10-12T22:25:28.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "New White House press secretary a \"devoted fan\" of Trump and MAGA",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5998948/new-white-house-press-secretary-a-devoted-fan-of-trump-and-maga",
-      "publishedAt": "2026-10-12T22:17:43.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Government spent $10 million on pro-Trump ads after president said super PAC would fund",
-      "url": "https://www.npr.org/2026/10/12/nx-s1-5998976/pro-trump-ads-taxpayer-funds-federal-judge",
-      "publishedAt": "2026-10-12T22:16:47.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Mailers promoting a socialist candidate in Ohio Senate race have links to MAGA super PAC vendor",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONVRNcHI5b3A0eUpOM1pKTFM2RElOODZmS1BzTW1fSEhxdF9TUldZbDZEMG5WRHY5SEw3cFVaT1poTUpCNmdyckstTWpNb0paNDF1dGNPWUJ5czY4LTdfN3R4bHE0eFBkNWoxZWluR3NTTXJqenU4NUFfWUJrZkg5THIyQlhZM3owZ3hRQXF0SVhTbmxtUDA4TF9tUWdSX293enF2dTA0SGtDVk5wdGdWZFZXSEg0UTVWOVZ4RzlsWG40SzBLeU1rNVcxc0lpZ9IB0wFBVV95cUxPUDZwanNZalZ0WXFVTzN3YTAzaldmbktfdnNmazJmOU9YV0M5a2d5RGNKSDBOVGNTbnJIT001MXBEb1lOYUx5US03T25iTGtVSlFDZVU3cUdCbmNONFdYQUptQnZWTk9ZOEJaYzZJOG1rTHJGcl9KSmpVeFFRWTA1Z0dfNEdaOTNqbEt5Z1VqM3ZBcmdKSDNQX1lSTU1PX3l3VU96LUcyNVVuRk5Td0RKYzlHOEkwLUNJS0pqOHltcVpKdHZKTjl1eXhvcWxZVDdrRFFv?oc=5",
-      "publishedAt": "2026-10-12T20:55:09.000Z"
-    },
-    {
-      "source": "Forbes",
-      "title": "Hottest 2026 Midterm Races—Democrat Peggy Flanagan Narrowly Leads Republican Michele Tafoya In Minnesota (Updated Daily)",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeXNuVjcya0czLWI2SXgxU1RlOGR1X0lmcUowOEV2ZE5ILWZxMzhfTEhXYzg1RHk4WU9abFdYZW9zbUJCSkswTGFRbFAwZDlia1ZzV1YzeXd5QS1aRnAwZmZVYy0xeHlIbHdLaU9FNWxwdDlva0dDNG05QndVNG5rSzhfZUtoWFFsWXNKanFCNVp6M1o0NnhOQUhkcndYcHVJQ2tGVWEwT2ljR042LWhfUnlpOFdiV3ZiaTFxUl8ycVAxLTlzZklQNkVzU09wUXJSOHBWVGNWVW5ZX0gzNXYwcDBtc0tEM3lMb1Rhb3NKaDJOb1hnc21jX1NuNzg?oc=5",
-      "publishedAt": "2026-10-12T19:48:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Latest Senate Polls: Midterm Elections 2026",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
-      "publishedAt": "2026-10-12T19:22:49.000Z"
     }
   ]
 }
