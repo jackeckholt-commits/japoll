@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-10-13T12:11:54.692Z",
+  "generatedAt": "2026-10-13T19:32:57.848Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "What to know about the search of Democratic Rep. Omar's home",
+      "url": "https://www.pbs.org/newshour/politics/what-to-know-about-the-search-of-democratic-rep-omars-home",
+      "publishedAt": "2026-10-13T19:19:16.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Why experts are urging parents to prepare kids for possible livestreamed execution",
+      "url": "https://www.pbs.org/newshour/politics/why-experts-are-urging-parents-to-prepare-kids-for-possible-livestreamed-execution",
+      "publishedAt": "2026-10-13T19:00:10.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "AI data centers are coming for federal land and roiling Nevada governor's race",
+      "url": "https://www.pbs.org/newshour/politics/ai-data-centers-are-coming-for-federal-land-and-roiling-nevada-governors-race",
+      "publishedAt": "2026-10-13T18:20:06.000Z"
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 midterm election forecast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+      "publishedAt": "2026-10-13T17:44:22.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Texas health agency proposes eliminating children's autism program",
+      "url": "https://www.pbs.org/newshour/health/texas-health-agency-proposes-eliminating-childrens-autism-program",
+      "publishedAt": "2026-10-13T17:35:20.000Z"
+    },
+    {
+      "source": "The Guardian",
+      "title": "Is the blue wave real? Under-the-radar races that could hand Congress to Democrats",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT2RWY2Vqc0MzVmpFUlRNa0RuMURrSE1KeFJGdm9GcWh0dG5FV1RFa1d1ckxYMjY0M2hIeTFnal9xckV0Q2lDdlpmelI0ZExvbkRGNnFOZjluNTdwYm5iQjRFU004YnpwTkxoRmlIVFJCcTJ0YlBiLVk1bmxxVUllM3dIYXY0R3cwOWN2TUgyb1JiaHRETmZTbS1BTTBCRzFGUzRUTFE1SV9IVkZ3TVk5WDdNOA?oc=5",
+      "publishedAt": "2026-10-13T17:25:00.000Z"
+    },
+    {
+      "source": "Council on Foreign Relations",
+      "title": "Five Things to Know About the Midterms",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5fYnBMSFdZd2dsZG44cmx3YjR4X0p3Z3N5QWVjLW9HTHdnV0xFUmxVSzlnT0M1eHJHSUtpa0JrbmdPbk9RRl9HRk9Hc1RFWU5VeVBEX2NZaTdLS3BLaUNJWVV3N0dPcmJTY2V4YkItYzRjUEJlZVE?oc=5",
+      "publishedAt": "2026-10-13T16:17:42.000Z"
+    },
+    {
+      "source": "WHYY",
+      "title": "Pa. election 2026: These races could change the balance of power in Harrisburg. Here’s what to know",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeEx6RFhIeElJcnRrN1FiZFJiR1JzaW8tT0RDX2YtZDhxaUpPYndsLXNTYkJ1dUdMM2N3X1pzSUR5eXV0SzhMUkN1TVBLd2xKMDlPa3RveEQ3bjdSdzdSbUpSa0Vic1RGajVPSXpMNS1OMXhMenVJSEh1ZldXQmk4TlphTmtlYkJER21WZl8tWWd0cWFrR2xSMUp5X2dSdUJrSmhlQ283QU1CYlBNSVljMGp2LVVYblNrRTlZ?oc=5",
+      "publishedAt": "2026-10-13T16:03:14.000Z"
+    },
+    {
+      "source": "CBS News",
+      "title": "Georgia midterm election 2026: Early voting begins for governor, Senate and statewide races",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVEo0R1RraVlLanZlTUxzQWVTa2cxUDhkc3dpV01fdVhvZUNXUjRWNGFBeU9HcHRLVFc0c1lXZzlJbmZKdU9jdTVjRjc5VmRuQ0xxcWxMeF8wblJrMGZCanNHTUZnUjBndllSVGV2NGNKUE9rT1hjNHVnVXpJRndjZ2lkbkVrOTZJOGNpX2NVTktQMmxfMC1sbWZlZ19xUHA3U1dnOTFsZzdJVkFzS2ZDOFMzc19LejFpU01POE56YkEwYTlHUnc?oc=5",
+      "publishedAt": "2026-10-13T11:09:31.000Z"
+    },
     {
       "source": "NPR",
       "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
       "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
       "publishedAt": "2026-10-13T11:08:14.000Z"
-    },
-    {
-      "source": "Statesman Journal",
-      "title": "Kotek, Drazan to face off in final governor's race debate. How to watch",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNT1dBcUxiMHNLaFJrQV9jN2ltTGJBS0dWbVhGbldRMGI1MjZRc1FFWVBWUFdyRkpRdUVCd1hzZkJQc2xocWlVNVdfMGcxNjNfZ3ZQam93OUhoanZBZzNVUi1rZmlob0J1aklEdmNIb0xIbkdERTllQk1YXy0xdHp5akY5RDZpTUtzNGNhNXVQOU1CbXZUMDFhX0x3UnNCcS01Z1lnT0F1bl9Ea1h2OXQydzlGcktQVC1TaWw3M21oVzM1SHFRLU1GcVdpeFU2MV9laG05T0NEdDhvRmtlbEJqZw?oc=5",
-      "publishedAt": "2026-10-13T11:02:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Latest Senate Polls: Midterm Elections 2026",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
-      "publishedAt": "2026-10-13T09:22:07.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "US midterm elections: 10 under-the-radar races worth watching",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT2RWY2Vqc0MzVmpFUlRNa0RuMURrSE1KeFJGdm9GcWh0dG5FV1RFa1d1ckxYMjY0M2hIeTFnal9xckV0Q2lDdlpmelI0ZExvbkRGNnFOZjluNTdwYm5iQjRFU004YnpwTkxoRmlIVFJCcTJ0YlBiLVk1bmxxVUllM3dIYXY0R3cwOWN2TUgyb1JiaHRETmZTbS1BTTBCRzFGUzRUTFE1SV9IVkZ3TVk5WDdNOA?oc=5",
-      "publishedAt": "2026-10-13T09:01:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Polls are a snapshot, and other helpful things to remember during the midterm elections",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYU5UNXgxakNhdGxjS0lneUJxRHNEV1ExQW9LUzB4N20xNjRWYTVVQ1pqZmlKZllRaDlxMjF4QldqeHdBMUdMMlRJa21QdEF3bWNIdmRrVERnb2djV0gtUko4eUxxM3FNa3hheDlmRllpMk1BQmc0cVFZMHhwVS1faTNMMmxfaWhfbU1Ndg?oc=5",
-      "publishedAt": "2026-10-13T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Win or lose, independent candidates want to meet voters in the middle",
-      "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
-      "publishedAt": "2026-10-13T09:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Should states force cities to build cheaper houses? Voters here will decide",
-      "url": "https://www.npr.org/2026/10/13/nx-s1-5979839/massachusetts-starter-homes-ballot-affordability",
-      "publishedAt": "2026-10-13T09:00:00.000Z"
-    },
-    {
-      "source": "BBC",
-      "title": "Where the US midterm elections will be won and lost",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qeHZpUU1lTm12dDU5M2dQUzU5M3FEbFRlRnkybWtkRFl4aHEwLVh6N3hmbDRwdG9BU2ZFYVFhSFZ4cTBLbk4tR1gtMjZXcUREUGNOd0huNEJ4T1k?oc=5",
-      "publishedAt": "2026-10-13T05:02:44.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Rep. Omar accuses Trump of political intimidation after agents search her home",
-      "url": "https://www.pbs.org/newshour/show/rep-omar-accuses-trump-of-political-intimidation-after-agents-search-her-home",
-      "publishedAt": "2026-10-12T22:55:20.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Water access becomes a top election concern for Arizona voters",
-      "url": "https://www.pbs.org/newshour/show/water-access-becomes-a-top-election-concern-for-arizona-voters",
-      "publishedAt": "2026-10-12T22:40:51.000Z"
     }
   ]
 }
