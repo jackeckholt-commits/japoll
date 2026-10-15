@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-10-13T17:37:34.928Z",
+  "updatedAt": "2026-10-15T15:01:45.073Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
-    "democrats": 216.6,
-    "tossup": 19.7,
-    "republicans": 198.7,
+    "democrats": 216.7,
+    "tossup": 20,
+    "republicans": 198.4,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
-    "nonTossupDemocrats": 216.6,
-    "nonTossupRepublicans": 198.7,
-    "averageTossup": 19.7,
+    "nonTossupDemocrats": 216.7,
+    "nonTossupRepublicans": 198.4,
+    "averageTossup": 20,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
   "average": {
     "categories": {
       "demSafe": 184.3,
-      "demLikely": 18.3,
-      "demLean": 14,
-      "tossup": 19.7,
+      "demLikely": 18.7,
+      "demLean": 13.7,
+      "tossup": 20,
       "repLean": 11.7,
-      "repLikely": 25.3,
+      "repLikely": 25,
       "repSafe": 161.7
     },
     "totals": {
-      "democrats": 216.6,
-      "tossup": 19.7,
-      "republicans": 198.7,
+      "democrats": 216.7,
+      "tossup": 20,
+      "republicans": 198.4,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -42,21 +42,21 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-10-13",
+      "updated": "2026-10-15",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 184,
-        "demLikely": 19,
-        "demLean": 14,
-        "tossup": 23,
+        "demLikely": 20,
+        "demLean": 13,
+        "tossup": 24,
         "repLean": 15,
-        "repLikely": 29,
+        "repLikely": 28,
         "repSafe": 151
       },
       "totals": {
         "democrats": 217,
-        "tossup": 23,
-        "republicans": 195
+        "tossup": 24,
+        "republicans": 194
       },
       "included": true,
       "scrapeStatus": "live",
