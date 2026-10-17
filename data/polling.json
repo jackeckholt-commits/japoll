@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T15:01:39.694Z",
+  "updatedAt": "2026-10-17T13:44:51.834Z",
   "genericBallot": {
     "average": {
       "democrats": 49.2,
@@ -10,8 +10,8 @@
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 49.2,
-        "republicans": 41.1,
+        "democrats": 49.4,
+        "republicans": 41.3,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
         "scrapeStatus": "live",
@@ -21,7 +21,7 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "democrats": 51.4,
+        "democrats": 51.3,
         "republicans": 43.1,
         "included": true,
         "url": "https://fiftyplusone.news/polls/generic-ballot/generic-ballot",
@@ -54,8 +54,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "democrats": 50.4,
-        "republicans": 41.8,
+        "democrats": 50.2,
+        "republicans": 41.6,
         "included": true,
         "url": "https://www.racetothewh.com/polls/genericballot",
         "scrapeStatus": "live",
@@ -76,7 +76,7 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 36.1,
+      "approve": 36.2,
       "disapprove": 61.5
     },
     "sources": [
@@ -84,7 +84,7 @@
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "approve": 37.1,
+        "approve": 37.4,
         "disapprove": 60.5,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
@@ -95,8 +95,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 35,
-        "disapprove": 61.8,
+        "approve": 35.2,
+        "disapprove": 61.6,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
@@ -107,7 +107,7 @@
         "name": "Silver Bulletin",
         "shortName": "Silver",
         "approve": 37.6,
-        "disapprove": 59.6,
+        "disapprove": 59.8,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
         "scrapeStatus": "live",
