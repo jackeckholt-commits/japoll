@@ -1,16 +1,46 @@
 {
-  "generatedAt": "2026-10-17T05:00:43.351Z",
+  "generatedAt": "2026-10-17T12:25:29.219Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
+      "url": "https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race",
+      "publishedAt": "2026-10-17T11:43:14.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Week in Politics: Trump's Russian diesel deal update; why the DOJ is suing California",
+      "url": "https://www.npr.org/2026/10/17/nx-s1-5998079/week-in-politics-trumps-russian-diesel-deal-update-why-the-doj-is-suing-california",
+      "publishedAt": "2026-10-17T11:43:08.000Z"
+    },
     {
       "source": "The New York Times",
       "title": "Tracking Competitive Races in the House and Senate",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-10-17T02:36:45.000Z"
+      "publishedAt": "2026-10-17T10:26:59.000Z"
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 midterm election forecast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+      "publishedAt": "2026-10-17T09:19:24.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump promised a swing district blitz. He's going to a lot of very red states",
+      "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms",
+      "publishedAt": "2026-10-17T09:00:00.000Z"
+    },
+    {
+      "source": "EL PAÍS English",
+      "title": "The midterms in maps: A guide to the key Senate, House and governor races",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZjg2SERkN1lobEpoZmgzRTB4UUdXTFpZdTNDd1I5aFkza0U4R1d5RDNhT2FVcFNNbl9CY0N0SXJiRmhOb0RKR1o4aDFvUUZyc2lFM3g5bWQzNmh2MTVVYmFLN3R3N1NvUlhiQS1COGNMNVNaUmF0NG43TDZzS0ZLdVc3M0UyUXpScVR0QjFfWkN1WXlrcElVR1lHNFlFME5mVjJobGxWX25YMy1FbDZiNloteXJ0ZkE3MlE?oc=5",
+      "publishedAt": "2026-10-17T04:00:00.000Z"
     },
     {
       "source": "NBC News",
-      "title": "Tracking the 2026 Early Vote: Midterm Elections",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "title": "Indiana Midterm Elections 2026: Key Races, Candidates and Past Results",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TcGM1TS1sTlhJRE0zMkFFVzU4cVRPMTM1Q1hzRlA4RDBjTTBTVGt6SXhJZzVRV3ZfamJwclBiYlJwNWhBSm1Sd3VWN1FPR2tZZmNvYkk4bnVCbWNuTDlYV1lYREdDcDVFa0tIYmhKZ2w?oc=5",
       "publishedAt": "2026-10-17T02:30:21.000Z"
     },
     {
@@ -20,46 +50,16 @@
       "publishedAt": "2026-10-17T00:20:00.000Z"
     },
     {
-      "source": "Silver Bulletin",
-      "title": "FLIPR 2026 midterm election forecast",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
-      "publishedAt": "2026-10-17T00:17:23.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "DOJ says California officials who process ballots from suspected noncitizens risk prosecution",
       "url": "https://www.pbs.org/newshour/politics/doj-says-california-officials-who-process-ballots-from-suspected-noncitizens-risk-prosecution",
       "publishedAt": "2026-10-16T23:30:20.000Z"
     },
     {
-      "source": "South Dakota Searchlight",
-      "title": "Challenger takes aim at incumbent’s campaign finances in South Dakota US Senate race",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdktFcVBXTFJMOU91NEZSc2hlXzJ6TFpjVjB5X1RBNHd3YzBITUVrbFVOaU9PZHdoMHd5QkpXY2t2WTRFaXljRUh3NDd5c3hTcWJlNTIyUHk1VmRvQ0NSZHowNDlfNXgyV0NqYU1UWkdRSWlfeVVjWkhVM1dlUDhSZmR2V2NFYjZ6QkVtci14MXBsZW9wWmI3SFdOSm12TXg4T0JJQ210aW9zWVktaHJrV2RsUUdmejh0N1pJMF9Cb3JCcm9OYmdPOUhn?oc=5",
-      "publishedAt": "2026-10-16T23:13:26.000Z"
-    },
-    {
       "source": "PBS NewsHour",
       "title": "News Wrap: Zacharia out as White House press secretary after less than a week on the job",
       "url": "https://www.pbs.org/newshour/show/news-wrap-zacharia-out-as-white-house-press-secretary-after-less-than-a-week-on-the-job",
       "publishedAt": "2026-10-16T22:50:20.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Examining the controversial claims Trump is making at his midterm rallies",
-      "url": "https://www.pbs.org/newshour/show/examining-the-controversial-claims-trump-is-making-at-his-midterm-rallies",
-      "publishedAt": "2026-10-16T22:45:54.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "How Alaska became a key battleground in the fight for the Senate",
-      "url": "https://www.pbs.org/newshour/show/how-alaska-became-a-key-battleground-in-the-fight-for-the-senate",
-      "publishedAt": "2026-10-16T22:40:55.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Katie Zacharia is out as press secretary, White House says",
-      "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
-      "publishedAt": "2026-10-16T20:29:40.000Z"
     }
   ]
 }
