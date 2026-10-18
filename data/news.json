@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-10-18T05:10:37.568Z",
+  "generatedAt": "2026-10-18T12:47:39.527Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Greensboro, NC students protest the absence of early voting sites on campus",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6006791/greensboro-nc-students-protest-the-absence-of-early-voting-sites-on-campus",
+      "publishedAt": "2026-10-18T12:07:18.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "What role does the White House Press Secretary play in the Trump era?",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6005279/what-role-does-the-white-house-press-secretary-play-in-the-trump-era",
+      "publishedAt": "2026-10-18T12:01:03.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Politics chat: Zelenskyy on Trump, Democrats bring in the money for midterms",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6005192/politics-chat-zelenskyy-on-trump-democrats-bring-in-the-money-for-midterms",
+      "publishedAt": "2026-10-18T12:01:01.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump suspends federal diesel taxes to help farmers, but states issue warnings",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-5996662/trump-suspends-federal-diesel-taxes-to-help-farmers-but-states-issue-warnings",
+      "publishedAt": "2026-10-18T12:00:57.000Z"
+    },
     {
       "source": "Silver Bulletin",
       "title": "FLIPR 2026 midterm election forecast",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
-      "publishedAt": "2026-10-18T03:20:55.000Z"
+      "publishedAt": "2026-10-18T09:24:05.000Z"
     },
     {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-10-18T02:17:29.000Z"
+      "source": "NBC News",
+      "title": "Michigan Midterm Elections 2026: Key Races, Candidates and Past Results",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VWE96aXR0S3I2YjZPYWRXb21UM1lCZXoxbFdDenBTUzdjMmJHUjljRTdFc3hHQm9DTlBiSXIzRGg1c1U4N05MbHk0OFhtSVNpc2RNcWZhMzdpRldLWE5jYzd0cEZQRV8zR1d1VUtWWWlYQQ?oc=5",
+      "publishedAt": "2026-10-18T05:00:21.000Z"
     },
     {
       "source": "The New York Times",
@@ -36,30 +60,6 @@
       "title": "Osborn’s independence continues to be scrutinized in Nebraska Senate race",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTkpMdjlqd3ExU0FIclp5Uldxby0ybEVJM0x2eEFNaEMyZ1czazFYTGhJWXRvVDZwWUFLTzZrZGpaejdiVXJnUDBIR1RycXUtckVSdHN0WmZJZ0lVbWE5cTI1cl9iSllrYmVSbHRsQlk5cEpnRTdDUnFYNlQ1bXZmN0pqU2Naa0RBd2ItUWtGRmFiNXlRUnluZUxjaVEyME1PM2xJWU9NTVAzZkNoNVFJeHlpTQ?oc=5",
       "publishedAt": "2026-10-17T20:49:56.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "America's politically divided Jewish community braces for Israel's elections",
-      "url": "https://www.pbs.org/newshour/politics/americas-politically-divided-jewish-community-braces-for-israels-elections",
-      "publishedAt": "2026-10-17T18:41:18.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "House Speaker Mike Johnson draws on faith as he fights to hold the Republican majority",
-      "url": "https://www.pbs.org/newshour/politics/house-speaker-mike-johnson-draws-on-faith-as-he-fights-to-hold-the-republican-majority",
-      "publishedAt": "2026-10-17T16:17:08.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump's decision to waive Russian sanctions outrages Congress, but no quick counter seen",
-      "url": "https://www.pbs.org/newshour/politics/trumps-decision-to-waive-russian-sanctions-outrages-congress-but-no-quick-counter-seen",
-      "publishedAt": "2026-10-17T15:57:10.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
-      "url": "https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race",
-      "publishedAt": "2026-10-17T11:43:14.000Z"
     }
   ]
 }
