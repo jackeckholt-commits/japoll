@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-10-19T17:00:56.452Z",
+  "updatedAt": "2026-10-21T15:14:55.588Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
-    "democrats": 217.1,
-    "tossup": 20,
-    "republicans": 198.1,
+    "democrats": 217,
+    "tossup": 20.3,
+    "republicans": 197.7,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
-    "nonTossupDemocrats": 217.1,
-    "nonTossupRepublicans": 198.1,
-    "averageTossup": 20,
+    "nonTossupDemocrats": 217,
+    "nonTossupRepublicans": 197.7,
+    "averageTossup": 20.3,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
   "average": {
     "categories": {
       "demSafe": 184.7,
-      "demLikely": 18.7,
-      "demLean": 13.7,
-      "tossup": 20,
-      "repLean": 12.7,
+      "demLikely": 19,
+      "demLean": 13.3,
+      "tossup": 20.3,
+      "repLean": 12.3,
       "repLikely": 24.7,
       "repSafe": 160.7
     },
     "totals": {
-      "democrats": 217.1,
-      "tossup": 20,
-      "republicans": 198.1,
+      "democrats": 217,
+      "tossup": 20.3,
+      "republicans": 197.7,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -42,21 +42,21 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-10-17",
+      "updated": "2026-10-21",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 185,
-        "demLikely": 19,
-        "demLean": 13,
-        "tossup": 24,
-        "repLean": 14,
+        "demLikely": 20,
+        "demLean": 12,
+        "tossup": 25,
+        "repLean": 13,
         "repLikely": 29,
         "repSafe": 151
       },
       "totals": {
         "democrats": 217,
-        "tossup": 24,
-        "republicans": 194
+        "tossup": 25,
+        "republicans": 193
       },
       "included": true,
       "scrapeStatus": "live",
