@@ -1,29 +1,47 @@
 {
-  "generatedAt": "2026-10-20T23:25:22.517Z",
+  "generatedAt": "2026-10-21T05:20:16.939Z",
   "articles": [
     {
-      "source": "The Washington Post",
-      "title": "U.S. Senate race in Minnesota moves toward GOP in new Cook rating",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnB1RGJieHVvWGxMV2RjOXhqOWpaN3cyV1NIYm10TGRaTkZkeFR2cFdiNjhOUklqUEFFRlB2aG9JamRKRTZYWHVVekY5dGF1MmRXeDZzTThqX09ZSW1xWFRDXzNBSGVCUkZhczVNdW01Wm5LaTBvU2RKbzhUdjJzWXFkYXZEeHQ2d1kxc3FQQlBrYmNraXdCS3loOUZFUU1PMHhnYzdqTGdOdmhYUVE?oc=5",
-      "publishedAt": "2026-10-20T23:17:10.000Z"
+      "source": "Marist Poll",
+      "title": "Polls, Analysis, Learning, and More",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbWhlS0p2ckJGT1p1UzJCTjlKYnBPU2VsRjlaRUlkN1EzS1RwMldyY0J2a1RmbTBKaWxQNUVKejZqenhOWk1NdGNsbExJWFR1a1NNT0JRdmJVaFg4M3VVTl9wVWo2a3NYUHp4S041X3I3QmhaLU9sWXE5cERvbmJWaXdFZC1yUQ?oc=5",
+      "publishedAt": "2026-10-21T04:09:44.000Z"
     },
     {
-      "source": "The Washington Post",
-      "title": "Analysis | Here’s what’s making the Kansas Senate race so competitive",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUnlyQktfa0NpVVJ2akROb2hCdG5lV0YyT3d0T0k3S25TMGVNaEhlTGktR1QzTVZ6bEFGY0cxZk9fTk5tZE1LenFscl9yVTlSYUswSTRzXzRDY3VjZlVqVUNBNEo5QUtGV3FuV284bl9kcl9weXJXQjBqWndMVmpWUlJpNkdveWVJNW9ISVNkbV9HN2dfZEhCNjd6S2EtdXBBRzNMRkVIWUNCcUE?oc=5",
-      "publishedAt": "2026-10-20T22:46:51.000Z"
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 midterm election forecast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+      "publishedAt": "2026-10-21T03:38:48.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Tracking Competitive Races in the House and Senate",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+      "publishedAt": "2026-10-21T02:57:09.000Z"
+    },
+    {
+      "source": "The Times",
+      "title": "Who will win the 2026 midterm elections? Polls and predictions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+      "publishedAt": "2026-10-21T02:56:11.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Some on DOJ's 20,000 \"likely\" noncitizen list in Calif. appear to be U.S.-born",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens",
+      "publishedAt": "2026-10-21T02:15:50.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Texas Midterm Elections 2026: Key Races, Candidates and Past Results",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uWFNONTdBQ1dFOUxtbU1pbGVJOXF4LVI1TUFYaTg5SFo2U0YzY1ZRemY4bmxaZ191MHVwbzkyTHhlaXlKWEhtdXdqSFZ5ZFhFMGRSZXRxdVpZRTVFZE1Od2NnTUtMYlFNY1YzNGlB?oc=5",
+      "publishedAt": "2026-10-21T01:30:21.000Z"
     },
     {
       "source": "PBS NewsHour",
       "title": "How the Kansas Senate race became surprisingly competitive",
       "url": "https://www.pbs.org/newshour/show/how-the-kansas-senate-race-became-surprisingly-competitive",
       "publishedAt": "2026-10-20T22:40:30.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Supreme Court recusals over books raise questions about policy",
-      "url": "https://www.npr.org/2026/10/20/nx-s1-6008040/supreme-court-recusals-over-books-raise-questions-about-policy",
-      "publishedAt": "2026-10-20T22:38:37.000Z"
     },
     {
       "source": "NPR",
@@ -39,27 +57,9 @@
     },
     {
       "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Trump holds GOP midterm rally in North Carolina",
+      "title": "WATCH: Trump holds GOP midterm rally in battleground North Carolina",
       "url": "https://www.pbs.org/newshour/politics/watch-live-trump-holds-gop-midterm-rally-in-north-carolina",
       "publishedAt": "2026-10-20T22:06:34.000Z"
-    },
-    {
-      "source": "Houston Public Media",
-      "title": "Paxton looks to seal the deal with Houston-area voters, saying control of U.S. Senate is at stake",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNTUxoVGdIaGVQeklQLTFUZ1BiSGlmNVFJNzhBeGpUQ1B3Wk00b1V6TFpXcHFJYVNfN3Q4WWtkXzA5Yk11MFNJMVI4NWNIaGVhOHcwZGdzSnNUZ1UzMzJ5YUkzbGlHTXVtSC1aM21pbFc0ZS1nMm9Ed1UxaG8yTlN4ZGdLQXpzWGlQSVEtbHowMHpORnF6TDZ5dTFFSDlocF9wTUp0TXQ1eS1icDZDeFg4amVxZVRNZlRsQWl2SHI4ZkJpT01qMGRGY3VMVjhKOG9scVh4RHVFNTI1cHZiZVNlMVBYLW1QS3FKNDhhR0xWb0NPbUhHZWpyTHZNMFBpal9abFlWaVRNSS0yUVp1U0c1cDNNMmZpNlpnTjdQetIBnAJBVV95cUxNTUxoVGdIaGVQeklQLTFUZ1BiSGlmNVFJNzhBeGpUQ1B3Wk00b1V6TFpXcHFJYVNfN3Q4WWtkXzA5Yk11MFNJMVI4NWNIaGVhOHcwZGdzSnNUZ1UzMzJ5YUkzbGlHTXVtSC1aM21pbFc0ZS1nMm9Ed1UxaG8yTlN4ZGdLQXpzWGlQSVEtbHowMHpORnF6TDZ5dTFFSDlocF9wTUp0TXQ1eS1icDZDeFg4amVxZVRNZlRsQWl2SHI4ZkJpT01qMGRGY3VMVjhKOG9scVh4RHVFNTI1cHZiZVNlMVBYLW1QS3FKNDhhR0xWb0NPbUhHZWpyTHZNMFBpal9abFlWaVRNSS0yUVp1U0c1cDNNMmZpNlpnTjdQeg?oc=5",
-      "publishedAt": "2026-10-20T21:56:06.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Illinois U.S. Senate candidates face off in forum to replace Durbin",
-      "url": "https://www.pbs.org/newshour/politics/watch-live-illinois-u-s-senate-candidates-face-off-in-forum-to-replace-durbin",
-      "publishedAt": "2026-10-20T21:37:44.000Z"
-    },
-    {
-      "source": "The Times",
-      "title": "Who will win the 2026 midterm elections? Polls and predictions",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-      "publishedAt": "2026-10-20T21:35:29.000Z"
     }
   ]
 }
