@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-10-22T20:18:43.068Z",
+  "generatedAt": "2026-10-22T23:37:17.780Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "DOJ monitoring plans and DHS voter checks raise concerns of election interference",
+      "url": "https://www.pbs.org/newshour/show/doj-monitoring-plans-and-dhs-voter-checks-raise-concerns-of-election-interference",
+      "publishedAt": "2026-10-22T22:55:44.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "What Maine voters are saying about the Collins-Jackson Senate race",
+      "url": "https://www.pbs.org/newshour/show/what-maine-voters-are-saying-about-the-collins-jackson-senate-race",
+      "publishedAt": "2026-10-22T22:45:13.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump's attacks on the press have become a war",
+      "url": "https://www.npr.org/2026/10/22/nx-s1-6012340/trumps-attacks-on-the-press-have-become-a-war",
+      "publishedAt": "2026-10-22T22:06:17.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Republicans retreat from North Carolina as Trump admits Democrats are likely to win the Senate seat",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWN4Sm1oU1NrZ0h5QlMyMG9nZnJyRGhnaDc4OGNKd0JfMWJXWENEZUh2MHJucG9tbFozNGUxQ2MzVzFCeXMxbUVfZXF1bGdKdF9lMHNtUFViNmhOWEJiYWZmNFc5aGpta1loY0NmQWxzc2xhS1pCNHlsWVhLdFlvbG1sZWtYRWE5TGhUbGlocERXWmxoWTN3S0J0QnpNTW1YNFlEQk9KNA?oc=5",
+      "publishedAt": "2026-10-22T22:03:15.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Trump defends Ramaswamy's attack ad against Acton amid bipartisan criticism",
+      "url": "https://www.pbs.org/newshour/politics/watch-trump-defends-ramaswamys-attack-ad-against-acton-amid-bipartisan-criticism",
+      "publishedAt": "2026-10-22T21:31:45.000Z"
+    },
+    {
+      "source": "Federal News Network",
+      "title": "Texas Senate Odds Show Talarico Lead Growing in Prediction Markets: Trade on Midterm Elections",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOHFPQlFkQi11MUd6LWJXdmRfOENoR3ZRZ2tyNkJCT0VCWmp5Yi1FcHZqSHpkR2tLdGtaMUQ1bzhNc25mTVlUOEhUZ0FkbHk1RUxKcXZNX3FmSldycXRrdEFlZFA3RzFvcTd2c0tqSTBjVGxLQXhUR043M2NqRm54T05JOGZhVjliN3lNb2xJeXB4Wk9lUzRRRTVwd3pjWHd5Qk12MkhVS01PRGMteWM4dUh5UGo4MDl6QWR6VjJoNVNFUUpPdDdKdjVwMTdRSmQyY2QxT3pyYl82NVowTTRV?oc=5",
+      "publishedAt": "2026-10-22T21:27:47.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Latest Senate Polls: Midterm Elections 2026",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
+      "publishedAt": "2026-10-22T20:57:00.000Z"
+    },
+    {
+      "source": "Forbes",
+      "title": "Hottest 2026 Midterm Races—Talarico, Paxton Tied In Fox News Poll (Updated Daily)",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWWxZZllpM05BYXBQYkthMVhfOWhsN2xjcUhSVjJ0MmszanRWQ0U0NlJ1eE1VRDhfR0R6NHBtT3RMdWVOcHdwRVBMTUdlR0xmM2dTbHVCYnVHQ1YxNk5sbm1UOFZ4UmxVcS02ekMyN1dOUEZFLWkyWFhjUHhkMWR2X0Z6ZzlHVFp0OVJieDlmREZEbHdqNzNnZlI0cW9wNzlnektRaWR3NV9CUG85MEJCalpSSXhSX2V0ejNQelAwOFJTNGp4TE1R?oc=5",
+      "publishedAt": "2026-10-22T20:15:00.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Kansas Sen. Roger Marshall in debate blames Ukraine war, not Iran war, for high diesel prices",
@@ -8,58 +56,10 @@
       "publishedAt": "2026-10-22T20:03:19.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Federal judge restricts DHS field operations looking for noncitizen voters",
-      "url": "https://www.npr.org/2026/10/22/nx-s1-6012682/judge-dhs-noncitizen-voting-operations",
-      "publishedAt": "2026-10-22T19:16:20.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Midterms 2026: Congress Polls and More",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
-      "publishedAt": "2026-10-22T18:32:56.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11",
-      "url": "https://www.pbs.org/newshour/politics/judge-orders-trump-to-sit-for-a-deposition-in-his-defamation-lawsuit-against-the-bbc-by-dec-11",
-      "publishedAt": "2026-10-22T17:40:42.000Z"
-    },
-    {
       "source": "The Guardian",
       "title": "In reliably blue Minnesota, could Democrats do the unthinkable and lose a Senate seat?",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRVlMY3hWYjZTcnl6dEhVTzVfQW9iMmhVVTlqaXVnSmxYWDFfanF2bWViSnEwY1EySXV1RkJCSzhhR2NBbGJEM0lwOVZ2WEhiTkZLS0pROVFINTJWYW1ZWmpvMWtNcGtpTWUxWGkwSUpVcWgxN3M0X0VKdHJHVjJqQ1AxMWZMR29QWkl6WVdPTHBBMTVRVFdTQzRsY3h4QVph?oc=5",
-      "publishedAt": "2026-10-22T17:34:00.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "How Democrat Mary Peltola is on the verge of flipping right-leaning Alaska",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZnE3T1RxYmlrS29NaFlycWRsNE1XdUVUNlJ0TTlrNHEwZGhFWXBfZkJyc2tqal9RTWtzZXFvVy1UM3pvTjdoRmRYM0x2RVk4V2xPVUJKOE5DdVJiakZrQkdkbW9ab3ZCN3hFNHN3ZzREWW90ZFp1MzFpcnFvZjFTb0ZPVDdERTFhYzd3?oc=5",
-      "publishedAt": "2026-10-22T16:33:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Blanche and Patel announce charges for Democratic Virginia lawmaker Lucas",
-      "url": "https://www.pbs.org/newshour/politics/watch-blanche-and-patel-announce-charges-for-democratic-virginia-lawmaker-lucas",
-      "publishedAt": "2026-10-22T16:11:51.000Z"
-    },
-    {
-      "source": "Carolina Journal",
-      "title": "October 2026 — Cooper’s lead over Whatley narrows to 10 points in NC Senate race",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdmx3eXBibF8zYkZVOGVkc3EzSDJlaTR5ZEFCMUJFWDB5d0lZTUN4UFd0X29NYUFvdTV6VXhXX0RBcWhGRkVlOUxrWWxyNkQ2V09sRkJtUUhNR3NCNkRyQlJQRU9kaEJtcVpJY0l3WjlTVU94dEN1S0hmMkh3enprMnRsOGpJTGVoZjR3MDlDY09YV0ZjX205TVBIMlRocGZuWFg1RmVNQW9rSlhIRDQxbjVFSUFaZmM?oc=5",
-      "publishedAt": "2026-10-22T16:11:20.000Z"
-    },
-    {
-      "source": "FOX 7 Austin",
-      "title": "Texas Senate race tight as Election Day nears",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbEsyUElLa2NDbnBPYjRURWozeXhDMU9nUUtRbGk4cEo5WUFMX2lkYjZOVHJaT25JQU1iZlVyOXVQTXJqcm00OXRFTFhCUmlCLVFUc3dUY3JJZjRGeHFTSzhuR2VuTllCeXVnSjRQVXpORklwbTB0QUwyVmpaWGNUclN6eWN2UWI1ajF3ctIBkgFBVV95cUxOVnpxWEo3ZTExSnBGRG9VZWJPb29pMkI5eFM1MENRSnp1aGpmUWdibHpUZklzaFFHdVlNOXU5cXpBZ0huVzFaU2REaGNyWnRxZ1dmTzBwZWRmNC0wb29GV0tOcFh0QWJHUmg0WXlfS3JkN0Q4dUFidTVuUy1FV0lDWjhaNmx2YkxORGNOeDhWa2NrZw?oc=5",
-      "publishedAt": "2026-10-22T16:01:47.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Trump rallies in Iowa with GOP Senate candidate Ashley Hinson",
-      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-rallies-in-iowa-with-gop-senate-candidate-ashley-hinson",
-      "publishedAt": "2026-10-22T14:02:43.000Z"
+      "publishedAt": "2026-10-22T19:20:00.000Z"
     }
   ]
 }
