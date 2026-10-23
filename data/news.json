@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-10-22T23:37:17.780Z",
+  "generatedAt": "2026-10-23T05:24:24.572Z",
   "articles": [
+    {
+      "source": "WLBT",
+      "title": "Mississippi Senate race draws national attention ahead of midterms",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRDM2TUs5d1daWmtFaExCWXRJYTc1U3NoLXVOQlc4REpLVkFJMEpkN09YTE8tYWFIbTNkLW5RR1VtbTdGckJhUk5QdVFLcEoweXJseGo1Z0thWDZOVHMwTzlMOEFDVjRSVUZzaUgzQzJRMEkyYm1rNGZFMVZ0YURzVG1Ya0xUTEQ1Nkd5N1pLZGRCcmF5d3p6eUhMR0XSAbABQVVfeXFMTW13SkJBbUFnN1hjbGVGUUFsR1A3a0xHZUg3ZkZPZThrN1BmellUSmhCTl84d1BfckVIQjBQLUNRZURKSkdpejNDQXpzcGlsdTg0NG5RRXRsWTJTOXJDaElnUUhTZ3N0Y2dtZVIwU1Fvb1F2Zjc2WmVNdnp3V3ZPZEE3Z2cyV2dIdmN6RHhBVXVCaG95OG43WHg2blV3eEEzUWZkQmRsYnVrNTBldk9EQWI?oc=5",
+      "publishedAt": "2026-10-23T03:02:00.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Ohio Midterm Elections 2026: Key Races, Candidates and Past Results",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aYnktTFVvVC14X2pyUEYwRzZGaU5IWDFFdUt2eXo1ZzVheDJGU2xmb185dVJzb1FqaXBWNy1XdHdtTnVuUnZUOVFPWGw5cnYza045eVAwQm5QLUdCbEtNTmh5eElITjFFRU0zXw?oc=5",
+      "publishedAt": "2026-10-23T01:30:21.000Z"
+    },
+    {
+      "source": "MultiState",
+      "title": "Texas 2026 Election Results",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZLXdIQmdXX1ZoUndtODRod3NkTUhVX3BmYURGNGoyRnNRRm85LXlaOWwwNWE0UENldkdOX0tYUkVrMmoyQUdEQVFhS2tzVTlWa283cnhTWVFUS1lBMkdIYktuOHc?oc=5",
+      "publishedAt": "2026-10-23T01:21:18.000Z"
+    },
+    {
+      "source": "MultiState",
+      "title": "Iowa 2026 Election Results",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pbXdEakFiVFcydk9iSHB6NUlYcVFuTVRIZnFIZC1JNE9uVmtyVDVNU0d2aS1rbFZ2Z2hyU3NOZTN5SmMtalAzT0dRal94YTgwZDIxdzdSc0hEdEdrUDl2cDB6WQ?oc=5",
+      "publishedAt": "2026-10-23T00:53:01.000Z"
+    },
+    {
+      "source": "MultiState",
+      "title": "New Mexico 2026 Election Results",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1paDZPSmlkR1VsS1JNUE9HMm5DUlJXRjllWnM3RFQxVWxOOEF6MzNQMElvMGRJeGJsUE1vTVhsZGttQnVFRnFhdWozY3JhY1B4WElMejFGYnFoVUFPX0kyaHhYdEhURFBMdXZB?oc=5",
+      "publishedAt": "2026-10-23T00:52:51.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "RFK Jr. adviser Calley Means resigns amid growing MAHA discontent over lack of progress",
+      "url": "https://www.pbs.org/newshour/politics/rfk-jr-adviser-calley-means-resigns-amid-growing-maha-discontent-over-lack-of-progress",
+      "publishedAt": "2026-10-23T00:51:44.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Rep. Ilhan Omar says she will move out of her Washington, DC, home after federal search",
+      "url": "https://www.pbs.org/newshour/politics/rep-ilhan-omar-says-she-will-move-out-of-her-washington-dc-home-after-federal-search",
+      "publishedAt": "2026-10-23T00:25:01.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "DOJ monitoring plans and DHS voter checks raise concerns of election interference",
@@ -18,48 +60,6 @@
       "title": "Trump's attacks on the press have become a war",
       "url": "https://www.npr.org/2026/10/22/nx-s1-6012340/trumps-attacks-on-the-press-have-become-a-war",
       "publishedAt": "2026-10-22T22:06:17.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Republicans retreat from North Carolina as Trump admits Democrats are likely to win the Senate seat",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWN4Sm1oU1NrZ0h5QlMyMG9nZnJyRGhnaDc4OGNKd0JfMWJXWENEZUh2MHJucG9tbFozNGUxQ2MzVzFCeXMxbUVfZXF1bGdKdF9lMHNtUFViNmhOWEJiYWZmNFc5aGpta1loY0NmQWxzc2xhS1pCNHlsWVhLdFlvbG1sZWtYRWE5TGhUbGlocERXWmxoWTN3S0J0QnpNTW1YNFlEQk9KNA?oc=5",
-      "publishedAt": "2026-10-22T22:03:15.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "WATCH: Trump defends Ramaswamy's attack ad against Acton amid bipartisan criticism",
-      "url": "https://www.pbs.org/newshour/politics/watch-trump-defends-ramaswamys-attack-ad-against-acton-amid-bipartisan-criticism",
-      "publishedAt": "2026-10-22T21:31:45.000Z"
-    },
-    {
-      "source": "Federal News Network",
-      "title": "Texas Senate Odds Show Talarico Lead Growing in Prediction Markets: Trade on Midterm Elections",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOHFPQlFkQi11MUd6LWJXdmRfOENoR3ZRZ2tyNkJCT0VCWmp5Yi1FcHZqSHpkR2tLdGtaMUQ1bzhNc25mTVlUOEhUZ0FkbHk1RUxKcXZNX3FmSldycXRrdEFlZFA3RzFvcTd2c0tqSTBjVGxLQXhUR043M2NqRm54T05JOGZhVjliN3lNb2xJeXB4Wk9lUzRRRTVwd3pjWHd5Qk12MkhVS01PRGMteWM4dUh5UGo4MDl6QWR6VjJoNVNFUUpPdDdKdjVwMTdRSmQyY2QxT3pyYl82NVowTTRV?oc=5",
-      "publishedAt": "2026-10-22T21:27:47.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Latest Senate Polls: Midterm Elections 2026",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Kem1zNEtLLXJhQndGWG1LTlI2UWtfWGlqdzJwTGFhV2c1ZUpYYTlNQnNaMW9HUGlHN281RzZpTktsSXVEVXhnS1diRndPbzQwYmtnM2NQSkY5VUstWFAta2ZuVlpRYkhMZk5hNEZrN0Vpdw?oc=5",
-      "publishedAt": "2026-10-22T20:57:00.000Z"
-    },
-    {
-      "source": "Forbes",
-      "title": "Hottest 2026 Midterm Races—Talarico, Paxton Tied In Fox News Poll (Updated Daily)",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWWxZZllpM05BYXBQYkthMVhfOWhsN2xjcUhSVjJ0MmszanRWQ0U0NlJ1eE1VRDhfR0R6NHBtT3RMdWVOcHdwRVBMTUdlR0xmM2dTbHVCYnVHQ1YxNk5sbm1UOFZ4UmxVcS02ekMyN1dOUEZFLWkyWFhjUHhkMWR2X0Z6ZzlHVFp0OVJieDlmREZEbHdqNzNnZlI0cW9wNzlnektRaWR3NV9CUG85MEJCalpSSXhSX2V0ejNQelAwOFJTNGp4TE1R?oc=5",
-      "publishedAt": "2026-10-22T20:15:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Kansas Sen. Roger Marshall in debate blames Ukraine war, not Iran war, for high diesel prices",
-      "url": "https://www.pbs.org/newshour/politics/kansas-sen-roger-marshall-in-debate-blames-ukraine-war-not-iran-war-for-high-diesel-prices",
-      "publishedAt": "2026-10-22T20:03:19.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "In reliably blue Minnesota, could Democrats do the unthinkable and lose a Senate seat?",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRVlMY3hWYjZTcnl6dEhVTzVfQW9iMmhVVTlqaXVnSmxYWDFfanF2bWViSnEwY1EySXV1RkJCSzhhR2NBbGJEM0lwOVZ2WEhiTkZLS0pROVFINTJWYW1ZWmpvMWtNcGtpTWUxWGkwSUpVcWgxN3M0X0VKdHJHVjJqQ1AxMWZMR29QWkl6WVdPTHBBMTVRVFdTQzRsY3h4QVph?oc=5",
-      "publishedAt": "2026-10-22T19:20:00.000Z"
     }
   ]
 }
