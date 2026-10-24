@@ -1,35 +1,53 @@
 {
-  "generatedAt": "2026-10-24T05:03:28.649Z",
+  "generatedAt": "2026-10-24T12:55:59.781Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "The rise of the economic populist: What voters want from both parties this year",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-5979036/the-rise-of-the-economic-populist-what-voters-want-from-both-parties-this-year",
+      "publishedAt": "2026-10-24T11:42:08.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Week in Politics: Ramaswamy's Ohio ad; Trump greenlights DOJ to sue over Alaska Senate",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6012100/week-in-politics-ramaswamys-ohio-ad-trump-greenlights-doj-to-sue-over-alaska-senate",
+      "publishedAt": "2026-10-24T11:42:06.000Z"
+    },
+    {
+      "source": "MultiState",
+      "title": "Florida 2026 Election Results",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tNzlNZGlVd05OTk95bVFnTkdZZGFmYU5aaUpRVWxGYkVwNFdISXV3N09IbXNEajhBcVc0TEFDRVRtbHk0akZFUllXNmgxeXBIbWw3Qm1RWHp4ZDNveG5tLURtT3lfX1E?oc=5",
+      "publishedAt": "2026-10-24T10:42:25.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Maine Midterm Elections 2026: Key Races, Candidates and Past Results",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NdHFMY2tJbzM3eWVKNllUWUlJaXpuQl9JalMyOTdlZDIwMWtWd3M1MVRKdHkxM01zZHZtRDYxQ2FCbnVlNlZIUXRMRTJxaGVuWmRwbWJZQndGS2tsZllyYm9uN0E4WEhzQzZBenJR?oc=5",
+      "publishedAt": "2026-10-24T10:30:21.000Z"
+    },
     {
       "source": "NBC News",
       "title": "Tracking the 2026 Early Vote: Midterm Elections",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-      "publishedAt": "2026-10-24T03:45:55.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Trump Officials Seek Block on Alaska Senate Race Results if the Republican Dan Sullivan Loses",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZDl5Z3RHSk9rWjFzYUZTei1SdmpSYllQaWg2WVBDbHFvVks4S05ZZHdoRWxvUFFEZEx2WTFQRWxuYWpOYjhROUhpaTZXbm44T0tTbkRkZjlJQVgtdVYxR0wzVXpfSnlLSEdLSjNtcG1jdER6LUlkYjRRR01raFBMdkhPMWpNajVCR2pnSXY0aVkyZ19fek1v?oc=5",
-      "publishedAt": "2026-10-24T02:15:51.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Texas Midterm Elections 2026: Key Races, Candidates and Past Results",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uWFNONTdBQ1dFOUxtbU1pbGVJOXF4LVI1TUFYaTg5SFo2U0YzY1ZRemY4bmxaZ191MHVwbzkyTHhlaXlKWEhtdXdqSFZ5ZFhFMGRSZXRxdVpZRTVFZE1Od2NnTUtMYlFNY1YzNGlB?oc=5",
-      "publishedAt": "2026-10-24T01:30:21.000Z"
+      "publishedAt": "2026-10-24T10:00:21.000Z"
     },
     {
       "source": "Silver Bulletin",
       "title": "FLIPR 2026 midterm election forecast",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
-      "publishedAt": "2026-10-24T00:51:32.000Z"
+      "publishedAt": "2026-10-24T09:52:16.000Z"
     },
     {
-      "source": "The New York Times",
-      "title": "Tracking Competitive Races in the House and Senate",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
-      "publishedAt": "2026-10-24T00:22:52.000Z"
+      "source": "The Economist",
+      "title": "US Senate 2026 forecast",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUU5iZF9CcElOTXkydDhVWVJsUDVaalhNYlpZT1VacEEtVG93VnNVdTkzVUVIRWxpZ2tHN0xUdEFKY1Q0SDkyX3lzRk50cS1wLVVYOG1QRnBGWmlzdnowZjE1WE9vNURDTWM1RVVJdVVuOVJ6STNGaERacDBNSUFFU0YteGw?oc=5",
+      "publishedAt": "2026-10-24T09:48:40.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "This decade has been missing its big-impact midterm",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
+      "publishedAt": "2026-10-24T09:00:00.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -42,24 +60,6 @@
       "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries",
       "url": "https://www.pbs.org/newshour/politics/treasury-proposes-rule-to-curb-high-tech-investments-in-china-and-other-adversaries",
       "publishedAt": "2026-10-23T23:19:32.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump says he ordered suit to block Alaska Senate results if GOP loses",
-      "url": "https://www.pbs.org/newshour/show/trump-says-he-ordered-suit-to-block-alaska-senate-results-if-gop-loses",
-      "publishedAt": "2026-10-23T22:55:08.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Seeking to help Collins in Maine, Trump exempts some Canadian imports from his 50% tariffs",
-      "url": "https://www.pbs.org/newshour/politics/seeking-to-help-collins-in-maine-trump-exempts-some-canadian-imports-from-his-50-tariffs",
-      "publishedAt": "2026-10-23T22:48:08.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "At a Texas high school football game, fans offer a glimpse into evolving politics",
-      "url": "https://www.npr.org/2026/10/23/nx-s1-6003856/at-a-texas-high-school-football-game-fans-offer-a-glimpse-into-evolving-politics",
-      "publishedAt": "2026-10-23T22:35:40.000Z"
     }
   ]
 }
