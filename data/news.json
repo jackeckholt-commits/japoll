@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-10-25T13:22:04.161Z",
+  "generatedAt": "2026-10-25T19:16:45.416Z",
   "articles": [
+    {
+      "source": "PBS",
+      "title": "Blanche says Trump isn't trying to meddle with Alaska election results by suing over Senate race",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV1J3Z0owVkVlYXZ4Q3Y2U21nTHl5dHFCTTB3WTJUUzZiZDZCWmJyQnQ1NnhUb0hJbURSYjlUSVpZYTVMZTE1OWRsb1Frc0VaQlA4ZkdSby03OHhJdjVWbXp6ZUhleE5pc1QxdFRfZFdpX2ZiLU9JcV9QbFVvX3NyYkRzdUc4V1NhMDhyeDJEWERtT1lqYnU1ZzFCbHFqa2NYV2ktMWlaMWVOdXhvZ2VuSGx1NkV4RkhXTkxLc3Z1azlCQnl1QUN1bzNGUGVXanhDbGsw0gHTAUFVX3lxTE9XUndnSjBWRWVhdnhDdjZTbWdMeXl0cUJNMHdZMlRTNmJkNkJaYnJCdDU2eFRvSEltRFJiOVRJWllhNUxlMTU5ZGxvUWtzRVpCUDhmR1JvLTc4eEl2NVZtenplSGV4TmlzVDF0VF9kV2lfZmItT0lxX1BsVW9fc3JiRHN1RzhXU2EwOHJ4MkRYRG1PWWpidTVnMUJscWprY1hXaS0xaVoxZU51eG9nZW5IbHU2RXhGSFdOTEtzdnVrOUJCeXVBQ3VvM0ZQZVdqeENsazA?oc=5",
+      "publishedAt": "2026-10-25T18:19:27.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeTFtSVNpVEV6RTJSb3VhQ1I1WEsyYXBaaWxXV0hBZkZ0R0RkN2Nrdm9lRnM2WWhVd19xTWVMVzcyLUM2SExta29EWVI5Q2JJaWJKSmxSNmhHYmwtVUtPUngxUGhfWld0eW9BaTlQRFZjWHptbE9ocWdjQVBUdTl2Nm5wYTVDdnN4Q21DY254dGFxZ2lGQXNfY21PVG4wVjJwZi1rLWszQkFuMEpnN1A4NnZ0RVYtcTlvWlpHeFVlSXg?oc=5",
+      "publishedAt": "2026-10-25T17:50:35.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Tracking the 2026 Early Vote: Midterm Elections",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "publishedAt": "2026-10-25T17:30:21.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Texas Midterm Elections 2026: Key Races, Candidates and Past Results",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uWFNONTdBQ1dFOUxtbU1pbGVJOXF4LVI1TUFYaTg5SFo2U0YzY1ZRemY4bmxaZ191MHVwbzkyTHhlaXlKWEhtdXdqSFZ5ZFhFMGRSZXRxdVpZRTVFZE1Od2NnTUtMYlFNY1YzNGlB?oc=5",
+      "publishedAt": "2026-10-25T17:00:21.000Z"
+    },
+    {
+      "source": "Silver Bulletin",
+      "title": "FLIPR 2026 Senate forecast",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjdtTENfOTI3YnEtMWExbmNVOElpaTRqTUxGQTBBRGpILTMzdmE1bmtEMlZ6VHZXTDNoMVZvSHFOaVhaeXBmRkJTSE5WQlZrLUhNeUlnR0tHOEYyQTR5WW5JMldBam11Tk5DcS16YTZZSWE5WFI2S0Joa3FhS2xVWA?oc=5",
+      "publishedAt": "2026-10-25T16:22:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "California election officials frustrated, rattled by DOJ demand to sequester 'noncitizen' ballots",
+      "url": "https://www.pbs.org/newshour/politics/california-election-officials-frustrated-rattled-by-doj-demand-to-sequester-noncitizen-ballots",
+      "publishedAt": "2026-10-25T15:17:21.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Obama, in Midwest, assails 'cruelty' and indecency from Trump and his allies in the midterm campaign",
+      "url": "https://www.pbs.org/newshour/politics/obama-in-midwest-assails-cruelty-and-indecency-from-trump-and-his-allies-in-the-midterm-campaign",
+      "publishedAt": "2026-10-25T14:35:09.000Z"
+    },
     {
       "source": "NPR",
       "title": "Politics chat: The polls show a Democratic sweep in the midterms. Can you trust them?",
@@ -14,52 +56,10 @@
       "publishedAt": "2026-10-25T12:06:25.000Z"
     },
     {
-      "source": "MultiState",
-      "title": "Ohio Governor Race 2026: Ramaswamy vs. Acton",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HWW51SWIzYkFacEZPVnl1T1JEWTY4Y3QtNTBpS3UxS3Fia1pJUGNRcHdaLVl2dVRwM21teV9iYnhiM0Q3Z2J0X282TTkzRUF4ajVwRUE5bUtMLVdlNVlYNUR2SmxkbGFQRlUw?oc=5",
-      "publishedAt": "2026-10-25T10:55:22.000Z"
-    },
-    {
-      "source": "MultiState",
-      "title": "Florida 2026 Election Results",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tNzlNZGlVd05OTk95bVFnTkdZZGFmYU5aaUpRVWxGYkVwNFdISXV3N09IbXNEajhBcVc0TEFDRVRtbHk0akZFUllXNmgxeXBIbWw3Qm1RWHp4ZDNveG5tLURtT3lfX1E?oc=5",
-      "publishedAt": "2026-10-25T10:49:21.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "In Arkansas, Democrats see an opening at the edge of the competitive midterms map",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSkRUY0FiY3JmTDM0cWNQQ3BLSU90djF3aElLdHl6YWt3czRPc3dwcEQ3YldYV2JtaUNFZWVHM3hlMzdCVFFWdUFjcmh2NDFPdWRWLVk2aDd2R2NfOUtBLWpQS29TbWpJZ1dIWWVVMFZFcGNjdFgySkhUU2xIakpoeFFWblB3RzdBYXBhcU11X0VJbFJRbm5jb25JV2YzLTZDWERUVld4Mm5vSTRZdVlUTm5n?oc=5",
-      "publishedAt": "2026-10-25T09:00:00.000Z"
-    },
-    {
       "source": "NPR",
       "title": "Independent candidates sense a moment. Some Democrats hope they're right.",
       "url": "https://www.npr.org/2026/10/25/nx-s1-5995460/midterms-independent-candidates-nebraska-montana",
       "publishedAt": "2026-10-25T09:00:00.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Texas Midterm Elections 2026: Key Races, Candidates and Past Results",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uWFNONTdBQ1dFOUxtbU1pbGVJOXF4LVI1TUFYaTg5SFo2U0YzY1ZRemY4bmxaZ191MHVwbzkyTHhlaXlKWEhtdXdqSFZ5ZFhFMGRSZXRxdVpZRTVFZE1Od2NnTUtMYlFNY1YzNGlB?oc=5",
-      "publishedAt": "2026-10-25T08:00:21.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Democrats ask judge to dismiss Trump administration’s challenge to Alaska Senate race",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcFRtY2d0ODhsOVMxck1mTTNfQVZYQWpRWUw4cDlGOHdfOERLSXdscmdVYlVRaERsM1RXWGNUeUFsMjlYRlY3a1RDNEF6cDRBeUZUWm1TcjRFYTk4cXY2UWd3T0hxM3VGdTZvZllEUDNFSF8yU3psdUhPWDBWOFdCTDlZX3NNcWNnc1EwMFhHZmFsc2hyeFlxYUtDcHR1LTZkZGkzb0R5MXpGZGNLYko0eTVPM2l2aVNrcV9vREhHelFsRHI0bW00?oc=5",
-      "publishedAt": "2026-10-25T03:45:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump casts his midterm ballot early in Florida",
-      "url": "https://www.pbs.org/newshour/politics/trump-casts-his-midterm-ballot-early-in-florida",
-      "publishedAt": "2026-10-24T21:29:15.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Republican billionaire Rick Jackson is walking a Trump tightrope in his quest to lead Georgia",
-      "url": "https://www.pbs.org/newshour/politics/republican-billionaire-rick-jackson-is-walking-a-trump-tightrope-in-his-quest-to-lead-georgia",
-      "publishedAt": "2026-10-24T19:04:00.000Z"
     }
   ]
 }
