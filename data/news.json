@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-10-30T15:21:05.053Z",
+  "generatedAt": "2026-10-30T21:03:42.423Z",
   "articles": [
+    {
+      "source": "PBS NewsHour",
+      "title": "Appeals court rejects Justice Department request for California to set aside disputed ballots",
+      "url": "https://www.pbs.org/newshour/politics/appeals-court-rejects-justice-department-request-for-california-to-set-aside-disputed-ballots",
+      "publishedAt": "2026-10-30T20:56:32.000Z"
+    },
+    {
+      "source": "ABC7 New York",
+      "title": "2026 Midterms: Watch 'Eyewitness News Guide to the Election' on Monday at 2 pm",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMGFHWjRKU1AtYVhQOGp2Wkg4a1l3TENMd2xSMFBPT0xDSXQxSnl3N1BKTlNqS1NpZkFCaU1NU3plOThRNDI1VVJvbVhJV1JsWldCeEozMUJuVXZSaEJ2MHVmUmRKMV9mQ3JTVDFuMWU1ZXQ1cFFSWlZLNy1YM010cHc4bUVSemQ2Z1RhOEVudmZGZEVfOXVwZ1JVRDDSAaIBQVVfeXFMTVh0NkVzRE1nSl9GQjBzOE5Hblkwc0M4LUh6QXI0Q25EVGR2U1NUOEk2d1JpNTJVbkloMDVISEt1ckxDX3lYN1F5WkhFNUgxSUVmeTRiT3F3X3pxQ3dLVVpqMm9RNXhjbzlVWXJib2JNUzdXSzJUdkctQnZ5UXR1WVFKZHk2MHRwNDJzcXVXN2dWLVF3RzRfOU5NRy1KcVpyNjNB?oc=5",
+      "publishedAt": "2026-10-30T19:06:51.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "2 Trump attempts to change the D.C. landscape play out in the courts as midterms near",
+      "url": "https://www.pbs.org/newshour/politics/2-trump-attempts-to-change-the-d-c-landscape-play-out-in-the-courts-as-midterms-near",
+      "publishedAt": "2026-10-30T18:34:47.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "2026 Senate Battleground Polls: Midterm Primary Trends",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVUJocWhHTDlYQ1pMMkt0bWZ2VnNsWXZiOFdsVERnQVRERDFvV0FyanpkRWpKWVlNU3kzT18wcURiWjRWcm8xV01SS3FqV3hWYXcyUFlSZ1lsRzdWcnVDenBWUTY2MGpiWEZZbnpiQS1reDVBZ0ZpclBzWExSZw?oc=5",
+      "publishedAt": "2026-10-30T18:33:02.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Michigan Midterm Elections 2026: Key Races, Candidates and Past Results",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VWE96aXR0S3I2YjZPYWRXb21UM1lCZXoxbFdDenBTUzdjMmJHUjljRTdFc3hHQm9DTlBiSXIzRGg1c1U4N05MbHk0OFhtSVNpc2RNcWZhMzdpRldLWE5jYzd0cEZQRV8zR1d1VUtWWWlYQQ?oc=5",
+      "publishedAt": "2026-10-30T18:30:21.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Texas Midterm Elections 2026: Key Races, Candidates and Past Results",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uWFNONTdBQ1dFOUxtbU1pbGVJOXF4LVI1TUFYaTg5SFo2U0YzY1ZRemY4bmxaZ191MHVwbzkyTHhlaXlKWEhtdXdqSFZ5ZFhFMGRSZXRxdVpZRTVFZE1Od2NnTUtMYlFNY1YzNGlB?oc=5",
+      "publishedAt": "2026-10-30T18:30:21.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH: Rubio welcomes G20 foreign ministers to Atlanta at 'critical moment'",
+      "url": "https://www.pbs.org/newshour/politics/watch-rubio-welcomes-g20-foreign-ministers-to-atlanta-at-critical-moment",
+      "publishedAt": "2026-10-30T18:10:01.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Midterms 2026: Congress Polls and More",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
+      "publishedAt": "2026-10-30T18:00:21.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "WATCH LIVE: Election night 2026 PBS News special coverage",
+      "url": "https://www.pbs.org/newshour/politics/watch-live-election-night-2026-pbs-news-special-coverage",
+      "publishedAt": "2026-10-30T17:42:42.000Z"
+    },
     {
       "source": "NPR",
       "title": "NPR special: 5 takeaways from a year of listening to swing voters",
       "url": "https://www.npr.org/2026/10/30/nx-s1-6008113/npr-special-swing-voter-focus-groups",
       "publishedAt": "2026-10-30T15:00:00.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Millions more Americans vote ahead of Election Day as early voting jumps across Senate battlegrounds",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORFdyUUs4SWc1RkRHdU9vWS1MWWFZS0xUNDFZZmpxcmN0SUplWE5mZThQQW82TGYtRURmbENFTFBycGxiVlhzcTBlTUZvd0lITHNHRk4wd1BPWV9jTm9Cdy1ZWThETnd4dmZUOUJVZ3JXM05LYjNTMGhsOWdwTHZ4Y0pSUldDcGdHZEl6Z3U4RTlOeTNhenhZOV9McGxwRVRFb2cwdHoxNDNvdU5QbmFuRFFTX3RIbzBIZ2hTNXhJRG5FbXVNdWp5dmkwNmJrb0ZYZWRJRNIB2gFBVV95cUxObS1GbVd2dlRCc3o0SWtkYWN4ZkxUQXVzNTFuUGE0VzdGTHlVRkt2NzV6OEIwdG9EUFVHOFFJUVoteE5ESDJCbFZfZFp4cFVSRklXek9GVDhia1gtTWJGbTN4UlZPREpwNjdPODBfYzNlMHFXU1FuZVo5Tk1hbUVxaDBhWjBZdS1rM3BtRVpjQVhLVUl4UXc4ek1WQl9PZnFzOEZ1Wk40aWVJcGVwMGVoREV2RHNzNnlGM0JfU3NCMmdaandQaVg4bnN6QVhKRWJpYXVlZWZzNnZ1dw?oc=5",
-      "publishedAt": "2026-10-30T14:44:02.000Z"
-    },
-    {
-      "source": "Forbes",
-      "title": "Latest Polls In 2026 Midterms: Democrat Adam Hamilton Ahead In Kansas Senate Race In 2 Polls",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNWdWUlBBdEJmQjFCeVhPVWdRM3NOaE5wdDkwM3hTNkFXY0lCdWNJRFFLQUFZMVNNWUNOWkN1LW1yZVNxX01CVFlncVhLcGh2Nm54Y25sejRyZ1BxZ0QtWGhDdFNWb3FnM1Zsc01rSTdsQTlVeUpkUDlnZ3lBTWl0SWNTSG15b0swWnRQZzgyUWs5OEMzeHdkTjR2c2tMdkJWMmxGQnJxRklTaFNNajZjMEtua1FvRnFTcVQyc1NsMFRZakxGdmUxTFFjQlFiVDhQS2dEU1pJRmQ?oc=5",
-      "publishedAt": "2026-10-30T14:31:22.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Trump Cancels Rallies in Kansas and Iowa",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PTDRkQlY2RzdfS3FhcDV5Z3VOSXVTVE9lc3pIWTJBQTZZOW1SdkFUN193Qm1fSUtPMGZFODJnLTJuWmhvV0F0eTJsUFlGeFBieHNGVmlUM2R3ZUEwamlnejdESUJxRTFockRTQVVDM1pzR1lvU2c?oc=5",
-      "publishedAt": "2026-10-30T14:25:24.000Z"
-    },
-    {
-      "source": "Spectrum News",
-      "title": "Poll shows Democrats gaining in Texas and Michigan Senate races; Maine and Kansas tight",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUU44cHRGcWxXby1Qa2M5V0pJMVgzRllzSFA2aDVpS2NyRFVnUDBhMWh5WUpWQmFIUXdtVTdnRjk1ai05VDZ0OUgyLU1DODFRNERBNURJZ0hMSGNRT1FtMnFEM21za3lRb0xCVGQ5RGNTYk5GRDEwWGptTHZsclNQeF9qc0dpbks1cDdNcmFpa0YyY3dkMGZ4Vnl6RHRnMmxMMGQ2Z3lSMTBkanB6bHgw?oc=5",
-      "publishedAt": "2026-10-30T14:08:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Peltola denies knowing about Alaska spoiler candidate as Justice Department escalates investigation",
-      "url": "https://www.pbs.org/newshour/politics/peltola-denies-knowing-about-alaska-spoiler-candidate-as-justice-department-escalates-investigation",
-      "publishedAt": "2026-10-30T13:45:06.000Z"
-    },
-    {
-      "source": "NewsNation",
-      "title": "Alaska Senate race certification could be ‘stopped or changed’: Governor",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQnRXdy1lZVlhaGducEJXRzVxRGZTMXpYX05zNFRCVlJPY3dVS1NpelFaZlZHcVBRZkdTbUFlSkxpdGRkWUFxT1VUWGZyS0hrWE0zR0NfOUd4Y2ZyRVJLVGpKMktESjh6OUhWNmQxenptYlZwa3pPYXl6UFVWVFFoeVlTaWxCblR5SzhpN29TNUVIYVRfcmwxeFlxelBvd3o3U1NaOGhRSdIBrAFBVV95cUxPOXpfZE5zS3dYUUJqeWZrVENkVmhreFY5QkpOSjdEV0lUenM4NWhOdGdWNlZRSzVqTGpPTWZReFdTSERFYTBSaU1GM1pIcjNVblZfQnFSSld3VUpCWWh4YWswTTRvQ2F2Z3lodlhTTXIyM0ZPckxDeXU1UmtYV0lLeEhvNGc0R1hQZ0lSN2ppZi0yNFRkcUhwMDBBQmx4WU9sMWo1b3NkblpIWWkw?oc=5",
-      "publishedAt": "2026-10-30T13:34:12.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Why is the Cheesecake Factory at the center of the latest culture war?",
-      "url": "https://www.npr.org/2026/10/30/nx-s1-6023106/cheesecake-factory-culture-war-affordability-trump-obama",
-      "publishedAt": "2026-10-30T12:00:31.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
-      "url": "https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans",
-      "publishedAt": "2026-10-30T11:20:26.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "'Affordability? For who?' Voters decide between helping homeowners or public services",
-      "url": "https://www.npr.org/2026/10/30/nx-s1-6018258/affordability-florida-amendment-3",
-      "publishedAt": "2026-10-30T09:00:00.000Z"
     }
   ]
 }
