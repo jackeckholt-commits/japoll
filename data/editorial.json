@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T06:32:05.030Z",
+  "updatedAt": "2026-11-03T06:34:20.849Z",
   "predictions": {
     "senate": {
       "democrats": 54,
@@ -12,8 +12,8 @@
       "label": "Projected governorships"
     },
     "house": {
-      "democrats": 230,
-      "republicans": 205,
+      "democrats": 240,
+      "republicans": 195,
       "label": "Based on current averages",
       "note": "Site prediction using available House projection data."
     }
