@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-18T22:02:06.813Z",
+  "updatedAt": "2026-11-03T06:21:51.232Z",
   "predictions": {
     "senate": {
-      "democrats": 52,
-      "republicans": 48,
+      "democrats": 54,
+      "republicans": 46,
       "label": "Projected Senate seats"
     },
     "governor": {
-      "democrats": 26,
-      "republicans": 24,
+      "democrats": 28,
+      "republicans": 22,
       "label": "Projected governorships"
     },
     "house": {
