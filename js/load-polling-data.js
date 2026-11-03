@@ -263,12 +263,12 @@ function formatSourceStatus(source) {
     return "Live source";
   }
 
-  if (source.scrapeStatus === "not_applicable" || source.included === false) {
-    return "Reference only";
+  if (source.scrapeStatus === "fallback") {
+    return "Previous result · excluded";
   }
 
-  if (source.scrapeStatus === "fallback") {
-    return "Fallback shown";
+  if (source.scrapeStatus === "not_applicable" || source.included === false) {
+    return "Reference only";
   }
 
   if (source.included === true) {
@@ -321,6 +321,7 @@ async function loadPollingData() {
   setText("[data-generic-adjustment]", adjustmentText);
 
   data.genericBallot.sources.forEach(source => {
+    updateSourceLink("generic", source);
     setText(`[data-generic-source-status="${source.key}"]`, formatSourceStatus(source));
     setText(`[data-generic-source="${source.key}"][data-field="democrats"]`, formatPercent(source.democrats));
     setText(`[data-generic-source="${source.key}"][data-field="republicans"]`, formatPercent(source.republicans));
@@ -334,6 +335,7 @@ async function loadPollingData() {
   });
 
   data.trumpApproval.sources.forEach(source => {
+    updateSourceLink("approval", source);
     setText(`[data-approval-source-status="${source.key}"]`, formatSourceStatus(source));
     setText(`[data-approval-source="${source.key}"][data-field="approve"]`, formatPercent(source.approve));
     setText(`[data-approval-source="${source.key}"][data-field="disapprove"]`, formatPercent(source.disapprove));
@@ -347,6 +349,18 @@ async function loadPollingData() {
   });
 
   setText("[data-updated-at]", new Date(data.updatedAt).toLocaleString());
+}
+
+function updateSourceLink(type, source) {
+  document.querySelectorAll(`[data-${type}-source-status="${source.key}"]`).forEach(status => {
+    const card = status.closest("a.source-card");
+    if (!card) return;
+    try {
+      const url = new URL(source.url);
+      if (url.protocol === "https:") card.href = url.href;
+    } catch { card.removeAttribute("href"); }
+    status.title = source.scrapeNote || "";
+  });
 }
 
 loadPollingData().catch(error => {

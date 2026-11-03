@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T17:51:31.602Z",
+  "updatedAt": "2026-11-03T21:01:37.344Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
@@ -42,7 +42,7 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-11-02",
+      "updated": "2026-11-03",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 198,

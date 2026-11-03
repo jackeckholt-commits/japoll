@@ -11,12 +11,15 @@
 
 /* Race tables, history, and share controls. */
 .race-table-card { margin-top: clamp(1rem, 2vw, 1.8rem); }
-.race-table-toolbar { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin: 1.25rem 0 0.8rem; }
-.race-table-toolbar label { display: grid; gap: 0.35rem; min-width: min(100%, 390px); color: #a9c0d0; font-size: 0.76rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
-.race-table-toolbar input { width: 100%; min-height: 42px; padding: 0.65rem 0.75rem; border: 1px solid rgba(105, 151, 181, .45); border-radius: 10px; color: #eff8ff; background: rgba(7, 22, 32, .7); font: inherit; text-transform: none; }
-.race-table-toolbar > span { color: #a9c0d0; font-size: .84rem; font-weight: 800; }
+.race-table-disclosure { overflow: hidden; margin-top: 1.1rem; border: 1px solid rgba(97, 141, 169, .34); border-radius: 14px; background: rgba(7, 21, 30, .42); }
+.race-table-disclosure summary { display: flex; align-items: center; justify-content: space-between; min-height: 54px; padding: 0 1rem; cursor: pointer; color: #dff2ff; font-size: .9rem; font-weight: 900; list-style: none; }
+.race-table-disclosure summary::-webkit-details-marker { display: none; }
+.race-table-disclosure summary::after { content: "+"; color: #9dd3ff; font-size: 1.25rem; }
+.race-table-disclosure[open] summary { border-bottom: 1px solid rgba(97, 141, 169, .34); }
+.race-table-disclosure[open] summary::after { content: "−"; }
 .race-table-shell { overflow: auto; border: 1px solid rgba(97, 141, 169, .34); border-radius: 14px; background: rgba(7, 21, 30, .42); }
-.race-table-shell table { width: 100%; min-width: 840px; border-collapse: collapse; text-align: left; }
+.race-table-disclosure .race-table-shell { border: 0; border-radius: 0; }
+.race-table-shell table { width: 100%; min-width: 580px; border-collapse: collapse; text-align: left; }
 .race-table-shell th { padding: .75rem .9rem; border-bottom: 1px solid rgba(97, 141, 169, .34); color: #96bbd6; font-size: .68rem; letter-spacing: .07em; text-transform: uppercase; }
 .race-table-shell td { padding: .85rem .9rem; border-bottom: 1px solid rgba(97, 141, 169, .19); color: #dce9f1; font-size: .88rem; vertical-align: middle; }
 .race-table-shell tr:last-child td { border-bottom: 0; }
@@ -27,15 +30,14 @@
 .race-rating-pill.state-repSolid, .race-rating-pill.state-repLikely, .race-rating-pill.state-repLean, .race-rating-pill.state-repTilt { color: #ffadb3; background: rgba(228, 80, 91, .12); }
 .race-rating-pill.state-tossup { color: #f0d58f; background: rgba(203, 165, 88, .12); }
 .race-rating-pill.state-no-data { color: #b7c5ce; background: rgba(164, 184, 195, .08); }
-.race-utility-actions, .race-table-actions { display: flex; flex-wrap: wrap; gap: .4rem; }
+.race-utility-actions { display: flex; flex-wrap: wrap; gap: .4rem; }
 .race-utility-button { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: .42rem .65rem; border: 1px solid rgba(103, 163, 202, .55); border-radius: 9px; cursor: pointer; color: #dff2ff; background: rgba(31, 78, 109, .4); font: inherit; font-size: .78rem; font-weight: 900; text-decoration: none; }
 .race-utility-button:hover { border-color: #74c5f8; color: #fff; background: rgba(52, 125, 170, .62); }
+.race-detail-actions { clear: both; margin: 1rem 0; }
+.race-detail-actions .race-utility-button { width: 100%; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (max-width: 650px) {
   .race-table-card { padding: 1rem; }
-  .race-table-toolbar { align-items: stretch; flex-direction: column; }
-  .race-table-toolbar label { min-width: 0; }
-  .race-table-toolbar > span { align-self: flex-end; }
   .race-utility-actions { gap: .3rem; }
   .race-utility-button { min-height: 32px; padding: .4rem .55rem; }
 }
@@ -3887,3 +3889,25 @@ body:has(.map-maker-page-shell) {
     order: 20;
   }
 }
+
+/* Let every menu item remain reachable on short screens and at larger text sizes. */
+.top-nav.is-open .nav-links {
+  max-height: min(65dvh, 620px) !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+html.mobile-menu-open,
+body.mobile-menu-open {
+  overflow-y: auto !important;
+}
+
+@media (max-width: 420px) {
+  .top-nav .nav-links,
+  .top-nav.is-open .nav-links {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.trend-margin em { font-variant-numeric: tabular-nums; }

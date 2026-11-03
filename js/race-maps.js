@@ -286,15 +286,19 @@ function renderRaceDetail(panel, race, mapData, mapKey) {
     ${renderCandidateList(race, mapData)}
   `;
 
+  const shareControl = mapData.unitLabel === "district" ? "" : `
+    <div class="race-utility-actions race-detail-actions">
+      <button type="button" class="race-utility-button" data-share-race>Share race</button>
+    </div>
+  `;
+
   panel.innerHTML = `
     <span class="detail-kicker">${race.state}</span>
     <h3>${race.label || race.name}</h3>
     <p><strong>Status:</strong> ${formatRaceStatus(race)}</p>
     ${noteLine}
     ${candidateSection}
-    <div class="race-utility-actions">
-      <button type="button" class="race-utility-button" data-share-race>Share</button>
-    </div>
+    ${shareControl}
     ${renderRaceLinks(race, mapData)}
   `;
   attachRaceActions(panel, race, mapKey);
@@ -587,27 +591,14 @@ function renderRaceTable(section, mapData, mapKey) {
   const races = (mapData.races || []).filter(race => race.active !== false);
   const rowHtml = race => {
     const candidates = (race.candidates || []).map(candidate => escapeHtml(candidate.name)).filter(Boolean).join(" · ");
-    return `<tr data-race-search="${escapeHtml(`${race.label || race.name} ${race.state} ${formatRaceStatus(race)}`.toLowerCase())}">
+    return `<tr>
       <td><strong>${escapeHtml(race.label || race.name)}</strong><span>${escapeHtml(candidates || race.state || "")}</span></td>
       <td><span class="race-rating-pill ${getRaceClass(race)}">${escapeHtml(formatRaceStatus(race))}</span></td>
       <td>${escapeHtml(race.lastUpdated || "—")}</td>
-      <td><div class="race-table-actions"><button type="button" class="race-utility-button" data-share-race>Share</button></div></td>
     </tr>`;
   };
-  slot.innerHTML = `<div class="race-table-toolbar"><label>Find a race<input type="search" data-race-table-search placeholder="State, district, candidate, or rating"/></label><span data-race-table-count>${races.length} races</span></div><div class="race-table-shell"><table><thead><tr><th>Race</th><th>Rating</th><th>Updated</th><th><span class="visually-hidden">Actions</span></th></tr></thead><tbody>${races.map(rowHtml).join("")}</tbody></table></div>`;
-  slot.querySelectorAll("tbody tr").forEach((row, index) => attachRaceActions(row, races[index], mapKey));
-  const input = slot.querySelector("[data-race-table-search]");
-  const count = slot.querySelector("[data-race-table-count]");
-  input.addEventListener("input", () => {
-    const query = input.value.trim().toLowerCase();
-    let shown = 0;
-    slot.querySelectorAll("tbody tr").forEach(row => {
-      const visible = !query || row.dataset.raceSearch.includes(query);
-      row.hidden = !visible;
-      if (visible) shown += 1;
-    });
-    count.textContent = `${shown} of ${races.length} races`;
-  });
+  const label = mapKey === "house" ? "districts" : "races";
+  slot.innerHTML = `<details class="race-table-disclosure"><summary>View all ${races.length} ${label}</summary><div class="race-table-shell"><table><thead><tr><th>Race</th><th>Rating</th><th>Updated</th></tr></thead><tbody>${races.map(rowHtml).join("")}</tbody></table></div></details>`;
 }
 
 async function initializeRaceMaps() {

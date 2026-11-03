@@ -272,6 +272,17 @@ async function loadEditorialContent() {
       };
     });
 
+    const houseRaces = raceData?.maps?.house?.races?.filter(race => race.active);
+    if (houseRaces?.length === 435 && editorial.predictions?.house) {
+      editorial.predictions.house = {
+        ...editorial.predictions.house,
+        democrats: houseRaces.filter(race => race.party === "dem").length,
+        republicans: houseRaces.filter(race => race.party === "rep").length,
+        label: "Projected House seats",
+        note: "Based on the district ratings on this map."
+      };
+    }
+
     renderAnalysisPosts(editorial.posts);
     renderRecentArticles(newsArticles);
     renderHomepageAnalysis(editorial.posts, newsArticles);

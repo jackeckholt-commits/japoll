@@ -10,11 +10,11 @@ const source = {
     generic: "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
     approval: "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
     genericDatawrappers: [
-      "https://datawrapper.dwcdn.net/rfiFi/31/",
-      "https://datawrapper.dwcdn.net/sEHv2/34/"
+      "https://datawrapper.dwcdn.net/rfiFi/",
+      "https://datawrapper.dwcdn.net/sEHv2/"
     ],
     approvalDatawrappers: [
-      "https://datawrapper.dwcdn.net/kSCt4/349/"
+      "https://datawrapper.dwcdn.net/kSCt4/"
     ]
   }
 };

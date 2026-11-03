@@ -43,12 +43,12 @@
         "key": "cnn",
         "name": "CNN",
         "shortName": "CNN",
-        "democrats": 45.0,
-        "republicans": 42.0,
+        "democrats": 47.0,
+        "republicans": 39.0,
         "included": true,
-        "url": "https://www.cnn.com/2026/05/12/politics/cnn-poll-midterms-affordability-politics-impact",
+        "url": "https://www.cnn.com/2026/07/30/politics/cnn-poll-midterm-generic-ballot-democrats-republicans-change",
         "scrapeStatus": "fallback",
-        "scrapeNote": "Latest published 2026 CNN/SSRS generic-ballot result (April 30-May 4 field dates)"
+        "scrapeNote": "Verified CNN/SSRS generic-ballot result (July 23-27 field dates); excluded from the automatic average unless the live extractor confirms it."
       },
       {
         "key": "racetowh",

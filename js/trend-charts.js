@@ -84,7 +84,15 @@ function renderLegend(legend, config, rows) {
         </div>
       </div>
     `;
-  }).join("");
+  }).join("") + `<div class="trend-legend-item trend-margin"><div><strong>${config.series[0].key === "democrats" ? "Margin" : "Net approval"}</strong><em>${formatMargin(config, rows[rows.length - 1])}</em></div></div>`;
+}
+
+function formatMargin(config, row) {
+  const [first, second] = config.series;
+  const margin = row[first.key] - row[second.key];
+  if (!Number.isFinite(margin)) return "N/A";
+  if (first.key === "democrats") return margin === 0 ? "Even" : `${margin > 0 ? "D" : "R"}+${Math.abs(margin).toFixed(1)}`;
+  return `${margin > 0 ? "+" : ""}${margin.toFixed(1)} points`;
 }
 
 function renderHoverPanel(panel, config, row) {
@@ -97,6 +105,7 @@ function renderHoverPanel(panel, config, row) {
           ${series.label}: ${formatPercent(row[series.key])}
         </span>
       `).join("")}
+      <span class="trend-margin">${config.series[0].key === "democrats" ? "Margin" : "Net approval"}: ${formatMargin(config, row)}</span>
     </div>
   `;
 }
@@ -166,6 +175,7 @@ function renderTrendChart(container, config, rows) {
   const panel = container.querySelector(".trend-hover-panel");
 
   renderLegend(legend, config, rows);
+  renderHoverPanel(panel, config, rows[rows.length - 1]);
 
   const width = 980;
   const height = 430;
@@ -328,7 +338,7 @@ function renderTrendChart(container, config, rows) {
   svg.appendChild(overlay);
   svgBox.appendChild(svg);
 
-  overlay.addEventListener("mousemove", event => {
+  overlay.addEventListener("pointermove", event => {
     const rect = svg.getBoundingClientRect();
     const mouseX = ((event.clientX - rect.left) / rect.width) * width;
 
@@ -350,9 +360,9 @@ function renderTrendChart(container, config, rows) {
     renderHoverPanel(panel, config, nearest);
   });
 
-  overlay.addEventListener("mouseleave", () => {
+  overlay.addEventListener("pointerleave", () => {
     hoverDots.forEach(dot => dot.style.opacity = "0");
-    panel.innerHTML = panelPrompt;
+    renderHoverPanel(panel, config, rows[rows.length - 1]);
   });
 }
 
@@ -418,7 +428,7 @@ function rowsFromPollingHistory(history, polling, type) {
 
   const rows = runs
     .map(run => rowFromHistoryRun(run, type))
-    .filter(Boolean);
+    .filter(row => row && Object.entries(row).every(([key, value]) => key === "date" || key === "estimated" || Number.isFinite(value)));
 
   const today = new Date(polling.updatedAt || Date.now()).toISOString().slice(0, 10);
 

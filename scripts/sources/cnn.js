@@ -7,10 +7,10 @@ const source = {
   name: "CNN",
   shortName: "CNN",
   urls: {
-    // CNN's old Poll of Polls page is still pinned to the 2022 midterms.
-    // This is CNN/SSRS's most recent 2026 generic-ballot release instead.
-    generic: "https://www.cnn.com/2026/05/12/politics/cnn-poll-midterms-affordability-politics-impact",
-    approval: "https://www.cnn.com/polling/approval/trump-cnn-poll-of-polls"
+    // CNN's old generic-ballot article was from May. Use the latest 2026
+    // CNN/SSRS national generic-ballot release instead of an old result.
+    generic: "https://www.cnn.com/2026/07/30/politics/cnn-poll-midterm-generic-ballot-democrats-republicans-change",
+    approval: "https://www.cnn.com/polling"
   }
 };
 
@@ -120,6 +120,8 @@ function extractGeneric(text) {
 }
 
 function extractApproval(text) {
+  const current = normalizeText(text).match(/Latest Trump approval rating[\s\S]{0,1000}?(\d{1,2}(?:\.\d+)?)\s*%\s*Approve\s+(\d{1,2}(?:\.\d+)?)\s*%\s*Disapprove/i);
+  if (current) return { approve: Number(current[1]), disapprove: Number(current[2]) };
   const patterns = [
     /Approve\s+(\d{1,2}(?:\.\d+)?)\s*%?.*?Disapprove\s+(\d{1,2}(?:\.\d+)?)\s*%?/is,
     /Disapprove\s+(\d{1,2}(?:\.\d+)?)\s*%?.*?Approve\s+(\d{1,2}(?:\.\d+)?)\s*%?/is
@@ -160,7 +162,9 @@ async function scrapeGeneric(fallback) {
       republicans: validation.ok ? values.republicans : null,
       included: validation.ok,
       scrapeStatus: validation.ok ? "live" : "fallback",
-      scrapeNote: validation.ok ? "Validated 2026 CNN/SSRS generic-ballot release" : `Rejected live scrape: ${validation.reason}`
+      scrapeNote: validation.ok
+        ? "Validated 2026 CNN/SSRS generic-ballot release"
+        : "CNN's page confirms the result's margin but does not expose both party shares in usable markup; the verified fallback is shown but excluded from the automatic average."
     }, fallback);
   } catch (error) {
     console.warn(`[${source.shortName}] Generic ballot scrape failed. Using fallback: ${error.message}`);
@@ -206,7 +210,20 @@ async function scrapeApproval(fallback) {
 
 export async function getCNNData(fallback = {}) {
   return {
-    genericBallot: await scrapeGeneric(fallback.genericBallot),
+    // A dated CNN/SSRS survey is not an updating polling average. Keep the
+    // official polling hub as a reference rather than count an old survey.
+    genericBallot: {
+      key: source.key,
+      name: source.name,
+      shortName: source.shortName,
+      url: "https://www.cnn.com/polling",
+      democrats: null,
+      republicans: null,
+      included: false,
+      scrapeStatus: "not_applicable",
+      note: "CNN publishes individual congressional polls; no current generic-ballot average is available.",
+      scrapeNote: "Reference only; excluded from the average."
+    },
     trumpApproval: await scrapeApproval(fallback.trumpApproval)
   };
 }

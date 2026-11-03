@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T17:51:24.175Z",
+  "updatedAt": "2026-11-03T21:02:23.097Z",
   "note": "Estimated points before automated collection are carried over from data/history.json. New scraper runs append or replace dated points here.",
   "runs": [
     {
@@ -8781,13 +8781,13 @@
     },
     {
       "date": "2026-11-03",
-      "timestamp": "2026-11-03T17:51:24.175Z",
+      "timestamp": "2026-11-03T21:02:23.097Z",
       "estimated": false,
       "genericBallot": {
         "average": {
-          "democrats": 50.7,
-          "republicans": 43.1,
-          "margin": 7.6
+          "democrats": 52.2,
+          "republicans": 43.4,
+          "margin": 8.8
         },
         "sources": [
           {
@@ -8813,10 +8813,10 @@
           },
           {
             "key": "cnn",
-            "democrats": 45,
-            "republicans": 42,
-            "included": true,
-            "status": "live"
+            "democrats": null,
+            "republicans": null,
+            "included": false,
+            "status": "not_applicable"
           },
           {
             "key": "racetowh",

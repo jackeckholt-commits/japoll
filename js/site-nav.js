@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.documentElement.classList.toggle("mobile-menu-open", isOpen);
     document.body.classList.toggle("mobile-menu-open", isOpen);
     toggle.setAttribute("aria-expanded", String(isOpen));
+    links.inert = !isOpen;
     toggle.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
     if (toggleLabel) toggleLabel.textContent = isOpen ? "Close" : "Menu";
     if (returnFocus) toggle.focus();
@@ -50,6 +51,16 @@ document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("keydown", event => {
     if (event.key === "Escape" && nav.classList.contains("is-open")) {
       setOpen(false, true);
+    }
+    if (event.key === "Tab" && nav.classList.contains("is-open")) {
+      const controls = [...nav.querySelectorAll('a[href], button')];
+      const first = controls[0];
+      const last = controls[controls.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault(); last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault(); first.focus();
+      }
     }
   });
 
