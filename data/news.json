@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-11-13T12:38:31.933Z",
+  "generatedAt": "2026-11-13T20:03:40.900Z",
   "articles": [
     {
-      "source": "NPR",
-      "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
-      "url": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
-      "publishedAt": "2026-11-13T12:07:12.000Z"
-    },
-    {
-      "source": "Idaho Capital Sun",
-      "title": "Idaho independent Achilles fell short against Republican US Sen. Risch. Can independents win here?",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOXZVbG1UUkliMUdzQm1UNE51UVBWSVRCQkZNNUZkRzZhOHotbXBZbWpma1N6X3J1TXVSbjZFYlhyTDVsZUVwOG9fRHhGUjVMc3JRc1pKWFVqUlZjcEFaWGNwQVQ5UGtfdFlHSkdKOWtZUW9Tc21sLWoyZ1JEbEswX2NXa2FOZ29rSVhCeUZJdks4YnEwNjQyUzEwR2V2ekQyZmJjVEZqVEQ4MzBua0ZBUjRGRXZhakFlaVFqUkhMT29UUngzcjBJZlFqMEhFaGJH?oc=5",
-      "publishedAt": "2026-11-13T11:05:43.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Hegseth awards medal to soldier who chastised him",
-      "url": "https://www.npr.org/2026/11/13/nx-s1-6039845/hegseth-awards-medal-to-soldier-who-chastised-him",
-      "publishedAt": "2026-11-13T10:27:08.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "These two voter turnout trends explain what happened across the South in the election",
-      "url": "https://www.npr.org/2026/11/13/nx-s1-6038701/midterm-election-voter-turnout-south",
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "These swing voters have low expectations for divided government",
-      "url": "https://www.npr.org/2026/11/13/nx-s1-6035826/north-carolina-swing-voters-congress-trump",
-      "publishedAt": "2026-11-13T10:00:00.000Z"
-    },
-    {
-      "source": "The Cornell Daily Sun",
-      "title": "Students From Swing States Share Post-Election Reactions",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMjZUSExDQXQ3N3cyS1J6ZUJnNjRGWjhzY0dlb1dFNExaVzEzd09DaXhqR3dMX3FzT2FaWl94eGJoU005c054WE9qY1ExQzJKeFA2UkVjQ3NrNGZ1ZWkwaE9HOTZDMDBCYXN4OWsyS2Nqb21zaUdzLXZCSFByNnV4Rmg5WFMwakdfV25Dd0RoQkdldjctSHJXcU9xRWJDWmRJ?oc=5",
-      "publishedAt": "2026-11-13T05:29:10.000Z"
-    },
-    {
-      "source": "Anchorage Daily News",
-      "title": "Peltola, Kreiss-Tomkins grow leads after latest ballot counts in Alaska",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTV84LWxzRXZCZDBzYnJwY0puTlRXLXk2WlZsTU1sR2FpOHhlUUJ1Sm5GeFNkaFY0dFpNWTN6aHYwM0VybnpkNldCZDZRRE9HMDBoV3VNYTdVNGdyalN5dVc1QnE0Rkk4dklOajltbWZydF9VT0cwRDg0U2hhemhBLUF3MkdQV0xoS25iUHhLcHF4bkNFeWRCTnNKV05SdzVlU0xJMzZwX3hpRS0tdng2dQ?oc=5",
-      "publishedAt": "2026-11-13T05:11:07.000Z"
-    },
-    {
-      "source": "CNN",
-      "title": "Democrats pick up win in Alaska after midterms shellacking for GOP",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRXMtMlNuX3dDaVo3WWhVZ28ydTMtOFZSRGxFYi1ZOWNjTXdKbEc3S1IwWk9yaXNQTWxFRVE3bm95LUJxMEVkOEJTWDNIY0tyME9xWEtQUTN1Z013X0wyV0FzUHNBRnNDbVVsXzJzUUtyYUI1VVZ0bnYyZ0NvT29nN1l6ZThPSVpUZHJvODBjRzJEWUR2V3ptbDJ4WUdiX3ZvdVl5bmN4QWF2YThYMlRFX0tDYlV4czA?oc=5",
-      "publishedAt": "2026-11-13T04:53:59.000Z"
-    },
-    {
-      "source": "Alaska Public Media",
-      "title": "JKT tops 50% in Alaska governor’s race as Peltola extends Senate lead",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEVQWklvTk9YZHdxMTF2eUdBSnpCNzk4MENqenFLWXRQREpub2tnZXI0M1VsS1luM24zTERRQzVjd1k3dno2dWZMMkhyWEkzbFpJdmg0ZWI1eEo0TzZ6UXduVG1nb2djY3huZmFycmhkWWwxMzFhbE1tUVZHdEJkY1NYNV8zRUNCZlc4RW1zZGpOMnJCUVZoRFZWeDNqeHBjcFBMT25PSTJlSExmYXlYTTJVbjBPUU51cXZzZEYwb2FFYmh6aUE?oc=5",
-      "publishedAt": "2026-11-13T04:21:00.000Z"
+      "source": "NBC News",
+      "title": "Rep. Lauren Boebert, conservative firebrand from Colorado, loses her race for re-election",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWTBXQkVBbEE0bG9pQVBXOVpTbGRLQkNKSVhzU3M1NTBPR3dabnZ3MXQ2cEEzTnJ3ZmhJVW1fdEVVbkR0aVgzSFNRUnAzazE1eVVXUTE3X1NHeFo0TkJnUDZJNzBGVmNBZ3c0Y3lISl9GaUN6WmljUk9JblFpYmdQUzN4aEJwaTJaUzk3dG9ROXkwSFk0OUk3SXpjdUJnbFFYeW9UREx1Zm1QbjNHMDNzM1BzR2dIZDd1YW5NVGVDX0l0bmw3QnZJ?oc=5",
+      "publishedAt": "2026-11-13T19:58:00.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "Senators probe RFK Jr.'s reason for Samoa trip after letter refuting his testimony published",
-      "url": "https://www.pbs.org/newshour/politics/senators-probe-rfk-jr-s-reason-for-samoa-trip-after-letter-refuting-his-testimony-published",
-      "publishedAt": "2026-11-13T00:50:18.000Z"
+      "title": "Supreme Court will consider Trump's executive order suspending asylum access at the southern border",
+      "url": "https://www.pbs.org/newshour/politics/supreme-court-will-consider-trumps-executive-order-suspending-asylum-access-at-the-southern-border",
+      "publishedAt": "2026-11-13T19:16:41.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "'TrumpCare' and commemorative plaques &mdash; how Democrats are pitching deal-making with the president",
+      "url": "https://www.pbs.org/newshour/politics/trumpcare-and-commemorative-plaques-how-democrats-are-pitching-deal-making-with-the-president",
+      "publishedAt": "2026-11-13T18:40:51.000Z"
+    },
+    {
+      "source": "South Carolina Daily Gazette",
+      "title": "Black voters’ enthusiasm drives historic gains for SC Democrats",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZXZyWGF5OUFQUDVITWJxVERPemFkM2lOX0lySGp4Ym1hd3hQbUVOSnpxMU95MnVjV1kzR2g0X1NiYlpXVW9lVG1TcTdmX29KQzhON00yMVh6Yjd2amdBU3p5MWg4OXpBdnJfWWpyUjQwc3ZRaHhuaTJERG11SU9LUkF2OHVWMGtmZjhzNzNySVZRYXE3U1VZc3BYajZFWUJVZnk4?oc=5",
+      "publishedAt": "2026-11-13T18:38:43.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "Blue wave ignites a wild, wide-open 2028 race",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORDk3ZVR2c2NPRkU4TTNIN2xhS2dDNHNVUkR0ZkZsSjRCTncwQ0dEaXFiVThDVV92UGZYaVc1ZXZ1VEotRm5YdUlJMVU2eGRvVkVRbk1XYkpucTlLb0VOZU9UQUtzWWhTc1JSS2VrVVo4YTZlaWthSUNZSlkyc3UyVGcyNVJQV0lvSnppcDhkenlOS2QyNWtXaVFmV3R0SW1xOWc?oc=5",
+      "publishedAt": "2026-11-13T18:34:35.000Z"
+    },
+    {
+      "source": "WAMC",
+      "title": "Eastern New York State Senate race headed for recount",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLXNJWlZTYmZpMjRScnFGQkNmeFQ5U2F6UWlLZFFhaFNEbTdSc2dnX2x0aEZXMzR5Tk5fRVlZY0J2MnlZcFl0MU9qSVlnV0k1WTRVbmxjNXU4NFFqX3kta0QxZXA2SF91NmNIOEhqRVpEakpBbGFRSnFIQ3RJMTZPcnZLbEhzUVg3d0pna2U2V091QQ?oc=5",
+      "publishedAt": "2026-11-13T17:21:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+      "url": "https://www.pbs.org/newshour/politics/bessent-blames-lutnicks-commerce-department-for-not-restricting-nvidia-chips-to-china",
+      "publishedAt": "2026-11-13T17:09:45.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "The Trump administration's voter roll crusade could continue",
+      "url": "https://www.npr.org/2026/11/13/nx-s1-6034016/voter-fraud-search-trump-california",
+      "publishedAt": "2026-11-13T17:00:00.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Navy has quietly fired some commanders and other officials, drawing congressional pushback",
+      "url": "https://www.pbs.org/newshour/politics/navy-has-quietly-fired-some-commanders-and-other-officials-drawing-congressional-pushback",
+      "publishedAt": "2026-11-13T16:58:31.000Z"
+    },
+    {
+      "source": "Time Magazine",
+      "title": "How Texas’ Blue Takeover Could Soon Begin Impacting Texans’ Lives",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYThZS05mY3BlV0FoN25TUEtCYU5JLTFsbjJBYW5GVUJHT2pzTjJnaEdFSE5aSHBqSW5XTWlWVF83dmp2dFBqSHlUOGd1a0VsTFN4Y2JURnRBN0Ita09xUGFnSElIbC1KVHY0M2gtd1NtLXRXMmJsdjQ3TzVqZkgzazM0Z2pNUFVxVEN0eUwzQy0?oc=5",
+      "publishedAt": "2026-11-13T16:57:53.000Z"
     }
   ]
 }
