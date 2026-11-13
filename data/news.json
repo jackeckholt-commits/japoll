@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-11-13T01:28:58.647Z",
+  "generatedAt": "2026-11-13T12:38:31.933Z",
   "articles": [
+    {
+      "source": "NPR",
+      "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
+      "url": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+      "publishedAt": "2026-11-13T12:07:12.000Z"
+    },
+    {
+      "source": "Idaho Capital Sun",
+      "title": "Idaho independent Achilles fell short against Republican US Sen. Risch. Can independents win here?",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOXZVbG1UUkliMUdzQm1UNE51UVBWSVRCQkZNNUZkRzZhOHotbXBZbWpma1N6X3J1TXVSbjZFYlhyTDVsZUVwOG9fRHhGUjVMc3JRc1pKWFVqUlZjcEFaWGNwQVQ5UGtfdFlHSkdKOWtZUW9Tc21sLWoyZ1JEbEswX2NXa2FOZ29rSVhCeUZJdks4YnEwNjQyUzEwR2V2ekQyZmJjVEZqVEQ4MzBua0ZBUjRGRXZhakFlaVFqUkhMT29UUngzcjBJZlFqMEhFaGJH?oc=5",
+      "publishedAt": "2026-11-13T11:05:43.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Hegseth awards medal to soldier who chastised him",
+      "url": "https://www.npr.org/2026/11/13/nx-s1-6039845/hegseth-awards-medal-to-soldier-who-chastised-him",
+      "publishedAt": "2026-11-13T10:27:08.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "These two voter turnout trends explain what happened across the South in the election",
+      "url": "https://www.npr.org/2026/11/13/nx-s1-6038701/midterm-election-voter-turnout-south",
+      "publishedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "These swing voters have low expectations for divided government",
+      "url": "https://www.npr.org/2026/11/13/nx-s1-6035826/north-carolina-swing-voters-congress-trump",
+      "publishedAt": "2026-11-13T10:00:00.000Z"
+    },
+    {
+      "source": "The Cornell Daily Sun",
+      "title": "Students From Swing States Share Post-Election Reactions",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMjZUSExDQXQ3N3cyS1J6ZUJnNjRGWjhzY0dlb1dFNExaVzEzd09DaXhqR3dMX3FzT2FaWl94eGJoU005c054WE9qY1ExQzJKeFA2UkVjQ3NrNGZ1ZWkwaE9HOTZDMDBCYXN4OWsyS2Nqb21zaUdzLXZCSFByNnV4Rmg5WFMwakdfV25Dd0RoQkdldjctSHJXcU9xRWJDWmRJ?oc=5",
+      "publishedAt": "2026-11-13T05:29:10.000Z"
+    },
+    {
+      "source": "Anchorage Daily News",
+      "title": "Peltola, Kreiss-Tomkins grow leads after latest ballot counts in Alaska",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTV84LWxzRXZCZDBzYnJwY0puTlRXLXk2WlZsTU1sR2FpOHhlUUJ1Sm5GeFNkaFY0dFpNWTN6aHYwM0VybnpkNldCZDZRRE9HMDBoV3VNYTdVNGdyalN5dVc1QnE0Rkk4dklOajltbWZydF9VT0cwRDg0U2hhemhBLUF3MkdQV0xoS25iUHhLcHF4bkNFeWRCTnNKV05SdzVlU0xJMzZwX3hpRS0tdng2dQ?oc=5",
+      "publishedAt": "2026-11-13T05:11:07.000Z"
+    },
+    {
+      "source": "CNN",
+      "title": "Democrats pick up win in Alaska after midterms shellacking for GOP",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRXMtMlNuX3dDaVo3WWhVZ28ydTMtOFZSRGxFYi1ZOWNjTXdKbEc3S1IwWk9yaXNQTWxFRVE3bm95LUJxMEVkOEJTWDNIY0tyME9xWEtQUTN1Z013X0wyV0FzUHNBRnNDbVVsXzJzUUtyYUI1VVZ0bnYyZ0NvT29nN1l6ZThPSVpUZHJvODBjRzJEWUR2V3ptbDJ4WUdiX3ZvdVl5bmN4QWF2YThYMlRFX0tDYlV4czA?oc=5",
+      "publishedAt": "2026-11-13T04:53:59.000Z"
+    },
+    {
+      "source": "Alaska Public Media",
+      "title": "JKT tops 50% in Alaska governor’s race as Peltola extends Senate lead",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEVQWklvTk9YZHdxMTF2eUdBSnpCNzk4MENqenFLWXRQREpub2tnZXI0M1VsS1luM24zTERRQzVjd1k3dno2dWZMMkhyWEkzbFpJdmg0ZWI1eEo0TzZ6UXduVG1nb2djY3huZmFycmhkWWwxMzFhbE1tUVZHdEJkY1NYNV8zRUNCZlc4RW1zZGpOMnJCUVZoRFZWeDNqeHBjcFBMT25PSTJlSExmYXlYTTJVbjBPUU51cXZzZEYwb2FFYmh6aUE?oc=5",
+      "publishedAt": "2026-11-13T04:21:00.000Z"
+    },
     {
       "source": "PBS NewsHour",
       "title": "Senators probe RFK Jr.'s reason for Samoa trip after letter refuting his testimony published",
       "url": "https://www.pbs.org/newshour/politics/senators-probe-rfk-jr-s-reason-for-samoa-trip-after-letter-refuting-his-testimony-published",
       "publishedAt": "2026-11-13T00:50:18.000Z"
-    },
-    {
-      "source": "The Washington Post",
-      "title": "Republican Paul LePage wins House race in Maine’s 2nd District",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMkYzMzd0bm1GRUlpQWN6TVB4VE5COWtsdEhCZ0NDdmtyNXI3VnZxSmthU0wxemxXS2ZvS242cEJTaUFwRGhnbGg2UzdVSHpMOUJXbVV4UWZBMmtabl83NGNQLThYTEl0b19NSUxVVk51RW5BcmR4UUhPYll0SFBDbjktMDRaOUJDeGpkdU1ieGhLZnI2MWFBdGg1c3duWVVmdFlCN0piVTYzTG1UOHh0Sg?oc=5",
-      "publishedAt": "2026-11-13T00:39:40.000Z"
-    },
-    {
-      "source": "BBC",
-      "title": "A 'really complicated job': Why midterm votes counting is taking so long in America's largest state",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0teVRDTDFRRTFTc19RMVA0WnNBVWswSV9ad05pZ0Uxa19SMVVoMkdPY0JYeXcwaGhHWk8tanNycW5qWFRQMnZhaEFsTkhFNmlVcWNKdzVobW5xbTQ?oc=5",
-      "publishedAt": "2026-11-13T00:35:05.000Z"
-    },
-    {
-      "source": "Washington State Standard",
-      "title": "Democrat pulls ahead in tight Washington House race",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVklpQmltbWtXVkp2cktSYnNncmVuaW9WaHZSWHRTdE1wTVQ0SE13bFdiNzhpRlN4cFRnckNXUVNDVzZQNzJkaVBPZUV4X0tVSXVNa1c4NUE0M2pIcDgtVS1zdkxPOWFUTC1pQlVTOWplLXdiRXdHenRFRWNFcURaQ3k3TnVlTkRrRkxuQUJ3N0t2N3Vha2ZJdGgzM3BVcGh6?oc=5",
-      "publishedAt": "2026-11-13T00:31:37.000Z"
-    },
-    {
-      "source": "Yahoo",
-      "title": "Lots of 2026 midterm races haven’t been called yet. Here’s where things stand right now.",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMmxZTWdFZWRBMUhHRXByUXlnM3N5ZGhyN21DUS1ybXQ2eXJ3ZjJtNDFYbnR5UHU5Y01vcTktOWhPOHdqVURiSl9UMHgyRVpWN2ZuVXJwcnNtMEZwU2FCb2llVzNJZVQ2QU5KNW9QYXRkcXRtMmlzZXdxQnI4OVhMWWthTkdrM210SEljMTMtTVdSc0ZpT09hTFBkZDJ6Z3BYOVVJM2R6RGRubE1iZ0pRYkl4MGZTME1aQU1OUExCUXpZVmg0Mkh4RVRsOXFzemRORlJ3S18zR0RMWkk?oc=5",
-      "publishedAt": "2026-11-12T23:48:23.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "How Scott Colom won his longshot bid to flip Mississippi's Senate seat",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSmk5dmhXbEVqNEZpX0ctdXhnaTE4QWxqcURYbHFzaEZ1eUI3bXdzU0ZobjR3Sm41ZklVRFk2XzNDM3ItTlczWlpMUUMtSGpVVHJEbEluVWNobWNVcHh6UE5jQTBXT090MVlScHprbGhTMG9VYnJzTXdpUUJOMGJyNm5WaTl3cE5wb1N0clJiaVhNZC1HN2ZWWU1uY2c3WmxwdGkwOEpB?oc=5",
-      "publishedAt": "2026-11-12T23:40:52.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Scott Colom's historic victory marks 'new moment' for Black voters, Bryan Stevenson says",
-      "url": "https://www.pbs.org/newshour/show/scott-coloms-historic-victory-marks-new-moment-for-black-voters-bryan-stevenson-says",
-      "publishedAt": "2026-11-12T23:38:26.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
-      "url": "https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
-      "publishedAt": "2026-11-12T23:36:19.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Abdul El-Sayed on Democratic leadership, health care access and inspiring a new generation",
-      "url": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation",
-      "publishedAt": "2026-11-12T23:35:14.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6034539/democrats-congress-trump-arch-ballroom-funding-oversight",
-      "publishedAt": "2026-11-12T17:13:54.000Z"
     }
   ]
 }
