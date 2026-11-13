@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T17:54:37.261Z",
+  "updatedAt": "2026-11-13T17:44:05.373Z",
   "genericBallot": {
     "average": {
       "democrats": 52.2,
@@ -77,15 +77,15 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 36.4,
-      "disapprove": 60.8
+      "approve": 36.1,
+      "disapprove": 61
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "approve": 38.4,
+        "approve": 38.5,
         "disapprove": 59.1,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
@@ -96,8 +96,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 35.1,
-        "disapprove": 61.7,
+        "approve": 34.9,
+        "disapprove": 61.8,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
@@ -107,8 +107,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "approve": 37.6,
-        "disapprove": 59.4,
+        "approve": 37.3,
+        "disapprove": 59.7,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
         "scrapeStatus": "live",
@@ -129,8 +129,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "approve": 37.1,
-        "disapprove": 60,
+        "approve": 36.2,
+        "disapprove": 60.6,
         "included": true,
         "url": "https://www.racetothewh.com/trump",
         "scrapeStatus": "live",
@@ -140,12 +140,12 @@
         "key": "nyt",
         "name": "The New York Times",
         "shortName": "NYT",
-        "approve": 38,
-        "disapprove": 58,
-        "included": false,
+        "approve": 36,
+        "disapprove": 61,
+        "included": true,
         "url": "https://www.nytimes.com/interactive/polls/donald-trump-approval-rating-polls.html",
-        "scrapeStatus": "fallback",
-        "scrapeNote": "Rejected live scrape: missing one or both values"
+        "scrapeStatus": "live",
+        "scrapeNote": "Validated NYT chart/network scrape"
       }
     ]
   }
