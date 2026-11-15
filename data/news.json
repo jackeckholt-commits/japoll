@@ -1,10 +1,58 @@
 {
-  "generatedAt": "2026-11-15T15:53:17.722Z",
+  "generatedAt": "2026-11-15T21:18:44.603Z",
   "articles": [
     {
+      "source": "Washington Times",
+      "title": "Peltola declares victory in Alaska Senate race",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYTdqZlYxdnZKOGpFWUd0UHlBXzI0TjkyVlpnUzRCS2tOalB2WmYwNC1PZUx6d0VfdFgyOTA5TGxnYmNFcUh5elhfWEV6Vnd3OHBSd3RmSEwwTFFJb2JOTjNpemdoWVJ1YXNCaDhXY1NqZ0FMai1SYXlWSS1pVG1aWEJUMjc4VU50U2wxRS1qWDA4X1RfVEQ4eg?oc=5",
+      "publishedAt": "2026-11-15T19:50:34.000Z"
+    },
+    {
+      "source": "NBC News",
+      "title": "How Democrats are lining up in the race for Senate majority leader",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQlFQQzBtOTZtcnRCcG9fbU52SUx3ZURreDdPbEZVREE4NnpTejhzY05qOE40SzRLWWJFQmJLRHctWWVvMERiSndNQlNFakUxbW5ydll0VGpka0ZQaW1DSEVGZVAyU0JqckdhNTFKbHRsaUF5YlNEUWdQR3dqUklUbEpwVUJKbWtUX1YyeV9WMTVsU0MtdEd1Q0VZMDF5ell1dnJFNU4yWkdPaEkxRi1ZZ3E3SVpqeEk?oc=5",
+      "publishedAt": "2026-11-15T19:42:14.000Z"
+    },
+    {
+      "source": "USA Today",
+      "title": "Peltola's lead increases in uncalled Alaska Senate race",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMThuSnFVZXZCV2JnWnBza3NjVUxFeTNvUDJNZzUwcWhDWTV3d1Nrcm9Cb3Y1a3pSQkx1SjB1WHdraHg1WDYxUFg1b3BJYXoxbGQ4X2JjNXpaakMwTDBLNW1Gb3F3bmxDVnl2bnQwRUVYdnVMZUJfTm1pd3BUVnd2bjFyZEtHekVDeWM5SlJxM1dkMDRiaEV4UFRDb2VBaFFXV1JGZkxsQ1FaZ2Y5ZjN5ODk5QkVWdTQ?oc=5",
+      "publishedAt": "2026-11-15T18:21:00.000Z"
+    },
+    {
+      "source": "FOX 13 Seattle",
+      "title": "Race for Senate leadership heats up following 2026 midterms",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nZFBQMmd6Mkh2M2lRR0xpTXgyLTVtU0NCXzNUekRTMzQ2a0VEbi1fUUhiVkktY0tydjE0R2xEZ3JaUnpoaFVkSTFhVUd5Mk1QS0dqSHJfTEE2Uko0a1NXT0xWc2tnd9IBa0FVX3lxTFBJX3R4X1IwV3JOU3BtbWFqZDh6REV2WXUtVTlCWmctakFZNGd5dGlKVDIwYjlSS0ZuVE5wXzYtSURkZlMxek9qdHZKTm5acGJOSDREblI0R05PSnR6ZlQ0aGRXamNxa0JRY3lB?oc=5",
+      "publishedAt": "2026-11-15T17:54:09.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Trump blasts judge's 2-week halt to his Washington golf project and says administration will appeal",
+      "url": "https://www.pbs.org/newshour/politics/trump-blasts-judges-2-week-halt-to-his-washington-golf-project-and-says-administration-will-appeal",
+      "publishedAt": "2026-11-15T17:39:22.000Z"
+    },
+    {
+      "source": "Facebook",
+      "title": "Republican U.S. Senate candidate Mike Rogers tried, but failed to find love in Detroit neighborhoods during his race with Democrat Abdul El-Sayed See link below ⬇️ 📸 Provided by Sam Riddle",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVWhkeWt2cHozSmNocXM3enM5NjdwVlN1bWFSbXJWY2VhRVBWNjNKd1A3RHNwM0pScnFkVFdjT3dFNGNTZGZJbjFFLTNDZGlWalVyZmZsTm50WmJoTHNIX2QxVXZWUVBSX2xJY3pvczFmazVGUmFOWFc4OVprRHNSR3RRTzNuVXY2c0hKTWlTOGFsYnY0S3I5MlFxSktmNHZmeDVmN0I3T0hKVWFJOXZQc3pPOHMyMU1VZlB2NEdHTWxJa0E2TzRFSlI0TmQ2RU9rZXRXMGktTEZWd0o2SG9r?oc=5",
+      "publishedAt": "2026-11-15T17:22:05.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
+      "url": "https://www.pbs.org/newshour/politics/trump-breaks-silence-on-nationwide-ground-stop-and-demands-more-money-from-congress",
+      "publishedAt": "2026-11-15T16:32:43.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Judge temporarily blocks Trump from moving ahead on D.C. public golf course redevelopment",
+      "url": "https://www.pbs.org/newshour/politics/judge-temporarily-blocks-trump-from-moving-ahead-on-d-c-public-golf-course-redevelopment",
+      "publishedAt": "2026-11-15T16:20:54.000Z"
+    },
+    {
       "source": "NPR",
-      "title": "In calling for an end to the Iran War, Vance walks a thin line with Trump",
-      "url": "https://www.npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-thin-line-with-trump",
+      "title": "In calling for an end to the Iran War, Vance walks a fine line with Trump",
+      "url": "https://www.npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-fine-line-with-trump",
       "publishedAt": "2026-11-15T13:11:23.000Z"
     },
     {
@@ -12,54 +60,6 @@
       "title": "Politics chat: Duffy calls for more funding, Democrats plans for accountability",
       "url": "https://www.npr.org/2026/11/15/nx-s1-6040041/politics-chat-duffy-calls-for-more-funding-democrats-plans-for-accountability",
       "publishedAt": "2026-11-15T13:09:15.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "Black voters helped Democrats win in Georgia. Now they expect to be heard",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUUdqWFh6V0NmOWhKRWk0VnUxTTVYNXhlV1p2bWZDbnZmdUZ2djNWZWhoUDJtSXFEbVVKRkF6QWR3OWI4MDhaV3dvYkFYQ3pQSmRxS0pjZVI2Vnl3dENEbXZoS2R2YVZ1dVhYMFVHZkJvU0tIV0RoR1VWVE9SUUpuTVZMSy1WNlRWTG1qQXRaYw?oc=5",
-      "publishedAt": "2026-11-15T12:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Midterm voters ended the long-running GOP dominance in state legislatures",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbkFrNlZlUFBVRC1VNGV5c0IxMmJmdFE3M1h2Z2RBcXVMaHlxTVdOVkdJdGNuZEk3ZTZhbExrMDJrTEZsN1lOay1oeWFDaFpCTjlRT1pSVUo1eVJzVmFNSjQ0RjctLW53M3d6WHh2Y2FBenQyUlBNdmYwR0g2UmpGckFNTVFVclFid1M2S2h6Sk0?oc=5",
-      "publishedAt": "2026-11-15T10:00:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "New Mexico wanted free childcare for all. This is what's worked — and what hasn't",
-      "url": "https://www.npr.org/2026/11/15/nx-s1-6040194/new-mexico-free-universal-childcare-families",
-      "publishedAt": "2026-11-15T10:00:00.000Z"
-    },
-    {
-      "source": "Anchorage Daily News",
-      "title": "Peltola now has majority of votes in Alaska’s U.S. Senate race as ballot counting continues",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVhNMi1nYlFQV0Z1ajB6UU5RNzBKLXNqUWtNZkYtRUNEeGFKZFFwcHdsV3BGTDBaQVhCSUVtcTZPVU8teVI2WmlBblJrV0FfdkVfVHpZWW9XcWh2cHAwekE2RHhZMWlpbXgtd2pyLW9rV0hBQzhTU2FpaVpodFVtdGVuZ2lHMDR1R2dSc0sya0RveEdEZlh6b3EzNUFsMXdrOG1ZQ0p6OUQ4OGN1MGNTa0YtZ2Flc2Q5UUVudWk2SVJMY3Nz?oc=5",
-      "publishedAt": "2026-11-15T02:46:48.000Z"
-    },
-    {
-      "source": "USA Today",
-      "title": "Peltola's lead increases in uncalled Alaska Senate race",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMThuSnFVZXZCV2JnWnBza3NjVUxFeTNvUDJNZzUwcWhDWTV3d1Nrcm9Cb3Y1a3pSQkx1SjB1WHdraHg1WDYxUFg1b3BJYXoxbGQ4X2JjNXpaakMwTDBLNW1Gb3F3bmxDVnl2bnQwRUVYdnVMZUJfTm1pd3BUVnd2bjFyZEtHekVDeWM5SlJxM1dkMDRiaEV4UFRDb2VBaFFXV1JGZkxsQ1FaZ2Y5ZjN5ODk5QkVWdTQ?oc=5",
-      "publishedAt": "2026-11-15T02:19:00.000Z"
-    },
-    {
-      "source": "Sacramento Bee",
-      "title": "Roger Niello holds off Sean Frame in Sacramento-area Senate race as Democrat concedes",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWFnWUVNRFpXZnFjVWZ4ZUNMcDFxRFFjeFlpUzhwdDVOc0xHclZFSVZWYWRNSHp3cVJ4dmRpaGNTOEw0Qk84UzJCczc0Nkk0eWJQZFZrTHNYWEgtdkJyc0diSGE1Y3Q2UWU4MGpSN213YXNtblI1MXhGVnRLREJIS1VJZmZnYzAwa2VSVEF5TkU3M1FOTU1pbNIBmAFBVV95cUxPQWJuUmFCRE4zYkJKTW9UT3Y3eGlHN243WWNCYXJvUG92ZHVaV045UW1WelpHV2ZKYWNsMjc2d21hMUJQMldzdVVfRldoSVdTRVg2OVZycFdoWEY0Z1l5Qk9EMkhJS3dON1ExeUlxNkpyVThEMmNsQlYxRmxaRFJlTVZKVHBlYkNxc0VnTkJTWGhyT1IyRHR5Tg?oc=5",
-      "publishedAt": "2026-11-15T00:32:00.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "With shifting Iran rhetoric following U.S. elections, Trump leaves Middle East in limbo about path ahead",
-      "url": "https://www.pbs.org/newshour/world/with-shifting-iran-rhetoric-following-u-s-elections-trump-leaves-middle-east-in-limbo-about-path-ahead",
-      "publishedAt": "2026-11-14T21:17:42.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Alaska voters reject ballot measure seeking to repeal open primaries and ranked voting system",
-      "url": "https://www.pbs.org/newshour/politics/alaska-voters-reject-ballot-measure-seeking-to-repeal-open-primaries-and-ranked-voting-system",
-      "publishedAt": "2026-11-14T18:43:07.000Z"
     }
   ]
 }
