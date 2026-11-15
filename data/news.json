@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-11-15T00:20:26.547Z",
+  "generatedAt": "2026-11-15T07:13:12.176Z",
   "articles": [
+    {
+      "source": "AP News",
+      "title": "2026 U.S. Senate Election Results",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycUhlZzZ2V1lhd2pzVExlRFNUOVV5M0N6VHB5a2FuNFU2NDNaV0dSTV9hUVZTZHZCeVRjeWRWMnh0NUVIRW1vbmhfNFRsSVRqSWIwM21iUmMxTE4zYzhocm81ajd4U0x2R0R0Q1Bn?oc=5",
+      "publishedAt": "2026-11-15T05:52:30.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
+      "publishedAt": "2026-11-15T04:28:45.000Z"
+    },
+    {
+      "source": "USA Today",
+      "title": "Peltola's lead increases in uncalled Alaska Senate race",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMThuSnFVZXZCV2JnWnBza3NjVUxFeTNvUDJNZzUwcWhDWTV3d1Nrcm9Cb3Y1a3pSQkx1SjB1WHdraHg1WDYxUFg1b3BJYXoxbGQ4X2JjNXpaakMwTDBLNW1Gb3F3bmxDVnl2bnQwRUVYdnVMZUJfTm1pd3BUVnd2bjFyZEtHekVDeWM5SlJxM1dkMDRiaEV4UFRDb2VBaFFXV1JGZkxsQ1FaZ2Y5ZjN5ODk5QkVWdTQ?oc=5",
+      "publishedAt": "2026-11-15T02:19:00.000Z"
+    },
     {
       "source": "NPR",
       "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
@@ -8,10 +26,10 @@
       "publishedAt": "2026-11-15T00:03:52.000Z"
     },
     {
-      "source": "AP News",
-      "title": "2026 U.S. Senate Election Results",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycUhlZzZ2V1lhd2pzVExlRFNUOVV5M0N6VHB5a2FuNFU2NDNaV0dSTV9hUVZTZHZCeVRjeWRWMnh0NUVIRW1vbmhfNFRsSVRqSWIwM21iUmMxTE4zYzhocm81ajd4U0x2R0R0Q1Bn?oc=5",
-      "publishedAt": "2026-11-14T21:58:14.000Z"
+      "source": "Democracy Docket",
+      "title": "Reject Trump’s ‘embarrassing’ Alaska lawsuit, voting experts tell court",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVGFyeUUwX1FwbEsyeXZaeHJyNDlLbVg3bEVmSkdRY09ITUpaQnprV2lqQ2lpa0ZmSk96QW1idlhYWlFxMTBCc0dkbW11Zy0taFVCd0M1MGc2emRhRDN1VGEzUHVtdFltWmdzZzlzYkEyRXZpc0RzclBTdkxCR3R5Z05kd2dILUZMSWNVMGJoOWhnS1hDRDFWeUdmcENzb2UxQmhfR2p5RHJhQ2lJeklSX0tR?oc=5",
+      "publishedAt": "2026-11-14T22:52:13.000Z"
     },
     {
       "source": "NBC News",
@@ -32,18 +50,6 @@
       "publishedAt": "2026-11-14T20:52:49.000Z"
     },
     {
-      "source": "USA Today",
-      "title": "Peltola's lead increases in uncalled Alaska Senate race",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMThuSnFVZXZCV2JnWnBza3NjVUxFeTNvUDJNZzUwcWhDWTV3d1Nrcm9Cb3Y1a3pSQkx1SjB1WHdraHg1WDYxUFg1b3BJYXoxbGQ4X2JjNXpaakMwTDBLNW1Gb3F3bmxDVnl2bnQwRUVYdnVMZUJfTm1pd3BUVnd2bjFyZEtHekVDeWM5SlJxM1dkMDRiaEV4UFRDb2VBaFFXV1JGZkxsQ1FaZ2Y5ZjN5ODk5QkVWdTQ?oc=5",
-      "publishedAt": "2026-11-14T20:16:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "‘Democrat’ in Alaska’s House Race Is Doing Time in a New York Prison",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlRTME5fOUFkTjhpa3pOaUg3dWRNSjF5bjJxelFHdlNWc1pjaGtiNTExNjREejhoVXdRbGlna0VRNlRxQ3REQUZUcnp5TUFEWUkyWmtkTlQtZnVVSXdTMkRMbmRIY2pnQm85UnNGVE5CanM0ODF5SHJtSEtUQmZLWk9YcnozeFEwbExUdWt3WWdoZw?oc=5",
-      "publishedAt": "2026-11-14T20:10:01.000Z"
-    },
-    {
       "source": "NPR",
       "title": "'We can't let them down' -- After midterm wins, Democrats turn to charting path ahead",
       "url": "https://www.npr.org/2026/11/14/nx-s1-6037777/democrats-midterms-whats-next-conference",
@@ -54,12 +60,6 @@
       "title": "Alaska voters reject ballot measure seeking to repeal open primaries and ranked voting system",
       "url": "https://www.pbs.org/newshour/politics/alaska-voters-reject-ballot-measure-seeking-to-repeal-open-primaries-and-ranked-voting-system",
       "publishedAt": "2026-11-14T18:43:07.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Democrats try out a strange new emotion at post-midterms What's Next conference: hope",
-      "url": "https://www.pbs.org/newshour/politics/democrats-try-out-a-strange-new-emotion-at-post-midterms-whats-next-conference-hope",
-      "publishedAt": "2026-11-14T18:19:50.000Z"
     }
   ]
 }
