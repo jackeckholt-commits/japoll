@@ -1,17 +1,41 @@
 {
-  "generatedAt": "2026-11-15T07:13:12.176Z",
+  "generatedAt": "2026-11-15T15:53:17.722Z",
   "articles": [
     {
-      "source": "AP News",
-      "title": "2026 U.S. Senate Election Results",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycUhlZzZ2V1lhd2pzVExlRFNUOVV5M0N6VHB5a2FuNFU2NDNaV0dSTV9hUVZTZHZCeVRjeWRWMnh0NUVIRW1vbmhfNFRsSVRqSWIwM21iUmMxTE4zYzhocm81ajd4U0x2R0R0Q1Bn?oc=5",
-      "publishedAt": "2026-11-15T05:52:30.000Z"
+      "source": "NPR",
+      "title": "In calling for an end to the Iran War, Vance walks a thin line with Trump",
+      "url": "https://www.npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-thin-line-with-trump",
+      "publishedAt": "2026-11-15T13:11:23.000Z"
     },
     {
       "source": "NPR",
-      "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
-      "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
-      "publishedAt": "2026-11-15T04:28:45.000Z"
+      "title": "Politics chat: Duffy calls for more funding, Democrats plans for accountability",
+      "url": "https://www.npr.org/2026/11/15/nx-s1-6040041/politics-chat-duffy-calls-for-more-funding-democrats-plans-for-accountability",
+      "publishedAt": "2026-11-15T13:09:15.000Z"
+    },
+    {
+      "source": "The Guardian",
+      "title": "Black voters helped Democrats win in Georgia. Now they expect to be heard",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUUdqWFh6V0NmOWhKRWk0VnUxTTVYNXhlV1p2bWZDbnZmdUZ2djNWZWhoUDJtSXFEbVVKRkF6QWR3OWI4MDhaV3dvYkFYQ3pQSmRxS0pjZVI2Vnl3dENEbXZoS2R2YVZ1dVhYMFVHZkJvU0tIV0RoR1VWVE9SUUpuTVZMSy1WNlRWTG1qQXRaYw?oc=5",
+      "publishedAt": "2026-11-15T12:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Midterm voters ended the long-running GOP dominance in state legislatures",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbkFrNlZlUFBVRC1VNGV5c0IxMmJmdFE3M1h2Z2RBcXVMaHlxTVdOVkdJdGNuZEk3ZTZhbExrMDJrTEZsN1lOay1oeWFDaFpCTjlRT1pSVUo1eVJzVmFNSjQ0RjctLW53M3d6WHh2Y2FBenQyUlBNdmYwR0g2UmpGckFNTVFVclFid1M2S2h6Sk0?oc=5",
+      "publishedAt": "2026-11-15T10:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "New Mexico wanted free childcare for all. This is what's worked — and what hasn't",
+      "url": "https://www.npr.org/2026/11/15/nx-s1-6040194/new-mexico-free-universal-childcare-families",
+      "publishedAt": "2026-11-15T10:00:00.000Z"
+    },
+    {
+      "source": "Anchorage Daily News",
+      "title": "Peltola now has majority of votes in Alaska’s U.S. Senate race as ballot counting continues",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVhNMi1nYlFQV0Z1ajB6UU5RNzBKLXNqUWtNZkYtRUNEeGFKZFFwcHdsV3BGTDBaQVhCSUVtcTZPVU8teVI2WmlBblJrV0FfdkVfVHpZWW9XcWh2cHAwekE2RHhZMWlpbXgtd2pyLW9rV0hBQzhTU2FpaVpodFVtdGVuZ2lHMDR1R2dSc0sya0RveEdEZlh6b3EzNUFsMXdrOG1ZQ0p6OUQ4OGN1MGNTa0YtZ2Flc2Q5UUVudWk2SVJMY3Nz?oc=5",
+      "publishedAt": "2026-11-15T02:46:48.000Z"
     },
     {
       "source": "USA Today",
@@ -20,40 +44,16 @@
       "publishedAt": "2026-11-15T02:19:00.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
-      "url": "https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
-      "publishedAt": "2026-11-15T00:03:52.000Z"
-    },
-    {
-      "source": "Democracy Docket",
-      "title": "Reject Trump’s ‘embarrassing’ Alaska lawsuit, voting experts tell court",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVGFyeUUwX1FwbEsyeXZaeHJyNDlLbVg3bEVmSkdRY09ITUpaQnprV2lqQ2lpa0ZmSk96QW1idlhYWlFxMTBCc0dkbW11Zy0taFVCd0M1MGc2emRhRDN1VGEzUHVtdFltWmdzZzlzYkEyRXZpc0RzclBTdkxCR3R5Z05kd2dILUZMSWNVMGJoOWhnS1hDRDFWeUdmcENzb2UxQmhfR2p5RHJhQ2lJeklSX0tR?oc=5",
-      "publishedAt": "2026-11-14T22:52:13.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM0tWRjdXLWNKYmp0NERhQ053eDlqTG9MenJsc0VMUFQ4YlE0eW1KVjhJcUNvcjVlcGJVbXJlRERTejBoNG5JQ0hIQVlZZEphR3doVndCb2I5N19ILU40Z21FZTJKYk8waGR6NzU3V08xYVFLX21mcEMxZnpFejNENzl2U3FZWUFYUmRRMm5tX0JCZ3lKODR5MjZUcnZlbmQ2N2R5bWNvMXlGZ3QyOEJjMlRYcDgxLW02Wjk2TUU5Mm5PQQ?oc=5",
-      "publishedAt": "2026-11-14T21:22:15.000Z"
+      "source": "Sacramento Bee",
+      "title": "Roger Niello holds off Sean Frame in Sacramento-area Senate race as Democrat concedes",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWFnWUVNRFpXZnFjVWZ4ZUNMcDFxRFFjeFlpUzhwdDVOc0xHclZFSVZWYWRNSHp3cVJ4dmRpaGNTOEw0Qk84UzJCczc0Nkk0eWJQZFZrTHNYWEgtdkJyc0diSGE1Y3Q2UWU4MGpSN213YXNtblI1MXhGVnRLREJIS1VJZmZnYzAwa2VSVEF5TkU3M1FOTU1pbNIBmAFBVV95cUxPQWJuUmFCRE4zYkJKTW9UT3Y3eGlHN243WWNCYXJvUG92ZHVaV045UW1WelpHV2ZKYWNsMjc2d21hMUJQMldzdVVfRldoSVdTRVg2OVZycFdoWEY0Z1l5Qk9EMkhJS3dON1ExeUlxNkpyVThEMmNsQlYxRmxaRFJlTVZKVHBlYkNxc0VnTkJTWGhyT1IyRHR5Tg?oc=5",
+      "publishedAt": "2026-11-15T00:32:00.000Z"
     },
     {
       "source": "PBS NewsHour",
       "title": "With shifting Iran rhetoric following U.S. elections, Trump leaves Middle East in limbo about path ahead",
       "url": "https://www.pbs.org/newshour/world/with-shifting-iran-rhetoric-following-u-s-elections-trump-leaves-middle-east-in-limbo-about-path-ahead",
       "publishedAt": "2026-11-14T21:17:42.000Z"
-    },
-    {
-      "source": "NBC News",
-      "title": "Democrat Mary Peltola is likely to win Alaska’s Senate race, as vote counting continues",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMkxEOFFMTXBJUF9IamZfemJ4N3JEaXdvYTZvQWJybU5vZVRZZmRDRXhxN3dHOWpsS2R2WWZCcG9qVDNIZVhzWGI0cm9HYzZjVVBYZG90SlZkSF80Z2lBSUZYTjVoanZXSWVpRmRYRXY4OXdQYm4yTUNzVF9tWGhkS0lad29jUnVxMDhKVm01V0tIUERVaVFpQ2ZEbUxfRXZLalpJNmVlMnRjWWQzTmc?oc=5",
-      "publishedAt": "2026-11-14T20:52:49.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "'We can't let them down' -- After midterm wins, Democrats turn to charting path ahead",
-      "url": "https://www.npr.org/2026/11/14/nx-s1-6037777/democrats-midterms-whats-next-conference",
-      "publishedAt": "2026-11-14T19:13:54.000Z"
     },
     {
       "source": "PBS NewsHour",
