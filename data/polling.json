@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:11:21.281Z",
+  "updatedAt": "2026-11-19T19:00:33.626Z",
   "genericBallot": {
     "average": {
       "democrats": 52.2,
@@ -77,16 +77,16 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 36.3,
-      "disapprove": 61.1
+      "approve": 35.6,
+      "disapprove": 61.6
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "approve": 38.5,
-        "disapprove": 59.1,
+        "approve": 37.3,
+        "disapprove": 60.3,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
         "scrapeStatus": "live",
@@ -96,7 +96,7 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 34.8,
+        "approve": 34.5,
         "disapprove": 62,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
@@ -107,8 +107,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "approve": 37.2,
-        "disapprove": 59.9,
+        "approve": 36.5,
+        "disapprove": 60.3,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
         "scrapeStatus": "live",
@@ -119,7 +119,7 @@
         "name": "CNN",
         "shortName": "CNN",
         "approve": 34,
-        "disapprove": 64,
+        "disapprove": 65,
         "included": true,
         "url": "https://www.cnn.com/polling",
         "scrapeStatus": "live",
@@ -129,8 +129,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "approve": 36.3,
-        "disapprove": 60.4,
+        "approve": 35.8,
+        "disapprove": 60.6,
         "included": true,
         "url": "https://www.racetothewh.com/trump",
         "scrapeStatus": "live",
@@ -140,12 +140,12 @@
         "key": "nyt",
         "name": "The New York Times",
         "shortName": "NYT",
-        "approve": 37,
-        "disapprove": 61,
-        "included": true,
+        "approve": 38,
+        "disapprove": 58,
+        "included": false,
         "url": "https://www.nytimes.com/interactive/polls/donald-trump-approval-rating-polls.html",
-        "scrapeStatus": "live",
-        "scrapeNote": "Validated NYT chart/network scrape"
+        "scrapeStatus": "fallback",
+        "scrapeNote": "Rejected live scrape: missing one or both values"
       }
     ]
   }
