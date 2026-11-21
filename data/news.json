@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-11-20T17:18:34.986Z",
+  "generatedAt": "2026-11-21T01:45:16.929Z",
   "articles": [
     {
-      "source": "NPR",
-      "title": "Trump initially accepted the midterm results, but most GOP voters doubt they were fair",
-      "url": "https://www.npr.org/2026/11/20/nx-s1-6047605/midterm-election-distrust-republicans",
-      "publishedAt": "2026-11-20T17:00:00.000Z"
+      "source": "Oregon Public Broadcasting - OPB",
+      "title": "Still neck-and-neck, Washington County chair’s race may be headed for a recount",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOXF1LVAxOUNvcjdDTFRucDUwUkk3TEdZSnBpOXdtaVdaRFlaNXAtNkMxS3IteGt6SVF5VU05WXRGU29aY2pBRUQ3eVhXeU4yMF9hSEp3NXZoTWVEV0tiRTJlQ0p1cmdTeHdka1ZKYWpFZGNmZ01SQnI4cHQ5Yko3QVJ3?oc=5",
+      "publishedAt": "2026-11-21T01:20:54.000Z"
+    },
+    {
+      "source": "WXII",
+      "title": "Foxx vs. Hubbard recount underway in two counties for North Carolina's 5th Congressional District race",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdzQwbEZlNkdvQXp6NUpnVDdLMGdxVHB4VWEwckNDXzU3QUd5ZWx6YlN1VGlSXzZzUlpOM1BKWUQwcXN5ZG8xdlZZNWlmcVU2Q3NudlAyZWdYenhITl9fOC1vQVI2eENhVnc1eUhTazl0UU5GZ2ZmWDhjZzZUUFFkZkhXZ0wyb0pyanZXOHBR?oc=5",
+      "publishedAt": "2026-11-21T01:13:00.000Z"
+    },
+    {
+      "source": "AP News",
+      "title": "Redistricting did not help Republicans keep the House – but 2028 could look different",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oZVRQbXhaSk1ncFpIcl9zSnJFRUt2Ym5xMXF1bW1yM2FoZVJuTkdYcnFua2RVY2tEakpIYzNLZTZxZVRWcHpiVFlvaTVGRG9pUE82a2xPb09zaTZtTE9OeFhnZTY3aThoOTVmYVh2dzhDZUdSQ2NsX2htZHM?oc=5",
+      "publishedAt": "2026-11-21T01:07:30.000Z"
+    },
+    {
+      "source": "The Jerusalem Post",
+      "title": "Israel Election 2026 Live Updates: Eisenkot, Netanyahu race to build government",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xSDloaEZNX18tTHAzYWdfVldWYVVRT1hiSnJoSW8xS0FpRS1kMlEyeEl1MU5IQmdZa3lXXzZNZ0hBRUFaS3VjaEtqLUx6VUYtZno1SkNoVlVQTkZfXzlRMURWNVJEOWlNb0JLYWhsUDRsZw?oc=5",
+      "publishedAt": "2026-11-21T00:00:05.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "WATCH LIVE: Trump hosts news conference after meeting with Xi, Putin",
-      "url": "https://www.pbs.org/newshour/politics/watch-live-trump-hosts-news-conference-after-meeting-with-xi-putin",
-      "publishedAt": "2026-11-20T16:59:58.000Z"
+      "title": "What Trump addressed during his lengthy White House news conference",
+      "url": "https://www.pbs.org/newshour/show/what-trump-addressed-during-his-lengthy-white-house-news-conference",
+      "publishedAt": "2026-11-20T23:55:30.000Z"
     },
     {
-      "source": "Pew Research Center",
-      "title": "How the 2026 Midterms Played Out on Kalshi and Polymarket",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcnA0Z3loUWtHNHJUR1o1a3N0MGk3ZG5QZ25BSDd3bEgyaGc0ZllZMlp1SDRBRjVxNkU0LVRJQUtLY3NrUXpLaHlvaWc2YlozNVI4R09KRGlfWjg4QWlMc0Y2b1NidE05bVdGT01vVHlIVG1xN0I5ZzBadDdXM1ZkUl85TXBRd1R6eV9uUmhyNGx3dmliWl9rQ2hBQjIyUlJfd05ObmdpMFJOeUVUeFE?oc=5",
-      "publishedAt": "2026-11-20T16:10:27.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump to hold press conference after meeting with Xi and Putin",
-      "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
-      "publishedAt": "2026-11-20T15:00:00.000Z"
-    },
-    {
-      "source": "PBS",
-      "title": "Trump administration moves to have lawsuit dismissed in challenge to Alaska's U.S. Senate race",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNGM3Y0VZTkx5Y3lQd2k3d2xkZnJBQmZST2lsem93eUF3Y1VheUp5ZVN4ajRMWlJkZXh2R2JJMjNHZDNjWkg2UDlmRmplWkh4TzJaMkFyMHNIM0VfTkhPaG1kelFOQjd5Qk43b0JtU1VFM1FuLWVwOUg2ZHdXUFg1UkRsOU5HRzNlWGNmOFFDWmgxMHN2SGdFQmxUMEFqUUJ6dU5kdThzQnJjMkFCQ3JJSklvd1Jlei1yT3FVM2FfaFUzTnp4cVQtaWRn0gHPAUFVX3lxTE9odjU4eklwaVhGUEp5Q3hWZUhIck5HTEN3OFB0eGx4OWtYLTBNZ01FeERrcFNueDd2SnVQSWpDWkJOVUR5M0xlRjE3Y2NsZ1FqemlTMVZxS3lTem8yZ1Z6ZWxNRms1aEhybVA2SjJkM1hJZnFJVHM1eUdEU0x1dVFDejBNc3U1SWVYTk9pa2VyUUptOWxwRUg0ZTRWTkhTQkxZY0JqOUotVzRxeUJVOUliQjBvY0JSZ2VHZGFIYWNCZWVmd3hxM1pKWUw3ZUpIcw?oc=5",
-      "publishedAt": "2026-11-20T14:22:40.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "From Beto to ‘Blexas’: how Democrats flipped Texas during the midterm elections",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9VVFlhRUNSWEtaeGtsZkNhekZYbElxNXhCc3ZUS3VfNF9IVi1KLS1NdUp2V1BkUHlWV0UtRFVnNDhGelhEd08xdnBhRWlYZVRDSDdFcEpQMEVSQnh3Y3hfR0FRSGN4VGRiQ0k5bnhFT2ZHcWd3bjZ5cEJVaEY?oc=5",
-      "publishedAt": "2026-11-20T13:44:00.000Z"
+      "source": "KFGO",
+      "title": "Rob Kupec files for recount in Minnesota state senate race",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVmFhWTVfTUdyZWQ3TlR0anBjZjV1endsSUR2VkF1LXZFb1N3UHNacTdHQ0tFUmhvT2hCV05sNVlNY0gzSGlhREdtZ1ptSjNqd01DNWlFVVB4WGt3RzFvYnRySXBvdDVUSGZrb0ZGeHozSERkVXZYdUk4Wm1heU1vR0szRUoxRWNFQ3lFN1B5amQ?oc=5",
+      "publishedAt": "2026-11-20T23:44:22.000Z"
     },
     {
       "source": "PBS NewsHour",
-      "title": "White House taps Kirsten Davies as cyber chief after outages rattle Americans",
-      "url": "https://www.pbs.org/newshour/politics/white-house-taps-kirsten-davies-as-cyber-chief-after-outages-rattle-americans",
-      "publishedAt": "2026-11-20T13:43:58.000Z"
+      "title": "Josh Shapiro on foreign policy, Democratic wins and his 2028 ambitions",
+      "url": "https://www.pbs.org/newshour/show/josh-shapiro-on-foreign-policy-democratic-wins-and-his-2028-ambitions",
+      "publishedAt": "2026-11-20T23:40:50.000Z"
+    },
+    {
+      "source": "PBS NewsHour",
+      "title": "Brooks and Capehart on Trump's summit with Putin and Xi",
+      "url": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-trumps-summit-with-putin-and-xi",
+      "publishedAt": "2026-11-20T23:35:27.000Z"
     },
     {
       "source": "NPR",
-      "title": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
-      "url": "https://www.npr.org/2026/11/20/nx-s1-6048461/texas-execution-dennes-moaned-pain",
-      "publishedAt": "2026-11-20T12:24:40.000Z"
+      "title": "The latest from Trump's press conference",
+      "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser",
+      "publishedAt": "2026-11-20T21:38:21.000Z"
     },
     {
-      "source": "NPR",
-      "title": "Dems aim to block Iran war funding. And, Army delays lead azide detonation in Iowa",
-      "url": "https://www.npr.org/2026/11/20/g-s1-154582/up-first-newsletter-democrats-iran-war-trump-xi-jinping-iowa-army",
-      "publishedAt": "2026-11-20T12:04:57.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "Trump DoJ moves to drop legal challenge to Mary Peltola’s Alaska Senate win",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ2s1Tml2UFZTQUpoVF9tR1lqeE5rRTlMcmVpUjVwVmhGUjc5S0NWbW1VTnhEV3A4ODJKYjB0amt3eTdPNTFjeUN4QTVYcTdqaGRYVTEtTlJKT2FfaFl3ZDM0QzBuWDVQZ0JuRXZEMjFzMjNBbDdOVndmX0NWQnIzZmtmVDRxZ0U?oc=5",
-      "publishedAt": "2026-11-20T02:43:00.000Z"
+      "source": "PBS NewsHour",
+      "title": "Second federal judge blocks construction of Trump's memorial arch",
+      "url": "https://www.pbs.org/newshour/politics/second-federal-judge-blocks-construction-of-trumps-memorial-arch",
+      "publishedAt": "2026-11-20T21:28:49.000Z"
     }
   ]
 }
