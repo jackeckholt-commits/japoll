@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-11-21T17:29:44.041Z",
+  "updatedAt": "2026-11-23T22:03:27.297Z",
   "version": "0.9.8",
   "title": "House Seat Prediction",
   "totalSeats": 435,
   "majority": 218,
   "summary": {
-    "democrats": 225,
-    "tossup": 17.5,
-    "republicans": 192.5,
+    "democrats": 224,
+    "tossup": 17.7,
+    "republicans": 193.3,
     "democratsRounded": 230,
     "tossupRounded": 19,
     "republicansRounded": 205,
     "democratsToMajority": -12,
     "republicansToMajority": 13,
-    "nonTossupDemocrats": 225,
-    "nonTossupRepublicans": 192.5,
-    "averageTossup": 17.5,
+    "nonTossupDemocrats": 224,
+    "nonTossupRepublicans": 193.3,
+    "averageTossup": 17.7,
     "projectedDemocrats": 230,
     "projectedRepublicans": 205
   },
   "average": {
     "categories": {
-      "demSafe": 192,
-      "demLikely": 16,
-      "demLean": 17,
-      "tossup": 17.5,
-      "repLean": 16.5,
-      "repLikely": 18.5,
-      "repSafe": 157.5
+      "demSafe": 190,
+      "demLikely": 16.7,
+      "demLean": 17.3,
+      "tossup": 17.7,
+      "repLean": 17,
+      "repLikely": 18,
+      "repSafe": 158.3
     },
     "totals": {
-      "democrats": 225,
-      "tossup": 17.5,
-      "republicans": 192.5,
+      "democrats": 224,
+      "tossup": 17.7,
+      "republicans": 193.3,
       "projectedDemocrats": 230,
       "projectedRepublicans": 205
     }
@@ -42,7 +42,7 @@
       "key": "racetowh",
       "name": "Race to the WH",
       "shortName": "Race to WH",
-      "updated": "2026-11-03",
+      "updated": "2026-11-23",
       "url": "https://www.racetothewh.com/house",
       "categories": {
         "demSafe": 198,
@@ -106,10 +106,9 @@
         "tossup": 18,
         "republicans": 195
       },
-      "included": false,
-      "scrapeStatus": "fallback",
-      "note": "Validated automated House ratings scrape.",
-      "scrapeNote": "Automated House scrape failed; previous values retained: Cook ratings did not load from the browser or text fallback (status 403, title Just a moment...)"
+      "included": true,
+      "scrapeStatus": "live",
+      "note": "Validated automated House ratings scrape."
     }
   ],
   "methodology": "Source cards show each source's published race-rating buckets. The top bar is this site's House prediction based on current averages and available seat projection data.",

@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-21T17:29:37.598Z",
+  "updatedAt": "2026-11-23T22:03:20.841Z",
   "genericBallot": {
     "average": {
       "democrats": 52.2,
-      "republicans": 43.4
+      "republicans": 43.5
     },
     "sources": [
       {
         "key": "votehub",
         "name": "VoteHub",
         "shortName": "VoteHub",
-        "democrats": 52.1,
-        "republicans": 43.3,
+        "democrats": 49,
+        "republicans": 42.3,
         "included": true,
         "url": "https://votehub.com/polls/?poll=generic_ballot_2026",
-        "scrapeStatus": "live",
-        "scrapeNote": "Validated VoteHub SVG summary scrape"
+        "scrapeStatus": "fallback",
+        "scrapeNote": "Live scrape unavailable; using fallback values from manual-overrides.json"
       },
       {
         "key": "fiftyplusone",
@@ -77,8 +77,8 @@
   },
   "trumpApproval": {
     "average": {
-      "approve": 35.6,
-      "disapprove": 61.5
+      "approve": 35.3,
+      "disapprove": 61.8
     },
     "sources": [
       {
@@ -96,8 +96,8 @@
         "key": "fiftyplusone",
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
-        "approve": 34.6,
-        "disapprove": 61.7,
+        "approve": 34.2,
+        "disapprove": 62.1,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
@@ -107,8 +107,8 @@
         "key": "silver",
         "name": "Silver Bulletin",
         "shortName": "Silver",
-        "approve": 36.2,
-        "disapprove": 60.4,
+        "approve": 36,
+        "disapprove": 60.7,
         "included": true,
         "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
         "scrapeStatus": "live",
@@ -129,8 +129,8 @@
         "key": "racetowh",
         "name": "Race to WH",
         "shortName": "Race to WH",
-        "approve": 35.8,
-        "disapprove": 60.6,
+        "approve": 34.9,
+        "disapprove": 61.5,
         "included": true,
         "url": "https://www.racetothewh.com/trump",
         "scrapeStatus": "live",
