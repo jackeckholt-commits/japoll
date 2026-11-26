@@ -1,11 +1,41 @@
 {
-  "generatedAt": "2026-11-26T00:40:59.715Z",
+  "generatedAt": "2026-11-26T08:55:49.625Z",
   "articles": [
     {
-      "source": "AP News",
-      "title": "2026 U.S. House Election Results",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
-      "publishedAt": "2026-11-26T00:03:34.000Z"
+      "source": "NPR",
+      "title": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump",
+      "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+      "publishedAt": "2026-11-26T05:23:18.000Z"
+    },
+    {
+      "source": "Yahoo",
+      "title": "Fact Check: Pinal, Yavapai And Gila Counties DO Show Ballots Cast In Arizona's 2026 Governor's Race -- Official Canvass Confirms",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS3JiT29JZVhONnlUZ2JFVGZNZ0lidEhQQ201ekhFV3U3MkUwdzJoU0NkS00zRjBTamFiRWVZeVNFR0FGbEUwWVFEN0UtUThFbEtLMlZVaGVYVEkzdG42U05zVV9vUHdic3g2OWdqZTRTZnlocklfS2xoRGdaNFRRSmhxSG9Yc0xybm5CMk1NcHJrdXc?oc=5",
+      "publishedAt": "2026-11-26T04:17:00.000Z"
+    },
+    {
+      "source": "Wisevoter",
+      "title": "Thotakura Seeks Recount in District 6a Race",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2Z0cjRZZi1VYWktVFR5dHh5bFNzbmhVcEhlZkhSUk9LTVo1NllPRF85azh2MVF2RVFoOG02R05rSlZ3RUxEbzBWem45ZVFaOEFMa3dXd2xuYjRQZGREVnJUTl8xRHFCM3FjNnFzVHA0dlVUX1RpZjNiYVVJYnV1MFgyZlJPcDB5dnlobWZOb3E1cnZxczRQdFg0S3lCSHhwNVB3YXZn?oc=5",
+      "publishedAt": "2026-11-26T02:28:03.000Z"
+    },
+    {
+      "source": "Georgia Recorder",
+      "title": "Two Georgia GOP House lawmakers are challenging losses that helped House Democrats flip chamber",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdVFkVmxKTGRsd2lIRS1wd01PNThrRjBDZDVHV1V3N2hTM3lUejRYTmFvc1c3RTUzSHZTR1JPOXUwLWg1dlNmc25fbzBXQ0ZlSGFuWWJvejZXMS1iUnR5c0lKdEUwb3NpdDdtRWt2R0Z2REtIOVZJWEdlREFuUVZkUTZvR0IxUHFGTnI2NXhvVVNJQzlZUW1xdzYtQlhITnZHNTczeVFB?oc=5",
+      "publishedAt": "2026-11-26T01:20:51.000Z"
+    },
+    {
+      "source": "Salem Reporter",
+      "title": "Updated election results: Democrats hold leads over Republicans in Marion County commission races",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQkVoV0RQdzI1WXA4cFpJVER0M1dQNW5YWEFCR19TUXZ4OXl4NEtfQmlNNnlkWEx2ZFYyekttMGlOdWhUYkRFNlNZVHFiaWJiamhVSWhUOUtic1RMUkJ3Y0l0TDBfQm5MUlZTakl4QWN6clRJMWVpV2NycXlFcktXaFdNd1JnTkx6LXhXdmh6QzNSTWFuWDRVbkhzaXhFQ0wwcDZJMFBwRk4tRUpfN0o4ZFd1LXVSTHVMNkJSemkzSFQ?oc=5",
+      "publishedAt": "2026-11-26T01:20:12.000Z"
+    },
+    {
+      "source": "Alabama Reflector",
+      "title": "Independent Jesse Battles remains winner of tight state Senate race after recount",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUmdCYk1fU0ZFd000dDJGeDFrOFFwU2FPaWlTUUdkYW1CZEROUERtM1BEcFAtVmNRSlZUNlRleGNsdllfN3dmdEJhNEFWd19RdlNZYUlqeGprbEY2QWtFd3k0MUo2YkduSWFpeVFKUXFPeDBZZnBGTlRCRkh1cnBsQ2hKazB1T2JEUVg5M2I1Q3RhdHVFMDBhOHNTOTN2S2pLV0ttRTdJZnFiRzlNSkV1MUZOcUtkeTN2bTlfelJ1dw?oc=5",
+      "publishedAt": "2026-11-26T00:44:41.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -30,36 +60,6 @@
       "title": "Georgia's Fulton County ordered to give copy of 2020 election records seized by FBI to state board",
       "url": "https://www.pbs.org/newshour/politics/georgias-fulton-county-ordered-to-give-copy-of-2020-election-records-seized-by-fbi-to-state-board",
       "publishedAt": "2026-11-25T22:48:11.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Group of Senate Democrats push to add freshman to leadership",
-      "url": "https://www.npr.org/2026/11/25/g-s1-155518/senate-democrats-freshman-leadership-schumer-van-hollen",
-      "publishedAt": "2026-11-25T17:30:47.000Z"
-    },
-    {
-      "source": "Yahoo",
-      "title": "Final 2026 midterm election results: Democrats flip another seat to expand their historic House majority. What they can and can't do next.",
-      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPNkZwRUg3ZmJNa0VZbEVlT0JZZDJXYU9ScmpjZTJTaThaVTlvV3RwR2NHaUNLbFRtdGw3UjVLLU1qVjZ5Z2JPYjBfeG8yT1dHcC1hMWUxNm1nTUswdWZRcEJQeTRES2xBdGRvZjU4ci1EbFFjbmxDRTdrMVZxR1V1X3VzZGdwNTVZN2UtS2NoNmVNRnh6QXdBME1YbDhuNjBFVUZNcFhobzUtcHduWHR1VW54ZjZvdlZmLUZEWDFJQm1IaWRWbXdwTGxZTmRCa19nSXpYTWxjdkRuLWwzVDFBS1pJT3FlVHRjUlZRdXJDYVlrSkhENWFjYV9VcDAxY2ZhU0d3WGlJSWh3MURzbTJyS3ItLVptRVlzdXhHd2R6QWNHLU9XNVc5WWVlVGdBMFU5XzBlcjBKc0tidw?oc=5",
-      "publishedAt": "2026-11-25T17:14:00.000Z"
-    },
-    {
-      "source": "The New York Times",
-      "title": "Why Aren’t the Midterms Over in Louisiana? Ask the Supreme Court.",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY1VXY3c3SWRIeTVKMXpvSmYxOUZyM3ZCUVFRcEQyM2lxOFZTTEc1ajg1LUNBQVBwUmdOWlQ0d1FfdXVxWktfSXNJc3J6NDNFZ0YwMlN5eEhrOGlrcXVvX2VUT3UyZkJQNk5GRnpSQXpManZmY25EWkpSSExZRHNEWHdpQzBXZmRSd2NfQ2V5VFdqS1dyT2k3WGZod3hHTGJXdEJ2VGFMR2RoSHZoYU94YU9qcU8?oc=5",
-      "publishedAt": "2026-11-25T15:00:05.000Z"
-    },
-    {
-      "source": "The Guardian",
-      "title": "Visualized: how Democrats swept downballot races and tipped the balance of power in the US",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2E3WnVrOWkwRmN0LUdiZjB0MFJacnVZYWFJeW1qcjc1LWphWl9OT0JBZ0o2blQxN2FmZ090b0EwUkRKR01PZS00TmV1SzREVjYyNi1USmVYZXlEN3Juc3FYUjlBWGpvN2hXYlRraXQxbzY1cVE4UmxDVjRGOUt5NG8wcU92MnN2RFBtYjhQOUZycWxzc2dFZFhZTTZCUlp4NURzRDktOGtXSEE?oc=5",
-      "publishedAt": "2026-11-25T14:23:00.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Republican wants FBI and CIA answers before questioning Nvidia chief",
-      "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
-      "publishedAt": "2026-11-25T11:50:05.000Z"
     }
   ]
 }
