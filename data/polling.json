@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:57:05.961Z",
+  "updatedAt": "2026-11-27T19:29:17.133Z",
   "genericBallot": {
     "average": {
       "democrats": 52.2,
@@ -86,7 +86,7 @@
         "name": "VoteHub",
         "shortName": "VoteHub",
         "approve": 36.3,
-        "disapprove": 61,
+        "disapprove": 61.1,
         "included": true,
         "url": "https://votehub.com/polls/?poll=trump_approval",
         "scrapeStatus": "live",
@@ -97,7 +97,7 @@
         "name": "FiftyPlusOne",
         "shortName": "FiftyPlusOne",
         "approve": 34,
-        "disapprove": 62.4,
+        "disapprove": 62.3,
         "included": true,
         "url": "https://fiftyplusone.news/polls/approval/president",
         "scrapeStatus": "live",
