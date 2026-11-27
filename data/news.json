@@ -1,17 +1,47 @@
 {
-  "generatedAt": "2026-11-27T09:06:56.118Z",
+  "generatedAt": "2026-11-27T21:39:14.371Z",
   "articles": [
     {
       "source": "NBC News",
       "title": "Midterm Elections 2026: Congress Polls, Charts and More",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
-      "publishedAt": "2026-11-27T05:00:20.000Z"
+      "publishedAt": "2026-11-27T17:30:20.000Z"
     },
     {
-      "source": "Anchorage Daily News",
-      "title": "National GOP consultant asserts he was misled into boosting minor candidates in Alaska’s U.S. Senate race",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdzJLTDU3WndGTXNWcGxIUjFKV0ItVXJIak90ZmZ3bzd2LXJaSDJibzB4OU16d1FjRXoydFVPX1hPTVI4V1JheGU4U2FaYjFuVi1fVTFfeUtKd3c4UzZIUkNjWWs0Rks4c0J1WnJLczQ5NXMzRWNWRzFKMnlHY3lDVnhhUFl1THhMaEFWUUp5d2hsWmJ2aV9IbU5hWDQxLVJ0SjhPWjFZTnRDRDFPaExhQlBDeldVTHV6V19JR0JUd1JmYVlhNzVpcHZIQWtlX0RvQUJhN3c0bw?oc=5",
-      "publishedAt": "2026-11-27T01:06:53.000Z"
+      "source": "PBS NewsHour",
+      "title": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump",
+      "url": "https://www.pbs.org/newshour/politics/republicans-rethink-tariffs-giving-democrats-an-opening-to-challenge-trump",
+      "publishedAt": "2026-11-27T16:51:50.000Z"
+    },
+    {
+      "source": "The New York Times",
+      "title": "Five Big Questions for the 2028 Presidential Race",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa1ZRSV8yVzFZQ1dabmpleVhBTV90WERpWHgwNnVlVXhSZFZRbjhwUkdVRXZrajBlMndIa0ZibmNCME81STlNbGdmRW9fUy1IMFJjaFFtSEk3YjJicjVuelNJZVRLNW1WQkFqcmN0NlBETTh5WVVHTHFYd1JWVmRPbEZTMS01TUlJaUQ1Qw?oc=5",
+      "publishedAt": "2026-11-27T14:33:05.000Z"
+    },
+    {
+      "source": "Oregon Capital Chronicle",
+      "title": "Linn County-based district was Oregon’s closest legislative race. What happened there?",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZFBGTm9SX1pIeTFCT200Y0dlMHp3aDc2T1AyRTRNU3R1ZlkyQUpMZ283bzYzNUVCLWRwOG55VmxFQm82VEV6U053XzJhcDhHMkJWX3J2bWt3WU1MeGlFX3JJcDAtaG1UcXoxaHpUYllwNlZmemZ6Qi01M0prVEVxaWtMTkJtMERDMlF3VDRlZlZVb2NnUnRuWXBRWnJxckk0Y0hERW1NeEZkdGVUYnBveUhUQXlVUDhHNWdJSWdaMHkwVll2RlFQV19R?oc=5",
+      "publishedAt": "2026-11-27T14:08:51.000Z"
+    },
+    {
+      "source": "BBC",
+      "title": "Who to watch in Spain's election race",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VT2Z2SzlnT25EQW9TbmxlS0dWOFc1S1Rpdy1RZ00xRU1IaXlpNllKU1JBOFpMaVRHRHk1c0N0UmJEZzZXX1dNLWhJM3pBMHRCR1NJRVNWSFhiUG8?oc=5",
+      "publishedAt": "2026-11-27T12:48:32.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+      "publishedAt": "2026-11-27T10:00:00.000Z"
+    },
+    {
+      "source": "NPR",
+      "title": "Spain’s national election is Sunday. What to know about the polarized race",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOU11WlN0RG9fZV8yZW5TX2t0a1FQM29Vb01nY2VqWkVnd25jU2gwMDV2NUNCeFRhQ21KSXliVDRUYzZvbTIwODlLVENpZnB1Mm4yUGdkZTZlUE8zU1BFOVRWajRmaWtFeEgwSTJfMHk0eTFNRDJSZlYzN0xqMXE4YUNnNFJfczZCd296ZXlGcDVkVl9sWVp4U24xNmZSTjZLVmJkbkhxX3JtRlNyT1Rha0UyU2FWeE5t?oc=5",
+      "publishedAt": "2026-11-27T09:45:17.000Z"
     },
     {
       "source": "PBS NewsHour",
@@ -30,36 +60,6 @@
       "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
       "url": "https://www.npr.org/2026/11/26/nx-s1-6036795-e1/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
       "publishedAt": "2026-11-26T23:06:14.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Judge declines to issue a long-term ban on taxpayer-funded, pro-Trump ads critics called propaganda",
-      "url": "https://www.pbs.org/newshour/politics/judge-declines-to-issue-a-long-term-ban-on-taxpayer-funded-pro-trump-ads-critics-called-propaganda",
-      "publishedAt": "2026-11-26T22:20:22.000Z"
-    },
-    {
-      "source": "PBS NewsHour",
-      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
-      "url": "https://www.pbs.org/newshour/politics/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
-      "publishedAt": "2026-11-26T17:52:23.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
-      "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
-      "publishedAt": "2026-11-26T12:24:29.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
-      "url": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners",
-      "publishedAt": "2026-11-26T11:43:47.000Z"
-    },
-    {
-      "source": "NPR",
-      "title": "Sen. Tim Kaine, D-Va., shares why he opposes Trump's proposed tariffs",
-      "url": "https://www.npr.org/2026/11/26/nx-s1-6053944/sen-tim-kaine-d-va-shares-why-he-opposes-trumps-proposed-tariffs",
-      "publishedAt": "2026-11-26T11:43:10.000Z"
     }
   ]
 }
